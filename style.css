@@ -1,383 +1,186 @@
-/* importing google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+<!DOCTYPE html>
+<html lang="en">
+<title>SHYAM KUMAR K.C.</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
 }
 
-body{
-    background: #007bff;
+.navbar {
+  overflow: hidden;
+  background-color: #333; 
 }
 
-::selection{
-    color: #fff;
-    background: #007bff;
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-.start_btn,
-.info_box,
-.quiz_box,
-.result_box{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
-                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.subnav {
+  float: left;
+  overflow: hidden;
 }
 
-.info_box.activeInfo,
-.quiz_box.activeQuiz,
-.result_box.activeResult{
-    opacity: 1;
-    z-index: 5;
-    pointer-events: auto;
-    transform: translate(-50%, -50%) scale(1);
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
 }
 
-.start_btn button{
-    font-size: 25px;
-    font-weight: 500;
-    color: #007bff;
-    padding: 15px 30px;
-    outline: none;
-    border: none;
-    border-radius: 5px;
-    background: #fff;
-    cursor: pointer;
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: red;
 }
 
-.info_box{
-    width: 200px;
-    background: #fff;
-    border-radius: 5px;
-    transform: translate(-50%, -50%) scale(0.9);
-    opacity: 0;
-    pointer-events: none;
-    transition: all 0.3s ease;
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: red;
+  width: 100%;
+  z-index: 1;
 }
 
-.info_box .info-title{
-    height: 60px;
-    width: 100%;
-    border-bottom: 1px solid lightgrey;
-    display: flex;
-    align-items: center;
-    padding: 0 30px;
-    border-radius: 5px 5px 0 0;
-    font-size: 20px;
-    font-weight: 600;
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
 }
 
-.info_box .info-list{
-    padding: 15px 30px;
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
 }
 
-.info_box .info-list .info{
-    margin: 5px 0;
-    font-size: 17px;
+.subnav:hover .subnav-content {
+  display: block;
 }
+</style>
+<body>
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <div class="subnav">
+    <button class="subnavbtn">Banking Preparation<i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+	<a href='NepalRastraBank.html'>Nepal Rastra Bank</a>
+<a href='CRRSLRofBFIs.html'>CRR, SLR of BFIs</a>
+<a href='MergerandacquisitionhistoryofNepal.html'>Merger and acquisition</a>
+<a href='InsuranceCompaniesinNepal.html'>Insurance Companies</a>
+ <a href='CommercialBanksinNepal.html'>Commercial Banks</a>
+<a href='DevelopmentBanksinNepal.html'>Development Banks</a>
+<a href='FinanceCompaniesinNepal.html'>Finance Companies</a>
+<a href='MicrofinanceCompaniesinNepal.html'>Microfinance Companiesl</a>
+ <a href='ShareBrokersinNepal.html'>Share Brokers</a>
+ <a href="KnowYourCustomer.html">Know Your Customer (KYC)</a>
+<a href="BankofTheYear.html">Bank of The Year</a>
+<a href="CountriesandTheirCurrency.html">Countries and Their Currency </a>
+<a href="LoanClassificationandLoanLossProvision.html">Loan Classification</a>
+<a href="DepositandCreditGuaranteeFund.html">Deposit and Credit Guarantee Fund</a>
+<a href="BankingTerminology.html">Banking Terminology</a>
+<a href="BankingAbbreviations.html">Banking Abbreviations</a>
+<a href="CreditInformationBureauofNepal.html">Credit Information Bureau</a>
+<a href="LetterofCredit.html">Letter of Credit</a>
+<a href="Credit.html">Credit</a>
+<a href="rastriyabanijyabank.html">Rastriya Banijya Bank</a>
+    </div>
+  </div> 
+  <div class="subnav">
+    <button class="subnavbtn">Tools <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+     <a href="RomanizedToUnicode.html">Romanized To Unicode</a>
+<a href="DateConverter.html">Date Converter</a>
+<a href="AajaKoRashifal.html">Aaja Ko Rashifal</a>
+<a href="UpcomingEvents.html">Upcoming Events</a>
+<a href="ExchangeRates.html">Exchange Rates </a>
+<a href="NepaliCalender.html">Nepali Calender </a>
+<a href="GoldandsilverRates.html">Gold and silver Rates </a>
+<a href="preeti.html">Nepali Unicode to Preeti</a>
+<a href="agecalculator.html">Age Calculator</a>
+<a href="calculator.html">Calculator</a>
+    </div>
+  </div> 
+  <div class="subnav">
+    <button class="subnavbtn">Companies In Nepal <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+	<a href='InsuranceCompaniesinNepal.html'>Insurance Companies in Nepal</a>
+ <a href='CommercialBanksinNepal.html'>Commercial Banks in Nepal</a>
+<a href='DevelopmentBanksinNepal.html'>Development Banks in Nepal</a>
+<a href='FinanceCompaniesinNepal.html'>Finance Companies in Nepal</a>
+<a href='MicrofinanceCompaniesinNepal.html'>Microfinance Companies in Nepal</a>
+<a href='ShareBrokersinNepal.html'>Share Brokers in Nepal</a>
+<a href="LicensedDPinNepal.html">Licensed DP in Nepal</a>
+<a href="UniversitiesinNepal.html">Universities in Nepal</a>
+<a href="HighwaysinNepal.html">Highways in Nepal</a>
+    </div></div> 
+  <div class="subnav">
+    <button class="subnavbtn">Share Market<i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href='ShareRegistrar.html'>Share Registrar</a>
+	  <a href='ShareBrokersinNepal.html'>Share Brokers in Nepal</a>
+  <a href='BanksandC-ASBACharges.html'>Banks and C-ASBA Charges In Nepal</a>
+<a href="LicensedDPinNepal.html">Licensed DP in Nepal</a>
+    </div>
+  </div>
+  <div class="subnav">
+    <button class="subnavbtn">Geography of Nepal<i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href='Province1.html'>Province 1</a>
+<a href='MadheshPradesh.html'>Madhesh Pradesh</a>
+<a href='BagmatiPradesh.html'>Bagmati Pradesh</a>
+<a href='GandakiPradesh.html'>Gandaki Pradesh</a>
+<a href='LumbiniPradesh.html'>Lumbini Pradesh</a>
+<a href='KarnaliPradesh.html'>Karnali Pradesh</a>
+<a href='SudurpaschimPradesh.html'>Sudurpaschim Pradesh</a>
+<a href='Allprovince.html'>All Province</a>
+    </div>
+  </div>
+  
+  <div class="subnav">
+    <button class="subnavbtn">links <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#link1">Link 1</a>
+      <a href="#link2">Link 2</a>
+      <a href="#link3">Link 3</a>
+      <a href="#link4">Link 4</a>
+    </div>
+  </div><div class="subnav">
+    <button class="subnavbtn">Live TV <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="kantipurtv.html">Kantipur TV</a>
+      <a href="abphindi.html">ABP News</a>
+      <a href="indiatoday.html">India Today</a>
+	  <a href="lotusmacau.html">Lotus Macau</a>
+      <a href="#link3">Link 3</a>
+      <a href="#link4">Link 4</a>
+    </div>
+  </div>
+  
+  
+  <a href="Contact.html">Contact</a>
+</div>
 
-.info_box .info-list .info span{
-    font-weight: 600;
-    color: #007bff;
-}
-.info_box .buttons{
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    padding: 0 30px;
-    border-top: 1px solid lightgrey;
-}
 
-.info_box .buttons button{
-    margin: 0 5px;
-    height: 40px;
-    width: 100px;
-    font-size: 16px;
-    font-weight: 500;
-    cursor: pointer;
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    border: 1px solid #007bff;
-    transition: all 0.3s ease;
-}
 
-.quiz_box{
-    width: 200px;
-    background: #fff;
-    border-radius: 5px;
-    transform: translate(-50%, -50%) scale(0.9);
-    opacity: 0;
-    pointer-events: none;
-    transition: all 0.3s ease;
-}
 
-.quiz_box header{
-    position: relative;
-    z-index: 2;
-    height: 70px;
-    padding: 0 30px;
-    background: #fff;
-    border-radius: 5px 5px 0 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.1);
-}
 
-.quiz_box header .title{
-    font-size: 20px;
-    font-weight: 400;
-}
 
-.quiz_box header .timer{
-    color: #004085;
-    background: #cce5ff;
-    border: 1px solid #b8daff;
-    height: 45px;
-    padding: 0 8px;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 145px;
-}
-
-.quiz_box header .timer .time_left_txt{
-    font-weight: 400;
-    font-size: 17px;
-    user-select: none;
-}
-
-.quiz_box header .timer .timer_sec{
-    font-size: 18px;
-    font-weight: 500;
-    height: 30px;
-    width: 45px;
-    color: #fff;
-    border-radius: 5px;
-    line-height: 30px;
-    text-align: center;
-    background: #343a40;
-    border: 1px solid #343a40;
-    user-select: none;
-}
-
-.quiz_box header .time_line{
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    height: 3px;
-    background: #007bff;
-}
-
-section{
-    padding: 25px 30px 20px 30px;
-    background: #fff;
-}
-
-section .que_text{
-    font-size: 25px;
-    font-weight: 600;
-}
-
-section .option_list{
-    padding: 20px 0px;
-    display: block;   
-}
-
-section .option_list .option{
-    background: aliceblue;
-    border: 1px solid #84c5fe;
-    border-radius: 5px;
-    padding: 8px 15px;
-    font-size: 17px;
-    margin-bottom: 15px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-section .option_list .option:last-child{
-    margin-bottom: 0px;
-}
-
-section .option_list .option:hover{
-    color: #004085;
-    background: #cce5ff;
-    border: 1px solid #b8daff;
-}
-
-section .option_list .option.correct{
-    color: #155724;
-    background: #d4edda;
-    border: 1px solid #c3e6cb;
-}
-
-section .option_list .option.incorrect{
-    color: #721c24;
-    background: #f8d7da;
-    border: 1px solid #f5c6cb;
-}
-
-section .option_list .option.disabled{
-    pointer-events: none;
-}
-
-section .option_list .option .icon{
-    height: 26px;
-    width: 26px;
-    border: 2px solid transparent;
-    border-radius: 50%;
-    text-align: center;
-    font-size: 13px;
-    pointer-events: none;
-    transition: all 0.3s ease;
-    line-height: 24px;
-}
-.option_list .option .icon.tick{
-    color: #23903c;
-    border-color: #23903c;
-    background: #d4edda;
-}
-
-.option_list .option .icon.cross{
-    color: #a42834;
-    background: #f8d7da;
-    border-color: #a42834;
-}
-
-footer{
-    height: 60px;
-    padding: 0 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-top: 1px solid lightgrey;
-}
-
-footer .total_que span{
-    display: flex;
-    user-select: none;
-}
-
-footer .total_que span p{
-    font-weight: 500;
-    padding: 0 5px;
-}
-
-footer .total_que span p:first-child{
-    padding-left: 0px;
-}
-
-footer button{
-    height: 40px;
-    padding: 0 13px;
-    font-size: 18px;
-    font-weight: 400;
-    cursor: pointer;
-    border: none;
-    outline: none;
-    color: #fff;
-    border-radius: 5px;
-    background: #007bff;
-    border: 1px solid #007bff;
-    line-height: 10px;
-    opacity: 0;
-    pointer-events: none;
-    transform: scale(0.95);
-    transition: all 0.3s ease;
-}
-
-footer button:hover{
-    background: #0263ca;
-}
-
-footer button.show{
-    opacity: 1;
-    pointer-events: auto;
-    transform: scale(1);
-}
-
-.result_box{
-    background: #fff;
-    border-radius: 5px;
-    display: flex;
-    padding: 25px 30px;
-    width: 450px;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    transform: translate(-50%, -50%) scale(0.9);
-    opacity: 0;
-    pointer-events: none;
-    transition: all 0.3s ease;
-}
-
-.result_box .icon{
-    font-size: 100px;
-    color: #007bff;
-    margin-bottom: 10px;
-}
-
-.result_box .complete_text{
-    font-size: 20px;
-    font-weight: 500;
-}
-
-.result_box .score_text span{
-    display: flex;
-    margin: 10px 0;
-    font-size: 18px;
-    font-weight: 500;
-}
-
-.result_box .score_text span p{
-    padding: 0 4px;
-    font-weight: 600;
-}
-
-.result_box .buttons{
-    display: flex;
-    margin: 20px 0;
-}
-
-.result_box .buttons button{
-    margin: 0 10px;
-    height: 45px;
-    padding: 0 20px;
-    font-size: 18px;
-    font-weight: 500;
-    cursor: pointer;
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    border: 1px solid #007bff;
-    transition: all 0.3s ease;
-}
-
-.buttons button.restart{
-    color: #fff;
-    background: #007bff;
-}
-
-.buttons button.restart:hover{
-    background: #0263ca;
-}
-
-.buttons button.quit{
-    color: #007bff;
-    background: #fff;
-}
-
-.buttons button.quit:hover{
-    color: #fff;
-    background: #007bff;
-}
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+</style>
