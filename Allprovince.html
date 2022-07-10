@@ -184,202 +184,6 @@ body {
 </div>
 
 
-<div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
-  <button class="w3-bar-item w3-button w3-large"
-  onclick="w3_close()">Close &times;</button>
-  <a href="#" class="w3-bar-item w3-button">Link 1</a>
-  <a href="#" class="w3-bar-item w3-button">Link 2</a>
-  <a href="#" class="w3-bar-item w3-button">Link 3</a>
-</div>
-<script type='text/javascript'>
-
-
-function wr_document()
-{
-var w=new Date();
-var s_d=w.getDate();
-var s_m=w.getMonth()+1;
-var s_y=w.getFullYear();
-
-
-document.cir.len11.value=s_d;
-document.cir.len12.value=s_m;
-document.cir.len13.value=s_y;
-}
-
-function isNum(arg)
-{
-var args = arg;
-if (args == "" || args == null || args.length == 0)
-{
-return false;
-}
-args = args.toString();
-for (var i = 0; i<args.length; i++)
-{
-if ((args.substring(i,i+1) < "0" || args.substring(i, i+1) > "9") && args.substring(i, i+1) != ".")
-{
-return false;
-}
-}
-return true;
-}
-function checkday(aa)
-{
-var val = aa.value;
-var valc = val.substring(0,1);
-if(val.length>0 && val.length<3)
-{
-if(!isNum(val) || val == 0)
-{
-aa.value="";
-}
-else if( val < 1 || val > 31)
-{
-aa.value=valc;
-}
-}
-else if(val.length>2)
-{
-val = val.substring(0, 2);
-aa.value=val;
-}
-}
-function checkmon(aa)
-{
-var val = aa.value;
-var valc = val.substring(0,1);
-if(val.length>0 && val.length<3)
-{
-if(!isNum(val) || val == 0)
-{
-aa.value="";
-}
-else if(val < 1 || val > 12)
-{
-aa.value=valc;
-}
-}
-else if(val.length>2)
-{
-val = val.substring(0, 2);
-aa.value=val;
-}
-}
-function checkyear(aa)
-{
-var val = aa.value;
-var valc = val.substring(0,(val.length-1));
-if(val.length>0 && val.length<7)
-{
-if(!isNum(val) || val == 0)
-{
-aa.value=valc;
-}
-else if(val < 1 || val>275759)
-{
-aa.value="";
-}
-}
-else if(val.length>4)
-{
-aa.value=valc;
-}
-}
-function checkleapyear(datea)
-{
-if(datea.getYear()%4 == 0)
-{
-if(datea.getYear()% 10 != 0)
-{
-return true;
-}
-else
-{
-if(datea.getYear()% 400 == 0)
-return true;
-else
-return false;
-}
-}
-return false;
-}
-function DaysInMonth(Y, M) {
-with (new Date(Y, M, 1, 12)) {
-setDate(0);
-return getDate();
-}
-}
-function datediff(date1, date2) {
-var y1 = date1.getFullYear(), m1 = date1.getMonth(), d1 = date1.getDate(),
-y2 = date2.getFullYear(), m2 = date2.getMonth(), d2 = date2.getDate();
-if (d1 < d2) {
-m1--;
-d1 += DaysInMonth(y2, m2);
-}
-if (m1 < m2) {
-y1--;
-m1 += 12;
-}
-return [y1 - y2, m1 - m2, d1 - d2];
-}
-function calage()
-{
-var curday = document.cir.len11.value;
-var curmon = document.cir.len12.value;
-var curyear = document.cir.len13.value;
-var calday = document.cir.len21.value;
-var calmon = document.cir.len22.value;
-var calyear = document.cir.len23.value;
-if(curday == "" || curmon=="" || curyear=="" || calday=="" || calmon=="" || calyear=="")
-{
-alert("Please fill all the values and click 'Go'");
-}
-else if(curday == calday && curmon==calmon && curyear==calyear)
-{
-alert("Today your birthday & Your age is 0 years old")
-}
-else
-{
-var curd = new Date(curyear,curmon-1,curday);
-var cald = new Date(calyear,calmon-1,calday);
-var diff = Date.UTC(curyear,curmon,curday,0,0,0)
-- Date.UTC(calyear,calmon,calday,0,0,0);
-var dife = datediff(curd,cald);
-document.cir.val.value=dife[0]+" years, "+dife[1]+" months, and "+dife[2]+" days";
-var secleft = diff/1000/60;
-document.cir.val3.value=secleft+" minutes since your birth";
-var hrsleft = secleft/60;
-document.cir.val2.value=hrsleft+" hours since your birth";
-var daysleft = hrsleft/24;
-document.cir.val1.value=daysleft+" days since your birth";
-//alert(""+parseInt(calyear)+"--"+dife[0]+"--"+1);
-var as = parseInt(calyear)+dife[0]+1;
-var diff = Date.UTC(as,calmon,calday,0,0,0)
-- Date.UTC(curyear,curmon,curday,0,0,0);
-var datee = diff/1000/60/60/24;
-document.cir.val4.value=datee+" days left for your next birthday";
-}
-}
-function color(test)
-{
-for(var j=7; j<12; j++)
-{
-var myI=document.getElementsByTagName("input").item(j);
-//myI.setAttribute("style",ch);
-myI.style.backgroundColor=test;
-}
-}
-function color1(test)
-{
-var myI=document.getElementsByTagName("table").item(0);
-//myI.setAttribute("style",ch);
-myI.style.backgroundColor=test;
-}
-
-</script>
-
-
 <html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -390,108 +194,250 @@ myI.style.backgroundColor=test;
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 </style>
 <body class="w3-light-grey">
-<body onLoad="wr_document()">
-<div class="cal-container">
-<div id="calculator-container">
-<table width="100%" cellspacing="0" cellpadding="0" border="0">
-<tbody>
-<tr>
-<td valign="top">
-<h1 style="padding-top: 10px;">Age Calculator</h1>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
 
-<div id="age-calculator">
-<table width="100%" cellspacing="4" cellpadding="0" border="0" bgcolor="">
-<tbody>
-<tr>
-<td colspan="2">
-<table class="result" width="100%" height="100%">
-<tbody>
-<tr>
-<td>
-<form name="cir">
-<table cellspacing="0" cellpadding="3">
-<tbody>
-<tr>
-<td colspan="2">
-<br>
-Today's  Date is:
-</td>
-</tr>
-<tr>
-<td align="center" colspan="2">
-Date -
-<input class="resform" type="text" value="" onkeyup="checkday(this)" size="2" name="len11">
-Month -
-<input class="innerc resform" type="text" value="" onkeyup="checkmon(this)" size="2" name="len12">
-Year -
-<input class="innerc resform" type="text" value="" onkeyup="checkyear(this)" size="4" name="len13">
-<br>
-<br>
-</td>
-</tr>
-<tr>
-<td colspan="2"> Enter Your Date of Birth : </td>
-</tr>
-<tr>
-<td align="center" colspan="2">
-Date -
-<input class="innerc resform" type="text" onkeyup="checkday(this)" size="2" name="len21">
-Month -
-<input class="innerc resform" type="text" onkeyup="checkmon(this)" size="2" name="len22">
-Year -
-<input class="innerc resform" type="text" onkeyup="checkyear(this)" size="4" name="len23">
-<br>
-<br>
-<input class="calc" type="button" onclick="calage()" value=" Go " name="but">
-<br>
-<br>
-</td>
-</tr>
-<tr>
-<td class="form" width="30%" align="center">
-<b> </b>
-</td>
-</tr>
-</tbody>
-</table>
+th, td {
+    text-align: left;
+    padding: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+</style>
+</head>
+<body>
+
+<h2>List of province of Nepal</h2>
+<p>Here is the list of province of Nepal with their Name, Capital City, Chief Minister,Number of district, total area & population, High court</p>
+
 <table>
+  
 <tbody>
 <tr>
-<td>
-<b> Your Age is </b>
-</td>
-<td>
-<input class="resform" type="text" readonly="" size="36" name="val">
-</td>
+<th>&nbsp;</th>
+<th>Province 1</th>
+<th>Province 2</th>
+<th>Province 3</th>
+<th>Province 4</th>
+<th>Province 5</th>
+<th>Province 6</th>
+<th>Province 7</th>
+</tr>
+<tr>
+<th>Province Name</th>
+<td>Koshi/ Purbanchal (proposed)</td>
+<td>Madhes/ Mithila/ Bhojpura (proposed)</td>
+<td>Bagamati Pradesh</td>
+<td>Gandaki Pradesh</td>
+<td>Lumbini Pradesh</td>
+<td>Karnali Pradesh</td>
+<td>SudurPaschim Pradesh</td>
+</tr>
+<tr>
+<th>Capital City</th>
+<td>Biratnagar</td>
+<td>Janakpur</td>
+<td>Hetauda</td>
+<td>Pokhara</td>
+<td>Butwal</td>
+<td>BirendraNagar</td>
+<td>Dhangadi</td>
+</tr>
+<tr>
+<th>Chief Minister</th>
+<td>Sher Dhan Rai</td>
+<td>Mommad Lal Babu Raut</td>
+<td>Dormani Paudel</td>
+<td>Prithivi Subba gurung</td>
+<td>Shankhar Pokhrel</td>
+<td>Mahendra Bahadur Shahi</td>
+<td>Trilochhan Bhatta</td>
+</tr>
+<tr>
+<th>Governor</th>
+<td>Prof. Dr. Govinda Bahadur Tumbahang</td>
+<td>Ratneshwar Lal Kayastha</td>
+<td>Anuradha Koirala</td>
+<td>Baburam Kunwar</td>
+<td>Umakanta Jha</td>
+<td>Durga Keshar Khanal</td>
+<td>Mohan Raj Malla</td>
+</tr>
+<tr>
+<th>No. of Metropolitan City</th>
+<td>1</td>
+<td>1</td>
+<td>3</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<th>Metropolitan City</th>
+<td>BiratNagar</td>
+<td>Birgunj</td>
+<td>Kathmandu, Lalitpur, Bharatpur</td>
+<td>Pokhara</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<th>No. of Sub metropolitan city</th>
+<td>2</td>
+<td>3</td>
+<td>1</td>
+<td>0</td>
+<td>4</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<th>Sub metropolitan city</th>
+<td>Dharan, Itahari</td>
+<td>Janakpur, Jitpur Simara, Kalaiya</td>
+<td>Hetauda</td>
+<td>-</td>
+<td>Tulsipur, Gorahi, Butwal, Nepalgunj</td>
+<td>-</td>
+<td>Dhangadi</td>
+</tr>
+<tr>
+<th>Municipality</th>
+<td>46</td>
+<td>73</td>
+<td>41</td>
+<td>26</td>
+<td>32</td>
+<td>25</td>
+<td>33</td>
+</tr>
+<tr>
+<th>Rural municipality</th>
+<td>88</td>
+<td>59</td>
+<td>74</td>
+<td>58</td>
+<td>73</td>
+<td>54</td>
+<td>54</td>
 </tr>
 
 <tr>
-<td> </td>
+<th>No. of District</th>
+<td>14</td>
+<td>8</td>
+<td>13</td>
+<td>11</td>
+<td>12</td>
+<td>10</td>
+<td>9</td>
 </tr>
 
-</tbody>
-</table>
-</form>
-</td>
-</tr>
-</tbody>
-</table>
-<br>
-</td>
-<td> </td>
+<tr>
+<th>Largest District</th>
+<td>Taplejung</td>
+<td>Saptari</td>
+<td>Sindhupalchowk</td>
+<td>Gorkha</td>
+<td>Dang</td>
+<td>Dolpa</td>
+<td>Bajhang</td>
 </tr>
 <tr>
-<td align="right" colspan="2"> </td>
-<td> </td>
+<th>Smallest District</th>
+<td>Tehrathum</td>
+<td>Mahottari</td>
+<td>Bhaktapur</td>
+<td>Parwat</td>
+<td>Nawalparasi Paschim</td>
+<td>Rukum Paschim</td>
+<td>Baitadi</td>
+</tr>
+<tr>
+<th>Total Area</th>
+<td>25,905 sq. km</td>
+<td>9,661 sq. km</td>
+<td>20,300 sq. km</td>
+<td>21,733 sq. km</td>
+<td>22,288</td>
+<td>24,453 sq km</td>
+<td>19,539 sq. km</td>
+</tr>
+<tr>
+<th>High Court</th>
+<td>Biratnagar High Court</td>
+<td>Janakpur High Court</td>
+<td>Patan High Court</td>
+<td>Pokhara High Court</td>
+<td>Tulsipur High Court</td>
+<td>Surkhet High Court</td>
+<td>Dipayal High Court</td>
+</tr>
+<tr>
+<th>Largest City</th>
+<td>Biratnagar</td>
+<td>Birgunj</td>
+<td>Kathmandu</td>
+<td>Pokhara</td>
+<td>Gorahi</td>
+<td>BirendraNagar</td>
+<td>Dhangadi</td>
+</tr>
+<tr>
+<th>Population</th>
+<td>4,534,943</td>
+<td>5,404,145</td>
+<td>5,528,452</td>
+<td>2,403,757</td>
+<td>4,499,272</td>
+<td>1,570,418</td>
+<td>2,552,517</td>
+</tr>
+
+
+<tr>
+<th>Districts</th>
+<td>Bhojpur, Dhankuta, IIlam, Jhapa, Khotang, Morang, Okhaldhunga, Panchthar, Sankhuwasabha, Solukhumbu, Sunsari, Taplejung, Terhathum, Udayapur</td>
+<td>Saptari, Parsa, Sarlahi, Bara, Siraha, Dhanusa, Rautahat, Mahottari</td>
+<td>Rasuwa, Nuwakot, Dhading, Chitwan, Makawanpur, Bhaktapur, Dolakha, Kathmandu, Kavrepalanchok, Lalitpur, Ramechhap, Sindhuli, Sindhupalchok</td>
+<td>Baglung, Gorkha, Kaski, Lamjung, Manang, Mustang, Myagdi, Nawalpur, Parbat, Syangja, Tanahun</td>
+<td>Arghakhanchi, Banke, Bardiya, Dang, Eastern Rukum, Gulmi, Kapilvastu, Parasi, Palpa, Pyuthan, Rolpa, Rupandehi</td>
+<td>Dailekh, Dolpa, Humla, Jajarkot, Jumla, Kalikot, Mugu, Salyan, Surkhet, Western Rukum</td>
+<td>Achham, Baitadi, Bajhang, Bajura, Dadeldhura, Darchula, Doti, Kailali, Kanchanpur</td>
+</tr>
+<tr>
+<th>First Chief Minister</th>
+<td>Sher Dhan Rai</td>
+<td>Mommad Lal Babu Raut</td>
+<td>Dormani Paudel</td>
+<td>Prithivi Subba gurung</td>
+<td>Shankhar Pokhrel</td>
+<td>Mahendra Bahadur Shahi</td>
+<td>Trilochhan Bhatta</td>
+</tr>
+<tr>
+<th>First Governor</th>
+<td>Prof. Dr. Govinda Bahadur Tumbahang</td>
+<td>Ratneshwar Lal Kayastha</td>
+<td>Anuradha Koirala</td>
+<td>Baburam Kunwar</td>
+<td>Umakanta Jha</td>
+<td>Durga Keshar Khanal</td>
+<td>Mohan Raj Malla</td>
 </tr>
 </tbody>
 </table>
-</div>
-<br>
-</td>
-</tr>
-</tbody>
-</table>
+
 
 <footer class="w3-container w3-teal w3-center w3-margin-top">
   <p>Find me on social media.</p>

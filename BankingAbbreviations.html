@@ -184,202 +184,6 @@ body {
 </div>
 
 
-<div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
-  <button class="w3-bar-item w3-button w3-large"
-  onclick="w3_close()">Close &times;</button>
-  <a href="#" class="w3-bar-item w3-button">Link 1</a>
-  <a href="#" class="w3-bar-item w3-button">Link 2</a>
-  <a href="#" class="w3-bar-item w3-button">Link 3</a>
-</div>
-<script type='text/javascript'>
-
-
-function wr_document()
-{
-var w=new Date();
-var s_d=w.getDate();
-var s_m=w.getMonth()+1;
-var s_y=w.getFullYear();
-
-
-document.cir.len11.value=s_d;
-document.cir.len12.value=s_m;
-document.cir.len13.value=s_y;
-}
-
-function isNum(arg)
-{
-var args = arg;
-if (args == "" || args == null || args.length == 0)
-{
-return false;
-}
-args = args.toString();
-for (var i = 0; i<args.length; i++)
-{
-if ((args.substring(i,i+1) < "0" || args.substring(i, i+1) > "9") && args.substring(i, i+1) != ".")
-{
-return false;
-}
-}
-return true;
-}
-function checkday(aa)
-{
-var val = aa.value;
-var valc = val.substring(0,1);
-if(val.length>0 && val.length<3)
-{
-if(!isNum(val) || val == 0)
-{
-aa.value="";
-}
-else if( val < 1 || val > 31)
-{
-aa.value=valc;
-}
-}
-else if(val.length>2)
-{
-val = val.substring(0, 2);
-aa.value=val;
-}
-}
-function checkmon(aa)
-{
-var val = aa.value;
-var valc = val.substring(0,1);
-if(val.length>0 && val.length<3)
-{
-if(!isNum(val) || val == 0)
-{
-aa.value="";
-}
-else if(val < 1 || val > 12)
-{
-aa.value=valc;
-}
-}
-else if(val.length>2)
-{
-val = val.substring(0, 2);
-aa.value=val;
-}
-}
-function checkyear(aa)
-{
-var val = aa.value;
-var valc = val.substring(0,(val.length-1));
-if(val.length>0 && val.length<7)
-{
-if(!isNum(val) || val == 0)
-{
-aa.value=valc;
-}
-else if(val < 1 || val>275759)
-{
-aa.value="";
-}
-}
-else if(val.length>4)
-{
-aa.value=valc;
-}
-}
-function checkleapyear(datea)
-{
-if(datea.getYear()%4 == 0)
-{
-if(datea.getYear()% 10 != 0)
-{
-return true;
-}
-else
-{
-if(datea.getYear()% 400 == 0)
-return true;
-else
-return false;
-}
-}
-return false;
-}
-function DaysInMonth(Y, M) {
-with (new Date(Y, M, 1, 12)) {
-setDate(0);
-return getDate();
-}
-}
-function datediff(date1, date2) {
-var y1 = date1.getFullYear(), m1 = date1.getMonth(), d1 = date1.getDate(),
-y2 = date2.getFullYear(), m2 = date2.getMonth(), d2 = date2.getDate();
-if (d1 < d2) {
-m1--;
-d1 += DaysInMonth(y2, m2);
-}
-if (m1 < m2) {
-y1--;
-m1 += 12;
-}
-return [y1 - y2, m1 - m2, d1 - d2];
-}
-function calage()
-{
-var curday = document.cir.len11.value;
-var curmon = document.cir.len12.value;
-var curyear = document.cir.len13.value;
-var calday = document.cir.len21.value;
-var calmon = document.cir.len22.value;
-var calyear = document.cir.len23.value;
-if(curday == "" || curmon=="" || curyear=="" || calday=="" || calmon=="" || calyear=="")
-{
-alert("Please fill all the values and click 'Go'");
-}
-else if(curday == calday && curmon==calmon && curyear==calyear)
-{
-alert("Today your birthday & Your age is 0 years old")
-}
-else
-{
-var curd = new Date(curyear,curmon-1,curday);
-var cald = new Date(calyear,calmon-1,calday);
-var diff = Date.UTC(curyear,curmon,curday,0,0,0)
-- Date.UTC(calyear,calmon,calday,0,0,0);
-var dife = datediff(curd,cald);
-document.cir.val.value=dife[0]+" years, "+dife[1]+" months, and "+dife[2]+" days";
-var secleft = diff/1000/60;
-document.cir.val3.value=secleft+" minutes since your birth";
-var hrsleft = secleft/60;
-document.cir.val2.value=hrsleft+" hours since your birth";
-var daysleft = hrsleft/24;
-document.cir.val1.value=daysleft+" days since your birth";
-//alert(""+parseInt(calyear)+"--"+dife[0]+"--"+1);
-var as = parseInt(calyear)+dife[0]+1;
-var diff = Date.UTC(as,calmon,calday,0,0,0)
-- Date.UTC(curyear,curmon,curday,0,0,0);
-var datee = diff/1000/60/60/24;
-document.cir.val4.value=datee+" days left for your next birthday";
-}
-}
-function color(test)
-{
-for(var j=7; j<12; j++)
-{
-var myI=document.getElementsByTagName("input").item(j);
-//myI.setAttribute("style",ch);
-myI.style.backgroundColor=test;
-}
-}
-function color1(test)
-{
-var myI=document.getElementsByTagName("table").item(0);
-//myI.setAttribute("style",ch);
-myI.style.backgroundColor=test;
-}
-
-</script>
-
-
 <html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -390,108 +194,551 @@ myI.style.backgroundColor=test;
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 </style>
 <body class="w3-light-grey">
-<body onLoad="wr_document()">
-<div class="cal-container">
-<div id="calculator-container">
-<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<table border="black">
 <tbody>
 <tr>
-<td valign="top">
-<h1 style="padding-top: 10px;">Age Calculator</h1>
+<td>Abbreviation</td>
+<td>Full Forms</td>
+</tr>
+<tr>
+<td>ABBS</td>
+<td>Any Branch Banking System</td>
+</tr>
+<tr>
+<td>ADB</td>
+<td>Asian Development Bank</td>
+</tr>
+<tr>
+<td>AGM</td>
+<td>Annual General Meeting</td>
+</tr>
+<tr>
+<td>ALM</td>
+<td>Asset Liability Management</td>
+</tr>
+<tr>
+<td>AML</td>
+<td>Anti-Money Laudering</td>
+</tr>
+<tr>
+<td>APG</td>
+<td>Asia Pacific Group</td>
+</tr>
+<tr>
+<td>ASBA</td>
+<td>Applications Supported by Blocked Amount</td>
+</tr>
+<tr>
+<td>ATM</td>
+<td>Automated Teller Machine</td>
+</tr>
+<tr>
+<td>BAFIA</td>
+<td>Banks and Financial Institution Act</td>
+</tr>
+<tr>
+<td>BCBS</td>
+<td>Bassel Committe On Banking Supervision</td>
+</tr>
+<tr>
+<td>BLB</td>
+<td>Branchless Banking</td>
+</tr>
+<tr>
+<td>BFIs</td>
+<td>Banks and Financial Institutions</td>
+</tr>
+<tr>
+<td>BO</td>
+<td>Beneficial Owner</td>
+</tr>
+<tr>
+<td>BOD</td>
+<td>Board of Directors</td>
+</tr>
+<tr>
+<td>BOP</td>
+<td>Balance of Payments</td>
+</tr>
+<tr>
+<td>CTS</td>
+<td>Computer Trading System</td>
+</tr>
+<tr>
+<td>CAR</td>
+<td>Capital Adequacy Ratio</td>
+</tr>
+<tr>
+<td>C-ASBA</td>
+<td>Centralised Application Supported by Blocked Amount</td>
+</tr>
+<tr>
+<td>CB</td>
+<td>Corporate Bond</td>
+</tr>
+<tr><td>CBS</td><td>Core Banking System</td></tr>
+<tr>
+<td>CCD</td>
+<td>Credit to Core capital cum Deposit</td>
+</tr>
+<tr>
+<td>CCL</td>
+<td>Cash Credit Limit</td>
+</tr>
+<tr>
+<td>CCO</td>
+<td>Chief Compliance Officer</td>
+</tr>
+<tr>
+<td>CD</td>
+<td>Certificate of Deposit</td>
+</tr>
+<tr>
+<td>CDS</td>
+<td>Central Depository System</td>
+</tr>
+<tr>
+<td>CEO</td>
+<td>Chief Executive Officer</td>
+</tr>
+<tr>
+<td>CFT</td>
+<td>Combating the Financing of Terrorism</td>
+</tr>
+<tr>
+<td>CIB</td>
+<td>Credit Information Bureau</td>
+</tr>
+<tr>
+<td>CIC</td>
+<td>Credit Information Center</td>
+</tr>
+<tr>
+<td>CO</td>
+<td>Complaince Officer</td>
+</tr>
+<tr><td>COO</td>
+<td>Chief Operating Officer</td>
+</tr>
+<tr>
+<td>CRR</td>
+<td>Cash Reserve Ratio</td>
+</tr>
+<tr>
+  <td>CSD</td>
+  <td>Customer Service Department</td>
+</tr>
+<tr>
+<td>CSR</td>
+<td>Corporate Social Responsibility</td>
+</tr>
+<tr>
+<td>CPI</td>
+<td>Consumer's Price Index</td>
+</tr>
+<tr>
+<td>CDD</td>
+<td>Customer Due Diligence</td>
+</tr>
+<tr>
+<td>CIT</td>
+<td>Citizen Investment Trust</td>
+</tr>
+<tr>
+<td>CSI</td>
+<td>Cottage and Small scale Industry</td>
+</tr>
+<tr>
+<td>DMLI</td>
+<td>Department of Money Laundering and Investigation</td>
+</tr>
 
-<div id="age-calculator">
-<table width="100%" cellspacing="4" cellpadding="0" border="0" bgcolor="">
-<tbody>
 <tr>
-<td colspan="2">
-<table class="result" width="100%" height="100%">
-<tbody>
-<tr>
-<td>
-<form name="cir">
-<table cellspacing="0" cellpadding="3">
-<tbody>
-<tr>
-<td colspan="2">
-<br>
-Today's  Date is:
-</td>
+<td>DSU</td>
+<td>Deficit Spending Unit</td>
 </tr>
 <tr>
-<td align="center" colspan="2">
-Date -
-<input class="resform" type="text" value="" onkeyup="checkday(this)" size="2" name="len11">
-Month -
-<input class="innerc resform" type="text" value="" onkeyup="checkmon(this)" size="2" name="len12">
-Year -
-<input class="innerc resform" type="text" value="" onkeyup="checkyear(this)" size="4" name="len13">
-<br>
-<br>
-</td>
+<td>ECB</td>
+<td>External Commercial Borrowing</td>
 </tr>
 <tr>
-<td colspan="2"> Enter Your Date of Birth : </td>
+<td>ECDD</td>
+<td>Enhanced Customer Due Diligence</td>
 </tr>
 <tr>
-<td align="center" colspan="2">
-Date -
-<input class="innerc resform" type="text" onkeyup="checkday(this)" size="2" name="len21">
-Month -
-<input class="innerc resform" type="text" onkeyup="checkmon(this)" size="2" name="len22">
-Year -
-<input class="innerc resform" type="text" onkeyup="checkyear(this)" size="4" name="len23">
-<br>
-<br>
-<input class="calc" type="button" onclick="calage()" value=" Go " name="but">
-<br>
-<br>
-</td>
+<td>EDI</td>
+<td>Electronic Data Interchange</td>
 </tr>
 <tr>
-<td class="form" width="30%" align="center">
-<b> </b>
-</td>
+<td>EMI</td>
+<td>Equated Monthly Installments</td>
 </tr>
-</tbody>
-</table>
-<table>
-<tbody>
 <tr>
-<td>
-<b> Your Age is </b>
-</td>
-<td>
-<input class="resform" type="text" readonly="" size="36" name="val">
-</td>
+<td>EPF</td>
+<td>Employee's Provident Fund</td>
+</tr>
+<tr>
+<td>EPS</td>
+<td>Earning Per Share</td>
+</tr>
+<tr>
+<td>FATF</td>
+<td>Financial Action Task Force</td>
+</tr>
+<tr>
+<td>FDI</td>
+<td>Foreign Direct Investment</td>
+</tr>
+<tr>
+<td>FT</td>
+<td>Fund Transfer</td>
+</tr>
+<tr>
+<td>FNCCI</td>
+<td>Federation of Nepalese Chambers of Commerce and Industry</td>
+</tr>
+<tr>
+<td>FPO</td>
+<td>Further Public Offering</td>
+</tr>
+<tr>
+<td>FT</td>
+<td>Fund Transfer</td>
+</tr>
+<tr>
+<td>GDP</td>
+<td>Gross Domestic Product</td>
+</tr>
+<tr>
+<td>GDS</td>
+<td>Gross Domestic Savings</td>
+</tr>
+<tr>
+<td>GoN</td>
+<td>Government of Nepal</td>
+</tr>
+<tr>
+<td>IBAN</td>
+<td>International Bank Account Number</td>
+</tr>
+<tr>
+<td>IBRD</td>
+<td>International Bank for Reconstruction and Development</td>
+</tr>
+<tr>
+<td>ICAAP</td>
+<td>Internal Capital Adequacy Assessment Process</td>
+</tr>
+<tr>
+<td>IRC</td>
+<td>Interest Rate Corridor</td>
+</tr>
+<tr>
+<td>IMF</td>
+<td>International Monetary Fund</td>
+</tr>
+<tr>
+<td>IPO</td>
+<td>Intial Public Offering</td>
+</tr>
+<tr>
+<td>IRC</td>
+<td>Interest Rate Corridor</td>
+</tr>
+<tr>
+<td>KYC</td>
+<td>Know Your Customer</td>
+</tr>
+<tr>
+<td>KYE</td>
+<td>Know Your Employee</td>
+</tr>
+<tr>
+<td>LBO</td>
+<td>Limited Branch Outlet</td>
+</tr>
+<tr>
+<td>LCR</td>
+<td>Liquidity Coverage Ratio</td>
+</tr>
+<tr>
+<td>LC</td>
+<td>Letter of Credit</td>
+</tr>
+<tr>
+<td>LIBOR</td>
+<td>London Inter-Bank Offered Rate</td>
+</tr>
+<tr>
+<td>LRP</td>
+<td>Liquidity Risk Premium</td>
+</tr>
+<tr>
+<td>LTD</td>
+<td>Long Term Debt</td>
+</tr>
+<tr>
+<td>LTP</td>
+<td>Last Trading Price</td>
+</tr>
+<tr>
+<td>LMFF</td>
+<td>Liquidity Monitoring and Forecasting Framework</td>
+</tr>
+<tr>
+<td>LTV</td>
+<td>Loan-to-Value</td>
+</tr>
+<tr>
+<td>MFIs</td>
+<td>Microfinance Institutions</td>
+</tr>
+<tr><td>MIS</td><td>Management Information System</td></tr>
+<tr>
+<td>ML</td>
+<td>Money Laundering</td>
+</tr>
+<tr>
+<td>M1</td>
+<td>Narrow Money Supply</td>
+</tr>
+<tr>
+<td>M2</td>
+<td>Broad Money Supply</td>
+</tr>
+<tr>
+<td>MOU</td>
+<td>Memorandum of Understanding</td>
+</tr>
+<tr>
+<td>MPIN</td>
+<td>Mobile Personal Identification Number</td>
+</tr>
+<tr>
+<td>NAV</td>
+<td>Net Assets Value</td>
+</tr>
+<tr>
+<td>NCHL</td>
+<td>Nepal Clearing House Limited</td>
+</tr>
+<tr>
+<td>NEPSE</td>
+<td>Nepal Stock Exchange</td>
+</tr>
+<tr>
+<td>NFRS</td>
+<td>Nepal Financial Reporting Standard</td>
+</tr>
+<tr>
+<td>NOTS</td>
+<td>NEPSE Online Trading System</td>
+</tr>
+<tr>
+<td>NOW</td>
+<td>Negotiable Order of Withdrawal</td>
+</tr>
+<tr>
+<td>NPA</td>
+<td>Non-Performing Assets</td>
+</tr>
+<tr>
+<td>NPV</td>
+<td>Net Present Value</td>
+</tr>
+<tr>
+<td>NPL</td>
+<td>Non Performing Loan</td>
+</tr>
+<tr>
+<td>NRB</td>
+<td>Nepal Rastra Bank</td>
+</tr>
+<tr>
+<td>OTP</td>
+<td>One Time Password</td>
+</tr>
+<tr>
+<td>OLF</td>
+<td>Overnight lending facility</td>
+</tr>
+<tr>
+<td>OBS</td>
+<td>Off Balance Sheet</td>
+</tr>
+<tr>
+<td>OI</td>
+<td>Operation In-charge</td>
+</tr>
+<tr>
+<td>OMO</td>
+<td>Open Market Operation</td>
 </tr>
 
 <tr>
-<td> </td>
-</tr>
-
-</tbody>
-</table>
-</form>
-</td>
-</tr>
-</tbody>
-</table>
-<br>
-</td>
-<td> </td>
+<td>PAN</td>
+<td>Permanent Account Number</td>
 </tr>
 <tr>
-<td align="right" colspan="2"> </td>
-<td> </td>
+<td>PEP</td>
+<td>Politically Exposed Person</td>
+</tr>
+<tr>
+<td>PIN</td>
+<td>Personal Identification Number</td>
+</tr>
+<tr>
+<td>POS</td>
+<td>Point of Sales</td>
+</tr>
+<tr>
+<td>PG</td>
+<td>Personal Guarantee</td>
+</tr>
+<tr>
+<td>PSP</td>
+<td>Payment System Provider</td>
+</tr>
+<tr>
+<td>ROA</td>
+<td>Return on Assests</td>
+</tr>
+<tr>
+<td>ROE</td>
+<td>Return on Equity</td>
+</tr>
+<tr>
+<td>RTGS</td>
+<td>Real Time Gross Settlement</td>
+</tr>
+<tr>
+<td>RWA</td>
+<td>risk weighted asset</td>
+</tr>
+<tr>
+<td>SCT</td>
+<td>Smart Choice Technology</td>
+</tr>
+<tr>
+<td>SEBON</td>
+<td>Securities Board of Nepal</td>
+</tr>
+<tr>
+<td>SIS</td>
+<td>Supervisory Information System</td>
+</tr>
+<tr>
+<td>SLC</td>
+<td>Standby Letter of Credit</td>
+</tr>
+<tr>
+<td>SLF</td>
+<td>Standing Liquidity Facility</td>
+</tr>
+<tr>
+<td>SLR</td>
+<td>Statutory Liquidity Ratio</td>
+</tr>
+<tr>
+<td>SOL</td>
+<td>Single Obligor Limit</td>
+</tr>
+<tr>
+<td>SSF</td>
+<td>Social Security Fund</td>
+</tr>
+<tr>
+<td>SSU</td>
+<td>Surplus Spending Unit</td>
+</tr>
+<tr>
+<td>STR</td>
+<td>Suspicious Transaction Report</td>
+</tr>
+<tr>
+<td>SWIFT</td>
+<td>Society for Worldwide Inter-bank Financial Telecommunication</td>
+</tr>
+<tr>
+<td>T-bill</td>
+<td>Treasury Bills</td>
+</tr>
+<tr>
+<td>TBML</td>
+<td>Trade Based Money Laundering</td>
+</tr>
+<tr>
+<td>TT</td>
+<td>Telegraphic Transfer</td>
+</tr>
+<tr>
+<td>TTR</td>
+<td>Threshold Transaction Report</td>
+</tr>
+<tr>
+<td>y-o-y</td>
+<td>year on year</td>
+</tr>
+
+<tr>
+<td>CAF</td>
+<td>Credit Appraisal Format</td>
+</tr>
+<tr>
+<td>SV</td>
+<td>Signature Verfied</td>
+</tr>
+<tr>
+<td>FDR</td>
+<td>Fixed Deposit Receipt</td>
+</tr>
+
+
+
+
+<tr>
+<td>MICR</td>
+<td>Magnetic Ink Character Recognition</td>
+</tr>
+<tr>
+<td>QR Code</td>
+<td>Quick Response Code</td>
+</tr>
+<tr>
+<td><br /></td>
+<td><br /></td>
+</tr>
+<tr>
+<td>DSL</td>
+<td>Deprived Sector Loan</td>
+</tr>
+<tr>
+<td>ICAN</td>
+<td>Institute of Chartered Accountants of Nepal</td>
+</tr>
+<tr>
+<td>IPS</td>
+<td>Inter-Bank Payment System</td>
+</tr>
+<tr>
+<td>NBA</td>
+<td>Non-Banking Assets<br/>Nepal Bankers' Association</td>
+</tr>
+<tr>
+<td>NEPS</td>
+<td>Nepal Electronic Payment System</td>
+</tr>
+<tr>
+<td>CASA</td>
+<td>Current Account Saving Account</td>
+</tr>
+<tr>
+<td>ECC</td>
+<td>Electronic Cheque Clearing</td>
 </tr>
 </tbody>
 </table>
-</div>
-<br>
-</td>
-</tr>
-</tbody>
-</table>
+
 
 <footer class="w3-container w3-teal w3-center w3-margin-top">
   <p>Find me on social media.</p>
