@@ -1,0 +1,208 @@
+
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333; 
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: red;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: red;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+</style>
+<body>
+<div class="navbar">
+  <a href="/index">Home</a>
+  <div class="subnav">
+    <button class="subnavbtn">Banking Preparation<i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+	<a href='banking/nepalrastrabank'>Nepal Rastra Bank</a>
+	<a href="banking/minimumpaidup">Minimum Paid Up Capital</a>
+<a href='banking/CRRSLRofBFIs'>CRR, SLR of BFIs</a>
+<a href='banking/M&A'>Merger and acquisition</a>
+<a href='/InsuranceCompaniesinNepal'>Insurance Companies</a>
+ <a href='banking/commercialbanks'>Commercial Banks</a>
+<a href='banking/developmentbanks'>Development Banks</a>
+<a href='banking/financecompanies'>Finance Companies</a>
+<a href='banking/microfinance'>Microfinance Companies</a>
+ <a href='investing/sharebroker'>Share Brokers</a>
+ <a href="banking/kyc">Know Your Customer (KYC)</a>
+<a href="banking/bankoftheyear">Bank of The Year</a>
+<a href="banking/countries">Countries and Their Currency </a>
+<a href="banking/loanclassificatio">Loan Classification</a>
+<a href="banking/dcgf">Deposit and Credit Guarantee Fund</a>
+<a href="banking/bankingterminology">Banking Terminology</a>
+<a href="banking/bankingabbreviations">Banking Abbreviations</a>
+<a href="banking/cib">Credit Information Bureau</a>
+<a href="banking/letterofcredit">Letter of Credit</a>
+<a href="banking/credit">Credit</a>
+<a href="banking/rastriyabanijyabank">Rastriya Banijya Bank</a>
+<a href="banking/cpp">Client Protection Principle</a>
+    </div>
+  </div> 
+  <div class="subnav">
+    <button class="subnavbtn">Tools <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+     <a href="romanizedtounicode">Romanized To Unicode</a>
+<a href="tools/dateconverter">Date Converter</a>
+<a href="tools/horoscope">Aaja Ko Rashifal</a>
+<a href="tools/upcomingevents">Upcoming Events</a>
+<a href="tools/exchangerate">Exchange Rates </a>
+<a href="tools/nepalicalender">Nepali Calender </a>
+<a href="tools/goldsilver">Gold and silver Rates </a>
+<a href="tools/preeti">Nepali Unicode to Preeti</a>
+<a href="tools/agecalculator">Age Calculator</a>
+<a href="tools/calculator">Calculator</a>
+<a href="tools/emicalculator">EMI Calculator</a>
+    </div>
+  </div> 
+  <div class="subnav">
+    <button class="subnavbtn">Companies In Nepal <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+	<a href='/insurancecompanies'>Insurance Companies in Nepal</a>
+ <a href='banking/commercialbanks'>Commercial Banks in Nepal</a>
+<a href='banking/developmentbanks'>Development Banks in Nepal</a>
+<a href='banking/financecompanies'>Finance Companies in Nepal</a>
+<a href='banking/microfinancecompanies'>Microfinance Companies in Nepal</a>
+<a href='banking/ShareBrokersinNepal'>Share Brokers in Nepal</a>
+<a href="investing/LicensedDPinNepal">Licensed DP in Nepal</a>
+<a href="/UniversitiesinNepal">Universities in Nepal</a>
+<a href="/HighwaysinNepal">Highways in Nepal</a>
+    </div></div> 
+  <div class="subnav">
+    <button class="subnavbtn">Share Market<i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href='ShareRegistrar'>Share Registrar</a>
+	  <a href='ShareBrokersinNepal'>Share Brokers in Nepal</a>
+  <a href='BanksandC-ASBACharges'>Banks and C-ASBA Charges In Nepal</a>
+<a href="LicensedDPinNepal">Licensed DP in Nepal</a>
+    </div>
+  </div>
+  <div class="subnav">
+    <button class="subnavbtn">Geography of Nepal<i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href='/Province1'>Province 1</a>
+<a href='/MadheshPradesh'>Madhesh Pradesh</a>
+<a href='/BagmatiPradesh'>Bagmati Pradesh</a>
+<a href='/GandakiPradesh'>Gandaki Pradesh</a>
+<a href='/LumbiniPradesh'>Lumbini Pradesh</a>
+<a href='/KarnaliPradesh'>Karnali Pradesh</a>
+<a href='/SudurpaschimPradesh'>Sudurpaschim Pradesh</a>
+<a href='/Allprovince'>All Province</a>
+    </div>
+  </div>
+  
+  <div class="subnav">
+    <button class="subnavbtn">Online Radio <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+	<a href="radio/ujyalo">Ujyalo 90 MHz</a>
+	<a href="radio/imagefm">Image FM 97.9 MHz</a>
+	<a href="radio/kalikafm">Kalika FM 95.2 MHz</a>
+      <a href="radio/radiokantipur">Radio Kantipur 96.1 MHz</a>
+      <a href="radio/radioaudio">Radio Audio 106.3 MHz</a>
+      <a href="radio/radioroshi">Radio Roshi 101.6 MHz</a>
+	   <a href="radio/radioking">Radio King 104.3 MHz</a>
+	  <a href="radio/radiosagarmatha">Radio Sagarmatha 101.2 MHz</a>
+	  <a href="radio/radiosathi">Radio Sathi 98.6 MHz</a>
+      <a href="radio/nepaliradionetwork">Nepali Radio Network 99.1 MHz</a>
+      <a href="radio/sanfebagar">Radio Sanfebagar 101 MHz</a>
+      <a href="radio/radionamobuddha">Radio Namobuddha 106.7 MHz</a>
+	  <a href="radio/classicfm">Classic FM 101.2 MHz</a>
+	   <a href="radio/hitsfm">Hits FM 91.2 MHz</a>
+	    <a href="radio/nagarikfm">Nagarik FM 107.5 MHz</a>
+    </div>
+  </div><div class="subnav">
+    <button class="subnavbtn">Live TV <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+       <a href="tv/janatatv">Janata TV</a>
+      <a href="tv/kantipurtv">Kantipur TV</a>
+      <a href="tv/abphindi">ABP News</a>
+      <a href="tv/indiatoday">India Today</a>
+	  <a href="tv/lotusmacau">Lotus Macau</a>
+      <a href="tv/himalayantv">Himalayan TV</a>
+      <a href="tv/bloomberg">Bloomberg</a>
+	  <a href="tv/ap1hd">AP1HD</a>
+      <a href="#link4">Link 4</a>
+    </div>
+  </div>
+  
+ <div class="subnav">
+    <button class="subnavbtn">Article <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+       <a href="article/filing">Filing</a>
+      <a href="article/businessletter">Business Letter</a>
+      <a href="article/tippani">Tippani</a>
+      <a href="#article/">Link 3</a>
+      <a href="#article/">Link 4</a>
+    </div>
+  </div>
+  <a href="Contact">Contact</a>
+</div>
+
+
+
+
+
+
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+</style>
