@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>SHYAM KUMAR K.C.</title>
+<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+</script>
+<script>
+$(function(){
+$('#header').load('/assets/header.html');
+});
+</script>
+
+</head>
+<body>
+<div id ="header"></div>
+<h1>Latest Earthquake in Nepal</h1>
+<style>
+.iframeContainer{
+position: relative;
+width: 1000px;
+ height: 1000px;
+ overflow: hidden;
+}
+.iframeContent {
+position: absolute;
+top:-1000px;
+
+bottom: -100px;
+width: 790px;
+ height: 1630px;
+ overflow: hidden;
+}
+</style>
+<div class="iframeContainer">
+<iframe src = "http://www.seismonepal.gov.np/"  scrolling="no" class="iframeContent"></iframe>
+</div>
+<script>
+$(function(){
+$('#footer').load('/assets/footer.html');
+});
+</script>
+
+</body>
+  <div id ="footer"></div>
+</html>
