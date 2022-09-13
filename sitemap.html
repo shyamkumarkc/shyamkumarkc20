@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>SHYAM KUMAR K.C.</title>
+<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+</script>
+<script>
+$(function(){
+$('#header').load('/assets/header.html');
+});
+</script>
+
+</head>
+<body>
+
+<script type="text/javascript">
+  
+ var numposts = 100;
+ var standardstyling = true;
+  
+ function showrecentposts(json) {
+  for (var i = 0; i < numposts; i++) {
+   var entry = json.feed.entry[i];
+   var posttitle = entry.title.$t;
+   var posturl;
+   if (i == json.feed.entry.length) break;
+   for (var k = 0; k < entry.link.length; k++) {
+    if (entry.link[k].rel == 'alternate') {
+     posturl = entry.link[k].href;
+     break;
+    }
+   }
+   posttitle = posttitle.link(posturl);
+   if (standardstyling) document.write('<li>');
+   document.write(posttitle);
+  }
+   if (standardstyling) document.write('</li>');
+ }
+</script>
+ 
+<br />
+<ul>
+ <script src="https://shyamkumarkc20.com.np/feeds/posts/default?orderby=published&alt=json-in-script&callback=showrecentposts&max-results=999"></script>
+</ul>
+
+
+
+  <script>
+$(function(){
+$('#footer').load('/assets/footer.html');
+});
+</script>
+
+</body>
+  <div id ="footer"></div>
+</html>
