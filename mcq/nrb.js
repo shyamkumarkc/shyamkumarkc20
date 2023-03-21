@@ -1,7 +1,7 @@
 const quizData = [
    
     {
-        question: "Who is the governer of Nepal Rastra Bank?",
+        question: "Who is the current governer of Nepal Rastra Bank?",
         a: "Maha Prasad Adhikari",
         b: "Dr Chiranjibi Nepal",
         c: "Dr Yubaraj Khatiwada",
