@@ -2,6 +2,10 @@
 <html lang="en">
 <head>
 <title>SHYAM KUMAR K.C.</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
+    <link rel="stylesheet"  />
 <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
 </script>
@@ -17,146 +21,127 @@ $('#header').load('/assets/header.html');
 
 
 
-<style>
-body 
-
-.container {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 100vh;
-	width: 100vw;
-}
-
-#container {
-	width: 200px;
-	padding: 8px 8px 20px 8px;
-	margin: 20px auto;
-	background-color: #ABABAB;
-	border-radius: 4px;
-	border-top: 2px solid #FFF;
-	border-right: 2px solid #FFF;
-	border-bottom: 2px solid #C1C1C1;
-	border-left: 2px solid #C1C1C1;
-	box-shadow: -3px 3px 7px rgba(0, 0, 0, .6), inset -100px 0px 100px rgba(255, 255, 255, .5);
-}
-
-#display {
-	display: block;
-	margin: 15px auto;
-	height: 42px;
-	width: 174px;
-	padding: 0 10px;
-	border-radius: 4px;
-	border-top: 2px solid #C1C1C1;
-	border-right: 2px solid #C1C1C1;
-	border-bottom: 2px solid #FFF;
-	border-left: 2px solid #FFF;
-	background-color: #FFF;
-	box-shadow: inset 0px 0px 10px #030303, inset 0px -20px 1px rgba(150, 150, 150, .2);
-	font-size: 28px;
-	color: #666;
-	text-align: right;
-	font-weight: 400;
-}
-
-.button {
-	display: inline-block;
-	margin: 2px;
-	width: 42px;
-	height: 42px;
-	font-size: 16px;
-	font-weight: bold;
-	border-radius: 4px;
-}
-
-.mathButtons {
-	margin: 2px 2px 6px 2px;
-	color: #FFF;
-	text-shadow: -1px -1px 0px #44006F;
-	background-color: #434343;
-	border-top: 2px solid #C1C1C1;
-	border-right: 2px solid #C1C1C1;
-	border-bottom: 2px solid #181818;
-	border-left: 2px solid #181818;
-	box-shadow: 0px 0px 2px #030303, inset 0px -20px 1px #2E2E2E;
-}
-
-.digits {
-	color: #181818;
-	text-shadow: 1px 1px 0px #FFF;
-	background-color: #EBEBEB;
-	border-top: 2px solid #FFF;
-	border-right: 2px solid #FFF;
-	border-bottom: 2px solid #C1C1C1;
-	border-left: 2px solid #C1C1C1;
-	border-radius: 4px;
-	box-shadow: 0px 0px 2px #030303, inset 0px -20px 1px #DCDCDC;
-}
-
-.digits:hover,
-.mathButtons:hover,
-#clearButton:hover {
-	background-color: #FFBA75;
-	box-shadow: 0px 0px 2px #FFBA75, inset 0px -20px 1px #FF8000;
-	border-top: 2px solid #FFF;
-	border-right: 2px solid #FFF;
-	border-bottom: 2px solid #AE5700;
-	border-left: 2px solid #AE5700;
-}
-
-#clearButton {
-	color: #FFF;
-	text-shadow: -1px -1px 0px #44006F;
-	background-color: #D20000;
-	border-top: 2px solid #FF8484;
-	border-right: 2px solid #FF8484;
-	border-bottom: 2px solid #800000;
-	border-left: 2px solid #800000;
-	box-shadow: 0px 0px 2px #030303, inset 0px -20px 1px #B00000;
-}
-</style>
-</head>
-
 <body>
-<div class="container">
-<fieldset id="container">
+    <div class="container">
+      <input type="text" class="display" />
 
-<form name="calculator">
+      <div class="buttons">
+        <button class="operator" data-value="AC">AC</button>
+        <button class="operator" data-value="DEL">DEL</button>
+        <button class="operator" data-value="%">%</button>
+        <button class="operator" data-value="/">/</button>
 
-<input id="display" type="text" name="display" readonly>
+        <button data-value="7">7</button>
+        <button data-value="8">8</button>
+        <button data-value="9">9</button>
+        <button class="operator" data-value="*">*</button>
 
-<input class="button digits" type="button" value="7" onclick="calculator.display.value += '7'">
-<input class="button digits" type="button" value="8" onclick="calculator.display.value += '8'">
-<input class="button digits" type="button" value="9" onclick="calculator.display.value += '9'">
+        <button data-value="4">4</button>
+        <button data-value="5">5</button>
+        <button data-value="6">6</button>
+        <button class="operator" data-value="-">-</button>
 
-<input class="button mathButtons" type="button" value="+" onclick="calculator.display.value += '+'">
+        <button data-value="1">1</button>
+        <button data-value="2">2</button>
+        <button data-value="3">3</button>
+        <button class="operator" data-value="+">+</button>
 
-<br>
+        <button data-value="0">0</button>
+        <button data-value="00">00</button>
+        <button data-value=".">.</button>
+        <button class="operator" data-value="=">=</button>
+      </div>
+    </div>
+<style>
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e0e3eb;
+}
+.container {
+  position: relative;
+  max-width: 300px;
+  width: 100%;
+  border-radius: 12px;
+  padding: 10px 20px 20px;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+.display {
+  height: 80px;
+  width: 100%;
+  outline: none;
+  border: none;
+  text-align: right;
+  margin-bottom: 10px;
+  font-size: 25px;
+  color: #000e1a;
+  pointer-events: none;
+}
+.buttons {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.buttons button {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #eee;
+}
+.buttons button:active {
+  transform: scale(0.99);
+}
+.operator {
+  color: #2f9fff;
+}
 
-<input class="button digits" type="button" value="4" onclick="calculator.display.value += '4'">
-<input class="button digits" type="button" value="5" onclick="calculator.display.value += '5'">
-<input class="button digits" type="button" value="6" onclick="calculator.display.value += '6'">
+</style>
+    <script >
+	const display = document.querySelector(".display");
+const buttons = document.querySelectorAll("button");
+const specialChars = ["%", "*", "/", "-", "+", "="];
+let output = "";
 
-<input class="button mathButtons" type="button" value="-" onclick="calculator.display.value += '-'">
+//Define function to calculate based on button clicked.
+const calculate = (btnValue) => {
+  display.focus();
+  if (btnValue === "=" && output !== "") {
+    //If output has '%', replace with '/100' before evaluating.
+    output = eval(output.replace("%", "/100"));
+  } else if (btnValue === "AC") {
+    output = "";
+  } else if (btnValue === "DEL") {
+    //If DEL button is clicked, remove the last character from the output.
+    output = output.toString().slice(0, -1);
+  } else {
+    //If output is empty and button is specialChars then return
+    if (output === "" && specialChars.includes(btnValue)) return;
+    output += btnValue;
+  }
+  display.value = output;
+};
 
-<br>
+//Add event listener to buttons, call calculate() on click.
+buttons.forEach((button) => {
+  //Button click listener calls calculate() with dataset value as argument.
+  button.addEventListener("click", (e) => calculate(e.target.dataset.value));
+});
+	</script>
+  
 
-<input class="button digits" type="button" value="1" onclick="calculator.display.value += '1'">
-<input class="button digits" type="button" value="2" onclick="calculator.display.value += '2'">
-<input class="button digits" type="button" value="3" onclick="calculator.display.value += '3'">
-
-<input class="button mathButtons" type="button" value="X" onclick="calculator.display.value += '*'">
-
-<br>
-
-<input id="clearButton" class="button" type="button" value="C" onclick="calculator.display.value = ''">
-<input class="button digits" type="button" value="0" onclick="calculator.display.value += '0'">
-<input class="button mathButtons" type="button" value="=" onclick="calculator.display.value = eval(calculator.display.value)">
-
-<input class="button mathButtons" type="button" value="/" onclick="calculator.display.value += '/'">
-
-</form>
 
 </fieldset>
 </div>
