@@ -1,82 +1,94 @@
 [
   {
-    "S.No.": 1,
+    "SNO": 1,
     "Name": "Nepal Bank Ltd."
+	"OD": "1937/11/15"
+	"HO": "Dharmapath Kathmandu"
+	"NEPSE": "NBL"
+	"Swift": "NBLNPKA"
+	"Website": "https://www.nepalbank.com.np"
+	
   },
   {
-    "S.No.": 2,
+    "SNO": 2,
     "Name": "Rastriya Banijya Bank Ltd."
+	"OD": ""
+	"HO": ""
+	"NEPSE": ""
+	"Swift": ""
+	"Website": ""
+	"Website": ""
   },
   {
-    "S.No.": 3,
+    "SNO": 3,
     "Name": "Agriculture Development Bank Ltd."
   },
   {
-    "S.No.": 4,
+    "SNO": 4,
     "Name": "Nabil Bank Ltd."
   },
   {
-    "S.No.": 5,
+    "SNO": 5,
     "Name": "Nepal Investment Mega Bank Ltd."
   },
   {
-    "S.No.": 6,
+    "SNO": 6,
     "Name": "Standard Chartered Bank Nepal Ltd."
   },
   {
-    "S.No.": 7,
+    "SNO": 7,
     "Name": "Himalayan Bank Ltd."
   },
   {
-    "S.No.": 8,
+    "SNO": 8,
     "Name": "Nepal SBI Bank Ltd."
   },
   {
-    "S.No.": 9,
+    "SNO": 9,
     "Name": "Everest Bank Ltd."
   },
   {
-    "S.No.": 10,
+    "SNO": 10,
     "Name": "Kumari Bank Ltd."
   },
   {
-    "S.No.": 11,
+    "SNO": 11,
     "Name": "Laxmi Sunrise Bank Ltd."
   },
   {
-    "S.No.": 12,
+    "SNO": 12,
     "Name": "Citizens Bank International Ltd."
   },
   {
-    "S.No.": 13,
+    "SNO": 13,
     "Name": "Prime Commercial Bank Ltd."
   },
   {
-    "S.No.": 14,
+    "SNO": 14,
     "Name": "Sanima Bank Ltd."
   },
   {
-    "S.No.": 15,
+    "SNO": 15,
     "Name": "Machhapuchhre Bank Ltd."
   },
   {
-    "S.No.": 16,
+    "SNO": 16,
     "Name": "NIC Asia Bank Ltd."
   },
   {
-    "S.No.": 17,
+    "SNO": 17,
     "Name": "Global IME Bank Ltd."
   },
   {
-    "S.No.": 18,
+    "SNO": 18,
     "Name": "NMB Bank Ltd."
   },
   {
-    "S.No.": 19,
+    "SNO": 19,
     "Name": "Prabhu Bank Ltd."
   },
   {
-    "S.No.": 20,
+    "SNO": 20,
     "Name": "Siddhartha Bank Ltd."
   }
 ]
