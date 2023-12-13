@@ -1,23 +1,23 @@
 [
   {
     "SNO": 1,
-    "Name": "Nepal Bank Ltd."
-	"OD": "1937/11/15"
-	"HO": "Dharmapath Kathmandu"
-	"NEPSE": "NBL"
-	"Swift": "NBLNPKA"
-	"Website": "https://www.nepalbank.com.np"
+    "Name": "Nepal Bank Ltd.",
+	"OD": "1937/11/15",
+	"HO": "Dharmapath Kathmandu",
+	"NEPSE": "NBL",
+	"Swift": "NBLNPKA",
+	"Website": "https://www.nepalbank.com.np",
 	
   },
   {
     "SNO": 2,
-    "Name": "Rastriya Banijya Bank Ltd."
-	"OD": ""
-	"HO": ""
-	"NEPSE": ""
-	"Swift": ""
-	"Website": ""
-	"Website": ""
+    "Name": "Rastriya Banijya Bank Ltd.",
+	"OD": "",
+	"HO": "",
+	"NEPSE": "",
+	"Swift": "",
+	"Website": "",
+	"Website": "",
   },
   {
     "SNO": 3,
