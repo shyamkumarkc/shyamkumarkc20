@@ -1,7 +1,7 @@
 [
   {
     "SNO": 1,
-    "Name": "Nepal Bank Ltd.",
+    "Name": "Nepal Bank Limited",
 	"OD": "1937/11/15",
 	"HO": "Dharmapath Kathmandu",
 	"NEPSE": "NBL",
@@ -11,84 +11,89 @@
   },
   {
     "SNO": 2,
-    "Name": "Rastriya Banijya Bank Ltd.",
+    "Name": "Rastriya Banijya Bank Limited",
+	"OD": "2022 Magh 10 B.S 1966/01/23 AD",
+	"HO": "Singhadurbar plaza Kathmandu",
+	"NEPSE": "Null",
+	"Swift": "RBBANPKA",
+	"Website": "www.rbb.com.np"
+	
+	},
+  {
+    "SNO": 3,
+    "Name": "Agriculture Development Bank Limited",
 	"OD": "",
 	"HO": "",
 	"NEPSE": "",
 	"Swift": "",
 	"Website": ""
-	
-  },
-  {
-    "SNO": 3,
-    "Name": "Agriculture Development Bank Ltd."
   },
   {
     "SNO": 4,
-    "Name": "Nabil Bank Ltd."
+    "Name": "Nabil Bank Limited"
   },
   {
     "SNO": 5,
-    "Name": "Nepal Investment Mega Bank Ltd."
+    "Name": "Nepal Investment Mega Bank Limited"
   },
   {
     "SNO": 6,
-    "Name": "Standard Chartered Bank Nepal Ltd."
+    "Name": "Standard Chartered Bank Nepal Limited"
   },
   {
     "SNO": 7,
-    "Name": "Himalayan Bank Ltd."
+    "Name": "Himalayan Bank Limited"
   },
   {
     "SNO": 8,
-    "Name": "Nepal SBI Bank Ltd."
+    "Name": "Nepal SBI Bank Limited"
   },
   {
     "SNO": 9,
-    "Name": "Everest Bank Ltd."
+    "Name": "Everest Bank Limited"
   },
   {
     "SNO": 10,
-    "Name": "Kumari Bank Ltd."
+    "Name": "Kumari Bank Limited"
   },
   {
     "SNO": 11,
-    "Name": "Laxmi Sunrise Bank Ltd."
+    "Name": "Laxmi Sunrise Bank Limited"
   },
   {
     "SNO": 12,
-    "Name": "Citizens Bank International Ltd."
+    "Name": "Citizens Bank International Limited"
   },
   {
     "SNO": 13,
-    "Name": "Prime Commercial Bank Ltd."
+    "Name": "Prime Commercial Bank Limited"
   },
   {
     "SNO": 14,
-    "Name": "Sanima Bank Ltd."
+    "Name": "Sanima Bank Limited"
   },
   {
     "SNO": 15,
-    "Name": "Machhapuchhre Bank Ltd."
+    "Name": "Machhapuchhre Bank Limited"
   },
   {
     "SNO": 16,
-    "Name": "NIC Asia Bank Ltd."
+    "Name": "NIC Asia Bank Limited"
   },
   {
     "SNO": 17,
-    "Name": "Global IME Bank Ltd."
+    "Name": "Global IME Bank Limited"
   },
   {
     "SNO": 18,
-    "Name": "NMB Bank Ltd."
+    "Name": "NMB Bank Limited"
   },
   {
     "SNO": 19,
-    "Name": "Prabhu Bank Ltd."
+    "Name": "Prabhu Bank Limited"
   },
   {
     "SNO": 20,
-    "Name": "Siddhartha Bank Ltd."
+    "Name": "Siddhartha Bank Limited"
   }
 ]
