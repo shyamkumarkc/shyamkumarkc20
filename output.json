@@ -131,47 +131,49 @@
   {
     "SNO": 15,
     "Name": "Machhapuchhre Bank Limited",
-	"OD": "",
-	"HO": "",
-	"NEPSE": "",
-	"Swift": "",
-	"Website": ""
+	"OD": "2012/07/09",
+	"HO": "Lazimpat Kathmandu",
+	"NEPSE": "MBL",
+	"Swift": "MBLNNPKA",
+	"Website": "www.machbank.com"
   },
   {
     "SNO": 16,
     "Name": "NIC Asia Bank Limited",
-	"OD": "",
-	"HO": "",
-	"NEPSE": "",
-	"Swift": "",
-	"Website": ""
-  },
+	"OD": "2013/06/30",
+	"HO": "Thapathali Kathmandu",
+	"NEPSE": "NICA",
+	"Swift": "NICENPKA",
+	"Website": "www.nicasiabank.com"
+	  },
   {
     "SNO": 17,
     "Name": "Global IME Bank Limited",
-	"OD": "",
-	"HO": "",
-	"NEPSE": "",
-	"Swift": "",
-	"Website": ""
+	"OD": "2012",
+	"HO": "Kamaladi Kathmandu",
+	"NEPSE": "GBIME",
+	"Swift": "GLBBNPKA",
+	"Website": "www.globalimebank.com"
+	
   },
   {
     "SNO": 18,
     "Name": "NMB Bank Limited",
-	"OD": "",
-	"HO": "",
-	"NEPSE": "",
-	"Swift": "",
-	"Website": ""
+	"OD": "2015/10/18",
+	"HO": "Babarmahal Kathmandu",
+	"NEPSE": "NMB",
+	"Swift": "NMBBNPKA",
+	"Website": "www.nmb.com.np"
   },
   {
     "SNO": 19,
     "Name": "Prabhu Bank Limited",
-	"OD": "",
-	"HO": "",
-	"NEPSE": "",
-	"Swift": "",
-	"Website": ""
+	"OD": "2014/09/14",
+	"HO": "Babarmahal Kathmandu",
+	"NEPSE": "PRVU",
+	"Swift": "PRVUNPKA",
+	"Website": "www.prabhubank.com" 
+
   },
   {
     "SNO": 20,
