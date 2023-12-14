@@ -22,6 +22,25 @@
   {
     "SNO": 3,
     "Name": "Agriculture Development Bank Limited",
+	"OD": "2024 Falgun 7 B.S. 1968/01/21",
+	"HO": "Ramshahpath Kathmandu",
+	"NEPSE": "ADBL",
+	"Swift": "ADBLNPKA",
+	"Website": "www.adbl.gov.np"
+  },
+  {
+    "SNO": 4,
+    "Name": "Nabil Bank Limited",
+	"OD": "2041 Asar 29 B.S. 1984/07/12",
+	"HO": "Beena Marg,Kathmandu",
+	"NEPSE": "NABIL",
+	"Swift": "NARBNPKA",
+	"Website": "<a href='https://www.nabilbank.com' target="_blank">www.nabilbank.com</a>"
+	
+  },
+  {
+    "SNO": 5,
+    "Name": "Nepal Investment Mega Bank Limited",
 	"OD": "",
 	"HO": "",
 	"NEPSE": "",
@@ -29,71 +48,139 @@
 	"Website": ""
   },
   {
-    "SNO": 4,
-    "Name": "Nabil Bank Limited"
-  },
-  {
-    "SNO": 5,
-    "Name": "Nepal Investment Mega Bank Limited"
-  },
-  {
     "SNO": 6,
-    "Name": "Standard Chartered Bank Nepal Limited"
+    "Name": "Standard Chartered Bank Nepal Limited",
+	"OD": "",
+	"HO": "",
+	"NEPSE": "",
+	"Swift": "",
+	"Website": ""
   },
   {
     "SNO": 7,
-    "Name": "Himalayan Bank Limited"
+    "Name": "Himalayan Bank Limited",
+	"OD": "",
+	"HO": "",
+	"NEPSE": "",
+	"Swift": "",
+	"Website": ""
   },
   {
     "SNO": 8,
-    "Name": "Nepal SBI Bank Limited"
+    "Name": "Nepal SBI Bank Limited",
+	"OD": "",
+	"HO": "",
+	"NEPSE": "",
+	"Swift": "",
+	"Website": ""
   },
   {
     "SNO": 9,
-    "Name": "Everest Bank Limited"
+    "Name": "Everest Bank Limited",
+	"OD": "",
+	"HO": "",
+	"NEPSE": "",
+	"Swift": "",
+	"Website": ""
   },
   {
     "SNO": 10,
-    "Name": "Kumari Bank Limited"
+    "Name": "Kumari Bank Limited",
+	"OD": "",
+	"HO": "",
+	"NEPSE": "",
+	"Swift": "",
+	"Website": ""
   },
   {
     "SNO": 11,
-    "Name": "Laxmi Sunrise Bank Limited"
+    "Name": "Laxmi Sunrise Bank Limited",
+	"OD": "",
+	"HO": "",
+	"NEPSE": "",
+	"Swift": "",
+	"Website": ""
   },
   {
     "SNO": 12,
-    "Name": "Citizens Bank International Limited"
+    "Name": "Citizens Bank International Limited",
+	"OD": "",
+	"HO": "",
+	"NEPSE": "",
+	"Swift": "",
+	"Website": ""
   },
   {
     "SNO": 13,
-    "Name": "Prime Commercial Bank Limited"
+    "Name": "Prime Commercial Bank Limited",
+	"OD": "",
+	"HO": "",
+	"NEPSE": "",
+	"Swift": "",
+	"Website": ""
   },
   {
     "SNO": 14,
-    "Name": "Sanima Bank Limited"
+    "Name": "Sanima Bank Limited",
+	"OD": "",
+	"HO": "",
+	"NEPSE": "",
+	"Swift": "",
+	"Website": ""
   },
   {
     "SNO": 15,
-    "Name": "Machhapuchhre Bank Limited"
+    "Name": "Machhapuchhre Bank Limited",
+	"OD": "",
+	"HO": "",
+	"NEPSE": "",
+	"Swift": "",
+	"Website": ""
   },
   {
     "SNO": 16,
-    "Name": "NIC Asia Bank Limited"
+    "Name": "NIC Asia Bank Limited",
+	"OD": "",
+	"HO": "",
+	"NEPSE": "",
+	"Swift": "",
+	"Website": ""
   },
   {
     "SNO": 17,
-    "Name": "Global IME Bank Limited"
+    "Name": "Global IME Bank Limited",
+	"OD": "",
+	"HO": "",
+	"NEPSE": "",
+	"Swift": "",
+	"Website": ""
   },
   {
     "SNO": 18,
-    "Name": "NMB Bank Limited"
+    "Name": "NMB Bank Limited",
+	"OD": "",
+	"HO": "",
+	"NEPSE": "",
+	"Swift": "",
+	"Website": ""
   },
   {
     "SNO": 19,
-    "Name": "Prabhu Bank Limited"
+    "Name": "Prabhu Bank Limited",
+	"OD": "",
+	"HO": "",
+	"NEPSE": "",
+	"Swift": "",
+	"Website": ""
   },
   {
     "SNO": 20,
-    "Name": "Siddhartha Bank Limited"
+    "Name": "Siddhartha Bank Limited",
+	"OD": "2016/07/21",
+	"HO": "Hattisar Kathmandu",
+	"NEPSE": "SBL",
+	"Swift": "SIDDNPKA",
+	"Website": "www.siddharthabank.com"
+	
   }
 ]
