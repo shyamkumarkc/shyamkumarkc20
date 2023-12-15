@@ -28,89 +28,35 @@ list of name of the Bank of the year in different years in Nepal</h3>
 <th>Bank Name</th>
 
 </tr>
-<tr>
-<td>2009</td>
-<td>Standard Chartered Bank Nepal</td>
-</tr>
-<tr>
-<td>2010</td>
-<td>Nepal Investment Bank Limited</td>
-</tr>
-<tr>
-<td>2011</td>
-<td>Bank of Kathmandu</td>
-</tr>
-<tr>
-<td>2012</td>
-<td>Standard Chartered Bank Nepal</td>
-</tr>
-<tr>
-<td>2013</td>
-<td>NIC Asia Bank Limited</td>
-</tr>
-<tr>
-<td>2014</td>
-<td>Global IME Bank Limited</td>
-</tr>
-<tr>
-<td>2015</td>
-<td>Standard Chartered Bank Nepal</td>
-</tr>
-<tr>
-<td>2016</td>
-<td>Nepal Investment Bank Limited</td>
-</tr>
-<tr>
-<td>2017</td>
-<td>NMB Bank Limited</td>
-</tr>
-<tr>
-<td>2018</td>
-<td>NMB Bank Limited</td>
-</tr>
-<tr>
-<td>2019</td>
-<td>MEGA Bank Limited</td>
-</tr>
-<tr>
-<td>2020</td>
-<td>NMB Bank Limited</td>
-</tr>
-  <tr>
-<td>2021</td>
-<td>NMB Bank Limited</td>
-</tr>
-  <tr>
-<td>2022</td>
-<td>Nepal Investment Bank Limited</td>
-</tr>
-<tr>
-<td>2023</td>
-<td>Prabhu Bank Limited</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-</tr>
-</tbody></table>
-
-<script>
+<tbody id="data-output">
+         <!-- Prodcuts from javascript file in here. -->
+      </tbody>
+   </table>
+ 
+ 
+   <script>
+   fetch("https://shyamkumarkc20.com.np/js/bankoftheyear.json")
+.then(function(response){
+   return response.json();
+})
+.then(function(products){
+   let placeholder = document.querySelector("#data-output");
+   let out = "";
+   for(let product of products){
+      out += `
+         <tr>
+            
+            <td>${product.year}</td>
+			
+            <td>${product['bank name']}</td>
+			
+         </tr>
+      `;
+   }
+ 
+   placeholder.innerHTML = out;
+});
+   
 $(function(){
 $('#footer').load('/assets/footer.html');
 });
