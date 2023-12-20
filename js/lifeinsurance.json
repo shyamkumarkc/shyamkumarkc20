@@ -1,0 +1,101 @@
+[
+  {
+    "Sno": "1",
+    "Name": "American Life Insurance Company Limited (MetLife)",
+    "Operation": "2058 B.S (2001 A.D)",
+    "NEPSE": "",
+    "Website": "www.metlife.com.np/en/"
+  },
+  {
+    "Sno": "2",
+    "Name": "Asian Life Insurance Company Limited",
+    "Operation": "2064 B.S (2008 A.D)",
+    "NEPSE": "ALICL",
+    "Website": "www.asianlife.com.np/"
+  },
+  {
+    "Sno": "3",
+    "Name": "Citizen Life Insurance Company Limited",
+    "Operation": "2074 B.S (2017 A.D)",
+    "NEPSE": "CLI",
+    "Website": "www.citizenlifenepal.com/"
+  },
+  {
+    "Sno": "4",
+    "Name": "IME Life Insurance Company Limited",
+    "Operation": "2074 B.S (2017 A.D)",
+    "NEPSE": "ILI",
+    "Website": "www.imelifeinsurance.com/"
+  },
+  {
+    "Sno": "5",
+    "Name": "Surya Jyoti Life Insurance Company Limited",
+    "Operation": "2079 B.S (2023 A.D)",
+    "NEPSE": "SJLIC",
+    "Website": "www.suryajyotilife.com/"
+  },
+  {
+    "Sno": "6",
+    "Name": "Life Insurance Corporation (Nepal) Limited",
+    "Operation": "2057 B.S (2000 A.D)",
+    "NEPSE": "LICN",
+    "Website": "www.licnepal.com.np/"
+  },
+  {
+    "Sno": "7",
+    "Name": "Prabhu Mahalaxmi Life Insurance Company Limited",
+    "Operation": "2075 B.S (2018 A.D)",
+    "NEPSE": "",
+    "Website": "www.mahalaxmilife.com.np/"
+  },
+  {
+    "Sno": "8",
+    "Name": "National Life Insurance Company Limited",
+    "Operation": "2044 B.S (1988 A.D.)",
+    "NEPSE": "NLICL",
+    "Website": "www.nationallife.com.np/"
+  },
+  {
+    "Sno": "9",
+    "Name": "Nepal Life Insurance Company Limited",
+    "Operation": "2058 B.S (2001 A.D)",
+    "NEPSE": "NLIC",
+    "Website": "www.nepallife.com.np/en/home"
+  },
+  {
+    
+    "Sno": "10",
+    "Name": "Himalayan Life Insurance Company Limited",
+    "Operation": "2080 B.S (2023 A.D)",
+    "NEPSE": "PLIC",
+    "Website": "www.primelifenepal.com/"
+  },
+  {
+    "Sno": "11",
+    "Name": "Rastriya Beema Sansthan",
+    "Operation": "2025 B.S (1969 A.D)",
+    "NEPSE": "RBCL",
+    "Website": "www.rbs.gov.np/"
+  },
+  {
+    "Sno": "12",
+    "Name": "Reliable Nepal Life Insurance Limited",
+    "Operation": "2074 B.S (2017 A.D)",
+    "NEPSE": "RNLI",
+    "Website": "www.reliablelife.com.np/"
+  },
+  {
+    "Sno": "13",
+    "Name": "Sanima Reliance Life Insurance Limited",
+    "Operation": "2074 B.S (2017 A.D)",
+    "NEPSE": "SRLI",
+    "Website": "www.sanimareliancelife.com/"
+  },
+  {
+    "Sno": "14",
+    "Name": "Sun Nepal Life Insurance Limited",
+    "Operation": "2074 B.S (2017 A.D)",
+    "NEPSE": "SNLI",
+    "Website": "www.sunlife.com.np/"
+  }
+]
