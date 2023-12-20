@@ -21,25 +21,25 @@ $('#header').load('/assets/header.html');
 
 There are currently 19 life insurance companies in Nepal. The list of the life insurance companies is shown below:
 	<table border="black" style="width: 100%;">
-<tbody>
-<tr>
-       <th>S No</th>
+<table>
+      <thead>
+         <tr>
+            <th>S No</th>
             <th>Company Name</th>
            
             <th>Operation Date</th>
             <th>NEPSE</th>
 			
 			<th>Website</th>
-        
-</tr>
-<tbody id="data-output">
+         </tr>
+      </thead>
+      <tbody id="data-output">
          <!-- Prodcuts from javascript file in here. -->
       </tbody>
    </table>
  
- 
    <script>
-   fetch("https://shyamkumarkc20.com.np/js/ifeinsurance.json)
+   fetch("https://shyamkumarkc20.com.np/js/lifeinsurance.json")
 .then(function(response){
    return response.json();
 })
@@ -50,7 +50,7 @@ There are currently 19 life insurance companies in Nepal. The list of the life i
       out += `
          <tr>
             
-           <td>${product.Sno}</td>
+            <td>${product.Sno}</td>
 			
             <td>${product.Name}</td>
 			<td>${product.Operation}</td>
@@ -59,14 +59,13 @@ There are currently 19 life insurance companies in Nepal. The list of the life i
 			
             <td><a href ="https://${product.Website}"target="blank">${product.Website}</a></td>
             
-			
          </tr>
       `;
    }
  
    placeholder.innerHTML = out;
 });
-</script>
+   </script> 
 <h3>List of General (Non-Life) Insurance Companies In Nepal</h3>
 Non-life insurance is an agreement made to avoid the risk of loss of property and liability. It is generally used to insure movable and immovable property such as houses, factories, vehicles, etc.<br />
 
