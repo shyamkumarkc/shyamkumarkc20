@@ -85,18 +85,18 @@ Below are the list of 20 general or non-life insurance companies of Nepal:
 			<th>Website</th>
          </tr>
       </thead>
-      <tbody id="data-output">
+      <tbody id="data-output1">
          <!-- Prodcuts from javascript file in here. -->
       </tbody>
    </table>
  
    <script>
-   fetch("https://shyamkumarkc20.com.np/js/lifeinsurance.json")
+   fetch("https://shyamkumarkc20.com.np/js/nonlifeinsurance.json")
 .then(function(response){
    return response.json();
 })
 .then(function(products){
-   let placeholder = document.querySelector("#data-output");
+   let placeholder = document.querySelector("#data-output1");
    let out = "";
    for(let product of products){
       out += `
