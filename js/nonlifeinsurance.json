@@ -3,42 +3,42 @@
     "Sno": "1",
     "Name": "Himalayan Everest Insurance",
     "Operation": "2079 B.S (2022 A.D) ",
-    "NEPSE": "",
+    "NEPSE": "HEI",
     "Website": "www.hei.com.np"
   },
   {
     "Sno": "2",
     "Name": "IGI Prudential Insurance Company Limited",
     "Operation": "2080 B.S (2023 A.D) ",
-    "NEPSE": " ",
+    "NEPSE": "IGI",
     "Website": "www.igiprudential.com "
   },
   {
     "Sno": "3",
     "Name": "National Insurance Co. Ltd.",
     "Operation": "2030 B.S (1974 A.D) ",
-    "NEPSE": " ",
+    "NEPSE": "NLICL",
     "Website": "www.nicnepal.com.np "
   },
   {
     "Sno": "4",
     "Name": "NECO Insurance Company Limited",
     "Operation": "2051 B.S (1994 A.D)",
-    "NEPSE": "NECO",
+    "NEPSE": "NIL",
     "Website": "www.neco.com.np"
   },
   {
     "Sno": "5",
     "Name": "Nepal insurance Company Limited",
     "Operation": "2004 B.S (1947 A.D) ",
-    "NEPSE": "",
+    "NEPSE": "NICL",
     "Website": "www.nepalinsurance.com.np "
   },
   {
     "Sno": "6",
     "Name": "NLG Insurance Company Limited",
     "Operation": " 2054 B.S (1998 A.D)",
-    "NEPSE": " ",
+    "NEPSE": "NLG",
     "Website": "www.nlg.com.np"
   },
   {
@@ -59,7 +59,7 @@
     "Sno": "9",
     "Name": "Sagarmatha Lumbini Insurance Company Ltd.",
     "Operation": "2079 B.S (2023 A.D) ",
-    "NEPSE": " ",
+    "NEPSE": "SALICO",
     "Website": "www.salico.com.np"
   },
   {
@@ -67,35 +67,35 @@
     "Sno": "10",
     "Name": "Sanima GIC Insurance Limited",
     "Operation": "2079 B.S (2022 A.D) ",
-    "NEPSE": " ",
+    "NEPSE": "SGIC",
     "Website": "www.sgic.com.np"
   },
   {
     "Sno": "11",
     "Name": "Shikhar Insurance Company Limited (SICL)",
     "Operation": "2061 B.S (2004 A.D) ",
-    "NEPSE": " ",
+    "NEPSE": "SICL",
     "Website": "www.shikharinsurance.com"
   },
   {
     "Sno": "12",
     "Name": "Siddhartha Premier Insurance Limited",
     "Operation": "2079 B.S (2023 A.D) ",
-    "NEPSE": " ",
+    "NEPSE": "SPIL",
     "Website": "www.siddharthapremier.com.np "
   },
   {
     "Sno": "13",
     "Name": "Oriental Insurance Company Limited",
     "Operation": "2012 B.S (1956 A.D)",
-    "NEPSE": " ",
+    "NEPSE": "",
     "Website": "www.orientalinsurance.com.np"
   },
   {
     "Sno": "14",
     "Name": "United Ajod Insurance Limited",
     "Operation": "2080 B.S (2023 A.D) ",
-    "NEPSE": " ",
+    "NEPSE": "UAIL",
     "Website": "www.unitedajodinsurance.com"
   }
 ]
