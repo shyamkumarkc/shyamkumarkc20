@@ -12,7 +12,7 @@
             background-color: #f0f0f0;
         }
         .container {
-            max-width: 600px;
+            max-width: 300px;
             margin: 50px auto;
             background-color: #fff;
             padding: 20px;
@@ -22,6 +22,7 @@
         label {
             display: block;
             margin-bottom: 10px;
+            font-weight: bold;
         }
         select {
             width: 100%;
@@ -43,44 +44,35 @@
             <label for="province">Province:</label>
             <select id="province" name="province">
                 <option value="">Select Province</option>
-                <option value="1">Province 1</option>
-                <option value="2">Province 2</option>
-                <option value="3">Bagmati Province</option>
-				<option value="4">Gandaki Province</option>
-				<option value="5">Lumbini Province</option>
-				<option value="6">Karnali Province</option>
-				<option value="7">SudurPaschim Province</option>
-                <!-- Add more options as needed -->
+                <option value="Province 1">Province 1</option>
+                <option value="Province 2">Province 2</option>
+                <option value="Province 3">Province 3</option>
             </select>
 
             <label for="district">District:</label>
             <select id="district" name="district" disabled>
                 <option value="">Select District</option>
-                <!-- District options will be populated dynamically based on the selected province -->
             </select>
 
             <label for="localLevel">Local Level:</label>
             <select id="localLevel" name="localLevel" disabled>
                 <option value="">Select Local Level</option>
-                <!-- Local level options will be populated dynamically based on the selected district -->
             </select>
 
-            <div id="dataList">
-                <!-- Display data here after selecting the local level -->
-            </div>
+            <div id="dataList"></div>
         </form>
     </div>
 
     <script>
         const districtData = {
-            1: ["Bhojpur", "Dhankuta", "IIlam", "Jhapa", "Khotang", "Morang", "Okhaldhunga", "Panchthar", "Sankhuwasabha", "Solukhumbu", "Sunsari", "Taplejung", "Terhathum", "Udayapur"],
-            2: ["District A", "District B", "District C"],
-            3: ["District X", "District Y", "District Z"]
+            "Province 1": ["District 1", "District 2", "District 3"],
+            "Province 2": ["District A", "District B", "District C"],
+            "Province 3": ["District X", "District Y", "District Z"]
             // Add more districts for each province as needed
         };
 
         const localLevelData = {
-            "Bhojpur": ["Local Level A", "Local Level B", "Local Level C"],
+            "District 1": ["Local Level A", "Local Level B", "Local Level C"],
             "District 2": ["Local Level X", "Local Level Y", "Local Level Z"],
             "District 3": ["Local Level P", "Local Level Q", "Local Level R"],
             // Add more local levels for each district as needed
@@ -100,44 +92,23 @@
         const dataList = document.getElementById("dataList");
 
         provinceDropdown.addEventListener("change", function() {
-            const province = this.value;
-            if (province) {
-                districtDropdown.disabled = false;
-                districtDropdown.innerHTML = "<option value=''>Select District</option>";
-                localLevelDropdown.disabled = true;
-                localLevelDropdown.innerHTML = "<option value=''>Select Local Level</option>";
-                const districts = districtData[province];
-                districts.forEach(function(district) {
-                    const option = document.createElement("option");
-                    option.value = district;
-                    option.textContent = district;
-                    districtDropdown.appendChild(option);
-                });
-            } else {
-                districtDropdown.disabled = true;
-                districtDropdown.innerHTML = "<option value=''>Select District</option>";
-                localLevelDropdown.disabled = true;
-                localLevelDropdown.innerHTML = "<option value=''>Select Local Level</option>";
-                dataList.innerHTML = ""; // Clear data list when province is changed
+            clearDropdown(districtDropdown);
+            clearDropdown(localLevelDropdown);
+            dataList.innerHTML = "";
+            const selectedProvince = this.value;
+            if (selectedProvince) {
+                const districts = districtData[selectedProvince];
+                populateDropdown(districtDropdown, districts);
             }
         });
 
         districtDropdown.addEventListener("change", function() {
-            const district = this.value;
-            if (district) {
-                localLevelDropdown.disabled = false;
-                localLevelDropdown.innerHTML = "<option value=''>Select Local Level</option>";
-                const localLevels = localLevelData[district];
-                localLevels.forEach(function(localLevel) {
-                    const option = document.createElement("option");
-                    option.value = localLevel;
-                    option.textContent = localLevel;
-                    localLevelDropdown.appendChild(option);
-                });
-            } else {
-                localLevelDropdown.disabled = true;
-                localLevelDropdown.innerHTML = "<option value=''>Select Local Level</option>";
-                dataList.innerHTML = ""; // Clear data list when district is changed
+            clearDropdown(localLevelDropdown);
+            dataList.innerHTML = "";
+            const selectedDistrict = this.value;
+            if (selectedDistrict) {
+                const localLevels = localLevelData[selectedDistrict];
+                populateDropdown(localLevelDropdown, localLevels);
             }
         });
 
@@ -150,6 +121,21 @@
                 dataList.innerHTML = ""; // Clear data list when local level is changed
             }
         });
+
+        function populateDropdown(dropdown, options) {
+            dropdown.disabled = false;
+            options.forEach(option => {
+                const optionElement = document.createElement("option");
+                optionElement.value = option;
+                optionElement.textContent = option;
+                dropdown.appendChild(optionElement);
+            });
+        }
+
+        function clearDropdown(dropdown) {
+            dropdown.innerHTML = "<option value=''>Select</option>";
+            dropdown.disabled = true;
+        }
     </script>
 </body>
 </html>
