@@ -3,19 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interest Calculator</title>
-    <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
-</script>
-<script>
-$(function(){
-$('#header').load('/assets/header.html');
-});
-</script>
-
-</head>
-<body>
-<div id ="header"></div>
+    <title>Dependent Dropdown Lists</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -24,21 +12,18 @@ $('#header').load('/assets/header.html');
             background-color: #f0f0f0;
         }
         .container {
-            max-width: 400px;
+            max-width: 600px;
             margin: 50px auto;
             background-color: #fff;
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        h1 {
-            text-align: center;
-        }
         label {
             display: block;
             margin-bottom: 10px;
         }
-        input[type="number"] {
+        select {
             width: 100%;
             padding: 10px;
             margin-bottom: 20px;
@@ -46,72 +31,125 @@ $('#header').load('/assets/header.html');
             border-radius: 5px;
             box-sizing: border-box;
         }
-        input[type="submit"] {
-            width: 100%;
-            background-color: #007bff;
-            color: #fff;
-            border: none;
-            padding: 10px;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-        input[type="submit"]:hover {
-            background-color: #0056b3;
-        }
-        #result {
+        #dataList {
             margin-top: 20px;
-            text-align: center;
-        }
-        .error-message {
-            color: red;
-            font-size: 0.8em;
-            margin-top: 5px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Interest Calculator</h1>
-        <form id="interestForm">
-            <label for="principal">Principal (P):</label>
-            <input type="number" id="principal" name="principal" required min="0">
-            <label for="rate">Rate of Interest (r):</label>
-            <input type="number" id="rate" name="rate" required min="0">
-            <label for="time">Time (t in years):</label>
-            <input type="number" id="time" name="time" required min="0">
-            <div id="error-message" class="error-message"></div>
-            <input type="submit" value="Calculate">
+        <h1>Dependent Dropdown Lists</h1>
+        <form id="dropdownForm">
+            <label for="province">Province:</label>
+            <select id="province" name="province">
+                <option value="">Select Province</option>
+                <option value="1">Province 1</option>
+                <option value="2">Province 2</option>
+                <option value="3">Bagmati Province</option>
+				<option value="4">Gandaki Province</option>
+				<option value="5">Lumbini Province</option>
+				<option value="6">Karnali Province</option>
+				<option value="7">SudurPaschim Province</option>
+                <!-- Add more options as needed -->
+            </select>
+
+            <label for="district">District:</label>
+            <select id="district" name="district" disabled>
+                <option value="">Select District</option>
+                <!-- District options will be populated dynamically based on the selected province -->
+            </select>
+
+            <label for="localLevel">Local Level:</label>
+            <select id="localLevel" name="localLevel" disabled>
+                <option value="">Select Local Level</option>
+                <!-- Local level options will be populated dynamically based on the selected district -->
+            </select>
+
+            <div id="dataList">
+                <!-- Display data here after selecting the local level -->
+            </div>
         </form>
-        <div id="result"></div>
     </div>
 
     <script>
-        document.getElementById("interestForm").addEventListener("submit", function(event) {
-            event.preventDefault();
-            var principal = parseFloat(document.getElementById("principal").value);
-            var rate = parseFloat(document.getElementById("rate").value);
-            var time = parseFloat(document.getElementById("time").value);
-            var errorMessage = document.getElementById("error-message");
-            if (principal <= 0 || rate <= 0 || time <= 0) {
-                errorMessage.textContent = "Fields must not be blank or zero.";
-                return;
+        const districtData = {
+            1: ["Bhojpur", "Dhankuta", "IIlam", "Jhapa", "Khotang", "Morang", "Okhaldhunga", "Panchthar", "Sankhuwasabha", "Solukhumbu", "Sunsari", "Taplejung", "Terhathum", "Udayapur"],
+            2: ["District A", "District B", "District C"],
+            3: ["District X", "District Y", "District Z"]
+            // Add more districts for each province as needed
+        };
+
+        const localLevelData = {
+            "Bhojpur": ["Local Level A", "Local Level B", "Local Level C"],
+            "District 2": ["Local Level X", "Local Level Y", "Local Level Z"],
+            "District 3": ["Local Level P", "Local Level Q", "Local Level R"],
+            // Add more local levels for each district as needed
+            "District A": ["Local Level M", "Local Level N", "Local Level O"],
+            "District B": ["Local Level D", "Local Level E", "Local Level F"],
+            "District C": ["Local Level G", "Local Level H", "Local Level I"],
+            // Add more local levels for each district as needed
+            "District X": ["Local Level J", "Local Level K", "Local Level L"],
+            "District Y": ["Local Level S", "Local Level T", "Local Level U"],
+            "District Z": ["Local Level V", "Local Level W", "Local Level X"]
+            // Add more local levels for each district as needed
+        };
+
+        const provinceDropdown = document.getElementById("province");
+        const districtDropdown = document.getElementById("district");
+        const localLevelDropdown = document.getElementById("localLevel");
+        const dataList = document.getElementById("dataList");
+
+        provinceDropdown.addEventListener("change", function() {
+            const province = this.value;
+            if (province) {
+                districtDropdown.disabled = false;
+                districtDropdown.innerHTML = "<option value=''>Select District</option>";
+                localLevelDropdown.disabled = true;
+                localLevelDropdown.innerHTML = "<option value=''>Select Local Level</option>";
+                const districts = districtData[province];
+                districts.forEach(function(district) {
+                    const option = document.createElement("option");
+                    option.value = district;
+                    option.textContent = district;
+                    districtDropdown.appendChild(option);
+                });
             } else {
-                errorMessage.textContent = "";
+                districtDropdown.disabled = true;
+                districtDropdown.innerHTML = "<option value=''>Select District</option>";
+                localLevelDropdown.disabled = true;
+                localLevelDropdown.innerHTML = "<option value=''>Select Local Level</option>";
+                dataList.innerHTML = ""; // Clear data list when province is changed
             }
-            var simpleInterest = (principal * rate * time) / 100;
-            var compoundInterest = principal * (Math.pow((1 + rate / 100), time)) - principal;
-            var result = document.getElementById("result");
-            result.innerHTML = "Simple Interest: " + simpleInterest.toFixed(2) + "<br>Compound Interest: " + compoundInterest.toFixed(2);
+        });
+
+        districtDropdown.addEventListener("change", function() {
+            const district = this.value;
+            if (district) {
+                localLevelDropdown.disabled = false;
+                localLevelDropdown.innerHTML = "<option value=''>Select Local Level</option>";
+                const localLevels = localLevelData[district];
+                localLevels.forEach(function(localLevel) {
+                    const option = document.createElement("option");
+                    option.value = localLevel;
+                    option.textContent = localLevel;
+                    localLevelDropdown.appendChild(option);
+                });
+            } else {
+                localLevelDropdown.disabled = true;
+                localLevelDropdown.innerHTML = "<option value=''>Select Local Level</option>";
+                dataList.innerHTML = ""; // Clear data list when district is changed
+            }
+        });
+
+        localLevelDropdown.addEventListener("change", function() {
+            const selectedLocalLevel = this.value;
+            if (selectedLocalLevel) {
+                // For demonstration purposes, displaying a hardcoded list of data
+                dataList.innerHTML = "<h2>Data List</h2><ul><li>Data 1</li><li>Data 2</li><li>Data 3</li></ul>";
+            } else {
+                dataList.innerHTML = ""; // Clear data list when local level is changed
+            }
         });
     </script>
-    <script>
-$(function(){
-$('#footer').load('/assets/footer.html');
-});
-</script>
-
-</body>
-  <div id ="footer"></div>
 </body>
 </html>
