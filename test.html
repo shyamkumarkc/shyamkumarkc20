@@ -3,7 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BMI Calculator</title>
+    <title>Interest Calculator</title>
+    <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+</script>
+<script>
+$(function(){
+$('#header').load('/assets/header.html');
+});
+</script>
+
+</head>
+<body>
+<div id ="header"></div>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -26,7 +38,7 @@
             display: block;
             margin-bottom: 10px;
         }
-        input[type="text"], input[type="number"] {
+        input[type="number"] {
             width: 100%;
             padding: 10px;
             margin-bottom: 20px;
@@ -51,29 +63,55 @@
             margin-top: 20px;
             text-align: center;
         }
+        .error-message {
+            color: red;
+            font-size: 0.8em;
+            margin-top: 5px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>BMI Calculator</h1>
-        <form id="bmiForm">
-            <label for="weight">Weight (kg):</label>
-            <input type="number" id="weight" name="weight" required>
-            <label for="height">Height (cm):</label>
-            <input type="number" id="height" name="height" required>
-            <input type="submit" value="Calculate BMI">
+        <h1>Interest Calculator</h1>
+        <form id="interestForm">
+            <label for="principal">Principal (P):</label>
+            <input type="number" id="principal" name="principal" required min="0">
+            <label for="rate">Rate of Interest (r):</label>
+            <input type="number" id="rate" name="rate" required min="0">
+            <label for="time">Time (t in years):</label>
+            <input type="number" id="time" name="time" required min="0">
+            <div id="error-message" class="error-message"></div>
+            <input type="submit" value="Calculate">
         </form>
         <div id="result"></div>
     </div>
 
     <script>
-        document.getElementById("bmiForm").addEventListener("submit", function(event) {
+        document.getElementById("interestForm").addEventListener("submit", function(event) {
             event.preventDefault();
-            var weight = parseFloat(document.getElementById("weight").value);
-            var height = parseFloat(document.getElementById("height").value) / 100; // convert height to meters
-            var bmi = weight / (height * height);
-            document.getElementById("result").innerHTML = "Your BMI is: " + bmi.toFixed(2);
+            var principal = parseFloat(document.getElementById("principal").value);
+            var rate = parseFloat(document.getElementById("rate").value);
+            var time = parseFloat(document.getElementById("time").value);
+            var errorMessage = document.getElementById("error-message");
+            if (principal <= 0 || rate <= 0 || time <= 0) {
+                errorMessage.textContent = "Fields must not be blank or zero.";
+                return;
+            } else {
+                errorMessage.textContent = "";
+            }
+            var simpleInterest = (principal * rate * time) / 100;
+            var compoundInterest = principal * (Math.pow((1 + rate / 100), time)) - principal;
+            var result = document.getElementById("result");
+            result.innerHTML = "Simple Interest: " + simpleInterest.toFixed(2) + "<br>Compound Interest: " + compoundInterest.toFixed(2);
         });
     </script>
+    <script>
+$(function(){
+$('#footer').load('/assets/footer.html');
+});
+</script>
+
+</body>
+  <div id ="footer"></div>
 </body>
 </html>
