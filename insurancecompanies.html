@@ -200,7 +200,52 @@ So far, there is only two reinsurance company in Nepal.&nbsp;<div>
         regulations in Nepal
     </li>
 </ul>
+<table border="black" style="width: 100%;">
 
+      <thead>
+         <tr>
+            <th>S No</th>
+            <th>Company Name</th>
+           
+            <th>Operation Date</th>
+            <th>NEPSE</th>
+			
+			<th>Website</th>
+         </tr>
+      </thead>
+      <tbody id="data-output2">
+         <!-- Prodcuts from javascript file in here. -->
+      </tbody>
+   </table>
+ 
+   <script>
+   fetch("https://shyamkumarkc20.com.np/js/reinsurance.json")
+.then(function(response){
+   return response.json();
+})
+.then(function(products){
+   let placeholder = document.querySelector("#data-output2");
+   let out = "";
+   for(let product of products){
+      out += `
+         <tr>
+            
+            <td>${product.Sno}</td>
+			
+            <td>${product.Name}</td>
+			<td>${product.Operation}</td>
+			
+			<td>${product.NEPSE}</td>
+			
+            <td><a href ="https://${product.Website}"target="blank">${product.Website}</a></td>
+            
+         </tr>
+      `;
+   }
+ 
+   placeholder.innerHTML = out;
+});
+   </script> 
 
 
 <script>
