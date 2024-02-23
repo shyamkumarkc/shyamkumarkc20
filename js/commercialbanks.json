@@ -47,7 +47,9 @@
 	"NEPSE": "NABIL",
 	"Swift": "NARBNPKA",
 	  "IMG": "https://shyamkumarkc20.com.np/logo/nabil.png",
-	"Website": "www.nabilbank.com"
+	"Website": "www.nabilbank.com",
+	  "TOLL": "0",
+	"phone": "01-5970015"
 	
   },
   {
@@ -58,7 +60,9 @@
 	"NEPSE": "NIMB",
 	"Swift": "NIBLNPKT",
 	"Website": "www.nimb.com.np",
-	  "IMG": "https://shyamkumarkc20.com.np/logo/nimb.png"
+	  "IMG": "https://shyamkumarkc20.com.np/logo/nimb.png",
+	"TOLL": "0",
+	"phone": "0"
   },
   {
     "SNO": 6,
@@ -68,7 +72,9 @@
 	"NEPSE": "SCB",
 	"Swift": "SCBLNPKA",
 	"Website": "www.sc.com/np",
-	  "IMG": "https://shyamkumarkc20.com.np/logo/scb.jpg"
+	  "IMG": "https://shyamkumarkc20.com.np/logo/scb.jpg",
+	"TOLL": "0",
+	"phone": "0"
   },
   {
     "SNO": 7,
@@ -78,7 +84,9 @@
 	"NEPSE": "HBL",
 	"Swift": "HIMANPKA",
 	"Website": "www.himalayanbank.com",
-	  "IMG": "https://shyamkumarkc20.com.np/logo/hbl.jpeg"
+	  "IMG": "https://shyamkumarkc20.com.np/logo/hbl.jpeg",
+	"TOLL": "0",
+	"phone": "0"
   },
   {
     "SNO": 8,
@@ -88,7 +96,9 @@
 	"NEPSE": "SBI",
 	"Swift": "NSBINPKA",
 	"Website": "www.nsbl.statebank/home",
-	  "IMG": "https://shyamkumarkc20.com.np/logo/scb.jpg"
+	  "IMG": "https://shyamkumarkc20.com.np/logo/scb.jpg",
+	"TOLL": "0",
+	"phone": "0"
   },
   {
     "SNO": 9,
@@ -98,7 +108,9 @@
 	"NEPSE": "EBL",
 	"Swift": "EVBLNPKA",
 	"Website": "www.everestbankltd.com",
-	  "IMG": "https://shyamkumarkc20.com.np/logo/ebl.png"
+	  "IMG": "https://shyamkumarkc20.com.np/logo/ebl.png",
+	"TOLL": "0",
+	"phone": "0"
   },
   {
     "SNO": 10,
@@ -108,7 +120,9 @@
 	"NEPSE": "KBL",
 	"Swift": "KMBLNPKA",
 	"Website": "www.kumaribank.com",
-	  "IMG": "https://shyamkumarkc20.com.np/logo/kbl.png"
+	  "IMG": "https://shyamkumarkc20.com.np/logo/kbl.png",
+	"TOLL": "0",
+	"phone": "0"
   },
   {
     "SNO": 11,
@@ -118,7 +132,9 @@
 	"NEPSE": "LSL",
 	"Swift": "LXBLNPKA",
 	"Website": "www.laxmisunrise.com",
-	  "IMG": "https://shyamkumarkc20.com.np/logo/laxmi.jpeg"
+	  "IMG": "https://shyamkumarkc20.com.np/logo/laxmi.jpeg",
+	"TOLL": "0",
+	"phone": "0"
   },
   {
     "SNO": 12,
@@ -128,7 +144,9 @@
 	"NEPSE": "CZBIL",
 	"Swift": "CTZNNPKA",
 	"Website": "www.ctznbank.com",
-	  "IMG": "https://shyamkumarkc20.com.np/logo/czbil.jpeg"
+	  "IMG": "https://shyamkumarkc20.com.np/logo/czbil.jpeg",
+	"TOLL": "0",
+	"phone": "0"
   },
   {
     "SNO": 13,
@@ -138,7 +156,9 @@
 	"NEPSE": "PCBL",
 	"Swift": "PCBLNPKA",
 	"Website": "www.primebank.com.np",
-	  "IMG": "https://shyamkumarkc20.com.np/logo/prime.jpeg"
+	  "IMG": "https://shyamkumarkc20.com.np/logo/prime.jpeg",
+	"TOLL": "0",
+	"phone": "0"
   },
   {
     "SNO": 14,
@@ -148,7 +168,9 @@
 	"NEPSE": "SANIMA",
 	"Swift": "SNMANPKA",
 	"Website": "www.sanimabank.com",
-	  "IMG": "https://shyamkumarkc20.com.np/logo/sanima.png"
+	  "IMG": "https://shyamkumarkc20.com.np/logo/sanima.png",
+	"TOLL": "0",
+	"phone": "0"
   },
   {
     "SNO": 15,
@@ -158,7 +180,9 @@
 	"NEPSE": "MBL",
 	"Swift": "MBLNNPKA",
 	"Website": "www.machbank.com",
-	  "IMG": "https://shyamkumarkc20.com.np/logo/mbl.png"
+	  "IMG": "https://shyamkumarkc20.com.np/logo/mbl.png",
+	"TOLL": "0",
+	"phone": "0"
   },
   {
     "SNO": 16,
@@ -168,7 +192,9 @@
 	"NEPSE": "NICA",
 	"Swift": "NICENPKA",
 	"Website": "www.nicasiabank.com",
-	  "IMG": "https://shyamkumarkc20.com.np/logo/nica.png"
+	  "IMG": "https://shyamkumarkc20.com.np/logo/nica.png",
+	"TOLL": "0",
+	"phone": "0"
 	  },
   {
     "SNO": 17,
@@ -178,7 +204,9 @@
 	"NEPSE": "GBIME",
 	"Swift": "GLBBNPKA",
 	"Website": "www.globalimebank.com",
-	  "IMG": "https://shyamkumarkc20.com.np/logo/gbime.png"
+	  "IMG": "https://shyamkumarkc20.com.np/logo/gbime.png",
+	"TOLL": "0",
+	"phone": "0"
 	
   },
   {
@@ -189,7 +217,9 @@
 	"NEPSE": "NMB",
 	"Swift": "NMBBNPKA",
 	"Website": "www.nmb.com.np",
-	  "IMG": "https://shyamkumarkc20.com.np/logo/nmb.png"
+	  "IMG": "https://shyamkumarkc20.com.np/logo/nmb.png",
+	"TOLL": "0",
+	"phone": "0"
   },
   {
     "SNO": 19,
@@ -199,7 +229,9 @@
 	"NEPSE": "PRVU",
 	"Swift": "PRVUNPKA",
 	"Website": "www.prabhubank.com" ,
-	  "IMG": "https://shyamkumarkc20.com.np/logo/prvu.png"
+	  "IMG": "https://shyamkumarkc20.com.np/logo/prvu.png",
+	"TOLL": "0",
+	"phone": "0"
 
   },
   {
@@ -210,7 +242,9 @@
 	"NEPSE": "SBL",
 	"Swift": "SIDDNPKA",
 	"Website": "www.siddharthabank.com",
-	  "IMG": "https://shyamkumarkc20.com.np/logo/sbl.jpeg"
+	  "IMG": "https://shyamkumarkc20.com.np/logo/sbl.jpeg",
+	"TOLL": "0",
+	"phone": "0"
 	
   }
 ]
