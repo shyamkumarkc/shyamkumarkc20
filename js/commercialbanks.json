@@ -102,11 +102,11 @@
 	"HO": "Kesharmahal Kathmandu",
 	"NEPSE": "SBI",
 	"Swift": "NSBINPKA",
-	"Website": "www.nsbl.statebank/home",
+	"Website": "www.nsbl.statebank",
 	  "IMG": "https://shyamkumarkc20.com.np/logo/scb.jpg",
-	"TOLL": "0",
-	"phone": "0",
-	"email": ""
+	"TOLL": "16600120012",
+	"phone": "01-5970333",
+	"email": "corporate@nsbl.com.np"
   },
   {
     "SNO": 9,
@@ -117,9 +117,9 @@
 	"Swift": "EVBLNPKA",
 	"Website": "www.everestbankltd.com",
 	  "IMG": "https://shyamkumarkc20.com.np/logo/ebl.png",
-	"TOLL": "0",
-	"phone": "0",
-	"email": ""
+	"TOLL": "16600171718, 18102171718",
+	"phone": "01-5970118",
+	"email": "customercare@ebl.com.np"
   },
   {
     "SNO": 10,
@@ -131,8 +131,8 @@
 	"Website": "www.kumaribank.com",
 	  "IMG": "https://shyamkumarkc20.com.np/logo/kbl.png",
 	"TOLL": "0",
-	"phone": "0",
-	"email": ""
+	"phone": "+977 14543076, +977 14543077+977 14543079",
+	"email": "contact@kumaribank.com"
   },
   {
     "SNO": 11,
@@ -144,8 +144,8 @@
 	"Website": "www.laxmisunrise.com",
 	  "IMG": "https://shyamkumarkc20.com.np/logo/laxmi.jpeg",
 	"TOLL": "0",
-	"phone": "0",
-	"email": ""
+	"phone": "01-5970684,01-4544684, 01-4544685",
+	"email": "info@laxmisunrise.com"
   },
   {
     "SNO": 12,
@@ -156,9 +156,9 @@
 	"Swift": "CTZNNPKA",
 	"Website": "www.ctznbank.com",
 	  "IMG": "https://shyamkumarkc20.com.np/logo/czbil.jpeg",
-	"TOLL": "0",
-	"phone": "0",
-	"email": ""
+	"TOLL": "16600166667",
+	"phone": "01-5970068",
+	"email": "info@ctznbank.com"
   },
   {
     "SNO": 13,
