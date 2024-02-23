@@ -77,7 +77,8 @@
 	"HO": "Kamaladi Kathmandu",
 	"NEPSE": "HBL",
 	"Swift": "HIMANPKA",
-	"Website": "www.himalayanbank.com"
+	"Website": "www.himalayanbank.com",
+	  "IMG": "https://shyamkumarkc20.com.np/logo/hbl.jpeg"
   },
   {
     "SNO": 8,
@@ -86,7 +87,8 @@
 	"HO": "Kesharmahal Kathmandu",
 	"NEPSE": "SBI",
 	"Swift": "NSBINPKA",
-	"Website": "www.nsbl.statebank/home"
+	"Website": "www.nsbl.statebank/home",
+	  "IMG": "https://shyamkumarkc20.com.np/logo/scb.jpg"
   },
   {
     "SNO": 9,
@@ -95,7 +97,8 @@
 	"HO": "Lazimpat Kathmandu",
 	"NEPSE": "EBL",
 	"Swift": "EVBLNPKA",
-	"Website": "www.everestbankltd.com"
+	"Website": "www.everestbankltd.com",
+	  "IMG": "https://shyamkumarkc20.com.np/logo/ebl.png"
   },
   {
     "SNO": 10,
@@ -104,7 +107,8 @@
 	"HO": "Durbarmarg Kathmandu",
 	"NEPSE": "KBL",
 	"Swift": "KMBLNPKA",
-	"Website": "www.kumaribank.com"
+	"Website": "www.kumaribank.com",
+	  "IMG": "https://shyamkumarkc20.com.np/logo/kbl.png"
   },
   {
     "SNO": 11,
@@ -113,7 +117,8 @@
 	"HO": "Hattisar Kathmandu",
 	"NEPSE": "LSL",
 	"Swift": "LXBLNPKA",
-	"Website": "www.laxmisunrise.com"
+	"Website": "www.laxmisunrise.com",
+	  "IMG": "https://shyamkumarkc20.com.np/logo/laxmi.jpeg"
   },
   {
     "SNO": 12,
