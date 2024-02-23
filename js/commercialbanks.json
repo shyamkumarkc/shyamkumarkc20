@@ -127,7 +127,8 @@
 	"HO": "Kamaladi Kathmandu",
 	"NEPSE": "CZBIL",
 	"Swift": "CTZNNPKA",
-	"Website": "www.ctznbank.com"
+	"Website": "www.ctznbank.com",
+	  "IMG": "https://shyamkumarkc20.com.np/logo/czbil.jpeg"
   },
   {
     "SNO": 13,
@@ -136,7 +137,8 @@
 	"HO": "Newroad Kathmandu",
 	"NEPSE": "PCBL",
 	"Swift": "PCBLNPKA",
-	"Website": "www.primebank.com.np"
+	"Website": "www.primebank.com.np",
+	  "IMG": "https://shyamkumarkc20.com.np/logo/prime.jpeg"
   },
   {
     "SNO": 14,
@@ -145,7 +147,8 @@
 	"HO": "Nagpokhari Kathmandu",
 	"NEPSE": "SANIMA",
 	"Swift": "SNMANPKA",
-	"Website": "www.sanimabank.com"
+	"Website": "www.sanimabank.com",
+	  "IMG": "https://shyamkumarkc20.com.np/logo/sanima.png"
   },
   {
     "SNO": 15,
@@ -154,7 +157,8 @@
 	"HO": "Lazimpat Kathmandu",
 	"NEPSE": "MBL",
 	"Swift": "MBLNNPKA",
-	"Website": "www.machbank.com"
+	"Website": "www.machbank.com",
+	  "IMG": "https://shyamkumarkc20.com.np/logo/mbl.png"
   },
   {
     "SNO": 16,
@@ -163,7 +167,8 @@
 	"HO": "Thapathali Kathmandu",
 	"NEPSE": "NICA",
 	"Swift": "NICENPKA",
-	"Website": "www.nicasiabank.com"
+	"Website": "www.nicasiabank.com",
+	  "IMG": "https://shyamkumarkc20.com.np/logo/nica.png"
 	  },
   {
     "SNO": 17,
@@ -172,7 +177,8 @@
 	"HO": "Kamaladi Kathmandu",
 	"NEPSE": "GBIME",
 	"Swift": "GLBBNPKA",
-	"Website": "www.globalimebank.com"
+	"Website": "www.globalimebank.com",
+	  "IMG": "https://shyamkumarkc20.com.np/logo/gbime.png"
 	
   },
   {
@@ -182,7 +188,8 @@
 	"HO": "Babarmahal Kathmandu",
 	"NEPSE": "NMB",
 	"Swift": "NMBBNPKA",
-	"Website": "www.nmb.com.np"
+	"Website": "www.nmb.com.np",
+	  "IMG": "https://shyamkumarkc20.com.np/logo/nmb.png"
   },
   {
     "SNO": 19,
@@ -191,7 +198,8 @@
 	"HO": "Babarmahal Kathmandu",
 	"NEPSE": "PRVU",
 	"Swift": "PRVUNPKA",
-	"Website": "www.prabhubank.com" 
+	"Website": "www.prabhubank.com" ,
+	  "IMG": "https://shyamkumarkc20.com.np/logo/prvu.png"
 
   },
   {
@@ -201,7 +209,8 @@
 	"HO": "Hattisar Kathmandu",
 	"NEPSE": "SBL",
 	"Swift": "SIDDNPKA",
-	"Website": "www.siddharthabank.com"
+	"Website": "www.siddharthabank.com",
+	  "IMG": "https://shyamkumarkc20.com.np/logo/sbl.jpeg"
 	
   }
 ]
