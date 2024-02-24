@@ -47,106 +47,49 @@ To maintain macro-economic stability through sound and effective monetary, forei
 <h3>
 NRB Governors over the years</h3>
 <hr />
-<table border="black">
-<tbody>
-<tr>
-<th width="33">S.N.</th>
-<th width="250"><strong>Name of Governor</strong></th>
-<th width="300"><strong>Term of office (AD)</strong></th>
-<th width="250"><strong>Term of office (BS)</strong></th>
-</tr>
-<tr>
-<td>1.</td>
-<td>Mr. Himalaya Shumsher J.B. Rana</td>
-<td>April 26, 1956 - February 7, 1961</td>
-<td>14 Baishak 2013 - 26 Magh 2017</td>
-</tr>
-<tr>
-<td>2.</td>
-<td>Mr. Laxmi Nath Gautam</td>
-<td>February 8, 1961 - June 17, 1965</td>
-<td>27 Magh 2017 - </td>
-</tr>
-<tr>
-<td>3.</td>
-<td>Mr. Pradyuma Lal Rajbhandari</td>
-<td>June 18, 1965 - August 13, 1966</td>
-<td></td>
-</tr>
-<tr>
-<td>4.</td>
-<td>Dr. Bhekh Bahadur Thapa</td>
-<td>August 14, 1966 - July 26, 1967</td>
-<td></td>
-</tr>
-<tr>
-<td>5.</td>
-<td>Dr. Yadav Prasad Pant</td>
-<td>April 24, 1968 - April 28, 1973</td>
-<td></td>
-</tr>
-<tr>
-<td>6.</td>
-<td>Mr. Kul Shekhar Sharma</td>
-<td>April 29, 1973 - December 12, 1978</td>
-</tr>
-<tr>
-<td>7.</td>
-<td>Mr. Kalyana Bikram Adhikary</td>
-<td>June 13, 1979 - December 8, 1984</td>
-</tr>
-<tr>
-<td>8.</td>
-<td>Mr. Ganesh Bahadur Thapa</td>
-<td>March 25, 1985 - May 22, 1990</td>
-</tr>
-<tr>
-<td>9.</td>
-<td>Mr. Hari Shankar Tripathi</td>
-<td>August 10, 1990 - January 17, 1995</td>
-</tr>
-<tr>
-<td>10.</td>
-<td>Mr. Satyendra Pyara Shrestha</td>
-<td>January 18, 1995 - January 17, 2000</td>
-</tr>
-<tr>
-<td>11.</td>
-<td>Dr. Tilak Bahadur Rawal</td>
-<td>January 18, 2000 - January 17, 2005</td>
-</tr>
-<tr>
-<td>12.</td>
-<td>Mr. Deependra Purush Dhakal</td>
-<td>August 29, 2000 - April 27, 2001</td>
-</tr>
-<tr>
-<td>13.</td>
-<td>Mr. Bijaya Nath Bhattarai</td>
-<td>January 31, 2005 - January 30, 2010</td>
-</tr>
-<tr>
-<td>14.</td>
-<td>Mr. Deependra Bahadur Kshetry</td>
-<td>January 15, 2009 - July 26, 2009</td>
-</tr>
-<tr>
-<td>15.</td>
-<td>Dr. Yuba Raj Khatiwada</td>
-<td>March 22, 2010 - March 19, 2015</td>
-</tr>
-<tr>
-<td>16.</td>
-<td>Dr. Chiranjibi Nepal</td>
-<td>March 19, 2015 - April 06, 2020</td>
-</tr>
-<tr>
-<td>17.</td>
-<td>Maha Prasad Adhikari</td>
-<td>April 06, 2020 - Present</td>
-</tr>
-</tbody>
-</table>
+<table>
+      <thead>
+         <tr>
+            <th>S No</th>
+			 <th>Governor Name</th>
+            <th>Term of office (AD)</th>
+            <th>Term of office (BS)</th>
+            
+         </tr>
+      </thead>
+      <tbody id="data-output">
+         <!-- Prodcuts from javascript file in here. -->
+      </tbody>
+   </table>
+ 
+   <script>
+   fetch("https://shyamkumarkc20.com.np/js/governor.json")
+.then(function(response){
+   return response.json();
+})
+.then(function(products){
+   let placeholder = document.querySelector("#data-output");
+   let out = "";
+   for(let product of products){
+      out += `
+         <tr>
+            
+            <td>${product.SNO}</td>
+			
+            <td>${product.Name}</td>
+			<td>${product.TermAD}</td>
+			<td>${product.TermBS}</td>
+			
+            
+         </tr>
+      `;
+   }
+   
+ 
+   placeholder.innerHTML = out;
+});
+
+</script> 
 Src: <a href="https://www.nrb.org.np/" rel="nofollow" target="_blank">Nepal Rastra Bank</a></div>
 <h3>Functions, Rights and Duties</h3>
 <ol style="list-style-type: upper-roman;">
