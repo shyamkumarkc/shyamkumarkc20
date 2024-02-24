@@ -51,9 +51,9 @@
   {
     "SNO": 4,
     "Name": "Excel Development Bank Limited",
-	"OD": "EDBL",
+	"OD": "",
 	"HO": "Mukti Chowk, Ward No.-4, Birtamode Municipality",
-	"NEPSE": "",
+	"NEPSE": "EDBL",
 	"Swift": "",
 	"Website": "edb.com.np",
 	"links": "https://shyamkumarkc20.com.np/nepalbank.html",
@@ -67,9 +67,9 @@
   {
     "SNO": 5,
     "Name": "Miteri Development Bank Limited",
-	"OD": "MDB",
+	"OD": "",
 	"HO": "Mahendrapath, Dharan-12",
-	"NEPSE": "",
+	"NEPSE": "MDB",
 	"Swift": "",
 	"Website": "miteribank.com.np",
 	"links": "https://shyamkumarkc20.com.np/nepalbank.html",
@@ -83,9 +83,9 @@
   {
     "SNO": 6,
     "Name": "Muktinath Bikas Bank Limited",
-	"OD": "MNBBL",
+	"OD": "
 	"HO": "Hattisar, Kathmandu",
-	"NEPSE": "",
+	"NEPSE": "MNBBL",",
 	"Swift": "",
 	"Website": "www.muktinathbank.com.np",
 	"links": "https://shyamkumarkc20.com.np/nepalbank.html",
@@ -189,30 +189,31 @@
     "SNO": 13,
     "Name": "Lumbini Bikas Bank Limited",
 	"OD": "",
-	"HO": "",
+	"HO": "Dilibazar, Kathmandu",
 	"NEPSE": "LBBL",
 	"Swift": "",
-	"Website": "",
+	"Website": "www.lumbinibikasbank.com",
 	"links": "https://shyamkumarkc20.com.np/nepalbank.html",
 	"IMG": "https://shyamkumarkc20.com.np/logo/lbbl.jpg",
 	"TOLL": "0",
-	"phone": "0",
-	"email": "0",
-	"pobox": "0"
+	"phone": "01-4513232/4521696; 5970369 ,",
+	"email": "info@lumbinibikasbank.com",
+	"pobox": "20700",
+	"fax": "01-4513526"
 	
   },{
     "SNO": 14,
     "Name": "Sindhu Bikas Bank Limited",
-	"OD": "",
-	"HO": "SINDHU",
-	"NEPSE": "",
+	"OD": "2067-05-24 (2010-09-09)",
+	"HO": "Barhabise Bazar, Barhabise",
+	"NEPSE": "SINDHU",
 	"Swift": "",
-	"Website": "",
+	"Website": "www.sindhubank.com.np",
 	"links": "https://shyamkumarkc20.com.np/nepalbank.html",
 	"IMG": "https://shyamkumarkc20.com.np/logo/sindhu.png",
 	"TOLL": "0",
-	"phone": "0",
-	"email": "0",
+	"phone": "011-662340 011-662341",
+	"email": "info@sindhubank.com.np",
 	"pobox": "0"
 	
   },{
