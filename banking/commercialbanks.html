@@ -132,7 +132,34 @@ $('#header').load('/assets/header.html');
 </tbody>
 </table>
 
+<p id="data-output">
+ 
+ </p>
+   <script>
+   fetch("https://shyamkumarkc20.com.np/js/commercialbanks.json")
+.then(function(response){
+   return response.json();
+})
+.then(function(products){
+   let placeholder = document.querySelector("#data-output");
+   let out = "";
+   for(let product of products){
+      out += `
+         <p>
+            
+            ${product.SNO}
+            ${product.Name}
+			
+            
+         </p>
+      `;
+   }
+   
+ 
+   placeholder.innerHTML = out;
+});
 
+   </script>
 
 
 
