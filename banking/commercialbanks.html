@@ -132,9 +132,21 @@ $('#header').load('/assets/header.html');
 </tbody>
 </table>
 
-<p id="data-output">
+<table border="black" style="width: 100%;">
+<thead>
+<tr>
+<th>S.No.</th>
+<th>Name</th>
+	
+
+</tr>
+</thead>
+
+      <tbody id="data-output">
+         <!-- Prodcuts from javascript file in here. -->
+      </tbody>
+   </table>
  
- </p>
    <script>
    fetch("https://shyamkumarkc20.com.np/js/commercialbanks.json")
 .then(function(response){
@@ -145,16 +157,17 @@ $('#header').load('/assets/header.html');
    let out = "";
    for(let product of products){
       out += `
-         <p>
+         <tr>
             
-            ${product.SNO}
-            ${product.Name}
+            <td>${product.SNO}</td>
+             <td>${product.Name}</td>
+	    
 			
+           
             
-         </p>
+         </tr>
       `;
    }
-   
  
    placeholder.innerHTML = out;
 });
