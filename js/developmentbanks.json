@@ -234,15 +234,15 @@
     "SNO": 16,
     "Name": "Saptakoshi Development Bank Limited",
 	"OD": "",
-	"HO": "",
+	"HO": "Main-Road, Biratnagar-7, Morang, Nepal",
 	"NEPSE": "SAPDBL",
 	"Swift": "",
-	"Website": "",
+	"Website": "skdbl.com.np/",
 	"links": "https://shyamkumarkc20.com.np/nepalbank.html",
-	"IMG": "https://shyamkumarkc20.com.np/logo/nbl.jpg",
+	"IMG": "https://shyamkumarkc20.com.np/logo/sapdbl.png",
 	"TOLL": "0",
-	"phone": "0",
-	"email": "0",
+	"phone": "021-518135/37",
+	"email": "info@skdbl.com.np",
 	"pobox": "0"
 	
   },
@@ -253,13 +253,14 @@
 	"HO": "Dharmapath Kathmandu",
 	"NEPSE": "NBL",
 	"Swift": "NBLNPKA",
-	"Website": "www.nepalbank.com.np",
+	"Website": "greenbank.com.np",
 	"links": "https://shyamkumarkc20.com.np/nepalbank.html",
-	"IMG": "https://shyamkumarkc20.com.np/logo/nbl.jpg",
-	"TOLL": "16600137373",
-	"phone": "01-5971222",
-	"email": "info@nepalbank.com.np",
-	"pobox": "0"
+	"IMG": "https://shyamkumarkc20.com.np/logo/grdbl.png",
+	"TOLL": "0",
+	"phone": "061-533590",
+	"email": "info@greenbank.com.np",
+	"pobox": "0",
+	"fax": "061-533634"
 	
   }
   ]
