@@ -1,181 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dependent Dropdown Lists</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-        }
-        .container {
-            max-width: 600px;
-            margin: 50px auto;
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        label {
-            display: block;
-            margin-bottom: 10px;
-        }
-        select {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 20px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            box-sizing: border-box;
-        }
-        #dataList {
-            margin-top: 20px;
-        }
-    </style>
-</head>
 <body>
-    <div class="container">
-        <h1>Dependent Dropdown Lists</h1>
-        <form id="dropdownForm">
-            <label for="province">Province:</label>
-            <select id="province" name="province">
-                <option value="">Select Province</option>
+   <table>
+      <thead>
+         <tr>
+            <th>S No</th>
+			 <th>Governor Name</th>
+            <th>Term of office (AD)</th>
+            <th>Term of office (BS)</th>
             
-                <option value="1">Province 1</option>
-                <option value="2">Province 2</option>
-                <option value="3">Bagmati Province</option>
-				<option value="4">Gandaki Province</option>
-				<option value="5">Lumbini Province</option>
-				<option value="6">Karnali Province</option>
-				<option value="7">SudurPaschim Province</option>
-            </select>
-
-            <label for="district">District:</label>
-            <select id="district" name="district" disabled>
-                <option value="">Select District</option>
-            </select>
-
-            <label for="localLevel">Local Level:</label>
-            <select id="localLevel" name="localLevel" disabled>
-                <option value="">Select Local Level</option>
-            </select>
-
-            <div id="dataList"></div>
-        </form>
-    </div>
-
-    <script>
-        const districtData = {
-            1: ["Bhojpur", "Dhankuta", "IIlam", "Jhapa", "Khotang", "Morang", "Okhaldhunga", "Panchthar", "Sankhuwasabha", "Solukhumbu", "Sunsari", "Taplejung", "Terhathum", "Udayapur"],
-            2: ["Saptari", "Parsa", "Bara","Siraha","Dhanusa","Rautahat","Mahottari", "Sarlahi"],
-			3:["Rasuwa", "Nuwakot", "Dhading", "Chitwan","Makawanpur", "Bhaktapur","Dolakha", "Kathmandu","Kavrepalanchok", "Lalitpur","Ramechhap", "Sindhuli","Sindhupalchok"],
-			4: ["Baglung", "Gorkha", "Kaski","Lamjung","Manang","Mustang","Nawalpur","Parbat","Syangja","Tanahun", "Myagdi"],
-			5: ["Arghakhanchi", "Banke", "Bardiya","Dang"," Eastern Rukum", "Gulmi", "Kapilvastu","Parasi","Palpa","Pyuthan","Rolpa", "Rupandehi"],
-			6: ["Dailekh", "Dolpa", "Humla", "Jajarkot", "Jumla","Kalikot","Mugu","Salyan","Surkhet", "Western Rukum"],
-			7: ["Achham", "Baitadi","Bajhang", "Bajura","Dadeldhura","Doti","Darchula","Kailali", "Kanchanpur"]
-            // Add more districts for each province as needed
-        };
-
-        const localLevelData = {
-            "Bhojpur": ["Bhojpur Municipality", "Shadanand Municipality", "Hatuwagadhi Rural Municipality", "Ramprasad Rai Rural Municipality",
-"Aamchok Rural Municipality", "Tyamke Maiyunm Rural Municipality", "Arun Rural Municipality", "Pauwadungma Rural Municipality", "Salpasilichho Rural Municipality"],
-            "Dhankuta": ["Pakhribas Municipality", "Dhankuta Municipality", "Mahalaxmi Municipality", "Sangurigadhi Rural Municipality", "Khalsa Chhintang Sahidbhumi Rural Municipality", 
-"Chhathar Jorpati Rural Municipality", "Chaubise Rural Municipality"],
-		 "IIlam": ["Ilam Municipality", "Deumai Municipality", "Mai Municipality", "Suryodaya Municipality", "Phakphokthum Rural Municipality", "Chulachuli Rural Municipality", "Maijogmai Rural Municipality",
-"Mangsebung Rural Municipality", "Rong Rural Municipality", "Sandakpur Rural Municipality "],
-           "Jhapa": ["Mechinagar Municipality","Damak Municipality","Kankai Municipality","Bhadrapur Municipality","Arjundhara Municipality","Shivasatakshi Municipality",
-"Gauradaha Municipality","Birtamod Municipality","Kamal Rural Municipality","Gaurigunj Rural Municipality","Barhadashi Rural Municipality","Jhapa Rural Municipality",
-"Buddhashanti Rural Municipality","Haldibari Rural Municipality","Kachankawal Rural Municipality"],
-		"Khotang": ["Rupakot Majhuwagadhi Municipality","Halesi Tuwachung Municipality","Khotehang Rural Municipality","Diprung Rural Municipality","Aiselukharka Rural Municipality","Jantedhunga Rural Municipality",
-"Kepilasgadhi Rural Municipality","Barahpokhari Rural Municipality","Lamidanda Rural Municipality","Sakela Rural Municipality"],
-		"Morang": ["Biratnagar Metropolitan City",
-"SundarHaraicha Municipality",
-"Belbari Municipality",
-"Pathari-Sanischare Municipality",
-"Urlabari Municipality",
-"Rangeli Municipality",
-"Letang Bhogateni Municipality",
-"Ratuwamai Municipality",
-"Sunbarshi Municipality",
-"Kerabari Rural Municipality",
-"Miklajung Rural Municipality",
-"Kanepokhari Rural Municipality",
-"Budiganga Rural Municipality",
-"Gramthan Rural Municipality",
-"Katahari Rural Municipality",
-"Dhampalthan Rural Municipality",
-"Jahada Rural Municipality" ],
-            // Add more local levels for each district as needed
-            "Okhaldhunga": [ "Siddhicharan Municipality",
-"Manebhanjyang Rural Municipality",
-"Champadev Rural Municipalityi",
-"Sunkoshi Rural Municipality",
-"Molung Rural Municipality",
-"Chisankhugadhi Rural Municipality",
-"Khiji Demba Rural Municipality",
-"Likhu Rural Municipality"],
-            "District B": ["Local Level D", "Local Level E", "Local Level F"],
-            "District C": ["Local Level G", "Local Level H", "Local Level I"],
-            // Add more local levels for each district as needed
-            "District X": ["Local Level J", "Local Level K", "Local Level L"],
-            "District Y": ["Local Level S", "Local Level T", "Local Level U"],
-            "District Z": ["Local Level V", "Local Level W", "Local Level X"]
-            // Add more local levels for each district as needed
-        };
-
-        const provinceDropdown = document.getElementById("province");
-        const districtDropdown = document.getElementById("district");
-        const localLevelDropdown = document.getElementById("localLevel");
-        const dataList = document.getElementById("dataList");
-
-        provinceDropdown.addEventListener("change", function() {
-            clearDropdown(districtDropdown);
-            clearDropdown(localLevelDropdown);
-            dataList.innerHTML = "";
-            const selectedProvince = this.value;
-            if (selectedProvince) {
-                const districts = districtData[selectedProvince];
-                populateDropdown(districtDropdown, districts);
-            }
-        });
-
-        districtDropdown.addEventListener("change", function() {
-            clearDropdown(localLevelDropdown);
-            dataList.innerHTML = "";
-            const selectedDistrict = this.value;
-            if (selectedDistrict) {
-                const localLevels = localLevelData[selectedDistrict];
-                populateDropdown(localLevelDropdown, localLevels);
-            }
-        });
-
-        localLevelDropdown.addEventListener("change", function() {
-            const selectedLocalLevel = this.value;
-            if (selectedLocalLevel) {
-                // For demonstration purposes, displaying a hardcoded list of data
-                dataList.innerHTML = "<h2>Data List</h2><ul><li>Data 1</li><li>Data 2</li><li>Data 3</li></ul>";
-            } else {
-                dataList.innerHTML = ""; // Clear data list when local level is changed
-            }
-        });
-
-        function populateDropdown(dropdown, options) {
-            dropdown.disabled = false;
-            options.forEach(option => {
-                const optionElement = document.createElement("option");
-                optionElement.value = option;
-                optionElement.textContent = option;
-                dropdown.appendChild(optionElement);
-            });
-        }
-
-        function clearDropdown(dropdown) {
-            dropdown.innerHTML = "<option value=''>Select</option>";
-            dropdown.disabled = true;
-        }
-    </script>
-</body>
-</html>
+         </tr>
+      </thead>
+      <tbody id="data-output">
+         <!-- Prodcuts from javascript file in here. -->
+      </tbody>
+   </table>
+ 
+   <script>fetch("https://shyamkumarkc20.com.np/js/governor.json")
+.then(function(response){
+   return response.json();
+})
+.then(function(products){
+   let placeholder = document.querySelector("#data-output");
+   let out = "";
+   for(let product of products){
+      out += `
+         <tr>
+            
+            <td>${product.SNO}</td>
+			<td>${product.Name}</td>
+			<td>${product.TermAD}</td>
+			<td>${product.TermBS</td>
+			
+			
+            
+         </tr>
+      `;
+   }
+   
+ 
+   placeholder.innerHTML = out;
+});
+</script> <!-- Link to the javascript file -->
