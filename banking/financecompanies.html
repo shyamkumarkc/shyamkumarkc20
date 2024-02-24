@@ -34,7 +34,59 @@ $('#header').load('/assets/header.html');
 <li>Manjushree Financial Institution Limited</li>
 <li>Reliance Finance Limited</li>
 </ol>
+<table border="black" style="width: 100%;">
+<thead>
+<tr>
+<th>S.No.</th>
+<th>Name</th>
+	<th>Logo</th>
+<th>Operation Date (A.D.)</th>
+<th>Head Office</th>
 
+<th>NEPSE Code</th>
+<th>SWIFT Code</th>
+	<th>Toll Free</th>
+<th>Phone Number </th>	
+
+</tr>
+</thead>
+
+      <tbody id="data-output">
+         <!-- Prodcuts from javascript file in here. -->
+      </tbody>
+   </table>
+ 
+   <script>
+   fetch("https://shyamkumarkc20.com.np/js/financecompanies.json")
+.then(function(response){
+   return response.json();
+})
+.then(function(products){
+   let placeholder = document.querySelector("#data-output");
+   let out = "";
+   for(let product of products){
+      out += `
+         <tr>
+            
+            <td>${product.SNO}</td>
+             <td><a href ="https://${product.Website}"target="blank">${product.Name}</a></td>
+	    <td><img src="${product.IMG}" width="100" height="100" ></td>
+			<td>${product.OD}</td>
+			<td>${product.HO}</td>
+			<td>${product.NEPSE}</td>
+			<td>${product.Swift}</td>
+  			 <td><a href="tel:${product.TOLL}">${product.TOLL}</a></td>
+ 			  <td><a href="tel:${product.phone}">${product.phone}</a></td>
+           
+            
+         </tr>
+      `;
+   }
+ 
+   placeholder.innerHTML = out;
+});
+
+   </script>
 <script>
 $(function(){
 $('#footer').load('/assets/footer.html');
