@@ -35,7 +35,57 @@ $('#header').load('/assets/header.html');
 <li>Saptakoshi Development Bank Limited</li>
 <li>Green Development Bank Limited</li>
 </ol>
+<table border="black" style="width: 100%;">
+<thead>
+<tr>
+<th>S.No.</th>
+<th>Name</th>
+	<th>Logo</th>
+<th>Operation Date (A.D.)</th>
+<th>Head Office</th>
 
+<th>NEPSE Code</th>
+<th>SWIFT Code</th>
+	<th>Toll Free</th>
+<th>Phone Number </th>	
+<th>Website</th>
+</tr>
+</thead>
+
+      <tbody id="data-output">
+         <!-- Prodcuts from javascript file in here. -->
+      </tbody>
+   </table>
+ 
+   <script>
+   fetch("https://shyamkumarkc20.com.np/js/developmentbanks.json")
+.then(function(response){
+   return response.json();
+})
+.then(function(products){
+   let placeholder = document.querySelector("#data-output");
+   let out = "";
+   for(let product of products){
+      out += `
+         <tr>
+            
+            <td>${product.SNO}</td>
+            <td>${product.Name}</td>
+	    <td><img src="${product.IMG}" width="100" height="100" ></td>
+			<td>${product.OD}</td>
+			<td>${product.HO}</td>
+			<td>${product.NEPSE}</td>
+			<td>${product.Swift}</td>
+  			 <td>${product.TOLL}</td>
+ 			  <td><a href="tel:${product.phone}">${product.phone}</a></td>
+            <td><a href ="https://${product.Website}"target="blank">${product.Website}</a></td>
+            
+         </tr>
+      `;
+   }
+ 
+   placeholder.innerHTML = out;
+});
 
 <script>
 $(function(){
