@@ -1,62 +1,62 @@
 [
     {
-        "SNO.": "1 ",
+        "SNO": "1 ",
         "Name": "Omni Pvt.Ltd.",
-        "HO  ": "Adarshnagar, Birgunj",
+        "HO": "Adarshnagar, Birgunj",
         "CO": "Adarshanagar, Birgunj"
     },
     {
-        "SNO.": "2 ",
+        "SNO": "2 ",
         "Name": "Hulas Fin Serve Ltd.",
-        "HO  ": "Teku, Kathmandu",
+        "HO": "Teku, Kathmandu",
         "CO": "Teku, Kathmandu"
     },
     {
-        "SNO.": "3",
+        "SNO": "3",
         "Name": " Sipradi Hire Purchase Pvt. Ltd.",
-        "HO  ": " Gairidhara, Kathmandu ",
+        "HO": " Gairidhara, Kathmandu ",
         "CO": "Thapathali, Kathmandu"
     },
     {
-        "SNO.": "4",
+        "SNO": "4",
         "Name": " MAW Investment Pvt. Ltd.",
-        "HO  ": " Biratnagar, Morang ",
+        "HO": " Biratnagar, Morang ",
         "CO": "Teku, Kathmandu"
     },
     {
-        "SNO.": "5 ",
+        "SNO": "5 ",
         "Name": "Batas Investment Co. Pvt. Ltd.",
-        "HO  ": " Pokhara,Kaski ",
+        "HO": " Pokhara,Kaski ",
         "CO": "Gairidhara, Kathmandu"
     },
     {
-        "SNO.": "6 ",
+        "SNO": "6 ",
         "Name": "Syakar Investment Pvt. Ltd. ",
-        "HO  ": "Kantipath, Kathmandu",
+        "HO": "Kantipath, Kathmandu",
         "CO": " Kantipath, Kathmandu"
     },
     {
-        "SNO.": "7",
+        "SNO": "7",
         "Name": " Jagadamba Credit &amp; Investment Ltd.",
-        "HO  ": " Naxal, Kathmandu ",
+        "HO": " Naxal, Kathmandu ",
         "CO": "Naxal, Kathmandu"
     },
     {
-        "SNO.": "8 ",
+        "SNO": "8 ",
         "Name": "Venture Hire Purchase Pvt. Ltd.",
-        "HO  ": " Panipokhari, Kathmandu",
+        "HO": " Panipokhari, Kathmandu",
         "CO": " Panipokhari, Kathmandu"
     },
     {
-        "SNO.": "9",
+        "SNO": "9",
         "Name": " Manokamana Hire Purchase Pvt. Ltd.",
-        "HO  ": " Kantipath, Kathmandu",
+        "HO": " Kantipath, Kathmandu",
         "CO": " Kantipath, Kathmandu"
     },
     {
-        "SNO.": "10 ",
+        "SNO": "10 ",
         "Name": "Agni Hire Purchase Pvt. Ltd. ",
-        "HO  ": "Panipokhari, Kathmandu",
+        "HO": "Panipokhari, Kathmandu",
         "CO": " Panipokhari, Kathmandu"
     }
 ]
