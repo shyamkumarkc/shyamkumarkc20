@@ -2,7 +2,7 @@
     
     
     {
-        "SN": "8",
+        "SNO": "8",
         "BankName": "Global IME Bank Limited (GBIME)",
         "BranchName": "Bhakundebesi Branch",
         "Location": "Namobuddha Municipality-7, Kavrepalanchowk",
@@ -10,7 +10,7 @@
         "ATM" : "Yes"
     },
 	{
-        "SN": "18",
+        "SNO": "18",
         "BankName": "Global IME Bank Limited (GBIME)",
         "BranchName": "Bethanchowk Branch",
         "Location": "Bethanchowk,Kavrepalanchok",
@@ -18,7 +18,7 @@
         "ATM" : "Yes"
     },
     {
-        "SN": "9",
+        "SNO": "9",
         "BankName": "Laxmi Sunrise Bank Limited (LSBL)",
         "BranchName": "Bhakundebesi Branch",
         "Location": "Bhakundebesi - 7, Namobuddha Kavre, Bagmati, 45209",
