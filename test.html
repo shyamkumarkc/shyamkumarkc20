@@ -1,20 +1,25 @@
-<body>
-   <table>
-      <thead>
-         <tr>
-            <th>S No</th>
-			 <th>Governor Name</th>
-            <th>Term of office (AD)</th>
-            <th>Term of office (BS)</th>
-            
-         </tr>
-      </thead>
+<table border="black" style="width: 100%;">
+<thead>
+<tr>
+<th>S.No.</th>
+<th>Bank Name</th>
+	<th>Branch Name</th>
+<th>Location </th>
+<th>Contact</th>
+
+<th>ATM</th>
+
+
+</tr>
+</thead>
+
       <tbody id="data-output">
          <!-- Prodcuts from javascript file in here. -->
       </tbody>
    </table>
  
-   <script>fetch("https://shyamkumarkc20.com.np/js/governor.json")
+   <script>
+   fetch("https://shyamkumarkc20.com.np/js/namobuddha.json")
 .then(function(response){
    return response.json();
 })
@@ -23,20 +28,21 @@
    let out = "";
    for(let product of products){
       out += `
-         <tr>
-            
-            <td>${product.SNO}</td>
-			<td>${product.Name}</td>
-			<td>${product.TermAD}</td>
-			<td>${product.TermBS</td>
+         <tr>            
+            <td>${product.SN}</td>
+             <td>${product.BankName}</td>
+	    <td>${product.BranchName}</td>
+			<td>${product.Location}</td>
+			<td>${product.Contact}</td>
+			<td>${product.ATM}</td>
 			
-			
+           
             
          </tr>
       `;
    }
-   
  
    placeholder.innerHTML = out;
 });
-</script> <!-- Link to the javascript file -->
+
+   </script>
