@@ -3,24 +3,24 @@
     
     {
         "SN": "8",
-        "Bank Name": "Global IME Bank Limited (GBIME)",
-        "Branch Name": "Bhakundebesi Branch",
+        "BankName": "Global IME Bank Limited (GBIME)",
+        "BranchName": "Bhakundebesi Branch",
         "Location": "Namobuddha Municipality-7, Kavrepalanchowk",
         "Contact": "Phone: 977-011404022, BM: 9802261194Email:&nbsp;bhakundebeshi@gibl.com.np",
         "ATM" : "Yes",
     },
 	{
         "SN": "8",
-        "Bank Name": "Global IME Bank Limited (GBIME)",
-        "Branch Name": "Bethanchowk Branch",
+        "BankName": "Global IME Bank Limited (GBIME)",
+        "BranchName": "Bethanchowk Branch",
         "Location": "Bethanchowk,Kavrepalanchok",
         "Contact": "Phone: +977 011-421005, BM: 9802261111 Email: bethanchowk@gibl.com.np",
         "ATM" : "Yes",
     },
     {
         "SN": "9",
-        "Bank Name": "Laxmi Sunrise Bank Limited (LSBL)",
-        "Branch Name": "Bhakundebesi Branch",
+        "BankName": "Laxmi Sunrise Bank Limited (LSBL)",
+        "BranchName": "Bhakundebesi Branch",
         "Location": "Bhakundebesi - 7, Namobuddha Kavre, Bagmati, 45209",
         "Contact": "Phone: 011-404063Email:&nbsp;bhakundebesi@laxmibank.com",
         "ATM" : "Yes",
@@ -28,24 +28,24 @@
     
     {
         "SN": "11",
-        "Bank Name": "Lumbini Bikas Bank Ltd.",
-        "Branch Name": "Bhakundebesi Branch [038]",
+        "BankName": "Lumbini Bikas Bank Ltd.",
+        "BranchName": "Bhakundebesi Branch [038]",
         "Location": "Bhakundebesi, Kavre",
         "Contact": "Phone: 011-404062Email:&nbsp;binod.giri@lumbinibikasbank.com",
         "ATM" : "Yes",
     },
     {
         "SN": "12",
-        "Bank Name": "Rastriya Banijya Bank Limited (RBBL)",
-        "Branch Name": "Branch Office Bhakundebesi",
+        "BankName": "Rastriya Banijya Bank Limited (RBBL)",
+        "BranchName": "Branch Office Bhakundebesi",
         "Location": "Bhakundebesi, Kavrepalanchok",
         "Contact": "Phone: 977-11-404190",
       "ATM" : "Yes",
     },
 	{
         "SN": "2",
-        "Bank Name": "Sindhu Bikash Bank Limited (SINDU)",
-        "Branch Name": "Bhakunde Branch",
+        "BankName": "Sindhu Bikash Bank Limited (SINDU)",
+        "BranchName": "Bhakunde Branch",
         "Location": "Namobuddha-7, Bhakunde Bazar, Kavre",
         "Contact": "Phone: 011-404120Email:&nbsp;bhakunde@sindhubank.com.np",
        "ATM" : "N/A",
@@ -53,43 +53,43 @@
     
     {
         "SN": "1",
-        "Bank Name": "Nepal SBI Bank Limited (SBI)",
-        "Branch Name": "Khanikhola Branch (431)",
+        "BankName": "Nepal SBI Bank Limited (SBI)",
+        "BranchName": "Khanikhola Branch (431)",
         "Location": "Khanikhola Gaunpalika-5, Kavrepalanchowk",
         "Contact": "Email:&nbsp;khanikhola@nsbl.com.np"
     },
 	 {
         "SN": "3",
-        "Bank Name": "Siddhartha Bank Limited (SBL)",
-        "Branch Name": "Roshi Branch",
+        "BankName": "Siddhartha Bank Limited (SBL)",
+        "BranchName": "Roshi Branch",
         "Location": "Ward No: 07, Roshi Rural Municipality, Katunje, Kavre",
         "Contact": "Phone: 9801606375Email:&nbsp;sblrsh@sbl.com.np",
 	 },
     {
         "SN": "9",
-        "Bank Name": "Laxmi Sunrise Bank Limited (LSBL)",
-        "Branch Name": "Mahabharat Branch",
+        "BankName": "Laxmi Sunrise Bank Limited (LSBL)",
+        "BranchName": "Mahabharat Branch",
         "Location": "Mahabharat Municipality-6 Kavre",
         "Contact": "Phone: 977-9849340638 Email:&nbsp;bhakundebesi@laxmibank.com",
         "ATM" : "Yes",
     }, {
         "SN": "1",
-        "Bank Name": "Nabil Bank Limited (NABIL)",
-        "Branch Name": "Bhumlu Branch",
+        "BankName": "Nabil Bank Limited (NABIL)",
+        "BranchName": "Bhumlu Branch",
         "Location": "Kavrepalanchowk District, Bhumlu Rural Municipality- 5, Bhumlu Rural Municipality",
         "Contact": "Email:&nbsp;Sharada.Bhattarai@nabilbank.com",
         
     },{
         "SN": "5",
-        "Bank Name": "Sindhu Bikash Bank Limited (SINDU)",
-        "Branch Name": "Dolalghat Branch",
+        "BankName": "Sindhu Bikash Bank Limited (SINDU)",
+        "BranchName": "Dolalghat Branch",
         "Location": "Bhumlu-10, Dolalghat, Kavre",
         "Contact": "Phone: 011-498201 , 011-498200Email:&nbsp;dolalghat@sindhubank.com.np",
         
     },
 	{"SN": "9",
-        "Bank Name": "Prabhu Bank Limited (PRVU)",
-        "Branch Name": "Dolalghat Branch (दोलालघाट शाखा)",
+        "BankName": "Prabhu Bank Limited (PRVU)",
+        "BranchName": "Dolalghat Branch (दोलालघाट शाखा)",
         "Location": "Dolalghat, Ward No. 10, Bhumlu Rural Municipality, Kavre",
         "Contact": "Phone: 011-498091/498092Email:&nbsp;ishwor.ranabhat@prabhubank.com",
         
@@ -97,8 +97,8 @@
 	,
     {
         "SN": "2",
-        "Bank Name": "Citizens Bank International Limited (CZBIL)",
-        "Branch Name": "TEMAAL BRANCH",
+        "BankName": "Citizens Bank International Limited (CZBIL)",
+        "BranchName": "TEMAAL BRANCH",
         "Location": "Kavre, Temaal RM Ward no 5",
         "Contact": "Phone: 016-201926Email:&nbsp;info@ctznbank.com",
         
@@ -106,16 +106,16 @@
 	
     {
         "SN": "2",
-        "Bank Name": "Kumari Bank Limited (KBL)",
-        "Branch Name": "Chaurideurali Branch",
+        "BankName": "Kumari Bank Limited (KBL)",
+        "BranchName": "Chaurideurali Branch",
         "Location": "Chauri Deurali, Kavre",
         "Contact": "Phone: 9852035848Email:&nbsp;chaurideurali@kumaribank.com",
         
     },
     {
         "SN": "3",
-        "Bank Name": "Kumari Bank Limited (KBL)",
-        "Branch Name": "Chaurideurali Extension Counter",
+        "BankName": "Kumari Bank Limited (KBL)",
+        "BranchName": "Chaurideurali Extension Counter",
         "Location": "Chauredeurali, Kavrepalanchowk",
         "Contact": "Phone: 9851117443"
     }
