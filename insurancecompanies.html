@@ -28,6 +28,7 @@ There are currently 19 life insurance companies in Nepal. The list of the life i
             <th>Company Name</th>
            
             <th>Operation Date</th>
+		 <th>Head Office</th>
             <th>NEPSE</th>
 			
 			<th>Website</th>
@@ -51,13 +52,12 @@ There are currently 19 life insurance companies in Nepal. The list of the life i
          <tr>
             
             <td>${product.Sno}</td>
-			
-            <td>${product.Name}</td>
-			<td>${product.Operation}</td>
-			
+		<td><a href ="https://${product.Website}"target="blank">${product.Name}</a></td>	
+            			<td>${product.Operation}</td>
+			<td>${product.HO}</td>
 			<td>${product.NEPSE}</td>
-			
-            <td><a href ="https://${product.Website}"target="blank">${product.Website}</a></td>
+			<td>${product.Phone}</td>
+            <td><a href ="mailto:${product.Email}">${product.Email}</a></td>
             
          </tr>
       `;
