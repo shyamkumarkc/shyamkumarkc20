@@ -4,13 +4,18 @@
     "Name": "American Life Insurance Company Limited (MetLife)",
     "Operation": "2058 B.S (2001 A.D)",
     "NEPSE": "",
+	"Phone": "01-5970166",
+	"Email" : "",
     "Website": "www.metlife.com.np/en/"
   },
   {
     "Sno": "2",
     "Name": "Asian Life Insurance Company Limited",
     "Operation": "2064 B.S (2008 A.D)",
+	"HO" : "Maitidevi, Kathmandu",
     "NEPSE": "ALICL",
+	"Phone": "01-4510115",
+	"Email" : "asianlife@asianlife.com.np",
     "Website": "www.asianlife.com.np/"
   },
   {
@@ -18,6 +23,8 @@
     "Name": "Citizen Life Insurance Company Limited",
     "Operation": "2074 B.S (2017 A.D)",
     "NEPSE": "CLI",
+	"Phone": "015970217",
+	"Email" : "info@citizenlifenepal.com",
     "Website": "www.citizenlifenepal.com/"
   },
   {
@@ -25,13 +32,21 @@
     "Name": "IME Life Insurance Company Limited",
     "Operation": "2074 B.S (2017 A.D)",
     "NEPSE": "ILI",
-    "Website": "www.imelifeinsurance.com/"
+	"HO": "Lainchaur, Kathmandu",
+	"PO": "740",
+	"Fax": "",
+	"Phone": "01-4024071",
+	"Email" : "info@imelifeinsurance.com",
+    "Website": "imelifeinsurance.com/"
   },
   {
     "Sno": "5",
     "Name": "Surya Jyoti Life Insurance Company Limited",
     "Operation": "2079 B.S (2023 A.D)",
+	"HO" : "Shanta Plaza, Gyaneshwor",
     "NEPSE": "SJLIC",
+	"Phone": "014545941",
+	"Email" : "info@suryajyotilife.com",
     "Website": "www.suryajyotilife.com/"
   },
   {
@@ -39,6 +54,11 @@
     "Name": "Life Insurance Corporation (Nepal) Limited",
     "Operation": "2057 B.S (2000 A.D)",
     "NEPSE": "LICN",
+	"HO": "Kathmandu",
+	"PO": "21905",
+	"Fax": "01-4012615",
+	"Phone": "01-4012613",
+	"Email" : "liccorporate@licnepal.com.np",
     "Website": "www.licnepal.com.np/"
   },
   {
@@ -46,13 +66,23 @@
     "Name": "Prabhu Mahalaxmi Life Insurance Company Limited",
     "Operation": "2075 B.S (2018 A.D)",
     "NEPSE": "PMLI",
-    "Website": "www.mahalaxmilife.com.np/"
+	"HO": "Kamaladi, Kathmandu ",
+	"PO": "",
+	"Fax": "05362497",
+	"Phone": "05352012",
+	"Email" : "info@pmlil.com",
+    "Website": "www.pmlil.com/"
   },
   {
     "Sno": "8",
     "Name": "National Life Insurance Company Limited",
     "Operation": "2044 B.S (1988 A.D.)",
     "NEPSE": "NLICL",
+	"HO": "Lazimpat, Kathmandu",
+	"PO": "4332",
+	"Fax": "01-4535633",
+	"Phone": "01-4514799",
+	"Email" : "nlgilife@mail.com.np",
     "Website": "www.nationallife.com.np/"
   },
   {
@@ -60,42 +90,63 @@
     "Name": "Nepal Life Insurance Company Limited",
     "Operation": "2058 B.S (2001 A.D)",
     "NEPSE": "NLIC",
+	"HO": "Kamaladi, Kathmandu",
+	"PO": "",
+	"Fax": "",
+	"Phone": "01-5970971",
+	"Email" : "customer.service@nepallife.com.np",
     "Website": "www.nepallife.com.np/en/home"
   },
+  
   {
     
     "Sno": "10",
     "Name": "Himalayan Life Insurance Company Limited",
     "Operation": "2080 B.S (2023 A.D)",
-    "NEPSE": "PLIC",
-    "Website": "www.primelifenepal.com/"
+    "NEPSE": "PLIC","HO": "",
+	"PO": "25979",
+	"Fax": "",
+	"Phone": "01-5970057",
+	"Email" : "info@himalayanlife.com.np",
+    "Website": "himalayanlife.com.np/"
   },
   {
     "Sno": "11",
-    "Name": "Rastriya Beema Sansthan",
+    "Name": "Rastriya Jeewan Beema Company Limited",
     "Operation": "2025 B.S (1969 A.D)",
     "NEPSE": "RBCL",
-    "Website": "www.rbs.gov.np/"
+	"HO": "Ramshahpath, Kathmandu",
+	"PO": "",
+	"Fax": "",
+	"Phone" :"01-4262520",
+    "Email" : "info@rbs.gov.np",
+	"Website": "www.rbs.gov.np/"
   },
   {
     "Sno": "12",
     "Name": "Reliable Nepal Life Insurance Limited",
     "Operation": "2074 B.S (2017 A.D)",
-    "NEPSE": "RNLI",
+    "NEPSE": "RNLI","HO": "",
+	"PO": "",
+	"Fax": "","Phone": "","Email" : "",
     "Website": "www.reliablelife.com.np/"
   },
   {
     "Sno": "13",
     "Name": "Sanima Reliance Life Insurance Limited",
     "Operation": "2074 B.S (2017 A.D)",
-    "NEPSE": "SRLI",
+    "NEPSE": "SRLI","HO": "",
+	"PO": "",
+	"Fax": "","Phone": "","Email" : "",
     "Website": "www.sanimareliancelife.com/"
   },
   {
     "Sno": "14",
     "Name": "Sun Nepal Life Insurance Limited",
     "Operation": "2074 B.S (2017 A.D)",
-    "NEPSE": "SNLI",
+    "NEPSE": "SNLI","HO": "",
+	"PO": "",
+	"Fax": "","Phone": "","Email" : "",
     "Website": "www.sunlife.com.np/"
   }
 ]
