@@ -126,27 +126,37 @@
     "Sno": "12",
     "Name": "Reliable Nepal Life Insurance Limited",
     "Operation": "2074 B.S (2017 A.D)",
-    "NEPSE": "RNLI","HO": "",
+    "NEPSE": "RNLI",
+	"Toll" : "18105000018",
+	"HO": "Gyaneshwor, Kathmandu",
 	"PO": "",
-	"Fax": "","Phone": "","Email" : "",
+	"Fax": "",
+	"Phone": "01-4523618",
+	"Email" : "info@reliablelife.com.np",
     "Website": "www.reliablelife.com.np/"
   },
   {
     "Sno": "13",
     "Name": "Sanima Reliance Life Insurance Limited",
     "Operation": "2074 B.S (2017 A.D)",
-    "NEPSE": "SRLI","HO": "",
+    "NEPSE": "SRLI",
+	"HO": "New Baneshwor, Kathmandu",
 	"PO": "",
-	"Fax": "","Phone": "","Email" : "",
+	"Fax": "",
+	"Phone": "01-5970400",
+	"Email" : "info@sanimareliancelife.com",
     "Website": "www.sanimareliancelife.com/"
   },
   {
     "Sno": "14",
     "Name": "Sun Nepal Life Insurance Limited",
     "Operation": "2074 B.S (2017 A.D)",
-    "NEPSE": "SNLI","HO": "",
+    "NEPSE": "SNLI",
+	"HO": "New PLaza,Kathmandu",
 	"PO": "",
-	"Fax": "","Phone": "","Email" : "",
+	"Fax": "",
+	"Phone": "01-4536126",
+	"Email" : "info@snlic.com",
     "Website": "www.sunlife.com.np/"
   }
 ]
