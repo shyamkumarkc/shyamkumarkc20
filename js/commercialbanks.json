@@ -1,8 +1,8 @@
 [
   {
     "SNO": 1,
-	"Code" : "",
-	"Casba" : "5",
+	"Code" : "101",
+	"Casba" : "	Rs. 5",
     "Name": "Nepal Bank Limited",
 	"OD": "1937/11/15",
 	"HO": "Dharmapath Kathmandu",
@@ -55,7 +55,7 @@
   },
   {
     "SNO": 4,
-	"Code" : "",
+	"Code" : "401",
 	"Casba" : "0",
     "Name": "Nabil Bank Limited",
 	"OD": "2041 Asar 29 B.S. 1984/07/12",
@@ -88,7 +88,7 @@
   },
   {
     "SNO": 6,
-	"Code" : "",
+	"Code" : "601",
 	"Casba" : "5",
     "Name": "Standard Chartered Bank Nepal Limited",
 	"OD": "2043 Magh 16 B.S. 1987/02/28",
@@ -104,7 +104,7 @@
   },
   {
     "SNO": 7,
-	"Code" : "",
+	"Code" : "701",
 	"Casba" : "5",
     "Name": "Himalayan Bank Limited",
 	"OD": "2049 Magh 5 B.S. 1993/01/18",
@@ -120,7 +120,7 @@
   },
   {
     "SNO": 8,
-	"Code" : "",
+	"Code" : "801",
 	"Casba" : "5",
     "Name": "Nepal SBI Bank Limited",
 	"OD": "1993/07/07",
@@ -136,7 +136,7 @@
   },
   {
     "SNO": 9,
-	"Code" : "",
+	"Code" : "1001",
 	"Casba" : "5",
     "Name": "Everest Bank Limited",
 	"OD": "2051 Kartik 1 B.S. 1994/10/18",
@@ -152,7 +152,7 @@
   },
   {
     "SNO": 10,
-	"Code" : "",
+	"Code" : "1601",
 	"Casba" : "5",
     "Name": "Kumari Bank Limited",
 	"OD": "2001/04/03",
@@ -184,7 +184,7 @@
   },
   {
     "SNO": 12,
-	"Code" : "",
+	"Code" : "2001",
 	"Casba" : "5",
     "Name": "Citizens Bank International Limited",
 	"OD": "2007/04/20",
@@ -200,7 +200,7 @@
   },
   {
     "SNO": 13,
-	"Code" : "",
+	"Code" : "2101",
 	"Casba" : "5",
     "Name": "Prime Commercial Bank Limited",
 	"OD": "2007/09/24",
@@ -216,8 +216,8 @@
   },
   {
     "SNO": 14,
-	"Code" : "5",
-	"Casba" : "",
+	"Code" : "",
+	"Casba" : "5",
     "Name": "Sanima Bank Limited",
 	"OD": "2012/02/15",
 	"HO": "Nagpokhari Kathmandu",
@@ -232,7 +232,7 @@
   },
   {
     "SNO": 15,
-	"Code" : "",
+	"Code" : "1501",
 	"Casba" : "5",
     "Name": "Machhapuchhre Bank Limited",
 	"OD": "2012/07/09",
@@ -248,7 +248,7 @@
   },
   {
     "SNO": 16,
-	"Code" : "",
+	"Code" : "2301",
 	"Casba" : "5",
     "Name": "NIC Asia Bank Limited",
 	"OD": "2013/06/30",
@@ -281,7 +281,7 @@
   },
   {
     "SNO": 18,
-	"Code" : "",
+	"Code" : "2501",
 	"Casba" : "5",
     "Name": "NMB Bank Limited",
 	"OD": "2015/10/18",
@@ -296,7 +296,7 @@
   },
   {
     "SNO": 19,
-	"Code" : "",
+	"Code" : "2601",
 	"Casba" : "5",
     "Name": "Prabhu Bank Limited",
 	"OD": "2014/09/14",
@@ -313,7 +313,7 @@
   },
   {
     "SNO": 20,
-	"Code" : "",
+	"Code" : "1801",
 	"Casba" : "0",
     "Name": "Siddhartha Bank Limited",
 	"OD": "2016/07/21",
