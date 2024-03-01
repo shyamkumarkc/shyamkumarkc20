@@ -1,13 +1,10 @@
-<table border="black" style="width: 100%;">
+<table border="black" >
 <thead>
 <tr>
 <th>S.No.</th>
 <th>Bank Name</th>
-	<th>Branch Name</th>
-<th>Location </th>
-<th>Contact</th>
+	<th>CASBA (Rs)</th>
 
-<th>ATM</th>
 
 
 </tr>
@@ -19,7 +16,7 @@
    </table>
  
    <script>
-   fetch("https://shyamkumarkc20.com.np/js/namobuddha.json")
+   fetch("https://shyamkumarkc20.com.np/js/commercialbanks.json")
 .then(function(response){
    return response.json();
 })
@@ -29,12 +26,9 @@
    for(let product of products){
       out += `
          <tr>            
-            <td>${product.SN}</td>
-             <td>${product.BankName}</td>
-	    <td>${product.BranchName}</td>
-			<td>${product.Location}</td>
-			<td>${product.Contact}</td>
-			<td>${product.ATM}</td>
+            <td>${product.SNO}</td>
+             <td>${product.Name}</td>
+	    <td>Rs.${product.Casba}</td>
 			
            
             
