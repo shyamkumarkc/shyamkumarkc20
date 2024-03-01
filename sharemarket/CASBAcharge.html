@@ -161,7 +161,131 @@ List of Banks with their C-ASBA Charge</h1>
 
 </tbody></table>
 <p><b>Note: </b>If there is any mistake in above charges please comment below, the charges will be updated time to time.</p>
+<h2>Commercial Banks</h2>
+<table border="black" width="30%" >
+<thead>
+<tr>
+<th>S.No.</th>
+<th>Bank Name</th>
+	<th>CASBA Charge)</th>
 
+
+
+</tr>
+</thead>
+
+      <tbody id="data-output">
+         <!-- Prodcuts from javascript file in here. -->
+      </tbody>
+   </table>
+   <h2>Development Banks</h2>
+   <table border="black" width="30%" >
+<thead>
+<tr>
+<th>S.No.</th>
+<th>Bank Name</th>
+	<th>CASBA Charge</th>
+
+
+
+</tr>
+</thead>
+
+      <tbody id="data-output1">
+         <!-- Prodcuts from javascript file in here. -->
+      </tbody>
+   </table>
+   <h2>Finance Companies</h2>
+  <table border="black" width="30%">
+<thead>
+<tr>
+<th>S.No.</th>
+<th>Bank Name</th>
+	<th>CASBA Charge<th>
+
+
+
+</tr>
+</thead>
+
+      <tbody id="data-output2">
+         <!-- Prodcuts from javascript file in here. -->
+      </tbody>
+   </table>
+   <script>
+   fetch("https://shyamkumarkc20.com.np/js/commercialbanks.json")
+.then(function(response){
+   return response.json();
+})
+.then(function(products){
+   let placeholder = document.querySelector("#data-output");
+   let out = "";
+   for(let product of products){
+      out += `
+         <tr>            
+            <td>${product.SNO}</td>
+             <td>${product.Name}</td>
+	    <td>${product.Casba}</td>
+			
+           
+            
+         </tr>
+      `;
+   }
+ 
+   placeholder.innerHTML = out;
+});
+
+   </script> <script>
+   fetch("https://shyamkumarkc20.com.np/js/developmentbanks.json")
+.then(function(response){
+   return response.json();
+})
+.then(function(products){
+   let placeholder = document.querySelector("#data-output1");
+   let out = "";
+   for(let product of products){
+      out += `
+         <tr>            
+            <td>${product.SNO}</td>
+             <td>${product.Name}</td>
+	    <td>${product.Casba}</td>
+			
+           
+            
+         </tr>
+      `;
+   }
+ 
+   placeholder.innerHTML = out;
+});
+
+   </script>
+   <script>
+   fetch("https://shyamkumarkc20.com.np/js/financecompanies.json")
+.then(function(response){
+   return response.json();
+})
+.then(function(products){
+   let placeholder = document.querySelector("#data-output2");
+   let out = "";
+   for(let product of products){
+      out += `
+         <tr>            
+            <td>${product.SNO}</td>
+             <td>${product.Name}</td>
+	    <td>${product.Casba}</td>
+			
+           
+            
+         </tr>
+      `;
+   }
+ 
+   placeholder.innerHTML = out;
+});
+
+   </script>
 
  <script>
 $(function(){
