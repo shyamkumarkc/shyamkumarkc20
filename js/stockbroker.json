@@ -4,8 +4,8 @@
         "BrokerName": "Kumari Securities Pvt. Limited",
         "Address": "Dillibazar, Kathmandu",
         "Phone": "01-4418036",
-        "Tms": "https://tms01.nepsetms.com.np",
-		"Website": "https://kumarisecurities.com/",
+        "Tms": "tms01.nepsetms.com.np",
+		"Website": "kumarisecurities.com/",
 		"Email" : "kumaribroker1@gmail.com"
     },
     {
@@ -20,7 +20,7 @@
         "BrokerName": "Arun Securities Pvt. Limited",
         "Address": "Putalisadak, Kathmandu",
         "Phone": "01-4239567",
-        "Tms": "https://tms03.nepsetms.com.np", 
+        "Tms": "tms03.nepsetms.com.np", 
 		"Website":"www.arunsecurities.com",
 		"Email" :""
     },
@@ -29,8 +29,8 @@
         "BrokerName": "Opal Securities Investment Pvt. Limited",
         "Address": "Putalisadak,Kathmandu",
         "Phone": "01-4423509",
-        "Tms": "https://tms04.nepsetms.com.np", 
-		"Website":"https://stockbrokeropalsecurities.com/",
+        "Tms": "tms04.nepsetms.com.np", 
+		"Website":"stockbrokeropalsecurities.com/",
 		"Email" :""
     },
     {
@@ -38,7 +38,7 @@
         "BrokerName": "Market Securities Exchange Company Pvt. Limited",
         "Address": "Kichha Pokhari,Kathmandu",
         "Phone": "01-4248973",
-        "Tms": "https://tms05.nepsetms.com.np", 
+        "Tms": "tms05.nepsetms.com.np", 
 		"Website":"http://marketsecurities.com.np/",
 		"Email" :""
     },
@@ -47,7 +47,7 @@
         "BrokerName": "Agrawal Securities Pvt. Limited",
         "Address": "Dillibazar, Kathmandu",
         "Phone": "01-4424406",
-        "Tms": "https://tms06.nepsetms.com.np", 
+        "Tms": "tms06.nepsetms.com.np", 
 		"Website":"www.agrawalsecurities.com.np/",
 		"Email" :""
     },
@@ -62,8 +62,8 @@
         "BrokerName": "J.F. Securities Company Pvt. Limited",
         "Address": "Dharmapath, Kathmandu",
         "Phone": "01-4256099",
-        "Tms": "https://tms07.nepsetms.com.np", 
-		"Website":"https://jfsecurities.com/",
+        "Tms": "tms07.nepsetms.com.np", 
+		"Website":"jfsecurities.com/",
 		"Email" :""
     },
     {
@@ -71,7 +71,7 @@
         "BrokerName": "Ashutosh Brokerage &amp; Securities Pvt. Limited",
         "Address": "Kichha Pokhari, Kathmandu",
         "Phone": "01-4220276",
-        "Tms": "https://tms08.nepsetms.com.np", 
+        "Tms": "tms08.nepsetms.com.np", 
 		"Website":"www.ashutoshsecurities.com/",
 		"Email" :""
     },
@@ -86,8 +86,8 @@
         "BrokerName": "Pragyan Securities Pvt. Limited",
         "Address": "Kamaladi, Kathmandu",
         "Phone": "01-4413392",
-        "Tms": "https://tms10.nepsetms.com.np", 
-		"Website":"https://pragyansecurities10.com.np/",
+        "Tms": "tms10.nepsetms.com.np", 
+		"Website":"pragyansecurities10.com.np/",
 		"Email" :""
     },
     {
@@ -102,7 +102,7 @@
         "BrokerName": "Malla &amp; Malla Stock Broking Company Pvt. Limited",
         "Address": "Hattisar, Kathmandu",
         "Phone": "01-4425750, 4431607",
-        "Tms": "https://tms11.nepsetms.com.np", 
+        "Tms": "tms11.nepsetms.com.np", 
 		"Website":"http://mallastock.com/",
 		"Email" :""
     },
@@ -111,8 +111,8 @@
         "BrokerName": "Thrive Brokerage House Pvt. Limited",
         "Address": "Naxal,Kathmandu",
         "Phone": "01-4419051",
-        "Tms": "https://tms13.nepsetms.com.np", 
-		"Website":"https://thrivebrokerage.com/",
+        "Tms": "tms13.nepsetms.com.np", 
+		"Website":"thrivebrokerage.com/",
 		"Email" :""
     },
     {
@@ -126,7 +126,7 @@
         "BrokerName": "Nepal Stock House Pvt. Limited",
         "Address": "Anamnagar,Kathmandu",
         "Phone": "01-4265888",
-        "Tms": "https://tms14.nepsetms.com.np", 
+        "Tms": "tms14.nepsetms.com.np", 
 		"Website":"http://stockhouse.com.np/",
 		"Email" :""
     },
@@ -141,8 +141,8 @@
         "BrokerName": "Primo Securities Pvt. Limited",
         "Address": "Putalisadak, Kathmandu",
         "Phone": "01-4168214",
-        "Tms": "https://tms16.nepsetms.com.np", 
-		"Website":"https://primosecurities.com.np/",
+        "Tms": "tms16.nepsetms.com.np", 
+		"Website":"primosecurities.com.np/",
 		"Email" :""
     },
     {
@@ -158,8 +158,8 @@
         "BrokerName": "ABC Securities Pvt. Limited",
         "Address": "Indrachowk, Kathmandu",
         "Phone": "01-4230787",
-        "Tms": "https://tms17.nepsetms.com.np", 
-		"Website":"https://abcsecurities.com.np/index.html",
+        "Tms": "tms17.nepsetms.com.np", 
+		"Website":"abcsecurities.com.np/index.html",
 		"Email" :""
     },
     {
@@ -173,7 +173,7 @@
         "BrokerName": "Sagarmatha Securities Pvt. Limited",
         "Address": "Dillibazar, Kathmandu",
         "Phone": "01-4439315",
-        "Tms": "https://tms18.nepsetms.com.np", 
+        "Tms": "tms18.nepsetms.com.np", 
 		"Website":"http://sagarmathasecurities.com/",
 		"Email" :""
     },
@@ -182,7 +182,7 @@
         "BrokerName": "Nepal Investment &amp; Securities Trading Pvt. Limited",
         "Address": "Bhimsengola ,Kathmandu",
         "Phone": "01-4495450",
-        "Tms": "https://tms19.nepsetms.com.np", 
+        "Tms": "tms19.nepsetms.com.np", 
 		"Website":"http://nist19.com/",
 		"Email" :""
     },
@@ -197,7 +197,7 @@
         "BrokerName": "Sipla Securities Pvt. Limited",
         "Address": "NewRoad,Kathmandu",
         "Phone": "01-4255782",
-        "Tms": "https://tms20.nepsetms.com.np", 
+        "Tms": "tms20.nepsetms.com.np", 
 		"Website":"",
 		"Email" :""
     },
@@ -206,7 +206,7 @@
         "BrokerName": "Midas Stock Broking Company Pvt. Limited",
         "Address": "Kamaladi Chowk, Kathmandu",
         "Phone": "01-4240089",
-        "Tms": "https://tms21.nepsetms.com.np", 
+        "Tms": "tms21.nepsetms.com.np", 
 		"Website":"",
 		"Email" :""
     },
@@ -221,7 +221,7 @@
         "BrokerName": "Siprabi Securities Pvt. Limited",
         "Address": "Kupondol,Lalitpur",
         "Phone": "01-5530701",
-        "Tms": "https://tms22.nepsetms.com.np", 
+        "Tms": "tms22.nepsetms.com.np", 
 		"Website":"",
 		"Email" :""
     },
@@ -236,7 +236,7 @@
         "BrokerName": "Sweta Securities Pvt. Limited",
         "Address": "Putalisadak,Kathmandu",
         "Phone": "01-4444791",
-        "Tms": "https://tms25.nepsetms.com.np", 
+        "Tms": "tms25.nepsetms.com.np", 
 		"Website":"",
 		"Email" :""
     },
@@ -250,7 +250,7 @@
         "BrokerName": "Asian Securities Pvt. Limited",
         "Address": "Putalisadak-32, Kathmandu, Near NMB Bank Ltd",
         "Phone": "01-4424351",
-        "Tms": "https://tms26.nepsetms.com.np", 
+        "Tms": "tms26.nepsetms.com.np", 
 		"Website":"",
 		"Email" :""
     },
@@ -265,7 +265,7 @@
         "BrokerName": "Shree Krishna Securities Limited",
         "Address": "Dillibazar, Kathmandu",
         "Phone": "01-4441226",
-        "Tms": "https://tms28.nepsetms.com.np", 
+        "Tms": "tms28.nepsetms.com.np", 
 		"Website":"",
 		"Email" :""
     },
@@ -282,7 +282,7 @@
         "BrokerName": "Trishul Securities And Investment Limited",
         "Address": "Putalisadak, Kathmandu",
         "Phone": "01-4440709",
-        "Tms": "https://tms29.nepsetms.com.np", 
+        "Tms": "tms29.nepsetms.com.np", 
 		"Website":"",
 		"Email" :""
     },
@@ -297,7 +297,7 @@
         "BrokerName": "Premier Securites Company Limited",
         "Address": "Putalisadak,Kathmandu",
         "Phone": "01-4231339",
-        "Tms": "https://tms32.nepsetms.com.np", 
+        "Tms": "tms32.nepsetms.com.np", 
 		"Website":"",
 		"Email" :""
     },
@@ -312,7 +312,7 @@
         "BrokerName": "Dakshinkali Investment Securities Pvt.Limited",
         "Address": "Kamaladi, Kathmandu",
         "Phone": "01-4168640",
-        "Tms": "https://tms33.nepsetms.com.np", 
+        "Tms": "tms33.nepsetms.com.np", 
 		"Website":"",
 		"Email" :""
     },
@@ -327,7 +327,7 @@
         "BrokerName": "Vision Securities Pvt.Limited",
         "Address": "Anamnagar, Kathmandu",
         "Phone": "01-4770425/452, 01-4770408",
-        "Tms": "https://tms34.nepsetms.com.np", 
+        "Tms": "tms34.nepsetms.com.np", 
 		"Website":"",
 		"Email" :""
     },
@@ -342,7 +342,7 @@
         "BrokerName": "Kohinoor Investment and Securities Pvt.Ltd",
         "Address": "Kamalpokhari, Kathmandu",
         "Phone": "01-4442857",
-        "Tms": "https://tms35.nepsetms.com.np", 
+        "Tms": "tms35.nepsetms.com.np", 
 		"Website":"",
 		"Email" :""
     },
@@ -357,7 +357,7 @@
         "BrokerName": "Secured Securities Limited",
         "Address": "Putalisadak, Kathmandu",
         "Phone": "01-4262861",
-        "Tms": "https://tms36.nepsetms.com.np", 
+        "Tms": "tms36.nepsetms.com.np", 
 		"Website":"",
 		"Email" :""
     },
@@ -372,7 +372,7 @@
         "BrokerName": "Swarnalaxmi Securities Pvt.Limited",
         "Address": "Kamalpokhari, Kathmandu",
         "Phone": "01-4417178",
-        "Tms": "https://tms37.nepsetms.com.np", 
+        "Tms": "tms37.nepsetms.com.np", 
 		"Website":"",
 		"Email" :""
     },
@@ -387,7 +387,7 @@
         "BrokerName": "Dipshika Dhitopatra Karobar Co. Pvt.Limited",
         "Address": "Anamnagar, Kathmandu",
         "Phone": "01-4102532",
-        "Tms": "https://tms38.nepsetms.com.np", 
+        "Tms": "tms38.nepsetms.com.np", 
 		"Website":"",
 		"Email" :""
     },
@@ -402,7 +402,7 @@
         "BrokerName": "Sumeru Securities Pvt.Limited",
         "Address": "Hattisar, Kathmandu",
         "Phone": "01-4444740",
-        "Tms": "https://tms39.nepsetms.com.np", 
+        "Tms": "tms39.nepsetms.com.np", 
 		"Website":"",
 		"Email" :""
     },
@@ -417,7 +417,7 @@
         "BrokerName": "Creative Securities Pvt.Limited",
         "Address": "Putalisadak, Kathmandu",
         "Phone": "01-4419572",
-        "Tms": "https://tms40.nepsetms.com.np", 
+        "Tms": "tms40.nepsetms.com.np", 
 		"Website":"",
 		"Email" :""
     },
@@ -432,7 +432,7 @@
         "BrokerName": "Linch Stock Market Limited",
         "Address": "New Baneshwor, Ktm",
         "Phone": "01-4784567",
-        "Tms": "https://tms41.nepsetms.com.np", 
+        "Tms": "tms41.nepsetms.com.np", 
 		"Website":"",
 		"Email" :""
     },
@@ -447,7 +447,7 @@
         "BrokerName": "Sani Securities Company Limited",
         "Address": "Jamal, Kathmandu",
         "Phone": "01-4166005",
-        "Tms": "https://tms42.nepsetms.com.np", 
+        "Tms": "tms42.nepsetms.com.np", 
 		"Website":"",
 		"Email" :""
     },
@@ -462,7 +462,7 @@
         "BrokerName": "South Asian Bulls Pvt.Limited",
         "Address": "Kuleshwor, Kathmandu",
         "Phone": "01-4284785",
-        "Tms": "https://tms43.nepsetms.com.np", 
+        "Tms": "tms43.nepsetms.com.np", 
 		"Website":"",
 		"Email" :""
     },
@@ -471,7 +471,7 @@
         "BrokerName": "Dynamic Money Managers Securities Pvt.Ltd",
         "Address": "Kamalpokhari, Kathmandu",
         "Phone": "01-4414522",
-        "Tms": "https://tms44.nepsetms.com.np", 
+        "Tms": "tms44.nepsetms.com.np", 
 		"Website":"",
 		"Email" :""
     },
@@ -486,7 +486,7 @@
         "BrokerName": "Imperial Securities Co .Pvt.Limited",
         "Address": "Anamnagar, Kathmandu",
         "Phone": "01-4231004",
-        "Tms": "https://tms45.nepsetms.com.np", 
+        "Tms": "tms45.nepsetms.com.np", 
 		"Website":"",
 		"Email" :""
     },
@@ -501,7 +501,7 @@
         "BrokerName": "Kalika Securities Pvt.Limited",
         "Address": "Putalisadak, Kathmandu",
         "Phone": "01-4430601",
-        "Tms": "https://tms46.nepsetms.com.np", 
+        "Tms": "tms46.nepsetms.com.np", 
 		"Website":"",
 		"Email" :""
     },
@@ -516,7 +516,7 @@
         "BrokerName": "Neev Securities Pvt.Ltd",
         "Address": "Kamaladi, Kathmandu",
         "Phone": "01-4168601",
-        "Tms": "https://tms47.nepsetms.com.np", 
+        "Tms": "tms47.nepsetms.com.np", 
 		"Website":"",
 		"Email" :""
     },
@@ -531,14 +531,14 @@
         "BrokerName": "Trishakti Securities Public Limited",
         "Address": "Putalisadak, Kathmandu",
         "Phone": "01-4232132",
-        "Tms": "https://tms48.nepsetms.com.np"
+        "Tms": "tms48.nepsetms.com.np"
     },
     {
         "BrokerNo": "49",
         "BrokerName": "Online Securities Pvt.Ltd",
         "Address": "Putalisadak, Kathmandu",
         "Phone": "01-4168298",
-        "Tms": "https://tms49.nepsetms.com.np"
+        "Tms": "tms49.nepsetms.com.np"
     },{
         "BrokerNo": "49_RWS",
         "BrokerName": "Online Securities Pvt.Ltd",
@@ -557,14 +557,14 @@
         "BrokerName": "Crystal Kanchenjunga Securities Pvt.Ltd",
         "Address": "New Plaza, Kathmandu",
         "Phone": "01-4011072",
-        "Tms": "https://tms50.nepsetms.com.np"
+        "Tms": "tms50.nepsetms.com.np"
     },
     {
         "BrokerNo": "51",
         "BrokerName": "Oxford Securities Pvt.Ltd",
         "Address": "Kalimati, Kathmandu",
         "Phone": "01-4278113",
-        "Tms": "https://tms51.nepsetms.com.np"
+        "Tms": "tms51.nepsetms.com.np"
     },
     {
         "BrokerNo": "51_RWS",
@@ -577,7 +577,7 @@
         "BrokerName": "Sundhara Securities Limited",
         "Address": "Sundhara, Kathmandu",
         "Phone": "01-4263583",
-        "Tms": "https://tms52.nepsetms.com.np"
+        "Tms": "tms52.nepsetms.com.np"
     },
     {
         "BrokerNo": "52_RWS",
@@ -590,7 +590,7 @@
         "BrokerName": "Investment Management Nepal Pvt. Ltd.",
         "Address": "Tripureshwor,Kathmandu",
         "Phone": "01-4256589",
-        "Tms": "https://tms53.nepsetms.com.np"
+        "Tms": "tms53.nepsetms.com.np"
     },
     {
         "BrokerNo": "53_RWS",
@@ -603,7 +603,7 @@
         "BrokerName": "Sewa Securities Pvt. Ltd.",
         "Address": "Tripureshwor,Kathmandu",
         "Phone": "01-4256642",
-        "Tms": "https://tms45.nepsetms.com.np"
+        "Tms": "tms45.nepsetms.com.np"
     },
     {
         "BrokerNo": "54_RWS",
@@ -616,7 +616,7 @@
         "BrokerName": "Bhrikuti Stock Broking Co. Pvt. Ltd.",
         "Address": "Newroad, Kathmandu",
         "Phone": "01-4223466",
-        "Tms": "https://tms55.nepsetms.com.np"
+        "Tms": "tms55.nepsetms.com.np"
     },
     {
         "BrokerNo": "55_RWS",
@@ -629,7 +629,7 @@
         "BrokerName": "Shree Hari Securities Pvt.Ltd",
         "Address": "Kamaladi, Kathmandu",
         "Phone": "01-4437562",
-        "Tms": "https://tms56.nepsetms.com.np"
+        "Tms": "tms56.nepsetms.com.np"
     },
     {
         "BrokerNo": "56_RWS",
@@ -642,7 +642,7 @@
         "BrokerName": "Araya Tara Investment And Securities Pvt. Ltd.",
         "Address": "Anamnagar, Kathmandu",
         "Phone": "01-4233596",
-        "Tms": "https://tms57.nepsetms.com.np"
+        "Tms": "tms57.nepsetms.com.np"
     },
     {
         "BrokerNo": "57_RWS",
@@ -655,7 +655,7 @@
         "BrokerName": "Naasa Securities Co. Ltd.",
         "Address": "Naxal, Kathmandu",
         "Phone": "01-4440384",
-        "Tms": "https://tms58.nepsetms.com.np"
+        "Tms": "tms58.nepsetms.com.np"
     },
     {
         "BrokerNo": "58_RWS",
@@ -668,7 +668,7 @@
         "BrokerName": "Deevyaa Securities &amp; Stock House Pvt. Ltd",
         "Address": "Putalisadak, Kathmandu",
         "Phone": "01-4421488",
-        "Tms": "https://tms59.nepsetms.com.np"
+        "Tms": "tms59.nepsetms.com.np"
     },
     {
         "BrokerNo": "59_RWS",
