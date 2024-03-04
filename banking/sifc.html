@@ -1,0 +1,45 @@
+<body>
+   <table>
+      <thead>
+         <tr>
+            <th>S No</th>
+			            <th>Branch Name</th>
+            <th>Address</th>
+            <th>Phone</th>
+			<th>Email</th>
+            
+         </tr>
+      </thead>
+      <tbody id="data-output">
+         <!-- Prodcuts from javascript file in here. -->
+      </tbody>
+   </table>
+ 
+   <script>
+   fetch("https://shyamkumarkc20.com.np/js/sifcbranches.json")
+.then(function(response){
+   return response.json();
+})
+.then(function(products){
+   let placeholder = document.querySelector("#data-output");
+   let out = "";
+   for(let product of products){
+      out += `
+         <tr>
+            
+            <td>${product.SNO}</td>
+			
+            <td>${product.Branch}</td>
+			<td>${product.Address}</td>
+			<td>${product.Phone}</td>
+			<td><a href="mailto: ${product.Email}">${product.Email}</a></td>
+			
+            
+         </tr>
+      `;
+   }
+   
+ 
+   placeholder.innerHTML = out;
+});
+   </script>
