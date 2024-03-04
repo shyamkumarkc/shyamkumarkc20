@@ -1,0 +1,2421 @@
+[
+    {
+        "SN": "1",
+        "Name": "Nabil Bank Limited",
+        "Symbol": "NABIL",
+        "Status": "Active",
+        "Sector": "Commercial Banks",
+        "Instrument": "Equity",
+        "Email": "rajesh.bogati@nabilbank.com"
+    },
+    {
+        "SN": "2",
+        "Name": "Nepal Investment Mega Bank Limited",
+        "Symbol": "NIMB",
+        "Status": "Active",
+        "Sector": "Commercial Banks",
+        "Instrument": "Equity",
+        "Email": "NIBL.Nepse@nibl.com.np",
+        "Website": "http://www.nibl.com.np"
+    },
+    {
+        "SN": "3",
+        "Name": "Standard Chartered Bank Limited",
+        "Symbol": "SCB",
+        "Status": "Active",
+        "Sector": "Commercial Banks",
+        "Instrument": "Equity",
+        "Email": "Legal.Nepal@sc.com",
+        "Website": "www.sc.com/np"
+    },
+    {
+        "SN": "4",
+        "Name": "Himalayan Bank Limited",
+        "Symbol": "HBL",
+        "Status": "Active",
+        "Sector": "Commercial Banks",
+        "Instrument": "Equity",
+        "Email": "legal@himalayanbank.com",
+        "Website": "https://www.himalayanbank.com"
+    },
+    {
+        "SN": "5",
+        "Name": "Nepal SBI Bank Limited",
+        "Symbol": "SBI",
+        "Status": "Active",
+        "Sector": "Commercial Banks",
+        "Instrument": "Equity",
+        "Email": "cs@nsbl.com.np",
+        "Website": "https://nsbl.statebank"
+    },
+    {
+        "SN": "6",
+        "Name": "Everest Bank Limited",
+        "Symbol": "EBL",
+        "Status": "Active",
+        "Sector": "Commercial Banks",
+        "Instrument": "Equity",
+        "Email": "sharedept@ebl.com.np"
+    },
+    {
+        "SN": "7",
+        "Name": "NIC Asia Bank Ltd.",
+        "Symbol": "NICA",
+        "Status": "Active",
+        "Sector": "Commercial Banks",
+        "Instrument": "Equity",
+        "Email": "nica.nots@nicasiabank.com"
+    },
+    {
+        "SN": "8",
+        "Name": "Machhapuchhre Bank Limited",
+        "Symbol": "MBL",
+        "Status": "Active",
+        "Sector": "Commercial Banks",
+        "Instrument": "Equity",
+        "Email": "machbank@mbl.com.np",
+        "Website": "http://www.machbank.com"
+    },
+    {
+        "SN": "9",
+        "Name": "Laxmi Sunrise Bank Limited",
+        "Symbol": "LSL",
+        "Status": "Active",
+        "Sector": "Commercial Banks",
+        "Instrument": "Equity",
+        "Email": "piyush.aryal@laxmibank.com"
+    },
+    {
+        "SN": "10",
+        "Name": "Kumari Bank Limited",
+        "Symbol": "KBL",
+        "Status": "Active",
+        "Sector": "Commercial Banks",
+        "Instrument": "Equity",
+        "Email": "info@kumaribank.com",
+        "Website": "http://www.kumaribank.com"
+    },
+    {
+        "SN": "11",
+        "Name": "Siddhartha Bank Limited",
+        "Symbol": "SBL",
+        "Status": "Active",
+        "Sector": "Commercial Banks",
+        "Instrument": "Equity",
+        "Email": "laxman.ghimire@sbl.com.np"
+    },
+    {
+        "SN": "12",
+        "Name": "Soaltee Hotel Limited",
+        "Symbol": "SHL",
+        "Status": "Active",
+        "Sector": "Hotels And Tourism",
+        "Instrument": "Equity",
+        "Email": "lbkhatri@soaltee.com.np",
+        "Website": "http://www.soalteehotel.com"
+    },
+    {
+        "SN": "13",
+        "Name": "Taragaon Regency Hotel Limited",
+        "Symbol": "TRH",
+        "Status": "Active",
+        "Sector": "Hotels And Tourism",
+        "Instrument": "Equity",
+        "Email": "info@taragaon.com"
+    },
+    {
+        "SN": "14",
+        "Name": "Oriental Hotels Limited",
+        "Symbol": "OHL",
+        "Status": "Active",
+        "Sector": "Hotels And Tourism",
+        "Instrument": "Equity",
+        "Email": "legal@radkat.com.np"
+    },
+    {
+        "SN": "15",
+        "Name": "National Hydro Power Company Limited",
+        "Symbol": "NHPC",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "info@nhpcl.com"
+    },
+    {
+        "SN": "16",
+        "Name": "Butwal Power Company Limited",
+        "Symbol": "BPCL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "hari.budhathoki@bpc.com.np",
+        "Website": "http://www.bpc.com.np"
+    },
+    {
+        "SN": "17",
+        "Name": "Chilime Hydropower Company Limited",
+        "Symbol": "CHCL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "narayanprasad.acharya@chilime.com.np"
+    },
+    {
+        "SN": "18",
+        "Name": "Salt Trading Corporation",
+        "Symbol": "STC",
+        "Status": "Active",
+        "Sector": "Tradings",
+        "Instrument": "Equity",
+        "Email": "legalstcnepal@gmail.com"
+    },
+    {
+        "SN": "19",
+        "Name": "Bishal Bazar Company Limited",
+        "Symbol": "BBC",
+        "Status": "Active",
+        "Sector": "Tradings",
+        "Instrument": "Equity",
+        "Email": "info@bishalbazar.com.np"
+    },
+    {
+        "SN": "20",
+        "Name": "Nirdhan Utthan Laghubitta Bittiya Sanstha Limited",
+        "Symbol": "NUBL",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "rbchaudhary@nirdhan.com.np"
+    },
+    {
+        "SN": "21",
+        "Name": "Chhimek Laghubitta Bittiya Sanstha Limited",
+        "Symbol": "CBBL",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "info@chhimekbank.org"
+    },
+    {
+        "SN": "22",
+        "Name": "Deprosc Laghubitta Bittiya Sanstha Limited",
+        "Symbol": "DDBL",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "ddbl@ddbank.org.np"
+    },
+    {
+        "SN": "23",
+        "Name": "Sanima Bank Limited",
+        "Symbol": "SANIMA",
+        "Status": "Active",
+        "Sector": "Commercial Banks",
+        "Instrument": "Equity",
+        "Email": "RUDRA@sanimabank.com",
+        "Website": "www.sanimabank.com"
+    },
+    {
+        "SN": "24",
+        "Name": "Narayani Development Bank Limited",
+        "Symbol": "NABBC",
+        "Status": "Active",
+        "Sector": "Development Banks",
+        "Instrument": "Equity",
+        "Email": "info@ndbl.com.np",
+        "Website": "www.ndbl.com.np"
+    },
+    {
+        "SN": "25",
+        "Name": "Nepal Insurance Co. Ltd.",
+        "Symbol": "NICL",
+        "Status": "Active",
+        "Sector": "Non Life Insurance",
+        "Instrument": "Equity",
+        "Email": "nic@nepalinsurance.com.np"
+    },
+    {
+        "SN": "26",
+        "Name": "Rastriya Beema Company Limited",
+        "Symbol": "RBCL",
+        "Status": "Active",
+        "Sector": "Non Life Insurance",
+        "Instrument": "Equity",
+        "Email": "info@rbcl.gov.np"
+    },
+    {
+        "SN": "27",
+        "Name": "National Life Insurance Co. Ltd.",
+        "Symbol": "NLICL",
+        "Status": "Active",
+        "Sector": "Life Insurance",
+        "Instrument": "Equity",
+        "Email": "it@nationallife.com.np"
+    },
+    {
+        "SN": "28",
+        "Name": "Himalayan Everest Insurance Limited",
+        "Symbol": "HEI",
+        "Status": "Active",
+        "Sector": "Non Life Insurance",
+        "Instrument": "Equity",
+        "Email": "subindra.shrestha@hei.com.np"
+    },
+    {
+        "SN": "29",
+        "Name": "United Ajod Insurance Limited",
+        "Symbol": "UAIL",
+        "Status": "Active",
+        "Sector": "Non Life Insurance",
+        "Instrument": "Equity",
+        "Email": "info@unitedinsurance.com.np",
+        "Website": "www.unitedinsurance.com.npwww.unitedinsurance.com.n"
+    },
+    {
+        "SN": "30",
+        "Name": "Siddhartha Premier Insurance Limited",
+        "Symbol": "SPIL",
+        "Status": "Active",
+        "Sector": "Non Life Insurance",
+        "Instrument": "Equity",
+        "Email": "premier@picl.com.np"
+    },
+    {
+        "SN": "31",
+        "Name": "Neco Insurance Limited",
+        "Symbol": "NIL",
+        "Status": "Active",
+        "Sector": "Non Life Insurance",
+        "Instrument": "Equity",
+        "Email": "info@neco.com.np",
+        "Website": "http://www.necoinsurance.com.np"
+    },
+    {
+        "SN": "32",
+        "Name": "Prabhu Insurance Ltd.",
+        "Symbol": "PRIN",
+        "Status": "Active",
+        "Sector": "Non Life Insurance",
+        "Instrument": "Equity",
+        "Email": "info@prabhuinsurance.com",
+        "Website": "http://www.prabhuinsurance.com"
+    },
+    {
+        "SN": "33",
+        "Name": "Sagarmatha Lumbini Insurance Co. Limited",
+        "Symbol": "SALICO",
+        "Status": "Active",
+        "Sector": "Non Life Insurance",
+        "Instrument": "Equity",
+        "Email": "bishow.ad@sagarmathainsurance.com.np"
+    },
+    {
+        "SN": "34",
+        "Name": "IGI Prudential insurance Limited",
+        "Symbol": "IGI",
+        "Status": "Active",
+        "Sector": "Non Life Insurance",
+        "Instrument": "Equity",
+        "Email": "compliance@iginepal.com",
+        "Website": "http://www.iginepal.com"
+    },
+    {
+        "SN": "35",
+        "Name": "Nepal Life Insurance Co. Ltd.",
+        "Symbol": "NLIC",
+        "Status": "Active",
+        "Sector": "Life Insurance",
+        "Instrument": "Equity",
+        "Email": "cs@nepallife.com.np"
+    },
+    {
+        "SN": "36",
+        "Name": "Life Insurance Corporation (Nepal) Limited",
+        "Symbol": "LICN",
+        "Status": "Active",
+        "Sector": "Life Insurance",
+        "Instrument": "Equity",
+        "Email": "cs@licnepal.com.np",
+        "Website": "http://www.licnepal.com.np"
+    },
+    {
+        "SN": "37",
+        "Name": "Shikhar Insurance Co. Ltd.",
+        "Symbol": "SICL",
+        "Status": "Active",
+        "Sector": "Non Life Insurance",
+        "Instrument": "Equity",
+        "Email": "info@shikharinsurance.com",
+        "Website": "http://www.shikharinsurance.com"
+    },
+    {
+        "SN": "38",
+        "Name": "Nepal Finance Ltd.",
+        "Symbol": "NFS",
+        "Status": "Active",
+        "Sector": "Finance",
+        "Instrument": "Equity",
+        "Email": "info@nepalfinance.com.np",
+        "Website": "www.nepalfinancelimited.com.np"
+    },
+    {
+        "SN": "39",
+        "Name": "Bottlers Nepal (Balaju) Limited",
+        "Symbol": "BNL",
+        "Status": "Active",
+        "Sector": "Manufacturing And Processing",
+        "Instrument": "Equity",
+        "Email": "prburma@coca-cola.com.np"
+    },
+    {
+        "SN": "40",
+        "Name": "Nepal Lube Oil Limited",
+        "Symbol": "NLO",
+        "Status": "Active",
+        "Sector": "Manufacturing And Processing",
+        "Instrument": "Equity",
+        "Email": "g.bhattarai@cg.holdings"
+    },
+    {
+        "SN": "41",
+        "Name": "Gurkhas Finance Ltd.",
+        "Symbol": "GUFL",
+        "Status": "Active",
+        "Sector": "Finance",
+        "Instrument": "Equity",
+        "Email": "mukunda@gurkhasfinance.com.np",
+        "Website": "www.gurkhasfinance.com.np"
+    },
+    {
+        "SN": "42",
+        "Name": "Citizen Investment Trust",
+        "Symbol": "CIT",
+        "Status": "Active",
+        "Sector": "Investment",
+        "Instrument": "Equity",
+        "Email": "cit.cmkt@gmail.com"
+    },
+    {
+        "SN": "43",
+        "Name": "Bottlers Nepal (Terai) Limited",
+        "Symbol": "BNT",
+        "Status": "Active",
+        "Sector": "Manufacturing And Processing",
+        "Instrument": "Equity",
+        "Email": "investorrelations@coca-cola.com.np"
+    },
+    {
+        "SN": "44",
+        "Name": "Unilever Nepal Limited",
+        "Symbol": "UNL",
+        "Status": "Active",
+        "Sector": "Manufacturing And Processing",
+        "Instrument": "Equity",
+        "Email": "unl.shareholdersconnect@unilever.com"
+    },
+    {
+        "SN": "45",
+        "Name": "Best Finance Company Ltd.",
+        "Symbol": "BFC",
+        "Status": "Active",
+        "Sector": "Finance",
+        "Instrument": "Equity",
+        "Email": "raj.shrestha@bestfinance.com.np"
+    },
+    {
+        "SN": "46",
+        "Name": "Goodwill Finance Limited",
+        "Symbol": "GFCL",
+        "Status": "Active",
+        "Sector": "Finance",
+        "Instrument": "Equity",
+        "Email": "info@goodwill.net.np",
+        "Website": "https://goodwillfinance.com.np/"
+    },
+    {
+        "SN": "47",
+        "Name": "Himalayan Distillery Limited",
+        "Symbol": "HDL",
+        "Status": "Active",
+        "Sector": "Manufacturing And Processing",
+        "Instrument": "Equity",
+        "Email": "info@himalayandistillery.com"
+    },
+    {
+        "SN": "48",
+        "Name": "Pokhara Finance Ltd.",
+        "Symbol": "PFL",
+        "Status": "Active",
+        "Sector": "Finance",
+        "Instrument": "Equity",
+        "Email": "info@pokharafinance.com.np"
+    },
+    {
+        "SN": "49",
+        "Name": "NMB Bank Limited",
+        "Symbol": "NMB",
+        "Status": "Active",
+        "Sector": "Commercial Banks",
+        "Instrument": "Equity",
+        "Email": "pramod.dahal@nmb.com.np",
+        "Website": "http://www.nmb.com.np"
+    },
+    {
+        "SN": "50",
+        "Name": "Shree Investment Finance Co. Ltd.",
+        "Symbol": "SIFC",
+        "Status": "Active",
+        "Sector": "Finance",
+        "Instrument": "Equity",
+        "Email": "info@shreefinance.com.np",
+        "Website": "http://www.shreefinance.com.np"
+    },
+    {
+        "SN": "51",
+        "Name": "Central Finance Co. Ltd.",
+        "Symbol": "CFCL",
+        "Status": "Active",
+        "Sector": "Finance",
+        "Instrument": "Equity",
+        "Email": "info@centralfinance.com.np"
+    },
+    {
+        "SN": "52",
+        "Name": "Janaki Finance Company Limited",
+        "Symbol": "JFL",
+        "Status": "Active",
+        "Sector": "Finance",
+        "Instrument": "Equity",
+        "Email": "info@jfcjanakpur.com"
+    },
+    {
+        "SN": "53",
+        "Name": "Prabhu Bank Limited",
+        "Symbol": "PRVU",
+        "Status": "Active",
+        "Sector": "Commercial Banks",
+        "Instrument": "Equity",
+        "Email": "amit.bhandari@prabhubank.com"
+    },
+    {
+        "SN": "54",
+        "Name": "Samriddhi Finance Company Limited",
+        "Symbol": "SFCL",
+        "Status": "Active",
+        "Sector": "Finance",
+        "Instrument": "Equity",
+        "Email": "cs@sfcl.com.np",
+        "Website": "http://www.wmerchantbank.com"
+    },
+    {
+        "SN": "55",
+        "Name": "Guheshowori Merchant Bank &amp; Finance Co. Ltd.",
+        "Symbol": "GMFIL",
+        "Status": "Active",
+        "Sector": "Finance",
+        "Instrument": "Equity",
+        "Email": "compliance@gmbf.com.np",
+        "Website": "www.gmbf.com.np"
+    },
+    {
+        "SN": "56",
+        "Name": "Swabalamban Laghubitta Bittiya Sanstha Limited",
+        "Symbol": "SWBBL",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "finance@swbbl.com.np",
+        "Website": "www.swbbl.com.np"
+    },
+    {
+        "SN": "57",
+        "Name": "ICFC Finance Limited",
+        "Symbol": "ICFC",
+        "Status": "Active",
+        "Sector": "Finance",
+        "Instrument": "Equity",
+        "Email": "nepsereport@icfcbank.com",
+        "Website": "www.icfc.com.np"
+    },
+    {
+        "SN": "58",
+        "Name": "Excel Development Bank Ltd.",
+        "Symbol": "EDBL",
+        "Status": "Active",
+        "Sector": "Development Banks",
+        "Instrument": "Equity",
+        "Email": "info@edb.com.np"
+    },
+    {
+        "SN": "59",
+        "Name": "Nepal Doorsanchar Company Limited",
+        "Symbol": "NTC",
+        "Status": "Active",
+        "Sector": "Others",
+        "Instrument": "Equity",
+        "Email": "cs.nt@ntc.net.np",
+        "Website": "www.ntc.net.np"
+    },
+    {
+        "SN": "60",
+        "Name": "Progressive Finance Limited",
+        "Symbol": "PROFL",
+        "Status": "Active",
+        "Sector": "Finance",
+        "Instrument": "Equity",
+        "Email": "info@pfltd.com.np",
+        "Website": "http://www.pfltd.com.np"
+    },
+    {
+        "SN": "61",
+        "Name": "Global IME Bank Limited",
+        "Symbol": "GBIME",
+        "Status": "Active",
+        "Sector": "Commercial Banks",
+        "Instrument": "Equity",
+        "Email": "nlisting@gibl.com.np",
+        "Website": "http://www.globalimebank.com"
+    },
+    {
+        "SN": "62",
+        "Name": "Citizens Bank International Limited",
+        "Symbol": "CZBIL",
+        "Status": "Active",
+        "Sector": "Commercial Banks",
+        "Instrument": "Equity",
+        "Email": "rajendra.shrestha@ctznbank.com",
+        "Website": "www.ctznbank.com"
+    },
+    {
+        "SN": "63",
+        "Name": "Prime Commercial Bank Ltd.",
+        "Symbol": "PCBL",
+        "Status": "Active",
+        "Sector": "Commercial Banks",
+        "Instrument": "Equity",
+        "Email": "CS@pcbl.com.np"
+    },
+    {
+        "SN": "64",
+        "Name": "Lumbini Bikas Bank Ltd.",
+        "Symbol": "LBBL",
+        "Status": "Active",
+        "Sector": "Development Banks",
+        "Instrument": "Equity",
+        "Email": "hari.subedi@lumbinibikasbank.com"
+    },
+    {
+        "SN": "65",
+        "Name": "Arun Valley Hydropower Development Co. Ltd.",
+        "Symbol": "AHPC",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "arunvalley2054@gmail.com"
+    },
+    {
+        "SN": "66",
+        "Name": "Miteri Development Bank Limited",
+        "Symbol": "MDB",
+        "Status": "Active",
+        "Sector": "Development Banks",
+        "Instrument": "Equity",
+        "Email": "thakuri@miteribank.com.np",
+        "Website": "http://www.miteribank.com.np"
+    },
+    {
+        "SN": "67",
+        "Name": "Asian Life Insurance Co. Limited",
+        "Symbol": "ALICL",
+        "Status": "Active",
+        "Sector": "Life Insurance",
+        "Instrument": "Equity",
+        "Email": "murariraj.humagain@asianlife.com.np"
+    },
+    {
+        "SN": "68",
+        "Name": "Himalayan Life Insurance Limited",
+        "Symbol": "HLI",
+        "Status": "Active",
+        "Sector": "Life Insurance",
+        "Instrument": "Equity",
+        "Email": "rajan@primelifenepal.com"
+    },
+    {
+        "SN": "69",
+        "Name": "Nerude Laghubitta Bittiya Sanstha Limited",
+        "Symbol": "NLBBL",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "info@nerude.org.np"
+    },
+    {
+        "SN": "70",
+        "Name": "Agricultural Development Bank Limited",
+        "Symbol": "ADBL",
+        "Status": "Active",
+        "Sector": "Commercial Banks",
+        "Instrument": "Equity",
+        "Email": "cs@adbl.gov.np"
+    },
+    {
+        "SN": "71",
+        "Name": "Mahalaxmi Bikas Bank Ltd.",
+        "Symbol": "MLBL",
+        "Status": "Active",
+        "Sector": "Development Banks",
+        "Instrument": "Equity",
+        "Email": "listing@mahalaxmi.com.np",
+        "Website": "http://www.yetibank.com"
+    },
+    {
+        "SN": "72",
+        "Name": "SuryaJyoti Life Insurance Company Limited",
+        "Symbol": "SJLIC",
+        "Status": "Active",
+        "Sector": "Life Insurance",
+        "Instrument": "Equity",
+        "Email": "it@suryalife.com"
+    },
+    {
+        "SN": "73",
+        "Name": "Garima Bikas Bank Limited",
+        "Symbol": "GBBL",
+        "Status": "Active",
+        "Sector": "Development Banks",
+        "Instrument": "Equity",
+        "Email": "info@garimabank.com.np"
+    },
+    {
+        "SN": "74",
+        "Name": "Jyoti Bikas Bank Limited",
+        "Symbol": "JBBL",
+        "Status": "Active",
+        "Sector": "Development Banks",
+        "Instrument": "Equity",
+        "Email": "krishna.oasti@jbbl.com.np"
+    },
+    {
+        "SN": "75",
+        "Name": "Karnali Development Bank Limited",
+        "Symbol": "KRBL",
+        "Status": "Active",
+        "Sector": "Development Banks",
+        "Instrument": "Equity",
+        "Email": "info@kdblnepal.com",
+        "Website": "www.kdblnepal.com"
+    },
+    {
+        "SN": "76",
+        "Name": "Corporate Development Bank Limited",
+        "Symbol": "CORBL",
+        "Status": "Active",
+        "Sector": "Development Banks",
+        "Instrument": "Equity",
+        "Email": "info@corporatebank.com.np"
+    },
+    {
+        "SN": "77",
+        "Name": "Kamana Sewa Bikas Bank Limited",
+        "Symbol": "KSBBL",
+        "Status": "Active",
+        "Sector": "Development Banks",
+        "Instrument": "Equity",
+        "Email": "pranay.tuladhar@kamanasewabank.com",
+        "Website": "https://www.kamanasewabank.com/"
+    },
+    {
+        "SN": "78",
+        "Name": "Multipurpose Finance Company Limited",
+        "Symbol": "MPFL",
+        "Status": "Active",
+        "Sector": "Finance",
+        "Instrument": "Equity",
+        "Email": "mfclfin43@gmail.com"
+    },
+    {
+        "SN": "79",
+        "Name": "Shangrila Development Bank Ltd.",
+        "Symbol": "SADBL",
+        "Status": "Active",
+        "Sector": "Development Banks",
+        "Instrument": "Equity",
+        "Email": "info@shangrilabank.com"
+    },
+    {
+        "SN": "80",
+        "Name": "Shine Resunga Development Bank Ltd.",
+        "Symbol": "SHINE",
+        "Status": "Active",
+        "Sector": "Development Banks",
+        "Instrument": "Equity",
+        "Email": "info@srdb.com.np",
+        "Website": "https://srdb.com.np/"
+    },
+    {
+        "SN": "81",
+        "Name": "Muktinath Bikas Bank Ltd.",
+        "Symbol": "MNBBL",
+        "Status": "Active",
+        "Sector": "Development Banks",
+        "Instrument": "Equity",
+        "Email": "info@muktinathbank.com.np"
+    },
+    {
+        "SN": "82",
+        "Name": "First Micro Finance Laghubitta Bittiya Sanstha Limited",
+        "Symbol": "FMDBL",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "bijay@fmdb.com.np"
+    },
+    {
+        "SN": "83",
+        "Name": "Manjushree Finance Ltd.",
+        "Symbol": "MFIL",
+        "Status": "Active",
+        "Sector": "Finance",
+        "Instrument": "Equity",
+        "Email": "info@manjushreefinance.com.np",
+        "Website": "manjushreefinance.com.np"
+    },
+    {
+        "SN": "84",
+        "Name": "Nepal Bank Limited",
+        "Symbol": "NBL",
+        "Status": "Active",
+        "Sector": "Commercial Banks",
+        "Instrument": "Equity",
+        "Email": "suresh.ghimire@nbl.com.np",
+        "Website": "www.nepalbank.com.np"
+    },
+    {
+        "SN": "85",
+        "Name": "Swarojgar Laghu Bitta Bikas Bank Ltd.",
+        "Symbol": "SLBBL",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "info@slbbl.com.np",
+        "Website": "www.slbbl.com.np"
+    },
+    {
+        "SN": "86",
+        "Name": "NLG Insurance Company Ltd.",
+        "Symbol": "NLG",
+        "Status": "Active",
+        "Sector": "Non Life Insurance",
+        "Instrument": "Equity",
+        "Email": "manoj.shrestha@nlgi.com.np"
+    },
+    {
+        "SN": "87",
+        "Name": "Sindhu Bikash Bank Ltd",
+        "Symbol": "SINDU",
+        "Status": "Active",
+        "Sector": "Development Banks",
+        "Instrument": "Equity",
+        "Email": "info@sindhubank.com.np"
+    },
+    {
+        "SN": "88",
+        "Name": "Sana Kisan Bikas Laghubitta Bittiya Sanstha Limited",
+        "Symbol": "SKBBL",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "info@skbbl.com.np",
+        "Website": "http://www.skbbl.com.np"
+    },
+    {
+        "SN": "89",
+        "Name": "Grameen Bikas Laghubitta Bittiya Sanstha Ltd.",
+        "Symbol": "GBLBS",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "info@gblbs.com.np",
+        "Website": "http://www.grameenbanknepal.com"
+    },
+    {
+        "SN": "90",
+        "Name": "Reliance Finance Ltd.",
+        "Symbol": "RLFL",
+        "Status": "Active",
+        "Sector": "Finance",
+        "Instrument": "Equity",
+        "Email": "loginnepse@reliancenepal.com.np"
+    },
+    {
+        "SN": "91",
+        "Name": "Sanima Mai Hydropower Ltd.",
+        "Symbol": "SHPC",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "sanimamai@sanimahydro.com",
+        "Website": "www.maihydro.com"
+    },
+    {
+        "SN": "92",
+        "Name": "Kalika Laghubitta Bittiya Sanstha Ltd",
+        "Symbol": "KMCDB",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "info@kalikabank.com.np",
+        "Website": "www.kalikabank.com.np"
+    },
+    {
+        "SN": "93",
+        "Name": "Mithila LaghuBitta Bittiya Sanstha Limited",
+        "Symbol": "MLBBL",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "mlboperationdepart@gmail.com",
+        "Website": "http://www.mldbank.com.np"
+    },
+    {
+        "SN": "94",
+        "Name": "Ridi Power Company Limited",
+        "Symbol": "RIDI",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "sayikanepal@gmail.com"
+    },
+    {
+        "SN": "95",
+        "Name": "Laxmi Laghubitta Bittiya Sanstha Ltd.",
+        "Symbol": "LLBS",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "company.secretary@laxmilaghu.com.np"
+    },
+    {
+        "SN": "96",
+        "Name": "Mirmire Laghubitta Bittya Sanstha Limited",
+        "Symbol": "MMFDB",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "info@mirmirebank.com.np",
+        "Website": "http://www.mirmirebank.com.np"
+    },
+    {
+        "SN": "97",
+        "Name": "Barun Hydropower Co. Ltd.",
+        "Symbol": "BARUN",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "barunhydro@gmail.com"
+    },
+    {
+        "SN": "98",
+        "Name": "Vijaya laghubitta Bittiya Sanstha Ltd.",
+        "Symbol": "VLBS",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "vlbs@vlbs.com.np"
+    },
+    {
+        "SN": "99",
+        "Name": "Himalayan Laghubitta Bittiya Sanstha Limited",
+        "Symbol": "HLBSL",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "info@himalayanlaghubitta.com",
+        "Website": "www.himalayanlaghubitta.com"
+    },
+    {
+        "SN": "100",
+        "Name": "Kisan Lagubitta Bittiya Sanstha Limited",
+        "Symbol": "KLBSL",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "secretorykisanmf079@gmail.com"
+    },
+    {
+        "SN": "101",
+        "Name": "Janautthan Samudayic Laghubitta Bittya Sanstha Limited",
+        "Symbol": "JSLBB",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "info@jucbank.com.np"
+    },
+    {
+        "SN": "102",
+        "Name": "Api Power Company Ltd.",
+        "Symbol": "API",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "apipowercompany@gmail.com",
+        "Website": "www.apipower.com.np"
+    },
+    {
+        "SN": "103",
+        "Name": "NMB Microfinance Bittiya Sanstha Ltd.",
+        "Symbol": "NMBMF",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "surya.thapa@nmbmicrofinance.com",
+        "Website": "http://www.cleanvillage.com.np"
+    },
+    {
+        "SN": "104",
+        "Name": "Global IME Laghubitta Bittiya Sanstha Ltd.",
+        "Symbol": "GILB",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "info@gilb.com.np",
+        "Website": "http://www.gilb.com.np"
+    },
+    {
+        "SN": "105",
+        "Name": "Suryodaya Womi Laghubitta Bittiya Sanstha Limited",
+        "Symbol": "SWMF",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "pramesh.swmfi@gmail.com"
+    },
+    {
+        "SN": "106",
+        "Name": "Mero Microfinance Bittiya Sanstha Ltd.",
+        "Symbol": "MERO",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "meromicrofinance@gmail.com"
+    },
+    {
+        "SN": "107",
+        "Name": "Hydorelectricity Investment and Development Company Ltd",
+        "Symbol": "HIDCL",
+        "Status": "Active",
+        "Sector": "Investment",
+        "Instrument": "Equity",
+        "Email": "jbasnet@hidcl.org.np",
+        "Website": "www.hidcl.org.np"
+    },
+    {
+        "SN": "108",
+        "Name": "Ngadi Group Power Ltd.",
+        "Symbol": "NGPL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "nyadigroup06@gmail.com"
+    },
+    {
+        "SN": "109",
+        "Name": "Green Development Bank Ltd.",
+        "Symbol": "GRDBL",
+        "Status": "Active",
+        "Sector": "Development Banks",
+        "Instrument": "Equity",
+        "Email": "info@greenbank.com.np",
+        "Website": "http://greenbank.com.np/"
+    },
+    {
+        "SN": "110",
+        "Name": "National Laghubitta Bittiya Sanstha Limited",
+        "Symbol": "NMFBS",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "hofficenmfbs@gmail.com",
+        "Website": "http://www.nationalmicrofinance.com.np"
+    },
+    {
+        "SN": "111",
+        "Name": "RSDC Laghubitta Bittiya Sanstha Ltd.",
+        "Symbol": "RSDC",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "info@rsdcmf.com",
+        "Website": "www.rsdcmf.com"
+    },
+    {
+        "SN": "112",
+        "Name": "Khanikhola Hydropower Co. Ltd.",
+        "Symbol": "KKHC",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "khanikhola.hpc@gmail.com"
+    },
+    {
+        "SN": "113",
+        "Name": "Dibyashwori Hydropower Ltd.",
+        "Symbol": "DHPL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "dibyashwarihydropower@gmail.com"
+    },
+    {
+        "SN": "114",
+        "Name": "Arun Kabeli Power Ltd.",
+        "Symbol": "AKPL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "arunkabeli@gmail.com"
+    },
+    {
+        "SN": "115",
+        "Name": "Forward Microfinance Laghubitta Bittiya Sanstha Limited",
+        "Symbol": "FOWAD",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "info@forwardmfbank.com.np"
+    },
+    {
+        "SN": "116",
+        "Name": "Synergy Power Development Ltd.",
+        "Symbol": "SPDL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "email.synergy@gmail.com",
+        "Website": "www.synergyhydro.com"
+    },
+    {
+        "SN": "117",
+        "Name": "United Modi Hydropower Ltd.",
+        "Symbol": "UMHL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "unitedmodi@ntc.net.np",
+        "Website": "www.umh.com.np"
+    },
+    {
+        "SN": "118",
+        "Name": "Samata Gharelu Laghubitta Bittiya Sanstha Limited",
+        "Symbol": "SMATA",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "samata@samata.org.np",
+        "Website": "www.samata.org.np"
+    },
+    {
+        "SN": "119",
+        "Name": "Chhyangdi Hydropower Ltd.",
+        "Symbol": "CHL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "chhyangdihydropowerltd@gmail.com"
+    },
+    {
+        "SN": "120",
+        "Name": "Himalayan Power Partner Ltd.",
+        "Symbol": "HPPL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "hpphydro.binaya@gmail.com",
+        "Website": "http://www.hpp.com.np"
+    },
+    {
+        "SN": "121",
+        "Name": "Mahuli Laghubitta Bittiya Sanstha Limited",
+        "Symbol": "MSLB",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "saroj.singh@mslbsl.com.np",
+        "Website": "mslbsl.com.np"
+    },
+    {
+        "SN": "122",
+        "Name": "Nepal Hydro Developers Ltd.",
+        "Symbol": "NHDL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "info@charnawathihydro.com",
+        "Website": "www.charnawatihydro.com"
+    },
+    {
+        "SN": "123",
+        "Name": "Support Microfinance Bittiya Sanstha Ltd.",
+        "Symbol": "SMB",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "smicrofinance7@gmail.com",
+        "Website": "https://supportmicrofinance.com.np/"
+    },
+    {
+        "SN": "124",
+        "Name": "Unnati Sahakarya Laghubitta Bittiya Sanstha Limited",
+        "Symbol": "USLB",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "prempathak021@gmail.com",
+        "Website": "http://www.unnatimfi.com.np"
+    },
+    {
+        "SN": "125",
+        "Name": "Radhi Bidyut Company Ltd",
+        "Symbol": "RADHI",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "info@radhibidyut.com.np"
+    },
+    {
+        "SN": "126",
+        "Name": "Wean Nepal Laghubitta Bittiya Sanstha Limited",
+        "Symbol": "WNLB",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "nepalseva@gmail.com"
+    },
+    {
+        "SN": "127",
+        "Name": "Nadep Laghubittiya bittya Sanstha Ltd.",
+        "Symbol": "NADEP",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "nadeplaghubitta@gmail.com"
+    },
+    {
+        "SN": "128",
+        "Name": "Panchakanya Mai Hydropower Ltd",
+        "Symbol": "PMHPL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "panchakanyamai@gmail.com"
+    },
+    {
+        "SN": "129",
+        "Name": "Kalika power Company Ltd",
+        "Symbol": "KPCL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "daraudikalikahydro@gmail.com"
+    },
+    {
+        "SN": "130",
+        "Name": "Ankhu Khola Jalvidhyut Company Ltd",
+        "Symbol": "AKJCL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "ankhukhola@yahoo.com",
+        "Website": "www.aankhukholahydropower.com.np"
+    },
+    {
+        "SN": "131",
+        "Name": "Joshi Hydropower Development Company Ltd",
+        "Symbol": "JOSHI",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "info@joshihydropower.com",
+        "Website": "www.joshihydropower.com"
+    },
+    {
+        "SN": "132",
+        "Name": "Aarambha Chautari Laghubitta Bittiya Sanstha Limited",
+        "Symbol": "ACLBSL",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "aarambhachautari@gmail.com",
+        "Website": "www.chautarimfb.com"
+    },
+    {
+        "SN": "133",
+        "Name": "Upper Tamakoshi Hydropower Ltd",
+        "Symbol": "UPPER",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "office@utkhpl.org.np",
+        "Website": "www.tamakhosihydro.org.np"
+    },
+    {
+        "SN": "134",
+        "Name": "Samudayik Laghubitta Bittiya Sanstha Limited",
+        "Symbol": "SLBSL",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "samudayikbank@gmail.com",
+        "Website": "www.samudayikbank.com.np"
+    },
+    {
+        "SN": "135",
+        "Name": "Ghalemdi Hydro Limited",
+        "Symbol": "GHL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "relinarenergy@gmail.com",
+        "Website": "www.ghalemdi.com"
+    },
+    {
+        "SN": "136",
+        "Name": "Asha Laghubitta Bittiya Sanstha Ltd",
+        "Symbol": "ALBSL",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "ashamicrofinance@gmail.com",
+        "Website": "www.ashamicrofinance.com.np"
+    },
+    {
+        "SN": "137",
+        "Name": "SHIVAM CEMENTS LTD",
+        "Symbol": "SHIVM",
+        "Status": "Active",
+        "Sector": "Manufacturing And Processing",
+        "Instrument": "Equity",
+        "Email": "info@shivamcement.com",
+        "Website": "www.shivamcement.com"
+    },
+    {
+        "SN": "138",
+        "Name": "UNIVERSAL POWER COMPANY LTD",
+        "Symbol": "UPCL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "upcl.share@tkkhp.com.np",
+        "Website": "www.universalpowercompany.com.np"
+    },
+    {
+        "SN": "139",
+        "Name": "Mountain Hydro Nepal Limited",
+        "Symbol": "MHNL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "mountainhydronepal@gmail.com",
+        "Website": "www.mountainhydronepal.com.np"
+    },
+    {
+        "SN": "140",
+        "Name": "Panchthar Power Compant Limited",
+        "Symbol": "PPCL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "ppchewa@gmail.com",
+        "Website": "www.ppcl.com.np"
+    },
+    {
+        "SN": "141",
+        "Name": "Ganapati Laghubitta Bittiya Sanstha Limited",
+        "Symbol": "GMFBS",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "ganapati.micro@gmail.com",
+        "Website": "www.ganapatimicro.com.np"
+    },
+    {
+        "SN": "142",
+        "Name": "Himalaya Urja Bikas Company Limited",
+        "Symbol": "HURJA",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "himalayaurja@gmail.com",
+        "Website": "www.himalurja.com"
+    },
+    {
+        "SN": "143",
+        "Name": "Gurans Laghubitta Bittiya Sanstha Limited",
+        "Symbol": "GLBSL",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "guranslbbs@gmail.com",
+        "Website": "www.guranslaghubitta.com.np"
+    },
+    {
+        "SN": "144",
+        "Name": "Swabhimaan Laghubitta Bittiya Sanstha Limited",
+        "Symbol": "SMFBS",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "info@swabhimaanlaghubitta.com.np",
+        "Website": "www.swabhimaanmicrofinance.com"
+    },
+    {
+        "SN": "145",
+        "Name": "Union Hydropower Limited",
+        "Symbol": "UNHPL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "unionhppl@gmail.com",
+        "Website": "www.unionhydropower.com.np"
+    },
+    {
+        "SN": "146",
+        "Name": "Infinity Laghubitta Bittiya Sanstha Limited",
+        "Symbol": "ILBS",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "ilbslfinance@gmail.com",
+        "Website": "www.infinitymbsl.com"
+    },
+    {
+        "SN": "147",
+        "Name": "RASUWAGADHI HYDROPOWER COMPANY LIMITED",
+        "Symbol": "RHPL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "neupane.nar@gmail.com",
+        "Website": "www.rghpcl.com.np"
+    },
+    {
+        "SN": "148",
+        "Name": "SANJEN JALAVIDHYUT COMPANY LIMITED",
+        "Symbol": "SJCL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "sanjenhcl@gmail.com",
+        "Website": "www.sjcl.com.np"
+    },
+    {
+        "SN": "149",
+        "Name": "Sabaiko Laghubitta Bittiya Sanstha Limited",
+        "Symbol": "SABSL",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "info@sabaikolaghubitta.com",
+        "Website": "www.sabaikolaghubitta.com"
+    },
+    {
+        "SN": "150",
+        "Name": "Saptakoshi Development Bank Ltd",
+        "Symbol": "SAPDBL",
+        "Status": "Active",
+        "Sector": "Development Banks",
+        "Instrument": "Equity",
+        "Email": "info@skdbl.com.np",
+        "Website": "www.skdbl.com.np"
+    },
+    {
+        "SN": "151",
+        "Name": "Himal Dolakha Hydropower Company Limited",
+        "Symbol": "HDHPC",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "hydrohimaldolakha@gmail.com",
+        "Website": "www.himaldolakhahydro.com"
+    },
+    {
+        "SN": "152",
+        "Name": "Nepal Reinsurance Company Limited",
+        "Symbol": "NRIC",
+        "Status": "Active",
+        "Sector": "Others",
+        "Instrument": "Equity",
+        "Email": "nepalre@ntc.net.np",
+        "Website": "www.nepalre.com.np"
+    },
+    {
+        "SN": "153",
+        "Name": "NIC ASIA Laghubitta Bittiya Sanstha Limited",
+        "Symbol": "NICLBSL",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "compliance@nicasialaghubitta.com",
+        "Website": "www.nicasialaghubitta.com"
+    },
+    {
+        "SN": "154",
+        "Name": "Sadhana Laghubitta Bittiya Sanstha Limited",
+        "Symbol": "SDLBSL",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "resham.sadhana@gmail.com",
+        "Website": "www.sadhanlaghubitta.com.np"
+    },
+    {
+        "SN": "155",
+        "Name": "NRN Infrastructure and Development Limited",
+        "Symbol": "NRN",
+        "Status": "Active",
+        "Sector": "Investment",
+        "Instrument": "Equity",
+        "Email": "nrninvestmentltd@gmail.com",
+        "Website": "www.nrinl.com"
+    },
+    {
+        "SN": "156",
+        "Name": "Liberty Energy Company Limited",
+        "Symbol": "LEC",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "liberty@libertyenergy.com.np",
+        "Website": "www.libertyenergy.com.np"
+    },
+    {
+        "SN": "157",
+        "Name": "Shiva Shree Hydropower Ltd",
+        "Symbol": "SSHL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "shivashreehydropowerltd@gmail.com",
+        "Website": "www.shivashreehdyro.com"
+    },
+    {
+        "SN": "158",
+        "Name": "Sanima GIC Insurance Limited",
+        "Symbol": "SGIC",
+        "Status": "Active",
+        "Sector": "Non Life Insurance",
+        "Instrument": "Equity",
+        "Email": "sanima@sanimageneral.com",
+        "Website": "www.sanimageneral.com"
+    },
+    {
+        "SN": "159",
+        "Name": "Mountain Energy Nepal Limited",
+        "Symbol": "MEN",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "rajendra.sharma@mountainenergy.com.np",
+        "Website": "www.mountainenergy.com.np"
+    },
+    {
+        "SN": "160",
+        "Name": "United IDI Mardi RB Hydropower Limited.",
+        "Symbol": "UMRH",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "unitedidimardi7mw@gmail.com",
+        "Website": "www.idimardihydro.com.np"
+    },
+    {
+        "SN": "161",
+        "Name": "Prabhu Mahalaxmi Life Insurance Limited",
+        "Symbol": "PMLI",
+        "Status": "Active",
+        "Sector": "Life Insurance",
+        "Instrument": "Equity",
+        "Email": "kishor.lamichhane@pmlil.com",
+        "Website": "www.pmlil.com"
+    },
+    {
+        "SN": "162",
+        "Name": "Chandragiri Hills Limited",
+        "Symbol": "CGH",
+        "Status": "Active",
+        "Sector": "Hotels And Tourism",
+        "Instrument": "Equity",
+        "Email": "jhalak.sharma@chandragirihills.com",
+        "Website": "www.chandragirihills.com"
+    },
+    {
+        "SN": "163",
+        "Name": "Nepal Infrastructure Bank Limited",
+        "Symbol": "NIFRA",
+        "Status": "Active",
+        "Sector": "Investment",
+        "Instrument": "Equity",
+        "Email": "iswor.gautam@nifrabank.com",
+        "Website": "https://www.nifrabank.com"
+    },
+    {
+        "SN": "164",
+        "Name": "GreenLife Hydropower Limited",
+        "Symbol": "GLH",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "nepalgreenlife@gmail.com",
+        "Website": "www.greenlifehydropower.com.np"
+    },
+    {
+        "SN": "165",
+        "Name": "Mahila Lagubitta Bittiya Sanstha Limited",
+        "Symbol": "MLBSL",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "mlbsl.nepal@gmail.com",
+        "Website": "www.mlbsl.com.np"
+    },
+    {
+        "SN": "166",
+        "Name": "Singati Hydro Energy Limited",
+        "Symbol": "SHEL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "shehydro@gmail.com",
+        "Website": "www.singatihydro.com"
+    },
+    {
+        "SN": "167",
+        "Name": "Ru Ru Jalbidhyut Pariyojana Limited",
+        "Symbol": "RURU",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "contact@ruruhydro.com",
+        "Website": "www.ruruhydro.com"
+    },
+    {
+        "SN": "168",
+        "Name": "CEDB Hydropower Development Company Limited",
+        "Symbol": "CHDC",
+        "Status": "Active",
+        "Sector": "Investment",
+        "Instrument": "Equity",
+        "Email": "chf@chf.com.np",
+        "Website": "www.chdc.com.np"
+    },
+    {
+        "SN": "169",
+        "Name": "Jeevan Bikas Laghubitta Bittya Sanstha Ltd",
+        "Symbol": "JBLB",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "info@jeevanbikasmf.com",
+        "Website": "www.jeevanbikasmf.com"
+    },
+    {
+        "SN": "170",
+        "Name": "Manakamana Smart Laghubitta Bittiya Sanstha Limited",
+        "Symbol": "MKLB",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "manakamanalbs@gmail.com",
+        "Website": "www.manakamanalbs.com"
+    },
+    {
+        "SN": "171",
+        "Name": "Samaj Laghubittya Bittiya Sanstha Limited",
+        "Symbol": "SAMAJ",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "samajlbsl@gmail.com",
+        "Website": "www.samajlaghubitta.org.np"
+    },
+    {
+        "SN": "172",
+        "Name": "Sanima Reliance Life Insurance Limited",
+        "Symbol": "SRLI",
+        "Status": "Active",
+        "Sector": "Life Insurance",
+        "Instrument": "Equity",
+        "Email": "sanima@sanimalife.com",
+        "Website": "www.sanimalife.com"
+    },
+    {
+        "SN": "173",
+        "Name": "Mailung Khola Jal Vidhyut Company Limited",
+        "Symbol": "MKJC",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "mailung.mkjc@gmail.com",
+        "Website": "www.mailunhkhola.com"
+    },
+    {
+        "SN": "174",
+        "Name": "Manushi Laghubitta Bittiya Sanstha Limited",
+        "Symbol": "MLBS",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "info@manushilbs.com.np",
+        "Website": "https://www.manushilbs.com"
+    },
+    {
+        "SN": "175",
+        "Name": "Sahas Urja Limited",
+        "Symbol": "SAHAS",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "surja@sahasurja.com",
+        "Website": "www.sahasurja.com"
+    },
+    {
+        "SN": "176",
+        "Name": "Terhathum Power Company Limited",
+        "Symbol": "TPC",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "terathumpc@gmail.com",
+        "Website": "www.terhathumpc.com"
+    },
+    {
+        "SN": "177",
+        "Name": "Samling Power Company Limited",
+        "Symbol": "SPC",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "info@urjadeveloper.com",
+        "Website": "spcl.com.np"
+    },
+    {
+        "SN": "178",
+        "Name": "Nyadi Hydropower Limited",
+        "Symbol": "NYADI",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "nhl@nhl.com.np",
+        "Website": "www.nhl.com.np"
+    },
+    {
+        "SN": "179",
+        "Name": "Madhya Bhotekoshi Jalavidyut Company Limited",
+        "Symbol": "MBJC",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "admin@mbjcl.com.np",
+        "Website": "www.mbjcl.com.np"
+    },
+    {
+        "SN": "180",
+        "Name": "Buddha Bhumi Nepal Hydropower Company Limited",
+        "Symbol": "BNHC",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "lowertadi@gmail.com",
+        "Website": "https://buddhabhumihydro.com/"
+    },
+    {
+        "SN": "181",
+        "Name": "Emerging Nepal Limited",
+        "Symbol": "ENL",
+        "Status": "Active",
+        "Sector": "Investment",
+        "Instrument": "Equity",
+        "Email": "mail@emergingnep.com",
+        "Website": "https://www.emergingnep.com"
+    },
+    {
+        "SN": "182",
+        "Name": "Jalpa Samudayik Laghubitta Bittiya Sanstha Limited",
+        "Symbol": "JALPA",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "info@jalpamf.com.np",
+        "Website": "www.jalpamf.com.np"
+    },
+    {
+        "SN": "183",
+        "Name": "NESDO Sambridha Laghubitta Bittiya Sanstha Limited",
+        "Symbol": "NESDO",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "nesdosmfi@gmail.com",
+        "Website": "https://slbs.nesdonepal.org"
+    },
+    {
+        "SN": "184",
+        "Name": "Green Ventures Limited",
+        "Symbol": "GVL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "frontdesk@trivenihydro.com",
+        "Website": "www.greenventuresnepal.com"
+    },
+    {
+        "SN": "185",
+        "Name": "Balephi Hydropower Limited",
+        "Symbol": "BHL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "info.balephi@gmail.com",
+        "Website": "www.balephihydro.com"
+    },
+    {
+        "SN": "186",
+        "Name": "Upakar Laghubitta Bittiya Sanstha Limited",
+        "Symbol": "ULBSL",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "upakar.banke1@gmail.com",
+        "Website": "www.ulbsl.com.np"
+    },
+    {
+        "SN": "187",
+        "Name": "CYC Nepal Laghubitta Bittiya Sanstha Limited",
+        "Symbol": "CYCL",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "info@cycnlbsl.org.np",
+        "Website": "www.cycnlbsl.org.np"
+    },
+    {
+        "SN": "188",
+        "Name": "River Falls Power Limited",
+        "Symbol": "RFPL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "riverfallshydropower@gmail.com",
+        "Website": "www.riverfallshydro.com.np"
+    },
+    {
+        "SN": "189",
+        "Name": "Dordi Khola Jal Bidyut Company Limited",
+        "Symbol": "DORDI",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "info@dordikhola.com.np",
+        "Website": "www.dordikhola.com.np"
+    },
+    {
+        "SN": "190",
+        "Name": "Bindhyabasini Hydropower Development Company Limited",
+        "Symbol": "BHDC",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "info.bhdc@rmgroup.com.np",
+        "Website": "https://bindhyabasinihydro.com.np"
+    },
+    {
+        "SN": "191",
+        "Name": "Himalayan Hydropower Limited",
+        "Symbol": "HHL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "himalayanhydro2021@gmail.com",
+        "Website": "www.hhpl.com.np"
+    },
+    {
+        "SN": "192",
+        "Name": "Upper Hewakhola Hydropower Company Limited",
+        "Symbol": "UHEWA",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "upperhewahpc@gmail.com",
+        "Website": "upperhewahpc.com.np"
+    },
+    {
+        "SN": "193",
+        "Name": "Swet-Ganga Hydropower &amp; Construction Limited",
+        "Symbol": "SGHC",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "sghcl@sanimahydro.com",
+        "Website": "www.swetgangahydropower.com"
+    },
+    {
+        "SN": "194",
+        "Name": "Mandakini Hydropower Limited",
+        "Symbol": "MHL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "mandakini.hydropower@gmail.com",
+        "Website": "www.mandakinihydro.com.np"
+    },
+    {
+        "SN": "195",
+        "Name": "Upper Solu Hydro Electric Company Limited",
+        "Symbol": "USHEC",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "ushec@info.com.np",
+        "Website": "www.ushec.com.np"
+    },
+    {
+        "SN": "196",
+        "Name": "Rapti Hydro And General Construction Limited",
+        "Symbol": "RHGCL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "info@raptihydro.com.np",
+        "Website": "www.raptihydro.com.np"
+    },
+    {
+        "SN": "197",
+        "Name": "Aviyan Laghubitta Bittiya Sanstha Limited",
+        "Symbol": "AVYAN",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "aviyanlaghu@gmail.com",
+        "Website": "https://www.aviyanlaghubitta.com/"
+    },
+    {
+        "SN": "198",
+        "Name": "Sayapatri Hydropower Limited",
+        "Symbol": "SPHL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "info@sayapatrihydropower.com",
+        "Website": "www.sayapatrihydropower.com"
+    },
+    {
+        "SN": "199",
+        "Name": "People's Power Limited",
+        "Symbol": "PPL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "peoplespowerltd@gmail.com",
+        "Website": "www.peoplespower.com.np"
+    },
+    {
+        "SN": "200",
+        "Name": "Dhaulagiri Laghubitta Bittiya Sanstha Limited",
+        "Symbol": "DLBS",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "dlbsbank.headoffice@gmail.com",
+        "Website": "www.dhaulagiribank.com"
+    },
+    {
+        "SN": "201",
+        "Name": "Sikles Hydropower Limited",
+        "Symbol": "SIKLES",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "sikleshydro13mw@gmail.com",
+        "Website": "www.sikleshydro.com.np"
+    },
+    {
+        "SN": "202",
+        "Name": "Eastern Hydropower Limited",
+        "Symbol": "EHPL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "pikhuwakhola5@gmail.com",
+        "Website": "www.ehpl.com.np"
+    },
+    {
+        "SN": "203",
+        "Name": "Shrijanshil Laghubitta Bittiya Sanstha Limited",
+        "Symbol": "SHLB",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "info@shrijanshil.com.np",
+        "Website": "www.shrijanshil.org"
+    },
+    {
+        "SN": "204",
+        "Name": "Peoples Hydropower Company Limited",
+        "Symbol": "PHCL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "peoples.hydro5@gmail.com",
+        "Website": "https://peopleshydro.com.np/"
+    },
+    {
+        "SN": "205",
+        "Name": "Barahi Hydropower Public Limited",
+        "Symbol": "BHPL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "bhpl.acc@gmail.com",
+        "Website": "www.barahihydropower.com.np"
+    },
+    {
+        "SN": "206",
+        "Name": "Unique Nepal Laghubitta Bittiya Sanstha Limited",
+        "Symbol": "UNLB",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "unique.mfp@gmail.com",
+        "Website": "https://uniquenepalmicrofinance.com.np"
+    },
+    {
+        "SN": "207",
+        "Name": "Super Madi Hydropower Limited",
+        "Symbol": "SMHL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "supermadihydro@gmail.com",
+        "Website": "www.supermadihydro.com.np"
+    },
+    {
+        "SN": "208",
+        "Name": "Shuvam Power Limited",
+        "Symbol": "SPL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "shuvampower@gmail.com",
+        "Website": "www.shuvamhydro.com.np"
+    },
+    {
+        "SN": "209",
+        "Name": "Super Mai Hydropower Limited",
+        "Symbol": "SMH",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "supermaihydropower@gmail.com",
+        "Website": "www.supermaihydro.com.np"
+    },
+    {
+        "SN": "210",
+        "Name": "Maya Khola Hydropower Company Limited",
+        "Symbol": "MKHC",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "dpshresths@gmail.com",
+        "Website": "www.mkhpcl.com.np"
+    },
+    {
+        "SN": "211",
+        "Name": "Asian Hydropower Limited",
+        "Symbol": "AHL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "info@urjadeveloper.com",
+        "Website": "https://asianhydro.com.np/"
+    },
+    {
+        "SN": "212",
+        "Name": "Kalinchowk Darshan Limited",
+        "Symbol": "KDL",
+        "Status": "Active",
+        "Sector": "Hotels And Tourism",
+        "Instrument": "Equity",
+        "Email": "darshankalinchowk@gmail.com",
+        "Website": "www.kalinchowkdarshan.com.np"
+    },
+    {
+        "SN": "213",
+        "Name": "Sanima Middle Tamor Hydropower Limited",
+        "Symbol": "TAMOR",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "middletamor@sanimahydro.com",
+        "Website": "https://middletamor.com/"
+    },
+    {
+        "SN": "214",
+        "Name": "Molung Hydropower Company Limited",
+        "Symbol": "MHCL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "molung.office@gmail.com",
+        "Website": "www.molunghydropwer.com.np"
+    },
+    {
+        "SN": "215",
+        "Name": "Sagarmatha Jalabidhyut Company Limited",
+        "Symbol": "SMJC",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "sagarmathahydropower@gmail.com",
+        "Website": "https://sagarmathajbc.com.np"
+    },
+    {
+        "SN": "216",
+        "Name": "Aatmanirbhar Laghubitta Bittiya Sanstha Limited",
+        "Symbol": "ANLB",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "aatmanirbhar2076@gmail.com",
+        "Website": "https://aatmanirbhar.org.np"
+    },
+    {
+        "SN": "217",
+        "Name": "BPW Laghubitta Bittiya Sanstha Limited",
+        "Symbol": "BPW",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "bpwlaghubitta@gmail.com",
+        "Website": "www.bpwlaghubitta.com.np"
+    },
+    {
+        "SN": "218",
+        "Name": "Makar Jitumaya Suri Hydropower Limited",
+        "Symbol": "MAKAR",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "mjs.hydropower2065@gmail.com",
+        "Website": "www.mjshydropower.com.np"
+    },
+    {
+        "SN": "219",
+        "Name": "Mai Khola Hydropower Limited",
+        "Symbol": "MKHL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "maikholahydro@gmail.com",
+        "Website": "https://maikholahydropower.com.np"
+    },
+    {
+        "SN": "220",
+        "Name": "Dolti Power Company Limited",
+        "Symbol": "DOLTI",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "info@doltipower.com.np",
+        "Website": "www.doltipower.org.np"
+    },
+    {
+        "SN": "221",
+        "Name": "Bhugol Energy Development Company Limited",
+        "Symbol": "BEDC",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "energy.bhugol@gmail.com",
+        "Website": "www.bedc.com.np"
+    },
+    {
+        "SN": "222",
+        "Name": "City Hotel Limited",
+        "Symbol": "CITY",
+        "Status": "Active",
+        "Sector": "Hotels And Tourism",
+        "Instrument": "Equity",
+        "Email": "info@cityhotel.com.np",
+        "Website": "https://cityhotel.com.np/"
+    },
+    {
+        "SN": "223",
+        "Name": "Menchhiyam Hydropower Limited",
+        "Symbol": "MCHL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "menchhiyam@gmail.com",
+        "Website": "www.menchhiyamhydropower.com"
+    },
+    {
+        "SN": "224",
+        "Name": "Ingwa Hydropower Limited",
+        "Symbol": "IHL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "hydropoweringwa@gmail.com",
+        "Website": "www.ingwahydropowerltd.com.np"
+    },
+    {
+        "SN": "225",
+        "Name": "Modi Energy Limited",
+        "Symbol": "MEL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "info@modihydro.com",
+        "Website": "www.modihydro.com"
+    },
+    {
+        "SN": "226",
+        "Name": "Rawa Energy Development Limited",
+        "Symbol": "RAWA",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "rawa.hydro@gmail.com",
+        "Website": "www.rawaenergy.com.np"
+    },
+    {
+        "SN": "227",
+        "Name": "Nepal Republic Media Limited",
+        "Symbol": "NRM",
+        "Status": "Active",
+        "Sector": "Others",
+        "Instrument": "Equity",
+        "Email": "info@nagariknews.com",
+        "Website": "www.nepalrepublicmedia.com"
+    },
+    {
+        "SN": "228",
+        "Name": "IME Life Insurance Company Limited",
+        "Symbol": "ILI",
+        "Status": "Active",
+        "Sector": "Life Insurance",
+        "Instrument": "Equity",
+        "Email": "info@imelifeinsurance.com",
+        "Website": "www.imelifeinsurance.com"
+    },
+    {
+        "SN": "229",
+        "Name": "Upper Syange Hydropower Limited",
+        "Symbol": "USHL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "upper.syange@gmail.com",
+        "Website": "www.uppersyange.com"
+    },
+    {
+        "SN": "230",
+        "Name": "Ghorahi Cement Industry Limited",
+        "Symbol": "GCIL",
+        "Status": "Active",
+        "Sector": "Manufacturing And Processing",
+        "Instrument": "Equity",
+        "Email": "enquiry@ghorahicement.com",
+        "Website": "www.ghorahicement.com.np"
+    },
+    {
+        "SN": "231",
+        "Name": "Three Star Hydropower Limited",
+        "Symbol": "TSHL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "sapsu2016@gmail.com",
+        "Website": "threestarhydro.com"
+    },
+    {
+        "SN": "232",
+        "Name": "Kutheli Bukhari Small Hydropower Limited",
+        "Symbol": "KBSH",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "kuthelihydro@gmail.com",
+        "Website": "kuthelihydropower.com"
+    },
+    {
+        "SN": "233",
+        "Name": "Reliable Nepal Life Insurance Limited",
+        "Symbol": "RNLI",
+        "Status": "Active",
+        "Sector": "Life Insurance",
+        "Instrument": "Equity",
+        "Email": "share@reliablelife.com.np",
+        "Website": "https://reliablelife.com.np"
+    },
+    {
+        "SN": "234",
+        "Name": "Sun Nepal Life Insurance Company Limited",
+        "Symbol": "SNLI",
+        "Status": "Active",
+        "Sector": "Life Insurance",
+        "Instrument": "Equity",
+        "Email": "info@snlic.com.np",
+        "Website": "https://www.snlic.com.np/"
+    },
+    {
+        "SN": "235",
+        "Name": "Manakamana Engineering Hydropower Limited",
+        "Symbol": "MEHL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "hydromanakamana@gmail.com",
+        "Website": "www.hydromanakamana.com.np"
+    },
+    {
+        "SN": "236",
+        "Name": "Upper Lohore Khola Hydropower Company Limited",
+        "Symbol": "ULHC",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "upperlohore.hydro@gmail.com",
+        "Website": "www.ulkhp.com"
+    },
+    {
+        "SN": "237",
+        "Name": "Citizen Life Insurance Company Limited",
+        "Symbol": "CLI",
+        "Status": "Active",
+        "Sector": "Life Insurance",
+        "Instrument": "Equity",
+        "Email": "info@citizenlifenepal.com",
+        "Website": "www.citizenlifenepal.com"
+    },
+    {
+        "SN": "238",
+        "Name": "Mandu Hydropower Limited",
+        "Symbol": "MANDU",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "info@manduhydropower.com",
+        "Website": "www.manduhydropower.com"
+    },
+    {
+        "SN": "239",
+        "Name": "Hathway Investment Nepal Limited",
+        "Symbol": "HATHY",
+        "Status": "Active",
+        "Sector": "Investment",
+        "Instrument": "Equity",
+        "Email": "nepal.hathway@gmail.com",
+        "Website": "https://www.hathwaynepal.com.np/"
+    },
+    {
+        "SN": "240",
+        "Name": "Bhagawati Hydropower Development Company Limited",
+        "Symbol": "BGWT",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "bhdcpokhara1@gmail.com",
+        "Website": "www.bhagawatihydro.com.np"
+    },
+    {
+        "SN": "241",
+        "Name": "Mid Solu Hydropower Limited",
+        "Symbol": "MSHL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "midsolu.hydropower@gmail.com",
+        "Website": "https://midsoluhydropower.com.np/"
+    },
+    {
+        "SN": "242",
+        "Name": "Sonapur Minerals And Oil Limited",
+        "Symbol": "SONA",
+        "Status": "Active",
+        "Sector": "Manufacturing And Processing",
+        "Instrument": "Equity",
+        "Email": "finance@sonacement.com",
+        "Website": "www.sonacement.com"
+    },
+    {
+        "SN": "243",
+        "Name": "Mathillo Mailun Khola Jalvidhyut Limited",
+        "Symbol": "MMKJL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "mailung@sanimahydro.com",
+        "Website": "sanimamailung.com"
+    },
+    {
+        "SN": "244",
+        "Name": "Trishuli Jal Vidhyut Company Limited",
+        "Symbol": "TVCL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "tjvclshare2080@gmail.com"
+    },
+    {
+        "SN": "245",
+        "Name": "Vision Lumbini Urja Company Limited",
+        "Symbol": "VLUCL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "urja@visionlumbini.com.np",
+        "Website": "www.urja.visionlumbini.com.np"
+    },
+    {
+        "SN": "246",
+        "Name": "Muktinath Krishi Company Limited",
+        "Symbol": "MKCL",
+        "Status": "Active",
+        "Sector": "Others",
+        "Instrument": "Equity",
+        "Email": "info@muktinathkrishi.com",
+        "Website": "www.muktinathkrishi.com"
+    },
+    {
+        "SN": "247",
+        "Name": "Chirkhwa Hydropower Limited",
+        "Symbol": "CKHL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "chirkhwa@gmail.com",
+        "Website": "www.chirkhwahpl.com"
+    },
+    {
+        "SN": "248",
+        "Name": "Nepal Warehousing Company Limited",
+        "Symbol": "NWCL",
+        "Status": "Active",
+        "Sector": "Others",
+        "Instrument": "Equity",
+        "Email": "info@nwcl.com.np",
+        "Website": "www.nwcl.com.np"
+    },
+    {
+        "SN": "249",
+        "Name": "Himalayan Reinsurance Limited",
+        "Symbol": "HRL",
+        "Status": "Active",
+        "Sector": "Others",
+        "Instrument": "Equity",
+        "Email": "contactus@himalayanre.com",
+        "Website": "www.himalayanre.com"
+    }
+]
