@@ -3,9 +3,11 @@
     "Sno": "1",
     "Name": "American Life Insurance Company Limited (MetLife)",
     "Operation": "2058 B.S (2001 A.D)",
+	"HO" : "",
     "NEPSE": "",
 	"Phone": "01-5970166",
 	"Email" : "",
+	"IMG": "https://shyamkumarkc20.com.np/logo/MetLife.png",
     "Website": "www.metlife.com.np/en/"
   },
   {
@@ -16,6 +18,7 @@
     "NEPSE": "ALICL",
 	"Phone": "01-4510115",
 	"Email" : "asianlife@asianlife.com.np",
+	"IMG": "https://shyamkumarkc20.com.np/logo/alicl.png",
     "Website": "www.asianlife.com.np/"
   },
   {
@@ -25,6 +28,7 @@
     "NEPSE": "CLI",
 	"Phone": "015970217",
 	"Email" : "info@citizenlifenepal.com",
+	"IMG": "https://shyamkumarkc20.com.np/logo/cli.png",
     "Website": "www.citizenlifenepal.com/"
   },
   {
@@ -37,6 +41,7 @@
 	"Fax": "",
 	"Phone": "01-4024071",
 	"Email" : "info@imelifeinsurance.com",
+	"IMG": "https://shyamkumarkc20.com.np/logo/",
     "Website": "imelifeinsurance.com/"
   },
   {
@@ -47,6 +52,7 @@
     "NEPSE": "SJLIC",
 	"Phone": "014545941",
 	"Email" : "info@suryajyotilife.com",
+	"IMG": "https://shyamkumarkc20.com.np/logo/",
     "Website": "www.suryajyotilife.com/"
   },
   {
@@ -59,6 +65,7 @@
 	"Fax": "01-4012615",
 	"Phone": "01-4012613",
 	"Email" : "liccorporate@licnepal.com.np",
+	"IMG": "https://shyamkumarkc20.com.np/logo/",
     "Website": "www.licnepal.com.np/"
   },
   {
@@ -71,6 +78,7 @@
 	"Fax": "05362497",
 	"Phone": "05352012",
 	"Email" : "info@pmlil.com",
+	"IMG": "https://shyamkumarkc20.com.np/logo/",
     "Website": "www.pmlil.com/"
   },
   {
@@ -83,6 +91,7 @@
 	"Fax": "01-4535633",
 	"Phone": "01-4514799",
 	"Email" : "nlgilife@mail.com.np",
+	"IMG": "https://shyamkumarkc20.com.np/logo/",
     "Website": "www.nationallife.com.np/"
   },
   {
@@ -95,6 +104,7 @@
 	"Fax": "",
 	"Phone": "01-5970971",
 	"Email" : "customer.service@nepallife.com.np",
+	"IMG": "https://shyamkumarkc20.com.np/logo/",
     "Website": "www.nepallife.com.np/en/home"
   },
   
@@ -103,11 +113,13 @@
     "Sno": "10",
     "Name": "Himalayan Life Insurance Company Limited",
     "Operation": "2080 B.S (2023 A.D)",
-    "NEPSE": "PLIC","HO": "",
+    "NEPSE": "PLIC",
+	"HO": "Manakamana Marga, Kathmandu",
 	"PO": "25979",
 	"Fax": "",
 	"Phone": "01-5970057",
 	"Email" : "info@himalayanlife.com.np",
+	"IMG": "https://shyamkumarkc20.com.np/logo/",
     "Website": "himalayanlife.com.np/"
   },
   {
@@ -120,6 +132,7 @@
 	"Fax": "",
 	"Phone" :"01-4262520",
     "Email" : "info@rbs.gov.np",
+	"IMG": "https://shyamkumarkc20.com.np/logo/",
 	"Website": "www.rbs.gov.np/"
   },
   {
@@ -133,6 +146,7 @@
 	"Fax": "",
 	"Phone": "01-4523618",
 	"Email" : "info@reliablelife.com.np",
+	"IMG": "https://shyamkumarkc20.com.np/logo/",
     "Website": "www.reliablelife.com.np/"
   },
   {
@@ -145,6 +159,7 @@
 	"Fax": "",
 	"Phone": "01-5970400",
 	"Email" : "info@sanimareliancelife.com",
+	"IMG": "https://shyamkumarkc20.com.np/logo/",
     "Website": "www.sanimareliancelife.com/"
   },
   {
@@ -157,6 +172,7 @@
 	"Fax": "",
 	"Phone": "01-4536126",
 	"Email" : "info@snlic.com",
+	"IMG": "https://shyamkumarkc20.com.np/logo/",
     "Website": "www.sunlife.com.np/"
   }
 ]
