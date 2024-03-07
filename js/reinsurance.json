@@ -3,16 +3,29 @@
     "Sno": "1",
     "Name": "Nepal Reinsurace Company Limited",
     "Operation": "2014 A.D ",
-    "NEPSE": "NRIC", 
-    "Phone": " +977-015970401, +977-015970402",
-    "Website": "nepalre.com.np"
+    "NEPSE": "NRIC",
+	"HO": "Thapathali, Kathmandu",
+	"PO": "",
+	"Fax": " ",
+	"Toll": " 0",
+	"Phone" :"015970401",
+    "Email" : "nepalre@ntc.net.np",
+	"IMG": "https://shyamkumarkc20.com.np/logo/nric.jpg",
+    "Website": "https://nepalre.com.np"
   },
    {
     "Sno": "2",
     "Name": "Himalayan Reinsurace Company Limited",
     "Operation": "2021 A.D ",
     "NEPSE": "HRL",
-     "Phone": "+977-1-4543432, +977-1-4003123,+977-1-4003122",
-    "Website": "himalayanre.com"
+	
+	"HO": "Maharajgunj, Kathmandu",
+	"PO": "",
+	"Fax": " ",
+	"Toll": " 0",
+	"Phone" :"014543432",
+    "Email" : "contactus@himalayanre.com",
+	"IMG": "https://shyamkumarkc20.com.np/logo/hrl.png",
+    "Website": "https://himalayanre.com"
   }
 ]
