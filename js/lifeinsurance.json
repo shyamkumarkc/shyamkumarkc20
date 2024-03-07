@@ -91,7 +91,7 @@
 	"Fax": "01-4535633",
 	"Phone": "01-4514799",
 	"Email" : "nlgilife@mail.com.np",
-	"IMG": "https://shyamkumarkc20.com.np/logo/",
+	"IMG": "https://shyamkumarkc20.com.np/logo/nlicl.jpg",
     "Website": "www.nationallife.com.np/"
   },
   {
@@ -104,7 +104,7 @@
 	"Fax": "",
 	"Phone": "01-5970971",
 	"Email" : "customer.service@nepallife.com.np",
-	"IMG": "https://shyamkumarkc20.com.np/logo/",
+	"IMG": "https://shyamkumarkc20.com.np/logo/nlic.jpg",
     "Website": "www.nepallife.com.np/en/home"
   },
   
@@ -113,13 +113,13 @@
     "Sno": "10",
     "Name": "Himalayan Life Insurance Company Limited",
     "Operation": "2080 B.S (2023 A.D)",
-    "NEPSE": "PLIC",
+    "NEPSE": "HLI",
 	"HO": "Manakamana Marga, Kathmandu",
 	"PO": "25979",
 	"Fax": "",
 	"Phone": "01-5970057",
 	"Email" : "info@himalayanlife.com.np",
-	"IMG": "https://shyamkumarkc20.com.np/logo/",
+	"IMG": "https://shyamkumarkc20.com.np/logo/hli.png",
     "Website": "himalayanlife.com.np/"
   },
   {
@@ -132,7 +132,7 @@
 	"Fax": "",
 	"Phone" :"01-4262520",
     "Email" : "info@rbs.gov.np",
-	"IMG": "https://shyamkumarkc20.com.np/logo/",
+	"IMG": "https://shyamkumarkc20.com.np/logo/rbcl.png",
 	"Website": "www.rbs.gov.np/"
   },
   {
@@ -146,7 +146,7 @@
 	"Fax": "",
 	"Phone": "01-4523618",
 	"Email" : "info@reliablelife.com.np",
-	"IMG": "https://shyamkumarkc20.com.np/logo/",
+	"IMG": "https://shyamkumarkc20.com.np/logo/rnli.png",
     "Website": "www.reliablelife.com.np/"
   },
   {
@@ -159,7 +159,7 @@
 	"Fax": "",
 	"Phone": "01-5970400",
 	"Email" : "info@sanimareliancelife.com",
-	"IMG": "https://shyamkumarkc20.com.np/logo/",
+	"IMG": "https://shyamkumarkc20.com.np/logo/srli.png",
     "Website": "www.sanimareliancelife.com/"
   },
   {
@@ -172,7 +172,7 @@
 	"Fax": "",
 	"Phone": "01-4536126",
 	"Email" : "info@snlic.com",
-	"IMG": "https://shyamkumarkc20.com.np/logo/",
+	"IMG": "https://shyamkumarkc20.com.np/logo/snli.png",
     "Website": "www.sunlife.com.np/"
   }
 ]
