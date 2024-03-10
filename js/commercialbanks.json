@@ -82,7 +82,7 @@
 	"Website": "www.nimb.com.np",
 	  "IMG": "https://shyamkumarkc20.com.np/logo/nimb.png",
 	"TOLL": "16600125205",
-	"phone": "01-5342530, 01-5328229",
+	"phone": ["01-5342530", "01-5328229"],
 	"email": "info@nimb.com.np",
 	"pobox": "0"
   },
