@@ -98,7 +98,7 @@
 	"Website": "www.sc.com/np",
 	  "IMG": "https://shyamkumarkc20.com.np/logo/scb.jpg",
 	"TOLL": "16600152222",
-	"phone": " 01-4791800, 01-5424198",
+	"phone": [" 01-4791800", "01-5424198"],
 	"email": "Clientcarecentre.Nepal@sc.com",
 	"pobox": "0"
   },
