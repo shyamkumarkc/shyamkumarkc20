@@ -1,9 +1,24 @@
 <html>
    <body>
-      <input id="input" name="BankName" type="text" placeholder="BankName" autofocus></input>
-      <div id="display-data"></div>
+      <input id="input" width="100%" name="Location" type="text" placeholder="Location" autofocus ></input>
+	  <table border="black" style="width: 100%;">
+<thead>
+<tr>
+<th>Bank Name</th>
+<th>Branch Name</th>
+<th>Address</th>
+<th>Phone Number </th>	
+	<th>email</th>
+
+</tr>
+</thead>
+
+      <tbody id="display-data">
+         <!-- Prodcuts from javascript file in here. -->
+      </tbody>
+      
       <script>
-	  const apiEndpoint= "https://shyamkumarkc20.com.np/js/taplejung.json";
+	  const apiEndpoint= "https://shyamkumarkc20.com.np/js/branch.json";
 const display=document.querySelector("#display-data");
 const input=document.querySelector("#input");
 const getData = async() => {
@@ -20,16 +35,19 @@ const payload= await getData();
 let dataDisplay = payload.filter((eventData) =>
 {
 if(query ==="") {return eventData}
-else if (eventData.BankName.toLowerCase().includes(query.toLowerCase())){return eventData}
+else if (eventData.Location.toLowerCase().includes(query.toLowerCase())){return eventData}
 }).map((object)=>
 {
    
-const{BankName, BranchName}=object;
+const{Bank, Branch, Location,  Contact, Email}=object;
 return `
-<div class= "container">
-<p>Name: ${BankName}</p>
-<p>Username: ${BranchName}</p>
-</div>`
+<tr class= "container">
+<td>${Bank}</td>
+<td>${Branch}</td>
+<td>${Location}</td>
+<td><a href="tel:${Contact}">${Contact}</a></td>
+<td><a href="mailto:${Email}">${Email}</a></td>
+</tr>`
 }).join("");
 display.innerHTML=dataDisplay;
 }
