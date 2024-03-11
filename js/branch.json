@@ -5,7 +5,8 @@
         "Branch": "Chabahil Branch",
         "Location": "Boudhnath Sadak, Chabahil, Kathmandu",
         "Contact": "01-4584753 / 01-4584754",
-        "Email": "info@bestfinance.com.np"
+        "Email": "info@bestfinance.com.np", 
+		"ATM": "N/A"
     },
     {
         "Bank": "Best Finance Company Limited",
@@ -13,116 +14,134 @@
         "Location": "Pipalbot, Rama Bhawan, Kathmandu",
         "Contact": "01-5331726 / 01-5332125",
         "Email": "info@bestfinance.com.np"
+	, 
+		"ATM": "N/A"
     },
     {
         "Bank": "Best Finance Company Limited",
         "Branch": "Kamaladi Branch",
         "Location": "Kamaladi, Kathmandu",
         "Contact": "01-4542460 / 01-4542461",
-        "Email": "info@bestfinance.com"
+        "Email": "info@bestfinance.com", 
+		"ATM": "N/A"
     },
     {
         "Bank": "Best Finance Company Limited",
         "Branch": "Amarpath Branch",
         "Location": "Amarpath, Butwal",
         "Contact": "071-534288 / 071-534888",
-        "Email": "info@bestfinance.com"
+        "Email": "info@bestfinance.com", 
+		"ATM": "Yes"
     },
     {
         "Bank": "Best Finance Company Limited",
         "Branch": "Milanchowk Branch",
         "Location": "Milachowk, Butwal",
         "Contact": "071-551590 / 071-551591",
-        "Email": "info@bestfinance.com.np"
+        "Email": "info@bestfinance.com.np", 
+		"ATM": "Yes"
     },
     {
         "Bank": "Best Finance Company Limited",
         "Branch": "Jeetpur Branch",
         "Location": "Jeetpur, Kapilbastu",
         "Contact": "076-550202",
-        "Email": "info@bestfinance.com.np"
+        "Email": "info@bestfinance.com.np", 
+		"ATM": "N/A"
     },
     {
         "Bank": "Best Finance Company Limited",
         "Branch": "Lagankhel Branch ",
         "Location": "Prayag Pokhari Marga, Lagankhel",
         "Contact": "01-5549501",
-        "Email": "info@bestfinance.com.np"
+        "Email": "info@bestfinance.com.np", 
+		"ATM": "N/A"
     },
     {
         "Bank": "Best Finance Company Limited",
         "Branch": "Narayangadh Branch ",
         "Location": "Sahid Chowk, Narayangadh",
-        "Contact": "056-490451 / 056-490451"
+        "Contact": "056-490451 / 056-490451", 
+		"ATM": "N/A"
     },
     {
         "Bank": "Best Finance Company Limited",
         "Branch": "Itahari Branch",
         "Location": "Purba Line, Itahari Chowk",
-        "Contact": "025-590460 Ext. 1810"
+        "Contact": "025-590460 Ext. 1810", 
+		"ATM": "N/A"
     },
     {
         "Bank": "Best Finance Company Limited",
         "Branch": "Pokhara Branch",
         "Location": "New Road, Pokhara",
         "Contact": "061-572033 / 061-521664",
-        "Email": "info@bestfinance.com.np"
+        "Email": "info@bestfinance.com.np", 
+		"ATM": "N/A"
     },
     {
         "Bank": "Best Finance Company Limited",
         "Branch": "Bardhaghat Branch",
         "Location": "Bardhaghat, Nawalparasi",
         "Contact": "078-580111",
-        "Email": "info@bestfinance.com.np"
+        "Email": "info@bestfinance.com.np", 
+		"ATM": "N/A"
     },
     {
         "Bank": "Best Finance Company Limited",
         "Branch": "Kawasoti Branch",
         "Location": "Kawasoti, Nawalpur",
         "Contact": "078-540188",
-        "Email": "info@bestfinance.com.np"
+        "Email": "info@bestfinance.com.np", 
+		"ATM": "N/A"
     },
     {
         "Bank": "Best Finance Company Limited",
         "Branch": "Nepalgunj Branch",
         "Location": "Dhamboji Chowk, Nepalgunj",
         "Contact": "081-411192 / 081-411137",
-        "Email": "info@bestfinance.com.np"
+        "Email": "info@bestfinance.com.np", 
+		"ATM": "N/A"
     },
     {
         "Bank": "Best Finance Company Limited",
         "Branch": "Gonbagu Branch",
         "Location": "Samakhusi Chowk, Kathmandu",
         "Contact": "01-4383191 / 01-4382134",
-        "Email": "info@bestfinance.com.np"
+        "Email": "info@bestfinance.com.np", 
+		"ATM": "N/A"
     },
     {
         "Bank": "Best Finance Company Limited",
         "Branch": "Ghorahi Branch",
         "Location": "Ghorahi, Dang",
         "Contact": "082-563381",
-        "Email": "info@bestfinance.com.np"
+        "Email": "info@bestfinance.com.np", 
+		"ATM": "N/A"
     },
     {
         "Bank": "Best Finance Company Limited",
-        "Branch": "&gt;Banasthali Branch",
+        "Branch": "Banasthali Branch",
         "Location": "Kharibot-Banasthali, Kathmandu",
         "Contact": "01-5139280 / 01-5139290",
-        "Email": "info@bestfinance.com.np"
+        "Email": "info@bestfinance.com.np", 
+		"ATM": "Yes"
     },
     {
         "Bank": "Best Finance Company Limited",
         "Branch": "Galkot Branch ",
         "Location": "Galkot, Haitya",
-        "Contact": "068-412183"
+        "Contact": "068-412183", 
+		"ATM": "N/A"
     },
     {
         "Bank": "Best Finance Company Limited",
         "Branch": "Birgunj Branch",
         "Location": "Link Road, Birgunj",
-        "Contact": "051-591246"
+        "Contact": "051-591246", 
+		"ATM": "N/A"
     },
-
+	
 	 {
         "SNO": "1.",
 		"Bank" :"Shree Investment & Finance Co. Ltd.",
@@ -130,14 +149,16 @@
         "Location": "Dilli Bazar, Kathmandu",
         "Contact": "01-4522038 / 4526146",
         "Fax": "01-4521779",
-        "Email": "info@shreefinance.com.np"
+        "Email": "info@shreefinance.com.np", 
+		"ATM": "N/A"
     },
     {
         "SNO": "2.","Bank" :"Shree Investment & Finance Co. Ltd.",
         "Branch": "Biratnagar Branch",
         "Location": "Himalaya Road-9, Biratnagar",
         "Contact": "021-511791/518835/513092",
-        "Fax": "", "Email": "biratnagar@shreefinance.com.np"
+        "Fax": "", "Email": "biratnagar@shreefinance.com.np", 
+		"ATM": "N/A"
     },
     {
         "SNO": "3.","Bank" :"Shree Investment & Finance Co. Ltd.",
@@ -145,7 +166,8 @@
         "Location": "Siddhartha Nagar-8, Narayan Path, Rupandehi",
         "Contact": "071-576507/071-576508",
         "Fax": " 071-576508",
-        "Email": "bhairahawa@shreefinance.com.np"
+        "Email": "bhairahawa@shreefinance.com.np", 
+		"ATM": "N/A"
     },
     {
         "SNO": "4.","Bank" :"Shree Investment & Finance Co. Ltd.",
@@ -153,7 +175,8 @@
         "Location": "Kapilvastu Municipality-3, Shiva Mandir",
         "Contact": "076-561197",
         "Fax": " 076-561198",
-        "Email": "taulihawa@shreefinance.com.np"
+        "Email": "taulihawa@shreefinance.com.np", 
+		"ATM": "N/A"
     },
     {
         "SNO": "5.","Bank" :"Shree Investment & Finance Co. Ltd.",
@@ -161,21 +184,24 @@
         "Location": "Rajahar -11, Rajahar Bazzar Nawalparasi",
         "Contact": "078-545372",
         "Fax": "078-545373",
-        "Email": "rajahar@shreefinance.com.np"
+        "Email": "rajahar@shreefinance.com.np", 
+		"ATM": "N/A"
     },
     {
         "SNO": "6.","Bank" :"Shree Investment & Finance Co. Ltd.",
         "Branch": "Danda Branch",
         "Location": "Kawasoti-16, Danda Bazaar, Nawalparasi",
         "Contact": "078-418003, 418002",
-        "Fax":"", "Email":  "danda@shreefinance.com.np"
+        "Fax":"", "Email":  "danda@shreefinance.com.np", 
+		"ATM": "N/A"
     },
     {
         "SNO": "7.","Bank" :"Shree Investment & Finance Co. Ltd.",
         "Branch": "Odari Branch",
         "Location": "Badhganga-9, Odari Bazzar Kapilvastu",
         "Contact": "076-410036",
-        "Fax": "", "Email": "odari@shreefinance.com.np"
+        "Fax": "", "Email": "odari@shreefinance.com.np", 
+		"ATM": "N/A"
     },
     {"Bank" :"Shree Investment & Finance Co. Ltd.",
         "SNO": "8.",
@@ -183,41 +209,47 @@
         "Location": "Gaidakot-11, Harkapur bazzar, Nawalparasi",
         "Contact": "078-403103",
         "Fax": " 078-403104",
-        "Email": "harkapur@shreefinance.com.np"
+        "Email": "harkapur@shreefinance.com.np", 
+		"ATM": "N/A"
     },
     {
         "SNO": "9.","Bank" :"Shree Investment & Finance Co. Ltd.",
         "Branch": "Salyan Branch",
         "Location": "Sarada Municipality-1, Shreenagar, Salyan",
         "Contact": "088-400115",
-        "Fax":"", "Email":  "salyan@shreefinance.com.np"
+        "Fax":"", "Email":  "salyan@shreefinance.com.np", 
+		"ATM": "N/A"
     },
     {
         "SNO": "10.","Bank" :"Shree Investment & Finance Co. Ltd.",
         "Branch": "Rukum Branch",
         "Location": "Musikot Municipality-4, Solabang, Rukum West",
         "Contact": "088-420038",
-        "Fax": "", "Email": "solabang@shreefinance.com.np"
+        "Fax": "", "Email": "solabang@shreefinance.com.np", 
+		"ATM": "N/A"
     },
     {
         "SNO": "11.","Bank" :"Shree Investment & Finance Co. Ltd.",
         "Branch": "Budanilkantha Branch",
         "Location": "Budanilkantha-8, Kathmandu",
         "Contact": "01-4379138",
-        "Fax": "", "Email": "budanilkantha@shreefinance.com.np"
+        "Fax": "", "Email": "budanilkantha@shreefinance.com.np", 
+		"ATM": "N/A"
     },
     {
         "SNO": "12.","Bank" :"Shree Investment & Finance Co. Ltd.",
         "Branch": "Imadol Branch",
         "Location": "Mahalaxmisthan-4, Imadol, Lalitpur",
         "Contact": "01-5201147",
-        "Fax":"", "Email":  "imadol@shreefinance.com.np"
+        "Fax":"", "Email":  "imadol@shreefinance.com.np", 
+		"ATM": "N/A"
     },
     {
         "SNO": "13.","Bank" :"Shree Investment & Finance Co. Ltd.",
         "Branch": "Chabahil Branch",
         "Location": "Chabahil-7, Kathmandu",
         "Contact": "01-4587225",
-        "Fax": "", "Email": "chabahil@shreefinance.com.np"
+        "Fax": "", "Email": "chabahil@shreefinance.com.np", 
+		"ATM": "N/A"
     }
 	]
