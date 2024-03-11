@@ -12,7 +12,10 @@
     "Email" : "nepalre@ntc.net.np",
 	"IMG": "https://shyamkumarkc20.com.np/logo/nric.jpg",
     "Website": "www.nepalre.com.np",
-	"neps":"https://nepalstock.com.np/company/detail/2881"
+	"neps":"https://nepalstock.com.np/company/detail/2881",
+	"AuthorizedCapital": "NPR 15 Billions",
+	"IssuedCapital" : "NPR 10 Billions",
+	"PaidupCapital" : "NPR 10 Billions",
 	
 	
   },
@@ -30,6 +33,9 @@
     "Email" : "contactus@himalayanre.com",
 	"IMG": "https://shyamkumarkc20.com.np/logo/hrl.png",
     "Website": "himalayanre.com",
-	"neps": "https://nepalstock.com.np/company/detail/9234"
+	"neps": "https://nepalstock.com.np/company/detail/9234",
+	"AuthorizedCapital": "NPR 21 Billions (USD 175 Millions approx",
+	"IssuedCapital" : "NPR 10 Billions (USD 85 Millions approx)",
+	"PaidupCapital" : "NPR 7 Billions (USD 60 Millions approx)",
   }
 ]
