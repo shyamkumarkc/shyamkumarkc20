@@ -8,7 +8,8 @@
 <th>Branch Name</th>
 <th>Address</th>
 <th>Phone Number </th>	
-	<th>email</th>
+	<th>Email</th>
+	<th>ATM</th>
 
 </tr>
 </thead>
@@ -39,7 +40,7 @@ else if (eventData.Location.toLowerCase().includes(query.toLowerCase())){return 
 }).map((object)=>
 {
    
-const{Bank, Branch, Location,  Contact, Email}=object;
+const{Bank, Branch, Location,  Contact, Email, ATM}=object;
 return `
 <tr class= "container">
 <td>${Bank}</td>
@@ -47,6 +48,7 @@ return `
 <td>${Location}</td>
 <td><a href="tel:${Contact}">${Contact}</a></td>
 <td><a href="mailto:${Email}">${Email}</a></td>
+<td>${ATM}</td>
 </tr>`
 }).join("");
 display.innerHTML=dataDisplay;
