@@ -1,48 +1,43 @@
-<table border="black" style="width: 100%;">
-<thead>
-<tr>
-<th>S.No.</th>
+<html>
+   <body>
+      <input id="input" name="BankName" type="text" placeholder="BankName" autofocus></input>
+      <div id="display-data"></div>
+      <script>
+	  const apiEndpoint= "https://shyamkumarkc20.com.np/js/taplejung.json";
+const display=document.querySelector("#display-data");
+const input=document.querySelector("#input");
+const getData = async() => {
+const res = await fetch (apiEndpoint);
+const data= await res.json();
 
-	<th>Branch Name</th>
-<th>Location </th>
-<th>Contact</th>
+return data
+}
 
-<th>Email</th>
+const displayUsers= async () => {
+    let query = input.value;
+    console.log("Query::",query);
+const payload= await getData();
+let dataDisplay = payload.filter((eventData) =>
+{
+if(query ==="") {return eventData}
+else if (eventData.BankName.toLowerCase().includes(query.toLowerCase())){return eventData}
+}).map((object)=>
+{
+   
+const{BankName, BranchName}=object;
+return `
+<div class= "container">
+<p>Name: ${BankName}</p>
+<p>Username: ${BranchName}</p>
+</div>`
+}).join("");
+display.innerHTML=dataDisplay;
+}
+displayUsers();
 
-
-</tr>
-</thead>
-
-      <tbody id="data-output">
-         <!-- Prodcuts from javascript file in here. -->
-      </tbody>
-   </table>
- 
-   <script>
-   fetch("https://shyamkumarkc20.com.np/js/sifcbranches.json")
-.then(function(response){
-   return response.json();
-})
-.then(function(products){
-   let placeholder = document.querySelector("#data-output");
-   let out = "";
-   for(let product of products){
-      out += `
-         <tr>            
-            <td>${product.SNO}</td>
-             <td>${product.Branch}</td>
-	    
-			<td>${product.Address</td>
-			<td><a href="tel:${product.Phone}">${product.Phone}</a></td>
-			<td><a href="mailto:${product.Email}">${product.Email}</a></td>
-			
-           
-            
-         </tr>
-      `;
-   }
- 
-   placeholder.innerHTML = out;
-});
-
-   </script>
+input.addEventListener("input",()=>
+{
+    displayUsers();
+});</script>
+   </body>
+</html>
