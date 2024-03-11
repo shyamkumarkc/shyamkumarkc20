@@ -1,391 +1,391 @@
 [
     {
         "SNo": "1",
-        "Bank Name": "NMB Bank Limited (NMB)",
-        "Branch Name": "Taplejung Branch",
+        "BankName": "NMB Bank Limited (NMB)",
+        "BranchName": "Taplejung Branch",
         "Location": "Phungling, Birendra Chowk",
         "Contact": "Phone: 24-460602"
     },
     {
         "SNo": "2",
-        "Bank Name": "Jyoti Life Insurance Company Limited",
-        "Branch Name": "Taplejung- Sub Branch",
+        "BankName": "Jyoti Life Insurance Company Limited",
+        "BranchName": "Taplejung- Sub Branch",
         "Location": "Taplejung",
         "Contact": "Phone: 9816911584 Email: birendra.thapa@jyotilife.com"
     },
     {
         "SNo": "3",
-        "Bank Name": "NIC Asia Laghubitta Bittiya Sanstha Ltd",
-        "Branch Name": "Birendrachowk",
+        "BankName": "NIC Asia Laghubitta Bittiya Sanstha Ltd",
+        "BranchName": "Birendrachowk",
         "Location": "Phungling-7, Taplejung",
         "Contact": "Phone: 9802269178, 9804906756 Email: birendrachowk@nicasialaghubitta.com"
     },
     {
         "SNo": "4",
-        "Bank Name": "Rastriya Banijya Bank Limited (RBBL)",
-        "Branch Name": "Branch Office Hangpang",
+        "BankName": "Rastriya Banijya Bank Limited (RBBL)",
+        "BranchName": "Branch Office Hangpang",
         "Location": "Hangpang, Taplejung",
         "Contact": "Email: hangpang@rbb.com.np"
     },
     {
         "SNo": "5",
-        "Bank Name": "Grameen Bikas Laghubitta Bittiya Sanstha Limited (GBLBS)",
-        "Branch Name": "Branch Office Phungling",
+        "BankName": "Grameen Bikas Laghubitta Bittiya Sanstha Limited (GBLBS)",
+        "BranchName": "Branch Office Phungling",
         "Location": "Taplejung"
     },
     {
         "SNo": "6",
-        "Bank Name": "Agricultural Development Bank Limited (ADBL)",
-        "Branch Name": "Branch Taplejung",
+        "BankName": "Agricultural Development Bank Limited (ADBL)",
+        "BranchName": "Branch Taplejung",
         "Location": "Phungling -4, KOPCHE LINE",
         "Contact": "Phone: 024-460166 Email: taplejung.branch@adbl.gov.np"
     },
     {
         "SNo": "7",
-        "Bank Name": "Gurans life Insurance Company Limited (GLICL)",
-        "Branch Name": "Funglin Branch",
+        "BankName": "Gurans life Insurance Company Limited (GLICL)",
+        "BranchName": "Funglin Branch",
         "Location": "Funglin Bazar -4 Taplejung",
         "Contact": "Phone: 9842793671 Email: taplejung@guranslife.com"
     },
     {
         "SNo": "8",
-        "Bank Name": "NIC ASIA Bank Limited (NICA)",
-        "Branch Name": "Fungling Branch",
+        "BankName": "NIC ASIA Bank Limited (NICA)",
+        "BranchName": "Fungling Branch",
         "Location": "Fungling Municipality ward no. 05, Taplejung",
         "Contact": "Phone: 024-460960 Email: rajendra.timsina@nicasiabank.com"
     },
     {
         "SNo": "9",
-        "Bank Name": "Mega Bank Nepal Limited (MEGA)",
-        "Branch Name": "Fungling Branch",
+        "BankName": "Mega Bank Nepal Limited (MEGA)",
+        "BranchName": "Fungling Branch",
         "Location": "Phungling Municipaity-05, 100 Meter West from Birendra Chowk, Phunling, Taplejung",
         "Contact": "Phone: 024-460005"
     },
     {
         "SNo": "10",
-        "Bank Name": "Mirmire Laghubitta Bittiya Sanstha Limited",
-        "Branch Name": "Hangpang",
+        "BankName": "Mirmire Laghubitta Bittiya Sanstha Limited",
+        "BranchName": "Hangpang",
         "Location": "Aathrai Tribeni- 3, Taplejung",
         "Contact": "Phone: 9802260928 Email: hangpang@mirmirebank.com.np"
     },
     {
         "SNo": "11",
-        "Bank Name": "Nagbeli Laghubitta Bittiya Sanstha Limited",
-        "Branch Name": "Hangpang Branch",
+        "BankName": "Nagbeli Laghubitta Bittiya Sanstha Limited",
+        "BranchName": "Hangpang Branch",
         "Location": "Aathrai Tribeli-3 Taplejung",
         "Contact": "Phone: 9800980119"
     },
     {
         "SNo": "12",
-        "Bank Name": "Chhimek Laghubitta Bikas Bank Limited (CBBL)",
-        "Branch Name": "Maiwakhola Branch",
+        "BankName": "Chhimek Laghubitta Bikas Bank Limited (CBBL)",
+        "BranchName": "Maiwakhola Branch",
         "Location": "Maiwakhola Rural Municipality, Taplejung",
         "Contact": "Phone: 9841064032 Email: maiwakhola@chhimekbank.org"
     },
     {
         "SNo": "13",
-        "Bank Name": "Sunrise Bank Limited (SRBL)",
-        "Branch Name": "MAIWAKHOLA GAUPALIKA BRANCH",
+        "BankName": "Sunrise Bank Limited (SRBL)",
+        "BranchName": "MAIWAKHOLA GAUPALIKA BRANCH",
         "Location": "Maiwakhola Gaunpalika Taplejung",
         "Contact": "Phone: +977-021-696488 Email: MAIWAKHOLA-TEAM@sunrisebank.com.np, sujal.shrestha@sunrisebank.com.np"
     },
     {
         "SNo": "14",
-        "Bank Name": "Kumari Bank Limited (KBL)",
-        "Branch Name": "Meringden Branch",
+        "BankName": "Kumari Bank Limited (KBL)",
+        "BranchName": "Meringden Branch",
         "Location": "Meringden, Taplejung",
         "Contact": "Phone: 9852076721 Email: meringden@kumaribank.com"
     },
     {
         "SNo": "15",
-        "Bank Name": "NCC Bank Limited (NCCB)",
-        "Branch Name": "MERINGDEN BRANCH",
+        "BankName": "NCC Bank Limited (NCCB)",
+        "BranchName": "MERINGDEN BRANCH",
         "Location": "Meringden Rural Municipality- 02, Taplejung",
         "Contact": "Phone: 9842297335, 9804040009 Email: satish.bhattarai@nccbank.com.np"
     },
     {
         "SNo": "16",
-        "Bank Name": "Prabhu Bank Limited (PRVU)",
-        "Branch Name": "MIKWAKHOLA (मिक्वाखोला शाखा)",
+        "BankName": "Prabhu Bank Limited (PRVU)",
+        "BranchName": "MIKWAKHOLA (मिक्वाखोला शाखा)",
         "Location": "Mikwakhola",
         "Contact": "Phone: 9862129273 Email: anil.rai@prabhubank.com"
     },
     {
         "SNo": "17",
-        "Bank Name": "Century Commercial Bank Limited (CCBL)",
-        "Branch Name": "MIKWAKHOLA BRANCH",
+        "BankName": "Century Commercial Bank Limited (CCBL)",
+        "BranchName": "MIKWAKHOLA BRANCH",
         "Location": "Taplejung",
         "Contact": "Phone: 9811328638 Email: mikwakhola@centurybank.com.np"
     },
     {
         "SNo": "18",
-        "Bank Name": "Global IME Bank Limited (GBIME)",
-        "Branch Name": "Phaktanglung Branch",
+        "BankName": "Global IME Bank Limited (GBIME)",
+        "BranchName": "Phaktanglung Branch",
         "Location": "Faktanglung Gaunpalika, Taplejung",
         "Contact": "Phone: 024-460632 Email: faktanglung@gibl.com.np"
     },
     {
         "SNo": "19",
-        "Bank Name": "Prabhu Bank Limited (PRVU)",
-        "Branch Name": "Phungling",
+        "BankName": "Prabhu Bank Limited (PRVU)",
+        "BranchName": "Phungling",
         "Location": "Phungling Nagarpalika, Taplejung",
         "Contact": "Phone: 024-460990 Email: deepak.giree@prabhubank.com"
     },
     {
         "SNo": "20",
-        "Bank Name": "Prabhu Bank Limited (PRVU)",
-        "Branch Name": "Phungling 360 Branch (फुङ्लिङ शाखा)",
+        "BankName": "Prabhu Bank Limited (PRVU)",
+        "BranchName": "Phungling 360 Branch (फुङ्लिङ शाखा)",
         "Location": "Phungling-4, Taplejung",
         "Contact": "Phone: 024-461049 Email: bishnu.khadka@prabhubank.com"
     },
     {
         "SNo": "21",
-        "Bank Name": "Deprosc Laghubitta Bittiya Sanstha Limited (DDBL)",
-        "Branch Name": "Phungling Branch",
+        "BankName": "Deprosc Laghubitta Bittiya Sanstha Limited (DDBL)",
+        "BranchName": "Phungling Branch",
         "Location": "Taplejung",
         "Contact": "Phone: 024 461051 Email: branch.phungling@deproscbank.com.np"
     },
     {
         "SNo": "22",
-        "Bank Name": "Laxmi Sunrise Bank Limited (LSBL)",
-        "Branch Name": "Phungling Branch",
+        "BankName": "Laxmi Sunrise Bank Limited (LSBL)",
+        "BranchName": "Phungling Branch",
         "Location": "Birendra Chowk - 5, Phungling Taplejung, Mechi, 57500",
         "Contact": "Phone: 024-460500 Email: phungling@laxmibank.com"
     },
     {
         "SNo": "23",
-        "Bank Name": "Chhimek Laghubitta Bikas Bank Limited (CBBL)",
-        "Branch Name": "Phungling Branch",
+        "BankName": "Chhimek Laghubitta Bikas Bank Limited (CBBL)",
+        "BranchName": "Phungling Branch",
         "Location": "Phungling-5, Taplejung",
         "Contact": "Phone: 024-461048 Email: phungling@chhimekbank.org"
     },
     {
         "SNo": "24",
-        "Bank Name": "Sunrise Bank Limited (SRBL)",
-        "Branch Name": "PHUNGLING BRANCH",
+        "BankName": "Sunrise Bank Limited (SRBL)",
+        "BranchName": "PHUNGLING BRANCH",
         "Location": "Phungling Na. Pa. Ward no. 4, Taplejung.",
         "Contact": "Phone: 9852681505 Email: PHUNGLING-TEAM@sunrisebank.com.np"
     },
     {
         "SNo": "25",
-        "Bank Name": "Century Commercial Bank Limited (CCBL)",
-        "Branch Name": "Phungling Branch",
+        "BankName": "Century Commercial Bank Limited (CCBL)",
+        "BranchName": "Phungling Branch",
         "Location": "Phungling Bazar Taplejung",
         "Contact": "Phone: 024-461049 Email: phungling@centurybank.com.np"
     },
     {
         "SNo": "26",
-        "Bank Name": "CYC Nepal Laghubitta Bittiya Sanstha Ltd.",
-        "Branch Name": "Phungling Branch",
+        "BankName": "CYC Nepal Laghubitta Bittiya Sanstha Ltd.",
+        "BranchName": "Phungling Branch",
         "Location": "Phungling Mun Ward No-03, Taplejung",
         "Contact": "Phone: 9857646298 Email: phungling84.cycnlbsl@gmail.com"
     },
     {
         "SNo": "27",
-        "Bank Name": "Nirdhan Utthan Bank Limited (NUBL)",
-        "Branch Name": "Phungling Branch, Taplejung",
+        "BankName": "Nirdhan Utthan Bank Limited (NUBL)",
+        "BranchName": "Phungling Branch, Taplejung",
         "Location": "Phungling Municipality-5, Taplejung District, Province 1",
         "Contact": "Phone: 024-460629"
     },
     {
         "SNo": "28",
-        "Bank Name": "AJOD Insurance Limited",
-        "Branch Name": "PHUNGLING COUNTER",
+        "BankName": "AJOD Insurance Limited",
+        "BranchName": "PHUNGLING COUNTER",
         "Location": "Phungling NP.05, Phungling, Taplejung",
         "Contact": "Phone: 9844612098, 9814072578 Email: ilam@ajodinsurance.com"
     },
     {
         "SNo": "29",
-        "Bank Name": "Siddhartha Premier Insurance Limited",
-        "Branch Name": "Pulchowk Branch",
+        "BankName": "Siddhartha Premier Insurance Limited",
+        "BranchName": "Pulchowk Branch",
         "Location": "Pulchowk, Lalitpur",
         "Contact": "Phone: 5447968 Email: sil_ltr@siddharthainsurance.com"
     },
     {
         "SNo": "30",
-        "Bank Name": "Laxmi Sunrise Bank Limited (LSBL)",
-        "Branch Name": "Regional Operations Officer",
+        "BankName": "Laxmi Sunrise Bank Limited (LSBL)",
+        "BranchName": "Regional Operations Officer",
         "Location": "Province 1",
         "Contact": "Phone: 9852056908"
     },
     {
         "SNo": "31",
-        "Bank Name": "Laxmi Sunrise Bank Limited (LSBL)",
-        "Branch Name": "Sidingwa Branch",
+        "BankName": "Laxmi Sunrise Bank Limited (LSBL)",
+        "BranchName": "Sidingwa Branch",
         "Location": "Sidhingwa Gaon Palika-4 ,Sablakhu, Taplejung Taplejung, Mechi, 57501",
         "Contact": "Phone: 16202643 Email: sidingwa@laxmibank.com"
     },
     {
         "SNo": "32",
-        "Bank Name": "Civil Bank Limited (CBL)",
-        "Branch Name": "Sinam Extension Counter",
+        "BankName": "Civil Bank Limited (CBL)",
+        "BranchName": "Sinam Extension Counter",
         "Location": "Taplejung",
         "Contact": "Phone: 9862660981 / 9841797277"
     },
     {
         "SNo": "33",
-        "Bank Name": "Nepal Bank Limited (NBL)",
-        "Branch Name": "Sirijungha Branch (261)",
+        "BankName": "Nepal Bank Limited (NBL)",
+        "BranchName": "Sirijungha Branch (261)",
         "Location": "Sirijungha, Taplejung",
         "Contact": "Phone: 9852660688"
     },
     {
         "SNo": "34",
-        "Bank Name": "Nerude Laghubitta Bittiya Sanstha Limited",
-        "Branch Name": "SUB BRANCH OFFICE:FUNGLING",
+        "BankName": "Nerude Laghubitta Bittiya Sanstha Limited",
+        "BranchName": "SUB BRANCH OFFICE:FUNGLING",
         "Location": "Fungling,Taplejung",
         "Contact": "Email: fungling@nerude.org.np"
     },
     {
         "SNo": "35",
-        "Bank Name": "Siddhartha Bank Limited (SBL)",
-        "Branch Name": "Taplejung BRANCH",
+        "BankName": "Siddhartha Bank Limited (SBL)",
+        "BranchName": "Taplejung BRANCH",
         "Location": "Ward No. 04, Fungling Municipality, Taplejung",
         "Contact": "Phone: 024-461056/461057 Email: sbltpj@sbl.com.np"
     },
     {
         "SNo": "36",
-        "Bank Name": "National Laghubitta Bittiya Sanstha Ltd.",
-        "Branch Name": "Taplejung Branch",
+        "BankName": "National Laghubitta Bittiya Sanstha Ltd.",
+        "BranchName": "Taplejung Branch",
         "Location": "Taplejung",
         "Contact": "Phone: 024-461017/9804962496 Email: national.taplejung013@gmail.com"
     },
     {
         "SNo": "37",
-        "Bank Name": "Summit Laghubitta Bittiya Sanstha Ltd.",
-        "Branch Name": "Taplejung Branch",
+        "BankName": "Summit Laghubitta Bittiya Sanstha Ltd.",
+        "BranchName": "Taplejung Branch",
         "Location": "Phungling-5, Taplejung",
         "Contact": "Phone: 024-461017"
     },
     {
         "SNo": "38",
-        "Bank Name": "IME Life Insurance",
-        "Branch Name": "Taplejung Branch",
+        "BankName": "IME Life Insurance",
+        "BranchName": "Taplejung Branch",
         "Location": "Taplejung",
         "Contact": "Phone: 9862696277"
     },
     {
         "SNo": "39",
-        "Bank Name": "Suryajyoti life Insurance Company Limited",
-        "Branch Name": "Taplejung Branch",
+        "BankName": "Suryajyoti life Insurance Company Limited",
+        "BranchName": "Taplejung Branch",
         "Location": "Birendra chowk, Taplejung",
         "Contact": "Phone: 024-461019 Email: taplejung@suryalife.com"
     },
     {
         "SNo": "40",
-        "Bank Name": "Citizen Life Insurance Company Ltd",
-        "Branch Name": "Taplejung Branch",
+        "BankName": "Citizen Life Insurance Company Ltd",
+        "BranchName": "Taplejung Branch",
         "Location": "Fungi Na.Pa ward No-1",
         "Contact": "Phone: 9852660351, 024-460542 Email: santosh.bhattrai@citizenlifenepal.com"
     },
     {
         "SNo": "41",
-        "Bank Name": "Machhapuchchhre Bank Limited (MBL)",
-        "Branch Name": "Taplejung Branch",
+        "BankName": "Machhapuchchhre Bank Limited (MBL)",
+        "BranchName": "Taplejung Branch",
         "Location": "Birendra Chowk, Phungling Municipality-5, Taplejung",
         "Contact": "Phone: +977-24-460517,9851079969 Email: sushil.aryal@mbl.com.np"
     },
     {
         "SNo": "42",
-        "Bank Name": "Forward Microfinance Laghubitta Bittiya Sanstha ltd",
-        "Branch Name": "Taplejung Branch",
+        "BankName": "Forward Microfinance Laghubitta Bittiya Sanstha ltd",
+        "BranchName": "Taplejung Branch",
         "Location": "Kopche bazaar, Taplejung, Phungling Municipality",
         "Contact": "Phone: 9802788506"
     },
     {
         "SNo": "43",
-        "Bank Name": "Global IME Bank Limited (GBIME)",
-        "Branch Name": "Taplejung Branch",
+        "BankName": "Global IME Bank Limited (GBIME)",
+        "BranchName": "Taplejung Branch",
         "Location": "Fuling Bazar, Taplejung",
         "Contact": "Phone: +977 024-460630 Email: taplejung@gibl.com.np"
     },
     {
         "SNo": "44",
-        "Bank Name": "Himalayan Life Insurance Limited",
-        "Branch Name": "Taplejung Branch",
+        "BankName": "Himalayan Life Insurance Limited",
+        "BranchName": "Taplejung Branch",
         "Location": "Taplejung",
         "Contact": "Phone: 024-460933 Email: taplejung@unionlife.com.np"
     },
     {
         "SNo": "45",
-        "Bank Name": "Swabalamban Laghubitta Bittiya Sanstha",
-        "Branch Name": "Taplejung Branch",
+        "BankName": "Swabalamban Laghubitta Bittiya Sanstha",
+        "BranchName": "Taplejung Branch",
         "Location": "Taplejung",
         "Contact": "Phone: 024-460792"
     },
     {
         "SNo": "46",
-        "Bank Name": "Shikhar Insurance Company Limited (SICL)",
-        "Branch Name": "Taplejung Branch",
+        "BankName": "Shikhar Insurance Company Limited (SICL)",
+        "BranchName": "Taplejung Branch",
         "Location": "Phungling -5, Birendra chowk,Taplejung",
         "Contact": "Phone: 024-460883 Email: taplejung@shikharinsurance.com"
     },
     {
         "SNo": "47",
-        "Bank Name": "Sanima Bank Limited (SANIMA)",
-        "Branch Name": "TAPLEJUNG BRANCH",
+        "BankName": "Sanima Bank Limited (SANIMA)",
+        "BranchName": "TAPLEJUNG BRANCH",
         "Location": "Phungling Nagarpalika- 05, Taplejung",
         "Contact": "Phone: 00977-024-461062 Email: taplejung@sanimabank.com"
     },
     {
         "SNo": "48",
-        "Bank Name": "Gurans Laghubitta Bittiya Sanstha Ltd,",
-        "Branch Name": "Taplejung Branch",
+        "BankName": "Gurans Laghubitta Bittiya Sanstha Ltd,",
+        "BranchName": "Taplejung Branch",
         "Location": "Phungling Municipality, Taplejung"
     },
     {
         "SNo": "49",
-        "Bank Name": "Prime Commercial Bank Limited (PCBL)",
-        "Branch Name": "Taplejung Branch",
+        "BankName": "Prime Commercial Bank Limited (PCBL)",
+        "BranchName": "Taplejung Branch",
         "Location": "Birendra Chowk,Phungling Bazar,Taplejung",
         "Contact": "Phone: 024-460702 / 024-460701"
     },
     {
         "SNo": "50",
-        "Bank Name": "Nepal Bank Limited (NBL)",
-        "Branch Name": "Taplejung Branch (062)",
+        "BankName": "Nepal Bank Limited (NBL)",
+        "BranchName": "Taplejung Branch (062)",
         "Location": "Taplejung",
         "Contact": "Phone: 024 460155"
     },
     {
         "SNo": "51",
-        "Bank Name": "National life insurance Company Limited (NLICL)",
-        "Branch Name": "Taplejung Office",
+        "BankName": "National life insurance Company Limited (NLICL)",
+        "BranchName": "Taplejung Office",
         "Location": "Taplejung Na. Pa. W# 5, Birendrachowk, Taplejung",
         "Contact": "Phone: +977-024-460906, 9842713791 Email: taplejung@nationallife.com.np"
     },
     {
         "SNo": "52",
-        "Bank Name": "Prime Life Insurance Company",
-        "Branch Name": "Taplejung Regional Office",
+        "BankName": "Prime Life Insurance Company",
+        "BranchName": "Taplejung Regional Office",
         "Location": "Taplejung",
         "Contact": "Phone: 024-520601"
     },
     {
         "SNo": "53",
-        "Bank Name": "Nepal life insurance Company Ltd.",
-        "Branch Name": "Taplejung Sub Branch",
+        "BankName": "Nepal life insurance Company Ltd.",
+        "BranchName": "Taplejung Sub Branch",
         "Location": "Phungling, Ward No.5 , Phungling",
         "Contact": "Phone: 024-560953 Email: taplejung@nepallife.com.np"
     },
     {
         "SNo": "54",
-        "Bank Name": "Shikhar Insurance Company Limited (SICL)",
-        "Branch Name": "Terhathum Branch",
+        "BankName": "Shikhar Insurance Company Limited (SICL)",
+        "BranchName": "Terhathum Branch",
         "Location": "Myaglung -2 ,Terhathum",
         "Contact": "Phone: 026-460350 Email: terhathum@shikharinsurance.com"
     },
     {
         "SNo": "55",
-        "Bank Name": "Laxmi Sunrise Bank Limited (LSBL)",
-        "Branch Name": "Thechambu Branch",
+        "BankName": "Laxmi Sunrise Bank Limited (LSBL)",
+        "BranchName": "Thechambu Branch",
         "Location": "Pathivara Yangwarak Rural Municipality-2, Thechambu, Taplejung Taplejung, Mechi, 57500",
         "Contact": "Phone: 16201446 Email: thechambu@laxmibank.com"
     },
     {
         "SNo": "56",
-        "Bank Name": "Laxmi Laghubitta Bittiya Sanstha Limited (LLBS)",
-        "Branch Name": "THUMBEDIN",
+        "BankName": "Laxmi Laghubitta Bittiya Sanstha Limited (LLBS)",
+        "BranchName": "THUMBEDIN",
         "Location": "Pathivara Yangbarak Ga.Pa. Taplejung",
         "Contact": "Phone: 9858083868 Email: thumbedin@laxmilaghu.com.np"
     }
