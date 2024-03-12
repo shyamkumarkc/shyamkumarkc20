@@ -548,17 +548,18 @@
         "Email": "itahari@pfltd.com.np", 
 		"ATM": "N/A"
     },
-    {
-        "Bank": "Bharatpur Branch   Bharatpur",
-        "Branch": "05-6596608",
-        "Location": "bharatpur@pfltd.com.np", 
+    {"Bank": "Progressive Finance Limited",
+        "Branch": "Bharatpur Branch", "Location":"Bharatpur",
+        "Contact": "05-6596608",
+        "Email": "bharatpur@pfltd.com.np", 
 		"ATM": "N/A"
     },
     {
         "Bank": "Progressive Finance Limited",
         "Branch": "Barahathawa BranchBarahathawa",
-        "Location": "04-6540466",
-        "Contact": "barahathawa@pfltd.com.np", 
+        "Location": "",
+        "Contact": "04-6540466",
+		 "Email": "barahathawa@pfltd.com.np", 
 		"ATM": "N/A"
     },
     {
@@ -663,7 +664,7 @@
         "Contact": "padampokhari@pfltd.com.np", 
 		"ATM": "N/A"
     },
-	
+	[
     {
         "Bank": "Pokhara Finance Limited",
         "Branch": "Head Office",
