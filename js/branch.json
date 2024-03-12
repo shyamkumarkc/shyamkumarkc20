@@ -662,5 +662,190 @@
         "Location": "05-7415081",
         "Contact": "padampokhari@pfltd.com.np", 
 		"ATM": "N/A"
+    },
+	
+    {
+        "Bank": "Pokhara Finance Limited",
+        "Branch": "Head Office",
+        "Location": "Newroad, Pokhara-9, Kaski",
+        "Contact": "061-544135 | 544136 | 544137 | 581214 | 581217 | 581145",
+        "Fax": "061-531610",
+        "Email": "info@pokharafinance.com.np"
+    },
+    {
+        "Bank": "Pokhara Finance Limited",
+        "Branch": "Sabhagriha Branch",
+        "Location": "Sabahagriha Chowk,Pokhara-8, Kaski",
+        "Contact": "061-589323,543075",
+        "Fax": "061-539324"
+    },
+    {
+        "Bank": "Pokhara Finance Limited",
+        "Branch": "Khichapokhari Branch",
+        "Location": "Kichapokhari, Kathmandu-22",
+        "Contact": "01-5349767,5362647,5352113",
+        "Fax": "0"
+    },
+    {
+        "Bank": "Pokhara Finance Limited",
+        "Branch": "Bhimkalipatan Branch",
+        "Location": "Bhimkalipatan, Bagar, Pokhara-1, Kaski",
+        "Contact": "061-588009",
+        "Fax": "061-526751"
+    },
+    {
+        "Bank": "Pokhara Finance Limited",
+        "Branch": "Nayapul Branch",
+        "Location": "Nayapul, Annapurna-5, Kaski",
+        "Contact": "061-502090,&nbsp;622744, 622745",
+        "Fax": "0"
+    },
+    {
+        "Bank": "Pokhara Finance Limited",
+        "Branch": "Dumre Branch",
+        "Location": "Dumre Bazar, Bandipur-1, Tanahun",
+        "Contact": "065-580388, 580389",
+        "Fax": "0"
+    },
+    {
+        "Bank": "Pokhara Finance Limited",
+        "Branch": "Kundahar Branch",
+        "Location": "Kundahar, Pokhara-14, Kaski",
+        "Contact": "061-501045, 501145",
+        "Fax": "061-501150"
+    },
+    {
+        "Bank": "Pokhara Finance Limited",
+        "Branch": "Rambachha Branch",
+        "Location": "Rambachha, Walling-1, Syangja",
+        "Contact": "063-441732 / 441733",
+        "Fax": "0"
+    },
+    {
+        "Bank": "Pokhara Finance Limited",
+        "Branch": "Lekhnath Branch",
+        "Location": "Adarshachowk, Pokhara-29, Kaski",
+        "Contact": "061-561812",
+        "Fax": "061-561813"
+    },
+    {
+        "Bank": "Pokhara Finance Limited",
+        "Branch": "Birauta Branch",
+        "Location": "Birauta, Pokhara-17",
+        "Contact": "061-457460, 457461, 457462",
+        "Fax": "0"
+    },
+    {
+        "Bank": "Pokhara Finance Limited",
+        "Branch": "Lahachowk Branch",
+        "Location": "Lahachowk, Machhapuchhre-4, Kask",
+        "Contact": "061-620135, 620888",
+        "Fax": "0"
+    },
+    {
+        "Bank": "Pokhara Finance Limited",
+        "Branch": "Bhairahawa Branch",
+        "Location": "Aawaroad, Siddharthanagar &ndash; 7, Bhairahawa, Rupandehi",
+        "Contact": "071-587002, 587003",
+        "Fax": "071-587004"
+    },
+    {
+        "Bank": "Pokhara Finance Limited",
+        "Branch": "Besishahar Branch",
+        "Location": "Narayansthanchowk, Besishahar &ndash; 8, Lamjung",
+        "Contact": "066-521437, 521438",
+        "Fax": "066-521436"
+    },
+    {
+        "Bank": "Pokhara Finance Limited",
+        "Branch": "Narayangarh Branch",
+        "Location": "Milanroad, Narayangarh, Bharatpur-1, Chitwan",
+        "Contact": "056-595355, 595855",
+        "Fax": "056-595211"
+    },
+    {
+        "Bank": "Pokhara Finance Limited",
+        "Branch": "Kawasoti Branch",
+        "Location": "Sabhapati Chowk, Kawasoti-5, Nawalparasi",
+        "Contact": "078-540482 / 540483",
+        "Fax": "0"
+    },
+    {
+        "Bank": "Pokhara Finance Limited",
+        "Branch": "Palungtar Branch",
+        "Location": "Thaitipokhari, Palungtar-5, Gorkha",
+        "Contact": "064-400094",
+        "Fax": "0"
+    },
+    {
+        "Bank": "Pokhara Finance Limited",
+        "Branch": "Bajhapatan Branch",
+        "Location": "Bajhapatan, Pokhara-13, Kaski",
+        "Contact": "061-552412,&nbsp;552414",
+        "Fax": "0"
+    },
+    {
+        "Bank": "Pokhara Finance Limited",
+        "Branch": "Butwal Branch",
+        "Location": "Chauraha Chowk, Butwal-9, Rupendehi",
+        "Contact": "071-438597",
+        "Fax": "0"
+    },
+    {
+        "Bank": "Pokhara Finance Limited",
+        "Branch": "Sharadanagar Branch",
+        "Location": "Sharadanagar Town, Bharatpur-19, Chitwan",
+        "Contact": "056-591008, 591018",
+        "Fax": "0"
+    },
+    {
+        "Bank": "Pokhara Finance Limited",
+        "Branch": "Manbhawan Branch",
+        "Location": "Manbhawan, Kumaripati, Lalitpur Mahanagarpalika-20",
+        "Contact": "01-5450346 | 5450347",
+        "Fax": "01-5550329"
+    },
+    {
+        "Bank": "Pokhara Finance Limited",
+        "Branch": "Gongabu Branch",
+        "Location": "Gongabu, Kathmandu-26",
+        "Contact": "01-4982595| 01-4982596",
+        "Fax": "0"
+    },
+    {
+        "Bank": "Pokhara Finance Limited",
+        "Branch": "Sunwal Branch",
+        "Location": "Sunwal-Parasi Road, Sunwal Municipality-01, Nawalparasi",
+        "Contact": "078-570626 | 570627",
+        "Fax": "0"
+    },
+    {
+        "Bank": "Pokhara Finance Limited",
+        "Branch": "Manigram Branch",
+        "Location": "Tilottama Municipality-5, Manigram, Rupandehi",
+        "Contact": "071-562086 | 561985",
+        "Fax": "0"
+    },
+    {
+        "Bank": "Pokhara Finance Limited",
+        "Branch": "Kohalpur Branch",
+        "Location": "Kohalpur Chowk, Kohalpur-11, Banke",
+        "Contact": "81-542128 | 542192",
+        "Fax": "0"
+    },
+    {
+        "Bank": "Pokhara Finance Limited",
+        "Branch": "Nepalgunj Branch",
+        "Location": "Dhamboji Road, Nepalgunj-1, Banke",
+        "Contact": "081-533101 | 533102",
+        "Fax": "0"
+    },
+    {
+        "Bank": "Pokhara Finance Limited",
+        "Branch": "Extension Counter-Ghandruk",
+        "Location": "Ghandruk, Annapurna Rural Municipality-10, Kaski",
+        "Contact": "061-622745",
+        "Fax": "0"
     }
+
 ]
