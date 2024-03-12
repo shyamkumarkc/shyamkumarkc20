@@ -13,7 +13,8 @@
         "Branch": "Newroad Branch",
         "Location": "Pipalbot, Rama Bhawan, Kathmandu",
         "Contact": "01-5331726 / 01-5332125",
-        "Email": "info@bestfinance.com.np", 
+        "Email": "info@bestfinance.com.np"
+	, 
 		"ATM": "N/A"
     },
     {
@@ -846,6 +847,99 @@
         "Location": "Ghandruk, Annapurna Rural Municipality-10, Kaski",
         "Contact": "061-622745",
         "Fax": "0"
+    },
+	
+    {
+        "Bank": "Nepal Finance Limited",
+        "Branch": "Head Office",
+        "Location": "Kamaladi-28, Kathmandu",
+        "Email": "info@nepalfinance.com.np,",
+        "Contact": "01-4545885,01-4545886"
+    },
+    {
+        "Bank": "Nepal Finance Limited",
+        "Branch": "Pulchowk Branch",
+        "Location": "Pulchowk, lalitpur",
+        "Email": "pulchowk@nepalfinance.com.np,",
+        "Contact": "01-5260584,01-5260683"
+    },
+    {
+        "Bank": "Nepal Finance Limited",
+        "Branch": "Banepa Branch",
+        "Location": "Banepa-07, Kavre",
+        "Email": "banepa@nepalfinance.com.np,",
+        "Contact": "011-665364/65,"
+    },
+    {
+        "Bank": "Nepal Finance Limited",
+        "Branch": "Murgiya Branch",
+        "Location": "Sainamaina -03, Murgiya",
+        "Email": "murgiya@nepalfinance.com.np,",
+        "Contact": "071-440411,071-440414"
+    },
+    {
+        "Bank": "Nepal Finance Limited",
+        "Branch": "Gaindakot Branch",
+        "Location": "Gaindakot-4, Kangresschowk, Nawalparasi east.",
+        "Email": "gaindakot@nepalfinance.com.np,",
+        "Contact": "078-501031,078-501041"
+    },
+    {
+        "Bank": "Nepal Finance Limited",
+        "Branch": "Machhapuchhre Branch",
+        "Location": "Machhapuchhre-2(Bhurjung Khola), Kaski",
+        "Email": "machhapuchhre@nepalfinance.com.np,",
+        "Contact": "061-422100/101,"
+    },
+    {
+        "Bank": "Nepal Finance Limited",
+        "Branch": "Lagankhel Branch",
+        "Location": "Lagankhel, Lalitpur",
+        "Email": "lagankhel@nepalfinance.com.np,",
+        "Contact": "015523850,015525115"
+    },
+    {
+        "Bank": "Nepal Finance Limited",
+        "Branch": "Newroad Branch",
+        "Location": "Kathmandu Metropolitan city-22, Kathmandu",
+        "Email": "newroad@nepalfinance.com.np,",
+        "Contact": "01-5315846,01-5315676"
+    },
+    {
+        "Bank": "Nepal Finance Limited",
+        "Branch": "Dhanushadham Branch",
+        "Location": "Dhanushadham-3, Dhanusa",
+        "Email": "dhanushadham@nepalfinance.com.np,",
+        "Contact": "041-414075/76,"
+    },
+    {
+        "Bank": "Nepal Finance Limited",
+        "Branch": "Hetauda Branch",
+        "Location": "Hetauda sub-metropolitan-4, Makwanpur",
+        "Email": "hetauda@nepalfinance.com.np,",
+        "Contact": "057-590884/85,"
+    },
+    {
+        "Bank": "Nepal Finance Limited",
+        "Branch": "Tilottama Branch",
+        "Location": "Tilottama Municipality-3, Rupandehi",
+        "Email": "tilottama@nepalfinance.com.np,",
+        "Contact": "071-438277,071-438269"
+    },
+    {
+        "Bank": "Nepal Finance Limited",
+        "Branch": "Palungtar Branch",
+        "Location": "Palungtar-5, Gorkha",
+        "Email": "palungtar@nepalfinance.com.np,",
+        "Contact": "064-400011,064-400014"
+    },
+    {
+        "Bank": "Nepal Finance Limited",
+        "Branch": "Kalimati Extension Counter",
+        "Location": "Kalimati-13, Kathmandu",
+        "Email": "kalimati@nepalfinance.com.np,",
+        "Contact": "01-5315255,"
     }
-
 ]
+
+
