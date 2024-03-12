@@ -982,6 +982,42 @@
         "Contact": "9854060508",
         "Email": "info@multipurposefinance.com",
         "Location": "Manara Bazar, Manara Sisawa Municipality, Mahottari"
+    },
+	
+    {
+        "Bank": "Janaki Finance Limited",
+        "Branch": "Main Branch",
+        "Location": "Janakpur",
+        "Contact": "041590586",
+        "Email": "main@gmail.com"
+    },
+    {
+        "Bank": "Janaki Finance Limited",
+        "Branch": "Bhramarpur Branch",
+        "Location": "Mahottari",
+        "Contact": "9817886960",
+        "Email": "bhramarpura@jfcjanakpur.com"
+    },
+    {
+        "Bank": "Janaki Finance Limited",
+        "Branch": "Golbazar Branch",
+        "Location": "Siraha",
+        "Contact": "9817685861",
+        "Email": "golbazar@jfcjanakpur.com"
+    },
+    {
+        "Bank": "Janaki Finance Limited",
+        "Branch": "Matihani Branch",
+        "Location": "Mahottari",
+        "Contact": "044540084",
+        "Email": "matihani@jfcjanakpur.com"
+    },
+    {
+        "Bank": "Janaki Finance Limited",
+        "Branch": "Sabaila Branch",
+        "Location": "Dhanusa",
+        "Contact": "9844331987",
+        "Email": "sabaila@jfcjanakpur.com"
     }
 ]
 
