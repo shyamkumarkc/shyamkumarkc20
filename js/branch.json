@@ -450,5 +450,189 @@
         "Fax": "0",
         "Email": "butwal@reliancenepal.com.np", 
 		"ATM": "N/A"
+    },
+	
+    {
+        "Bank": "Progressive Finance Limited",
+        "Branch": "Corporate Office",
+        "Location": "Tinkune, Kathmandu",
+        "Contact": "01-5199664 01-5199665 01-5199667",
+        "Email": "info@pfltd.com.np"
+    },
+    {
+        "Bank": "Progressive Finance Limited",
+        "Branch": "NewRoad Branch",
+        "Location": "Khichapokhari, New Road,Kathmandu",
+        "Contact": "01-5346403 01-5346402 01-5341244",
+        "Email": "mainbranch@pfltd.com.np"
+    },
+    {
+        "Bank": "Progressive Finance Limited",
+        "Branch": "Tinkune Branch",
+        "Location": "Tinkune, Kathmandu",
+        "Contact": "01-5970110",
+        "Email": "tinkune@pfltd.com.np"
+    },
+    {
+        "Bank": "Progressive Finance Limited",
+        "Branch": "Patan Sundhara Branch",
+        "Location": "Patan Sundhara, Lalitpur",
+        "Contact": "01-5454436 01-5454438",
+        "Email": "patan@pfltd.com.np"
+    },
+    {
+        "Bank": "Progressive Finance Limited",
+        "Branch": "Pulchowk Branch",
+        "Location": "Pulchowk, Lalitpur",
+        "Contact": "01-5444410 01-5904810",
+        "Email": "pulchowk@pfltd.com.np"
+    },
+    {
+        "Bank": "Progressive Finance Limited",
+        "Branch": "Banepa Branch",
+        "Location": "Ugratara Branch, Janagal, Banepa",
+        "Contact": "01-1691199, 011-660132",
+        "Email": "janagal@pfltd.com.np"
+    },
+    {
+        "Bank": "Progressive Finance Limited",
+        "Branch": "Pokhara Branch",
+        "Location": "Chipledhunga, Pokhara",
+        "Contact": "06-1578911 06-1578922",
+        "Email": "pokhara@pfltd.com.np"
+    },
+    {
+        "Bank": "Progressive Finance Limited",
+        "Branch": "Sabaila Branch",
+        "Location": "Sabaila, Dhanusa",
+        "Contact": "0",
+        "Email": "sabaila@pfltd.com.np"
+    },
+    {
+        "Bank": "Progressive Finance Limited",
+        "Branch": "Chhireshwarnath Branch",
+        "Location": "Chhireshwarnath, Dhanusa",
+        "Contact": "0",
+        "Email": "chhireshwarnath@pfltd.com.np"
+    },
+    {
+        "Bank": "Progressive Finance Limited",
+        "Branch": "Malangwa Branch",
+        "Location": "Malangwa, Sarlahi",
+        "Contact": "046-521833",
+        "Email": "malangwa@pfltd.com.np"
+    },
+    {
+        "Bank": "Progressive Finance Limited",
+        "Branch": "Hetauda Branch",
+        "Location": "Hetauda, Makwanpur",
+        "Contact": "05-7590636 05-7590654",
+        "Email": "hetauda@pfltd.com.np"
+    },
+    {
+        "Bank": "Progressive Finance Limited",
+        "Branch": "Itahari Branch",
+        "Location": "Dharanroad, Itahari",
+        "Contact": "02-5590166 , 02-5590177",
+        "Email": "itahari@pfltd.com.np"
+    },
+    {
+        "Bank": "Bharatpur Branch   Bharatpur",
+        "Branch": "05-6596608",
+        "Location": "bharatpur@pfltd.com.np"
+    },
+    {
+        "Bank": "Progressive Finance Limited",
+        "Branch": "Barahathawa BranchBarahathawa",
+        "Location": "04-6540466",
+        "Contact": "barahathawa@pfltd.com.np"
+    },
+    {
+        "Bank": "Progressive Finance Limited",
+        "Branch": "Janakpur Branch ",
+        "Location": "Janakpur",
+        "Contact": "04-1591022",
+        "Email": "janakpur@pfltd.com.np"
+    },
+    {
+        "Bank": "Progressive Finance Limited",
+        "Branch": "Panchkhal Branch ",
+        "Location": "Panchkhal",
+        "Contact": "011-499406",
+        "Email": "panchkhal@pfltd.com.np"
+    },
+    {
+        "Bank": "Progressive Finance Limited",
+        "Branch": "Simara Branch ",
+        "Location": "Barpipal Chautara,  Airport Road, Jeetpursimara -2 Bara",
+        "Contact": "053-590793, 053-590794",
+        "Email": "simara@pfltd.com.np"
+    },
+    {
+        "Bank": "Progressive Finance Limited",
+        "Branch": "Gaushala Branch ",
+        "Location": "Gaushala, Mahottari",
+        "Contact": "04-4556220",
+        "Email": "gaushala@pfltd.com.np"
+    },
+    {
+        "Bank": "Progressive Finance Limited",
+        "Branch": "Birgunj Branch ",
+        "Location": "Birgunj, Parsa",
+        "Contact": "051-591783",
+        "Email": "birgunj@pfltd.com.np"
+    },
+    {
+        "Bank": "Progressive Finance Limited",
+        "Branch": "Lalbandi Branch ",
+        "Location": "Lalbandi, Sarlahi",
+        "Contact": "+977-46590085",
+        "Email": "lalbandi@pfltd.com.np"
+    },
+    {
+        "Bank": "Progressive Finance Limited",
+        "Branch": "Godar Branch ",
+        "Location": "Godar, Dhanusa",
+        "Contact": "0",
+        "Email": "godar@pfltd.com.np"
+    },
+    {
+        "Bank": "Progressive Finance Limited",
+        "Branch": "Jaleshwar Branch ",
+        "Location": "Jaleshwar,",
+        "Contact": "0",
+        "Email": "jaleshwar@pfltd.com.np"
+    },
+    {
+        "Bank": "Progressive Finance Limited",
+        "Branch": "Yadukuwa Branch ",
+        "Location": "Yadukuwa",
+        "Contact": "0",
+        "Email": "yadukuwa@pfltd.com.np"
+    },
+    {
+        "Bank": "Progressive Finance Limited",
+        "Branch": "Extension Counter  Ganeshman Singh Memorial Hospital\nGaneshman Singh Memorial Hospital ,  Mahalaxmistan ,Lagankhel",
+        "Location": "01-5546294 ,",
+        "Contact": "mahalaxmisthan@pfltd.com.np"
+    },
+    {
+        "Bank": "Progressive Finance Limited",
+        "Branch": "Thimi Extension Counter  Thimi, Bhaktapur",
+        "Location": "01-5639523",
+        "Contact": "thimi@pfltd.com.np"
+    },
+    {
+        "Bank": "Progressive Finance Limited",
+        "Branch": "Nala Extension Counter ",
+        "Location": " Nala, Kavre",
+        "Contact": "01-1411035",
+        "Email": "nala@pfltd.com.np"
+    },
+    {
+        "Bank": "Progressive Finance Limited",
+        "Branch": "Padampokhari Extension Counter  Padampokhari, Hetauda",
+        "Location": "05-7415081",
+        "Contact": "padampokhari@pfltd.com.np"
     }
 ]
