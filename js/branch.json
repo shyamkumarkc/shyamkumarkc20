@@ -939,7 +939,51 @@
         "Location": "Kalimati-13, Kathmandu",
         "Email": "kalimati@nepalfinance.com.np,",
         "Contact": "01-5315255,"
+    },
+	
+    {
+        "Bank": "Multipurpose Finance Limited",
+        "Branch": "Corporate Office",
+        "Contact": "+977-41-591170 / 71",
+        "Email": "info@multipurposefinance.com",
+        "Location": "Vidyapati Chowk, Janakpurdham-4, Dhanusha, Nepal"
+    },
+    {
+        "Bank": "Multipurpose Finance Limited",
+        "Branch": "Head Office",
+        "Contact": "+977-31-531170",
+        "Email": "info@multipurposefinance.com",
+        "Location": "Neta Chowk, Rajbiraj-4, Saptari"
+    },
+    {
+        "Bank": "Multipurpose Finance Limited",
+        "Branch": "Gaushala Branch",
+        "Contact": "+977-44-556221 / 556222",
+        "Email": "info@multipurposefinance.com",
+        "Location": "Ganesh Mandir, Gaushala Bazar, Gaushala, Mahottari"
+    },
+    {
+        "Bank": "Multipurpose Finance Limited",
+        "Branch": "Kalyanpur Branch",
+        "Contact": "+977-31-540170 / 71",
+        "Email": "info@multipurposefinance.com",
+        "Location": "Kalyanpur, Khadak, Saptari"
+    },
+    {
+        "Bank": "Multipurpose Finance Limited",
+        "Branch": "Ramgopalpur Branch",
+        "Contact": "+977-44-410089 / 410090",
+        "Email": "info@multipurposefinance.com",
+        "Location": "Ramgopalpur Bazar, Ramgopalpur, Mahottari"
+    },
+    {
+        "Bank": "Multipurpose Finance Limited",
+        "Branch": "Manara Branch",
+        "Contact": "9854060508",
+        "Email": "info@multipurposefinance.com",
+        "Location": "Manara Bazar, Manara Sisawa Municipality, Mahottari"
     }
 ]
+
 
 
