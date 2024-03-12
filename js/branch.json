@@ -251,5 +251,204 @@
         "Contact": "01-4587225",
         "Fax": "", "Email": "chabahil@shreefinance.com.np", 
 		"ATM": "N/A"
+    },
+	
+    {
+        "Bank": "Reliance Finance Limited",
+        "Branch": "Head Office",
+        "Location": "Kamaladi, Kathmandu-01, Kathmandu Metropolitan, Bagmati Pradesh, Nepal",
+        "Contact": "015361104, 5323117 , 5361041, 5361167, 5903698",
+        "Fax": "0",
+        "Email": "info@reliancenepal.com.np", 
+		"ATM": "N/A"
+    },
+    {
+        "Bank": "Reliance Finance Limited",
+        "Branch": "New Road Branch",
+        "Location": "Dharmapath, New Road, Kathmandu-22, Kathmandu, Bagmati Pradesh, Nepal",
+        "Contact": "01-5345104, 01-5345105",
+        "Fax": "01-4245106",
+        "Email": "newroad@reliancenepal.com.np", 
+		"ATM": "N/A"
+    },
+    {
+        "Bank": "Reliance Finance Limited",
+        "Branch": "Imadol Branch",
+        "Location": "Imadol, Mahalaxmi- 1, Lalitpur, Bagmati Pradesh, Nepal",
+        "Contact": "01-5201704, 01-5200750",
+        "Fax": "0",
+        "Email": "imadol@reliancenepal.com.np", 
+		"ATM": "N/A"
+    },
+    {
+        "Bank": "Reliance Finance Limited",
+        "Branch": "Sitapaila Branch",
+        "Location": "Bafal, Sitapaila, Nagarjun-4, Kathmandu, Bagmati Pradesh, Nepal",
+        "Contact": "01-5233397, 01-5233398",
+        "Fax": "0",
+        "Email": "sitapaila@reliancenepal.com.np", 
+		"ATM": "N/A"
+    },
+    {
+        "Bank": "Reliance Finance Limited",
+        "Branch": "Narayangarh Branch",
+        "Location": "Shahid Chowk, Narayangarh, Bharatpur-1, Chitwan, Bagmati Pradesh, Nepal",
+        "Contact": "056-596598",
+        "Fax": "056-596597",
+        "Email": "narayangarh@reliancenepal.com.np", 
+		"ATM": "N/A"
+    },
+    {
+        "Bank": "Reliance Finance Limited",
+        "Branch": "Pokhara Branch",
+        "Location": "Mahendrapool, Pokhara-4, Kaski, Gandaki Pradesh, Nepal",
+        "Contact": "061-580983, 061-573581",
+        "Fax": "061-578260",
+        "Email": "pokhara@reliancenepal.com.np", 
+		"ATM": "N/A"
+    },
+    {
+        "Bank": "Reliance Finance Limited",
+        "Branch": "Besisahar Branch",
+        "Location": "Narayansthan Chowk, Besisahar-8, Lamjung, Gandaki Pradesh, Nepal",
+        "Contact": "066-520815, 520816",
+        "Fax": "066-520814",
+        "Email": "lamjung@reliancenepal.com.np", 
+		"ATM": "N/A"
+    },
+    {
+        "Bank": "Reliance Finance Limited",
+        "Branch": "Janagal Branch (Banepa)",
+        "Location": "Melamchi Bus Stand, Tribhuvan Chowk, Banepa-10, Kavrepalanchowk, Bagmati Pradesh, Nepal",
+        "Contact": "011-663244",
+        "Fax": "0",
+        "Email": "janagal@reliancenepal.com.np", 
+		"ATM": "N/A"
+    },
+    {
+        "Bank": "Reliance Finance Limited",
+        "Branch": "Arughat Branch",
+        "Location": "Arughat, Arughat-9, Gorkha, Gandaki Pradesh, Nepal",
+        "Contact": "064-410172, 064-410173",
+        "Fax": "0",
+        "Email": "arughat@reliancenepal.com.np", 
+		"ATM": "N/A"
+    },
+    {
+        "Bank": "Reliance Finance Limited",
+        "Branch": "Charali Branch",
+        "Location": "Charali, Illam Road, Mechinagar-13, Jhapa, Mechi, Pradesh-1, Nepal",
+        "Contact": "023-460102,&nbsp;023-460411",
+        "Fax": "0",
+        "Email": "charali@reliancenepal.com.np", 
+		"ATM": "N/A"
+    },
+    {
+        "Bank": "Reliance Finance Limited",
+        "Branch": "Gorkha Branch",
+        "Location": "Bank Road, Gorkha-6, Gorkha, Gandaki Pradesh, Nepal",
+        "Contact": "064-420278",
+        "Fax": "0",
+        "Email": "gorkha@reliancenepal.com.np", 
+		"ATM": "N/A"
+    },
+    {
+        "Bank": "Reliance Finance Limited",
+        "Branch": "Manigram Branch",
+        "Location": "Manigram, Butwal, Tilottama-5, Rupandehi, Lumbini&nbsp;Pradesh, Nepal",
+        "Contact": "071-562902",
+        "Fax": "0",
+        "Email": "manigram@reliancenepal.com.np", 
+		"ATM": "N/A"
+    },
+    {
+        "Bank": "Reliance Finance Limited",
+        "Branch": "Attariya Branch",
+        "Location": "Attariya Bazar, Godawari-1, Kailali, Seti, Sudurpashchim Pradesh,&nbsp;Nepal",
+        "Contact": "091-550033, 091-550084",
+        "Fax": "0",
+        "Email": "attariya@reliancenepal.com.np", 
+		"ATM": "N/A"
+    },
+    {
+        "Bank": "Reliance Finance Limited",
+        "Branch": "Mahendranagar Branch",
+        "Location": "Mahendranagar Bazar, Bhimdatta-4, Kanchanpur, Mahakali, Sudurpashchim Pradesh, Nepal",
+        "Contact": "099-520440, 099-520422",
+        "Fax": "0",
+        "Email": "mahendranagar@reliancenepal.com.np", 
+		"ATM": "N/A"
+    },
+    {
+        "Bank": "Reliance Finance Limited",
+        "Branch": "Kohalpur Branch",
+        "Location": "Pipal chautara, Kohalpur-11, Banke, Bheri, Lumbini Pradesh, Nepal",
+        "Contact": "081-542154, 542174",
+        "Fax": "0",
+        "Email": "kohalpur@reliancenepal.com.np", 
+		"ATM": "N/A"
+    },
+    {
+        "Bank": "Reliance Finance Limited",
+        "Branch": "Damak Branch",
+        "Location": "Thana Road, Damak-6, Jhapa, Mechi, Pradesh-1, Nepal",
+        "Contact": "023-572602, 023-572603",
+        "Fax": "0",
+        "Email": "damak@reliancenepal.com.np", 
+		"ATM": "N/A"
+    },
+    {
+        "Bank": "Reliance Finance Limited",
+        "Branch": "Birtamod Branch",
+        "Location": "Birtamod, Kakkarvitta Road, Birtamod-5, Jhapa, Mechi, Pradesh-1, Nepal",
+        "Contact": "023-530743, 023-530747",
+        "Fax": "0",
+        "Email": "birtamod@reliancenepal.com.np", 
+		"ATM": "N/A"
+    },
+    {
+        "Bank": "Reliance Finance Limited",
+        "Branch": "Dhangadhi Branch",
+        "Location": "Buspark Road, Dhangadhi, Dhangadhi-4, Kailali, Seti,&nbsp;Sudurpashchim Pradesh, Nepal",
+        "Contact": "091-523462, 091-523616",
+        "Fax": "0",
+        "Email": "dhangadhi@reliancenepal.com.np", 
+		"ATM": "N/A"
+    },
+    {
+        "Bank": "Reliance Finance Limited",
+        "Branch": "Dhulabari Branch",
+        "Location": "Dhulabari Mode, Dakshin Shahid Marg, Mechinagar-10, Jhapa, Pradesh-1, Nepal",
+        "Contact": "023-564391, 023-564392",
+        "Fax": "0",
+        "Email": "dhulabari@reliancenepal.com.np", 
+		"ATM": "N/A"
+    },
+    {
+        "Bank": "Reliance Finance Limited",
+        "Branch": "Tandi Branch",
+        "Location": "Tandi Chowk, Tandi, Ratnanagar-2, Chitwan, Bagmati Pradesh, Nepal",
+        "Contact": "056-593269, 056-593401",
+        "Fax": "0",
+        "Email": "tandi@reliancenepal.com.np", 
+		"ATM": "N/A"
+    },
+    {
+        "Bank": "Reliance Finance Limited",
+        "Branch": "Bhairahawa Branch",
+        "Location": "Milan chowk, Prahari Tole, Bhairahawa, Siddharthnagar-12, Rupandehi, Lumbini Pradesh, Nepal",
+        "Contact": "071-590901, 071-590902",
+        "Fax": "0",
+        "Email": "bhairahawa@reliancenepal.com.np", 
+		"ATM": "N/A"
+    },
+    {
+        "Bank": "Reliance Finance Limited",
+        "Branch": "Butwal Branch",
+        "Location": "Amarpath, Butwal-6, Rupandehi, Lumbini Pradesh, Nepal",
+        "Contact": "071-590174, 071-590175",
+        "Fax": "0",
+        "Email": "butwal@reliancenepal.com.np", 
+		"ATM": "N/A"
     }
-	]
+]
