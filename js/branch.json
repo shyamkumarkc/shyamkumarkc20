@@ -1179,7 +1179,157 @@
         "Branch": "Simara Branch",
         "Location": "Simara, Bara",
         "Contact": "053-520100"
+    },
+	{
+        "Bank": "Capital Merchant Banking & Finance Limited    ",
+        "Branch": "Head Office",
+        "Location": "Battisputali, Kathmandu    ",
+        "Contact": "01-4471458    ",
+        "Email": "info@cmbfl.com.np    ", 
+		"ATM": "N/A"
+    },
+	
+    {
+        "Bank": "Central Finance Limited",
+        "Branch": "Head Office",
+        "Location": "Kupondole, Lalitpur",
+        "Contact": "01-5970005",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Central Finance Limited",
+        "Branch": "Chabahil Branch",
+        "Location": "Chabahil, Kathmandu",
+        "Contact": "01-4560624, 01-4560803",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Central Finance Limited",
+        "Branch": "Narayangadh Branch",
+        "Location": "Sahidchowk, Narayangadh",
+        "Contact": "056-598945, 056-598941, 056-598853",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Central Finance Limited",
+        "Branch": "Butwal Branch",
+        "Location": "Milanchwok, Butwal",
+        "Contact": "071-553351, 071-553352",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Central Finance Limited",
+        "Branch": "Bhaktapur Branch",
+        "Location": "Chyamasingh, Bhaktapur",
+        "Contact": "01-6618471, 01-6618472, 01-6619671",
+        "ATM": "Yes"
+    },
+    {
+        "Bank": "Central Finance Limited",
+        "Branch": "Bardibas Branch",
+        "Location": "Bardibas, Mahottari",
+        "Contact": "044-550734, 044-550623",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Central Finance Limited",
+        "Branch": "Bardaghat Branch",
+        "Location": "Bardghat, Nawalparasi",
+        "Contact": "078-580810, 078-580811",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Central Finance Limited",
+        "Branch": "Simara Branch",
+        "Location": "Simara, Bara",
+        "Contact": "053-520015, 053-520016, 053-520065",
+        "ATM": "Yes"
+    },
+    {
+        "Bank": "Central Finance Limited",
+        "Branch": "Bhiman Branch",
+        "Location": "Bhiman, Sindhuli",
+        "Contact": "047-410042, 047-410044",
+        "ATM": "Yes"
+    },
+    {
+        "Bank": "Central Finance Limited",
+        "Branch": "Gongabu Ganesthan Branch",
+        "Location": "Tokha, Kathmandu",
+        "Contact": "01-4982130, 01-4982840",
+        "ATM": "Yes"
+    },
+    {
+        "Bank": "Central Finance Limited",
+        "Branch": "Sallagharai Extension Counter",
+        "Location": "Sallaghari, Bhaktapur",
+        "Contact": "01-6619672",
+        "ATM": "Yes"
+    },
+    {
+        "Bank": "Central Finance Limited",
+        "Branch": "Lalbandi Branch",
+        "Location": "Lalbandi, Sarlahi",
+        "Contact": "046-501763, 01-501764",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Central Finance Limited",
+        "Branch": "Dakaha Branch",
+        "Location": "Dakaha, Sindhuli",
+        "Contact": "9817833713, 9817833756",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Central Finance Limited",
+        "Branch": "Janakpurdham Branch",
+        "Location": "Ramchok, Janakpur",
+        "Contact": "041-590436, 041-590437",
+        "ATM": "Yes"
+    },
+    {
+        "Bank": "Central Finance Limited",
+        "Branch": "Itahari Branch",
+        "Location": "Itahari, Sunsari",
+        "Contact": "025-590196, 025-590197",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Central Finance Limited",
+        "Branch": "Birtamode Branch",
+        "Location": "Birtamode, Jhapa",
+        "Contact": "023-590958, 023-590959",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Central Finance Limited",
+        "Branch": "Bhairahawa Branch",
+        "Location": "Bhairahawa, Rupandehi",
+        "Contact": "071-590191, 071-590192",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Central Finance Limited",
+        "Branch": "Birgunj Branch",
+        "Location": "Link Road ,Birgunj",
+        "Contact": "051-591814, 051-591815",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Central Finance Limited",
+        "Branch": "Biratnagar Branch",
+        "Location": "Jaljala Chowk, Shani Mandir Road, Biratnagar",
+        "Contact": "021-590816, 021-590817",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Central Finance Limited",
+        "Branch": "Chandrapur Branch",
+        "Location": "Chandrapur, Rautahat",
+        "Contact": "055-590005, 055-590006",
+        "ATM": "N/A"
     }
+
 ]
 
 
