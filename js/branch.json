@@ -1328,9 +1328,425 @@
         "Location": "Chandrapur, Rautahat",
         "Contact": "055-590005, 055-590006",
         "ATM": "N/A"
-    }
+    },
 
+    {
+        "Bank": "Gurkhas Finance Limited",
+        "Branch": "Head Office",
+        "Location": "Dillibazar, Kathmandu",
+        "Province": "Bagmati Province, Nepal",
+        "Contact": "01-4537401, 01-4537403, 01-4529060",
+        "Email": "info@gurkhasfinance.com.np",
+        "ATM": "Yes"
+    },
+    {
+        "Bank": "Gurkhas Finance Limited",
+        "Branch": "Boudha Branch",
+        "Location": "Boudha, Kathmandu.",
+        "Province": "Bagmati Province, Nepal",
+        "Contact": "01-4561155, 01-4590522",
+        "Email": "boudha@gurkhasfinance.com.np",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Gurkhas Finance Limited",
+        "Branch": "Damak Branch",
+        "Location": "Damak, Jhapa",
+        "Province": "Province 1, Nepal",
+        "Contact": "023-575389",
+        "Email": "damak@gurkhasfinance.com.np",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Gurkhas Finance Limited",
+        "Branch": "Dharan Branch",
+        "Location": "Dharan",
+        "Province": "Province 1, Nepal",
+        "Contact": "025-538789, 025-538790, 025-538791",
+        "Email": "dharan@gurkhasfinance.com.np",
+        "ATM": "Yes"
+    },
+    {
+        "Bank": "Gurkhas Finance Limited",
+        "Branch": "Newroad Kathmandu Branch",
+        "Location": "New Road, Kathmandu",
+        "Province": "Bagmati Province, Nepal",
+        "Contact": "01-5713241, 01-5713041, 01-5713228",
+        "Email": "newroad@gurkhasfinance.com.np",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Gurkhas Finance Limited",
+        "Branch": "Itahari Sunsari Branch",
+        "Location": "Itahari, Sunsari",
+        "Province": "Province 1, Nepal",
+        "Contact": "025-586928",
+        "Email": "itahari@gurkhasfinance.com.np",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Gurkhas Finance Limited",
+        "Branch": "Birtamod Jhapa Branch",
+        "Location": "Birtamod, Jhapa",
+        "Province": "Province 1, Nepal",
+        "Contact": "023-536421",
+        "Email": "birtamode@gurkhasfinance.com.np",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Gurkhas Finance Limited",
+        "Branch": "Satdobato Branch",
+        "Location": "Satdobato, Lalitpur",
+        "Province": "Bagmati Province, Nepal",
+        "Contact": "01-5151232, 01-5151247",
+        "Email": "satdobato@gurkhasfinance.com.np",
+        "ATM": "Yes"
+    },
+    {
+        "Bank": "Gurkhas Finance Limited",
+        "Branch": "Narayangardh Branch",
+        "Location": "Bharatpur Height, Chitwan",
+        "Province": "Province Bagmati , Nepal",
+        "Contact": "056-523850",
+        "Email": "narayangadh@gurkhasfinance.com.np",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Gurkhas Finance Limited",
+        "Branch": "Suryabinayak - Bhaktapur Branch",
+        "Location": "Suryabinayak, Bhaktapur",
+        "Province": "Bagmati Province, Nepal",
+        "Contact": "01-6619268, 01-6619267",
+        "Email": "bhaktapur@gurkhasfinance.com.np",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Gurkhas Finance Limited",
+        "Branch": "Rabi - Panchthar Branch",
+        "Location": "Rabi, Panchthar",
+        "Province": "Province 1, Nepal",
+        "Contact": "024-412107, 024-412108",
+        "Email": "rabi@gurkhasfinance.com.np",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Gurkhas Finance Limited",
+        "Branch": "Janagal, Banepa - Kavre Branch",
+        "Location": "Janagal, Banepa",
+        "Province": "Bagmati Province, Nepal",
+        "Contact": "011-663148",
+        "Email": "janagal@gurkhasfinance.com.np",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Gurkhas Finance Limited",
+        "Branch": "Chaumala - Kailali Branch",
+        "Location": "Chaumala, Kailali",
+        "Province": "Sudurpashchim Province, Nepal",
+        "Contact": "091-418052",
+        "Email": "chaumala@gurkhasfinance.com.np",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Gurkhas Finance Limited",
+        "Branch": "Bijauri - Dang Branch",
+        "Location": "Bijauri, Dang",
+        "Province": "Lumbini Province, Nepal",
+        "Contact": "082-411126",
+        "Email": "bijauri@gurkhasfinance.com.np",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Gurkhas Finance Limited",
+        "Branch": "Lakhan Chowk - Bhairahawa Branch",
+        "Location": "Lakhan Chowk, Bhairahawa",
+        "Province": "Lumbini Province, Nepal",
+        "Contact": "071-429346",
+        "Email": "lakhanchowk@gurkhasfinance.com.np",
+        "ATM": "Yes"
+    },
+    {
+        "Bank": "Gurkhas Finance Limited",
+        "Branch": "Bhedetar - Dhankuta Branch",
+        "Location": "Bhedetar, Dhankuta",
+        "Province": "Province 1, Nepal",
+        "Contact": "025-400064",
+        "Email": "bhedetar@gurkhasfinance.com.np",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Gurkhas Finance Limited",
+        "Branch": "Chhapradi - Siraha Branch",
+        "Location": "Chhapradi, Siraha",
+        "Province": "Madhesh Province, Nepal",
+        "Contact": "9852831520",
+        "Email": "chapradi@gurkhasfinance.com.np",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Gurkhas Finance Limited",
+        "Branch": "Pokhara - Kaski Branch",
+        "Location": "Pokhara, Kaski",
+        "Province": "Gandaki Province, Nepal",
+        "Contact": "061-541984",
+        "Email": "pokhara@gurkhasfinance.com.np",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Gurkhas Finance Limited",
+        "Branch": "Annapurna - Bhojpur Branch",
+        "Location": "Annapurna, Bhojpur",
+        "Province": "Province 1, Nepal",
+        "Contact": "9851212379, 9813812307",
+        "Email": "bhojpur@gurkhasfinance.com.np",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Gurkhas Finance Limited",
+        "Branch": "Tallo Bazaar - Surkhet Branch",
+        "Location": "Tallo Bazaar, Surkhet",
+        "Province": "Karnali Province, Nepal",
+        "Contact": "083-524936",
+        "Email": "surkhet@gurkhasfinance.com.np",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Gurkhas Finance Limited",
+        "Branch": "Dhamboji-Nepalgunj Branch",
+        "Location": "Dhamboji, Nepalgunj",
+        "Province": "Lumbini Province, Nepal",
+        "Contact": "081-535003, 081-535004",
+        "Email": "nepalgunj@gurkhasfinance.com.np",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Gurkhas Finance Limited",
+        "Branch": "Linkroad, Ghantaghar - Birgunj Branch",
+        "Location": "Linkroad, Birgunj",
+        "Province": "Madhesh Province, Nepal",
+        "Contact": "051-531479",
+        "Email": "birgunj@gurkhasfinance.com.np",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Gurkhas Finance Limited",
+        "Branch": "Balaju, Kathmandu-Gongabu Branch",
+        "Location": "Balaju, Kathmandu",
+        "Province": "Bagmati Province, Nepal",
+        "Contact": "01-4964132,01-4383708",
+        "Email": "gongabu@gurkhasfinance.com.np",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Gurkhas Finance Limited",
+        "Branch": "Beltar Chaudandigadhi-6, Udayapur Branch",
+        "Location": "Beltar, Udayapur",
+        "Province": "Province 1, Nepal",
+        "Contact": "035-440053, 9849322391",
+        "Email": "beltar@gurkhasfinance.com.np",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Gurkhas Finance Limited",
+        "Branch": "Hetauda Branch",
+        "Location": "Hetauda, Makwanpur",
+        "Province": "Bagmati Province, Nepal",
+        "Contact": "057-590524, 057-590525, 9841185539",
+        "Email": "hetauda@gurkhasfinance.com.np",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Gurkhas Finance Limited",
+        "Branch": "Barahathawa Branch",
+        "Location": "Barahathawa",
+        "Province": "Madhesh Province, Nepal",
+        "Contact": "046-540248, 9808835018",
+        "Email": "barahathawa@gurkhasfinance.com.np",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Gurkhas Finance Limited",
+        "Branch": "Koteshwor Exension Counter",
+        "Location": "Koteshwor, Kathmandu",
+        "Province": "Bagmati Province, Nepal",
+        "Contact": "01-4610764, 01-4610765",
+        "Email": "Na",
+        "ATM": "Yes"
+    },
+	
+    {
+        "Bank": "Goodwill Finance Limited",
+        "Branch": "Ithari Branch",
+        "Location": "Ithari, Sunsari",
+        "Contact": "025-587051",
+        "Fax": "025-587050",
+        "Email": "ithari@goodwill.net.np",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Goodwill Finance Limited",
+        "Branch": "Phidim Branch",
+        "Location": "Phidim Main Road, Phidim",
+        "Contact": "024-523068",
+        "Fax": "0",
+        "Email": "phidim@goodwill.net.np",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Goodwill Finance Limited",
+        "Branch": "Illam Branch",
+        "Location": "Prakash Path, Illam",
+        "Contact": "027-520949",
+        "Fax": "027-520947",
+        "Email": "ilam@goodwill.net.np",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Goodwill Finance Limited",
+        "Branch": "Birtamode Branch",
+        "Location": "Birtamode, Jhapa",
+        "Contact": "023-530548",
+        "Fax": "23-530549",
+        "Email": "birtamode@goodwill.net.np",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Goodwill Finance Limited",
+        "Branch": "Nawalpur Branch",
+        "Location": "Nawalpur Chowk",
+        "Contact": "046-570060",
+        "Fax": "0",
+        "Email": "nawalpur@goodwill.net.np",
+        "ATM": "Yes"
+    },
+    {
+        "Bank": "Goodwill Finance Limited",
+        "Branch": "Bardibas Branch",
+        "Location": "Bardibas, Mahottari",
+        "Contact": "044-550291",
+        "Fax": "0",
+        "Email": "bardibas@goodwill.net.np",
+        "ATM": "Yes"
+    },
+    {
+        "Bank": "Goodwill Finance Limited",
+        "Branch": "Head Office",
+        "Location": "Hattisar, Kamalpokhari",
+        "Contact": "01-4544039",
+        "Fax": "01-4543414",
+        "Email": "info@goodwill.net.np",
+        "ATM": "Yes"
+    },
+    {
+        "Bank": "Goodwill Finance Limited",
+        "Branch": "Bhaktapur Branch",
+        "Location": "Taumadi, Bhaktapur",
+        "Contact": "01-6620067/6620068",
+        "Fax": "01-6620056",
+        "Email": "bhaktapur@goodwill.net.np",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Goodwill Finance Limited",
+        "Branch": "Dillibazar Branch",
+        "Location": "Dillibazar, Kathmandu",
+        "Contact": "01-4522290",
+        "Fax": "01-4516052",
+        "Email": "dillibazar@goodwill.net.np",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Goodwill Finance Limited",
+        "Branch": "Indrachowk Branch",
+        "Location": "Indrachowk, Kathmandu",
+        "Contact": "01-5329554/5329556",
+        "Fax": "01-5329595",
+        "Email": "indrachowk@goodwill.net.np",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Goodwill Finance Limited",
+        "Branch": "Kumaripati Branch",
+        "Location": "Kumaripati, Lalitpur",
+        "Contact": "01-5408690/5408691/5408693",
+        "Fax": "01-5408693",
+        "Email": "kumaripati@goodwill.net.np",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Goodwill Finance Limited",
+        "Branch": "Tripureshowr Branch",
+        "Location": "Tripureshwor, Kathmandu",
+        "Contact": "01-5331583/5331533",
+        "Fax": "0",
+        "Email": "tripureshwor@goodwill.net.np",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Goodwill Finance Limited",
+        "Branch": "Nayabazar Extension Counter",
+        "Location": "Nayabazar, Kathmandu",
+        "Contact": "01-5910738/5910739",
+        "Fax": "0",
+        "Email": "pawan@goodwill.net.np",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Goodwill Finance Limited",
+        "Branch": "Gaindakot Branch",
+        "Location": "Nawalparasi",
+        "Contact": "078-501411",
+        "Fax": "0",
+        "Email": "gaindakot@goodwill.net.np",
+        "ATM": "Yes"
+    },
+    {
+        "Bank": "Goodwill Finance Limited",
+        "Branch": "Nepalgunj Branch",
+        "Location": "Surkhet Road Banke, Nepalgunj",
+        "Contact": "081-532056/532057",
+        "Fax": "081-532058",
+        "Email": "nepalgunj@goodwill.net.np",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Goodwill Finance Limited",
+        "Branch": "Dang Branch",
+        "Location": "Ghorahi, Dang",
+        "Contact": "082-563350/563351",
+        "Fax": "082-563352",
+        "Email": "dang@goodwill.net.np",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Goodwill Finance Limited",
+        "Branch": "Butwal Branch",
+        "Location": "Ram Mandir line, Butwal",
+        "Contact": "071-537281/537282/537283",
+        "Fax": "0",
+        "Email": "butwal@goodwill.net.np",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Goodwill Finance Limited",
+        "Branch": "Bhairahawa Branch",
+        "Location": "Siddharthanagar, Municipality-5",
+        "Contact": "071-590963/590964/590965",
+        "Fax": "0",
+        "Email": "bhairahawa@goodwill.net.np",
+        "ATM": "N/A"
+    },
+    {
+        "Bank": "Goodwill Finance Limited",
+        "Branch": "Dhangadhi Branch",
+        "Location": "Dhangadhi Chauraha,Bhansar Road",
+        "Contact": "091-417357/417359",
+        "Fax": "0",
+        "Email": "dhangadhi@goodwill.net.np",
+        "ATM": "N/A"
+    }
 ]
+
 
 
 
