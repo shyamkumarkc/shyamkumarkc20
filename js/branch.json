@@ -989,35 +989,40 @@
         "Branch": "Main Branch",
         "Location": "Janakpur",
         "Contact": "041590586",
-        "Email": "main@gmail.com"
+        "Email": "main@gmail.com",
+        "ATM": "N/A"
     },
     {
         "Bank": "Janaki Finance Limited",
         "Branch": "Bhramarpur Branch",
         "Location": "Mahottari",
         "Contact": "9817886960",
-        "Email": "bhramarpura@jfcjanakpur.com"
+        "Email": "bhramarpura@jfcjanakpur.com",
+        "ATM": "N/A"
     },
     {
         "Bank": "Janaki Finance Limited",
         "Branch": "Golbazar Branch",
         "Location": "Siraha",
         "Contact": "9817685861",
-        "Email": "golbazar@jfcjanakpur.com"
+        "Email": "golbazar@jfcjanakpur.com",
+        "ATM": "N/A"
     },
     {
         "Bank": "Janaki Finance Limited",
         "Branch": "Matihani Branch",
         "Location": "Mahottari",
         "Contact": "044540084",
-        "Email": "matihani@jfcjanakpur.com"
+        "Email": "matihani@jfcjanakpur.com",
+        "ATM": "N/A"
     },
     {
         "Bank": "Janaki Finance Limited",
         "Branch": "Sabaila Branch",
         "Location": "Dhanusa",
         "Contact": "9844331987",
-        "Email": "sabaila@jfcjanakpur.com"
+        "Email": "sabaila@jfcjanakpur.com",
+        "ATM": "N/A"
     },
 
     {
@@ -1744,8 +1749,122 @@
         "Fax": "0",
         "Email": "dhangadhi@goodwill.net.np",
         "ATM": "N/A"
+    },
+	
+    {
+        "Bank": "Sambriddhi Finance Limited",
+        "Branch": "Head Office",
+        "Location": "Hetauda-01, Makwanpur",
+        "Province": "Province: Bagmati",
+        "Contact": "057-525100, 523229",
+        "Email": "info@sfcl.com.np"
+    },
+    {
+        "Bank": "Sambriddhi Finance Limited",
+        "Branch": "Putalisadak Branch",
+        "Location": "Putalisadak, Kathmandu",
+        "Province": "Province: Bagmati",
+        "Contact": "P:015318838",
+        "Email": "branch.putalisadak@sfcl.com.np"
+    },
+    {
+        "Bank": "Sambriddhi Finance Limited",
+        "Branch": "Hetauda Branch",
+        "Location": "Hetauda-01, Makwanpur",
+        "Province": "Province: Bagmati",
+        "Contact": "057-525100, 523229",
+        "Email": "branch.hetauda@sfcl.com.np"
+    },
+    {
+        "Bank": "Sambriddhi Finance Limited",
+        "Branch": "Butwal Branch",
+        "Location": "Butwal, Amarpath",
+        "Province": "Province: Lumbini",
+        "Contact": "071-554579, 554578",
+        "Email": "branch.butwal@sfcl.com.np"
+    },
+    {
+        "Bank": "Sambriddhi Finance Limited",
+        "Branch": "Narayangadh Branch",
+        "Location": "Narayangadh",
+        "Province": "Province: Bagmati",
+        "Contact": "056-595562,595762",
+        "Email": "branch.narayangarh@sfcl.com.np"
+    },
+    {
+        "Bank": "Sambriddhi Finance Limited",
+        "Branch": "Pokhara Branch",
+        "Location": "Pokhara",
+        "Province": "Province: Gandaki",
+        "Contact": "061-590281,590282",
+        "Email": "branch.pokhara@sfcl.com.np"
+    },
+    {
+        "Bank": "Sambriddhi Finance Limited",
+        "Branch": "Banepa Branch",
+        "Location": "Banepa, Kavrepalanchowk",
+        "Province": "Province: Bagmati",
+        "Contact": "011665569, 011665571",
+        "Email": "branch.banepa@sfcl.com.np"
+    },
+    {
+        "Bank": "Sambriddhi Finance Limited",
+        "Branch": "Itahari Branch",
+        "Location": "Itahari",
+        "Province": "Province: Koshi",
+        "Contact": "025-590269, 590369",
+        "Email": "branch.itahari@sfcl.com.np"
+    },
+    {
+        "Bank": "Sambriddhi Finance Limited",
+        "Branch": "Janakpur Branch",
+        "Location": "Janakpur",
+        "Province": "Province: Madesh",
+        "Contact": "041-591148, 591448",
+        "Email": "branch.janakpur@sfcl.com.np"
+    },
+    {
+        "Bank": "Sambriddhi Finance Limited",
+        "Branch": "Gair Branch",
+        "Location": "Gair",
+        "Province": "Province: Madesh",
+        "Contact": "046-421037",
+        "Email": "branch.gair@sfcl.com.np"
+    },
+    {
+        "Bank": "Sambriddhi Finance Limited",
+        "Branch": "Madhuban Branch",
+        "Location": "Madhuban",
+        "Province": ", Province: Koshi",
+        "Contact": "Mob: 9851356166",
+        "Email": "branch.madhuban@sfcl.com.np"
+    },
+    {
+        "Bank": "Sambriddhi Finance Limited",
+        "Branch": "Aurahi Branch",
+        "Location": "Aurahi",
+        "Province": "Province: Madesh",
+        "Contact": "044-411088",
+        "Email": "branch.aurahi@sfcl.com.np"
+    },
+    {
+        "Bank": "Sambriddhi Finance Limited",
+        "Branch": "Kasaha Branch",
+        "Location": "Kasaha",
+        "Province": "Province: Madesh",
+        "Contact": "033-545286",
+        "Email": "branch.kasaha@sfcl.com.np"
+    },
+    {
+        "Bank": "Sambriddhi Finance Limited",
+        "Branch": "Kharendrapur Branch",
+        "Location": "Kharendrapur",
+        "Province": "Province: Lumbini",
+        "Contact": "Mob: 9851356169",
+        "Email": "branch.kharendrapur@sfcl.com.np"
     }
 ]
+
 
 
 
