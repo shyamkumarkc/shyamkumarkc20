@@ -3,33 +3,33 @@
         "Sno": "1",
         "Name": "Crest Micro Life Insurance Limited",
         "Operation": "2080 B.S (2023 A.D)",
-        "Website": "https://cmli.com.np/",
-        "HO": "undefined",
+        "Website": "cmli.com.np/",
+        "HO": "Surkhet",
         "NEPSE": "undefined",
-        "Email": "undefined",
-        "Phone": "undefined",
-        "IMG": "undefined"
+        "Email": "info@cmli.com.np",
+        "Phone": "083590622, 015916740",
+        "IMG": "https://shyamkumarkc20.com.np/logo/crest.png"
     },
     {
         "Sno": "2",
         "Name": "Guardian Micro Life Insurance Limited",
         "Operation": "2080 B.S (2023 A.D)",
-        "Website": "https://gmli.com.np/",
-        "HO": "undefined",
+        "Website": "gmli.com.np/",
+        "HO": "Munal Path, Biratnagar",
         "NEPSE": "undefined",
-        "Email": "undefined",
-        "Phone": "undefined",
-        "IMG": "undefined"
+        "Email": "info@gmli.com.np",
+        "Phone": "021-590902",
+        "IMG": "https://shyamkumarkc20.com.np/logo/gmli.jpg"
     },
     {
         "Sno": "3",
         "Name": "Liberty Micro Life Insurance Limited",
         "Operation": "2080 B.S (2023 A.D)",
-        "Website": "https://libertymlife.com.np/",
-        "HO": "undefined",
+        "Website": "libertymlife.com.np/",
+        "HO": "Newroad, Pokhara",
         "NEPSE": "undefined",
-        "Email": "undefined",
-        "Phone": "undefined",
-        "IMG": "undefined"
+        "Email": "info@libertymlife.com.np",
+        "Phone": "061-591097/98",
+        "IMG": "https://shyamkumarkc20.com.np/logo/liberty.png"
     }
 ]
