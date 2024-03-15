@@ -3,60 +3,100 @@
         "SNO": "1 ",
         "Name": "Omni Pvt.Ltd.",
         "HO": "Adarshnagar, Birgunj",
-        "CO": "Adarshanagar, Birgunj"
+        "CO": "Adarshanagar, Birgunj",
+		"Website" :"www.omnipl.com/",
+		"Email": "info@omnipl.com",
+		"Contact": "051-526835",
+		"Fax": "051-524825"
     },
     {
         "SNO": "2 ",
         "Name": "Hulas Fin Serve Ltd.",
         "HO": "Teku, Kathmandu",
-        "CO": "Teku, Kathmandu"
+        "CO": "Teku, Kathmandu",
+		"Website" :"hulasfinserve.com.np/ ",
+		"Email": "info@hulasfinserve.com.np ",
+		"Contact": "01-5349730",
+		"Fax": " "
     },
     {
         "SNO": "3",
         "Name": " Sipradi Hire Purchase Pvt. Ltd.",
         "HO": " Gairidhara, Kathmandu ",
-        "CO": "Thapathali, Kathmandu"
+        "CO": "Thapathali, Kathmandu",
+		"Website" :"hirepurchase.sipradi.com.np/ ",
+		"Email": "hirepurchase@sipradi.com.np ",
+		"Contact": "01-4101647",
+		"Fax": "  01-4101645"
     },
     {
         "SNO": "4",
         "Name": " MAW Investment Pvt. Ltd.",
         "HO": " Biratnagar, Morang ",
-        "CO": "Teku, Kathmandu"
+        "CO": "Teku, Kathmandu",
+		"Website" :" ",
+		"Email": " ",
+		"Contact": "",
+		"Fax": " "
     },
     {
         "SNO": "5 ",
         "Name": "Batas Investment Co. Pvt. Ltd.",
         "HO": " Pokhara,Kaski ",
-        "CO": "Gairidhara, Kathmandu"
+        "CO": "Gairidhara, Kathmandu",
+		"Website" :" ",
+		"Email": " ",
+		"Contact": "",
+		"Fax": " "
     },
     {
         "SNO": "6 ",
         "Name": "Syakar Investment Pvt. Ltd. ",
         "HO": "Kantipath, Kathmandu",
-        "CO": " Kantipath, Kathmandu"
+        "CO": " Kantipath, Kathmandu",
+		"Website" :" ",
+		"Email": " ",
+		"Contact": "",
+		"Fax": " "
     },
     {
         "SNO": "7",
         "Name": " Jagadamba Credit &amp; Investment Ltd.",
         "HO": " Naxal, Kathmandu ",
-        "CO": "Naxal, Kathmandu"
+        "CO": "Naxal, Kathmandu",
+		"Website" :" ",
+		"Email": " ",
+		"Contact": "",
+		"Fax": " "
     },
     {
         "SNO": "8 ",
         "Name": "Venture Hire Purchase Pvt. Ltd.",
         "HO": " Panipokhari, Kathmandu",
-        "CO": " Panipokhari, Kathmandu"
+        "CO": " Panipokhari, Kathmandu",
+		"Website" :" ",
+		"Email": " ",
+		"Contact": "",
+		"Fax": " "
     },
     {
         "SNO": "9",
         "Name": " Manokamana Hire Purchase Pvt. Ltd.",
         "HO": " Kantipath, Kathmandu",
-        "CO": " Kantipath, Kathmandu"
+        "CO": " Kantipath, Kathmandu",
+		"Website" :" ",
+		"Email": " ",
+		"Contact": "",
+		"Fax": " "
     },
     {
         "SNO": "10 ",
         "Name": "Agni Hire Purchase Pvt. Ltd. ",
         "HO": "Panipokhari, Kathmandu",
-        "CO": " Panipokhari, Kathmandu"
+        "CO": " Panipokhari, Kathmandu",
+		"Website" :" ",
+		"Email": " ",
+		"Contact": "",
+		"Fax": " "
     }
 ]
