@@ -1,0 +1,35 @@
+[
+    {
+        "Sno": "1",
+        "Name": "Crest Micro Life Insurance Limited",
+        "Operation": "2080 B.S (2023 A.D)",
+        "Website": "https://cmli.com.np/",
+        "HO": "undefined",
+        "NEPSE": "undefined",
+        "Email": "undefined",
+        "Phone": "undefined",
+        "IMG": "undefined"
+    },
+    {
+        "Sno": "2",
+        "Name": "Guardian Micro Life Insurance Limited",
+        "Operation": "2080 B.S (2023 A.D)",
+        "Website": "https://gmli.com.np/",
+        "HO": "undefined",
+        "NEPSE": "undefined",
+        "Email": "undefined",
+        "Phone": "undefined",
+        "IMG": "undefined"
+    },
+    {
+        "Sno": "3",
+        "Name": "Liberty Micro Life Insurance Limited",
+        "Operation": "2080 B.S (2023 A.D)",
+        "Website": "https://libertymlife.com.np/",
+        "HO": "undefined",
+        "NEPSE": "undefined",
+        "Email": "undefined",
+        "Phone": "undefined",
+        "IMG": "undefined"
+    }
+]

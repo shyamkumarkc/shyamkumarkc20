@@ -1,0 +1,46 @@
+[
+    {
+        "Sno": "1",
+        "Name": "Nepal Micro Insurance Company Limited",
+        "Operation": "2080 B.S (2023 A.D)",
+        "Website": "https://nepalmicro.com/",
+        "HO": "&nbsp;",
+        "NEPSE": "&nbsp;",
+        "Email": "&nbsp;",
+        "Phone": "&nbsp;",
+        "IMG": "&nbsp;"
+    },
+    {
+        "Sno": "2",
+        "Name": "Protective Insurance Company Limited",
+        "Operation": "2080 B.S (2023 A.D)",
+        "Website": "https://protectivemicro.com/",
+        "HO": "&nbsp;",
+        "NEPSE": "&nbsp;",
+        "Email": "&nbsp;",
+        "Phone": "&nbsp;",
+        "IMG": "&nbsp;"
+    },
+    {
+        "Sno": "3",
+        "Name": "Star Micro Insurance Company Limited",
+        "Operation": "2080 B.S (2023 A.D)",
+        "Website": "https://starmicroinsure.com/",
+        "HO": "&nbsp;",
+        "NEPSE": "&nbsp;",
+        "Email": "&nbsp;",
+        "Phone": "&nbsp;",
+        "IMG": "&nbsp;"
+    },
+    {
+        "Sno": "4",
+        "Name": "Trust Micro Insurance Company Limited",
+        "Operation": "2080 B.S (2024 A.D)",
+        "Website": "&nbsp;",
+        "HO": "&nbsp;",
+        "NEPSE": "&nbsp;",
+        "Email": "&nbsp;",
+        "Phone": "&nbsp;",
+        "IMG": "&nbsp;"
+    }
+]
