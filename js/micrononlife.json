@@ -8,39 +8,39 @@
         "NEPSE": "",
         "Email": "info@nepalmicro.com",
         "Phone": "056- 494327",
-        "IMG": "https://shyamkumarkc20.com.np/logo/nimc.webp"
+        "IMG": "https://shyamkumarkc20.com.np/logo/nimc.png"
     },
     {
         "Sno": "2",
         "Name": "Protective Insurance Company Limited",
         "Operation": "2080 B.S (2023 A.D)",
         "Website": "protectivemicro.com/",
-        "HO": "&nbsp;",
+        "HO": "Chatakpur, Dhangadhi",
         "NEPSE": "&nbsp;",
-        "Email": "",
-        "Phone": "&nbsp;",
-        "IMG": "https://shyamkumarkc20.com.np/logo/"
+        "Email": "info@protectivemicro.com",
+        "Phone": "091- 590707,
+        "IMG": "https://shyamkumarkc20.com.np/logo/protective.jpg"
     },
     {
         "Sno": "3",
         "Name": "Star Micro Insurance Company Limited",
         "Operation": "2080 B.S (2023 A.D)",
         "Website": "starmicroinsure.com/",
-        "HO": "&nbsp;",
+        "HO": "Bhanuchowk, Janakpur",
         "NEPSE": "&nbsp;",
-        "Email": "&nbsp;",
-        "Phone": "&nbsp;",
-        "IMG": "https://shyamkumarkc20.com.np/logo/"
+        "Email": "info@starmicroinsure.com",
+        "Phone": "041-591453",
+        "IMG": "https://shyamkumarkc20.com.np/logo/star.png"
     },
     {
         "Sno": "4",
         "Name": "Trust Micro Insurance Company Limited",
         "Operation": "2080 B.S (2024 A.D)",
-        "Website": "&nbsp;",
-        "HO": "&nbsp;",
+        "Website": " ",
+        "HO": "Butwal Rupandehi",
         "NEPSE": "&nbsp;",
-        "Email": "&nbsp;",
-        "Phone": "&nbsp;",
+        "Email": " ",
+        "Phone": " ",
         "IMG": "https://shyamkumarkc20.com.np/logo/"
     }
 ]
