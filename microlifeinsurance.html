@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Micro Life Insurance Companies in Nepal</title>
+<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+</script>
+<script>
+$(function(){
+$('#header').load('/assets/header.html');
+});
+</script>
+
+</head>
+<body>
+<div id ="header"></div>
+<h2>List of Micro Life Insurance Companies in Nepal</h2>
+Below are the list of micro life insurance companies of Nepal:
+<br/>
+
+ 
+ <table border="black" style="width: 100%;">
+    <thead>
+    <tr>
+    <th>S.No.</th>
+    <th>Name</th>
+        <th>Logo</th>
+    <th>Operation Date </th>
+    <th>Head Office</th>
+         
+    <th>Contact </th>	
+        <th>Email</th>
+    
+    </tr>
+    </thead>
+    
+          <tbody id="data-outputmicrolife">
+             <!-- Prodcuts from javascript file in here. -->
+          </tbody>
+       </table>
+     
+       <script>
+       fetch("https://shyamkumarkc20.com.np/js/microlife.json")
+    .then(function(response){
+       return response.json();
+    })
+    .then(function(products){
+       let placeholder = document.querySelector("#data-outputmicrolife");
+       let out = "";
+       for(let product of products){
+          out += `
+             <tr>
+                
+                <td>${product.Sno}</td>
+                 <td><a href ="https://${product.Website}"target="blank">${product.Name}</a></td>
+            <td><img src="${product.IMG}" width="100" height="100" ></td>
+                <td>${product.Operation}</td>
+                <td>${product.HO}</td>
+                
+                   <td><a href="tel:${product.Phone}">${product.Phone}</a></td>
+          <td><a href="mailto:${product.Email}">${product.Email}</a></td>
+               
+                
+             </tr>
+          `;
+       }
+     
+       placeholder.innerHTML = out;
+    });
+    </script>
+   <script>
+$(function(){
+$('#footer').load('/assets/footer.html');
+});
+</script>
+
+</body>
+  <div id ="footer"></div>
+</html>
