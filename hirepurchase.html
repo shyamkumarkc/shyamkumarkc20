@@ -48,10 +48,11 @@ $('#header').load('/assets/header.html');
             
             <td>${product.SNO}</td>
 			
-            <td>${product.Name}</td>
+            <td><a href ="https://${product.Website}"target="blank">${product.Name}</a></td>
 			<td>${product.HO}</td>
 			<td>${product.CO}</td>
-			
+			<td><a href="tel:${product.Contact}">${product.Contact}</a></td>
+          <td><a href="mailto:${product.Email}">${product.Email}</a></td>
             
          </tr>
       `;
