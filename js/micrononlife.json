@@ -3,34 +3,34 @@
         "Sno": "1",
         "Name": "Nepal Micro Insurance Company Limited",
         "Operation": "2080 B.S (2023 A.D)",
-        "Website": "https://nepalmicro.com/",
-        "HO": "&nbsp;",
-        "NEPSE": "&nbsp;",
-        "Email": "&nbsp;",
-        "Phone": "&nbsp;",
-        "IMG": "&nbsp;"
+        "Website": "nepalmicro.com/",
+        "HO": "Bhrikuti Path, Bharatpur",
+        "NEPSE": "",
+        "Email": "info@nepalmicro.com",
+        "Phone": "056- 494327",
+        "IMG": "https://shyamkumarkc20.com.np/logo/nimc.webp"
     },
     {
         "Sno": "2",
         "Name": "Protective Insurance Company Limited",
         "Operation": "2080 B.S (2023 A.D)",
-        "Website": "https://protectivemicro.com/",
+        "Website": "protectivemicro.com/",
         "HO": "&nbsp;",
         "NEPSE": "&nbsp;",
-        "Email": "&nbsp;",
+        "Email": "",
         "Phone": "&nbsp;",
-        "IMG": "&nbsp;"
+        "IMG": "https://shyamkumarkc20.com.np/logo/"
     },
     {
         "Sno": "3",
         "Name": "Star Micro Insurance Company Limited",
         "Operation": "2080 B.S (2023 A.D)",
-        "Website": "https://starmicroinsure.com/",
+        "Website": "starmicroinsure.com/",
         "HO": "&nbsp;",
         "NEPSE": "&nbsp;",
         "Email": "&nbsp;",
         "Phone": "&nbsp;",
-        "IMG": "&nbsp;"
+        "IMG": "https://shyamkumarkc20.com.np/logo/"
     },
     {
         "Sno": "4",
@@ -41,6 +41,6 @@
         "NEPSE": "&nbsp;",
         "Email": "&nbsp;",
         "Phone": "&nbsp;",
-        "IMG": "&nbsp;"
+        "IMG": "https://shyamkumarkc20.com.np/logo/"
     }
 ]
