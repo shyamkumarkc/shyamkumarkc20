@@ -5,7 +5,13 @@
         "OD": " 1999-07-17",
         "HO": " Naxal, Kathmandu",
         "Paidup": " 261.21",
-        "Area": " National Level"
+        "Area": " National Level",
+		"Website": "www.nirdhan.com.np",
+		"Contact": "01- 4513711",
+		"Fax": "01-4513856",
+		"Email": ": info@nirdhan.com.np",
+		"IMG": "https://shyamkumarkc20.com.np/logo/nubl.jpg",
+		"NEPSE": "NUBL"
     },
     {
         "SNO": "2",
@@ -13,7 +19,12 @@
         "OD": " 2001-07-03",
         "HO": " Bharatpur, Chitwan",
         "Paidup": " 155.11",
-        "Area": " National Level"
+        "Area": " National Level",
+		"Website": "",
+		"Contact": "",
+		"Fax": "",
+		"Email": "",
+		"NEPSE": "DDBL"
     },
     {
         "SNO": "3",
@@ -21,7 +32,12 @@
         "OD": " 2001-12-10",
         "HO": " Old Baneshwor, Kathmandu",
         "Paidup": " 297.72",
-        "Area": " National Level"
+        "Area": " National Level",
+		"Website": "",
+		"Contact": "",
+		"Fax": "",
+		"Email": "",
+		"NEPSE": ""
     },
     {
         "SNO": "4",
@@ -29,7 +45,8 @@
         "OD": " 2002-02-22",
         "HO": " Kamal Pokhari, Kathmandu",
         "Paidup": " 145.00",
-        "Area": " National Level"
+        "Area": " National Level",
+		"Website": ""
     },
     {
         "SNO": "5",
@@ -37,7 +54,8 @@
         "OD": " 2002-03-11",
         "HO": " Babarmahal, Kathmandu",
         "Paidup": " 380.64",
-        "Area": " National Level"
+        "Area": " National Level",
+		"Website": ""
     },
     {
         "SNO": "6",
@@ -45,7 +63,8 @@
         "OD": " 2007-06-15",
         "HO": " Biratnagar, Morang",
         "Paidup": " 73.20",
-        "Area": " National Level"
+        "Area": " National Level",
+		"Website": ""
     },
     {
         "SNO": "7",
@@ -53,7 +72,8 @@
         "OD": " 2009-04-29",
         "HO": " Dhalkebar, Dhanusha",
         "Paidup": " 19.60",
-        "Area": " Province Level (Madhesh Province)"
+        "Area": " Province Level (Madhesh Province)",
+		"Website": ""
     },
     {
         "SNO": "8",
@@ -61,7 +81,8 @@
         "OD": " 2009-12-16",
         "HO": " Banepa, Kavrepalanchowk",
         "Paidup": " 62.72",
-        "Area": " National Level"
+        "Area": " National Level",
+		"Website": ""
     },
     {
         "SNO": "9",
@@ -69,7 +90,8 @@
         "OD": " 2009-12-28",
         "HO": " Gyaneshwor, Kathmandu",
         "Paidup": " 123.38",
-        "Area": " National Level"
+        "Area": " National Level",
+		"Website": ""
     },
     {
         "SNO": "10",
@@ -77,7 +99,8 @@
         "OD": " 2020-01-08*",
         "HO": " Pokhara, Kaski",
         "Paidup": " 37.23",
-        "Area": " National Level"
+        "Area": " National Level",
+		"Website": ""
     },
     {
         "SNO": "11",
@@ -85,7 +108,8 @@
         "OD": "  2022-08-31*",
         "HO": "  Banepa, Kavrepalanchowk",
         "Paidup": "  66.58",
-        "Area": "  National Level"
+        "Area": "  National Level",
+		"Website": ""
     },
     {
         "SNO": "12",
@@ -93,7 +117,8 @@
         "OD": "  2010-11-09",
         "HO": "  Butwal, Rupandehi",
         "Paidup": "  17.01",
-        "Area": " 19 District Level (Kailali, Kanchanpur,\nBanke, Bardiya, Dang, Kapilvastu, Rupandehi, Nawalparasi East, Nawalparasi West, Chitwan, Parsa, Surkhet,  Dadeldhura, Gulmi, Palpa, Tanahu, Arghakhachi, Pyuthan, Salyan)"
+        "Area": " 19 District Level (Kailali, Kanchanpur,\nBanke, Bardiya, Dang, Kapilvastu, Rupandehi, Nawalparasi East, Nawalparasi West, Chitwan, Parsa, Surkhet,  Dadeldhura, Gulmi, Palpa, Tanahu, Arghakhachi, Pyuthan, Salyan)",
+		"Website": ""
     },
     {
         "SNO": "13",
@@ -101,7 +126,8 @@
         "OD": "  2022-04-02*",
         "HO": "  Banepa, Kavrepalanchowk",
         "Paidup": "  79.19",
-        "Area": "  National Level"
+        "Area": "  National Level",
+		"Website": ""
     },
     {
         "SNO": "14",
@@ -109,7 +135,8 @@
         "OD": "  2012-06-04",
         "HO": "  Maharajgunj, Kathmandu",
         "Paidup": "  44.17 ",
-        "Area": " National Level"
+        "Area": " National Level",
+		"Website": ""
     },
     {
         "SNO": "15",
@@ -117,7 +144,8 @@
         "OD": "  2012-07-05",
         "HO": "  Chuchepati , Kathmandu",
         "Paidup": "  31.98",
-        "Area": "  National Level"
+        "Area": "  National Level",
+		"Website": ""
     },
     {
         "SNO": "16",
@@ -125,7 +153,8 @@
         "OD": "  2013/03/28",
         "HO": "  Gaidakot, Nawalparasi",
         "Paidup": "  74.50",
-        "Area": "  National Level"
+        "Area": "  National Level",
+		"Website": ""
     },
     {
         "SNO": "17",
@@ -133,7 +162,8 @@
         "OD": "  2013/03/31",
         "HO": " Pokhara-Hemja, Kaski",
         "Paidup": "  72.14",
-        "Area": "  National Level"
+        "Area": "  National Level",
+		"Website": ""
     },
     {
         "SNO": "18",
@@ -141,7 +171,8 @@
         "OD": "  2013/05/17",
         "HO": "  Duhabi Bhaluwa, Sunsari",
         "Paidup": "  105.56",
-        "Area": "  National Level"
+        "Area": "  National Level",
+		"Website": ""
     },
     {
         "SNO": "19",
@@ -149,7 +180,8 @@
         "OD": "  2013/05/19",
         "HO": "  Pokhara, Kaski",
         "Paidup": "  61.89",
-        "Area": "  National Level"
+        "Area": "  National Level",
+		"Website": ""
     },
     {
         "SNO": "20",
@@ -157,7 +189,8 @@
         "OD": "  2020-11-23*",
         "HO": "  Bakdhuwa, Saptari",
         "Paidup": "  32.24 ",
-        "Area": "National Level"
+        "Area": "National Level",
+		"Website": ""
     },
     {
         "SNO": "21",
@@ -165,7 +198,8 @@
         "OD": " 2013/07/18",
         "HO": " Battar, Nuwakot",
         "Paidup": " 132.00",
-        "Area": " National Level"
+        "Area": " National Level",
+		"Website": ""
     },
     {
         "SNO": "22",
@@ -173,7 +207,8 @@
         "OD": " 2021-04-15*",
         "HO": " Banepa, Kavrepalanchowk",
         "Paidup": " 39.42",
-        "Area": " National Level"
+        "Area": " National Level",
+		"Website": ""
     },
     {
         "SNO": "23",
@@ -181,7 +216,8 @@
         "OD": " 2013/09/11",
         "HO": " Butwal, Rupandehi",
         "Paidup": " 86.96",
-        "Area": " National Level"
+        "Area": " National Level",
+		"Website": ""
     },
     {
         "SNO": "24",
@@ -189,7 +225,8 @@
         "OD": " 2014/04/13",
         "HO": " Banepa, Kavrepalanchowk",
         "Paidup": " 14.52",
-        "Area": "4-10 District Level (Sindhupalchowk, Kavrepalanchowk, Dolakha,\nRamechhap, Solukhumbu, Okhaldhunga, Nuwakot, Khotang, Bhojpur, Sankhuasabha) "
+        "Area": "4-10 District Level (Sindhupalchowk, Kavrepalanchowk, Dolakha,\nRamechhap, Solukhumbu, Okhaldhunga, Nuwakot, Khotang, Bhojpur, Sankhuasabha) ",
+		"Website": ""
     },
     {
         "SNO": "25",
@@ -197,7 +234,8 @@
         "OD": " 2021-07-14* ",
         "HO": "Nilkantha, Dhading",
         "Paidup": " 108.42",
-        "Area": " National Level"
+        "Area": " National Level",
+		"Website": ""
     },
     {
         "SNO": "26",
@@ -205,7 +243,8 @@
         "OD": " 2014-08-15*",
         "HO": " Butawal, Rupandehi",
         "Paidup": " 98.25",
-        "Area": " National Level"
+        "Area": " National Level",
+		"Website": ""
     },
     {
         "SNO": "27",
@@ -213,7 +252,8 @@
         "OD": " 2021-11-01*",
         "HO": " Banepa, Kavrepalanchowk",
         "Paidup": " 7.92",
-        "Area": " Province Level (Bagmati Province)"
+        "Area": " Province Level (Bagmati Province)",
+		"Website": ""
     },
     {
         "SNO": "28 ",
@@ -221,7 +261,8 @@
         "OD": " 2020-07-10*",
         "HO": " Siddarthanagar, Rupandehi",
         "Paidup": " 24.69 ",
-        "Area": "National Level"
+        "Area": "National Level",
+		"Website": ""
     },
     {
         "SNO": "29",
@@ -229,7 +270,8 @@
         "OD": " 2015-05-15",
         "HO": " Gajuri, Dhading",
         "Paidup": " 48.58",
-        "Area": " National Level"
+        "Area": " National Level",
+		"Website": ""
     },
     {
         "SNO": "30",
@@ -237,7 +279,8 @@
         "OD": " 2015/07/12",
         "HO": " Hasposa, Itahari",
         "Paidup": " 9.52",
-        "Area": " Province Level (Koshi Province)"
+        "Area": " Province Level (Koshi Province)",
+		"Website": ""
     },
     {
         "SNO": "31",
@@ -245,7 +288,8 @@
         "OD": " 2021-11-16*",
         "HO": " Banepa, Kavrepalanchowk",
         "Paidup": " 36.71",
-        "Area": " National Level"
+        "Area": " National Level",
+		"Website": ""
     },
     {
         "SNO": "32",
@@ -253,7 +297,8 @@
         "OD": " 2016/08/29",
         "HO": " Madanpur Nuwakot",
         "Paidup": " 64.16",
-        "Area": " National Level"
+        "Area": " National Level",
+		"Website": ""
     },
     {
         "SNO": "33",
@@ -261,7 +306,8 @@
         "OD": " 2016/11/16 ",
         "HO": "Dhankutabazaar, Dhankuta",
         "Paidup": " 10.14",
-        "Area": " Province Level (Koshi Province)"
+        "Area": " Province Level (Koshi Province)",
+		"Website": ""
     },
     {
         "SNO": "34",
@@ -269,7 +315,8 @@
         "OD": " 2016/12/09 ",
         "HO": "Shuklagandaki, Tanahu",
         "Paidup": " 15.16",
-        "Area": " National Level"
+        "Area": " National Level",
+		"Website": ""
     },
     {
         "SNO": "35",
@@ -277,7 +324,8 @@
         "OD": " 1900/01/09 ",
         "HO": "Gaidakot, Nawalparasi",
         "Paidup": " 49.74",
-        "Area": " National Level"
+        "Area": " National Level",
+		"Website": ""
     },
     {
         "SNO": "36",
@@ -285,7 +333,8 @@
         "OD": " 2017/05/22 ",
         "HO": "Tilottama, Rupandehi",
         "Paidup": " 14.61",
-        "Area": " Province Level (Lumbini Province)"
+        "Area": " Province Level (Lumbini Province)",
+		"Website": ""
     },
     {
         "SNO": "37",
@@ -293,7 +342,8 @@
         "OD": ". 2017/07/14 ",
         "HO": "Bandipur, Tanahu",
         "Paidup": " 31.86",
-        "Area": " National Level"
+        "Area": " National Level",
+		"Website": ""
     },
     {
         "SNO": "38",
@@ -301,7 +351,8 @@
         "OD": " 2017/10/30 ",
         "HO": "Gorkha, Gorkha",
         "Paidup": " 38.23",
-        "Area": " National Level"
+        "Area": " National Level",
+		"Website": ""
     },
     {
         "SNO": "39",
@@ -309,7 +360,8 @@
         "OD": " 2021-03-21* ",
         "HO": "Banepa, Kavrepalanchowk",
         "Paidup": " 173.94",
-        "Area": " National Level"
+        "Area": " National Level",
+		"Website": ""
     },
     {
         "SNO": "40",
@@ -317,7 +369,8 @@
         "OD": " 2020-07-26* ",
         "HO": "Siddarthanagar, Ruphandehi",
         "Paidup": " 14.85",
-        "Area": " Province Level (Lumbini Province)"
+        "Area": " Province Level (Lumbini Province)",
+		"Website": ""
     },
     {
         "SNO": "41",
@@ -325,7 +378,8 @@
         "OD": "2018/05/15",
         "HO": " Malangawa,Sarlahi",
         "Paidup": " 2.29",
-        "Area": " 1-3 District Level (Sarlahi, Mahottari, Dhanusa)"
+        "Area": " 1-3 District Level (Sarlahi, Mahottari, Dhanusa)",
+		"Website": ""
     },
     {
         "SNO": "42",
@@ -333,7 +387,8 @@
         "OD": " 2018/10/18",
         "HO": " Banepa, Sanga, Kavrepalanchok ",
         "Paidup": "21.76 ",
-        "Area": "National Level"
+        "Area": "National Level",
+		"Website": ""
     },
     {
         "SNO": "43",
@@ -341,7 +396,8 @@
         "OD": " 2018/11/17",
         "HO": " Banepa, Bhaisepati, Kavrepalanchok ",
         "Paidup": "10.94 ",
-        "Area": "National Level"
+        "Area": "National Level",
+		"Website": ""
     },
     {
         "SNO": "44",
@@ -349,7 +405,8 @@
         "OD": " 2022-01-14*",
         "HO": " Kohalpur, Banke ",
         "Paidup": "14.86",
-        "Area": "\n4 - 10 District (Bardiya, Banke, Kailali, Kanchanpur,  Dang, Kapilbastu,Rupandehi, Nawalparasi, Surkhet, Dadeldhura)"
+        "Area": "\n4 - 10 District (Bardiya, Banke, Kailali, Kanchanpur,  Dang, Kapilbastu,Rupandehi, Nawalparasi, Surkhet, Dadeldhura)",
+		"Website": ""
     },
     {
         "SNO": "45",
@@ -357,7 +414,8 @@
         "OD": " 2020-12-01*",
         "HO": "Butwal, Rupandehi",
         "Paidup": " 18.28",
-        "Area": " National Level"
+        "Area": " National Level",
+		"Website": ""
     },
     {
         "SNO": "46",
@@ -365,7 +423,8 @@
         "OD": " 2019/03/27",
         "HO": " Kohalpur, Banke",
         "Paidup": " 10.61",
-        "Area": " Province Level (Lumbini Province)"
+        "Area": " Province Level (Lumbini Province)",
+		"Website": ""
     },
     {
         "SNO": "47",
@@ -373,7 +432,8 @@
         "OD": " 2019/02/19 ",
         "HO": "Baglung -2 , Baglung",
         "Paidup": " 13.31",
-        "Area": " National Level"
+        "Area": " National Level",
+		"Website": ""
     },
     {
         "SNO": "48",
@@ -381,7 +441,8 @@
         "OD": " 2023-03-14*",
         "HO": " Pokhara, Kaski",
         "Paidup": " 26.64",
-        "Area": " National Level"
+        "Area": " National Level",
+		"Website": ""
     },
     {
         "SNO": "49",
@@ -389,7 +450,8 @@
         "OD": " 2019/03/05",
         "HO": " Kushma, Parbat",
         "Paidup": " 25.50 ",
-        "Area": "National Level"
+        "Area": "National Level",
+		"Website": ""
     },
     {
         "SNO": "50",
@@ -397,7 +459,8 @@
         "OD": " 2019/03/26 ",
         "HO": "Lahan, Siraha",
         "Paidup": " 1.20",
-        "Area": " Province Level (Madhesh Province)"
+        "Area": " Province Level (Madhesh Province)",
+		"Website": ""
     },
     {
         "SNO": "51",
@@ -405,7 +468,8 @@
         "OD": " 2019/03/15",
         "HO": " Golbazar, Siraha",
         "Paidup": " 10.94 ",
-        "Area": "National Level"
+        "Area": "National Level",
+		"Website": ""
     },
     {
         "SNO": "52",
@@ -413,7 +477,8 @@
         "OD": " 2020-07-13*",
         "HO": " Dhanagadhi, Kailali",
         "Paidup": " 50.44",
-        "Area": " National Level"
+        "Area": " National Level",
+		"Website": ""
     },
     {
         "SNO": "53",
@@ -421,7 +486,8 @@
         "OD": " 2020-09-07*",
         "HO": " Katahari , Morang",
         "Paidup": " 118.20",
-        "Area": " National Level"
+        "Area": " National Level",
+		"Website": ""
     },
     {
         "SNO": "54 ",
@@ -429,7 +495,8 @@
         "OD": " 2019-04-15",
         "HO": " Ghorahi, Dang",
         "Paidup": " 6.86",
-        "Area": " Province Level (Lumbini Province)"
+        "Area": " Province Level (Lumbini Province)",
+		"Website": ""
     },
     {
         "SNO": "55",
@@ -437,7 +504,8 @@
         "OD": " 2020-01-15",
         "HO": " Tulshipur, Dang",
         "Paidup": " 1.95",
-        "Area": " Province Level (Lumbini Province)"
+        "Area": " Province Level (Lumbini Province)",
+		"Website": ""
     },
     {
         "SNO": "56",
@@ -445,6 +513,7 @@
         "OD": " 2019-12-17",
         "HO": " Panauti, Kavrepalanchowk ",
         "Paidup": "25.00 ",
-        "Area": "National Level"
+        "Area": "National Level",
+		"Website": ""
     }
 ]
