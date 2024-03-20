@@ -16,72 +16,59 @@ $('#header').load('/assets/header.html');
 <div id ="header"></div>
 
 <h1>Microfinance Companies in Nepal</h1>
-<ol>
-<li>Grameen Bikas Laghubitta Bittiya Sanstha Limited</li>
-<li>Nirdhan Utthan  Laghubitta Bittiya Sanstha Limited</li>
-<li>RMDC Laghubitta Bittiya Sanstha Limited</li>
-<li>Deprosc Laghubitta Bittiya Sanstha Limited</li>
-<li>Chhimek Laghubitta Bittiya Sanstha Limited</li>
-<li>Swabalamban Laghubitta Bittiya Sanstha Limited</li>
-<li>Sana Kisan Laghubitta Bittiya Sanstha Limited</li>
+<table border="black" style="width: 100%;">
+<thead>
+<tr>
+<th>S.No.</th>
+<th>Name</th>
+	<th>Logo</th>
+<th>Operation Date (A.D.)</th>
+<th>Head Office</th>
 
-<li>Sworojagar Laghu Bitta Bikas Bank Limited</li>
-<li>First Microfinance Development Bank Limited</li>
-<li>Kalika Microcredit Development Bank Limited</li>
-<li>Nerude Mirmire Microfinance Development Bank Limited</li>
-<li>Janautthan Samudayik Microfinance Dev. Bank Limited</li>
-<li>Mithila Laghu Bitta Bikas Bank Limited</li>
-<li>Suryodaya womi Laghubitta Bitiya Sanstha Limited</li>
-<li>Laxmi Microfinance Bittiya Sanstha Limited</li>
-<li>Civil Microfinance Bittiya Sanstha Limited</li>
-<li>Vijaya Laghubitta Bittiya Sanstha Limited</li>
-<li>NMB Microfinance Bittiya Sanstha Limited</li>
-<li>Forward Community Microfinance Bittiya Sanstha Limited</li>
-<li>Global IME Laghubitta Bittiya Sanstha Limited</li>
-<li>Mahuli Samudyik Laghubitta Bittiya Sanstha Limited</li>
-<li>Mero Microfinance Bittiya Sanatha Limited</li>
-<li>Samata Microfinance Bittiya Sanatha Limited</li>
-<li>RSDC Laghubitta Bitiya Sanstha Limited</li>
-<li>Samudayik Laghubitta Bitiya Sanstha Limited</li>
-<li>National Microfinance Bittiya Sanstha Limited</li>
-<li>WEAN Nepal Sewa Laghubitta Bittiya Sanstha Limited </li>
-<li>Unnati Sahakarya Microfinance Bittiya Sanstha Limited</li>
-<li>NADEP Laghubitta Bittiya Sanstha Limited</li>
-<li>Support Microfinace Bittiya Sanstha Limited</li>
-<li>Arambha Chautari Microfinance Bittiya Sanstha Limited</li>
-<li>Asha Laghubitta Bittiya Sanstha Limited</li>
-<li>Gurans Laghubitta Bittiya Sastha Limited</li>
-<li>Ganapati Laghubitta Bittiya Sastha Limited</li>
-<li>Infinity Microfinance Bittiya Sastha Limited</li>
-<li>Adhikhola Laghubitta Bittiya Sanstha Limited</li>
-<li>Swabhiman Microfinance Bittiya Sastha Limited</li>
-<li>Sabaiko Microfinance Bittiya Sastha Limited</li>
-<li>Sadhana Laghubitta Bittiya Sanstha Limited</li>
-<li>NIC Asia Laghubitta Bittiya Sanstha Limited</li>
-<li>Manakamana Smart Laghubitta Bittiya Sanstha Limited</li>
-<li>Summit Laghubitta Bittiya Sanstha Limited</li>
-<li>Samaj Laghubitta Bittiya Sanstha Limited</li>
-<li>Mahila Laghubitta Bittiya Sanstha Limited</li>
-<li>Adarsha Laghubitta Bittiya Sanstha Limited</li>
-<li>Unique Nepal Lagubitta Bittiya Sanstha Limited</li>
-<li> Jalpa Samudayik Laghubitta Bittiya Sanstha Limited</li>
-<li>Manushi Laghubitta Bittiya Sanstha Limited</li>
+<th>PaidUp Capital (crore)</th>
 
-<li>Upakar Laghubitta Bittiya Sanstha Limited</li>
+	
+<th>Phone Number </th>	
+	<th>email</th>
 
-<li>Dhaulagiri Laghubitta Bittiya Sanstha Limited</li>
-<li>CYC Nepal Laghubitta Bittiya Sanstha Limited</li>
-<li>NESDO Samriddha Laghubitta Bittiya Sanstha Limited</li>
-<li>Aatmanirbhar Laghubitta Bittiya Sanstha Limited</li>
-<li>Swastik Laghubitta Bittiya Sanstha Limited</li>
-<li>Shrijanshil Laghubitta Bittiya Sanstha Limited</li>
-<li>Kisan Laghubitta Bittiya Sanstha Limited</li>
-<li>Jiban Bikash Laghubitta Bittiya Sanstha Limited</li>
-<li>Super Laghubitta Bittiya Sanstha Limited</li>
-<li>Aviyan Laghubitta Bittiya Sanstha Limited</li>
-<li>Khaptad Laghubitta Bitttiya Sanstha Limited</li>
-</ol>
+</tr>
+</thead>
 
+      <tbody id="data-output">
+         <!-- Prodcuts from javascript file in here. -->
+      </tbody>
+   </table>
+ 
+   <script>
+   fetch("https://shyamkumarkc20.com.np/js/microfinance.json")
+.then(function(response){
+   return response.json();
+})
+.then(function(products){
+   let placeholder = document.querySelector("#data-output");
+   let out = "";
+   for(let product of products){
+      out += `
+         <tr>
+            
+            <td>${product.SNO}</td>
+             <td><a href ="https://${product.Website}"target="blank">${product.Name}</a></td>
+	    <td><img src="${product.IMG}" width="100" height="100" ></td>
+			<td>${product.OD}</td>
+			<td>${product.HO}</td>
+			<td>${product.NEPSE}</td>
+			
+  			 			  <td><a href="tel:${product.phone}">${product.phone}</a></td>
+      
+           
+            
+         </tr>
+      `;
+   }
+ 
+   placeholder.innerHTML = out;
+});
+   </script
 <script>
 $(function(){
 $('#footer').load('/assets/footer.html');
