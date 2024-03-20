@@ -10,7 +10,7 @@
 		"Contact": "01- 4513711",
 		"Fax": "01-4513856",
 		"Email": ": info@nirdhan.com.np",
-		"IMG": "https://shyamkumarkc20.com.np/logo/nubl.jpg",
+		"IMG": "https://shyamkumarkc20.com.np/logo/nubl.png",
 		"NEPSE": "NUBL"
     },
     {
@@ -24,6 +24,7 @@
 		"Contact": "",
 		"Fax": "",
 		"Email": "",
+		"IMG": "https://shyamkumarkc20.com.np/logo/",
 		"NEPSE": "DDBL"
     },
     {
@@ -37,6 +38,7 @@
 		"Contact": "",
 		"Fax": "",
 		"Email": "",
+			"IMG": "https://shyamkumarkc20.com.np/logo/",
 		"NEPSE": ""
     },
     {
@@ -46,7 +48,12 @@
         "HO": " Kamal Pokhari, Kathmandu",
         "Paidup": " 145.00",
         "Area": " National Level",
-		"Website": ""
+		"Website": "",
+		"Contact": "",
+		"Fax": "",
+		"Email": "",
+			"IMG": "https://shyamkumarkc20.com.np/logo/",
+		"NEPSE": ""
     },
     {
         "SNO": "5",
@@ -55,7 +62,12 @@
         "HO": " Babarmahal, Kathmandu",
         "Paidup": " 380.64",
         "Area": " National Level",
-		"Website": ""
+		"Website": "",
+		"Contact": "",
+		"Fax": "",
+		"Email": "",
+			"IMG": "https://shyamkumarkc20.com.np/logo/",
+		"NEPSE": ""
     },
     {
         "SNO": "6",
@@ -64,7 +76,12 @@
         "HO": " Biratnagar, Morang",
         "Paidup": " 73.20",
         "Area": " National Level",
-		"Website": ""
+		"Website": "",
+		"Contact": "",
+		"Fax": "",
+		"Email": "",
+			"IMG": "https://shyamkumarkc20.com.np/logo/",
+		"NEPSE": ""
     },
     {
         "SNO": "7",
@@ -73,7 +90,12 @@
         "HO": " Dhalkebar, Dhanusha",
         "Paidup": " 19.60",
         "Area": " Province Level (Madhesh Province)",
-		"Website": ""
+		"Website": "",
+		"Contact": "",
+		"Fax": "",
+		"Email": "",
+			"IMG": "https://shyamkumarkc20.com.np/logo/",
+		"NEPSE": ""
     },
     {
         "SNO": "8",
@@ -82,7 +104,12 @@
         "HO": " Banepa, Kavrepalanchowk",
         "Paidup": " 62.72",
         "Area": " National Level",
-		"Website": ""
+		"Website": "",
+		"Contact": "",
+		"Fax": "",
+		"Email": "",
+			"IMG": "https://shyamkumarkc20.com.np/logo/",
+		"NEPSE": ""
     },
     {
         "SNO": "9",
@@ -91,7 +118,12 @@
         "HO": " Gyaneshwor, Kathmandu",
         "Paidup": " 123.38",
         "Area": " National Level",
-		"Website": ""
+		"Website": "",
+		"Contact": "",
+		"Fax": "",
+		"Email": "",
+			"IMG": "https://shyamkumarkc20.com.np/logo/",
+		"NEPSE": ""
     },
     {
         "SNO": "10",
