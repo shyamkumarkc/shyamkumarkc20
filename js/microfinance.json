@@ -71,7 +71,7 @@
     },
     {
         "SNO": "6",
-        "Name": " Nerude Laghubitta Bittiya Sanstha Limited",
+        "Name": " Nerude Mirmire Laghubitta Bittiya Sanstha Limited",
         "OD": " 2007-06-15",
         "HO": " Biratnagar, Morang",
         "Paidup": " 73.20",
@@ -136,11 +136,11 @@
     },
     {
         "SNO": "11",
-        "Name": "  Mirmire Laghubitta Bittiya Sanstha Limited",
-        "OD": "  2022-08-31*",
-        "HO": "  Banepa, Kavrepalanchowk",
-        "Paidup": "  66.58",
-        "Area": "  National Level",
+        "Name": " Aviyan Laghubitta Bittiya Sanstha Limited",
+        "OD": " 2019-12-17",
+        "HO": " Panauti, Kavrepalanchowk ",
+        "Paidup": "25.00 ",
+        "Area": "National Level",
 		"Website": ""
     },
     {
@@ -537,15 +537,6 @@
         "HO": " Tulshipur, Dang",
         "Paidup": " 1.95",
         "Area": " Province Level (Lumbini Province)",
-		"Website": ""
-    },
-    {
-        "SNO": "56",
-        "Name": " Aviyan Laghubitta Bittiya Sanstha Limited",
-        "OD": " 2019-12-17",
-        "HO": " Panauti, Kavrepalanchowk ",
-        "Paidup": "25.00 ",
-        "Area": "National Level",
 		"Website": ""
     }
 ]
