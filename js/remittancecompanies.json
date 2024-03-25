@@ -2,13 +2,13 @@
     {
         "SNO": "1",
         "Name": "IME Limited",
-        "Location": "PanipokhariKathmandu",
+        "Location": "Panipokhari Kathmandu",
         "Contact": "01-4217601",
         "Fax": "01-4214600",
-        "Toll": "16600-151515",
+        "Toll": "16600151515",
         "Email": "info@imeremit.com.np",
         "PO": "19797",
-        "Website": "0"
+        "Website": "imeremit.com.np/"
     },
     {
         "SNO": "2",
@@ -16,21 +16,22 @@
         "Location": "Sarada Sadan, Kamaladi",
         "Contact": "01-169277",
         "Fax": "0",
-        "Toll": "16600-144444",
+        "Toll": "16600144444",
         "Email": "info@prabhumoneytransfer.com.np",
         "PO": "0",
-        "Website": "0"
+        "Website": "prabhumoneytransfer.com.np/"
     },
     {
         "SNO": "3",
         "Name": "City Express Money Transfer",
         "Location": "Kamaladi, Kathmandu",
         "Contact": "01-4431900",
+		"OD" : "2007",
         "Fax": "0",
         "Toll": "16600111213",
         "Email": "info@ctxpress.com",
         "PO": "21766",
-        "Website": "0"
+        "Website": "www.ctxpress.com/"
     },
     {
         "SNO": "4",
@@ -41,7 +42,8 @@
         "Toll": "0",
         "Email": "support@cgmoney.com",
         "PO": "4869",
-        "Website": "0"
+		"OD" : "2010",
+        "Website": "www.cgmoney.com/"
     },
     {
         "SNO": "5",
