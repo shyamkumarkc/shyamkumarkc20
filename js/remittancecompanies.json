@@ -1,0 +1,112 @@
+[
+    {
+        "SNO": "1",
+        "Name": "IME Limited",
+        "Location": "PanipokhariKathmandu",
+        "Contact": "01-4217601",
+        "Fax": "01-4214600",
+        "Toll": "16600-151515",
+        "Email": "info@imeremit.com.np",
+        "PO": "19797",
+        "Website": "0"
+    },
+    {
+        "SNO": "2",
+        "Name": "Prabhu Money Transfer",
+        "Location": "Sarada Sadan, Kamaladi",
+        "Contact": "01-169277",
+        "Fax": "0",
+        "Toll": "16600-144444",
+        "Email": "info@prabhumoneytransfer.com.np",
+        "PO": "0",
+        "Website": "0"
+    },
+    {
+        "SNO": "3",
+        "Name": "City Express Money Transfer",
+        "Location": "Kamaladi, Kathmandu",
+        "Contact": "01-4431900",
+        "Fax": "0",
+        "Toll": "16600111213",
+        "Email": "info@ctxpress.com",
+        "PO": "21766",
+        "Website": "0"
+    },
+    {
+        "SNO": "4",
+        "Name": "CG Remit Pvt. Ltd",
+        "Location": "Jhamsikhel, Lalitpur",
+        "Contact": "01-5525066",
+        "Fax": "01-5521821",
+        "Toll": "0",
+        "Email": "support@cgmoney.com",
+        "PO": "4869",
+        "Website": "0"
+    },
+    {
+        "SNO": "5",
+        "Name": "Advance Money Transfer Pvt. Ltd.",
+        "Location": "SundharaKathmandu",
+        "Contact": "01-4266344",
+        "Fax": "0",
+        "Toll": "0",
+        "Email": "info@advancemoneytransfer.com",
+        "PO": "0",
+        "Website": "0"
+    },
+    {
+        "SNO": "6",
+        "Name": "Panos Remit Pvt. Ltd.",
+        "Location": "New Baneshwor, Kathmandu",
+        "Contact": "01-4480199",
+        "Fax": "0",
+        "Toll": "0",
+        "Email": "contact@panosremit.com",
+        "PO": "0",
+        "Website": "0"
+    },
+    {
+        "SNO": "7",
+        "Name": "J.M.E. Remit Company Pvt. Ltd.&nbsp;is",
+        "Location": "Durbar Marg, Kathmandu",
+        "Contact": "01-4226465",
+        "Fax": "0",
+        "Toll": "0",
+        "Email": "info@jme.com.np",
+        "PO": "0",
+        "Website": "0"
+    },
+    {
+        "SNO": "8",
+        "Name": "I Pay Remit Pvt. Ltd.",
+        "Location": "GairidharaKathmandu",
+        "Contact": "01-4435139",
+        "Fax": "0",
+        "Toll": "16600100016",
+        "Email": "info@ipayremittal.com",
+        "PO": "0",
+        "Website": "0"
+    },
+    {
+        "SNO": "9",
+        "Name": "Speed Money Transfer Japan K.K.",
+        "Location": "Kamaladi,Kathmandu",
+        "Contact": "01-4168800",
+        "Fax": "01-4168724",
+        "Toll": "0",
+        "Email": "info@zenithremit.com",
+        "PO": "0",
+        "Website": "0"
+    },
+    {
+        "SNO": "10",
+        "Name": "Easylink Remittance Pvt. Ltd.&nbsp;",
+        "Location": "Nayabazar, Kathmandu",
+        "Contact": "01-4388375",
+        "Fax": "0",
+        "Toll": "0",
+        "Email": "info@myeasylink.com",
+        "PO": "0",
+        "Website": "0"
+    }
+]
