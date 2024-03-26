@@ -7,6 +7,7 @@
         "Fax": "01-4214600",
         "Toll": "16600151515",
         "Email": "info@imeremit.com.np",
+		"OD" : "2001",
         "PO": "19797",
         "Website": "imeremit.com.np/",
 		"IMG": "https://shyamkumarkc20.com.np/logo/ime.jpg"
@@ -20,6 +21,7 @@
         "Toll": "16600144444",
         "Email": "info@prabhumoneytransfer.com.np",
         "PO": "0",
+		"OD" : "2002",
         "Website": "prabhumoneytransfer.com.np/",
 		"IMG": "https://shyamkumarkc20.com.np/logo/prabhu.png"
     },
@@ -59,7 +61,8 @@
         "Toll": "0",
         "Email": "cs@amtremit.com.np",
         "PO": "0",
-        "Website": "amtremit.com.np/"
+        "Website": "amtremit.com.np/",
+		"IMG": "https://shyamkumarkc20.com.np/logo/amt.png"
     },
     {
         "SNO": "6",
@@ -70,7 +73,8 @@
         "Toll": "0",
         "Email": "contact@panosremit.com",
         "PO": "0",
-        "Website": "panosremit.com/"
+        "Website": "panosremit.com/",
+		"IMG": "https://shyamkumarkc20.com.np/logo/panos.jpg"
     },
     {
         "SNO": "7",
@@ -107,13 +111,15 @@
     },
     {
         "SNO": "10",
-        "Name": "Easylink Remittance Pvt. Ltd.&nbsp;",
+        "Name": "Easylink Remittance Pvt. Ltd.",
         "Location": "Nayabazar, Kathmandu",
         "Contact": "01-4388375",
         "Fax": "0",
         "Toll": "0",
         "Email": "info@myeasylink.com",
         "PO": "0",
-        "Website": "0"
+		"OD" : "1999",
+        "Website": "easylinkremittance.com/",
+		"IMG": "https://shyamkumarkc20.com.np/logo/easy.png"
     }
 ]
