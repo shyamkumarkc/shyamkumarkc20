@@ -136,12 +136,12 @@
         "Email": "0",
         "PO": "0",
         "Website": "0",
-        "IMG": "0",
+        "IMG": "https://shyamkumarkc20.com.np/logo/everestremit.jpg",
         "OD": "0"
     },
     {
         "SNO": "12",
-        "Name": "Nabil Remit(Western;",
+        "Name": "Nabil Remit(Western)",
         "Location": "0",
         "Contact": "0",
         "Fax": "0",
@@ -149,7 +149,7 @@
         "Email": "0",
         "PO": "0",
         "Website": "0",
-        "IMG": "0",
+        "IMG": "https://shyamkumarkc20.com.np/logo/",
         "OD": "0"
     },
     {
@@ -187,7 +187,7 @@
         "Toll": "16600111000",
         "Email": "himalremit@himalayanbank.com",
         "PO": "0",
-        "Website": "0",
+        "Website": "https://shyamkumarkc20.com.np/logo/himalremit.png",
         "IMG": "0",
         "OD": "0"
     },
@@ -201,7 +201,7 @@
         "Email": "0",
         "PO": "0",
         "Website": "0",
-        "IMG": "0",
+        "IMG": "https://shyamkumarkc20.com.np/logo/",
         "OD": "0"
     },
     {
@@ -297,29 +297,29 @@
     },
     {
         "SNO": "24",
-        "Name": "Citizen Remit",
-        "Location": "0",
-        "Contact": "0",
-        "Fax": "0",
+        "Name": "GME Remit",
+        "Location": "Lainchaur, Kathmandu",
+        "Contact": "015970107",
+        "Fax": "01 5970107",
         "Toll": "0",
-        "Email": "0",
+        "Email": "info@gmeremit.com.np",
         "PO": "0",
-        "Website": "0",
-        "IMG": "0",
-        "OD": "0"
+        "Website": "www.gmeremit.com.np/",
+        "IMG": "https://shyamkumarkc20.com.np/logo/gme.png",
+        "OD": "2016"
     },
     {
         "SNO": "25",
         "Name": "E-Sewa Money Transfer",
-        "Location": "0",
-        "Contact": "0",
+        "Location": "Pulchowk, Lalitpur",
+        "Contact": "01 5970377",
         "Fax": "0",
-        "Toll": "0",
-        "Email": "0",
+        "Toll": "1660-01-37777",
+        "Email": "info@esewaremit.com",
         "PO": "0",
-        "Website": "0",
-        "IMG": "0",
-        "OD": "0"
+        "Website": "esewamoneytransfer.com/",
+        "IMG": "https://shyamkumarkc20.com.np/logo/esewa.png",
+        "OD": "2019"
     }
 
 ]
