@@ -1,8 +1,10 @@
 [
   {
     "SNO": 1,
+	"Code" : "",
+	"Casba" : "",
     "Name": "Mahalaxmi Bikas Bank Limited",
-	"OD": "1999 AD",
+	"OD": "2017-07-02",
 	"HO": "Durbarmarg, Kathmandu",
 	"NEPSE": "MLBL",
 	"Swift": "",
@@ -17,9 +19,10 @@
 	
   },
   {
-    "SNO": 2,
+    "SNO": 2,"Code" : "",
+	"Casba" : "",
     "Name": "Narayani Development Bank Limited",
-	"OD": "2001-09-28",
+	"OD": "2001-10-17",
 	"HO": "Tandi, Chitwan",
 	"NEPSE": "NABBC",
 	"Swift": "",
@@ -33,7 +36,8 @@
 	
   },
   {
-    "SNO": 3,
+    "SNO": 3,"Code" : "",
+	"Casba" : "",
     "Name": "Sangrila Development Bank Limited",
 	"OD": "2061 BS",
 	"HO": "Baluwatar,Kathmandu",
@@ -49,9 +53,10 @@
 	
   },
   {
-    "SNO": 4,
+    "SNO": 4,"Code" : "",
+	"Casba" : "",
     "Name": "Excel Development Bank Limited",
-	"OD": "",
+	"OD": "2005-07-21",
 	"HO": "Birtamode",
 	"NEPSE": "EDBL",
 	"Swift": "",
@@ -65,9 +70,10 @@
 	
   },
   {
-    "SNO": 5,
+    "SNO": 5,"Code" : "",
+	"Casba" : "",
     "Name": "Miteri Development Bank Limited",
-	"OD": "",
+	"OD": "2006-10-13",
 	"HO": "Mahendrapath, Dharan",
 	"NEPSE": "MDB",
 	"Swift": "",
@@ -81,9 +87,10 @@
 	
   },
   {
-    "SNO": 6,
+    "SNO": 6,"Code" : "",
+	"Casba" : "Rs. 5",
     "Name": "Muktinath Bikas Bank Limited",
-	"OD": "",
+	"OD": "2007-01-03",
 	"HO": "Hattisar, Kathmandu",
 	"NEPSE": "MNBBL",
 	"Swift": "",
@@ -96,9 +103,10 @@
 	"pobox": "0"
 	
   },{
-    "SNO": 7,
+    "SNO": 7,"Code" : "",
+	"Casba" : "",
     "Name": "Karnali Bikas Bank Limited",
-	"OD": "2060-11-06",
+	"OD": "2004-02-18",
 	"HO": "Nepalgunj, Banke",
 	"NEPSE": "KRBL",
 	"Swift": "",
@@ -111,9 +119,10 @@
 	"pobox": "0"
 	
   },{
-    "SNO": 8,
+    "SNO": 8,"Code" : "",
+	"Casba" : "",
     "Name": "Garima Bikas Bank Limited",
-	"OD": "",
+	"OD": "2021-11-14",
 	"HO": "Kathmandu 02, Lazimpat",
 	"NEPSE": "GBBL",
 	"Swift": "",
@@ -126,9 +135,10 @@
 	"pobox": "0"
 	
   },{
-    "SNO": 9,
+    "SNO": 9,"Code" : "",
+	"Casba" : "",
     "Name": "Kamana Sewa Bikas Bank Limited",
-	"OD": "",
+	"OD": "2017-08-04",
 	"HO": "Gyaneshwor, Aanand Bhairab Marg",
 	"NEPSE": "KSBBL",
 	"Swift": "",
@@ -141,9 +151,10 @@
 	"pobox": "0"
 	
   },{
-    "SNO": 10,
+    "SNO": 10,"Code" : "",
+	"Casba" : "",
     "Name": "Corporate Development Bank Limited",
-	"OD": "",
+	"OD": "2007-11-07",
 	"HO": "Birgunj, Parsa",
 	"NEPSE": "CORBL",
 	"Swift": "",
@@ -157,9 +168,10 @@
 	"fax": "051-527843"
 	
   },{
-    "SNO": 11,
+    "SNO": 11,"Code" : "",
+	"Casba" : "",
     "Name": "Jyoti Bikas Bank Limited",
-	"OD": "",
+	"OD": "2016-08-12",
 	"HO": "KamalPokhari Kathmandu",
 	"NEPSE": "JBBL",
 	"Swift": "",
@@ -172,9 +184,10 @@
 	"pobox": "6518"
 	
   },{
-    "SNO": 12,
+    "SNO": 12,"Code" : "",
+	"Casba" : "",
     "Name": "Shine Resunga Development Bank Limited",
-	"OD": "",
+	"OD": "2013-03-17",
 	"HO": "Butwal, Rupandehi",
 	"NEPSE": "SHINE",
 	"Swift": "",
@@ -187,9 +200,10 @@
 	"pobox": "0"
 	
   },{
-    "SNO": 13,
+    "SNO": 13,"Code" : "",
+	"Casba" : "",
     "Name": "Lumbini Bikas Bank Limited",
-	"OD": "",
+	"OD": "2017-07-09",
 	"HO": "Dilibazar, Kathmandu",
 	"NEPSE": "LBBL",
 	"Swift": "",
@@ -203,7 +217,8 @@
 	"fax": "01-4513526"
 	
   },{
-    "SNO": 14,
+    "SNO": 14,"Code" : "",
+	"Casba" : "",
     "Name": "Sindhu Bikas Bank Limited",
 	"OD": "2067-05-24 (2010-09-09)",
 	"HO": "Barhabise Bazar, Barhabise",
@@ -218,7 +233,8 @@
 	"pobox": "0"
 	
   },{
-    "SNO": 15,
+    "SNO": 15,"Code" : "",
+	"Casba" : "",
     "Name": "Salapa Bikash Bank Limited",
 	"OD": "2069/04/01",
 	"HO": "Diktel, Khotang",
@@ -233,9 +249,10 @@
 	"pobox": "0"
 	
   },{
-    "SNO": 16,
+    "SNO": 16,"Code" : "",
+	"Casba" : "",
     "Name": "Saptakoshi Development Bank Limited",
-	"OD": "",
+	"OD": "2019-07-07",
 	"HO": "Biratnagar, Morang",
 	"NEPSE": "SAPDBL",
 	"Swift": "",
@@ -249,9 +266,10 @@
 	
   },
   {
-    "SNO": 17,
+    "SNO": 17,"Code" : "",
+	"Casba" : "",
     "Name": "Green Development Bank Limited",
-	"OD": "",
+	"OD": "2013-08-25",
 	"HO": "Pokhara, Kaski ",
 	"NEPSE": "GRDBL",
 	"Swift": " ",
