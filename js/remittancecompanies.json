@@ -8,18 +8,20 @@
         "Toll": "16600151515",
         "Email": "info@imeremit.com.np",
         "PO": "19797",
-        "Website": "imeremit.com.np/"
+        "Website": "imeremit.com.np/",
+		"IMG": "https://shyamkumarkc20.com.np/logo/ime.jpg"
     },
     {
         "SNO": "2",
         "Name": "Prabhu Money Transfer",
         "Location": "Sarada Sadan, Kamaladi",
-        "Contact": "01-169277",
+        "Contact": "01-4169277",
         "Fax": "0",
         "Toll": "16600144444",
         "Email": "info@prabhumoneytransfer.com.np",
         "PO": "0",
-        "Website": "prabhumoneytransfer.com.np/"
+        "Website": "prabhumoneytransfer.com.np/",
+		"IMG": "https://shyamkumarkc20.com.np/logo/prabhu.png"
     },
     {
         "SNO": "3",
@@ -31,7 +33,8 @@
         "Toll": "16600111213",
         "Email": "info@ctxpress.com",
         "PO": "21766",
-        "Website": "www.ctxpress.com/"
+        "Website": "www.ctxpress.com/",
+		"IMG": "https://shyamkumarkc20.com.np/logo/city.png"
     },
     {
         "SNO": "4",
@@ -43,40 +46,42 @@
         "Email": "support@cgmoney.com",
         "PO": "4869",
 		"OD" : "2010",
-        "Website": "www.cgmoney.com/"
+        "Website": "www.cgmoney.com/",
+		"IMG": "https://shyamkumarkc20.com.np/logo/cgremit.png"
     },
     {
         "SNO": "5",
         "Name": "Advance Money Transfer Pvt. Ltd.",
-        "Location": "SundharaKathmandu",
-        "Contact": "01-4266344",
+        "Location": "Sundhara Kathmandu",
+        "Contact": "01-5355288",
+		"OD" : "2005",
         "Fax": "0",
         "Toll": "0",
-        "Email": "info@advancemoneytransfer.com",
+        "Email": "cs@amtremit.com.np",
         "PO": "0",
-        "Website": "0"
+        "Website": "amtremit.com.np/"
     },
     {
         "SNO": "6",
         "Name": "Panos Remit Pvt. Ltd.",
         "Location": "New Baneshwor, Kathmandu",
-        "Contact": "01-4480199",
+        "Contact": "01-5378440",
         "Fax": "0",
         "Toll": "0",
         "Email": "contact@panosremit.com",
         "PO": "0",
-        "Website": "0"
+        "Website": "panosremit.com/"
     },
     {
         "SNO": "7",
-        "Name": "J.M.E. Remit Company Pvt. Ltd.&nbsp;is",
+        "Name": "J.M.E. Remit Company Pvt. Ltd.",
         "Location": "Durbar Marg, Kathmandu",
         "Contact": "01-4226465",
         "Fax": "0",
         "Toll": "0",
         "Email": "info@jme.com.np",
         "PO": "0",
-        "Website": "0"
+        "Website": "japanremit.com/"
     },
     {
         "SNO": "8",
@@ -87,7 +92,7 @@
         "Toll": "16600100016",
         "Email": "info@ipayremittal.com",
         "PO": "0",
-        "Website": "0"
+        "Website": "ipayremittal.com"
     },
     {
         "SNO": "9",
