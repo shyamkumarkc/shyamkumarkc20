@@ -1,0 +1,102 @@
+[
+    {
+        "SNO": "1",
+        "Name": "WorldLink Communications",
+        "IMG": "0",
+        "OD": "107",
+        "Location": "0",
+        "Contact": "103",
+        "Email": "7,52,363",
+        "Website": "7,52,573"
+    },
+    {
+        "SNO": "2",
+        "Name": "Nepal Telecom",
+        "IMG": "0",
+        "OD": "",
+        "Location": "54,094",
+        "Contact": "2,22,843",
+        "Email": "2,76,928",
+        "Website": "0"
+    },
+    {
+        "SNO": "3",
+        "Name": "Classic Tech",
+        "IMG": "0",
+        "OD": "704",
+        "Location": "0",
+        "Contact": "2,69,329",
+        "Email": "2,70,033",
+        "Website": "0"
+    },
+    {
+        "SNO": "4",
+        "Name": "Vianet Communications",
+        "IMG": "0",
+        "OD": "",
+        "Location": "0",
+        "Contact": "2,64,083",
+        "Email": "2,64,083",
+        "Website": "0"
+    },
+    {
+        "SNO": "5",
+        "Name": "Subisu",
+        "IMG": "0",
+        "OD": "3,435",
+        "Location": "277",
+        "Contact": "2,51,682",
+        "Email": "2,55,394",
+        "Website": "0"
+    },
+    {
+        "SNO": "6",
+        "Name": "DishHome",
+        "IMG": "0",
+        "OD": "",
+        "Location": "0",
+        "Contact": "2,29,646",
+        "Email": "2,29,645",
+        "Website": "0"
+    },
+    {
+        "SNO": "7",
+        "Name": "Websurfer Nepal Communications",
+        "IMG": "0",
+        "OD": "2,038",
+        "Location": "0",
+        "Contact": "1,45,409",
+        "Email": "1,47,447",
+        "Website": "0"
+    },
+    {
+        "SNO": "8",
+        "Name": "Techminds Network",
+        "IMG": "0",
+        "OD": "1,573",
+        "Location": "0",
+        "Contact": "1,13,885",
+        "Email": "1,15,458",
+        "Website": "0"
+    },
+    {
+        "SNO": "9",
+        "Name": "Broadlink Communications",
+        "IMG": "0",
+        "OD": "102",
+        "Location": "0",
+        "Contact": "63,230",
+        "Email": "63,332",
+        "Website": "0"
+    },
+    {
+        "SNO": "10",
+        "Name": "CG communications",
+        "IMG": "0",
+        "OD": "0",
+        "Location": "0",
+        "Contact": "47,184",
+        "Email": "47,184",
+        "Website": "0"
+    }
+]
