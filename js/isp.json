@@ -62,37 +62,37 @@
     {
         "SNO": "7",
         "Name": "Websurfer Nepal Communications",
-        "IMG": "https://shyamkumarkc20.com.np/logo/",
-        "OD": "2,038",
-        "Location": "0",
-        "Contact": "1,45,409",
+        "IMG": "https://shyamkumarkc20.com.np/logo/websurfer.jpg",
+        "OD": "2001",
+        "Location": "Dhumbarahi Height,Kathmandu",
+        "Contact": "01-5970222",
         "Email": "1,47,447",
-        "Website": "0"
+        "Website": "websurfer.com.np/"
     },
     {
         "SNO": "8",
         "Name": "Techminds Network",
-        "IMG": "https://shyamkumarkc20.com.np/logo/",
-        "OD": "1,573",
-        "Location": "0",
-        "Contact": "1,13,885",
-        "Email": "1,15,458",
-        "Website": "0"
+        "IMG": "https://shyamkumarkc20.com.np/logo/techminds.jpg",
+        "OD": "",
+        "Location": "Bharatpur, Chitwan",
+        "Contact": "056597002",
+        "Email": "sales@techminds.com.np",
+        "Website": "techminds.com.np/"
     },
     {
         "SNO": "9",
         "Name": "Broadlink Communications",
-        "IMG": "https://shyamkumarkc20.com.np/logo/",
-        "OD": "102",
-        "Location": "0",
-        "Contact": "63,230",
-        "Email": "63,332",
-        "Website": "0"
+        "IMG": "https://shyamkumarkc20.com.np/logo/broadlink.png",
+        "OD": "",
+        "Location": "Sanepa Lalitpur",
+        "Contact": "9801453020",
+        "Email": "info@broadlink.com.np",
+        "Website": "broadlink.com.np/"
     },
     {
         "SNO": "10",
         "Name": "CG communications",
-        "IMG": "0",
+        "IMG": "https://shyamkumarkc20.com.np/logo/",
         "OD": "0",
         "Location": "0",
         "Contact": "47,184",
