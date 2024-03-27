@@ -42,27 +42,27 @@
     {
         "SNO": "5",
         "Name": "Subisu",
-        "IMG": "0",
-        "OD": "3,435",
-        "Location": "277",
-        "Contact": "2,51,682",
-        "Email": "2,55,394",
-        "Website": "0"
+       "IMG": "https://shyamkumarkc20.com.np/logo/subisu.jpg",
+        "OD": "2018",
+        "Location": "Baluwatar, Kathmandu",
+        "Contact": "01-4429616",
+        "Email": "info@subisu.net.np",
+        "Website": "subisu.net.np/"
     },
     {
         "SNO": "6",
         "Name": "DishHome",
-        "IMG": "0",
-        "OD": "",
-        "Location": "0",
-        "Contact": "2,29,646",
-        "Email": "2,29,645",
-        "Website": "0"
+        "IMG": "https://shyamkumarkc20.com.np/logo/dishhome.png",
+        "OD": "2020",
+        "Location": "Chyasikot, Karyabinayak ",
+        "Contact": "01-4217666",
+        "Email": "support@dishhome.com.np",
+        "Website": "www.dishhome.com.np/"
     },
     {
         "SNO": "7",
         "Name": "Websurfer Nepal Communications",
-        "IMG": "0",
+        "IMG": "https://shyamkumarkc20.com.np/logo/",
         "OD": "2,038",
         "Location": "0",
         "Contact": "1,45,409",
@@ -72,7 +72,7 @@
     {
         "SNO": "8",
         "Name": "Techminds Network",
-        "IMG": "0",
+        "IMG": "https://shyamkumarkc20.com.np/logo/",
         "OD": "1,573",
         "Location": "0",
         "Contact": "1,13,885",
@@ -82,7 +82,7 @@
     {
         "SNO": "9",
         "Name": "Broadlink Communications",
-        "IMG": "0",
+        "IMG": "https://shyamkumarkc20.com.np/logo/",
         "OD": "102",
         "Location": "0",
         "Contact": "63,230",
