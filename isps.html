@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>SHYAM KUMAR K.C.</title>
+<title>Internet Service Providers In Nepal</title>
 <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
 </script>
@@ -15,29 +15,61 @@ $('#header').load('/assets/header.html');
 <body>
 <div id ="header"></div>
 
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<body>
+
+<h2>
+List of Internet Service Providers In Nepal</h2>
+
+
+<br />
+<table border="black" style="width: 100%;">
+<thead>
+<tr>
+<th>S.No.</th>
+<th>Name</th>
+	<th>Logo</th>
+<th>Operation Date (A.D.)</th>
+<th>Location</th>
+<th>Phone Number </th>	
+	<th>Email</th>
+
+</tr>
+</thead>
+
+      <tbody id="data-output">
+         <!-- Prodcuts from javascript file in here. -->
+      </tbody>
+   </table>
  
-<p>Below  are the list of Top ISPs of Nepal</p>
-<ul>
-<li>Agni Cable</li>
-<li>Arrownet</li>
-<li>BBN</li>
-<li>Broadlink</li>
-<li>CG Net</li>
-<li>Classictech</li>
-<li>Dishhome net</li>
-<li>NT FTTH</li>
-<li>Subisu Net</li>
-<li>Vianet</li>
-<li>Websurfer</li>
-<li>WIFI Nepal</li>
-<li>Worldlink</li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<script>
+   <script>
+   fetch("https://shyamkumarkc20.com.np/js/isp.json")
+.then(function(response){
+   return response.json();
+})
+.then(function(products){
+   let placeholder = document.querySelector("#data-output");
+   let out = "";
+   for(let product of products){
+      out += `
+         <tr>
+            
+            <td>${product.SNO}</td>
+             <td><a href ="https://${product.Website}"target="blank">${product.Name}</a></td>
+	    <td><img src="${product.IMG}" width="100" height="100" ></td>
+			<td>${product.OD}</td>
+			<td>${product.Location}</td>
+
+  			 <td><a href="tel:${product.Contact}">${product.Contact}</a></td>
+ 			 
+      <td><a href="mailto:${product.Email}">${product.Email}</a></td>
+           
+            
+         </tr>
+      `;
+   }
+ 
+   placeholder.innerHTML = out;
+});
+
 $(function(){
 $('#footer').load('/assets/footer.html');
 });
