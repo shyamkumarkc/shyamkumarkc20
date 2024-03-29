@@ -1,4 +1,13 @@
-[
+[{
+        "Province": "Province Name",
+        "Province1": "Koshi Pradesh",
+        "Province2": "Madhesh Pradesh",
+        "Province3": "Bagamati Pradesh",
+        "Province4": "Gandaki Pradesh",
+        "Province5": "Lumbini Pradesh",
+        "Province6": "Karnali Pradesh",
+        "Province7": "SudurPaschim Pradesh"
+    },
 {
         "Province": "Districts",
         "Province1": "Bhojpur, Dhankuta, IIlam, Jhapa, Khotang, Morang, Okhaldhunga, Panchthar, Sankhuwasabha, Solukhumbu, Sunsari, Taplejung, Terhathum, Udayapur",
