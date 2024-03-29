@@ -1,63 +1,167 @@
-<html>
-   <body>
-      <input id="input" width="100%" name="Location" type="text" placeholder="Location" autofocus ></input>
-	  <table border="black" style="width: 100%;">
-<thead>
-<tr>
-<th>Bank Name</th>
-<th>Branch Name</th>
-<th>Address</th>
-<th>Phone Number </th>	
-	<th>Email</th>
-	<th>ATM</th>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-</tr>
-</thead>
+* {
+  box-sizing: border-box;
+}
 
-      <tbody id="display-data">
-         <!-- Prodcuts from javascript file in here. -->
-      </tbody>
+/* Create a column layout with Flexbox */
+.row {
+  display: flex;
+}
+
+/* Left column (menu) */
+.left {
+  flex: 35%;
+  padding: 15px 0;
+}
+
+.left h2 {
+  padding-left: 8px;
+}
+
+/* Right column (page content) */
+.right {
+  flex: 65%;
+  padding: 15px;
+}
+
+/* Style the search box */
+#mySearch {
+  width: 100%;
+  font-size: 18px;
+  padding: 11px;
+  border: 1px solid #ddd;
+}
+
+/* Style the navigation menu inside the left column */
+#myMenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myMenu li a {
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  display: block
+}
+
+#myMenu li a:hover {
+  background-color: #eee;
+}
+</style>
+</head>
+<body>
+
+<h2>Search District</h2>
+
+
+<div class="row">
+  <div class="left" style="background-color:#bbb;">
+    <h2>District in Province</h2>
+    <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+    <ul id="myMenu">
+      <li><a>Bhojpur ------Koshi Pradesh </a></li>
+      <li><a>Dhankuta------Koshi Pradesh</a></li>
+      <li><a>IIlam------Koshi Pradesh</a></li>
+      <li><a>Jhapa------Koshi Pradesh</a></li>
+      <li><a>Khotang------Koshi Pradesh</a></li>
+      <li><a>Morang------Koshi Pradesh</a></li>
+      <li><a>Okhaldhunga------Koshi Pradesh</a></li>
+      <li><a>Panchthar------Koshi Pradesh</a></li>
+      <li><a>Sankhuwasabha------Koshi Pradesh</a></li>
+      <li><a>Solukhumbu------Koshi Pradesh</a></li>
+      <li><a>Sunsari------Koshi Pradesh</a></li>
+      <li><a>Taplejung------Koshi Pradesh</a></li>
+      <li><a>Terhathum------Koshi Pradesh</a></li>
+      <li><a>Udayapur------Koshi Pradesh</a></li>
+      <li><a>Saptari------Madesh Pradesh</a></li> 
+      <li><a>Parsa------Madesh Pradesh</a></li>
+      <li><a>Sarlahi------Madesh Pradesh</a></li>
+      <li><a>Bara------Madesh Pradesh</a></li>
+      <li><a>Siraha------Madesh Pradesh</a></li>
+       <li><a>Dhanusa------Madesh Pradesh</a></li>
+      <li><a>Rautahat------Madesh Pradesh</a></li>
+      <li><a>Mahottari------Madesh Pradesh</a></li>
+      <li><a>Rasuwa------Bagmati Pradesh</a></li>
+      <li><a>Nuwakot------Bagmati Pradesh</a></li>
+       <li><a>Dhading------Bagmati Pradesh</a></li>
+      <li><a>Kavrepalanchok------Bagmati Pradesh</a></li>
+      <li><a>Ramechhap------Bagmati Pradesh</a></li>
+      <li><a>Lalitpur------Bagmati Pradesh</a></li>
+      <li><a>Sindhuli------Bagmati Pradesh</a></li>
+      <li><a>Sindhupalchok------Bagmati Pradesh</a></li>
+      <li><a>Chitwan------Bagmati Pradesh</a></li>
+      <li><a>Makawanpur------Bagmati Pradesh</a></li>
+      <li><a>Bhaktapur------Bagmati Pradesh</a></li>
+      <li><a>Dolakha------Bagmati Pradesh</a></li>
+       <li><a>Kathmandu------Bagmati Pradesh</a></li>
+      <li><a>Baglung------Gandaki Pradesh</a></li>
+      <li><a>Gorkha------Gandaki Pradesh</a></li>
+      <li><a>Kaski------Gandaki Pradesh</a></li>
+      <li><a>Lamjung------Gandaki Pradesh</a></li>
+       <li><a>Manang------Gandaki Pradesh</a></li>
+      <li><a>Mustang------Gandaki Pradesh</a></li>
+      <li><a>Myagdi------Gandaki Pradesh</a></li>
+      <li><a>Nawalpur------Gandaki Pradesh</a></li>
+      <li><a>Parbat------Gandaki Pradesh</a></li>
+      <li><a>Syangja------Gandaki Pradesh</a></li>
+      <li><a>Tanahun------Gandaki Pradesh</a></li>
+      <li><a>Arghakhanchi------Lumbini Pradesh</a></li> 
+      <li><a>Banke------Lumbini Pradesh</a></li>
+       <li><a>Rolpa------Lumbini Pradesh</a></li>
+      <li><a>Palpa------Lumbini Pradesh</a></li>
+      <li><a>Parasi------Lumbini Pradesh</a></li>
+      <li><a>Pyuthan------Lumbini Pradesh</a></li>
+      <li><a>Rupandehi------Lumbini Pradesh</a></li>
+      <li><a>Bardiya------Lumbini Pradesh</a></li>
+      <li><a>Dang------Lumbini Pradesh</a></li>
+      <li><a>Eastern Rukum------Lumbini Pradesh</a></li>
+      <li><a>Gulmi------Lumbini Pradesh</a></li>
+       <li><a>Kapilvastu------Lumbini Pradesh</a></li>
+      <li><a>Dailekh------Karnali Pradesh</a></li> 
+      <li><a>Dolpa------Karnali Pradesh</a></li>
+      <li><a>Humla------Karnali Pradesh</a></li>
+      <li><a>Jajarkot------Karnali Pradesh</a></li>
+      <li><a>Jumla------Karnali Pradesh</a></li>
+      <li><a>Kalikot------Karnali Pradesh</a></li>
+      <li><a>Mugu------Karnali Pradesh</a></li>
+       <li><a>Salyan------Karnali Pradesh</a></li>
+      <li><a>Surkhet------Karnali Pradesh</a></li>
+      <li><a>Western Rukum------Karnali Pradesh</a></li>
+      <li><a>Achham------SudurPaschim Pradesh</a></li>
+      <li><a>Baitadi------SudurPaschim Pradesh</a></li>
+      <li><a>Bajhang------SudurPaschim Pradesh</a></li>
+      <li><a>Bajura------SudurPaschim Pradesh</a></li>
+      <li><a>Dadeldhura------SudurPaschim Pradesh</a></li>
+      <li><a>Darchula------SudurPaschim Pradesh</a></li>
+      <li>     <a>Doti------SudurPaschim Pradesh</a></li>
+      <li><a>Kailali------SudurPaschim Pradesh</a></li>
+      <li><a>Kanchanpur------SudurPaschim Pradesh</a></li>
       
-      <script>
-	  const apiEndpoint= "https://shyamkumarkc20.com.np/js/branch.json";
-const display=document.querySelector("#display-data");
-const input=document.querySelector("#input");
-const getData = async() => {
-const res = await fetch (apiEndpoint);
-const data= await res.json();
+    </ul>
+  </div>
+  
+ 
 
-return data
+<script>
+function myFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("mySearch");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myMenu");
+  li = ul.getElementsByTagName("li");
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
 }
-
-const displayUsers= async () => {
-    let query = input.value;
-    console.log("Query::",query);
-const payload= await getData();
-let dataDisplay = payload.filter((eventData) =>
-{
-if(query ==="") {return eventData}
-else if (eventData.Location.toLowerCase().includes(query.toLowerCase())){return eventData}
-}).map((object)=>
-{
-   
-const{Bank, Branch, Location,  Contact, Email, ATM}=object;
-return `
-<tr class= "container">
-<td>${Bank}</td>
-<td>${Branch}</td>
-<td>${Location}</td>
-<td><a href="tel:${Contact}">${Contact}</a></td>
-<td><a href="mailto:${Email}">${Email}</a></td>
-<td>${ATM}</td>
-</tr>`
-}).join("");
-display.innerHTML=dataDisplay;
-}
-displayUsers();
-
-input.addEventListener("input",()=>
-{
-    displayUsers();
-});</script>
-   </body>
-</html>
+</script>
