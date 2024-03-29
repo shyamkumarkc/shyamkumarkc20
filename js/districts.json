@@ -1,0 +1,30 @@
+[
+    {
+        "ProvinceName": "Koshi Pradesh",
+        "Districts": "Bhojpur, Dhankuta, IIlam, Jhapa, Khotang, Morang, Okhaldhunga, Panchthar, Sankhuwasabha, Solukhumbu, Sunsari, Taplejung, Terhathum, Udayapur"
+    },
+    {
+        "ProvinceName": "Madhesh Pradesh",
+        "Districts": "Saptari, Parsa, Sarlahi, Bara, Siraha, Dhanusa, Rautahat, Mahottari"
+    },
+    {
+        "ProvinceName": "Bagamati Pradesh",
+        "Districts": "Rasuwa, Nuwakot, Dhading, Chitwan, Makawanpur, Bhaktapur, Dolakha, Kathmandu, Kavrepalanchok, Lalitpur, Ramechhap, Sindhuli, Sindhupalchok"
+    },
+    {
+        "ProvinceName": "Gandaki Pradesh",
+        "Districts": "Baglung, Gorkha, Kaski, Lamjung, Manang, Mustang, Myagdi, Nawalpur, Parbat, Syangja, Tanahun"
+    },
+    {
+        "ProvinceName": "Lumbini Pradesh",
+        "Districts": "Arghakhanchi, Banke, Bardiya, Dang, Eastern Rukum, Gulmi, Kapilvastu, Parasi, Palpa, Pyuthan, Rolpa, Rupandehi"
+    },
+    {
+        "ProvinceName": "Karnali Pradesh",
+        "Districts": "Dailekh, Dolpa, Humla, Jajarkot, Jumla, Kalikot, Mugu, Salyan, Surkhet, Western Rukum"
+    },
+    {
+        "ProvinceName": "SudurPaschim Pradesh",
+        "Districts": "Achham, Baitadi, Bajhang, Bajura, Dadeldhura, Darchula, Doti, Kailali, Kanchanpur"
+    }
+]
