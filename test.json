@@ -1,30 +1,30 @@
 [
     {
-        "ProvinceName": "KoshiPradesh",
+        "ProvinceName": "Koshi Pradesh",
         "Districts": "Bhojpur, Dhankuta, IIlam, Jhapa, Khotang, Morang, Okhaldhunga, Panchthar, Sankhuwasabha, Solukhumbu, Sunsari, Taplejung, Terhathum, Udayapur"
     },
     {
-        "ProvinceName": "MadheshPradesh",
+        "ProvinceName": "Madhesh Pradesh",
         "Districts": "Saptari, Parsa, Sarlahi, Bara, Siraha, Dhanusa, Rautahat, Mahottari"
     },
     {
-        "ProvinceName": "BagamatiPradesh",
+        "ProvinceName": "Bagamati Pradesh",
         "Districts": "Rasuwa, Nuwakot, Dhading, Chitwan, Makawanpur, Bhaktapur, Dolakha, Kathmandu, Kavrepalanchok, Lalitpur, Ramechhap, Sindhuli, Sindhupalchok"
     },
     {
-        "ProvinceName": "GandakiPradesh",
+        "ProvinceName": "Gandaki Pradesh",
         "Districts": "Baglung, Gorkha, Kaski, Lamjung, Manang, Mustang, Myagdi, Nawalpur, Parbat, Syangja, Tanahun"
     },
     {
-        "ProvinceName": "LumbiniPradesh",
+        "ProvinceName": "Lumbini Pradesh",
         "Districts": "Arghakhanchi, Banke, Bardiya, Dang, Eastern Rukum, Gulmi, Kapilvastu, Parasi, Palpa, Pyuthan, Rolpa, Rupandehi"
     },
     {
-        "ProvinceName": "KarnaliPradesh",
+        "ProvinceName": "Karnali Pradesh",
         "Districts": "Dailekh, Dolpa, Humla, Jajarkot, Jumla, Kalikot, Mugu, Salyan, Surkhet, Western Rukum"
     },
     {
-        "ProvinceName": "SudurPaschimPradesh",
+        "ProvinceName": "SudurPaschim Pradesh",
         "Districts": "Achham, Baitadi, Bajhang, Bajura, Dadeldhura, Darchula, Doti, Kailali, Kanchanpur"
     }
 ]
