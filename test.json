@@ -1,21 +1,30 @@
-[{
-        "Province": "Province Name",
-        "Province1": "Koshi Pradesh",
-        "Province2": "Madhesh Pradesh",
-        "Province3": "Bagamati Pradesh",
-        "Province4": "Gandaki Pradesh",
-        "Province5": "Lumbini Pradesh",
-        "Province6": "Karnali Pradesh",
-        "Province7": "SudurPaschim Pradesh"
+[
+    {
+        "ProvinceName": "KoshiPradesh",
+        "Districts": "Bhojpur, Dhankuta, IIlam, Jhapa, Khotang, Morang, Okhaldhunga, Panchthar, Sankhuwasabha, Solukhumbu, Sunsari, Taplejung, Terhathum, Udayapur"
     },
-{
-        "Province": "Districts",
-        "Province1": "Bhojpur, Dhankuta, IIlam, Jhapa, Khotang, Morang, Okhaldhunga, Panchthar, Sankhuwasabha, Solukhumbu, Sunsari, Taplejung, Terhathum, Udayapur",
-        "Province2": "Saptari, Parsa, Sarlahi, Bara, Siraha, Dhanusa, Rautahat, Mahottari",
-        "Province3": "Rasuwa, Nuwakot, Dhading, Chitwan, Makawanpur, Bhaktapur, Dolakha, Kathmandu, Kavrepalanchok, Lalitpur, Ramechhap, Sindhuli, Sindhupalchok",
-        "Province4": "Baglung, Gorkha, Kaski, Lamjung, Manang, Mustang, Myagdi, Nawalpur, Parbat, Syangja, Tanahun",
-        "Province5": "Arghakhanchi, Banke, Bardiya, Dang, Eastern Rukum, Gulmi, Kapilvastu, Parasi, Palpa, Pyuthan, Rolpa, Rupandehi",
-        "Province6": "Dailekh, Dolpa, Humla, Jajarkot, Jumla, Kalikot, Mugu, Salyan, Surkhet, Western Rukum",
-        "Province7": "Achham, Baitadi, Bajhang, Bajura, Dadeldhura, Darchula, Doti, Kailali, Kanchanpur"
+    {
+        "ProvinceName": "MadheshPradesh",
+        "Districts": "Saptari, Parsa, Sarlahi, Bara, Siraha, Dhanusa, Rautahat, Mahottari"
+    },
+    {
+        "ProvinceName": "BagamatiPradesh",
+        "Districts": "Rasuwa, Nuwakot, Dhading, Chitwan, Makawanpur, Bhaktapur, Dolakha, Kathmandu, Kavrepalanchok, Lalitpur, Ramechhap, Sindhuli, Sindhupalchok"
+    },
+    {
+        "ProvinceName": "GandakiPradesh",
+        "Districts": "Baglung, Gorkha, Kaski, Lamjung, Manang, Mustang, Myagdi, Nawalpur, Parbat, Syangja, Tanahun"
+    },
+    {
+        "ProvinceName": "LumbiniPradesh",
+        "Districts": "Arghakhanchi, Banke, Bardiya, Dang, Eastern Rukum, Gulmi, Kapilvastu, Parasi, Palpa, Pyuthan, Rolpa, Rupandehi"
+    },
+    {
+        "ProvinceName": "KarnaliPradesh",
+        "Districts": "Dailekh, Dolpa, Humla, Jajarkot, Jumla, Kalikot, Mugu, Salyan, Surkhet, Western Rukum"
+    },
+    {
+        "ProvinceName": "SudurPaschimPradesh",
+        "Districts": "Achham, Baitadi, Bajhang, Bajura, Dadeldhura, Darchula, Doti, Kailali, Kanchanpur"
     }
 ]
