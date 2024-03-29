@@ -1,5 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+<title>SHYAM KUMAR K.C.</title>
+<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+</script>
+<script>
+$(function(){
+$('#header').load('/assets/header.html');
+});
+</script>
+
+</head>
+<body>
+<div id ="header"></div>
 <style>
 .filterDiv {
   float: left;
@@ -39,9 +53,9 @@
   color: white;
 }
 </style>
-<body>
 
-<h2>TEST</h2>
+
+<h2>Districts</h2>
 
 <div id="myBtnContainer">
   <button class="btn active" onclick="filterSelection('all')"> All Districts</button>
@@ -182,5 +196,13 @@ for (var i = 0; i < btns.length; i++) {
 }
 </script>
 
+
+  <script>
+$(function(){
+$('#footer').load('/assets/footer.html');
+});
+</script>
+
 </body>
+  <div id ="footer"></div>
 </html>
