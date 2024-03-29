@@ -1,188 +1,202 @@
 [
-  {
-    "SNO": 1,
-    "Name": "Nepal Bank Limited",
-	"OD": "1937/11/15",
-	"HO": "Dharmapath Kathmandu",
-	"NEPSE": "NBL",
-	"Swift": "NBLNPKA",
-	"Website": "https://www.nepalbank.com.np"
-	
-  },
-  {
-    "SNO": 2,
-    "Name": "Rastriya Banijya Bank Limited",
-	"OD": "2022 Magh 10 B.S 1966/01/23 AD",
-	"HO": "Singhadurbar plaza Kathmandu",
-	"NEPSE": "Null",
-	"Swift": "RBBANPKA",
-	"Website": "www.rbb.com.np"
-	
-	},
-  {
-    "SNO": 3,
-    "Name": "Agriculture Development Bank Limited",
-	"OD": "2024 Falgun 7 B.S. 1968/01/21",
-	"HO": "Ramshahpath Kathmandu",
-	"NEPSE": "ADBL",
-	"Swift": "ADBLNPKA",
-	"Website": "www.adbl.gov.np"
-  },
-  {
-    "SNO": 4,
-    "Name": "Nabil Bank Limited",
-	"OD": "2041 Asar 29 B.S. 1984/07/12",
-	"HO": "Beena Marg Kathmandu",
-	"NEPSE": "NABIL",
-	"Swift": "NARBNPKA",
-	"Website": "www.nabilbank.com"
-	
-  },
-  {
-    "SNO": 5,
-    "Name": "Nepal Investment Mega Bank Limited",
-	"OD": "2042 Falgun 26 B.S. 1986/03/09",
-	"HO": "Durbarmarg Kathmandu",
-	"NEPSE": "NIMB",
-	"Swift": "NIBLNPKT",
-	"Website": "www.nimb.com.np"
-  },
-  {
-    "SNO": 6,
-    "Name": "Standard Chartered Bank Nepal Limited",
-	"OD": "2043 Magh 16 B.S. 1987/02/28",
-	"HO": "Nayabaneshwor Kathmandu",
-	"NEPSE": "SCB",
-	"Swift": "SCBLNPKA",
-	"Website": "www.sc.com/np"
-  },
-  {
-    "SNO": 7,
-    "Name": "Himalayan Bank Limited",
-	"OD": "2049 Magh 5 B.S. 1993/01/18",
-	"HO": "Kamaladi Kathmandu",
-	"NEPSE": "HBL",
-	"Swift": "HIMANPKA",
-	"Website": "www.himalayanbank.com"
-  },
-  {
-    "SNO": 8,
-    "Name": "Nepal SBI Bank Limited",
-	"OD": "1993/07/07",
-	"HO": "Kesharmahal Kathmandu",
-	"NEPSE": "SBI",
-	"Swift": "NSBINPKA",
-	"Website": "www.nsbl.statebank/home"
-  },
-  {
-    "SNO": 9,
-    "Name": "Everest Bank Limited",
-	"OD": "2051 Kartik 1 B.S. 1994/10/18",
-	"HO": "Lazimpat Kathmandu",
-	"NEPSE": "EBL",
-	"Swift": "EVBLNPKA",
-	"Website": "www.everestbankltd.com"
-  },
-  {
-    "SNO": 10,
-    "Name": "Kumari Bank Limited",
-	"OD": "2001/04/03",
-	"HO": "Durbarmarg Kathmandu",
-	"NEPSE": "KBL",
-	"Swift": "KMBLNPKA",
-	"Website": "www.kumaribank.com"
-  },
-  {
-    "SNO": 11,
-    "Name": "Laxmi Sunrise Bank Limited",
-	"OD": "2002/04/03",
-	"HO": "Hattisar Kathmandu",
-	"NEPSE": "LSL",
-	"Swift": "LXBLNPKA",
-	"Website": "www.laxmisunrise.com"
-  },
-  {
-    "SNO": 12,
-    "Name": "Citizens Bank International Limited",
-	"OD": "2007/04/20",
-	"HO": "Kamaladi Kathmandu",
-	"NEPSE": "CZBIL",
-	"Swift": "CTZNNPKA",
-	"Website": "www.ctznbank.com"
-  },
-  {
-    "SNO": 13,
-    "Name": "Prime Commercial Bank Limited",
-	"OD": "2007/09/24",
-	"HO": "Newroad Kathmandu",
-	"NEPSE": "PCBL",
-	"Swift": "PCBLNPKA",
-	"Website": "www.primebank.com.np"
-  },
-  {
-    "SNO": 14,
-    "Name": "Sanima Bank Limited",
-	"OD": "2012/02/15",
-	"HO": "Nagpokhari Kathmandu",
-	"NEPSE": "SANIMA",
-	"Swift": "SNMANPKA",
-	"Website": "www.sanimabank.com"
-  },
-  {
-    "SNO": 15,
-    "Name": "Machhapuchhre Bank Limited",
-	"OD": "2012/07/09",
-	"HO": "Lazimpat Kathmandu",
-	"NEPSE": "MBL",
-	"Swift": "MBLNNPKA",
-	"Website": "www.machbank.com"
-  },
-  {
-    "SNO": 16,
-    "Name": "NIC Asia Bank Limited",
-	"OD": "2013/06/30",
-	"HO": "Thapathali Kathmandu",
-	"NEPSE": "NICA",
-	"Swift": "NICENPKA",
-	"Website": "www.nicasiabank.com"
-	  },
-  {
-    "SNO": 17,
-    "Name": "Global IME Bank Limited",
-	"OD": "2012",
-	"HO": "Kamaladi Kathmandu",
-	"NEPSE": "GBIME",
-	"Swift": "GLBBNPKA",
-	"Website": "www.globalimebank.com"
-	
-  },
-  {
-    "SNO": 18,
-    "Name": "NMB Bank Limited",
-	"OD": "2015/10/18",
-	"HO": "Babarmahal Kathmandu",
-	"NEPSE": "NMB",
-	"Swift": "NMBBNPKA",
-	"Website": "www.nmb.com.np"
-  },
-  {
-    "SNO": 19,
-    "Name": "Prabhu Bank Limited",
-	"OD": "2014/09/14",
-	"HO": "Babarmahal Kathmandu",
-	"NEPSE": "PRVU",
-	"Swift": "PRVUNPKA",
-	"Website": "www.prabhubank.com" 
-
-  },
-  {
-    "SNO": 20,
-    "Name": "Siddhartha Bank Limited",
-	"OD": "2016/07/21",
-	"HO": "Hattisar Kathmandu",
-	"NEPSE": "SBL",
-	"Swift": "SIDDNPKA",
-	"Website": "www.siddharthabank.com"
-	
-  }
+    {
+        "Column1": "Province Name",
+        "Province1": "Koshi/ Purbanchal (proposed)",
+        "Province2": "Madhes/ Mithila/ Bhojpura (proposed)",
+        "Province3": "Bagamati Pradesh",
+        "Province4": "Gandaki Pradesh",
+        "Province5": "Lumbini Pradesh",
+        "Province6": "Karnali Pradesh",
+        "Province7": "SudurPaschim Pradesh"
+    },
+    {
+        "Column2": "Capital City",
+        "Province1": "Biratnagar",
+        "Province2": "Janakpur",
+        "Province3": "Hetauda",
+        "Province4": "Pokhara",
+        "Province5": "Butwal",
+        "Province6": "BirendraNagar",
+        "Province7": "Dhangadi"
+    },
+    {
+        "Column2": "Chief Minister",
+        "Province1": "Sher Dhan Rai",
+        "Province2": "Mommad Lal Babu Raut",
+        "Province3": "Dormani Paudel",
+        "Province4": "Prithivi Subba gurung",
+        "Province5": "Shankhar Pokhrel",
+        "Province6": "Mahendra Bahadur Shahi",
+        "Province7": "Trilochhan Bhatta"
+    },
+    {
+        "Column": "Governor",
+        "Province1": "Prof. Dr. Govinda Bahadur Tumbahang",
+        "Province2": "Ratneshwar Lal Kayastha",
+        "Province3": "Anuradha Koirala",
+        "Province4": "Baburam Kunwar",
+        "Province5": "Umakanta Jha",
+        "Province6": "Durga Keshar Khanal",
+        "Province7": "Mohan Raj Malla"
+    },
+    {
+        "Column": "No. of Metropolitan City",
+        "Province1": "1",
+        "Province2": "1",
+        "Province3": "3",
+        "Province4": "1",
+        "Province5": "0",
+        "Province6": "0",
+        "Province7": "0"
+    },
+    {
+        "Column": "Metropolitan City",
+        "Province1": "BiratNagar",
+        "Province2": "Birgunj",
+        "Province3": "Kathmandu, Lalitpur, Bharatpur",
+        "Province4": "Pokhara",
+        "Province5": "-",
+        "Province6": "-",
+        "Province7": "-"
+    },
+    {
+        "Column": "No. of Sub metropolitan city",
+        "Province1": "2",
+        "Province2": "3",
+        "Province3": "1",
+        "Province4": "0",
+        "Province5": "4",
+        "Province6": "0",
+        "Province7": "1"
+    },
+    {
+        "Column": "Sub metropolitan city",
+        "Province1": "Dharan, Itahari",
+        "Province2": "Janakpur, Jitpur Simara, Kalaiya",
+        "Province3": "Hetauda",
+        "Province4": "-",
+        "Province5": "Tulsipur, Gorahi, Butwal, Nepalgunj",
+        "Province6": "-",
+        "Province7": "Dhangadi"
+    },
+    {
+        "Column": "Municipality",
+        "Province1": "46",
+        "Province2": "73",
+        "Province3": "41",
+        "Province4": "26",
+        "Province5": "32",
+        "Province6": "25",
+        "Province7": "33"
+    },
+    {
+        "Column": "Rural municipality",
+        "Province1": "88",
+        "Province2": "59",
+        "Province3": "74",
+        "Province4": "58",
+        "Province5": "73",
+        "Province6": "54",
+        "Province7": "54"
+    },
+    {
+        "Column": "No. of District",
+        "Province1": "14",
+        "Province2": "8",
+        "Province3": "13",
+        "Province4": "11",
+        "Province5": "12",
+        "Province6": "10",
+        "Province7": "9"
+    },
+    {
+        "Column": "Largest District",
+        "Province1": "Taplejung",
+        "Province2": "Saptari",
+        "Province3": "Sindhupalchowk",
+        "Province4": "Gorkha",
+        "Province5": "Dang",
+        "Province6": "Dolpa",
+        "Province7": "Bajhang"
+    },
+    {
+        "Column": "Smallest District",
+        "Province1": "Tehrathum",
+        "Province2": "Mahottari",
+        "Province3": "Bhaktapur",
+        "Province4": "Parwat",
+        "Province5": "Nawalparasi Paschim",
+        "Province6": "Rukum Paschim",
+        "Province7": "Baitadi"
+    },
+    {
+        "Column": "Total Area",
+        "Province1": "25,905 sq. km",
+        "Province2": "9,661 sq. km",
+        "Province3": "20,300 sq. km",
+        "Province4": "21,733 sq. km",
+        "Province5": "22,288",
+        "Province6": "24,453 sq km",
+        "Province7": "19,539 sq. km"
+    },
+    {
+        "Column": "High Court",
+        "Province1": "Biratnagar High Court",
+        "Province2": "Janakpur High Court",
+        "Province3": "Patan High Court",
+        "Province4": "Pokhara High Court",
+        "Province5": "Tulsipur High Court",
+        "Province6": "Surkhet High Court",
+        "Province7": "Dipayal High Court"
+    },
+    {
+        "Column": "Largest City",
+        "Province1": "Biratnagar",
+        "Province2": "Birgunj",
+        "Province3": "Kathmandu",
+        "Province4": "Pokhara",
+        "Province5": "Gorahi",
+        "Province6": "BirendraNagar",
+        "Province7": "Dhangadi"
+    },
+    {
+        "Column": "Population",
+        "Province1": "4,534,943",
+        "Province2": "5,404,145",
+        "Province3": "5,528,452",
+        "Province4": "2,403,757",
+        "Province5": "4,499,272",
+        "Province6": "1,570,418",
+        "Province7": "2,552,517"
+    },
+    {
+        "Column": "Districts",
+        "Province1": "Bhojpur, Dhankuta, IIlam, Jhapa, Khotang, Morang, Okhaldhunga, Panchthar, Sankhuwasabha, Solukhumbu, Sunsari, Taplejung, Terhathum, Udayapur",
+        "Province2": "Saptari, Parsa, Sarlahi, Bara, Siraha, Dhanusa, Rautahat, Mahottari",
+        "Province3": "Rasuwa, Nuwakot, Dhading, Chitwan, Makawanpur, Bhaktapur, Dolakha, Kathmandu, Kavrepalanchok, Lalitpur, Ramechhap, Sindhuli, Sindhupalchok",
+        "Province4": "Baglung, Gorkha, Kaski, Lamjung, Manang, Mustang, Myagdi, Nawalpur, Parbat, Syangja, Tanahun",
+        "Province5": "Arghakhanchi, Banke, Bardiya, Dang, Eastern Rukum, Gulmi, Kapilvastu, Parasi, Palpa, Pyuthan, Rolpa, Rupandehi",
+        "Province6": "Dailekh, Dolpa, Humla, Jajarkot, Jumla, Kalikot, Mugu, Salyan, Surkhet, Western Rukum",
+        "Province7": "Achham, Baitadi, Bajhang, Bajura, Dadeldhura, Darchula, Doti, Kailali, Kanchanpur"
+    },
+    {
+        "Column": "First Chief Minister",
+        "Province1": "Sher Dhan Rai",
+        "Province2": "Mommad Lal Babu Raut",
+        "Province3": "Dormani Paudel",
+        "Province4": "Prithivi Subba gurung",
+        "Province5": "Shankhar Pokhrel",
+        "Province6": "Mahendra Bahadur Shahi",
+        "Province7": "Trilochhan Bhatta"
+    },
+    {
+        "Column": "First Governor",
+        "Province1": "Prof. Dr. Govinda Bahadur Tumbahang",
+        "Province2": "Ratneshwar Lal Kayastha",
+        "Province3": "Anuradha Koirala",
+        "Province4": "Baburam Kunwar",
+        "Province5": "Umakanta Jha",
+        "Province6": "Durga Keshar Khanal",
+        "Province7": "Mohan Raj Malla"
+    }
 ]
