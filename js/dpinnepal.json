@@ -356,7 +356,7 @@
         "id": "18200",
         "Name": "KAMANA SEWA BIKAS BANK LTD",
         "Location": "Gyaneshwor, Anandabhairav Marg, Kathmandu",
-        "Contact": "01-4440115, 01-4440116",
+        "Contact": "01-4440115","Contact2":" 01-4440116",
         "Email": "info@kamanasewabank.com"
     },
     {
@@ -364,7 +364,7 @@
         "id": "14300",
         "Name": "KOHINOOR INVESTMENT &amp; SECURITIES Private Limited",
         "Location": "HATTISAR, KAMAL POKHARI,Kathmandu,",
-        "Contact": "014442857,014442858",
+        "Contact1": "014442857","Contact2":"014442858",
         "Email": "kohinoorinvest@gmail.com"
     },
     {
@@ -372,7 +372,7 @@
         "id": "15200,16300",
         "Name": "KUMARI BANK LIMITED",
         "Location": "NAXAL,Kathmandu,",
-        "Contact": "01-59970082",
+        "Contact1": "01-59970082","Contact2":"",
         "Email": "dp@kumaricapital.com"
     },
     {
@@ -380,7 +380,7 @@
         "id": "10700,12400",
         "Name": "LAXMI SUNRISE CAPITAL LIMITED",
         "Location": "KAMALPOKHARI,,,NAYABANESHWOR,,",
-        "Contact": "014780222,014781582",
+        "Contact1": "014780222","Contact2":"014781582",
         "Email": "info@sunrisecapital.com.np"
     },
     {
@@ -388,7 +388,7 @@
         "id": "13800",
         "Name": "LINCH STOCK MARKET LIMITED",
         "Location": "NEW BANESHWOR,Kathmandu,",
-        "Contact": "014469367,014469068",
+        "Contact1": "014469367","Contact2":"014469068",
         "Email": "linchstockmarket@gmail.com"
     },
     {
@@ -396,7 +396,7 @@
         "id": "16100",
         "Name": "MACHHAPUCHCHHRE BANK LIMITED",
         "Location": "LAZIMPAT,,",
-        "Contact": "014428556,014428556",
+        "Contact1": "014428556","Contact2":"014428556",
         "Email": "machbank@mbl.com.np"
     },
     {
@@ -404,7 +404,7 @@
         "id": "14100",
         "Name": "MACHHAPUCHCHHRE CAPITAL LIMITED",
         "Location": "BAGDURBAR, SUNDHARA,JDA COMPLEX, Kathmandu,",
-        "Contact": "014266325,014249453",
+        "Contact1": "014266325","Contact2":"014249453",
         "Email": "mcl@mcl.com.np"
     },
     {
@@ -412,7 +412,7 @@
         "id": "21400",
         "Name": "MACHHAPUCHCHHRE SECURITIES LTD",
         "Location": "Jamal, Kathmandu",
-        "Contact": "01-5366285",
+        "Contact1": "01-5366285","Contact2":"",
         "Email": "info@msl.com.np;"
     },
     {
@@ -420,7 +420,7 @@
         "id": "16700",
         "Name": "MAHALAXMI BIKAS BANK LIMITED",
         "Location": "DURBARMARG, Kathmandu,,",
-        "Contact": "014268162,014268208",
+        "Contact1": "014268162","Contact2":"014268208",
         "Email": "info@mahalaxmi.com.np"
     },
     {
@@ -428,7 +428,7 @@
         "id": "18900",
         "Name": "MANJUSHREE FINANCE LTD.",
         "Location": "New Baneshwor, Kathmandu",
-        "Contact": "01-4792517",
+        "Contact1": "01-4792517","Contact2":"",
         "Email": "info@manjushreefinance.com.np"
     },
     {
@@ -436,7 +436,7 @@
         "id": "13600",
         "Name": "MARKET SECURITIES EXCHANGE COMPANY PVT. LTD",
         "Location": "OM DEV PLAZA COMPLEX,BLOCK B, 4TH FLOOR,KHICHAPOKHARI",
-        "Contact": "014248973,014249558",
+        "Contact1": "014248973","Contact2":"014249558",
         "Email": "mkt.securities@gmail.com"
     },
     {
@@ -444,7 +444,7 @@
         "id": "21600",
         "Name": "MILKY WAY SHARE BROKER COMPANY LTD",
         "Location": "Maharajgunj, Kathmandu",
-        "Contact": "01-5915636",
+        "Contact1": "01-5915636","Contact2":"",
         "Email": "info@milkywaysharebroker.com.np;"
     },
     {
@@ -452,7 +452,7 @@
         "id": "19700",
         "Name": "MIYO SECURITIES Private Limited",
         "Location": "HATTISAR, Kathmandu",
-        "Contact": "01-5918868",
+        "Contact1": "01-5918868", "Contact2":"",
         "Email": "miyo.securities@gmail.com"
     },
     {
@@ -460,7 +460,7 @@
         "id": "21100",
         "Name": "MONEY WORLD SHARE EXCHANGE PVT. LTD",
         "Location": "Putalisadak, Kathmandu",
-        "Contact": "015916359",
+        "Contact1": "015916359","Contact2":"",
         "Email": "moneyworld.nepal@gmail.com"
     },
     {
@@ -468,7 +468,7 @@
         "id": "12500",
         "Name": "MUKTINATH CAPITAL LIMITED",
         "Location": "Narayanchaur, Naxal, Kathmandu",
-        "Contact": "01-4546108, 01-4546109, 01- 4546470",
+        "Contact1": "01-4546108", "Contact2":"01-4546109", 
         "Email": "info@muktinathcapital.com dpsupport@muktinathcapital.com"
     },
     {
@@ -476,7 +476,7 @@
         "id": "15900",
         "Name": "NAASA SECURITIES COMPANY LTD",
         "Location": "NAXAL,,",
-        "Contact": "014440384,014440386",
+        "Contact1": "014440384","Contact2":"014440386",
         "Email": "naasasecurities58@gmail.com"
     },
     {
@@ -484,7 +484,7 @@
         "id": "15100 , 16800",
         "Name": "NABIL BANK LIMITED",
         "Location": "DURBARMARG, Kathmandu",
-        "Contact": "014233780,014233781",
+        "Contact1": "014233780","Contact2":"014233781",
         "Email": "info@nabilbank.com"
     },
     {
@@ -492,7 +492,7 @@
         "id": "10400",
         "Name": "NABIL INVESTMENT BANKING LTD.",
         "Location": "NARAYANCHOUR,NAXAL,",
-        "Contact": "014411604,014411733",
+        "Contact1": "014411604","Contact2":"014411733",
         "Email": "info@nabilinvest.com.np"
     },
     {
@@ -500,7 +500,7 @@
         "id": "20400",
         "Name": "NAGARIK STOCK DEALER COMPANY LTD",
         "Location": "New Baneshwor, Kathmandu",
-        "Contact": "01-4790331",
+        "Contact1": "01-4790331","Contact2":"",
         "Email": "nagariksd@gmail.com"
     },
     {
@@ -508,7 +508,7 @@
         "id": "15700",
         "Name": "NEPAL BANK LIMITED",
         "Location": "DHARMAPATH,,",
-        "Contact": "01-5971222 01-5971183, 9761782106",
+        "Contact1": "01-5971222", "Contact2":" 01-5971183", 
         "Email": "nblshareunit@nbl.com.np"
     },
     {
