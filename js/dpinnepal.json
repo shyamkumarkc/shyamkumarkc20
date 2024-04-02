@@ -812,7 +812,7 @@
         "id": "14000",
         "Name": "SRI HARI SECURITIES PVT. LTD.",
         "Location": "HATTISAR ROAD,KAMALADI, Kathmandu,",
-        "Contact": "014437562,014437465",
+        "Contact1": "014437562","Contact2": "014437465",
         "Emai": "info@srihari.com.np"
     },
     {
@@ -820,7 +820,7 @@
         "id": "21000",
         "Name": "STOXKARTS SECURITIES PVT. LTD",
         "Location": "Dillibazzar, Kathmandu",
-        "Contact": "01-5919359",
+        "Contact1": "01-5919359",
         "Emai": "stoxkartssecuritiesltd@gmail.com"
     },
     {
@@ -828,15 +828,15 @@
         "id": "14200",
         "Name": "SUMERU SECURITIES Private Limited",
         "Location": "Gyaneshwor - 30, Kathmandu",
-        "Contact": "01-5970439, 980126300",
+        "Contact1": "01-5970439", "Contact2": "980126300",
         "Emai": "admin@sumerusecurities.com; compliance@sumerusecurities.com; sumerusecurities@gmail.com;"
     },
     {
         "SNo": "105",
         "id": "19300",
-        "Name": "SUN SECURITIES PVT. LTD.",
+        "Name": "SUN SECURITIES Private Limited",
         "Location": "NAXAL,Kathmandu",
-        "Contact": "015902303",
+        "Contact1": "015902303", "Contact2": " ",
         "Emai": "info@sunsecurities.com"
     },
     {
@@ -844,7 +844,7 @@
         "id": "17800",
         "Name": "SUNDHARA SECURITIES LIMITED",
         "Location": "Sundhara, Bagdurbar, Kathmandu",
-        "Contact": "01 4212215,4263583,4260174",
+        "Contact1": "01 4212215","Contact2": "014263583",
         "Emai": "sundharasecurities52@hotmail.com"
     },
     {
@@ -852,7 +852,7 @@
         "id": "18300",
         "Name": "SWARNALAXMI SECURITIES PVT.LTD.",
         "Location": "Putalisadak, Kathmandu",
-        "Contact": "01-4168219 01-4168291",
+        "Contact1": "01-4168219", "Contact2": " 01-4168291",
         "Emai": "swarnalaxmisecurities@gmail.com"
     },
     {
@@ -860,7 +860,7 @@
         "id": "11400",
         "Name": "TRISHAKTI SECURITIES PUBLIC LIMITED",
         "Location": "PUTALISADAK,,",
-        "Contact": "014232132",
+        "Contact1": "014232132",
         "Emai": "info@trishakti.com.np"
     },
     {
@@ -868,7 +868,7 @@
         "id": "17100",
         "Name": "TRISHUL SECURITIES &amp; INVESTMENT LIMITED",
         "Location": "NEWPLAZA, Kathmandu,,",
-        "Contact": "014440709,014440709",
+        "Contact1": "014440709", "Contact2": "014440709",
         "Emai": "broker.trisul@gmail.com"
     },
     {
@@ -876,7 +876,7 @@
         "id": "13500",
         "Name": "VISION SECURITIES PVT. LTD",
         "Location": "ANAMNAGAR, 32,,",
-        "Contact": "014770452,014770425",
+        "Contact1": "014770452", "Contact2": "014770425",
         "Emai": "visionsecurities@hotmail.com"
     }
 ]
