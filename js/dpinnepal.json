@@ -260,7 +260,7 @@
         "id": "20500",
         "Name": "HATEMALO FINANCIAL SERVICES PVT. LTD",
         "Location": "Naxal, Kathmandu",
-        "Contact": "01-4443770",
+        "Contact1": "01-4443770","Contact2":"",
         "Email": "info@hatemalo.com.np"
     },
     {
@@ -268,7 +268,7 @@
         "id": "19600",
         "Name": "HIMALAYAN BROKERAGE COMPANY LIMITED",
         "Location": "DILLIBAZAR, Kathmandu",
-        "Contact": "015900724",
+        "Contact1": "015900724","Contact2":"",
         "Email": "info@himalayanbrokerage.com"
     },
     {
@@ -276,7 +276,7 @@
         "id": "17700",
         "Name": "HIMALAYAN CAPITAL LIMITED",
         "Location": "THAMEL,Kathmandu,",
-        "Contact": "014258345,014263147",
+        "Contact1": "014258345","Contact2":"014263147",
         "Email": "info@himalayancapital.com"
     },
     {
@@ -284,7 +284,7 @@
         "id": "17400",
         "Name": "ICFC FINANCE LIMITED",
         "Location": "BHATBHATENI, NAXAL,,",
-        "Contact": "014425292,014425292",
+        "Contact1": "014425292","Contact2":"014425292",
         "Email": "info@icfcbank.com"
     },
     {
@@ -292,7 +292,7 @@
         "id": "13100",
         "Name": "IMPERIAL SECURITIES COMPANY Private Limited",
         "Location": "K.M.C.-32, ANAMNAGAR,HANUMANSTHAN,",
-        "Contact": "015706004,015705187",
+        "Contact1": "015706004", "Contact2":"015705187",
         "Email": "45.imperial@gmail.com"
     },
     {
@@ -300,7 +300,7 @@
         "id": "20000",
         "Name": "INDEX SECURITIES LTD",
         "Location": "Dillibazar, Kathmandu",
-        "Contact": "01-5916136",
+        "Contact1": "01-5916136","Contact2":"",
         "Email": "indexsecuritiesnepal@gmail.com"
     },
     {
@@ -308,7 +308,7 @@
         "id": "20800",
         "Name": "INDIRA SECURITIES PVT. LTD",
         "Location": "Sundhara, Kathmandu",
-        "Contact": "01-5917903",
+        "Contact1": "01-5917903","Contact2":"",
         "Email": "info@indirasecurities.com.np"
     },
     {
@@ -316,7 +316,7 @@
         "id": "19900",
         "Name": "INFINITY SECURITIES LTD",
         "Location": "Sundhara, Kathmandu",
-        "Contact": "01-5915306 01-5915307",
+        "Contact1": "01-5915306","Contact2":" 01-5915307",
         "Email": "info@infinitysecurities.com.np"
     },
     {
@@ -324,7 +324,7 @@
         "id": "17900",
         "Name": "JYOTI BIKASH BANK LIMITED",
         "Location": "Kamlpokhari 1, Kathmandu",
-        "Contact": "015970301, 5970303, 5970304, 5970306",
+        "Contact1": "015970301", "Contact2":"015970303",
         "Email": "info@jbbl.com.np"
     },
     {
@@ -332,7 +332,7 @@
         "id": "22000",
         "Name": "K.B.L. SECURITIES LTD.",
         "Location": "Gairidhara, Kathmandu",
-        "Contact": "01-4547030, 01-4547031",
+        "Contact1": "01-4547030", "Contact2":"01-4547031",
         "Email": "info@kblsecurities.com"
     },
     {
@@ -340,7 +340,7 @@
         "id": "20100",
         "Name": "KALASH STOCK MARKET PVT. LTD",
         "Location": "Buddhanagar, Kathmandu",
-        "Contact": "01-5915218",
+        "Contact1": "01-5915218","Contact2":"",
         "Email": "sharekalash@gmail.com"
     },
     {
@@ -348,7 +348,7 @@
         "id": "18700",
         "Name": "KALIKA SECURITIES PVT. LTD.",
         "Location": "Hanumansthan, Anamnagar, Kathmandu",
-        "Contact": "01-5705563 01-5705564",
+        "Contact1": "01-5705563","Contact2":" 01-5705564",
         "Email": "kalikasecurities@gmail.com"
     },
     {
@@ -356,7 +356,7 @@
         "id": "18200",
         "Name": "KAMANA SEWA BIKAS BANK LTD",
         "Location": "Gyaneshwor, Anandabhairav Marg, Kathmandu",
-        "Contact": "01-4440115","Contact2":" 01-4440116",
+        "Contact1": "01-4440115","Contact2":" 01-4440116",
         "Email": "info@kamanasewabank.com"
     },
     {
