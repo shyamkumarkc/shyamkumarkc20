@@ -116,7 +116,7 @@
         "id": "19500",
         "Name": "CAPITAL MAX SECURITIES LIMITED",
         "Location": "GYANESHWOR, Kathmandu",
-        "Contact": "015918878",
+        "Contact1": "015918878","Contact2":"",
         "Email": "info@capitalmax.com.np"
     },
     {
@@ -124,7 +124,7 @@
         "id": "11700",
         "Name": "CITIZENS BANK INTERNATIONAL LIMITED",
         "Location": "NARAYANHITY PATH,,",
-        "Contact": "4427842,4427843",
+        "Contact1": "014427842","Contact2":"014427843",
         "Email": "info@ctznbank.com"
     },
     {
@@ -132,7 +132,7 @@
         "id": "10100",
         "Name": "CIVIL CAPITAL MARKET LIMITED",
         "Location": "6th FLOOR, CTC MALL,SUNDHARA,",
-        "Contact": "014262303,014261251",
+        "Contact1": "014262303","Contact2":"014261251",
         "Email": "ccm@civilcapital.com.np"
     },
     {
@@ -140,7 +140,7 @@
         "id": "13300",
         "Name": "CREATIVE SECURITIES Private Limited",
         "Location": "KAMALPOKHARI,Kathmandu,",
-        "Contact": "014419582",
+        "Contact1": "014419582", "Contact2":"",
         "Email": "creativesec2011@gmail.com"
     },
     {
@@ -148,15 +148,15 @@
         "id": "13400",
         "Name": "CRYSTAL KANCHANJUNGHA SECURITIES Private Limited",
         "Location": "NEW PLAZA,Kathmandu,",
-        "Contact": "014011176",
+        "Contact1": "014011176","Contact2":"",
         "Email": "crystalkanchanjungha@gmail.com"
     },
     {
         "SNo": "20",
         "id": "12000",
         "Name": "DAKSHINKALI INVESTMENT AND SECURITIES Private Limited",
-        "Location": "KAMALADI,,",
-        "Contact": "014168640,014168641",
+        "Location": "KAMALADI,Kathmandu",
+        "Contact1": "014168640","Contact2":"014168641",
         "Email": "displtd@gmail.com"
     },
     {
@@ -164,7 +164,7 @@
         "id": "14500",
         "Name": "DEEVYAA SECURITIES &amp; STOCK HOUSE Private Limited",
         "Location": "PUTALISADAK,Kathmandu,",
-        "Contact": "014421488",
+        "Contact1": "014421488", "Contact2":"",
         "Email": "deevya59@gmail.com"
     },
     {
@@ -172,7 +172,7 @@
         "id": "11300",
         "Name": "DIPSHIKHA DHITOPATRA KAROBAR COMPANY Private Limited",
         "Location": "ANAMNAGAR - 32,,",
-        "Contact": "014102532,014102534",
+        "Contact1": "014102532","Contact2":"014102534",
         "Email": "info@ddkc.com.np"
     },
     {
@@ -180,7 +180,7 @@
         "id": "14900",
         "Name": "DYNAMIC MONEY MANAGERS SECURITIES Private Limited",
         "Location": "KAMALPOKHARI-31,Kathmandu,",
-        "Contact": "014414285,",
+        "Contact1": "014414285","Contact2":"",
         "Email": "admin@dynamic44.com"
     },
     {
@@ -188,7 +188,7 @@
         "id": "20300",
         "Name": "ELITE MERCHANT CAPITAL LTD",
         "Location": "Lazimpat, Kathmandu",
-        "Contact": "01-4525190",
+        "Contact1": "01-4525190","Contact2":"",
         "Email": "elitecapitalnepal@gmail.com"
     },
     {
@@ -196,7 +196,7 @@
         "id": "19800",
         "Name": "ELITE STOCK HOUSE LTD",
         "Location": "Lazimpat, Kathmandu",
-        "Contact": "01-4005161",
+        "Contact1": "01-4005161","Contact2":"",
         "Email": "info@elitestockhouse.com.np"
     },
     {
@@ -204,7 +204,7 @@
         "id": "10800",
         "Name": "EVEREST BANK LTD.",
         "Location": "Lazimpat,,",
-        "Contact": "014443377",
+        "Contact1": "014443377","Contact2":"",
         "Email": "ebl@mos.com.np"
     },
     {
@@ -212,7 +212,7 @@
         "id": "17600",
         "Name": "GARIMA CAPITAL LIMITED",
         "Location": "HATTISAR -1, Kathmandu,",
-        "Contact": "014429149,014429150",
+        "Contact1": "014429149","Contact2":"014429150",
         "Email": "info@garimacapital.com"
     },
     {
@@ -220,7 +220,7 @@
         "id": "21900",
         "Name": "GARIMA SECURITIES LTD.",
         "Location": "Kamalpokhari, Kathmandu",
-        "Contact": "01-5916351, 01-5918351",
+        "Contact1": "01-5916351", "Contact2":"01-5918351",
         "Email": "garimasecurities345@gmail.com"
     },
     {
@@ -228,7 +228,7 @@
         "id": "12200 , 11100",
         "Name": "GLOBAL IME BANK LIMITED",
         "Location": "KAMALADI, Kathmandu",
-        "Contact": "014228671, 014226247",
+        "Contact1": "014228671","Contact2":" 014226247",
         "Email": "info@gibl.com.np"
     },
     {
@@ -236,7 +236,7 @@
         "id": "11200",
         "Name": "GLOBAL IME CAPITAL LIMITED",
         "Location": "Laxman Babu Bhawan 1st Floor, Naxal , Kathmandu",
-        "Contact": "01-5970138",
+        "Contact1": "01-5970138","Contact2":"",
         "Email": "info@gicl.com.np"
     },
     {
@@ -244,7 +244,7 @@
         "id": "16200",
         "Name": "GUHESWORI MERCHANT BANKING &amp; FINANCE LIMITED",
         "Location": "PULCHOK, LALITPUR,,",
-        "Contact": "015550406,015537407",
+        "Contact1": "015550406","Contact2":"015537407",
         "Email": "archana.pradhan@gmbf.com.np"
     },
     {
@@ -252,7 +252,7 @@
         "id": "18000",
         "Name": "GURKHAS FINANCE LIMITED",
         "Location": "Charkhal Road, Dillibazar, Kathmandu",
-        "Contact": "01-4437401, 01-4437403",
+        "Contact1": "01-4437401","Contact2":" 01-4437403",
         "Email": "info@gurkhasfinance.com.np"
     },
     {
@@ -660,7 +660,7 @@
         "id": "16600",
         "Name": "PROVIDENT MERCHANT BANKING LIMITED",
         "Location": "Kathmandu 35, BALKUMARI,BRIDGE,",
-        "Contact1": "5147097","Contact2": "5147192",
+        "Contact1": "015147097","Contact2": "015147192",
         "Email": "provident mbl@gmail.com"
     },
     {
