@@ -732,7 +732,7 @@
         "id": "12700",
         "Name": "SEWA SECURITIES Private Limited",
         "Location": "TRIPURESWOR,Kathmandu,",
-        "Contact": "014256642,014256644",
+        "Contact1": "014256642","Contact2": "014256644",
         "Emai": "sewasecurities@gmail.com"
     },
     {
@@ -740,7 +740,7 @@
         "id": "18400",
         "Name": "SHANGRI-LA DEVELOPMENT BANK LTD.",
         "Location": "Baluwatar, Kathmandu",
-        "Contact": "01-4421861 01-4421862",
+        "Contact1": "01-4421861", "Contact2": " 01-4421862",
         "Emai": "info@shangrilabank.com"
     },
     {
@@ -748,7 +748,7 @@
         "id": "19200",
         "Name": "SHAREPRO SECURITIES PVT.LTD.",
         "Location": "DALKU, PUSHPA LAL PATH 17, KTM",
-        "Contact": "015918648",
+        "Contact1": "015918648", "Contact2": "
         "Emai": "shareprosecurities@gmail.com"
     },
     {
@@ -756,7 +756,7 @@
         "id": "18500",
         "Name": "SHINE RESUNGA DEVELOPMENT BANK LTD.",
         "Location": "Butwal-11, Rupandehi",
-        "Contact": "071-415502, 071-415503",
+        "Contact1": "071-415502","Contact2": " 071-415503",
         "Emai": "info@srdb.com.np;"
     },
     {
@@ -764,7 +764,7 @@
         "id": "18800",
         "Name": "SHREE INVESTMENT AND FINANCE CO. LTD.",
         "Location": "Dilli Bazar Kathmandu",
-        "Contact": "01-4422038, 01-4426146",
+        "Contact1": "01-4422038", "Contact2": " 01-4426146",
         "Emai": "info@shreefinance.com.np"
     },
     {
@@ -772,15 +772,15 @@
         "id": "12900",
         "Name": "SHREE KRISHNA SECURITIES LIMITED",
         "Location": "3RD FLOOR, ALLIANCE TOWER,CHARKHAL ROAD,DILLIBAZAR",
-        "Contact": "014441225,014441226",
-        "Emai": "mundara@wlink.com.np/skslKathmandu@gmail.com"
+        "Contact1": "014441225","Contact2": "014441226",
+        "Emai": "mundara@wlink.com.np"
     },
     {
         "SNo": "98",
         "id": "20200",
         "Name": "SHUBHAKAMANA SECURITIES PVT. LTD",
         "Location": "Naxal, Kathmandu",
-        "Contact": "01-5918829",
+        "Contact1": "01-5918829", "Contact2": "",
         "Emai": "shuvakamanasecurities@gmail.com"
     },
     {
@@ -788,7 +788,7 @@
         "id": "10900",
         "Name": "SIDDHARTHA CAPITAL LIMITED",
         "Location": "ka. ma. na. pa. ward no. 1,Narayan Chour, Naxal,",
-        "Contact": "014420924,014420925",
+        "Contact1": "014420924", "Contact2": "014420925",
         "Emai": "&nbsp;"
     },
     {
@@ -796,7 +796,7 @@
         "id": "14600",
         "Name": "SIPLA SECURITIES Private Limited",
         "Location": "KHICHAPOKHARI,Kathmandu,",
-        "Contact": "014255782,014255078",
+        "Contact1": "014255782", "Contact2": "014255078",
         "Emai": "sipla20@gmail.com"
     },
     {
@@ -804,21 +804,21 @@
         "id": "13000",
         "Name": "SOUTH ASIAN BULLS Private Limited",
         "Location": "TULSI KRISHNA PLAZA,2ND FLOOR,KULESWOR",
-        "Contact": "014273400,014273400",
+        "Contact1": "014273400", "Contact2": "014273400",
         "Emai": "sabullsp@gmail.com"
     },
     {
         "SNo": "102",
         "id": "14000",
-        "Name": "SRI HARI SECURITIES PVT. LTD.",
-        "Location": "HATTISAR ROAD,KAMALADI, Kathmandu,",
+        "Name": "SRI HARI SECURITIES Private Limited",
+        "Location": "KAMALADI, Kathmandu,",
         "Contact1": "014437562","Contact2": "014437465",
         "Emai": "info@srihari.com.np"
     },
     {
         "SNo": "103",
         "id": "21000",
-        "Name": "STOXKARTS SECURITIES PVT. LTD",
+        "Name": "STOXKARTS SECURITIES Private Limited",
         "Location": "Dillibazzar, Kathmandu",
         "Contact1": "01-5919359",
         "Emai": "stoxkartssecuritiesltd@gmail.com"
@@ -829,7 +829,7 @@
         "Name": "SUMERU SECURITIES Private Limited",
         "Location": "Gyaneshwor - 30, Kathmandu",
         "Contact1": "01-5970439", "Contact2": "980126300",
-        "Emai": "admin@sumerusecurities.com; compliance@sumerusecurities.com; sumerusecurities@gmail.com;"
+        "Emai": "admin@sumerusecurities.com"
     },
     {
         "SNo": "105",
