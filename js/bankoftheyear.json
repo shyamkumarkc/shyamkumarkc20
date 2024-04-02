@@ -1,18 +1,24 @@
 [
   {
     "year": "2009",
+    "Website": "www.sc.com/np",
+	  "IMG": "https://shyamkumarkc20.com.np/logo/scb.jpg",
     "bank name": "Standard Chartered Bank Nepal"
   },
   {
-    "year": "2010",
+    "year": "2010","Website": "www.nimb.com.np",
+	  "IMG": "https://shyamkumarkc20.com.np/logo/nimb.png",
     "bank name": "Nepal Investment Bank Limited"
   },
   {
-    "year": "2011",
-    "bank name": "Bank of Kathmandu"
+    "year": "2011","Website": "www.globalimebank.com",
+	  "IMG": "https://shyamkumarkc20.com.np/logo/gbime.png",
+    "bank name": "Global IME Bank Limited (Former BOK)"
   },
   {
     "year": "2012",
+    "Website": "www.sc.com/np",
+	  "IMG": "https://shyamkumarkc20.com.np/logo/scb.jpg",
     "bank name": "Standard Chartered Bank Nepal"
   },
   {
@@ -20,43 +26,54 @@
     "bank name": "NIC Asia Bank Limited"
   },
   {
-    "year": "2014",
+    "year": "2014","Website": "www.globalimebank.com",
+	  "IMG": "https://shyamkumarkc20.com.np/logo/gbime.png",
     "bank name": "Global IME Bank Limited"
   },
   {
     "year": "2015",
+    "Website": "www.sc.com/np",
+	  "IMG": "https://shyamkumarkc20.com.np/logo/scb.jpg",
     "bank name": "Standard Chartered Bank Nepal"
   },
   {
-    "year": "2016",
-    "bank name": "Nepal Investment Bank Limited"
+    "year": "2016","Website": "www.nimb.com.np",
+	  "IMG": "https://shyamkumarkc20.com.np/logo/nimb.png",
+    "bank name": "Nepal Investment Mega Bank Limited"
   },
   {
-    "year": "2017",
+    "year": "2017","Website": "www.nmb.com.np",
+	  "IMG": "https://shyamkumarkc20.com.np/logo/nmb.png",
     "bank name": "NMB Bank Limited"
   },
   {
-    "year": "2018",
+    "year": "2018","Website": "www.nmb.com.np",
+	  "IMG": "https://shyamkumarkc20.com.np/logo/nmb.png",
     "bank name": "NMB Bank Limited"
   },
   {
-    "year": "2019",
-    "bank name": "MEGA Bank Limited"
+    "year": "2019","Website": "www.nimb.com.np",
+	  "IMG": "https://shyamkumarkc20.com.np/logo/nimb.png",
+    "bank name": "Nepal Investment Mega Bank Limited (Former Mega)"
   },
   {
-    "year": "2020",
+    "year": "2020","Website": "www.nmb.com.np",
+	  "IMG": "https://shyamkumarkc20.com.np/logo/nmb.png",
     "bank name": "NMB Bank Limited"
   },
   {
-    "year": "2021",
+    "year": "2021","Website": "www.nmb.com.np",
+	  "IMG": "https://shyamkumarkc20.com.np/logo/nmb.png",
     "bank name": "NMB Bank Limited"
   },
   {
-    "year": "2022",
-    "bank name": "Nepal Investment Bank Limited"
+    "year": "2022","Website": "www.nimb.com.np",
+	  "IMG": "https://shyamkumarkc20.com.np/logo/nimb.png",
+    "bank name": "Nepal Investment Mega Bank Limited"
   },
   {
-    "year": "2023",
+    "year": "2023","Website": "www.prabhubank.com" ,
+	  "IMG": "https://shyamkumarkc20.com.np/logo/prvu.png",
     "bank name": "Prabhu Bank Limited"
   }
 ]
