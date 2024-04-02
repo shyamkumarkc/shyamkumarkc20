@@ -516,7 +516,7 @@
         "id": "15500",
         "Name": "NEPAL DP LIMITED",
         "Location": "Bhatbhateni, Naxal,Kathmandu",
-        "Contact": "01-5327086, 01-5333591",
+        "Contact1": "01-5327086","Contact2":" 01-5333591",
         "Email": "nepaldpltd@gmail.com"
     },
     {
@@ -524,7 +524,7 @@
         "id": "16400",
         "Name": "NEPAL LIFE CAPITAL LIMITED",
         "Location": "City Center, Kathmandu-30",
-        "Contact": "01-4430746,01-4430746",
+        "Contact1": "01-4430746","Contact2":"01-4430746",
         "Email": "info@nepallifecapital.com.np"
     },
     {
@@ -532,7 +532,7 @@
         "id": "15300",
         "Name": "NEPAL SBI BANK LIMITED",
         "Location": "HATTISAR,,",
-        "Contact": "014412743,014441780",
+        "Contact1": "014412743","Contact2":"014441780",
         "Email": "sharedpt@nsbl.com.np"
     },
     {
@@ -540,7 +540,7 @@
         "id": "11500",
         "Name": "NEPAL STOCK HOUSE Private Limited",
         "Location": "WARD NO. 29,KALIKASTHAN,",
-        "Contact": "01-4529621,4529631,4536959",
+        "Contact1": "01-4529621", "Contact2": "4529631",
         "Email": "nshplktm@gmail.com"
     },
     {
@@ -548,7 +548,7 @@
         "id": "13700",
         "Name": "NIC ASIA BANK LIMITED",
         "Location": "TRADE TOWER NEPAL,THAPATHALI,Kathmandu",
-        "Contact": "015111179,015111178",
+        "Contact1": "015111179", "Contact2": "015111178",
         "Email": "info@nicasiabank.com"
     },
     {
@@ -556,7 +556,7 @@
         "id": "10200,10600/10200,17300",
         "Name": "NIMB ACE CAPITAL LIMITED",
         "Location": "LAL COLONY MARG,LAL DURBAR,,TRIPURESHWOR, Kathmandu,,",
-        "Contact": "014426161",
+        "Contact1": "014426161","Contact2": "",
         "Email": "info@megacapitalmarkets.com"
     },
     {
@@ -564,7 +564,7 @@
         "id": "11000",
         "Name": "NMB CAPITAL LIMITED",
         "Location": "Baluwatar, Kathmandu",
-        "Contact": "01-5914396, 01-4537963, 01-4537964",
+        "Contact1": "01-5914396", "Contact2": "01-4537963", 
         "Email": "info@nmbcl.com.np"
     },
     {
@@ -572,7 +572,7 @@
         "id": "11800",
         "Name": "ONLINE SECURITIES LIMITED",
         "Location": "PUTALISADAK,Kathmandu,",
-        "Contact": "014168308,014168302",
+        "Contact1": "014168308", "Contact2": "014168302",
         "Email": "onlinesecurities_49@yahoo.com"
     },
     {
@@ -580,7 +580,7 @@
         "id": "21200",
         "Name": "OPAL SECURITIES INVESTMENT PVT. LTD",
         "Location": "Uttardhoka, Kathmandu",
-        "Contact": "01-5970367",
+        "Contact1": "01-5970367", "Contact2": "",
         "Email": "info@opalsecurities.com.np"
     },
     {
@@ -588,7 +588,7 @@
         "id": "17000",
         "Name": "OXFORD SECURITIES PVT. LTD.",
         "Location": "KALIMATI, Kathmandu,,",
-        "Contact": "014273850,",
+        "Contact1": "014273850,", "Contact2": "",
         "Email": "broker_51@yahoo.com"
     },
     {
@@ -596,7 +596,7 @@
         "id": "21300",
         "Name": "PAHI INVESTMENT PVT. LTD",
         "Location": "Gokarneshwor-7, Kathmandu",
-        "Contact": "01-5919714",
+        "Contact1": "01-5919714", "Contact2": "",
         "Email": "pahilinvestment@gmail.com"
     },
     {
@@ -604,7 +604,7 @@
         "id": "13900,16000",
         "Name": "PRABHU BANK LIMITED",
         "Location": "Babarmahal, Kathmandu,BABARMAHAL,Kathmandu,",
-        "Contact": "014788500",
+        "Contact1": "014788500", "Contact2": "",
         "Email": "info@prabhubank.com"
     },
     {
@@ -612,7 +612,7 @@
         "id": "12600",
         "Name": "PRABHU CAPITAL LIMITED",
         "Location": "KAMALADI,Kathmandu,",
-        "Contact": "01-5970200 01-4169100",
+        "Contact1": "01-5970200", "Contact2": " 01-4169100",
         "Email": "info@prabhucapital.com"
     },
     {
@@ -620,7 +620,7 @@
         "id": "14800",
         "Name": "PREMIER SECURITIES COMPANY LIMITED",
         "Location": "NEWPLAZA, PUTALISADAK,Kathmandu,",
-        "Contact": "01 4532832, 4532704, 4532700, 4532705",
+        "Contact1": "01 4532832","Contact2": " 4532704",
         "Email": "premiersecurities@hotmail.com"
     },
     {
@@ -628,7 +628,7 @@
         "id": "15400,16900",
         "Name": "PRIME COMMERCIAL BANK LIMITED",
         "Location": "Kamalpokhari, Kathmandu,KAMALPOKHARI, Kathmandu,,",
-        "Contact": "014423433,014423215",
+        "Contact1": "014423433", "Contact2": "014423215",
         "Email": "info@pcbl.com.np"
     },
     {
