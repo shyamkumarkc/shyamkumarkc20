@@ -4,7 +4,7 @@
         "id": "20600",
         "Name": "AAKASH BHAIRAB SECURITIES LTD",
         "Location": "Jawalakhel, Lalitpur",
-        "Contact": "01-5917830",
+        "Contact1": "01-5917830","Contact2":"",
         "Email": "info@akbsl.com"
     },
     {
@@ -12,7 +12,7 @@
         "id": "19000",
         "Name": "AAKASH CAPITAL LTD.",
         "Location": "Pulchowk, Lalitpur",
-        "Contact": "01-5421787",
+        "Contact1": "01-5421787","Contact2":"",
         "Email": "info@aakashcapital.com;"
     },
     {
@@ -20,7 +20,7 @@
         "id": "13200",
         "Name": "ABC SECURITIES Private Limited",
         "Location": "INDRACHOWK,Kathmandu,",
-        "Contact": "01 5905499,5905490,5905491,590607,5905586",
+        "Contact1": "01 5905499","Contact2":"015905490",
         "Email": "abcsecurities17@gmail.com"
     },
     {
@@ -28,7 +28,7 @@
         "id": "12300",
         "Name": "AGRAWAL SECURITIES Private Limited",
         "Location": "RADHE MARG,DILLIBAZAR,",
-        "Contact": "014424406,014431597",
+        "Contact1": "014424406","Contact2":"014431597",
         "Email": "&nbsp;"
     },
     {
@@ -36,7 +36,7 @@
         "id": "17200",
         "Name": "AGRICULTURAL DEVELOPMENT BANK LIMITED",
         "Location": "RAMSHAHPATH, Kathmandu,,",
-        "Contact": "014251537,014251537",
+        "Contact1": "014251537","Contact2":"014251537",
         "Email": "asba@adbl.gov.np"
     },
     {
@@ -44,15 +44,15 @@
         "id": "21800",
         "Name": "ARUN SECURITIES PVT. LTD",
         "Location": "Gaushala Kathmandu",
-        "Contact": "01-5913750",
+        "Contact1": "01-5913750","Contact2":"",
         "Email": "arunsecurities@gmail.com"
     },
     {
         "SNo": "7",
         "id": "11900",
         "Name": "ARYATARA INVESTMENT AND SECURITIES Private Limited",
-        "Location": "ANAMNAGAR 32,Kathmandu,",
-        "Contact": "015705596,015706297",
+        "Location": "ANAMNAGAR,Kathmandu,",
+        "Contact1": "015705596","Contact2":"015706297",
         "Email": "aryatara57@yahoo.com"
     },
     {
@@ -60,7 +60,7 @@
         "id": "15600",
         "Name": "ASHUTOSH BROKERAGE AND SECURITIES Private Limited",
         "Location": "KHICHAPOKHARI,,",
-        "Contact": "014220276,014220276",
+        "Contact1": "014220276","Contact2":"014220276",
         "Email": "broker8ash@gmail.com"
     },
     {
@@ -68,7 +68,7 @@
         "id": "17500",
         "Name": "ASIAN CAPITAL LIMITED",
         "Location": "MAITIDEVI COMPLEX , Kathmandu,",
-        "Contact": "014418664,014418664",
+        "Contact1": "014418664","Contact2":"014418664",
         "Email": "asiancapitalltd@gmail.com"
     },
     {
@@ -76,7 +76,7 @@
         "id": "14700",
         "Name": "ASIAN SECURITIES Private Limited",
         "Location": "PUTALISADAK,Kathmandu,",
-        "Contact": "014424351,014424485",
+        "Contact1": "014424351","Contact2":"014424485",
         "Email": "asiansecurities26@gmail.com"
     },
     {
@@ -84,7 +84,7 @@
         "id": "19100",
         "Name": "BHOLE GANESH SECURITIES LIMITED.",
         "Location": "ANAMNAGAR -29",
-        "Contact": "015970494",
+        "Contact1": "015970494","Contact2":"",
         "Email": "info@bholeganesh.com"
     },
     {
@@ -92,7 +92,7 @@
         "id": "15000",
         "Name": "BHRIKUTI STOCK BROKING COMPANY Private Limited",
         "Location": "NEWROAD,Kathmandu,",
-        "Contact": "014223466,",
+        "Contact1": "014223466","Contact2":"",
         "Email": "rajibnepal@gmail.com"
     },
     {
@@ -100,7 +100,7 @@
         "id": "20700",
         "Name": "BLUE CHIP SECURITIES LTD",
         "Location": "Maharajganj, Kathmandu",
-        "Contact": "01-5919326",
+        "Contact1": "01-5919326","Contact2":"",
         "Email": "contact@bluechip88.com"
     },
     {
@@ -108,7 +108,7 @@
         "id": "20900",
         "Name": "CAPITAL HUB Private Limited",
         "Location": "Anamnagar, Kathmandu",
-        "Contact": "01-5914728",
+        "Contact1": "01-5914728","Contact2":"",
         "Email": "capitalhub2080@gmail.com"
     },
     {
