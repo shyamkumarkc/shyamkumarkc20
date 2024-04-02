@@ -36,7 +36,10 @@
         "id": "17200",
         "Name": "AGRICULTURAL DEVELOPMENT BANK LIMITED",
         "Location": "RAMSHAHPATH, Kathmandu",
-        "Contact1": "014251537","Contact2":"014251537",
+        "Contact1": "014251537","Contact2":"01-4263387",
+		"Website": "www.adbl.gov.np",
+	"links": "https://shyamkumarkc20.com.np/adbl.html",
+	  "IMG": "https://shyamkumarkc20.com.np/logo/adbl.jpg",
         "Email": "asba@adbl.gov.np"
     },
     {
@@ -125,15 +128,17 @@
         "Name": "CITIZENS BANK INTERNATIONAL LIMITED",
         "Location": "NARAYANHITY PATH",
         "Contact1": "014427842","Contact2":"014427843",
+		"Website": "www.ctznbank.com",
+	  "IMG": "https://shyamkumarkc20.com.np/logo/czbil.jpeg",
         "Email": "info@ctznbank.com"
     },
     {
         "SNo": "17",
-        "id": "10100",
-        "Name": "CIVIL CAPITAL MARKET LIMITED",
-        "Location": "CTC MALL,SUNDHARA",
-        "Contact1": "014262303","Contact2":"014261251",
-        "Email": "ccm@civilcapital.com.np"
+         "id": "13500",
+        "Name": "VISION SECURITIES Private Limited",
+        "Location": "ANAMNAGAR",
+        "Contact1": "014770452", "Contact2": "014770425",
+        "Email": "visionsecurities@hotmail.com"
     },
     {
         "SNo": "18",
@@ -202,9 +207,12 @@
     {
         "SNo": "26",
         "id": "10800",
-        "Name": "EVEREST BANK LTD.",
-        "Location": "Lazimpat",
-        "Contact1": "014443377","Contact2":"",
+        "Name": "EVEREST BANK Limited",
+        "Location": "Lazimpat, Kathmandu",
+        "Contact1": "014443377",
+		"Contact2":"",
+		"Website": "www.everestbankltd.com",
+	  "IMG": "https://shyamkumarkc20.com.np/logo/ebl.png",
         "Email": "ebl@mos.com.np"
     },
     {
@@ -228,7 +236,10 @@
         "id": "12200 , 11100",
         "Name": "GLOBAL IME BANK LIMITED",
         "Location": "KAMALADI, Kathmandu",
-        "Contact1": "014228671","Contact2":" 014226247",
+        "Contact1": "014228671",
+		"Contact2":" 014226247",
+		"Website": "www.globalimebank.com",
+	  "IMG": "https://shyamkumarkc20.com.np/logo/gbime.png",
         "Email": "info@gibl.com.np"
     },
     {
@@ -273,7 +284,7 @@
     },
     {
         "SNo": "35",
-        "id": "17700",
+        "id": "17700, 10100",
         "Name": "HIMALAYAN CAPITAL LIMITED",
         "Location": "THAMEL,Kathmandu",
         "Contact1": "014258345","Contact2":"014263147",
@@ -372,7 +383,10 @@
         "id": "15200,16300",
         "Name": "KUMARI BANK LIMITED",
         "Location": "NAXAL,Kathmandu",
-        "Contact1": "01-59970082","Contact2":"",
+        "Contact1": "01-59970082",
+		"Contact2":"",
+		"Website": "www.kumaribank.com",
+	  "IMG": "https://shyamkumarkc20.com.np/logo/kbl.png",
         "Email": "dp@kumaricapital.com"
     },
     {
@@ -396,7 +410,10 @@
         "id": "16100",
         "Name": "MACHHAPUCHCHHRE BANK LIMITED",
         "Location": "LAZIMPAT",
-        "Contact1": "014428556","Contact2":"014428556",
+        "Contact1": "014428556",
+		"Contact2":"014428556",
+		"Website": "www.machbank.com",
+	  "IMG": "https://shyamkumarkc20.com.np/logo/mbl.png",
         "Email": "machbank@mbl.com.np"
     },
     {
@@ -484,7 +501,10 @@
         "id": "15100 , 16800",
         "Name": "NABIL BANK LIMITED",
         "Location": "DURBARMARG, Kathmandu",
-        "Contact1": "014233780","Contact2":"014233781",
+        "Contact1": "014233780",
+		"Contact2":"014233781", 
+		"IMG": "https://shyamkumarkc20.com.np/logo/nabil.png",
+	"Website": "www.nabilbank.com",
         "Email": "info@nabilbank.com"
     },
     {
@@ -508,7 +528,11 @@
         "id": "15700",
         "Name": "NEPAL BANK LIMITED",
         "Location": "DHARMAPATH",
-        "Contact1": "01-5971222", "Contact2":" 01-5971183", 
+        "Contact1": "01-5971222", 
+		"Contact2":" 01-5971183",
+		"Website": "www.nepalbank.com.np",
+	"links": "https://shyamkumarkc20.com.np/nepalbank.html",
+	"IMG": "https://shyamkumarkc20.com.np/logo/nbl.jpg", 
         "Email": "nblshareunit@nbl.com.np"
     },
     {
@@ -532,7 +556,10 @@
         "id": "15300",
         "Name": "NEPAL SBI BANK LIMITED",
         "Location": "HATTISAR",
-        "Contact1": "014412743","Contact2":"014441780",
+        "Contact1": "014412743",
+		"Contact2":"014441780",
+		"Website": "nsbl.statebank",
+	  "IMG": "https://shyamkumarkc20.com.np/logo/sbi.png",
         "Email": "sharedpt@nsbl.com.np"
     },
     {
@@ -549,6 +576,8 @@
         "Name": "NIC ASIA BANK LIMITED",
         "Location": "THAPATHALI,Kathmandu",
         "Contact1": "015111179", "Contact2": "015111178",
+		"Website": "www.nicasiabank.com",
+	  "IMG": "https://shyamkumarkc20.com.np/logo/nica.png",
         "Email": "info@nicasiabank.com"
     },
     {
@@ -604,7 +633,10 @@
         "id": "13900,16000",
         "Name": "PRABHU BANK LIMITED",
         "Location": "Babarmahal, Kathmandu",
-        "Contact1": "014788500", "Contact2": "",
+        "Contact1": "014788500",
+		"Contact2": "",
+		"Website": "www.prabhubank.com" ,
+	  "IMG": "https://shyamkumarkc20.com.np/logo/prvu.png",
         "Email": "info@prabhubank.com"
     },
     {
@@ -870,13 +902,5 @@
         "Location": "NEWPLAZA, Kathmandu",
         "Contact1": "014440709", "Contact2": "014440709",
         "Email": "broker.trisul@gmail.com"
-    },
-    {
-        "SNo": "110",
-        "id": "13500",
-        "Name": "VISION SECURITIES Private Limited",
-        "Location": "ANAMNAGAR",
-        "Contact1": "014770452", "Contact2": "014770425",
-        "Email": "visionsecurities@hotmail.com"
     }
 ]
