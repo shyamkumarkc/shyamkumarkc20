@@ -636,7 +636,7 @@
         "id": "12800",
         "Name": "PRIMO SECURITIES Private Limited",
         "Location": "SHANKER DEV MARG,PUTALISADAK,",
-        "Contact": "014168175,014168164",
+        "Contact1": "014168175","Contact2": "014168164",
         "Email": "primo.securities@gmail.com"
     },
     {
@@ -644,7 +644,7 @@
         "id": "18600",
         "Name": "PROGRESSIVE FINANCE LTD",
         "Location": "Tinkune, Kathmandu",
-        "Contact": "01-5199664 01-5199665",
+        "Contact1": "01-5199664", "Contact2": "01-5199665",
         "Email": "info@pfltd.com.np"
     },
     {
@@ -652,7 +652,7 @@
         "id": "19400",
         "Name": "PROPERTY WIZARD LIMITED",
         "Location": "NAGPOKHARI, NAXAL,Kathmandu",
-        "Contact": "015918915",
+        "Contact1": "015918915","Contact2": "",
         "Email": "propertywizardcompany@gmail.com"
     },
     {
@@ -820,7 +820,7 @@
         "id": "21000",
         "Name": "STOXKARTS SECURITIES Private Limited",
         "Location": "Dillibazzar, Kathmandu",
-        "Contact1": "01-5919359", "Contact2": ",
+        "Contact1": "01-5919359", "Contact2": "",
         "Email": "stoxkartssecuritiesltd@gmail.com"
     },
     {
