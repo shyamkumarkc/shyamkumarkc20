@@ -8,8 +8,8 @@ $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
 
 if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
     $attachments = array($target_file);
-    $headers = "From: your_email@example.com\r\n";
-    $headers .= "Reply-To: your_email@example.com\r\n";
+    $headers = "From: kcshyamkumar20@gmail.com\r\n";
+    $headers .= "Reply-To: kcshyamkumar20@gmail.com\r\n";
     $headers .= "Content-Type: multipart/mixed; boundary=\"PHP-mixed-".$random_hash."\"\r\n";
     $headers .= "X-Mailer: PHP/" . phpversion();
 
