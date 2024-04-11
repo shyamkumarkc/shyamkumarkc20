@@ -1,0 +1,111 @@
+[
+    {
+        "SNo": "1",
+        "Name": "Tribhuvan University",
+        "OD": "2016 BS",
+        "HO": "Kritipur, Kathmandu",
+		"IMG": "https://shyamkumarkc20.com.np/logo/jpg",
+		"Email": "",
+		"Contact" : "",
+		"Website": ""
+    },
+    {
+        "SNo": "2",
+        "Name": "Nepal Saskrit Biswobidhyalaya",
+        "OD": "2043 BS",
+        "HO": "Beljhundi, Dang",
+		"Email": "",
+		"Contact" : "",
+		"Website": ""
+    },
+    {
+        "SNo": "3",
+        "Name": "Kathmandu University",
+        "OD": "2048 BS",
+        "HO": "Dhulikhel, Kavre",
+		"IMG": "https://shyamkumarkc20.com.np/logo/jpg",
+		"Email": "",
+		"Contact" : "",
+		"Website": ""
+    },
+    {
+        "SNo": "4",
+        "Name": "Purbanchal University",
+        "OD": "2050 BS",
+        "HO": "Morang, Biratnagar",
+		"IMG": "https://shyamkumarkc20.com.np/logo/jpg",
+		"Email": "",
+		"Contact" : "",
+		"Website": ""
+    },
+    {
+        "SNo": "5",
+        "Name": "Pokhara University",
+        "OD": "2055 BS",
+        "HO": "Lekhnath, Kaski",
+		"IMG": "https://shyamkumarkc20.com.np/logo/jpg",
+		"Email": "",
+		"Contact" : "",
+		"Website": ""
+    },
+    {
+        "SNo": "6",
+        "Name": "Lumbini University",
+        "OD": "2061 BS",
+        "HO": "Rupendehi",
+		"IMG": "https://shyamkumarkc20.com.np/logo/jpg",
+		"Email": "",
+		"Contact" : "",
+		"Website": ""
+    },
+    {
+        "SNo": "7",
+        "Name": "SudurPaschimanchal Universtiy",
+        "OD": "2067 BS",
+        "HO": "Mahendranagar",
+		"IMG": "https://shyamkumarkc20.com.np/logo/jpg",
+		"Email": "",
+		"Contact" : "",
+		"Website": ""
+    },
+    {
+        "SNo": "8",
+        "Name": "MadhyaPaschim University",
+        "OD": "2067 BS",
+        "HO": "Surkhet",
+		"IMG": "https://shyamkumarkc20.com.np/logo/jpg",
+		"Email": "",
+		"Contact" : "",
+		"Website": ""
+    },
+    {
+        "SNo": "9",
+        "Name": "Krishi Tatha Ban Bishwobidhyalaya",
+        "OD": "2067 BS",
+        "HO": "Rampur, Chitwan",
+		"IMG": "https://shyamkumarkc20.com.np/logo/jpg",
+		"Email": "",
+		"Contact" : "",
+		"Website": ""
+    },
+    {
+        "SNo": "10",
+        "Name": "Nepal Khulla Bishwobidhyalaya",
+        "OD": "2073 BS",
+        "HO": "Manbhawan, Lalitpur",
+		"IMG": "https://shyamkumarkc20.com.np/logo/jpg",
+		"Email": "",
+		"Contact" : "",
+		"Website": ""
+    },
+    {
+        "SNo": "11",
+        "Name": "Rajsri Janak Bishwobidhyalaya",
+        "OD": "2074 BS",
+        "HO": "Janakpur",
+		"IMG": "https://shyamkumarkc20.com.np/logo/jpg",
+		"Email": "",
+		"Contact" : "",
+		"Website": ""
+    }
+]
