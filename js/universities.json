@@ -14,8 +14,9 @@
         "Name": "Nepal Saskrit Biswobidhyalaya",
         "OD": "2043 BS",
         "HO": "Beljhundi, Dang",
-		"Email": "",
-		"Contact" : "",
+		"Email": "info@nsu.edu.np",
+		"Contact" : "082-400081",
+		"IMG": "https://shyamkumarkc20.com.np/logo/nsu.png",
 		"Website": "nsu.edu.np/"
     },
     {
@@ -23,10 +24,10 @@
         "Name": "Kathmandu University",
         "OD": "2048 BS",
         "HO": "Dhulikhel, Kavre",
-		"IMG": "https://shyamkumarkc20.com.np/logo/jpg",
-		"Email": "",
-		"Contact" : "",
-		"Website": ""
+		"IMG": "https://shyamkumarkc20.com.np/logo/ku.png",
+		"Email": "info@ku.edu.np",
+		"Contact" : "011-415100",
+		"Website": "www.ku.edu.np/"
     },
     {
         "SNo": "4",
