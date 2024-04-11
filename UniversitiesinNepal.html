@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>SHYAM KUMAR K.C.</title>
+<title>Universities in Nepal</title>
 <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
 </script>
@@ -16,83 +16,72 @@ $('#header').load('/assets/header.html');
 <div id ="header"></div>
 <h2 style="text-align: left;">
 list of universities in Nepal</h2>
-<table border="1">
-<tbody>
+<style>
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+</style>
+<table border="black" >
+<thead>
 <tr>
-<th>S No.</th>
+<th>S.No.</th>
 <th>University Name</th>
-<th>Establishment Date</th>
-<th>Head Office</th>
+	<th>University<br/>Logo</th>
+<th>Operation<br/>Date</th>
+<th>Head<br/>Office</th>	
+<th>Contact<br/>Number</th>	
+	<th>Email<br/>Address</th>
+
 </tr>
-<tr>
-<td>1</td>
-<td>Tribhuvan University</td>
-<td>2016 BS</td>
-<td>Kritipur, Kathmandu</td>
-</tr>
-<tr>
-<td>2</td>
-<td>Nepal Saskrit Biswobidhyalaya</td>
-<td>2043 BS</td>
-<td>Beljhundi, Dang</td>
-</tr>
-<tr>
-<td>3</td>
-<td>Kathmandu University</td>
-<td>2048 BS</td>
-<td>Dhulikhel, Kavre</td>
-</tr>
-<tr>
-<td>4</td>
-<td>Purbanchal University</td>
-<td>2050 BS</td>
-<td>Morang, Biratnagar</td>
-</tr>
-<tr>
-<td>5</td>
-<td>Pokhara University</td>
-<td>2055 BS</td>
-<td>Lekhnath, Kaski</td>
-</tr>
-<tr>
-<td>6</td>
-<td>Lumbini University</td>
-<td>2061 BS</td>
-<td>Rupendehi</td>
-</tr>
-<tr>
-<td>7</td>
-<td>SudurPaschimanchal Universtiy</td>
-<td>2067 BS</td>
-<td>Mahendranagar</td>
-</tr>
-<tr>
-<td>8</td>
-<td>MadhyaPaschim University</td>
-<td>2067 BS</td>
-<td>Surkhet</td>
-</tr>
-<tr>
-<td>9</td>
-<td>Krishi Tatha Ban Bishwobidhyalaya</td>
-<td>2067 BS</td>
-<td>Rampur, Chitwan</td>
-</tr>
-<tr>
-<td>10</td>
-<td>Nepal Khulla Bishwobidhyalaya</td>
-<td>2073 BS</td>
-<td>Manbhawan, Lalitpur</td>
-</tr>
-<tr>
-<td>11</td>
-<td>Rajsri Janak Bishwobidhyalaya</td>
-<td>2074 BS</td>
-<td>Janakpur</td>
-</tr>
-</tbody>
-</table>
-<script>
+</thead>
+
+      <tbody id="data-output">
+         <!-- Prodcuts from javascript file in here. -->
+      </tbody>
+   </table>
+ 
+   <script>
+   fetch("https://shyamkumarkc20.com.np/js/universities.json")
+.then(function(response){
+   return response.json();
+})
+.then(function(products){
+   let placeholder = document.querySelector("#data-output");
+   let out = "";
+   for(let product of products){
+      out += `
+         <tr>
+            
+            <td>${product.SNo}</td>
+             <td><a href ="https://${product.Website}"target="blank">${product.Name}</a></td>
+	    <td><img src="${product.IMG}" width="120" height="100" ></td>
+			<td>${product.OD}</td>
+			<td>${product.HO}</td>
+		
+
+ 			  <td><a href="tel:${product.Contact}">${product.Contact}</a></td>
+      <td><a href="mailto:${product.Email}">${product.Email}</a></td>
+           
+            
+         </tr>
+      `;
+   }
+ 
+   placeholder.innerHTML = out;
+}); 
+
 $(function(){
 $('#footer').load('/assets/footer.html');
 });
