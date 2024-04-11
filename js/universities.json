@@ -44,7 +44,7 @@
         "Name": "Pokhara University",
         "OD": "2055 BS",
         "HO": "Lekhnath, Kaski",
-		"IMG": "https://shyamkumarkc20.com.np/logo/jpg",
+		"IMG": "https://shyamkumarkc20.com.np/logo/pu.png",
 		"Email": "info@pu.edu.np",
 		"Contact" : "061-504046",
 		"Website": "pu.edu.np/"
@@ -54,20 +54,20 @@
         "Name": "Lumbini University",
         "OD": "2061 BS",
         "HO": "Rupendehi",
-		"IMG": "https://shyamkumarkc20.com.np/logo/jpg",
-		"Email": "",
-		"Contact" : "",
-		"Website": ""
+		"IMG": "https://shyamkumarkc20.com.np/logo/lbu.jpg",
+		"Email": "info@lbu.edu.np",
+		"Contact" : "071-404018",
+		"Website": "lbu.edu.np/"
     },
     {
         "SNo": "7",
         "Name": "SudurPaschimanchal Universtiy",
         "OD": "2067 BS",
         "HO": "Mahendranagar",
-		"IMG": "https://shyamkumarkc20.com.np/logo/jpg",
-		"Email": "",
-		"Contact" : "",
-		"Website": ""
+		"IMG": "https://shyamkumarkc20.com.np/logo/fwu.png",
+		"Email": "info@fwu.edu.np",
+		"Contact" : "099-520729",
+		"Website": "www.fwu.edu.np/"
     },
     {
         "SNo": "8",
