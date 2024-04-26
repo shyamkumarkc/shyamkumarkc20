@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Age Estimation</title>
+<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+</script>
+<script>
+$(function(){
+$('#header').load('/assets/header.html');
+});
+</script>
+
+</head>
+<body>
+<div id ="header"></div>
+    
+    <style>
+        /* CSS styles for the input form */
+        .input-form {
+            margin: 10px 0;
+			
+        }
+		.button {
+            margin: 10px 0;
+			 text-size: 50px;
+			  border: 2px solid #4CAF50;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+			width: 150px;
+			height: 50px;
+        }
+		
+		.test { background-color: #f0f0f0;
+            margin: 10px 0; border: 2px solid #4CAF50;
+			 padding: 10px;
+			 text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+			width: 200px;
+        }
+        /* CSS styles for the result box */
+        .result-box {
+            border: 2px solid #4CAF50;
+            border-radius: 10px;
+            padding: 20px;
+            background-color: #f0f0f0;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <h3>Predict Age By Your Name</h3>
+
+    <form class="input-form" onsubmit="getAge(); return false;">
+        <label for="name">Enter your name:</label><br>
+        <input class="test"  type="text" id="name" name="name"><br><br>
+        <button class= "button" type="submit" ><b>Predict Age</b></button>
+    </form>
+
+    <div class="result-box" id="age-result">
+        <p id="age-info">Enter your name above to get age estimation.</p>
+    </div>
+
+    <script>
+        function getAge() {
+            var name = document.getElementById("name").value;
+
+            if (name.trim() === "") {
+                document.getElementById("age-info").innerText = "Please enter a valid name.";
+                return;
+            }
+
+            var apiUrl = "https://api.agify.io?name=" + encodeURIComponent(name);
+
+            fetch(apiUrl)
+                .then(response => response.json())
+                .then(data => {
+                    var age = data.age;
+                    var count = data.count;
+
+                    if (age) {
+                        document.getElementById("age-info").innerText = "Estimated age for '" + name + "' is " + age + " years old";
+                    } else {
+                        document.getElementById("age-info").innerText = "No data found for '" + name + "'.";
+                    }
+                })
+                .catch(error => {
+                    console.error("Error fetching age:", error);
+                    document.getElementById("age-info").innerText = "Failed to fetch age data. Please try again later.";
+                });
+        }
+    </script>
+<script>
+$(function(){
+$('#footer').load('/assets/footer.html');
+});
+</script>
+
+
+  <div id ="footer"></div>
+</body>
+</html>
