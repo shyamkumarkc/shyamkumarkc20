@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>IP Address</title>
+<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+</script>
+<script>
+$(function(){
+$('#header').load('/assets/header.html');
+});
+</script>
+
+</head>
+<body>
+<div id ="header"></div>
+    
+    <style>
+        /* CSS styles for the container */
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        /* CSS styles for the IP address display */
+        #ip-address {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        /* CSS styles for the refresh button */
+        #refresh-button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* CSS styles for the refresh button on hover */
+        #refresh-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Your IP Address</h2>
+
+        <p id="ip-address">Fetching IP address...</p>
+
+        
+    </div>
+
+    <script>
+        function fetchIpAddress() {
+            fetch("https://api.ipify.org/?format=json")
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById("ip-address").innerText = "Your public IP address is: " + data.ip;
+                })
+                .catch(error => {
+                    console.error("Error fetching IP address:", error);
+                    document.getElementById("ip-address").innerText = "Failed to fetch IP address. Please try again later.";
+                });
+        }
+
+        // Fetch the IP address when the page loads
+        fetchIpAddress();
+    </script>
+	<script>
+$(function(){
+$('#footer').load('/assets/footer.html');
+});
+</script>
+
+</body>
+  <div id ="footer"></div>
+</html>
