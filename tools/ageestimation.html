@@ -73,15 +73,15 @@ $('#header').load('/assets/header.html');
 <div class="container">
     <h3>Predict Age By Your Name</h3>
 
-    <form class="input-form" onsubmit="getAge(); return false;">
-        <label for="name">Enter your name:</label><br>
-        <input class="test"  type="text" id="name" name="name"><br><br>
-        <button class= "button" type="submit" ><b>Predict Age</b></button><br>
-		<button type="button" class="clear-button" onclick="clearFields()">Clear</button>
-      
-    </form>
+   
+        <form class="input-form" onsubmit="getAgeAndGender(); return false;">
+            <label for="name">Enter your name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <button type="submit">Predict</button><br><br>
+            <button type="button" class="clear-button" onclick="clearFields()">Clear</button>
+        </form>
 
-     <div class="result-box" id="result">
+        <div class="result-box" id="result">
             <p id="info">Enter your name above to get age and gender estimation.</p>
         </div>
     </div>
