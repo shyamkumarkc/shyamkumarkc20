@@ -74,69 +74,43 @@ $('#header').load('/assets/header.html');
     <h3>Predict Age By Your Name</h3>
 
    
-        <form class="input-form" onsubmit="getAgeAndGender(); return false;">
-            <label for="name">Enter your name:</label><br>
-            <input class= "test" type="text" id="name" name="name"><br><br>
-            <button class ="button" type="submit">Predict</button><br><br>
-            <button type="button" class="clear-button" onclick="clearFields()">Clear</button>
-        </form>
-
-        <div class="result-box" id="result">
-            <p id="info">Enter your name above to get age and gender estimation.</p>
+        div class="result-box" id="age-result">
+            <p id="age-info">Enter your name above to get age estimation.</p>
         </div>
     </div>
 
     <script>
-        function getAgeAndGender() {
+        function getAge() {
             var name = document.getElementById("name").value;
 
             if (name.trim() === "") {
-                document.getElementById("info").innerText = "Please enter a valid name.";
+                document.getElementById("age-info").innerText = "Please enter a valid name.";
                 return;
             }
 
-            var ageApiUrl = "https://api.agify.io?name=" + encodeURIComponent(name);
-            var genderApiUrl = "https://api.genderize.io/?name=" + encodeURIComponent(name);
+            var apiUrl = "https://api.agify.io?name=" + encodeURIComponent(name);
 
-            fetch(ageApiUrl)
+            fetch(apiUrl)
                 .then(response => response.json())
-                .then(ageData => {
-                    var age = ageData.age;
-                    var count = ageData.count;
+                .then(data => {
+                    var age = data.age;
+                    var count = data.count;
 
-                    fetch(genderApiUrl)
-                        .then(response => response.json())
-                        .then(genderData => {
-                            var gender = genderData.gender;
-                            var probability = genderData.probability * 100;
-
-                            var info = "Name: " + name + "\n";
-                            if (age) {
-                                info += "Estimated age: " + age + " years old ";
-                            } else {
-                                info += "No age data found for this name.\n";
-                            }
-                            if (gender) {
-                                info += "Estimated gender: " + gender + " (Probability: " + probability.toFixed(2) + "%)\n";
-                            } else {
-                                info += "No gender data found for this name.\n";
-                            }
-                            document.getElementById("info").innerText = info;
-                        })
-                        .catch(error => {
-                            console.error("Error fetching gender:", error);
-                            document.getElementById("info").innerText = "Failed to fetch gender data. Please try again later.";
-                        });
+                    if (age) {
+                        document.getElementById("age-info").innerText = "Estimated age for '" + name + "' is " + age + " years old based on " + count + " records.";
+                    } else {
+                        document.getElementById("age-info").innerText = "No data found for '" + name + "'.";
+                    }
                 })
                 .catch(error => {
                     console.error("Error fetching age:", error);
-                    document.getElementById("info").innerText = "Failed to fetch age data. Please try again later.";
+                    document.getElementById("age-info").innerText = "Failed to fetch age data. Please try again later.";
                 });
         }
 
         function clearFields() {
             document.getElementById("name").value = "";
-            document.getElementById("info").innerText = "Enter your name above to get age and gender estimation.";
+            document.getElementById("age-info").innerText = "Enter your name above to get age estimation.";
         }
     </script>
 <script>
