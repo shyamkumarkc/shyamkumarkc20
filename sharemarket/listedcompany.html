@@ -32,49 +32,72 @@ tr:nth-child(even) {
 }
 </style>
 	
-<table border="black">
-      <thead>
-         <tr>
-            <th>S No</th>
-			            <th>Company Name</th>
-            <th>Nepse Code</th>
-            <th>Sector</th>
-			
-            
-         </tr>
-      </thead>
-      <tbody id="data-output">
-         <!-- Prodcuts from javascript file in here. -->
-      </tbody>
-   </table>
- 
-   <script>
-   fetch("https://shyamkumarkc20.com.np/js/listedcompany.json")
-.then(function(response){
-   return response.json();
-})
-.then(function(products){
-   let placeholder = document.querySelector("#data-output");
-   let out = "";
-   for(let product of products){
-      out += `
-         <tr>
-            
-            <td>${product.SN}</td>
-			
-            <td>${product.Name}</td>
-			<td>${product.Symbol}</td>
-			<td>${product.Sector}</td>
-			 
-            
-         </tr>
-      `;
-   }
-   
- 
-   placeholder.innerHTML = out;
-});
-   </script>
+<label for="sectorFilter">Select Sector:</label>
+    <select id="sectorFilter" onchange="filterBySector()">
+        <option value="">Sectors</option>
+    </select>
+
+    <table id="companyTable">
+        <thead>
+            <tr>
+                <th>Symbol</th>
+                <th>Name</th>
+                <th>Sector</th>
+				
+            </tr>
+        </thead>
+        <tbody id="companyTableBody">
+            <!-- Table content will be populated dynamically -->
+        </tbody>
+    </table>
+
+    <script>
+        // Fetch JSON data
+        fetch('https://shyamkumarkc20.com.np/js/listedcompany.json')
+            .then(response => response.json())
+            .then(data => {
+                const sectorFilter = document.getElementById('sectorFilter');
+                const companyTableBody = document.getElementById('companyTableBody');
+                const sectors = new Set();
+
+                // Populate table and gather unique sectors
+                data.forEach(company => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td>${company['Symbol']}</td>
+                        <td>${company['Name']}</td>
+                        <td>${company['Sector']}</td>
+						
+                    `;
+                    companyTableBody.appendChild(row);
+                    sectors.add(company['Sector']);
+                });
+
+                // Populate sector filter options
+                sectors.forEach(sector => {
+                    const option = document.createElement('option');
+                    option.value = sector;
+                    option.textContent = sector;
+                    sectorFilter.appendChild(option);
+                });
+            })
+            .catch(error => console.error('Error fetching data:', error));
+
+        // Function to filter companies by sector
+        function filterBySector() {
+            const sectorFilter = document.getElementById('sectorFilter').value;
+            const rows = document.querySelectorAll('#companyTableBody tr');
+
+            rows.forEach(row => {
+                const sector = row.children[2].textContent;
+                if (sectorFilter === '' || sector === sectorFilter) {
+                    row.style.display = '';
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+        }
+    </script>
    <script>
 $(function(){
 $('#footer').load('/assets/footer.html');
