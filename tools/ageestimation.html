@@ -16,6 +16,13 @@ $('#header').load('/assets/header.html');
 <div id ="header"></div>
     
     <style>
+	.container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
         /* CSS styles for the input form */
         .input-form {
             margin: 10px 0;
@@ -50,6 +57,7 @@ $('#header').load('/assets/header.html');
     </style>
 </head>
 <body>
+<div class="container">
     <h3>Predict Age By Your Name</h3>
 
     <form class="input-form" onsubmit="getAge(); return false;">
@@ -61,7 +69,7 @@ $('#header').load('/assets/header.html');
     <div class="result-box" id="age-result">
         <p id="age-info">Enter your name above to get age estimation.</p>
     </div>
-
+</div>
     <script>
         function getAge() {
             var name = document.getElementById("name").value;
