@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Current Bitcoin Price</title>
+<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+</script>
+<script>
+$(function(){
+$('#header').load('/assets/header.html');
+});
+</script>
+
+</head>
+<body>
+<div id ="header"></div>
+    
+    <style>
+        /* CSS styles for the Bitcoin price boxes */
+        .bitcoin-price-box {
+            border: 2px solid #4CAF50;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            background-color: #f0f0f0;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Current Bitcoin Price</h1>
+    
+    <div class="bitcoin-price-box" id="usd-box">
+        <p id="bitcoin-price-usd">Loading Data...</p>
+        
+    </div>
+    
+    <div class="bitcoin-price-box" id="gbp-box">
+        <p id="bitcoin-price-gbp">Loading Data...</p>
+        <p id="last-updated-gbp"></p>
+    </div>
+    
+    <div class="bitcoin-price-box" id="eur-box">
+        <p id="bitcoin-price-eur">Loading Data...</p>
+        <p id="last-updated-eur"></p>
+    </div>
+	<div> <p id="last-updated-usd"></p>
+	</div>
+
+    <script>
+        // Function to fetch the current Bitcoin prices from the CoinDesk API
+        function fetchBitcoinPrices() {
+            // API endpoint
+            var url = "https://api.coindesk.com/v1/bpi/currentprice.json";
+
+            // Sending GET request to the API
+            fetch(url)
+                .then(response => response.json())
+                .then(data => {
+                    // Extracting the Bitcoin prices from the response JSON
+                    var bitcoinPriceUSD = data.bpi.USD.rate;
+                    var bitcoinPriceGBP = data.bpi.GBP.rate;
+                    var bitcoinPriceEUR = data.bpi.EUR.rate;
+                    var lastUpdatedTime = data.time.updated;
+
+                    // Displaying the Bitcoin prices in USD, GBP, and EUR on the webpage
+                    document.getElementById("bitcoin-price-usd").innerText = "USD: $" + bitcoinPriceUSD;
+                    document.getElementById("bitcoin-price-gbp").innerText = "GBP: £" + bitcoinPriceGBP;
+                    document.getElementById("bitcoin-price-eur").innerText = "EUR: €" + bitcoinPriceEUR;
+
+                    // Displaying the last updated time for each currency
+                    document.getElementById("last-updated-usd").innerText = "Last Updated: " + lastUpdatedTime;
+                   
+                })
+                .catch(error => {
+                    // Displaying an error message if fetching fails
+                    document.getElementById("bitcoin-price-usd").innerText = "Failed to fetch Bitcoin price in USD";
+                    document.getElementById("bitcoin-price-gbp").innerText = "Failed to fetch Bitcoin price in GBP";
+                    document.getElementById("bitcoin-price-eur").innerText = "Failed to fetch Bitcoin price in EUR";
+                    console.error("Error fetching Bitcoin prices:", error);
+                });
+        }
+
+        // Call the fetchBitcoinPrices function when the page loads
+        fetchBitcoinPrices();
+    </script><script>
+$(function(){
+$('#footer').load('/assets/footer.html');
+});
+</script>
+
+
+  <div id ="footer"></div>
+</body>
+</html>
