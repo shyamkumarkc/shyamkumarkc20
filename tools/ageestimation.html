@@ -73,7 +73,13 @@ $('#header').load('/assets/header.html');
 <div class="container">
     <h3>Predict Age By Your Name</h3>
 
-   
+   <form class="input-form" onsubmit="getAge(); return false;">
+            <label for="name">Enter your name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <button type="submit">Get Age</button>
+            <button type="button" class="clear-button" onclick="clearFields()">Clear</button>
+        </form>
+
         <div class="result-box" id="age-result">
             <p id="age-info">Enter your name above to get age estimation.</p>
         </div>
@@ -113,7 +119,6 @@ $('#header').load('/assets/header.html');
             document.getElementById("age-info").innerText = "Enter your name above to get age estimation.";
         }
     </script>
-<script>
 $(function(){
 $('#footer').load('/assets/footer.html');
 });
