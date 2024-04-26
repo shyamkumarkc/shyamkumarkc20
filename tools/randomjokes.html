@@ -17,7 +17,7 @@ $('#header').load('/assets/header.html');
 
    
     <style>
-        body {
+        .container {
             font-family: Arial, sans-serif;
             display: flex;
             justify-content: center;
@@ -56,14 +56,15 @@ $('#header').load('/assets/header.html');
         }
     </style>
 </head>
-<body>
+<body> 
+   <div class=container">
 <h2>Random Jokes</p>
     <div class="joke-box" id="jokeBox">
         <p class="joke-text" id="jokeSetup">Loading joke...</p> <br/><br/>
         <p class="joke-text" id="jokePunchline"></p>
         <button class="refresh-btn" onclick="getJoke()">Refresh</button>
     </div>
-
+  </div>
     <script>
         function getJoke() {
             fetch('https://official-joke-api.appspot.com/random_joke')
