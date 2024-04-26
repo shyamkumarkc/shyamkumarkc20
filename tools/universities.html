@@ -5,21 +5,19 @@
 <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
 </script>
-<script>
-$(function(){
-$('#header').load('/assets/header.html');
-});
-</script>
 
 </head>
+<body>
 
-<div id ="header"></div><body>
     
     <style>
         body {
+            font-family: Arial, sans-serif;
             display: flex;
             justify-content: center;
-            align-items: center; 
+            align-items: center;
+            
+            background-color: #f0f0f0;
         }
         .container {
             max-width: 500px;
@@ -116,11 +114,8 @@ $('#header').load('/assets/header.html');
                 })
                 .catch(error => console.error('Error fetching universities:', error));
         });
-    </script></body><script>$(function(){
-$('#footer').load('/assets/footer.html');
-});
-</script>
+    </script>
 
-
-  <div id ="footer"></div>
+</body>
+  
 </html>
