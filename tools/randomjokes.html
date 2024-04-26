@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Random Jokes</title>
+<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+</script>
+<script>
+$(function(){
+$('#header').load('/assets/header.html');
+});
+</script>
+
+</head>
+<body>
+<div id ="header"></div>
+
+   
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            background-color: #f0f0f0;
+        }
+        .joke-box {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+        }
+        .joke-text {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .refresh-btn {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .refresh-btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+<h2>Random Jokes</p>
+    <div class="joke-box" id="jokeBox">
+        <p class="joke-text" id="jokeSetup">Loading joke...</p> <br/><br/>
+        <p class="joke-text" id="jokePunchline"></p>
+        <button class="refresh-btn" onclick="getJoke()">Refresh</button>
+    </div>
+
+    <script>
+        function getJoke() {
+            fetch('https://official-joke-api.appspot.com/random_joke')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('jokeSetup').innerText = data.setup;
+                    document.getElementById('jokePunchline').innerText = data.punchline;
+                })
+                .catch(error => {
+                    console.error('Error fetching joke:', error);
+                    document.getElementById('jokeSetup').innerText = 'Failed to fetch joke. Please try again later.';
+                    document.getElementById('jokePunchline').innerText = '';
+                });
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            getJoke();
+        });</script>
+    <script>$(function(){
+$('#footer').load('/assets/footer.html');
+});
+</script>
+
+</body>
+  <div id ="footer"></div>
+</html>
