@@ -1,59 +1,87 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TMS Registration</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f2f2f2;
-    }
-    .container {
-      max-width: 800px;
-      margin: 20px auto;
-      padding: 20px;
-      background-color: #fff;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-    h1 {
-      color: #333;
-      text-align: center;
-    }
-    p {
-      color: #666;
-      line-height: 1.6;
-    }
-    form {
-      text-align: center;
-    }
-    input[type="file"] {
-      margin: 10px 0;
-    }
-    input[type="submit"] {
-      padding: 10px 20px;
-      background-color: #4CAF50;
-      color: white;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-    }
-    input[type="submit"]:hover {
-      background-color: #45a049;
-    }
-  </style>
+<title>Random Cat Fact</title>
+<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+</script>
+<script>
+$(function(){
+$('#header').load('/assets/header.html');
+});
+</script>
+
 </head>
 <body>
-  <div class="container">
-    <h1>TMS Registration</h1>
-    <form action="upload.php" method="post" enctype="multipart/form-data">
-      <input type="file" name="fileToUpload" id="fileToUpload">
-      <br>
-      <input type="submit" value="Upload File" name="submit">
-    </form>
-  </div>
+<div id ="header"></div>
+    
+    <style>
+        /* CSS styles for the cat fact box */
+        .cat-fact-box {
+		width: 700px;
+            border: 2px solid #333;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            background-color: #f0f0f0;
+        }
+
+        /* CSS styles for the refresh button */
+        .refresh-button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* CSS styles for the refresh button on hover */
+        .refresh-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h2>Random Cat Fact</h2>
+    <div class="cat-fact-box" id="cat-fact-box">
+        <p id="cat-fact">Fetching cat fact...</p>
+    </div>
+    <button class="refresh-button" onclick="fetchCatFact()">Refresh</button>
+
+    <script>
+        // Function to fetch a random cat fact from the API
+        function fetchCatFact() {
+            // API endpoint
+            var url = "https://catfact.ninja/fact";
+
+            // Sending GET request to the API
+            fetch(url)
+                .then(response => response.json())
+                .then(data => {
+                    // Extracting the fact from the response JSON
+                    var catFact = data.fact;
+
+                    // Displaying the cat fact on the webpage
+                    document.getElementById("cat-fact").innerText = catFact;
+                })
+                .catch(error => {
+                    // Displaying an error message if fetching fails
+                    document.getElementById("cat-fact").innerText = "Failed to fetch cat fact from the API";
+                    console.error("Error fetching cat fact:", error);
+                });
+        }
+
+        // Call the fetchCatFact function when the page loads
+        fetchCatFact();
+    </script>
+	<script>
+$(function(){
+$('#footer').load('/assets/footer.html');
+});
+</script>
+
+
+  <div id ="footer"></div>
 </body>
 </html>
