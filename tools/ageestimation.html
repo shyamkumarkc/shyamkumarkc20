@@ -54,6 +54,19 @@ $('#header').load('/assets/header.html');
             text-align: center;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
+		.clear-button {
+            padding: 10px 20px;
+            background-color:  #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* CSS styles for the clear button on hover */
+        .clear-button:hover {
+            background-color: #d32f2f;
+        }
     </style>
 </head>
 <body>
@@ -63,7 +76,9 @@ $('#header').load('/assets/header.html');
     <form class="input-form" onsubmit="getAge(); return false;">
         <label for="name">Enter your name:</label><br>
         <input class="test"  type="text" id="name" name="name"><br><br>
-        <button class= "button" type="submit" ><b>Predict Age</b></button>
+        <button class= "button" type="submit" ><b>Predict Age</b></button><br>
+		<button type="button" class="clear-button" onclick="clearFields()">Clear</button>
+      
     </form>
 
     <div class="result-box" id="age-result">
@@ -97,6 +112,10 @@ $('#header').load('/assets/header.html');
                     console.error("Error fetching age:", error);
                     document.getElementById("age-info").innerText = "Failed to fetch age data. Please try again later.";
                 });
+        }
+		function clearFields() {
+            document.getElementById("name").value = "";
+            document.getElementById("age-info").innerText = "Enter your name above to get age estimation.";
         }
     </script>
 <script>
