@@ -46,7 +46,7 @@
         "Address": "Rajahar -11, Rajahar Bazzar Nawalparasi",
         "Phone": "078-545372",
         "Fax": "078-545373", "Province" : "",
-	      "District" : "",
+	      "District" : "Nawalparasi",
 	      "LocalLevel" : "",
         "Email": "rajahar@shreefinance.com.np"
     },
@@ -55,7 +55,7 @@
         "Branch": "Danda Branch",
         "Address": "Kawasoti-16, Danda Bazaar, Nawalparasi",
         "Phone": "078-418003, 418002", "Province" : "",
-	      "District" : "",
+	      "District" : "Nawalparasi",
 	      "LocalLevel" : "",
         "Fax":"", "Email":  "danda@shreefinance.com.np"
     },
@@ -73,7 +73,9 @@
         "Branch": "Harkapur Branch",
         "Address": "Gaidakot-11, Harkapur bazzar, Nawalparasi",
         "Phone": "078-403103",
-        "Fax": " 078-403104",
+        "Fax": " 078-403104","Province" : "",
+	      "District" : "Nawalparasi",
+	      "LocalLevel" : "",
         "Email": "harkapur@shreefinance.com.np"
     },
     {
@@ -89,7 +91,9 @@
         "SNO": "10.","Bank" :"Shree Investment & Finance Co. Ltd.",
         "Branch": "Rukum Branch",
         "Address": "Musikot Municipality-4, Solabang, Rukum West",
-        "Phone": "088-420038",
+        "Phone": "088-420038","Province" : "",
+	      "District" : "Rukum",
+	      "LocalLevel" : "",
         "Fax": "", "Email": "solabang@shreefinance.com.np"
     },
     {
@@ -97,7 +101,7 @@
         "Branch": "Budanilkantha Branch",
         "Address": "Budanilkantha-8, Kathmandu",
         "Phone": "01-4379138", "Province" : "Bagmati Province",
-	      "District" : "",
+	      "District" : "Kathmandu",
 	      "LocalLevel" : "",
         "Fax": "", "Email": "budanilkantha@shreefinance.com.np"
     },
@@ -106,7 +110,7 @@
         "Branch": "Imadol Branch",
         "Address": "Mahalaxmisthan-4, Imadol, Lalitpur",
         "Phone": "01-5201147", "Province" : "Bagmati Province",
-	      "District" : "",
+	      "District" : "Lalitpur",
 	      "LocalLevel" : "",
         "Fax":"", "Email":  "imadol@shreefinance.com.np"
     },
@@ -116,7 +120,7 @@
         "Address": "Chabahil-7, Kathmandu",
         "Phone": "01-4587225", 
 	    "Province" : "Bagmati Province",
-	      "District" : "",
+	      "District" : "Kathmandu",
 	      "LocalLevel" : "",
         "Fax": "", "Email": "chabahil@shreefinance.com.np"
     }
