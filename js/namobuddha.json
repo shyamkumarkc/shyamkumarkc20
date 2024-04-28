@@ -1,5 +1,115 @@
 [
     
+    {
+        "SN": "1",
+        "BankName": "Sanima Bank Limited (SANIMA)",
+        "BranchName": "PANCHKHAL BRANCH",
+        "Location": "Tamaghat, Panchkhal-4, Kavrepalanchwok",
+        "Contact": "Phone: 00977-11-499337/338/318Email:&nbsp;panchkhal@sanimabank.com",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "5",
+        "BankName": "Agricultural Development Bank Limited (ADBL)",
+        "BranchName": "Branch Panchkhal",
+        "Location": "SAMAJKALYAN CHOWK, PANCHKHAL-6",
+        "Contact": "Phone: 01-1499161Email:&nbsp;panchkhal.branch@adbl.gov.np",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "7",
+        "BankName": "Nabil Bank Limited (NABIL)",
+        "BranchName": "Paanchkhal Branch",
+        "Location": "Panchkhal 4, Kavrepalanchowk Samajkalyanchowk",
+        "Contact": "Phone: +977 11 499472 , +977 11 499473 , +977 11 499475Email:&nbsp;rupesh.tamrakar@nabilbank.com",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "11",
+        "BankName": "Nepal Bank Limited (NBL)",
+        "BranchName": "Panchkhal Branch (124)",
+        "Location": "Panchkhal, KavrePalanchok",
+        "Contact": "Phone: 011-499008, 499118Email:&nbsp;nblpanchkhal@nepalbank.com.np",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "13",
+        "BankName": "Nabil Bank Limited (NABIL)",
+        "BranchName": "Panchkhal Branch",
+        "Location": "Ward No-4, Panchkhal Municipality, Samajkalyan Chowk",
+        "Contact": "Phone: 011-499472, 011-499473, 011-499475Email:&nbsp;tika.poudel@nabilbank.com",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "16",
+        "BankName": "Muktinath Bikas Bank Ltd.",
+        "BranchName": "Panchkhal Branch",
+        "Location": "Panchkhal Municipality-4, Tamaghat , Kavrepalanchok",
+        "Contact": "Phone: 011-499391Email:&nbsp;panchkhal@muktinathbank.com.np",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "17",
+        "BankName": "Laxmi Sunrise Bank Limited (LSBL)",
+        "BranchName": "Panchkhal Branch",
+        "Location": "Tamaghat - 4, Panchkhal Kavre, Bagmati, 45212",
+        "Contact": "Phone: 011-499222Email:&nbsp;panchkhal@laxmibank.com",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "18",
+        "BankName": "Sindhu Bikash Bank Limited (SINDU)",
+        "BranchName": "Panchkhal Branch",
+        "Location": "Panchkhal-4, Tamaghat Bazar, Kavre",
+        "Contact": "Phone: 011-499353 , 011-499354Email:&nbsp;panchkhal@sindhubank.com.np",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "23",
+        "BankName": "NIC ASIA Bank Limited (NICA)",
+        "BranchName": "Panchkhal Branch",
+        "Location": "Panchkhal Municipality, Ward no. 7, Panchkhal, Kavrepalanchowk",
+        "Contact": "Phone: 011-499423, 499356, 499477, 9801982235Email:&nbsp;shyam.khadka4838@nicasiabank.com",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "27",
+        "BankName": "Kumari Bank Limited (KBL)",
+        "BranchName": "PANCHKHAL BRANCH",
+        "Location": "Tamaghat, Kavre",
+        "Contact": "Phone: 011-499048/049/051/052Email:&nbsp;panchkhal@kumaribank.com",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "28",
+        "BankName": "Prabhu Bank Limited (PRVU)",
+        "BranchName": "PANCHKHAL BRANCH",
+        "Location": "Panchkhal Municipality-4",
+        "Contact": "Phone: 011-499166Email:&nbsp;taranath.bolakhe@prabhubank.com",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
     
     {
         "SN": "4",
