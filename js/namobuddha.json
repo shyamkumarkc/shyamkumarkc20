@@ -2,6 +2,58 @@
     
     
     {
+        "SN": "4",
+        "BankName": "Global IME Bank Limited (GBIME)",
+        "BranchName": "Kuntabeshi Branch",
+        "Location": "Mandandeupur Municipality 07, Kuntabeshi, Kavre",
+        "Contact": "Phone: 11412144, BM: 9802261196Email:&nbsp;kuntabeshi@gibl.com.np",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "6",
+        "BankName": "Kumari Bank Limited (KBL)",
+        "BranchName": "KUNTABESI BRANCH",
+        "Location": "Kuntabesi, Kavre",
+        "Contact": "Phone: 011-412044",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+   
+    {
+        "SN": "9",
+        "BankName": "Prabhu Bank Limited (PRVU)",
+        "BranchName": "Naldum Branch (नाल्दुङ शाखा)",
+        "Location": "Baluwapati, Nagarkot, Mandan Deupur-02, Kavre",
+        "Contact": "Phone: 01-6680201 / 01-6680202Email:&nbsp;suraj.kc@prabhubank.com",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "10",
+        "BankName": "Sindhu Bikash Bank Limited (SINDU)",
+        "BranchName": "Sipaghat Branch",
+        "Location": "Mandandeupur-6, Sipaghat Bazar, Kavre",
+        "Contact": "Phone: 011-422006Email:&nbsp;sipaghat@sindhubank.com.np",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "13",
+        "BankName": "Kumari Bank Limited (KBL)",
+        "BranchName": "Sipaghat Branch",
+        "Location": "Sipaghat, Kavre",
+        "Contact": "Phone: 011-422066Email:&nbsp;sipaghat@kumaribank.com",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+
+    {
         "SN": "8",
         "BankName": "Global IME Bank Limited (GBIME)",
         "BranchName": "Bhakundebesi Branch",
