@@ -1,6 +1,126 @@
 [
     
     {
+        "SN": "5",
+        "BankName": "Nepal Bank Limited (NBL)",
+        "BranchName": "Khopasi Branch (286)",
+        "Location": "Khopasi, Kavre",
+        "Contact": "Phone: 011-410001Email:&nbsp;nblkhopasi@nepalbank.com.np",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "7",
+        "BankName": "Kumari Bank Limited (KBL)",
+        "BranchName": "KUSHADEVI BRANCH",
+        "Location": "Kusadevi Bazar, Kavre",
+        "Contact": "Phone: 011-405104 /105 /106Email:&nbsp;kushadevi@kumaribank.com",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "9",
+        "BankName": "Prabhu Bank Limited (PRVU)",
+        "BranchName": "PANAUTI (पनौती शाखा)",
+        "Location": "Namo Buddha Marg,Panauti Municipality-6,Kavre",
+        "Contact": "Phone: 011-440526Email:&nbsp;nabin.makaju@prabhubank.com",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "11",
+        "BankName": "Nabil Bank Limited (NABIL)",
+        "BranchName": "PANAUTI BRANCH",
+        "Location": "Panauti Municipality -06, Namobuddha Road",
+        "Contact": "Phone: +977 11 441072 , +977 11 441073 , +977 11 441063Email:&nbsp;samrakshan.humagai@nabilbank.com",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "14",
+        "BankName": "Muktinath Bikas Bank Ltd.",
+        "BranchName": "Panauti Branch",
+        "Location": "Panauti Municipality-6, Buspark ,Kavrepalanchok",
+        "Contact": "Phone: 011-440172Email:&nbsp;panauti@muktinathbank.com.np",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "15",
+        "BankName": "Laxmi Sunrise Bank Limited (LSBL)",
+        "BranchName": "Panauti Branch",
+        "Location": "Kushadevi Road Kushadevi Road, Bagmati, 45209",
+        "Contact": "Phone: 011440030440031Email:&nbsp;panauti@laxmibank.com",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "16",
+        "BankName": "Sindhu Bikash Bank Limited (SINDU)",
+        "BranchName": "Panauti Branch",
+        "Location": "Panauti-6, Tarkari Bazar, Kavre",
+        "Contact": "Phone: 011-440175",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "20",
+        "BankName": "Kumari Bank Limited (KBL)",
+        "BranchName": "Panauti Branch",
+        "Location": "Kavrepalanchok, Bus Park, Panauti Kavre",
+        "Contact": "Phone: 011-441242Email:&nbsp;panauti@kumaribank.com",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "22",
+        "BankName": "NIC ASIA Bank Limited (NICA)",
+        "BranchName": "Panauti Branch",
+        "Location": "Panauti Municipality, Ward no. 06, Panauti, Kavre",
+        "Contact": "Phone: 9801982353/ 9801982354Email:&nbsp;bibek.shrestha5772@nicasiabank.com",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "25",
+        "BankName": "Prime Commercial Bank Limited (PCBL)",
+        "BranchName": "Panauti Branch",
+        "Location": "Panauti, Kavre",
+        "Contact": "Phone: 011-441204/205/206",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "27",
+        "BankName": "Global IME Bank Limited (GBIME)",
+        "BranchName": "PANAUTI BRANCH",
+        "Location": "Panauti Bus Park, Namobuddha Road,Panauti",
+        "Contact": "Phone: 9802261193, 011-441261, 441262Email:&nbsp;panauti@gibl.com.np",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "29",
+        "BankName": "Nepal Bank Limited (NBL)",
+        "BranchName": "Panauti Branch (090)",
+        "Location": "Panauti, Kavrepalanchok",
+        "Contact": "Phone: 011-440591Email:&nbsp;nblpanauti@nepalbank.com.np",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
         "SN": "1",
         "BankName": "Sanima Bank Limited (SANIMA)",
         "BranchName": "PANCHKHAL BRANCH",
