@@ -61,5 +61,16 @@
         "Email": "nlisting@gibl.com.np",
         "Website": "http://www.globalimebank.com",
          "Units": "412"
+    },
+    {
+        "SN": "141",
+        "Name": "Ganapati Laghubitta Bittiya Sanstha Limited",
+        "Symbol": "GMFBS",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "ganapati.micro@gmail.com",
+        "Website": "www.ganapatimicro.com.np",
+         "Units": "14"
     }
 ]
