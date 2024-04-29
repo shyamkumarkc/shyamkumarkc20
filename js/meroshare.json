@@ -166,5 +166,46 @@
         "Instrument": "Equity",
         "Email": "cs@nepallife.com.np",
          "Units": "80"
+    },
+    {
+        "SN": "49",
+        "Name": "NMB Bank Limited",
+        "Symbol": "NMB",
+        "Status": "Active",
+        "Sector": "Commercial Banks",
+        "Instrument": "Equity",
+        "Email": "pramod.dahal@nmb.com.np",
+        "Website": "http://www.nmb.com.np",
+         "Units": "38"
+    },{
+        "SN": "152",
+        "Name": "Nepal Reinsurance Company Limited",
+        "Symbol": "NRIC",
+        "Status": "Active",
+        "Sector": "Others",
+        "Instrument": "Equity",
+        "Email": "nepalre@ntc.net.np",
+        "Website": "www.nepalre.com.np",
+         "Units": "53"
+    },{
+        "SN": "248",
+        "Name": "Nepal Warehousing Company Limited",
+        "Symbol": "NWCL",
+        "Status": "Active",
+        "Sector": "Others",
+        "Instrument": "Equity",
+        "Email": "info@nwcl.com.np",
+        "Website": "www.nwcl.com.np",
+         "Units": "10"
+    },{
+        "SN": "32",
+        "Name": "Prabhu Insurance Ltd.",
+        "Symbol": "PRIN",
+        "Status": "Active",
+        "Sector": "Non Life Insurance",
+        "Instrument": "Equity",
+        "Email": "info@prabhuinsurance.com",
+        "Website": "http://www.prabhuinsurance.com",
+         "Units": "97"
     }
 ]
