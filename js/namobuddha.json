@@ -1,5 +1,363 @@
 [
-    
+
+    {
+        "SN": "1",
+        "BankName": "NMB Bank Limited (NMB)",
+        "BranchName": "Banepa branch",
+        "Location": "Tindobato, Opposite to the Police Station",
+        "Contact": "Phone: 11-660771Email:&nbsp;rabindra.sigdel@nmb.com.np",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "2",
+        "BankName": "Sanima Bank Limited (SANIMA)",
+        "BranchName": "BANEPA BRANCH",
+        "Location": "Surya Bhawan, Banepa-6, Kavrepalanchok",
+        "Contact": "Phone: 00977-11-664051/52/53Email:&nbsp;banepa@sanimabank.com",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "3",
+        "BankName": "Muktinath Bikas Bank Ltd.",
+        "BranchName": "Banepa Branch",
+        "Location": "Banepa Municipality-07 Dhaneshwor Marga, Chardobato Banepa, Kavrepalnchowk",
+        "Contact": "Phone: 011-660069/70",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "7",
+        "BankName": "Siddhartha Bank Limited (SBL)",
+        "BranchName": "Banepa Branch",
+        "Location": "Ward No. 07 Banepa Municipality, Panauti Road Kavre",
+        "Contact": "Phone: 011-663925/55Email:&nbsp;sblbnp@sbl.com.np",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "10",
+        "BankName": "Prabhu Bank Limited (PRVU)",
+        "BranchName": "Banepa 310 Branch (बनेपा शाखा)",
+        "Location": "Chardobato, Banepa-07, Kavre",
+        "Contact": "Phone: 011-660830 / 011-660831Email:&nbsp;anish.thapa@prabhubank.com",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "11",
+        "BankName": "Nabil Bank Limited (NABIL)",
+        "BranchName": "Banepa Branch",
+        "Location": "Banepa Muncipality Ward No. 7",
+        "Contact": "Phone: +977 11 660168 , +977 11 660169 , +977 11 660172 , 9851155970Email:&nbsp;manilal.shrestha@nabilbank.com",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "12",
+        "BankName": "Global IME Bank Limited (GBIME)",
+        "BranchName": "Banepa Branch",
+        "Location": "Chadanichowk 08, Banepa, Kavre",
+        "Contact": "Phone: +977 011-663017/663019, 661440, BM: 9802261089Email:&nbsp;banepa@gibl.com.np",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "13",
+        "BankName": "Rastriya Beema Compay Limited (RBCL)",
+        "BranchName": "Banepa Branch",
+        "Location": "BANEPA BAZAR, BANEPA",
+        "Contact": "Phone: 011-662790",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "15",
+        "BankName": "Citizens Bank International Limited (CZBIL)",
+        "BranchName": "BANEPA BRANCH",
+        "Location": "Banepa-10, Kavre",
+        "Contact": "Phone: 011-660967, 9841365712Email:&nbsp;info@ctznbank.com",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "17",
+        "BankName": "Sindhu Bikash Bank Limited (SINDU)",
+        "BranchName": "Banepa Branch",
+        "Location": "Banepa-7, Banepa Bazar, Kavre",
+        "Contact": "Phone: 011-662340 , 011-662341 , 011-662346 , 011-662351Email:&nbsp;banepa@sindhubank.com.np",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "22",
+        "BankName": "Jyoti Bikash Bank Limited (JBBL)",
+        "BranchName": "Banepa Branch",
+        "Location": "Banepa Muncipality-07, Kavre",
+        "Contact": "Phone: 011-660130 ,011-660131,9802314182Email:&nbsp;anup.thapa@jbbl.com.np",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "23",
+        "BankName": "Progressive Finance Limited (PROFL)",
+        "BranchName": "Banepa Branch",
+        "Location": "Ugratara Branch ,Janagal,Banepa",
+        "Contact": "Phone: 01-1691199, 011-660132Email:&nbsp;janagal@pfltd.com.np",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "30",
+        "BankName": "Prabhu Bank Limited (PRVU)",
+        "BranchName": "Banepa Branch",
+        "Location": "Banepa-6, Banepa Buspark , Araniko highway Kavre",
+        "Contact": "Phone: 011-660946/ 660947Email:&nbsp;kishor.ghimire@prabhubank.com",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "36",
+        "BankName": "Muktinath Bikas Bank Ltd.",
+        "BranchName": "Banepa Branch",
+        "Location": "Banepa Municipality-7, Chandeshwori Marg ,Kavrepalanchok",
+        "Contact": "Phone: 011-660058/660093Email:&nbsp;banepa@muktinathbank.com.np",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "37",
+        "BankName": "Kumari Bank Limited (KBL)",
+        "BranchName": "Banepa Branch",
+        "Location": "Banepa, Kavre",
+        "Contact": "Phone: 011-661298/309Email:&nbsp;banepa@kumaribank.com",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "39",
+        "BankName": "Nepal Bank Limited (NBL)",
+        "BranchName": "Banepa Branch",
+        "Location": "Banepa, Kavre",
+        "Contact": "Phone: 011-662303, 661122Email:&nbsp;bnp@nepalbank.com.np",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "40",
+        "BankName": "Lalitpur Finance Company Limited (LFC)",
+        "BranchName": "Banepa Branch",
+        "Location": "Kavrepalanchok, Banepa",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "42",
+        "BankName": "Nepal Finance Limited (NFS)",
+        "BranchName": "Banepa Branch",
+        "Location": "Banepa-07, Kavre",
+        "Contact": "Email:&nbsp;banepa@nepalfinance.com.np&nbsp;,",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "43",
+        "BankName": "Everest Bank Limited (EBL)",
+        "BranchName": "Banepa Branch",
+        "Location": "Banepa -7, Kavrepalanchok",
+        "Contact": "Phone: 011-664182Email:&nbsp;banepa@ebl.com.np,&nbsp;kishor.palikhel@ebl.com.np",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "44",
+        "BankName": "NIC ASIA Bank Limited (NICA)",
+        "BranchName": "Banepa Branch",
+        "Location": "Banepa 10, Kavre",
+        "Contact": "Phone: 011-660801/ 660802/660803, 9801982134Email:&nbsp;sangam.adhikari3811@nicasiabank.com",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "46",
+        "BankName": "Nepal Investment Mega Bank Limited (NIMB)",
+        "BranchName": "BANEPA BRANCH",
+        "Location": "Banepa, Kavre",
+        "Contact": "Phone: 011- 664315, 011- 662401Email:&nbsp;customerservicebp@nimb.com.np",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "48",
+        "BankName": "Laxmi Sunrise Bank Limited (LSBL)",
+        "BranchName": "Banepa Branch",
+        "Location": "Tribhuwan Chowk - 7, Banepa Kavre, Bagmati, 45210",
+        "Contact": "Phone: 011-663425, 663426, 660702, 660713Email:&nbsp;banepa@laxmibank.com",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "51",
+        "BankName": "Samriddhi Finance (SFCL)",
+        "BranchName": "Banepa Branch",
+        "Location": "Kavrepalanchok ,Banepa Municipality",
+        "Contact": "Phone: 9851356162Email:&nbsp;branch.banepa@sfcl.com.np",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "56",
+        "BankName": "Himalayan Bank Limited (HBL)",
+        "BranchName": "Banepa Branch",
+        "Location": "Banepa, Panauti Road",
+        "Contact": "Phone: 011-660734Email:&nbsp;banepa@himalayanbank.com",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "57",
+        "BankName": "Prime Commercial Bank Limited (PCBL)",
+        "BranchName": "Banepa Branch",
+        "Location": "Banepa",
+        "Contact": "Phone: 011-660701",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "67",
+        "BankName": "Machhapuchchhre Bank Limited (MBL)",
+        "BranchName": "Banepa Branch",
+        "Location": "Banepa, Kavrepalanchowk",
+        "Contact": "Phone: +977-11-663553,9841317500Email:&nbsp;shalik.pahari@mbl.com.np",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "71",
+        "BankName": "Nepal SBI Bank Limited (SBI)",
+        "BranchName": "Banepa Branch (242)",
+        "Location": "Banepa-10, Kavre",
+        "Contact": "Phone: 011-691196, 011-664047Email:&nbsp;banepa@nsbl.com.np",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "73",
+        "BankName": "Lumbini Bikas Bank Ltd.",
+        "BranchName": "Banepa Branch [034]",
+        "Location": "Banepa, Chardobato",
+        "Contact": "Phone: 011-661321Email:&nbsp;kamal.giri@lumbinibikasbank.com",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "74",
+        "BankName": "Himalayan Bank Limited (HBL)",
+        "BranchName": "Banepa Branch",
+        "Location": "Banepa Municipality, Kavrepalanchok",
+        "Contact": "Phone: 011-664734, 660984Email:&nbsp;banepa@himalayanbank.com",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "76",
+        "BankName": "ICFC Finance Limited (ICFC)",
+        "BranchName": "Banepa Branch, Kavrepalanchok",
+        "Location": "Banepa, Kavrepalanchok",
+        "Contact": "Phone: 01-1660882,9841707027Email:&nbsp;nirmal.tripathee@icfcbank.com",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "81",
+        "BankName": "Agricultural Development Bank Limited (ADBL)",
+        "BranchName": "Branch Banepa",
+        "Location": "Banepa Tindobato",
+        "Contact": "Phone: 011-664680, 011-662703Email:&nbsp;banepa.banking@adbl.gov.np",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "84",
+        "BankName": "Rastriya Banijya Bank Limited (RBBL)",
+        "BranchName": "Branch Office Banepa",
+        "Location": "Banepa, Kavrepalanchok",
+        "Contact": "Phone: 977-11-660778Email:&nbsp;banepa@rbb.com.np",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "93",
+        "BankName": "Gurkhas Finance Limited",
+        "BranchName": "Janagal, Banepa - Kavre Branch",
+        "Location": "Janagal, Banepa Bagmati Province, Nepal",
+        "Contact": "Phone: 011-663148Email:&nbsp;janagal@gurkhasfinance.com.np",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "94",
+        "BankName": "Prabhu Bank Limited (PRVU)",
+        "BranchName": "NALA (नाला शाखा)",
+        "Location": "KarunaMarg, Nala,Banepa Municipality-4, Kavre",
+        "Contact": "Phone: 011-411144Email:&nbsp;tej.karki@prabhubank.com",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "99",
+        "BankName": "Progressive Finance Limited (PROFL)",
+        "BranchName": "Nala Extension Counter",
+        "Location": "Nala, Kavre",
+        "Contact": "Phone: 01-1411035Email:&nbsp;nala@pfltd.com.np",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    {
+        "SN": "107",
+        "BankName": "Prabhu Bank Limited (PRVU)",
+        "BranchName": "Sanga Branch (साँगा शाखा)",
+        "Location": "Sanga, Banepa-13, Kavrepalanchowk ( Opposite of Sanga Police Station)",
+        "Contact": "Phone: 011-660795Email:&nbsp;shrawan.ghimire@prabhubank.com",
+	    "Province" : "Bagmati Province",
+	    "District" : "Kavrepalanchowk",
+	    "Locallevel" : ""
+    }.
     {
         "SN": "1",
         "BankName": "Agricultural Development Bank Limited (ADBL)",
