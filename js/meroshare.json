@@ -17,5 +17,27 @@
         "Instrument": "Equity",
         "Email": "NIBL.Nepse@nibl.com.np",
         "Units": "113"
+    },
+    {
+        "SN": "16",
+        "Name": "Butwal Power Company Limited",
+        "Symbol": "BPCL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "hari.budhathoki@bpc.com.np",
+        "Website": "http://www.bpc.com.np",
+        "Units": "15"
+    },
+    {
+        "SN": "62",
+        "Name": "Citizens Bank International Limited",
+        "Symbol": "CZBIL",
+        "Status": "Active",
+        "Sector": "Commercial Banks",
+        "Instrument": "Equity",
+        "Email": "rajendra.shrestha@ctznbank.com",
+        "Website": "www.ctznbank.com",
+        "Units": "13"
     }
 ]
