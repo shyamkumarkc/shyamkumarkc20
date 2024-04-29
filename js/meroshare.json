@@ -50,5 +50,16 @@
         "Email": "enquiry@ghorahicement.com",
         "Website": "www.ghorahicement.com.np",
          "Units": "3"
+    },
+    {
+        "SN": "61",
+        "Name": "Global IME Bank Limited",
+        "Symbol": "GBIME",
+        "Status": "Active",
+        "Sector": "Commercial Banks",
+        "Instrument": "Equity",
+        "Email": "nlisting@gibl.com.np",
+        "Website": "http://www.globalimebank.com",
+         "Units": "412"
     }
 ]
