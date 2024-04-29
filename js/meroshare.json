@@ -1,0 +1,21 @@
+[
+    {
+        "SN": "1",
+        "Name": "Nabil Bank Limited",
+        "Symbol": "NABIL",
+        "Status": "Active",
+        "Sector": "Commercial Banks",
+        "Instrument": "Equity",
+        "Units": "43"
+    },
+    {
+        "SN": "2",
+        "Name": "Nepal Investment Mega Bank Limited",
+        "Symbol": "NIMB",
+        "Status": "Active",
+        "Sector": "Commercial Banks",
+        "Instrument": "Equity",
+        "Email": "NIBL.Nepse@nibl.com.np",
+        "Units": "113"
+    }
+]
