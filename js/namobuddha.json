@@ -1,5 +1,245 @@
 [
     {
+        "SN": "3",
+        "BankName": "Laxmi Sunrise Bank Limited (LSBL))",
+        "BranchName": "BAMTIBHANDAR GAUPALIKA BRANCH",
+        "Location": "Bamtibhandar Gaunpalika Ramechhap",
+        "Contact": "Phone: 977-9741428893Email:&nbsp;BAMTIBHANDAR-TEAM@sunrisebank.com.np,&nbsp;neeraj.dhakal@sunrisebank.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Ramechhap",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "4",
+        "BankName": "Kumari Bank Limited (KBL)",
+        "BranchName": "Bethan Branch",
+        "Location": "Bethan, Ramechhap",
+        "Contact": "Phone: 9765307838Email:&nbsp;bethan@kumaribank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Ramechhap",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "7",
+        "BankName": "Rastriya Banijya Bank Limited (RBBL)",
+        "BranchName": "Branch Office Manthali",
+        "Location": "Manthali, Ramechhap",
+        "Contact": "Phone: 977-48-540055Email:&nbsp;manthali@rbb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Ramechhap",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "8",
+        "BankName": "Rastriya Banijya Bank Limited (RBBL)",
+        "BranchName": "Branch Office Ramechhap",
+        "Location": "Ramechhap",
+        "Contact": "Phone: 977-48-400075Email:&nbsp;ramechhap@rbb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Ramechhap",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "10",
+        "BankName": "Rastriya Banijya Bank Limited (RBBL)",
+        "BranchName": "Branch Office Sanghutar",
+        "Location": "Sanghutar, Ramechhap",
+        "Contact": "Email:&nbsp;sanghutar@rbb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Ramechhap",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "11",
+        "BankName": "Rastriya Banijya Bank Limited (RBBL)",
+        "BranchName": "Branch Office Thosey",
+        "Location": "Thosey, Ramechhap",
+        "Contact": "Email:&nbsp;thosey@rbb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Ramechhap",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "12",
+        "BankName": "Agricultural Development Bank Limited (ADBL)",
+        "BranchName": "Branch Office, Manthali",
+        "Location": "Manthali -1, Devkota Chowk",
+        "Contact": "Phone: 04-8540030",
+	     "Province" : "Bagmati Province",
+	    "District" : "Ramechhap",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "13",
+        "BankName": "Global IME Bank Limited (GBIME)",
+        "BranchName": "Doramba Branch",
+        "Location": "Doramba-03, Ramechhap",
+        "Contact": "Phone: 9802261236Email:&nbsp;doramba@gibl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Ramechhap",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "19",
+        "BankName": "Siddhartha Bank Limited (SBL)",
+        "BranchName": "Gokulganga Branch",
+        "Location": "Ward No. 03 Bhimsensthan, Gokulganga Rural Municipality, Ramechhap",
+        "Contact": "Phone: 044- 692091Email:&nbsp;sblgkg@sbl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Ramechhap",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "21",
+        "BankName": "Laxmi Sunrise Bank Limited (LSBL)",
+        "BranchName": "Khandadevi Branch",
+        "Location": "Khandadevi, Ramechhap Ramechhap, Janakpur, 45400",
+        "Contact": "Phone: 044692095Email:&nbsp;khandadevi@laxmibank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Ramechhap",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "22",
+        "BankName": "Nepal Bank Limited (NBL)",
+        "BranchName": "Khimti Besi Branch",
+        "Location": "Khimti Besi Ramechhap",
+        "Contact": "Phone: 048-411048Email:&nbsp;nblkhimtibesi@nepalbank.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Ramechhap",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "23",
+        "BankName": "Nepal Investment Mega Bank Limited (NIMB)",
+        "BranchName": "LIKHU - 070",
+        "Location": "Dhobi bazar, Likhu, Ramechhap",
+        "Contact": "Phone: 01-6227332Email:&nbsp;customerserviceLI@nimb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Ramechhap",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "25",
+        "BankName": "Nepal Investment Mega Bank Limited (NIMB)",
+        "BranchName": "MANTHALI - 043",
+        "Location": "Manthali, Ramechap",
+        "Contact": "Phone: 048-540438Email:&nbsp;customerserviceMN@nimb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Ramechhap",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "29",
+        "BankName": "Shangri-la Development Bank Limited (SADBL)",
+        "BranchName": "Manthali Brach",
+        "Location": "Manthali-1, Ramechhap",
+        "Contact": "Phone: 048-540622/23/24",
+	     "Province" : "Bagmati Province",
+	    "District" : "Ramechhap",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "30",
+        "BankName": "Global IME Bank Limited (GBIME)",
+        "BranchName": "Manthali Branch",
+        "Location": "Devkota Chowk-01, Manthali, Ramechhap",
+        "Contact": "Phone: 977-048-540456, BM: 9802261100Email:&nbsp;manthali@gibl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Ramechhap",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "32",
+        "BankName": "Laxmi Sunrise Bank Limited (LSBL)",
+        "BranchName": "Manthali Branch",
+        "Location": "Devkotachowk - 1, Manthali Ramechhap, Janakpur, 45406",
+        "Contact": "Phone: 048-540604Email:&nbsp;manthali@laxmibank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Ramechhap",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "33",
+        "BankName": "Muktinath Bikas Bank Ltd.",
+        "BranchName": "Manthali Branch",
+        "Location": "Manthali Municipality-1, Devkotachowk ,Ramechhap",
+        "Contact": "Phone: 048-540080Email:&nbsp;manthali@muktinathbank.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Ramechhap",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "36",
+        "BankName": "NIC ASIA Bank Limited (NICA)",
+        "BranchName": "Manthali Branch",
+        "Location": "Manthali Municipality ward no. 01, Ramechhap",
+        "Contact": "Phone: 9801982293/ 9801982294Email:&nbsp;bishnu.bohara@nicasiabank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Ramechhap",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "41",
+        "BankName": "NMB Bank Limited (NMB)",
+        "BranchName": "Manthali Branch",
+        "Location": "Manthali Bazaar, Near Devkota Chowk",
+        "Contact": "Phone: 48-540484Email:&nbsp;bhishan.khatri@nmb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Ramechhap",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "42",
+        "BankName": "Kumari Bank Limited (KBL)",
+        "BranchName": "Manthali Branch",
+        "Location": "Manthali, Bhajyang,Ramechhap",
+        "Contact": "Phone: 048-540510/11Email:&nbsp;manthali@kumaribank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Ramechhap",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "46",
+        "BankName": "Prabhu Bank Limited (PRVU)",
+        "BranchName": "Manthali Branch",
+        "Location": "Manthali-1, Devkota chowk",
+        "Contact": "Phone: 048-540235Email:&nbsp;bimal.dahal@prabhubank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Ramechhap",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "57",
+        "BankName": "Laxmi Sunrise Bank Limited (LSBL)",
+        "BranchName": "PRITI GAUPALIKA BRANCH",
+        "Location": "Chyadalu Priti, Umakunda Rular Municipality-04, Ramechhap",
+        "Contact": "Phone: +977-9748647183, 9806058746Email:&nbsp;PRITI-TEAM@sunrisebank.com.np,&nbsp;sunil.neupane@sunrisebank.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Ramechhap",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "68",
+        "BankName": "Laxmi Sunrise Bank Limited (LSBL)",
+        "BranchName": "SHIWALAYA BRANCH",
+        "Location": "Gokulganga Gaunpalika-01, Shiwalaya, Ramechhap",
+        "Contact": "Phone: 9849075466Email:&nbsp;SHIWALAYA-TEAM@sunrisebank.com.np,rajan.jamkatel@sunrisebank.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Ramechhap",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "70",
+        "BankName": "Citizens Bank International Limited (CZBIL)",
+        "BranchName": "SUNAPATI BRANCH",
+        "Location": "Ramechhap, Sunapati RM Ward no 3",
+        "Contact": "Phone: 9854028138Email:&nbsp;info@ctznbank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Ramechhap",
+	    "Locallevel" : ""
+    },
+    {
         "SN": "5",
         "BankName": "Himalayan Bank Limited (HBL)",
         "BranchName": "Sindhuli Branch",
