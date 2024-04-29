@@ -249,5 +249,38 @@
         "Email": "sanjenhcl@gmail.com",
         "Website": "www.sjcl.com.np",
          "Units": "10"
+    },
+    {
+        "SN": "172",
+        "Name": "Sanima Reliance Life Insurance Limited",
+        "Symbol": "SRLI",
+        "Status": "Active",
+        "Sector": "Life Insurance",
+        "Instrument": "Equity",
+        "Email": "sanima@sanimalife.com",
+        "Website": "www.sanimalife.com",
+         "Units": "10"
+    },
+    {
+        "SN": "23",
+        "Name": "Sanima Bank Limited",
+        "Symbol": "SANIMA",
+        "Status": "Active",
+        "Sector": "Commercial Banks",
+        "Instrument": "Equity",
+        "Email": "RUDRA@sanimabank.com",
+        "Website": "www.sanimabank.com",
+         "Units": "30"
+    },
+    {
+        "SN": "158",
+        "Name": "Sanima GIC Insurance Limited",
+        "Symbol": "SGIC",
+        "Status": "Active",
+        "Sector": "Non Life Insurance",
+        "Instrument": "Equity",
+        "Email": "sanima@sanimageneral.com",
+        "Website": "www.sanimageneral.com",
+         "Units": "10"
     }
 ]
