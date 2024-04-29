@@ -3,21 +3,21 @@
         "SN": "4",
         "BankName": "Nepal Investment Mega Bank Limited (NIMB)",
         "BranchName": "BAGKHOR - 157",
-        "Location": "Shailung Rural Municipality - 03, Katakuti, Bagkhor, Dolakha",
+        "Location": - 03, Katakuti, Bagkhor, Dolakha",
         "Contact": "Phone: 049-691324, 049-430056Email:&nbsp;bagkhor@nimb.com.np",
 	     "Province" : "Bagmati Province",
 	    "District" : "Dolakha",
-	    "Locallevel" : ""
+	    "Locallevel" : "Shailung Rural Municipality"
     },
     {
         "SN": "6",
         "BankName": "Muktinath Bikas Bank Ltd.",
         "BranchName": "Bagkhor Branch",
-        "Location": "Shailung Rural Municipality - 03 Katakuti, Bagkhor, Dolakha",
+        "Location": " - 03 Katakuti, Bagkhor, Dolakha",
         "Contact": "Phone: 049-691324/430056",
 	     "Province" : "Bagmati Province",
 	    "District" : "Dolakha",
-	    "Locallevel" : ""
+	    "Locallevel" : "Shailung Rural Municipality"
     },
     {
         "SN": "7",
@@ -73,11 +73,11 @@
         "SN": "14",
         "BankName": "Nepal Investment Mega Bank Limited (NIMB)",
         "BranchName": "CHARIKOT - 153",
-        "Location": "Bhimeshwor Municipality- 03, Charikot Bazar, Dolakha",
+        "Location": "- 03, Charikot Bazar, Dolakha",
         "Contact": "Phone: 049-421937/38Email:&nbsp;charikot@nimb.com.np",
 	     "Province" : "Bagmati Province",
 	    "District" : "Dolakha",
-	    "Locallevel" : ""
+	    "Locallevel" : "Bhimeshwor Municipality"
     },
     {
         "SN": "16",
@@ -97,7 +97,7 @@
         "Contact": "Phone: 9841481233 049-421916, 421917 049-421918Email:&nbsp;charikot@mahalaxmibank.com.np",
 	     "Province" : "Bagmati Province",
 	    "District" : "Dolakha",
-	    "Locallevel" : ""
+	    "Locallevel" : "Bhimeshwor Municipality"
     },
     {
         "SN": "19",
@@ -107,7 +107,7 @@
         "Contact": "Phone: 049-421937/38",
 	     "Province" : "Bagmati Province",
 	    "District" : "Dolakha",
-	    "Locallevel" : ""
+	    "Locallevel" : "Bhimeshwor Municipality"
     },
     {
         "SN": "21",
@@ -117,7 +117,7 @@
         "Contact": "Phone: 049-421979Email:&nbsp;charikot@sindhubank.com.np",
 	     "Province" : "Bagmati Province",
 	    "District" : "Dolakha",
-	    "Locallevel" : ""
+	    "Locallevel" : "Bhimeshwor Municipality"
     },
     {
         "SN": "24",
@@ -137,7 +137,7 @@
         "Contact": "Phone: 049-421922, 9801982204Email:&nbsp;ram.khatri@nicasiabank.com",
 	     "Province" : "Bagmati Province",
 	    "District" : "Dolakha",
-	    "Locallevel" : ""
+	    "Locallevel" : "Bhimeshwor Municipality"
     },
     {
         "SN": "28",
