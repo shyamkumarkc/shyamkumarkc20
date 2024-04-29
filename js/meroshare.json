@@ -156,5 +156,15 @@
         "Email": "iswor.gautam@nifrabank.com",
         "Website": "https://www.nifrabank.com",
          "Units": "54"
+    },
+    {
+        "SN": "35",
+        "Name": "Nepal Life Insurance Co. Ltd.",
+        "Symbol": "NLIC",
+        "Status": "Active",
+        "Sector": "Life Insurance",
+        "Instrument": "Equity",
+        "Email": "cs@nepallife.com.np",
+         "Units": "80"
     }
 ]
