@@ -1,5 +1,404 @@
 [
     {
+        "SN": "5",
+        "BankName": "Himalayan Bank Limited (HBL)",
+        "BranchName": "Sindhuli Branch",
+        "Location": "Kamalamai-6, 1 No. Bazar Sindhulimadhi",
+        "Contact": "Phone: 047-521081/82Email:&nbsp;sindhuli@himalayanbank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhuli",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "10",
+        "BankName": "Nepal Investment Mega Bank Limited (NIMB)",
+        "BranchName": "BHIMAN - 159",
+        "Location": "Kamalamai Municipality - 09,Check Post, Bhiman, Sindhuli",
+        "Contact": "Phone: 047-410067/68Email:&nbsp;bhiman@nimb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhuli",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "11",
+        "BankName": "Muktinath Bikas Bank Ltd.",
+        "BranchName": "Bhiman Branch",
+        "Location": "Kamalamai Municipality - 09 Check Post, Bhiman, Sindhuli",
+        "Contact": "Phone: 047-410067/68",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhuli",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "14",
+        "BankName": "Central Finance Limited",
+        "BranchName": "Bhiman Branch",
+        "Location": "Bhiman, Sindhuli",
+        "Contact": "Phone: 047-410042, 047-410044",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhuli",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "17",
+        "BankName": "Central Finance Company Limited (CFCL)",
+        "BranchName": "Bhiman Branch",
+        "Location": "Bhiman, Sindhuli",
+        "Contact": "Phone: 977-047-410042",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhuli",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "21",
+        "BankName": "Rastriya Banijya Bank Limited (RBBL)",
+        "BranchName": "Branch Office Bhiman",
+        "Location": "Bhiman, Sindhuli",
+        "Contact": "Phone: 977-47-410007",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhuli",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "27",
+        "BankName": "Rastriya Banijya Bank Limited (RBBL)",
+        "BranchName": "Branch Office Kapilakot",
+        "Location": "Kapilakot, Sindhuli",
+        "Contact": "Email:&nbsp;kapilakot@rbb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhuli",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "29",
+        "BankName": "Rastriya Banijya Bank Limited (RBBL)",
+        "BranchName": "Branch Office Ratamata",
+        "Location": "Ratamata, Sindhuli",
+        "Contact": "Phone: 994470036Email:&nbsp;ratamata@rbb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhuli",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "30",
+        "BankName": "Rastriya Banijya Bank Limited (RBBL)",
+        "BranchName": "Branch Office Sindhuli",
+        "Location": "Sindhuli",
+        "Contact": "Phone: 977-47-520615Email:&nbsp;sindhuli@rbb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhuli",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "32",
+        "BankName": "Agricultural Development Bank Limited (ADBL)",
+        "BranchName": "Branch Office, Sindhuli",
+        "Location": "kamalamai-6, Ratamata",
+        "Contact": "Phone: 04-7521045",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhuli",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "39",
+        "BankName": "Central Finance Limited",
+        "BranchName": "Dakaha Branch",
+        "Location": "Dakaha, Sindhuli",
+        "Contact": "Phone: 9817833713, 9817833756",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhuli",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "42",
+        "BankName": "Muktinath Bikas Bank Ltd.",
+        "BranchName": "Dhungrebas Extension Counter",
+        "Location": "Kamalamai Municipality - 04 Dhungrebas, Kamalamai, Sindhuli",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhuli",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "45",
+        "BankName": "NIC Asia Laghubitta Bittiya Sanstha Ltd",
+        "BranchName": "Dudhauli",
+        "Location": "dudhauli-5, Sindhuli",
+        "Contact": "Phone: 9802269252, 9811317814Email:&nbsp;dudhauli@nicasialaghubitta.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhuli",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "48",
+        "BankName": "Nepal Bank Limited (NBL)",
+        "BranchName": "Dudhauli Branch",
+        "Location": "Dudhauli, Sindhuli",
+        "Contact": "Phone: 047-412074, 412084Email:&nbsp;nbldudhauli@nepalbank.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhuli",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "49",
+        "BankName": "Siddhartha Bank Limited (SBL)",
+        "BranchName": "DUDHAULI BRANCH",
+        "Location": "Ward No: 9, Dudhauli Bazar, Dudhauli Municipality, Sindhuli, Nepal",
+        "Contact": "Phone: 047-412021/22Email:&nbsp;sbldli@sbl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhuli",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "54",
+        "BankName": "Prabhu Bank Limited (PRVU)",
+        "BranchName": "Dudhauli Branch (दुधौली शाखा)",
+        "Location": "Dudhauli Chauki,Dudhauli Municipality-9, Sindhuli",
+        "Contact": "Phone: 047-412085Email:&nbsp;bhola.parajuli@prabhubank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhuli",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "56",
+        "BankName": "Prime Commercial Bank Limited (PCBL)",
+        "BranchName": "FIKKAL BRANCH",
+        "Location": "Fikkal, Sindhuli",
+        "Contact": "Phone: 9851097095",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhuli",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "58",
+        "BankName": "Nepal SBI Bank Limited (SBI)",
+        "BranchName": "Ghyanglekh Branch (433)",
+        "Location": "Ghyanglekh Gaunpalika-2, Sindhuli",
+        "Contact": "Email:&nbsp;ghyanglekh@nsbl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhuli",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "59",
+        "BankName": "Siddhartha Bank Limited (SBL)",
+        "BranchName": "GOLANJOR",
+        "Location": "Ward No. 05 Goltar, Golanjar Rural Municipality, Sindhuli",
+        "Contact": "Phone: 047- 692041Email:&nbsp;sblglj@sbl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhuli",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "63",
+        "BankName": "Citizens Bank International Limited (CZBIL)",
+        "BranchName": "HARIHARPURGADI BRANCH",
+        "Location": "Sindhuli, Hariharpurgadi RM Ward no 1",
+        "Contact": "Phone: 01- 6201846Email:&nbsp;info@ctznbank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhuli",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "66",
+        "BankName": "Prabhu Bank Limited (PRVU)",
+        "BranchName": "Kamalamai 354Branch (कमलामाई शाखा)",
+        "Location": "Bank Road, 2 No. BazaarKamalamai Municipality-6, Sindhuli",
+        "Contact": "Phone: 047-521062Email:&nbsp;hemhari.shrestha@prabhubank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhuli",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "71",
+        "BankName": "Muktinath Bikas Bank Ltd.",
+        "BranchName": "Kamalamai Branch",
+        "Location": "Kamalamai Municipality-6, Dhura Bazar, Sindhuli",
+        "Contact": "Phone: 047-521265Email:&nbsp;kamalamai@muktinathbank.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhuli",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "77",
+        "BankName": "Nepal Investment Mega Bank Limited (NIMB)",
+        "BranchName": "KHURKOT - 155",
+        "Location": "Golanjor Rural Municipality- 07, Khurkot Bazar, Sindhuli",
+        "Contact": "Phone: 047-590448Email:&nbsp;khurkot@nimb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhuli",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "78",
+        "BankName": "Prabhu Bank Limited (PRVU)",
+        "BranchName": "KHURKOT (खुर्कोट शाखा)",
+        "Location": "Golanjor Gaupalika, Sindhuli",
+        "Contact": "Phone: 9841007812Email:&nbsp;madhu.lamichhane@prabhubank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhuli",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "81",
+        "BankName": "Kumari Bank Limited (KBL)",
+        "BranchName": "Khurkot Branch",
+        "Location": "Golanjor, Khurkot",
+        "Contact": "Phone: 047-590489/490Email:&nbsp;khurkot@kumaribank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhuli",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "84",
+        "BankName": "Himalayan Bank Limited (HBL)",
+        "BranchName": "Khurkot Branch",
+        "Location": "Golanjor Rural Municipality 07, Khurkot, Sindhuli",
+        "Contact": "Phone: 047-590098Email:&nbsp;khurkot@himalayanbank.com,&nbsp;sunita.ulak@himalayanbank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhuli",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "90",
+        "BankName": "Laxmi Sunrise Bank Limited (LSBL)",
+        "BranchName": "Ramtar Branch",
+        "Location": "Ramtar, Sunkoshi, Ward No. 5 Ramtar, Bagmati Pradesh, 45900",
+        "Contact": "Phone: 9854022324",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhuli",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "92",
+        "BankName": "NIC Asia Laghubitta Bittiya Sanstha Ltd",
+        "BranchName": "Ranibas",
+        "Location": "kamalamai -13, Sindhuli",
+        "Contact": "Phone: 9802269253, 9844313919Email:&nbsp;ranibas@nicasialaghubitta.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhuli",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "97",
+        "BankName": "Global IME Bank Limited (GBIME)",
+        "BranchName": "Sindhuli Branch",
+        "Location": "Kamalamai 06, 2 No Bazar Sindhulimadhi, Sindhuli",
+        "Contact": "Phone: +977 047-521356&Acirc; , BM: 9802261140Email:&nbsp;sindhuli@gibl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhuli",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "99",
+        "BankName": "Laxmi Sunrise Bank Limited (LSBL)",
+        "BranchName": "Sindhuli Branch",
+        "Location": "1 Number Bazar - 6, Kamalamai Sindhuli, Janakpur, 45900",
+        "Contact": "Phone: 047-520329Email:&nbsp;sindhuli@laxmibank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhuli",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "104",
+        "BankName": "NIC ASIA Bank Limited (NICA)",
+        "BranchName": "Sindhuli Branch",
+        "Location": "Kamalamai Nagarpalika, Ward No. 6, Sindhuli",
+        "Contact": "Phone: 047-521201 ,047-521202, 9801982206Email:&nbsp;ujjwal.devkota@nicasiabank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhuli",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "107",
+        "BankName": "Jyoti Bikash Bank Limited (JBBL)",
+        "BranchName": "Sindhuli Branch",
+        "Location": "Kamalamai Muncipality-6, Sindhulibazar",
+        "Contact": "Phone: 047-521093, 9802314170Email:&nbsp;anup.yonjan@jbbl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhuli",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "109",
+        "BankName": "Siddhartha Bank Limited (SBL)",
+        "BranchName": "SINDHULI BRANCH",
+        "Location": "Ward No.6, Kamlamai Municipality, Madhi Bazar -1, Sindhuli, Nepal",
+        "Contact": "Phone: 047-520747/48Email:&nbsp;sblsin@sbl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhuli",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "115",
+        "BankName": "Kumari Bank Limited (KBL)",
+        "BranchName": "Sindhuli Branch",
+        "Location": "Kamalamai, Sindhuli Bazar",
+        "Contact": "Phone: 047-520260/261Email:&nbsp;sindhuli@kumaribank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhuli",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "116",
+        "BankName": "Citizens Bank International Limited (CZBIL)",
+        "BranchName": "SINDHULI BRANCH",
+        "Location": "Kamalamai-06, Sindhuli",
+        "Contact": "Phone: +977-047-520262Email:&nbsp;info@ctznbank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhuli",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "121",
+        "BankName": "Prabhu Bank Limited (PRVU)",
+        "BranchName": "Sindhuli Branch",
+        "Location": "Kamalamai Municipality-6, Sindhuli Bazar, Sindhuli, Sindhuli Madhi",
+        "Contact": "Phone: 047-520720Email:&nbsp;radhika.shrestha@prabhubank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhuli",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "124",
+        "BankName": "Prime Commercial Bank Limited (PCBL)",
+        "BranchName": "Sindhuli Branch",
+        "Location": "Bank Road, Sindhuli",
+        "Contact": "Phone: 047-520632",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhuli",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "126",
+        "BankName": "Nepal SBI Bank Limited (SBI)",
+        "BranchName": "Sindhuli Madi Branch (421)",
+        "Location": "Kamalamai Municipality-6, Sindhuli",
+        "Contact": "Phone: 047-521313Email:&nbsp;sindhulimadi@nsbl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhuli",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "129",
+        "BankName": "Nepal Investment Mega Bank Limited (NIMB)",
+        "BranchName": "SINDHULIMADHI - 088",
+        "Location": "Kamalamai Municipality -06, 2 No. Bazar, Sindhuli",
+        "Contact": "Phone: 047-590470,047-590471,047-590472Email:&nbsp;customerservicesm@nimb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhuli",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "136",
+        "BankName": "Global IME Bank Limited (GBIME)",
+        "BranchName": "TINPATAN BRANCH",
+        "Location": "Tinpatan Rural Municipality, Ward - 7, Sindhuli",
+        "Contact": "Phone: 9820126328Email:&nbsp;tinpatan@gibl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhuli",
+	    "Locallevel" : ""
+    },
+    {
         "SN": "2",
         "BankName": "Nabil Bank Limited (NABIL)",
         "BranchName": "Bahrabise Branch",
