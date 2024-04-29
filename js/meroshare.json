@@ -72,5 +72,38 @@
         "Email": "ganapati.micro@gmail.com",
         "Website": "www.ganapatimicro.com.np",
          "Units": "14"
+    },
+    {
+        "SN": "184",
+        "Name": "Green Ventures Limited",
+        "Symbol": "GVL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "frontdesk@trivenihydro.com",
+        "Website": "www.greenventuresnepal.com",
+         "Units": "10"
+    },
+    {
+        "SN": "4",
+        "Name": "Himalayan Bank Limited",
+        "Symbol": "HBL",
+        "Status": "Active",
+        "Sector": "Commercial Banks",
+        "Instrument": "Equity",
+        "Email": "legal@himalayanbank.com",
+        "Website": "https://www.himalayanbank.com",
+         "Units": "94"
+    },
+    {
+        "SN": "249",
+        "Name": "Himalayan Reinsurance Limited",
+        "Symbol": "HRL",
+        "Status": "Active",
+        "Sector": "Others",
+        "Instrument": "Equity",
+        "Email": "contactus@himalayanre.com",
+        "Website": "www.himalayanre.com",
+         "Units": "40"
     }
 ]
