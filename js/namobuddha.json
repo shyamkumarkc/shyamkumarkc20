@@ -1,5 +1,265 @@
 [
     {
+        "SN": "1",
+        "BankName": "NMB Bank Limited (NMB)",
+        "BranchName": "Dhunche Branch",
+        "Location": "Dhunche Bazaar - 6, Rasuwa",
+        "Contact": "Phone: 10-540032/33Email:&nbsp;hum.paudel@nmb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Rasuwa",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "2",
+        "BankName": "Kumari Bank Limited (KBL)",
+        "BranchName": "Amachhodingbo Branch",
+        "Location": "Rasuwa, Bagmati Province, Thamujit, Rasuwa",
+        "Contact": "Phone: 9863652679Email:&nbsp;amachhodingbo@kumaribank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Rasuwa",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "3",
+        "BankName": "Kumari Bank Limited (KBL)",
+        "BranchName": "AMACHHODINGMO BRANCH",
+        "Location": "Thamujit, Rasuwa",
+        "Contact": "Phone: 989863652679Email:&nbsp;amachhodingbo@kumaribank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Rasuwa",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "7",
+        "BankName": "Himalayan Bank Limited (HBL)",
+        "BranchName": "Betrawati Branch",
+        "Location": "Laharepauwa, Betrawati, Rasuwa",
+        "Contact": "Phone: 010-412001Email:&nbsp;betrawati@himalayanbank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Rasuwa",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "11",
+        "BankName": "Rastriya Banijya Bank Limited (RBBL)",
+        "BranchName": "Branch Office Kalikasthan",
+        "Location": "Kalikasthan, Rasuwa",
+        "Contact": "Phone: 977-10-542129Email:&nbsp;kalikasthan@rbb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Rasuwa",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "16",
+        "BankName": "Agricultural Development Bank Limited (ADBL)",
+        "BranchName": "Branch Office, Dhunche",
+        "Location": "Gosaikunda -6, Dhunche Bazaar",
+        "Contact": "Phone: 01-0540166",
+	     "Province" : "Bagmati Province",
+	    "District" : "Rasuwa",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "18",
+        "BankName": "Nabil Bank Limited (NABIL)",
+        "BranchName": "Dhunche Branch",
+        "Location": "Rasuwa District, Gosaikunda Rural Municipality- 6, Dhunche",
+        "Contact": "Phone: +977 010-540015 +977 010-540014Email:&nbsp;Rajesh.Bhetuwal@nabilbank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Rasuwa",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "19",
+        "BankName": "Nepal Bank Limited (NBL)",
+        "BranchName": "Dhunche Branch",
+        "Location": "Dhunche, Rasuwa",
+        "Contact": "Phone: 010-540278Email:&nbsp;nbldhunche@nepalbank.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Rasuwa",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "21",
+        "BankName": "Global IME Bank Limited (GBIME)",
+        "BranchName": "Dhunche Branch",
+        "Location": "Dhunche, Rasuwa",
+        "Contact": "Phone: 01-0540028, BM: 9802261160Email:&nbsp;dhunche@gibl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Rasuwa",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "26",
+        "BankName": "Prime Commercial Bank Limited (PCBL)",
+        "BranchName": "Kalika Branch",
+        "Location": "Kalika,Rasuwa",
+        "Contact": "Phone: 010542115",
+	     "Province" : "Bagmati Province",
+	    "District" : "Rasuwa",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "31",
+        "BankName": "Global IME Bank Limited (GBIME)",
+        "BranchName": "Kalikasthan Branch",
+        "Location": "Kalika Rural Municipality, Rasuwa 02",
+        "Contact": "Phone: +977 010-542116/17, BM: 9802261174Email:&nbsp;kalikasthan@gibl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Rasuwa",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "32",
+        "BankName": "Lumbini Bikas Bank Ltd.",
+        "BranchName": "Kalikasthan Branch [043]",
+        "Location": "Kalikasthan, Rasuwa",
+        "Contact": "Phone: 010-542073Email:&nbsp;shambhu.neupane@lumbinibikasbank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Rasuwa",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "33",
+        "BankName": "ICFC Finance Limited (ICFC)",
+        "BranchName": "Kalikasthan Branch, Rasuwa",
+        "Location": "Rasuwa",
+        "Contact": "Phone: 010-542040 9849160545Email:&nbsp;bimal.karki@icfcbank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Rasuwa",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "35",
+        "BankName": "Prabhu Bank Limited (PRVU)",
+        "BranchName": "Langtang Branch",
+        "Location": "Gosaikunda Rural Municipality-4, Langtang, Rasuwa",
+        "Contact": "Phone: 01-6924030Email:&nbsp;Suraj.neupane@prabhubank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Rasuwa",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "36",
+        "BankName": "Global IME Bank Limited (GBIME)",
+        "BranchName": "Naukunda Branch",
+        "Location": "Naukunda-03, saramthali, Rasuwa",
+        "Contact": "Phone: +977 01-6924572/016924573, BM: 9802261237Email:&nbsp;naukunda@gibl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Rasuwa",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "39",
+        "BankName": "Nepal Investment Mega Bank Limited (NIMB)",
+        "BranchName": "SYAFFRUBESI - 091",
+        "Location": "Gosainkunda Rural Municipality - 05,Syaffrubesi Bazar, Rasuwa",
+        "Contact": "Phone: 010-541001/2Email:&nbsp;syafrubesi@nimb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Rasuwa",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "42",
+        "BankName": "NIC ASIA Bank Limited (NICA)",
+        "BranchName": "Syafrubesi Branch",
+        "Location": "Gosaikunda Gaunpalika, Ward No. 05, Syafrubesi, Rasuwa",
+        "Contact": "Phone: 010-541113/010-541114, 9801982299Email:&nbsp;pratik.neupane@nicasiabank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Rasuwa",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "45",
+        "BankName": "Prabhu Bank Limited (PRVU)",
+        "BranchName": "Syaprubesi Branch",
+        "Location": "Gosaikunda Rural Municipality-5, Syafrubesi, Rasuwa (Near Kerung Border)",
+        "Contact": "Phone: 010-541080/81Email:&nbsp;anil.bhandari@prabhubank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Rasuwa",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "47",
+        "BankName": "Nepal Investment Mega Bank Limited (NIMB)",
+        "BranchName": "TIMURE - 047",
+        "Location": "Manengawa, Timure, Rasuwa",
+        "Contact": "Phone: 010-543054, 010-543055Email:&nbsp;timure@nimb.com.np&nbsp;010-543053",
+	     "Province" : "Bagmati Province",
+	    "District" : "Rasuwa",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "50",
+        "BankName": "Machhapuchchhre Bank Limited (MBL)",
+        "BranchName": "Timure Branch",
+        "Location": "Timure, Gosainkunda Rural Municipality, Rasuwa",
+        "Contact": "Phone: +977-010-543115 ,9842031922Email:&nbsp;vickey.shrestha@mbl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Rasuwa",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "51",
+        "BankName": "Sanima Bank Limited (SANIMA)",
+        "BranchName": "TIMURE BRANCH",
+        "Location": "Timure, Gosainkunda-2, Rasuwa",
+        "Contact": "Phone: 00977-10-543070 / 71Email:&nbsp;timure@sanimabank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Rasuwa",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "52",
+        "BankName": "Nabil Bank Limited (NABIL)",
+        "BranchName": "Timure Branch",
+        "Location": "Rasuwa District, Gosaikunda Rural Municipality- 9, Timure",
+        "Contact": "Phone: 010-543022Email:&nbsp;Rajendra.Pandey@nabilbank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Rasuwa",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "53",
+        "BankName": "Kumari Bank Limited (KBL)",
+        "BranchName": "TIMURE BRANCH",
+        "Location": "Timure, Rasuwa",
+        "Contact": "Phone: 01-0543119Email:&nbsp;timure@kumaribank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Rasuwa",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "54",
+        "BankName": "NMB Bank Limited (NMB)",
+        "BranchName": "Timure Branch",
+        "Location": "Gosaikunda - 2, Rasuwa",
+        "Contact": "Phone: 10-543026Email:&nbsp;madan.thapa@nmb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Rasuwa",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "55",
+        "BankName": "Prabhu Bank Limited (PRVU)",
+        "BranchName": "Timure Branch",
+        "Location": "Gosaikunda Gaunpalika-2, Timure, Rasuwa",
+        "Contact": "Phone: 010543116Email:&nbsp;ganesh.sapkota@prabhubank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Rasuwa",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "56",
+        "BankName": "Global IME Bank Limited (GBIME)",
+        "BranchName": "TIMURE BRANCH",
+        "Location": "Gosaikunda-2, Timure, Rasuwa",
+        "Contact": "Phone: 9802261181, 010-543087Email:&nbsp;timure@gibl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Rasuwa",
+	    "Locallevel" : ""
+    },
+    {
         "SN": "4",
         "BankName": "Nepal Investment Mega Bank Limited (NIMB)",
         "BranchName": "BAGKHOR - 157",
