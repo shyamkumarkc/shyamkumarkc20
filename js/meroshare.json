@@ -105,5 +105,46 @@
         "Email": "contactus@himalayanre.com",
         "Website": "www.himalayanre.com",
          "Units": "40"
-    }
+    },
+    {
+        "SN": "228",
+        "Name": "IME Life Insurance Company Limited",
+        "Symbol": "ILI",
+        "Status": "Active",
+        "Sector": "Life Insurance",
+        "Instrument": "Equity",
+        "Email": "info@imelifeinsurance.com",
+        "Website": "www.imelifeinsurance.com",
+         "Units": "10"
+    },{
+        "SN": "10",
+        "Name": "Kumari Bank Limited",
+        "Symbol": "KBL",
+        "Status": "Active",
+        "Sector": "Commercial Banks",
+        "Instrument": "Equity",
+        "Email": "info@kumaribank.com",
+        "Website": "http://www.kumaribank.com",
+         "Units": "1124"
+    }, {
+        "SN": "225",
+        "Name": "Modi Energy Limited",
+        "Symbol": "MEL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "info@modihydro.com",
+        "Website": "www.modihydro.com",
+         "Units": "10"
+    },{
+        "SN": "153",
+        "Name": "NIC ASIA Laghubitta Bittiya Sanstha Limited",
+        "Symbol": "NICLBSL",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "compliance@nicasialaghubitta.com",
+        "Website": "www.nicasialaghubitta.com",
+         "Units": "10"
+    },
 ]
