@@ -207,5 +207,47 @@
         "Email": "info@prabhuinsurance.com",
         "Website": "http://www.prabhuinsurance.com",
          "Units": "97"
+    },
+    {
+        "SN": "53",
+        "Name": "Prabhu Bank Limited",
+        "Symbol": "PRVU",
+        "Status": "Active",
+        "Sector": "Commercial Banks",
+        "Instrument": "Equity",
+        "Email": "amit.bhandari@prabhubank.com",
+         "Units": "701"
+    },
+    {
+        "SN": "125",
+        "Name": "Radhi Bidyut Company Ltd",
+        "Symbol": "RADHI",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "info@radhibidyut.com.np",
+         "Units": "45"
+    },
+    {
+        "SN": "147",
+        "Name": "RASUWAGADHI HYDROPOWER COMPANY LIMITED",
+        "Symbol": "RHPL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "neupane.nar@gmail.com",
+        "Website": "www.rghpcl.com.np",
+         "Units": "80"
+    },
+    {
+        "SN": "148",
+        "Name": "SANJEN JALAVIDHYUT COMPANY LIMITED",
+        "Symbol": "SJCL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "sanjenhcl@gmail.com",
+        "Website": "www.sjcl.com.np",
+         "Units": "10"
     }
 ]
