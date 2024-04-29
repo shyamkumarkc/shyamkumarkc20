@@ -39,5 +39,16 @@
         "Email": "rajendra.shrestha@ctznbank.com",
         "Website": "www.ctznbank.com",
         "Units": "13"
+    },
+    {
+        "SN": "230",
+        "Name": "Ghorahi Cement Industry Limited",
+        "Symbol": "GCIL",
+        "Status": "Active",
+        "Sector": "Manufacturing And Processing",
+        "Instrument": "Equity",
+        "Email": "enquiry@ghorahicement.com",
+        "Website": "www.ghorahicement.com.np",
+         "Units": "3"
     }
 ]
