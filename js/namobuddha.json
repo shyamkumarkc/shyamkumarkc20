@@ -1,4 +1,454 @@
-[
+[[
+    {
+        "SN": "2",
+        "BankName": "Nabil Bank Limited (NABIL)",
+        "BranchName": "Bahrabise Branch",
+        "Location": "Sindhupalchowk District, Bahrabise Municipality- 4, Kodari Marg Liping",
+        "Contact": "Phone: +977 11-489022 , +977 11 4890220 , 9851198291Email:&nbsp;Jeewan.Paudel@nabilbank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "5",
+        "BankName": "NIC ASIA Bank Limited (NICA)",
+        "BranchName": "Balephi Branch",
+        "Location": "Balefi Gaunpalika, Ward no. 05, Sidhupalchowk",
+        "Contact": "Phone: 9801982351/ 9801982352Email:&nbsp;jeevan.bishowkarma@nicasiabank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "7",
+        "BankName": "Prabhu Bank Limited (PRVU)",
+        "BranchName": "Barabise Branch",
+        "Location": "Bahrabise Municipality-9",
+        "Contact": "Phone: 011-489258Email:&nbsp;sudev.thapa@prabhubank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "10",
+        "BankName": "Himalayan Bank Limited (HBL)",
+        "BranchName": "Barahabise Branch",
+        "Location": "Barahabise Bazar, Sindhupalchowk",
+        "Contact": "Phone: 011-489290Email:&nbsp;barahbise@himalayanbank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "12",
+        "BankName": "Kumari Bank Limited (KBL)",
+        "BranchName": "Barahbise Branch",
+        "Location": "Barahbise Bazar",
+        "Contact": "Phone: 011-489098/095/298Email:&nbsp;barahbise@kumaribank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "14",
+        "BankName": "Global IME Bank Limited (GBIME)",
+        "BranchName": "Barhabise Branch",
+        "Location": "Bus Park, Barhabise Bazar, Ramche VDC",
+        "Contact": "Phone: +977 011-489268, BM: 9802261078Email:&nbsp;barhabise@gibl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "16",
+        "BankName": "Himalayan Bank Limited (HBL)",
+        "BranchName": "Barhabise Branch",
+        "Location": "Barhabise 4, Sindupalchowk",
+        "Contact": "Phone: 11-489290Email:&nbsp;barahbise@himalayanbank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "19",
+        "BankName": "Agricultural Development Bank Limited (ADBL)",
+        "BranchName": "Branch Chautara",
+        "Location": "Sindhupalchok",
+        "Contact": "Phone: 011-620119Email:&nbsp;chautara.branch@adbl.gov.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "23",
+        "BankName": "Rastriya Banijya Bank Limited (RBBL)",
+        "BranchName": "Branch Office Chautara",
+        "Location": "Chautara, Sindhupalchok",
+        "Contact": "Phone: 977-011-620080/620081Email:&nbsp;chautara@rbb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "31",
+        "BankName": "Rastriya Banijya Bank Limited (RBBL)",
+        "BranchName": "Branch Office Jalbire",
+        "Location": "Jalbire, SIndhupalanchok",
+        "Contact": "Phone: 977-11-403084Email:&nbsp;jalbire@rbb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "34",
+        "BankName": "Agricultural Development Bank Limited (ADBL)",
+        "BranchName": "Branch Office, Barhabise",
+        "Location": "Bahrabise -4, Barhabise Bazar",
+        "Contact": "Phone: 01-1489304",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "35",
+        "BankName": "Agricultural Development Bank Limited (ADBL)",
+        "BranchName": "Branch Office, Melamchi",
+        "Location": "Melamchi-11, Melamchi Bazar",
+        "Contact": "Phone: 01-6200763",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "36",
+        "BankName": "Nepal Investment Mega Bank Limited (NIMB)",
+        "BranchName": "CHAUTARA - 101",
+        "Location": "Chautarasangachowkgadi Municipality - 05, Chautara, Sindhupalchok",
+        "Contact": "Phone: 011-620412/13Email:&nbsp;chautara@nimb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "38",
+        "BankName": "Global IME Bank Limited (GBIME)",
+        "BranchName": "Chautara Branch",
+        "Location": "Chautara, Sangachowkgadhi Sindhupalchok 05",
+        "Contact": "Phone: +977 011-620406,011-620407, BM: 9802261162Email:&nbsp;chautara@gibl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "40",
+        "BankName": "Muktinath Bikas Bank Ltd.",
+        "BranchName": "Chautara Branch",
+        "Location": "Chautara Sangachowkgadi Municipality - 05 Chautara, Sindhupalchowk",
+        "Contact": "Phone: 011-620412/13",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "41",
+        "BankName": "Sindhu Bikash Bank Limited (SINDU)",
+        "BranchName": "Chautara Branch",
+        "Location": "Chautara Sanga Chowk-5, Chautara Bazar, Sindhupalchowk",
+        "Contact": "Phone: 011-620429Email:&nbsp;chautara@sindhubank.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "43",
+        "BankName": "Kumari Bank Limited (KBL)",
+        "BranchName": "Chautara Branch",
+        "Location": "Chautara, Sindhupalchowk",
+        "Contact": "Phone: 011-620401/02Email:&nbsp;chautara@kumaribank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "45",
+        "BankName": "Nepal Bank Limited (NBL)",
+        "BranchName": "Chautara Branch",
+        "Location": "Chautara, Sindhupalchok",
+        "Contact": "Phone: 011-620105Email:&nbsp;nblchautara@nepalbank.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "47",
+        "BankName": "Laxmi Sunrise Bank Limited (LSBL)",
+        "BranchName": "Chautara Branch",
+        "Location": "Naya bazar, Shahid chowk - 5, Chautara Sindhupalchowk, Bagmati, 45300",
+        "Contact": "Phone: 011-620404Email:&nbsp;chautara@laxmibank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "53",
+        "BankName": "Sindhu Bikash Bank Limited (SINDU)",
+        "BranchName": "Head Office",
+        "Location": "Barhabise-4 , Barhabise Bazar, Sindhupalchowk",
+        "Contact": "Phone: 011-489245 , 011-489246Email:&nbsp;barabise@sindhubank.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "54",
+        "BankName": "Nepal Investment Mega Bank Limited (NIMB)",
+        "BranchName": "HELAMBU - 170",
+        "Location": "Helambu Rural Municipality- 02, Kiul Bazar, Sindhupalchwok",
+        "Contact": "Phone: 9841791955/9843081079/9818675013Email:&nbsp;helambu@nimb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "56",
+        "BankName": "Nepal Investment Mega Bank Limited (NIMB)",
+        "BranchName": "INDRAWATI - 173",
+        "Location": "Indrawati Rural Municipality-04, Nawalpur, Sindhupalchowk",
+        "Contact": "Phone: 9751005000, 9851335755 , 9863591336Email:&nbsp;indrawati@nimb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "58",
+        "BankName": "Sindhu Bikash Bank Limited (SINDU)",
+        "BranchName": "Jalbire Branch",
+        "Location": "Balephi-1, Jalbire Bazar, Sindhupalchowk",
+        "Contact": "Phone: 011-403006Email:&nbsp;jalbire@sindhubank.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "60",
+        "BankName": "Kumari Bank Limited (KBL)",
+        "BranchName": "JALBIRE BRANCH",
+        "Location": "Sindhupalchowk",
+        "Contact": "Phone: 011 - 403051Email:&nbsp;jalbire@kumaribank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "64",
+        "BankName": "Kumari Bank Limited (KBL)",
+        "BranchName": "Jugal Branch",
+        "Location": "Dhade, Sindhupalchowk",
+        "Contact": "Phone: 9851124404Email:&nbsp;jugal@kumaribank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "67",
+        "BankName": "Global IME Bank Limited (GBIME)",
+        "BranchName": "Khadichaur Branch",
+        "Location": "Mankha-06, Khadichaur, Sindhupalchowk",
+        "Contact": "Phone: +977 011-482143, BM: 9802261147Email:&nbsp;khadichaur@gibl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "68",
+        "BankName": "Laxmi Sunrise Bank Limited (LSBL)",
+        "BranchName": "Khadichaur Branch",
+        "Location": "Khadichaur Bazar - 7, Sunkoshi Sindhupalchowk, Bagmati, 45300",
+        "Contact": "Phone: 011-482158Email:&nbsp;khadichaur@laxmibank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "69",
+        "BankName": "Sindhu Bikash Bank Limited (SINDU)",
+        "BranchName": "Khadichaur Branch",
+        "Location": "Balephi-7 ,Khadichaur Bazar, Sindhupalchowk",
+        "Contact": "Phone: 011-482148 , 011-482149Email:&nbsp;khadichaur@sindhubank.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "72",
+        "BankName": "Mahalaxmi Bikas Bank Limited",
+        "BranchName": "KHADICHOUR BRANCH",
+        "Location": "Khadichaur Municipality-7, khadichour",
+        "Contact": "Phone: 9841176648 011-482150, 011-482152 011-482152Email:&nbsp;Khadichaur@mahalaxmibank.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "76",
+        "BankName": "Sindhu Bikash Bank Limited (SINDU)",
+        "BranchName": "Lamosanghu Branch",
+        "Location": "Balephi-8, Lamosanghu, Sindhupalchowk",
+        "Contact": "Phone: 011-495056 , 011-495057Email:&nbsp;lamosanghu@sindhubank.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "77",
+        "BankName": "Laxmi Sunrise Bank Limited (LSBL)",
+        "BranchName": "Lisankhupakhar Branch",
+        "Location": "Lisankhupakhar Rural Municipality -7, Thulopakhar Sindhupalchowk, Bagmati, 45300",
+        "Contact": "Phone: 16220744Email:&nbsp;lisankhupakhar@laxmibank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "80",
+        "BankName": "Laxmi Sunrise Bank Limited (LSBL)",
+        "BranchName": "Melamchi Branch",
+        "Location": "Melamchi-11, Sindhupalchowk Sindhupalchowk, Bagmati, 45310",
+        "Contact": "Phone: 011-401085, 401090Email:&nbsp;melamchi@laxmibank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "81",
+        "BankName": "Sindhu Bikash Bank Limited (SINDU)",
+        "BranchName": "Melamchi Branch",
+        "Location": "Melamchi-11,Melamchi Bazar, Sindhupalchowk",
+        "Contact": "Phone: 011-401007 , 011-401069Email:&nbsp;melamchi@sindhubank.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "82",
+        "BankName": "Kumari Bank Limited (KBL)",
+        "BranchName": "MELAMCHI BRANCH",
+        "Location": "Melamchi, Sindhupalchowk",
+        "Contact": "Phone: 011-401087/97Email:&nbsp;melamchi@kumaribank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "87",
+        "BankName": "Himalayan Bank Limited (HBL)",
+        "BranchName": "Melamchi Branch",
+        "Location": "Melanchi Municipality-11,Sindhupalchok",
+        "Contact": "Phone: 011-401054, 011-401055Email:&nbsp;melamchi@himalayanbank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "90",
+        "BankName": "Nepal Bank Limited (NBL)",
+        "BranchName": "Melamchi Branch (168)",
+        "Location": "Melamchi, Sindhupalchowk",
+        "Contact": "Phone: 011-401016, 401017Email:&nbsp;nblmelamchi@nepalbank.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "92",
+        "BankName": "Sindhu Bikash Bank Limited (SINDU)",
+        "BranchName": "Mude Branch",
+        "Location": "Lisankhu Pakhar-5, Mude Bazar, Sindhupalchowk",
+        "Contact": "Phone: 9851343629Email:&nbsp;mude@sindhubank.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "99",
+        "BankName": "Nepal Investment Mega Bank Limited (NIMB)",
+        "BranchName": "PANCHPOKHARI - 183",
+        "Location": "Panchpokhari Thanpaldhap Rural Municipality - 06,Panchpokhari, Sindhupalchok",
+        "Contact": "Phone: 9851331761Email:&nbsp;panchpokhari@nimb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "102",
+        "BankName": "Nepal Investment Mega Bank Limited (NIMB)",
+        "BranchName": "PISKAR - 073",
+        "Location": "Piskar, Tripurasundari Gaupalika, Sindhupalchowk",
+        "Contact": "Phone: 9851117090Email:&nbsp;customerservicePI@nimb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "104",
+        "BankName": "Sindhu Bikash Bank Limited (SINDU)",
+        "BranchName": "Sildhunga Limited Banking Outlet/ Under Mude Branc",
+        "Location": "Lisankhu Pakhar-5, Sildhunga, Sindhupalchowk",
+        "Contact": "Phone: 9851350694Email:&nbsp;dhunga@sindhubank.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "106",
+        "BankName": "Sindhu Bikash Bank Limited (SINDU)",
+        "BranchName": "Sukute Branch",
+        "Location": "Sanga chowk-1, Sukute Bazar, Sindhupalchowk",
+        "Contact": "Phone: 011-400033",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "109",
+        "BankName": "Machhapuchchhre Bank Limited (MBL)",
+        "BranchName": "Tatopani Branch",
+        "Location": "Khokundole, Tatopani, Bhotekoshi -04",
+        "Contact": "Phone: +977-011-480007, 480003Email:&nbsp;sushil.shrestha1@mbl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "110",
+        "BankName": "Nabil Bank Limited (NABIL)",
+        "BranchName": "Tatopani Branch",
+        "Location": "Sindhupalchowk District, Bhotekoshi Rural Municipality- 4, Bhotekoshi Rural Municipality",
+        "Contact": "Phone: 011-480005Email:&nbsp;BalGopal.Manandhar@nabilbank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "114",
+        "BankName": "Kumari Bank Limited (KBL)",
+        "BranchName": "Tatopani Extension Counter",
+        "Location": "Bhotekoshi Rural Municipality",
+        "Contact": "Phone: 011-480135",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "115",
+        "BankName": "Sindhu Bikash Bank Limited (SINDU)",
+        "BranchName": "Thokarpa Branch",
+        "Location": "Sunkoshi-1, Bagh Bhairab, Sindhupalchowk",
+        "Contact": "Phone: 9851331715Email:&nbsp;thokarpa@sindhubank.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Sindhupalchowk",
+	    "Locallevel" : ""
+    },
 
     {
         "SN": "1",
