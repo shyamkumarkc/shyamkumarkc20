@@ -282,5 +282,59 @@
         "Email": "sanima@sanimageneral.com",
         "Website": "www.sanimageneral.com",
          "Units": "10"
+    },
+    {
+        "SN": "244",
+        "Name": "Trishuli Jal Vidhyut Company Limited",
+        "Symbol": "TVCL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "tjvclshare2080@gmail.com",
+         "Units": "20"
+    },
+    {
+        "SN": "192",
+        "Name": "Upper Hewakhola Hydropower Company Limited",
+        "Symbol": "UHEWA",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "upperhewahpc@gmail.com",
+        "Website": "upperhewahpc.com.np",
+         "Units": "10"
+    },
+    {
+        "SN": "124",
+        "Name": "Unnati Sahakarya Laghubitta Bittiya Sanstha Limited",
+        "Symbol": "USLB",
+        "Status": "Active",
+        "Sector": "Microfinance",
+        "Instrument": "Equity",
+        "Email": "prempathak021@gmail.com",
+        "Website": "http://www.unnatimfi.com.np",
+         "Units": "10"
+    },
+    {
+        "SN": "245",
+        "Name": "Vision Lumbini Urja Company Limited",
+        "Symbol": "VLUCL",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "urja@visionlumbini.com.np",
+        "Website": "www.urja.visionlumbini.com.np",
+         "Units": "10"
+    },
+    {
+        "SN": "133",
+        "Name": "Upper Tamakoshi Hydropower Ltd",
+        "Symbol": "UPPER",
+        "Status": "Active",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Email": "office@utkhpl.org.np",
+        "Website": "www.tamakhosihydro.org.np",
+         "Units": "80"
     }
 ]
