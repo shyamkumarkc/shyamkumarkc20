@@ -1,5 +1,325 @@
 [
     {
+        "SN": "4",
+        "BankName": "Nepal Investment Mega Bank Limited (NIMB)",
+        "BranchName": "BAGKHOR - 157",
+        "Location": "Shailung Rural Municipality - 03, Katakuti, Bagkhor, Dolakha",
+        "Contact": "Phone: 049-691324, 049-430056Email:&nbsp;bagkhor@nimb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Dolakha",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "6",
+        "BankName": "Muktinath Bikas Bank Ltd.",
+        "BranchName": "Bagkhor Branch",
+        "Location": "Shailung Rural Municipality - 03 Katakuti, Bagkhor, Dolakha",
+        "Contact": "Phone: 049-691324/430056",
+	     "Province" : "Bagmati Province",
+	    "District" : "Dolakha",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "7",
+        "BankName": "Prime Commercial Bank Limited (PCBL)",
+        "BranchName": "Baiteshwor Branch",
+        "Location": "Baiteshwor,Dolakha",
+        "Contact": "Phone: 049-411088, 049-411089",
+	     "Province" : "Bagmati Province",
+	    "District" : "Dolakha",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "9",
+        "BankName": "Rastriya Banijya Bank Limited (RBBL)",
+        "BranchName": "Branch Office Charikot",
+        "Location": "Charikot, Dolakha",
+        "Contact": "Phone: 977-49-421302Email:&nbsp;charikot@rbb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Dolakha",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "10",
+        "BankName": "Agricultural Development Bank Limited (ADBL)",
+        "BranchName": "Branch Office, Charikot",
+        "Location": "Bhimeshwor -3, Midle Market",
+        "Contact": "Phone: 04-9421166",
+	     "Province" : "Bagmati Province",
+	    "District" : "Dolakha",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "11",
+        "BankName": "Himalayan Bank Limited (HBL)",
+        "BranchName": "Charikot",
+        "Location": "Charikot",
+        "Contact": "Email:&nbsp;shiva.shrestha@himalayanbank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Dolakha",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "13",
+        "BankName": "Siddhartha Bank Limited (SBL)",
+        "BranchName": "Charikot Branch",
+        "Location": "Ward No. 03 Bhimeshwor Municipality, Charikot, Dolakha",
+        "Contact": "Phone: 049-421121/421249Email:&nbsp;sblcrk@sbl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Dolakha",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "14",
+        "BankName": "Nepal Investment Mega Bank Limited (NIMB)",
+        "BranchName": "CHARIKOT - 153",
+        "Location": "Bhimeshwor Municipality- 03, Charikot Bazar, Dolakha",
+        "Contact": "Phone: 049-421937/38Email:&nbsp;charikot@nimb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Dolakha",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "16",
+        "BankName": "Prabhu Bank Limited (PRVU)",
+        "BranchName": "CHARIKOT 309 (चरीकोट शाखा)",
+        "Location": "Dolakha,Bich Bazar",
+        "Contact": "Phone: 049-421973Email:&nbsp;kuber.sapkota@prabhubank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Dolakha",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "17",
+        "BankName": "Mahalaxmi Bikas Bank Limited",
+        "BranchName": "CHARIKOT BRANCH",
+        "Location": "Bhimeshwor Municipality-6, Bhimeshwor",
+        "Contact": "Phone: 9841481233 049-421916, 421917 049-421918Email:&nbsp;charikot@mahalaxmibank.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Dolakha",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "19",
+        "BankName": "Muktinath Bikas Bank Ltd.",
+        "BranchName": "Charikot Branch",
+        "Location": "Bhimeshwor Municipality - 06 Charikot Bazar, Dolakha",
+        "Contact": "Phone: 049-421937/38",
+	     "Province" : "Bagmati Province",
+	    "District" : "Dolakha",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "21",
+        "BankName": "Sindhu Bikash Bank Limited (SINDU)",
+        "BranchName": "Charikot Branch",
+        "Location": "Bhimeswor-3,Charikot Bazar, Dolakha",
+        "Contact": "Phone: 049-421979Email:&nbsp;charikot@sindhubank.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Dolakha",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "24",
+        "BankName": "Himalayan Bank Limited (HBL)",
+        "BranchName": "Charikot Branch",
+        "Location": "Adity Complex, Satdobato Chowk Charikot",
+        "Contact": "Phone: 049-421869, 421868Email:&nbsp;charikot@himalayanbank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Dolakha",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "25",
+        "BankName": "NIC ASIA Bank Limited (NICA)",
+        "BranchName": "Charikot Branch",
+        "Location": "Bhimeshwor Municipality ward no. 03, Dolakha, Charikot",
+        "Contact": "Phone: 049-421922, 9801982204Email:&nbsp;ram.khatri@nicasiabank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Dolakha",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "28",
+        "BankName": "Kumari Bank Limited (KBL)",
+        "BranchName": "Charikot Branch",
+        "Location": "Charikot,Dolakha",
+        "Contact": "Phone: 049-421808/809Email:&nbsp;charikot@kumaribank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Dolakha",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "31",
+        "BankName": "Nepal Bank Limited (NBL)",
+        "BranchName": "Charikot Branch",
+        "Location": "Charikot, Dolkha",
+        "Contact": "Phone: 049-421155, 421855Email:&nbsp;nblcharikot@nepalbank.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Dolakha",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "32",
+        "BankName": "Global IME Bank Limited (GBIME)",
+        "BranchName": "Charikot Branch",
+        "Location": "Bhimeshwor &acirc;&euro;&ldquo; 6, Charikot, Dolakha",
+        "Contact": "Phone: 049-421372/73, BM: 9802261152Email:&nbsp;charikot@gibl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Dolakha",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "34",
+        "BankName": "Laxmi Sunrise Bank Limited (LSBL)",
+        "BranchName": "Charikot Branch",
+        "Location": "Bich bajar - 6, Bhimeshwor Dolakha, Janakpur, 45500",
+        "Contact": "Phone: 049-421914Email:&nbsp;charikot@laxmibank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Dolakha",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "44",
+        "BankName": "Nabil Bank Limited (NABIL)",
+        "BranchName": "CHARIKOT BRANCH",
+        "Location": "Charikot - Lamabagar Rd, Bhimeshwor Municipality 45500, Nepal",
+        "Contact": "Phone: +977 49 421882 , +977 49 421883 , 9869644187Email:&nbsp;Rabindra.KC@nabilbank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Dolakha",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "46",
+        "BankName": "Citizens Bank International Limited (CZBIL)",
+        "BranchName": "CHARIKOT BRANCH",
+        "Location": "Beech Bazzar, Charikot-06, Dolakha",
+        "Contact": "Phone: 977-049-421926, 977-049-421927, 977-049-421928, 9851192237/9812188522Email:&nbsp;info@ctznbank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Dolakha",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "53",
+        "BankName": "Prabhu Bank Limited (PRVU)",
+        "BranchName": "Dolakha Branch",
+        "Location": "Bhimeshwor Municipality-10, Charikot Bajar, Dolakha",
+        "Contact": "Phone: 049-421848/049-421847Email:&nbsp;sushil.thapa@prabhubank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Dolakha",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "61",
+        "BankName": "Himalayan Bank Limited (HBL)",
+        "BranchName": "Gaurishankar Branch",
+        "Location": "Gurumphi-6, Dolakha",
+        "Contact": "Phone: 16201748Email:&nbsp;Gaurishankar@himalayanbank.com,&nbsp;narendra.awasthi@himalayanbank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Dolakha",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "67",
+        "BankName": "Prime Commercial Bank Limited (PCBL)",
+        "BranchName": "Jiri Branch",
+        "Location": "Jiri VDC, Linkan Bazar, Dolakha",
+        "Contact": "Phone: 049-400040",
+	     "Province" : "Bagmati Province",
+	    "District" : "Dolakha",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "68",
+        "BankName": "Prabhu Bank Limited (PRVU)",
+        "BranchName": "Jiri Branch (जिरी शाखा)",
+        "Location": "Lincon Bazaar,Jiri Municipality-5, Dolakha",
+        "Contact": "Phone: 049-400099Email:&nbsp;jenash.singh@prabhubank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Dolakha",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "71",
+        "BankName": "NMB Bank Limited (NMB)",
+        "BranchName": "Kirne Branch",
+        "Location": "Sahare - 4, Kirne",
+        "Contact": "Phone: 48-410026Email:&nbsp;arjun.karki@nmb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Dolakha",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "74",
+        "BankName": "Nepal Investment Mega Bank Limited (NIMB)",
+        "BranchName": "MAINAPOKHARI - 154",
+        "Location": "Baiteshwor Rural Municipality- 05, Mainapokhari Bazar, Dolakha",
+        "Contact": "Phone: 049411006Email:&nbsp;mainapokhari@nimb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Dolakha",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "77",
+        "BankName": "Sanima Bank Limited (SANIMA)",
+        "BranchName": "MELUNG BRANCH",
+        "Location": "Melung-4, Dolakha",
+        "Contact": "Phone: 00977-9741472041Email:&nbsp;Melung@sanimabank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Dolakha",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "79",
+        "BankName": "Prabhu Bank Limited (PRVU)",
+        "BranchName": "Sanga Branch (साँगा शाखा)",
+        "Location": "Singati Bazaar,Kalinchowk Village Council-3, Dolakha",
+        "Contact": "Phone: 9841004802Email:&nbsp;surendra.shrestha@prabhubank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Dolakha",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "81",
+        "BankName": "Nepal Investment Mega Bank Limited (NIMB)",
+        "BranchName": "SINGATI - 067",
+        "Location": "Singati, Dolakha",
+        "Contact": "Phone: 049-410101, 049-410402Email:&nbsp;customerserviceSG@nimb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Dolakha",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "82",
+        "BankName": "Sindhu Bikash Bank Limited (SINDU)",
+        "BranchName": "Singati Branch",
+        "Location": "Kalinchwok-3, Singati Bazar, Dolakha",
+        "Contact": "Phone: 049410034Email:&nbsp;singati@sindhubank.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Dolakha",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "83",
+        "BankName": "Nepal Bank Limited (NBL)",
+        "BranchName": "Singati Branch",
+        "Location": "Singati, Dolkha",
+        "Contact": "Phone: 049-410122Email:&nbsp;nblsingati@nepalbank.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Dolakha",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "87",
+        "BankName": "Laxmi Sunrise Bank Limited (LSBL)",
+        "BranchName": "Tamakoshi Branch",
+        "Location": "Tamakoshi Rural Municipality, Ward No. 3, Japhe Dolakha, Janakpur , 45500",
+        "Contact": "Phone: 9851207036",
+	     "Province" : "Bagmati Province",
+	    "District" : "Dolakha",
+	    "Locallevel" : ""
+    },
+    {
         "SN": "3",
         "BankName": "Laxmi Sunrise Bank Limited (LSBL)",
         "BranchName": "BAMTIBHANDAR GAUPALIKA BRANCH",
