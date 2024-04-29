@@ -146,5 +146,15 @@
         "Email": "compliance@nicasialaghubitta.com",
         "Website": "www.nicasialaghubitta.com",
          "Units": "10"
-    },
+    },{
+        "SN": "163",
+        "Name": "Nepal Infrastructure Bank Limited",
+        "Symbol": "NIFRA",
+        "Status": "Active",
+        "Sector": "Investment",
+        "Instrument": "Equity",
+        "Email": "iswor.gautam@nifrabank.com",
+        "Website": "https://www.nifrabank.com",
+         "Units": "54"
+    }
 ]
