@@ -1,6 +1,1276 @@
 [
     {
         "SN": "1",
+        "BankName": "Siddhartha Bank Limited (SBL)",
+        "BranchName": "BALKOT BRANCH",
+        "Location": "Ward No: 11, Balkot, Suryabinayak Municipality, Bhaktapur, Nepal",
+        "Contact": "Phone: 01-6639622/6639623Email:&nbsp;sblbkt@sbl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "2",
+        "BankName": "NMB Bank Limited (NMB)",
+        "BranchName": "Bhaktapur Branch",
+        "Location": "Surya Binayak - 6, Bhaktapur",
+        "Contact": "Phone: 01-6617285/286/466Email:&nbsp;pratibha.shrestha@nmb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "4",
+        "BankName": "Himalayan Bank Limited (HBL)",
+        "BranchName": "Suryabinayak Branch",
+        "Location": "Suryabinayak Municipality-6,Bhaktapur",
+        "Contact": "Phone: 01-6619544Email:&nbsp;suryabinayak@himalayanbank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "6",
+        "BankName": "Prabhu Bank Limited (PRVU)",
+        "BranchName": "Bakhabajar (बाखाबजार शाखा )",
+        "Location": "Madhyapur Thimi Municipality-06, Bahakhabazar, Bhaktapur",
+        "Contact": "Phone: 01-6638473,01-6632467,01-6634216Email:&nbsp;ashis.tuladhar@prabhubank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "8",
+        "BankName": "Nepal Investment Mega Bank Limited (NIMB)",
+        "BranchName": "BALKOT - 188",
+        "Location": "Suryabinayak Municipality-02,Redcross Chowk, Balkot, Bhaktapur",
+        "Contact": "Phone: 01-6635102/103Email:&nbsp;balkot@nimb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "9",
+        "BankName": "Prabhu Bank Limited (PRVU)",
+        "BranchName": "Balkot Branch",
+        "Location": "Suryabinayak Nagarpalika, Bhaktapur",
+        "Contact": "Phone: 01-6636130/ 01-6636131Email:&nbsp;Dipesh.shrestha@prabhubank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "10",
+        "BankName": "NIC ASIA Bank Limited (NICA)",
+        "BranchName": "Balkot Branch",
+        "Location": "Suryabinayak Municipality, Ward no 2. Balkot, Bhaktapur",
+        "Contact": "Phone: 01-6637769, 01-6639678, 9801982227Email:&nbsp;manita.shah@nicasiabank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "13",
+        "BankName": "Prime Commercial Bank Limited (PCBL)",
+        "BranchName": "Bhaktapur 2 Branch",
+        "Location": "Chyamashing, Bhaktapur",
+        "Contact": "Phone: 01-6620061 Branch Manager:",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "14",
+        "BankName": "Prabhu Bank Limited (PRVU)",
+        "BranchName": "BHAKTAPUR 314 (भक्तपुर शाखा)",
+        "Location": "Bhaktapur, Katunje",
+        "Contact": "Phone: 01-5092487/5092488/5092484Email:&nbsp;usha.khand@prabhubank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "17",
+        "BankName": "Prabhu Bank Limited (PRVU)",
+        "BranchName": "Bhaktapur Branch",
+        "Location": "Suryabinayak, Bhaktapur",
+        "Contact": "Phone: 01-6619389/90Email:&nbsp;sudesh.devkota@prabhubank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "23",
+        "BankName": "NIC ASIA Bank Limited (NICA)",
+        "BranchName": "Bhaktapur Branch",
+        "Location": "Suryabinayak Chowk, Bhaktapur",
+        "Contact": "Phone: 977 1 6619182/ 6619183/ 661918, 9801982136Email:&nbsp;amrit.shrestha@nicasiabank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "30",
+        "BankName": "Everest Bank Limited (EBL)",
+        "BranchName": "Bhaktapur Branch",
+        "Location": "Suryabinayak -6Pandu Bazaar Chowk, Suryabinayak,Bhaktapur",
+        "Contact": "Phone: 5092061/5092151Email:&nbsp;eblbkt@ebl.com.np,&nbsp;jagadish.karki@ebl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "31",
+        "BankName": "Laxmi Sunrise Bank Limited (LSBL)",
+        "BranchName": "Bhaktapur Branch",
+        "Location": "Sallaghari - 1 Bhaktapur, Bagmati, 44811",
+        "Contact": "Phone: 01-6618302Email:&nbsp;bhaktapur@laxmibank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "34",
+        "BankName": "Central Finance Limited",
+        "BranchName": "Bhaktapur Branch",
+        "Location": "Chyamhasinha, Bhaktapur",
+        "Contact": "Phone: 01-6618471, 01-6618472, 01-6619671",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "37",
+        "BankName": "Kumari Bank Limited (KBL)",
+        "BranchName": "BHAKTAPUR BRANCH",
+        "Location": "Dudhpati, Bhaktapur",
+        "Contact": "Phone: 01-6610300/20045/20046Email:&nbsp;bhaktapur@kumaribank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "40",
+        "BankName": "Himalayan Bank Limited (HBL)",
+        "BranchName": "Bhaktapur Branch",
+        "Location": "Sukuldhoka, Bhaktapur",
+        "Contact": "Phone: 056-595616, 595617, 595816Email:&nbsp;bhaktapur@himalayanbank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "41",
+        "BankName": "Central Finance Company Limited (CFCL)",
+        "BranchName": "Bhaktapur Branch",
+        "Location": "Chyamhasinha, Bhaktapur",
+        "Contact": "Phone: 977-01-6618471, 6618472, 6619672",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "42",
+        "BankName": "Goodwill Finance Limited (GFCL)",
+        "BranchName": "Bhaktapur Branch",
+        "Location": "Taumadi, Bhaktapur",
+        "Contact": "Phone: 01-6620067/6620068,01-6620056, 9851130556Email:&nbsp;bhaktapur@goodwill.net.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "44",
+        "BankName": "Global IME Bank Limited (GBIME)",
+        "BranchName": "Bhaktapur Branch",
+        "Location": "Suryabinayak Chowk, Suryabinayak, Bhaktapur",
+        "Contact": "Phone: +977 01-6615389/90, BM: 9802261061Email:&nbsp;suryabinayak@gibl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "46",
+        "BankName": "Prime Commercial Bank Limited (PCBL)",
+        "BranchName": "BHAKTAPUR BRANCH",
+        "Location": "Surya Binayak,Bhaktapur",
+        "Contact": "Phone: 01-6620205",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "50",
+        "BankName": "Sunrise Bank Limited (SRBL)",
+        "BranchName": "BHAKTAPUR BRANCH",
+        "Location": "Bhaktapur-8, Sukuldhoka",
+        "Contact": "Phone: 977-1-6619240, 6619241 9841255195Email:&nbsp;BHAKTAPUR-TEAM@sunrisebank.com.np,&nbsp;neeraj.amatya@sunrisebank.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "52",
+        "BankName": "Citizens Bank International Limited (CZBIL)",
+        "BranchName": "BHAKTAPUR BRANCH",
+        "Location": "Durbar Square Area, Khauma-15, Bhaktapur",
+        "Contact": "Phone: 977-01-6612061/654, 977-01-6612487Email:&nbsp;info@ctznbank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "54",
+        "BankName": "Nepal Bank Limited (NBL)",
+        "BranchName": "Bhaktapur Branch (019)",
+        "Location": "Bhaktapur",
+        "Contact": "Phone: 01-6620096Email:&nbsp;bkp@nepalbank.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "55",
+        "BankName": "Nepal SBI Bank Limited (SBI)",
+        "BranchName": "Bhaktapur Branch (207)",
+        "Location": "Surya Binayak, Bhaktapur",
+        "Contact": "Phone: +977-1-6619386Email:&nbsp;bhaktapur@nsbl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "58",
+        "BankName": "Everest Bank Limited (EBL)",
+        "BranchName": "Bhaktapur Revenue Counter",
+        "Location": "Suryabinayak, Bhaktapur",
+        "Contact": "Phone: 01-6612226, 6617804, 6615388, 6614795Email:&nbsp;eblbkt@ebl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "61",
+        "BankName": "Siddhartha Bank Limited (SBL)",
+        "BranchName": "BODE BRANCH",
+        "Location": "Ward No: 8, Bode, Madhyapur Thimi Municipality, Bhaktapur, Nepal",
+        "Contact": "Phone: 01 - 6639211Email:&nbsp;sblbde@sbl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "62",
+        "BankName": "Jyoti Bikash Bank Limited (JBBL)",
+        "BranchName": "Bode Branch",
+        "Location": "Madhyapur Thimi Muncipality-8, Bhaktapur",
+        "Contact": "Phone: 06638661/ 6639417,9802314180Email:&nbsp;ganga.kunwar@jbbl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "63",
+        "BankName": "NIC ASIA Bank Limited (NICA)",
+        "BranchName": "Bode Branch",
+        "Location": "Madhyapur Thimi Municipality, ward.no 9, Bhaktapur",
+        "Contact": "Phone: 9801982631, 9801982735Email:&nbsp;dibita.vaidya@nicasiabank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "64",
+        "BankName": "Lumbini Bikas Bank Ltd.",
+        "BranchName": "Bode Branch [065]",
+        "Location": "Madhyapur Thimi Municipality, Bhaktapur",
+        "Contact": "Phone: 016636113/114Email:&nbsp;binita.guragain@lumbinibikasbank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "65",
+        "BankName": "Muktinath Bikas Bank Ltd.",
+        "BranchName": "Branch - Balkot",
+        "Location": "Suryabinayak Municipality-02 Redcross Chowk, Balkot, Bhaktapur",
+        "Contact": "Phone: 01-6635102/103",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "66",
+        "BankName": "Agricultural Development Bank Limited (ADBL)",
+        "BranchName": "Branch Bode",
+        "Location": "Madhyapur Thimi-7, Bakhabazar",
+        "Contact": "Phone: 01-6633502Email:&nbsp;mpurthimi.branch@adbl.gov.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "67",
+        "BankName": "Agricultural Development Bank Limited (ADBL)",
+        "BranchName": "Branch Dudhpati",
+        "Location": "Dudhpati",
+        "Contact": "Phone: 01-6613565- 6610579Email:&nbsp;dudhpati.banking@adbl.gov.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "68",
+        "BankName": "Agricultural Development Bank Limited (ADBL)",
+        "BranchName": "Branch Gatthaghar",
+        "Location": "Bhaktapur",
+        "Contact": "Phone: 01-6634439-5639080-6631234Email:&nbsp;gatthaghar.banking@adbl.gov.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "72",
+        "BankName": "Rastriya Banijya Bank Limited (RBBL)",
+        "BranchName": "Branch Office Kamalbinayak",
+        "Location": "Kamalbinayak, Bhaktapur",
+        "Contact": "Phone: 977-01-6618565/6618566Email:&nbsp;kamalbinayak@rbb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "73",
+        "BankName": "Rastriya Banijya Bank Limited (RBBL)",
+        "BranchName": "Branch Office Sanothimi",
+        "Location": "Sanothimi, Bhaktapur",
+        "Contact": "Phone: 977-01-6631432/ 6638938Email:&nbsp;sanothimi@rbb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "74",
+        "BankName": "Rastriya Banijya Bank Limited (RBBL)",
+        "BranchName": "Branch Office Suryabinayak",
+        "Location": "Suryabinayak, Bhaktapur",
+        "Contact": "Phone: 977-01-6610081Email:&nbsp;suryabinayak@rbb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "75",
+        "BankName": "Rastriya Banijya Bank Limited (RBBL)",
+        "BranchName": "Branch Office Thimi",
+        "Location": "Thimi, Bhaktapur",
+        "Contact": "Phone: 977-01-6638935Email:&nbsp;thimi@rbb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "76",
+        "BankName": "Agricultural Development Bank Limited (ADBL)",
+        "BranchName": "Branch Office, Thimi",
+        "Location": "Madhyapur Thimi -3, Bhaktapur",
+        "Contact": "Phone: 01-6634439",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "77",
+        "BankName": "Agricultural Development Bank Limited (ADBL)",
+        "BranchName": "Branch Sallaghari",
+        "Location": "Suryabinayak -5, SALLAGHARI, TRAFIK CHOK,KATUNJE",
+        "Contact": "Phone: 01-6615181-6610052-6612041Email:&nbsp;sallaghari.branch@adbl.gov.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "78",
+        "BankName": "Kumari Bank Limited (KBL)",
+        "BranchName": "Byasi Branch",
+        "Location": "Byasi, Bhaktapur",
+        "Contact": "Phone: 01-6612257/261Email:&nbsp;byasi@kumaribank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "81",
+        "BankName": "Nabil Bank Limited (NABIL)",
+        "BranchName": "Chyamasing Branch",
+        "Location": "Bhaktapur District, Bhaktapur Municipality- 8, Chyamasing",
+        "Contact": "Phone: 01-6620425/26 ,9842656515Email:&nbsp;Devi.Thapa@nabilbank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "83",
+        "BankName": "Jyoti Bikash Bank Limited (JBBL)",
+        "BranchName": "Chyamhasingh Branch",
+        "Location": "Chyamhasingh-08, Bhaktapur",
+        "Contact": "Phone: 01-6619910,9802314113Email:&nbsp;narayan.poudel@jbbl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "84",
+        "BankName": "Siddhartha Bank Limited (SBL)",
+        "BranchName": "CHYAMHASINGH BRANCH",
+        "Location": "Ward No: 1, Bhaktapur Municipality, Chyamhasingh, Kamalbinayak, Bhaktapur, Nepal",
+        "Contact": "Phone: 01-6620380Email:&nbsp;sblkmb@sbl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "86",
+        "BankName": "NIC ASIA Bank Limited (NICA)",
+        "BranchName": "Duwakot Branch",
+        "Location": "Changunarayan Municipality, Ward no. 2, Duwakot, Bhaktapur",
+        "Contact": "Phone: 01-6619125, 01-6620841, 9801982225Email:&nbsp;prashansa.shrestha@nicasiabank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "87",
+        "BankName": "Nabil Bank Limited (NABIL)",
+        "BranchName": "Duwakot Branch",
+        "Location": "Changunarayan 2, Duwakot, Bhaktapur",
+        "Contact": "Phone: 01-6620570Email:&nbsp;samundra.silwal@nabilbank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "88",
+        "BankName": "Progressive Finance Limited (PROFL)",
+        "BranchName": "Extension Counter - Thimi",
+        "Location": "Thimi, Bhaktapur",
+        "Contact": "Phone: 01-5639523Email:&nbsp;thimi@pfltd.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "91",
+        "BankName": "Nabil Bank Limited (NABIL)",
+        "BranchName": "Gatthaghar",
+        "Location": "Madhyapur Thimi Municipality - 3, Gathhaghar, Bhaktapur",
+        "Contact": "Phone: 9849094406Email:&nbsp;Sulochana.Dawadi@nabilbank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "92",
+        "BankName": "Kumari Bank Limited (KBL)",
+        "BranchName": "Gatthaghar Branch",
+        "Location": "Gatthaghar, Bhaktapur",
+        "Contact": "Phone: 01-5903941/42Email:&nbsp;gatthaghar@kumaribank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "94",
+        "BankName": "United Finance Limited (UFL)",
+        "BranchName": "GATTHAGHAR BRANCH",
+        "Location": "Gatthaghar, Bhaktapur",
+        "Contact": "Phone: 01-6635731/6635732Email:&nbsp;gatthaghar@ufl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "95",
+        "BankName": "Garima Bikas Bank Limited (GBBL)",
+        "BranchName": "Gatthaghar Branch",
+        "Location": "Madhyapur Thimi Municipality 03, Gatthaghar, Bhaktapur",
+        "Contact": "Phone: 01-6636441, 42,9851311104Email:&nbsp;gatthaghar@garimabank.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "96",
+        "BankName": "Prime Commercial Bank Limited (PCBL)",
+        "BranchName": "Gatthaghar Branch",
+        "Location": "Gatthaghar, Bhaktapur",
+        "Contact": "Phone: 016635151",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "97",
+        "BankName": "NMB Bank Limited (NMB)",
+        "BranchName": "Gatthaghar Branch",
+        "Location": "Gatthaghar Chowk- 3",
+        "Contact": "Phone: 977-1-5901262/263Email:&nbsp;anup.nakarmi@nmb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "98",
+        "BankName": "Global IME Bank Limited (GBIME)",
+        "BranchName": "Gatthaghar branch",
+        "Location": "Thimi Municipality - 3, Gatthaghar, Bhaktapur",
+        "Contact": "Phone: 01-5909348/49 BM: 9802261282Email:&nbsp;gatthaghar@gibl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "100",
+        "BankName": "Siddhartha Bank Limited (SBL)",
+        "BranchName": "Gatthaghar Branch",
+        "Location": "Ward No: 15, Madhyapur Thimi, Gatthaghar, Bhaktapur, Nepal",
+        "Contact": "Phone: 01-5639435/6630302Email:&nbsp;sblgtg@sbl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "101",
+        "BankName": "NMB Bank Limited (NMB)",
+        "BranchName": "Golmadi Bhaktapur Branch",
+        "Location": "Golmadi - 5, Bhaktapur",
+        "Contact": "Phone: 977-1-6620588Email:&nbsp;bibhu.amatya@nmb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "102",
+        "BankName": "Global IME Bank Limited (GBIME)",
+        "BranchName": "Gothatar Branch",
+        "Location": "Kadaghari 9, Kathmandu Nepal",
+        "Contact": "Phone: 01-4993182, BM: 9802261114Email:&nbsp;gothatar@gibl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "103",
+        "BankName": "United Finance Limited (UFL)",
+        "BranchName": "Gothatar Branch",
+        "Location": "Medical Chowk, Manhara Marg, Gothatar",
+        "Contact": "Phone: 01-4992916Email:&nbsp;gothatar@ufl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "104",
+        "BankName": "Muktinath Bikas Bank Ltd.",
+        "BranchName": "Gundu Extension Counter",
+        "Location": "Bhaktapur",
+        "Contact": "Phone: 01-5090295Email:&nbsp;gundu@muktinathbank.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "106",
+        "BankName": "Mahalaxmi Bikas Bank Limited",
+        "BranchName": "HAKIM-CHOWK BRANCH",
+        "Location": "Bharatpur Metropolitan City-10, Rijal Chwok",
+        "Contact": "Phone: 9855062336 056-595661, 056-595563Email:&nbsp;hakimchwok@mahalaxmibank.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "108",
+        "BankName": "Global IME Bank Limited (GBIME)",
+        "BranchName": "ITACHHEN BRANCH",
+        "Location": "Itachhen, Bhaktapur",
+        "Contact": "Phone: 9820126325, 01-6612999, 6614699, 6620999Email:&nbsp;itachhen@gibl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "109",
+        "BankName": "Kumari Bank Limited (KBL)",
+        "BranchName": "Jagati Branch",
+        "Location": "Jagati,Bhaktapur",
+        "Contact": "Phone: 01-6616006/07Email:&nbsp;Jagati@kumaribank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "110",
+        "BankName": "Kamana Sewa Bikash Bank Ltd.",
+        "BranchName": "Jagati Branch",
+        "Location": "Jagati, Bhaktapur",
+        "Contact": "Phone: 9851155788,9851366204Email:&nbsp;basanta.shrestha@kamanasewabank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "111",
+        "BankName": "Kumari Bank Limited (KBL)",
+        "BranchName": "Jagati Extension Counter",
+        "Location": "Suryabinayak Municipality - 8, Jagati",
+        "Contact": "Phone: 01-6616007",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "114",
+        "BankName": "Nabil Bank Limited (NABIL)",
+        "BranchName": "Kamalbinayak Branch",
+        "Location": "Ward No-10, Bhaktapur Municipality, Kamalbinayak",
+        "Contact": "Phone: 01-6620297, 01-6620298, 01-6620299Email:&nbsp;Nirmal.Shrestha@nabilbank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "116",
+        "BankName": "Muktinath Bikas Bank Ltd.",
+        "BranchName": "Kamalbinayak Branch",
+        "Location": "Bhaktapur Municipality-10, Kamalbinayak, Bhaktapur",
+        "Contact": "Phone: 01-6620921Email:&nbsp;kamalbinayak@muktinathbank.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "117",
+        "BankName": "Everest Bank Limited (EBL)",
+        "BranchName": "Kamalbinayak Branch",
+        "Location": "Bhaktapur",
+        "Contact": "Phone: 01-6620281 / 6620282Email:&nbsp;kamalbinayak@ebl.com.np,ganesh.tamang@ebl.com.np&nbsp;Email:",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "118",
+        "BankName": "Shangri-la Development Bank Limited (SADBL)",
+        "BranchName": "Kamalbinayak Branch",
+        "Location": "Kamalbinayak,Bhaktapur",
+        "Contact": "Phone: 01-6620949/6620950",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "119",
+        "BankName": "Global IME Bank Limited (GBIME)",
+        "BranchName": "Kamalbinayak Branch",
+        "Location": "Bhaktapur Municipality-10, Kamalbinayak",
+        "Contact": "Phone: +977 01-6619395/01-6619396, BM: 9802261261Email:&nbsp;kamalbinayak@gibl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "121",
+        "BankName": "Lumbini Bikas Bank Ltd.",
+        "BranchName": "KamalBinayak Branch [089]",
+        "Location": "KamalBinayak, Bhaktapur Municipality-10, Bhaktapur",
+        "Contact": "Phone: 6620232Email:&nbsp;saroj.khadka@lumbinibikasbank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "123",
+        "BankName": "Nepal Investment Mega Bank Limited (NIMB)",
+        "BranchName": "KAMALBINAYAK-307",
+        "Location": "Bhaktapur-10, Bhaktapur",
+        "Contact": "Phone: 01-6613058/6618958Email:&nbsp;kamalbinayak@nimb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "125",
+        "BankName": "Prabhu Bank Limited (PRVU)",
+        "BranchName": "Kausaltar Branch",
+        "Location": "Kausaltar Chowk, Kausaltar -15, Bhaktapur",
+        "Contact": "Phone: 01-6631339/ 6633014",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "126",
+        "BankName": "NIC ASIA Bank Limited (NICA)",
+        "BranchName": "Kausaltar Branch",
+        "Location": "Kausaltar, Bhaktapur",
+        "Contact": "Phone: +977-01-6634773/748/01-5639366,9801982152Email:&nbsp;-rajesh.dhakal@nicasiabank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "127",
+        "BankName": "Himalayan Bank Limited (HBL)",
+        "BranchName": "Kausaltar Branch",
+        "Location": "Madhyapur Thimi Municipality-3,Bhaktapur",
+        "Contact": "Phone: 01-6639564Email:&nbsp;kaushaltar@himalayanbank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "128",
+        "BankName": "Nepal Investment Mega Bank Limited (NIMB)",
+        "BranchName": "KAUSHALTAR - 061",
+        "Location": "Kaushaltar, Bhaktapur",
+        "Contact": "Phone: 01-6639265, 01-6639268Email:&nbsp;customerserviceKU@nimb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "129",
+        "BankName": "Laxmi Sunrise Bank Limited (LSBL)",
+        "BranchName": "Kaushaltar Branch",
+        "Location": "Kaushaltar - 3, Madhyapur Thimi Bhaktapur, Bagmati, 44811",
+        "Contact": "Phone: 01-6639690 / 91Email:&nbsp;kaushaltar@laxmibank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "130",
+        "BankName": "Nabil Bank Limited (NABIL)",
+        "BranchName": "KAUSHALTAR BRANCH",
+        "Location": "Ward No. 3, Madhyapur, Thimi, Kaushaltar, Bhaktapur",
+        "Contact": "Phone: +977 1 6635184 , +977 1 6635199 , +977 1 6635460Email:&nbsp;Omkar.Kafle@nabilbank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "131",
+        "BankName": "Himalayan Bank Limited (HBL)",
+        "BranchName": "Kaushaltar Branch",
+        "Location": "Madhyapur Thimi",
+        "Contact": "Phone: 01 - 6639564Email:&nbsp;kaushaltar@himalayanbank.com,&nbsp;pradip.bohara@himalayanbank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "132",
+        "BankName": "Prabhu Bank Limited (PRVU)",
+        "BranchName": "KAUSHALTAR BRANCH",
+        "Location": "KAUSHALTAR",
+        "Contact": "Phone: 01-6631339/6633014Email:&nbsp;arjun.paudyal@prabhubank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "133",
+        "BankName": "Machhapuchchhre Bank Limited (MBL)",
+        "BranchName": "Kaushaltar Branch",
+        "Location": "Kaushaltar, Madhyapur Thimi-03, Bhaktapur",
+        "Contact": "Phone: +977-1-5900087, 5900089,9841746366Email:&nbsp;rojee.kc@mbl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "134",
+        "BankName": "Lumbini Bikas Bank Ltd.",
+        "BranchName": "Kaushaltar Branch [020]",
+        "Location": "Kausaltar, Bhaktapur",
+        "Contact": "Phone: 01-6636229/6637385Email:&nbsp;min.shrestha@lumbinibikasbank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "135",
+        "BankName": "Kumari Bank Limited (KBL)",
+        "BranchName": "Kharipati Branch",
+        "Location": "Kharipati, Bhaktapur",
+        "Contact": "Phone: 01-5091256/57Email:&nbsp;kharipati@kumaribank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "137",
+        "BankName": "Muktinath Bikas Bank Ltd.",
+        "BranchName": "Lokanthali Branch",
+        "Location": "Bhaktapur Metropolitan City-1, Lokanthali ,Bhaktapur",
+        "Contact": "Phone: 01-5900638Email:&nbsp;lokanthali@muktinathbank.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "139",
+        "BankName": "Global IME Bank Limited (GBIME)",
+        "BranchName": "Lokanthali Branch",
+        "Location": "Lokanthali 1, Bhaktapur (near pedestrian bridge)",
+        "Contact": "Phone: 9851249801Email:&nbsp;lokanthali@gibl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "140",
+        "BankName": "Kumari Bank Limited (KBL)",
+        "BranchName": "Lokanthali Branch",
+        "Location": "Lokanthali,Bhakatapur",
+        "Contact": "Phone: 01-6636527/048Email:&nbsp;lokanthali@kumaribank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "142",
+        "BankName": "Kamana Sewa Bikash Bank Ltd.",
+        "BranchName": "Lokanthali Branch",
+        "Location": "Madhyapur Thimi Municipality Bhaktapur",
+        "Contact": "Phone: 9851366203, 01-5905826 / 5905830Email:&nbsp;govinda.shiwakoti@kamanasewabank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "143",
+        "BankName": "Siddhartha Bank Limited (SBL)",
+        "BranchName": "MADHYAPUR THIMI BRANCH",
+        "Location": "Ward No: 9, Radhe Radhe, Madhyapur Thimi Municipality, Bhaktapur, Nepal",
+        "Contact": "Phone: 01-6633441Email:&nbsp;sblmpt@sbl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "145",
+        "BankName": "Machhapuchchhre Bank Limited (MBL)",
+        "BranchName": "Nagarkot Branch",
+        "Location": "Bhaktapur, Changunarayan Municipality-06",
+        "Contact": "Phone: +977-01-6680226/ 6680227Email:&nbsp;yogendra.haluwai@mbl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "147",
+        "BankName": "Machhapuchchhre Bank Limited (MBL)",
+        "BranchName": "Naya Thimi Branch",
+        "Location": "Naya Thimi, Bhaktapur",
+        "Contact": "Phone: +977- 1-5639612, 5639639,9851059383Email:&nbsp;shreedhar.dhungana@mbl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "148",
+        "BankName": "Nepal Bank Limited (NBL)",
+        "BranchName": "Nepal Sainik Shakha Branch",
+        "Location": "Nepal Sainik Shakha, Kathmandu",
+        "Contact": "Phone: 01-4117037, 4117210Email:&nbsp;sdr@nepalbank.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "149",
+        "BankName": "NIC ASIA Bank Limited (NICA)",
+        "BranchName": "Neupanegaun Branch",
+        "Location": "Changunarayan Municipality, Ward no. 01, Neupanegaun, Bhaktapur",
+        "Contact": "Phone: 9801982648, 9801982395Email:&nbsp;ishwor.gc@nicasiabank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "150",
+        "BankName": "Kumari Bank Limited (KBL)",
+        "BranchName": "Nikosera Extension Counter",
+        "Location": "Madhyapur Thimi Municipality, ward no. 9, Nirpur, Nikosera, Bhaktapur",
+        "Contact": "Phone: 9849720601Email:&nbsp;thimi@kumaribank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "152",
+        "BankName": "NIC ASIA Bank Limited (NICA)",
+        "BranchName": "Puranothimi",
+        "Location": "Madhyapur thimi Municipality, Ward no. 6, Puranothimi, Bhaktapur",
+        "Contact": "Phone: 016635315/016636819, 9801982229Email:&nbsp;santosh.subedi@nicasiabank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "153",
+        "BankName": "Kamana Sewa Bikash Bank Ltd.",
+        "BranchName": "Radhe Radhe Branch",
+        "Location": "Radhe Radhe, Bhaktapur",
+        "Contact": "Phone: 9851366328, 01-6634161 / 6634141Email:&nbsp;surabhi.shrestha@kamanasewabank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "154",
+        "BankName": "NIC ASIA Bank Limited (NICA)",
+        "BranchName": "Radhe Radhe Branch",
+        "Location": "Madhyapur Thimi Municipality, Ward No. 5, Bhaktapur",
+        "Contact": "Phone: 01-5639635/6637181, 9801982289Email:&nbsp;anjana.prajapati@nicasiabank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "155",
+        "BankName": "Central Finance Limited",
+        "BranchName": "Sallagharai Extension Counter",
+        "Location": "Sallaghari, Bhaktapur",
+        "Contact": "Phone: 01-6619672",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "156",
+        "BankName": "Nabil Bank Limited (NABIL)",
+        "BranchName": "Sallaghari Branch",
+        "Location": "Bhaktapur District, Suryabinayak Municipality- 5, Sallaghari",
+        "Contact": "Phone: +977 01 6613170 , +977 01 6613195Email:&nbsp;Jayaram.KC@nabilbank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "157",
+        "BankName": "Prime Commercial Bank Limited (PCBL)",
+        "BranchName": "Sallaghari Branch",
+        "Location": "Sallaghari, Bhaktaupr",
+        "Contact": "Phone: 01-6610878 / 6610879",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "158",
+        "BankName": "Machhapuchchhre Bank Limited (MBL)",
+        "BranchName": "Sano Thimi Branch",
+        "Location": "Sano Thimi, Bhaktapur",
+        "Contact": "Phone: +977- 01-5639612/5639639Email:&nbsp;hem.lama@mbl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "159",
+        "BankName": "Nepal Investment Mega Bank Limited (NIMB)",
+        "BranchName": "SEEPADOLE - 002",
+        "Location": "Suryabinayak, Seepadole, Bhaktapur",
+        "Contact": "Phone: 01-6612832, 01-6610372Email:&nbsp;customerservicesp@nimb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "162",
+        "BankName": "Nabil Bank Limited (NABIL)",
+        "BranchName": "Sirutar Branch",
+        "Location": "Bhaktapur District, Suryabinayak Municipality- 1, Sirutar",
+        "Contact": "Phone: 01-5908903 , 01-5908904Email:&nbsp;Shree.Paudel@nabilbank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "167",
+        "BankName": "Nepal Investment Mega Bank Limited (NIMB)",
+        "BranchName": "SUKULDHOKA - 250",
+        "Location": "Bhaktapur Municipality-05,Shukuldhoka,Bhaktapur, Nepal",
+        "Contact": "Phone: 01-6619637, 01-6619635Email:&nbsp;shukuldhoka@nimb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "168",
+        "BankName": "Prabhu Bank Limited (PRVU)",
+        "BranchName": "SUKULDHOKA (सुकुलढोका शाखा)",
+        "Location": "Bhaktapur Municipality-05, Bhaktapur",
+        "Contact": "Phone: 01-6612609, 01-6613343, 01-6612618Email:&nbsp;sukesh.shakya@prabhubank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "171",
+        "BankName": "Gurkhas Finance Limited",
+        "BranchName": "Suryabinayak - Bhaktapur Branch",
+        "Location": "Suryabinayak, Bhaktapur Bagmati Province, Nepal",
+        "Contact": "Phone: 01 6619268, 6619267Email:&nbsp;bhaktapur@gurkhasfinance.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "173",
+        "BankName": "Nabil Bank Limited (NABIL)",
+        "BranchName": "SURYABINAYAK BRANCH",
+        "Location": "Suryabinayak 6, Bhaktapur",
+        "Contact": "Phone: +977 1 5708021Email:&nbsp;Bishow.Ghimire@nabilbank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "176",
+        "BankName": "Siddhartha Bank Limited (SBL)",
+        "BranchName": "Suryabinayak Branch",
+        "Location": "Ward No: 7, Suryabinayak, Bhaktapur Municipality, Bhaktapur, Nepal",
+        "Contact": "Phone: 01-6620092/93Email:&nbsp;sblsbk@sbl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "179",
+        "BankName": "Shine Resunga Development Bank Limited (SHINE)",
+        "BranchName": "Suryabinayak Branch",
+        "Location": "Suryabinayak-4 , Bagmati , Bhaktapur",
+        "Contact": "Phone: 01-6620470,9851329089Email:&nbsp;suryabinayakbranch@srdb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "180",
+        "BankName": "Sanima Bank Limited (SANIMA)",
+        "BranchName": "SURYABINAYAK BRANCH",
+        "Location": "Suryabinayak, Bhaktapur-14, Bhaktapur",
+        "Contact": "Phone: 00977-1-6614515,6619384Email:&nbsp;suryabinayak@sanimabank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "183",
+        "BankName": "Muktinath Bikas Bank Ltd.",
+        "BranchName": "Suryabinayak Branch",
+        "Location": "Suryabinayak Municipality-6, Suryabinayak Chwok , Bhaktapur",
+        "Contact": "Phone: 01-6620186Email:&nbsp;suryabinayak@muktinathbank.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "186",
+        "BankName": "Nepal Bank Limited (NBL)",
+        "BranchName": "Suryabinayak Branch",
+        "Location": "Suryabinayak, Bhaktapur",
+        "Contact": "Phone: 01-5708050, 5708051Email:&nbsp;nblsuryabinayak@nepalbank.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "188",
+        "BankName": "Kumari Bank Limited (KBL)",
+        "BranchName": "Suryabinayak Branch",
+        "Location": "Suryabinayak, Bhakatapur",
+        "Contact": "Phone: 01-6619878/79/80Email:&nbsp;suryabinayak@kumaribank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "189",
+        "BankName": "Machhapuchchhre Bank Limited (MBL)",
+        "BranchName": "Suryabinayak Branch",
+        "Location": "Pandu Bazaar, Suryabinayak Municipality-6, Bhaktapur",
+        "Contact": "Phone: +977-1-5708040, 5708041,9749230555Email:&nbsp;mukesh.thapa@mbl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "190",
+        "BankName": "Citizens Bank International Limited (CZBIL)",
+        "BranchName": "SURYABINAYAK BRANCH",
+        "Location": "Suryabinayak Municipality Ward no. 8, Bhaktapur",
+        "Contact": "Phone: 01-6620471, 01-6620472, 9851174133Email:&nbsp;info@ctznbank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "191",
+        "BankName": "Kumari Bank Limited (KBL)",
+        "BranchName": "Suryabinayak Extension Counter",
+        "Location": "Suryabinayak, Bhaktapur",
+        "Contact": "Phone: 01-6619879",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "193",
+        "BankName": "Garima Bikas Bank Limited (GBBL)",
+        "BranchName": "Suryavinayak Chowk Branch",
+        "Location": "Bhaktapur Metropolitan City 04, Suryabinayak Chowk, Bhaktapur",
+        "Contact": "Phone: 01-6612027, 01-6612029,9851162064Email:&nbsp;suryavinayak@garimabank.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "195",
+        "BankName": "Kumari Bank Limited (KBL)",
+        "BranchName": "Tathali Extension Counter",
+        "Location": "Kathmandu Cancer Center Pvt. Ltd., Chhangunarayan Municipality, Ward No. 09, Tathali, Bhaktapur",
+        "Contact": "Phone: 01-5091810Email:&nbsp;jagati@kumaribank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "197",
+        "BankName": "Nepal Investment Mega Bank Limited (NIMB)",
+        "BranchName": "THIMI - 114",
+        "Location": "Madhyapur Thimi Municipality- 06,Bakha Bazzar, Madhyapur Thimi, Bhaktapur",
+        "Contact": "Phone: 01-6639356/357Email:&nbsp;thimi@nimb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "198",
+        "BankName": "Nepal Investment Mega Bank Limited (NIMB)",
+        "BranchName": "THIMI - 256",
+        "Location": "Madhyapur Thimi Municipality-04,Shankhadhar Chowk, New Thimi, Bhaktapur",
+        "Contact": "Phone: 01-5093251/252Email:&nbsp;thimi2@nimb.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "201",
+        "BankName": "Shangri-la Development Bank Limited (SADBL)",
+        "BranchName": "Thimi Branch",
+        "Location": "Madhyapur Thimi -7, Bhaktapur",
+        "Contact": "Phone: 01-6635307/6635121",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "202",
+        "BankName": "Prabhu Bank Limited (PRVU)",
+        "BranchName": "Thimi Branch",
+        "Location": "Sankhadhar Chowk-13, Naya Thimi, Bhaktapur",
+        "Contact": "Phone: 01-5093122/ 5093125Email:&nbsp;manish.prajapati@prabhubank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "204",
+        "BankName": "Nabil Bank Limited (NABIL)",
+        "BranchName": "Thimi branch",
+        "Location": "Madhyapur Thimi 07, Bhaktapur",
+        "Contact": "Phone: 01-6634230Email:&nbsp;Beena.Baral@nabilbank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "205",
+        "BankName": "Muktinath Bikas Bank Ltd.",
+        "BranchName": "Thimi Branch",
+        "Location": "Madhyapur Thimi Municipality-3, Shankhardhar Chowk, Bhaktapur",
+        "Contact": "Phone: 01-5093500Email:&nbsp;thimi@muktinathbank.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "206",
+        "BankName": "Kumari Bank Limited (KBL)",
+        "BranchName": "THIMI BRANCH",
+        "Location": "Bakhabazar, Bhaktapur",
+        "Contact": "Phone: 01-6635202/4098/4832Email:&nbsp;thimi@kumaribank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "207",
+        "BankName": "Nepal Bank Limited (NBL)",
+        "BranchName": "Thimi Branch",
+        "Location": "Thimi, Bhaktapur",
+        "Contact": "Phone: 01-5093380, 5093482Email:&nbsp;nblthimi@nepalbank.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "208",
+        "BankName": "Everest Bank Limited (EBL)",
+        "BranchName": "Thimi Branch",
+        "Location": "Bhaktapur",
+        "Contact": "Phone: 01-5910445 / 5910446Email:&nbsp;thimi@ebl.com.np,uzzwal.prajapati@ebl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "210",
+        "BankName": "Global IME Bank Limited (GBIME)",
+        "BranchName": "Thimi Branch",
+        "Location": "Sankhadhar Chowk-04, Thimi, Bhaktapur",
+        "Contact": "Phone: +977 01-5093317/ +977 01-5093172, BM: 9802261251Email:&nbsp;thimi@gibl.com.np",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "211",
+        "BankName": "Prime Commercial Bank Limited (PCBL)",
+        "BranchName": "Thimi Branch",
+        "Location": "Thimi, Bhaktapur",
+        "Contact": "Phone: 01-5093494/ 5093495",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "213",
+        "BankName": "Citizens Bank International Limited (CZBIL)",
+        "BranchName": "THIMI BRANCH",
+        "Location": "Madhyapur Thimi-6, Bhaktapur",
+        "Contact": "Phone: 977-01-6636534/ 535Email:&nbsp;info@ctznbank.com",
+	     "Province" : "Bagmati Province",
+	    "District" : "Bhaktapur",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "1",
         "BankName": "NMB Bank Limited (NMB)",
         "BranchName": "Dhunche Branch",
         "Location": "Dhunche Bazaar - 6, Rasuwa",
