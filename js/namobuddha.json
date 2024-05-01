@@ -1,5 +1,322 @@
 [
     {
+        "SN": "104",
+        "BankName": "Global IME Bank Limited (GBIME)",
+        "BranchName": "Attariya-B Branch",
+        "Location": "Geta V.D.C.-03, Dhangadhi Road,Attariya, Kailali",
+        "Contact": "Phone: 091-550969, 550921",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "105",
+        "BankName": "Prabhu Bank Limited (PRVU)",
+        "BranchName": "BADIKEDAR (बडिकेदार शाखा)",
+        "Location": "Badikedar-01, B.P.Nagar, Doti",
+        "Contact": "Phone: 01-6226548Email:&nbsp;rajender.saud@prabhubank.com",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "112",
+        "BankName": "Nepal Investment Mega Bank Limited (NIMB)",
+        "BranchName": "BAITADI - 136",
+        "Location": "Dasharathchand Municipality -04,Gothalapani, Baitadi",
+        "Contact": "Phone: 095-520533/34Email:&nbsp;baitadi@nimb.com.np",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "114",
+        "BankName": "NMB Bank Limited (NMB)",
+        "BranchName": "Baitadi Branch",
+        "Location": "Dashrath Chand Municipality-04",
+        "Contact": "Phone: +977-95-520097Email:&nbsp;deepakraj.joshi@nmb.com.np",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "115",
+        "BankName": "Global IME Bank Limited (GBIME)",
+        "BranchName": "Baitadi Branch",
+        "Location": "Dashrathchand Municipality-04, Gothalapani, Baitadi",
+        "Contact": "Phone: +977 095-520542, 095-520543, BM: 9802261031Email:&nbsp;baitadi@gibl.com.np",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "116",
+        "BankName": "Kumari Bank Limited (KBL)",
+        "BranchName": "Baitadi Branch",
+        "Location": "Gothalapani, Baitadi",
+        "Contact": "Phone: 095-520546Email:&nbsp;baitadi@kumaribank.com"v
+    },
+    {
+        "SN": "120",
+        "BankName": "Shangri-la Development Bank Limited (SADBL)",
+        "BranchName": "Baitadi Branch",
+        "Location": "Airport Road, Patan-6, Baitadi",
+        "Contact": "Phone: 095-400105/400106",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "124",
+        "BankName": "Kanchan Development Bank Ltd.",
+        "BranchName": "Baitadi Branch",
+        "Location": "Dashrath Chand Municipality -04, Gothalapani Bazar, Baitadi",
+        "Contact": "Phone: 095-520097, 9801364655Email:&nbsp;baitadi@kanchanbank.com.np",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "126",
+        "BankName": "Muktinath Bikas Bank Ltd.",
+        "BranchName": "Baitadi Branch",
+        "Location": "Dasharathchand Municipality - 04 Gothalapani, Baitadi",
+        "Contact": "Phone: 095-520533/34",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "131",
+        "BankName": "NIC ASIA Bank Limited (NICA)",
+        "BranchName": "Bajhang Branch",
+        "Location": "Jai Prithivi Municipality ward no. 10, Bajhang",
+        "Contact": "Phone: 092-421445/421446, 9801982580Email:&nbsp;padam.bhatt@nicasiabank.com",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "134",
+        "BankName": "Citizens Bank International Limited (CZBIL)",
+        "BranchName": "BAJHANG BRANCH",
+        "Location": "Chainpur -10, Bajhang",
+        "Contact": "Phone: 977-092-421377 / 78, 9851200599Email:&nbsp;info@ctznbank.com",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "135",
+        "BankName": "Global IME Bank Limited (GBIME)",
+        "BranchName": "Bajhang Branch",
+        "Location": "Sudurpaschim Province, Bajhang District, Jaya Prithvi Municipality-10, Bajhang",
+        "Contact": "Phone: +977 092-421340/092-421390, BM: 9802261267Email:&nbsp;bajhang@gibl.com.np",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "136",
+        "BankName": "Everest Bank Limited (EBL)",
+        "BranchName": "Bajhang Branch",
+        "Location": "Jayaprithvi Municipality-10, Chainpur, Bajhang",
+        "Contact": "Phone: 092-421398Email:&nbsp;bajhang@ebl.com.np,&nbsp;kumar.thing@ebl.com.np",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "142",
+        "BankName": "NIC ASIA Bank Limited (NICA)",
+        "BranchName": "Bajura Branch",
+        "Location": "Badimalika Municipality - 08",
+        "Contact": "Phone: 097-541282/541287, 9801982582Email:&nbsp;diwakar.ojha@nicasiabank.com",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "146",
+        "BankName": "Global IME Bank Limited (GBIME)",
+        "BranchName": "Bajura Branch",
+        "Location": "Badimalika Municipality &ndash; 08, Martadi, Bajura",
+        "Contact": "Phone: 097-541416, 097-541405, BM: 9802261279Email:&nbsp;bajura@gibl.com.np",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "151",
+        "BankName": "Global IME Bank Limited (GBIME)",
+        "BranchName": "Baliya Branch",
+        "Location": "Lamki Chuha Municipality-04, Baliya, Kailali",
+        "Contact": "Phone: +977 091-419071/72, BM: 9802261250Email:&nbsp;baliya@gibl.com.np",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "155",
+        "BankName": "Lumbini Bikas Bank Ltd.",
+        "BranchName": "Bani Branch [085]",
+        "Location": "Krishnapur Municipality - 02, Sudurpashchim Province, Kanchanpur",
+        "Contact": "Phone: 099-417045/411057Email:&nbsp;manoj.shahi@lumbinibikasbank.com",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "158",
+        "BankName": "Himalayan Bank Limited (HBL)",
+        "BranchName": "Bannigadhi Jayagadh Branch",
+        "Location": "Bannigadhi Jayagadh Rural Municipality-4, Jayagadh Bazar",
+        "Contact": "Phone: 9751099958Email:&nbsp;bannigadhi@himalayanbank.com",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "165",
+        "BankName": "NMB Bank Limited (NMB)",
+        "BranchName": "Bauniya Branch",
+        "Location": "Bardagoriya Gaunpalika -01, Sadakpur Bauniya Bazar, Kailali",
+        "Contact": "Phone: +977-91-404149Email:&nbsp;sher.bista@nmb.com.np",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "168",
+        "BankName": "NIC ASIA Bank Limited (NICA)",
+        "BranchName": "Bauniya Branch",
+        "Location": "Bardagoriya Gaunpalika, Ward No. 2, Bauniya, Kailali",
+        "Contact": "Phone: 091-404129/404130, 9801982578Email:&nbsp;sushil.joshi@nicasiabank.com",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "169",
+        "BankName": "Siddhartha Bank Limited (SBL)",
+        "BranchName": "BAUNIYA BRANCH",
+        "Location": "Ward No. 9, Bauniya, Dododhara VDC, Kailali, Nepal",
+        "Contact": "Phone: 091-404118/19Email:&nbsp;sblbau@sbl.com.np",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "170",
+        "BankName": "Prabhu Bank Limited (PRVU)",
+        "BranchName": "Bauniya Branch",
+        "Location": "Bardagoriya Rural Municipality-1 , Kailali",
+        "Contact": "Phone: 091-404123 (201)Email:&nbsp;puskar.chand@prabhubank.com",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "172",
+        "BankName": "Sanima Bank Limited (SANIMA)",
+        "BranchName": "BAUNIYA BRANCH",
+        "Location": "Bardagoriya, Bauniya-2, Kailali",
+        "Contact": "Phone: 00977-091-404153/54/55 00977-091-404156Email:&nbsp;bauniya@sanimabank.com",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "174",
+        "BankName": "Laxmi Sunrise Bank Limited (LSBL)",
+        "BranchName": "Bauniya Branch",
+        "Location": "Bardagoriya-02 Bauniya Bazaar Kailali, Seti, 10900",
+        "Contact": "Phone: 091-404132, 404133Email:&nbsp;bauniya@laxmibank.com",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "175",
+        "BankName": "Everest Bank Limited (EBL)",
+        "BranchName": "Bauniya Branch",
+        "Location": "Bardgoriya vdc ward no 2, kailali",
+        "Contact": "Phone: 91404140Email:&nbsp;bauniya@ebl.com.np,&nbsp;dharamanand.joshi1@ebl.com.np",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "176",
+        "BankName": "Kanchan Development Bank Ltd.",
+        "BranchName": "Bauniya Branch",
+        "Location": "Bardagoriya Gaunpalika -01, Sadakpur Bauniya Bazar, Kailali",
+        "Contact": "Phone: 091-404149, 9801372617Email:&nbsp;bauniya@kanchanbank.com.np",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "180",
+        "BankName": "NIC ASIA Bank Limited (NICA)",
+        "BranchName": "Bedkot Branch",
+        "Location": "Bedkot Municipality -03, Bedkot Kanchanpur",
+        "Contact": "Phone: 099-403092/403093, 9801982592Email:&nbsp;hem.bista@nicasiabank.com",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "183",
+        "BankName": "NMB Bank Limited (NMB)",
+        "BranchName": "Belauri Branch",
+        "Location": "Belauri Municipality -06, Belauri Bazar, Buspark, Kanchanpur",
+        "Contact": "Phone: +977-99-580412Email:&nbsp;ravindrabdr.chand@nmb.com.np",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "188",
+        "BankName": "Global IME Bank Limited (GBIME)",
+        "BranchName": "BELAURI BRANCH",
+        "Location": "Shreepur tole, Belauri Bazar,Belauri Municipality -6,Kanchanpur",
+        "Contact": "Phone: 9820126375, 099-580415, 580416Email:&nbsp;belauri@gibl.com.np",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "190",
+        "BankName": "Kumari Bank Limited (KBL)",
+        "BranchName": "BELAURI BRANCH",
+        "Location": "Kanchanpur, Belauri",
+        "Contact": "Phone: 099-580099/317Email:&nbsp;belauri@kumaribank.com",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "194",
+        "BankName": "Kanchan Development Bank Ltd.",
+        "BranchName": "Belauri Branch",
+        "Location": "Belauri Municipality -06, Belauri Bazar, Buspark, Kanchanpur",
+        "Contact": "Phone: 099-580412, 9801397754Email:&nbsp;belauri@kanchanbank.com.np",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "198",
+        "BankName": "Mahalaxmi Bikas Bank Limited",
+        "BranchName": "BELAURI BRANCH",
+        "Location": "Belauri Municipality-4, Belauri Bazar",
+        "Contact": "Phone: 9840707430 099-580343, 580342 1-4239994Email:&nbsp;belauri@mahalaxmibank.com.np",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
         "SN": "1",
         "BankName": "Sanima Bank Limited (SANIMA)",
         "BranchName": "AMARGADHI BRANCH",
