@@ -1,5 +1,344 @@
 [
     {
+        "SN": "201",
+        "BankName": "Kumari Bank Limited (KBL)",
+        "BranchName": "Belauri Extension Counter",
+        "Location": "Belauri Municipality",
+        "Contact": "Phone: 099-580347",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "204",
+        "BankName": "Kanchan Development Bank Ltd.",
+        "BranchName": "Beldadi Branch",
+        "Location": "Beldandi Municipality -05, Chauwani Bazar, Kanchanpur",
+        "Contact": "Phone: 9801397749Email:&nbsp;beldadi@kanchanbank.com.np",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "205",
+        "BankName": "NMB Bank Limited (NMB)",
+        "BranchName": "Beldadi Branch 2",
+        "Location": "Beldandi Municipality -05, Chauwani Bazar, Kanchanpur",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "209",
+        "BankName": "NMB Bank Limited (NMB)",
+        "BranchName": "BELDANDI BRANCH",
+        "Location": "Beldandi Rural Municipality, Kanchanpur",
+        "Contact": "Phone: +977-99-580412Email:&nbsp;rajendra.karkee@nmb.com.np",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "221",
+        "BankName": "Himalayan Bank Limited (HBL)",
+        "BranchName": "Bhajani Branch",
+        "Location": "Bhajani Municipality, Kailali",
+        "Contact": "Phone: 091-580171Email:&nbsp;bhajani@himalayanbank.com",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "237",
+        "BankName": "Kumari Bank Limited (KBL)",
+        "BranchName": "Bhimdatta Kanchanpur Branch",
+        "Location": "Bhimdatta, Mahendranagar, Kanchanpur",
+        "Contact": "Phone: 099-524855/856Email:&nbsp;bhimdatta@kumaribank.com",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "239",
+        "BankName": "Nepal Bank Limited (NBL)",
+        "BranchName": "Bilaspur Branch (157)",
+        "Location": "Bilaspur, Kanchanpur",
+        "Contact": "Phone: 099 540068 , 9858780000",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "243",
+        "BankName": "Machhapuchchhre Bank Limited (MBL)",
+        "BranchName": "Binayak Branch",
+        "Location": "Binayak Bazar, Panchadewal Binayak-3, Achham",
+        "Contact": "Phone: +977-97-500037,9869835424Email:&nbsp;basant.damai@mbl.com.np",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "245",
+        "BankName": "Nabil Bank Limited (NABIL)",
+        "BranchName": "BITTADCHIR BRANCH",
+        "Location": "Bittadchir-4, Bajhang",
+        "Contact": "Email:&nbsp;Raju.Bhujel@nabilbank.com",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "246",
+        "BankName": "Nabil Bank Limited (NABIL)",
+        "BranchName": "Bitthadchir Branch",
+        "Location": "Bitthadchir Rural Municipality Ward No. 04, Deukekh ,Bajhang",
+        "Contact": "Phone: +977 9848232313 , 9858023267 , 9867464604 , 9868283901 ,9858023267Email:&nbsp;Ravindra.Pathak@nabilbank.com",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "247",
+        "BankName": "Global IME Bank Limited (GBIME)",
+        "BranchName": "Bogtan Branch",
+        "Location": "Bogtan Phudsil Rural Municipality-07, Chawara Chautara, Doti",
+        "Contact": "Phone: +977 9802261122Email:&nbsp;bogtan@gibl.com.np",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "248",
+        "BankName": "Nabil Bank Limited (NABIL)",
+        "BranchName": "Boradandi Branch",
+        "Location": "Kailali District, Dhangadhi Sub-Metropolitancity-3",
+        "Contact": "Phone: +977 091-415313 , 091-415314 ,9848720732Email:&nbsp;Subhechha.Joshi@nabilbank.com",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "249",
+        "BankName": "Kumari Bank Limited (KBL)",
+        "BranchName": "Brahmadev Extension Counter",
+        "Location": "Bheemdatta, Kanchanpur",
+        "Contact": "Phone: 099-570073",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "250",
+        "BankName": "Agricultural Development Bank Limited (ADBL)",
+        "BranchName": "Branch Jogbudha",
+        "Location": "Parshuram Nagarpalika-12",
+        "Contact": "Phone: 984-8416298",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "254",
+        "BankName": "Rastriya Banijya Bank Limited (RBBL)",
+        "BranchName": "Branch Office Atariya",
+        "Location": "Atariya, Kailali",
+        "Contact": "Phone: 977-91-550904Email:&nbsp;atariya@rbb.com.np",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "257",
+        "BankName": "Rastriya Banijya Bank Limited (RBBL)",
+        "BranchName": "Branch Office Baitadi",
+        "Location": "Baitadi",
+        "Contact": "Phone: 977-95-520002Email:&nbsp;baitadi@rbb.com.np",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "259",
+        "BankName": "Rastriya Banijya Bank Limited (RBBL)",
+        "BranchName": "Branch Office Bajhang",
+        "Location": "Bajhang",
+        "Contact": "Phone: 977-92-421055Email:&nbsp;bajhang@rbb.com.np",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "260",
+        "BankName": "Rastriya Banijya Bank Limited (RBBL)",
+        "BranchName": "Branch Office Bajura",
+        "Location": "Bajura",
+        "Contact": "Phone: 977-97-541152/ 541145Email:&nbsp;bajura@rbb.com.np",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "262",
+        "BankName": "Rastriya Banijya Bank Limited (RBBL)",
+        "BranchName": "Branch Office Bayalpata",
+        "Location": "Bayalpata, Achham",
+        "Contact": "Email:&nbsp;bayalpata@rbb.com.np",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "267",
+        "BankName": "Rastriya Banijya Bank Limited (RBBL)",
+        "BranchName": "Branch Office Bhajani",
+        "Location": "Bhajani, Kailali",
+        "Contact": "Phone: 977-91-580155Email:&nbsp;bhajani@rbb.com.np",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "268",
+        "BankName": "Rastriya Banijya Bank Limited (RBBL)",
+        "BranchName": "Branch Office Campusroad Dhangadhi",
+        "Location": "Campusroad Dhangadhi, Kailali",
+        "Contact": "Phone: 977-91-526438Email:&nbsp;campusroad@rbb.com.np",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "271",
+        "BankName": "Rastriya Banijya Bank Limited (RBBL)",
+        "BranchName": "Branch Office Chaumala",
+        "Location": "Chaumala, Kailali",
+        "Contact": "Email:&nbsp;chaumala@rbb.com.np",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "272",
+        "BankName": "Rastriya Banijya Bank Limited (RBBL)",
+        "BranchName": "Branch Office Dadeldhura",
+        "Location": "Dadeldhura",
+        "Contact": "Phone: 977-96-420478Email:&nbsp;dadeldhura@rbb.com.np",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "274",
+        "BankName": "Rastriya Banijya Bank Limited (RBBL)",
+        "BranchName": "Branch Office Darchula",
+        "Location": "Darchula",
+        "Contact": "Phone: 420260Email:&nbsp;darchula@rbb.com.np",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "275",
+        "BankName": "Rastriya Banijya Bank Limited (RBBL)",
+        "BranchName": "Branch Office Dhangadhi",
+        "Location": "Dhangadhi, Kailali",
+        "Contact": "Phone: 977-91-417400/ 417266Email:&nbsp;dhangadhi@rbb.com.np",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "278",
+        "BankName": "Rastriya Banijya Bank Limited (RBBL)",
+        "BranchName": "Branch Office Dipayal",
+        "Location": "Dipayal, Doti",
+        "Contact": "Phone: 977-94-412113Email:&nbsp;dipayal@rbb.com.np",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "280",
+        "BankName": "Rastriya Banijya Bank Limited (RBBL)",
+        "BranchName": "Branch Office Doti",
+        "Location": "977-94-411249, 411154",
+        "Contact": "Phone: 420249Email:&nbsp;doti@rbb.com.np",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "285",
+        "BankName": "Rastriya Banijya Bank Limited (RBBL)",
+        "BranchName": "Branch Office Hasuliya",
+        "Location": "Hasuliya, Kailali",
+        "Contact": "Email:&nbsp;hasuliya@rbb.com.np",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "291",
+        "BankName": "Rastriya Banijya Bank Limited (RBBL)",
+        "BranchName": "Branch Office Kolti",
+        "Location": "Branch Office Kolti",
+        "Contact": "Phone: 977-97-501075Email:&nbsp;kolti@rbb.com.np",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "292",
+        "BankName": "Agricultural Development Bank Limited (ADBL)",
+        "BranchName": "Branch Office Lamki",
+        "Location": "Lamki Chuha-1, Lamki Bazar",
+        "Contact": "Phone: 091-540370",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "293",
+        "BankName": "Rastriya Banijya Bank Limited (RBBL)",
+        "BranchName": "Branch Office Lamki",
+        "Location": "Lamki, Kailali",
+        "Contact": "Phone: 977-91-540483Email:&nbsp;lamki@rbb.com.np",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "294",
+        "BankName": "Rastriya Banijya Bank Limited (RBBL)",
+        "BranchName": "Branch Office Mahendranagar",
+        "Location": "Mahendranagar, Kanchanpur",
+        "Contact": "Phone: 977-99-521192Email:&nbsp;mahendranagar@rbb.com.np",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "296",
+        "BankName": "Rastriya Banijya Bank Limited (RBBL)",
+        "BranchName": "Branch Office Mangalsen",
+        "Location": "Mangalsen, Achham",
+        "Contact": "Phone: 977-97-620155Email:&nbsp;mangelsen@rbb.com.np",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
+        "SN": "298",
+        "BankName": "Rastriya Banijya Bank Limited (RBBL)",
+        "BranchName": "Branch Office Masta",
+        "Location": "Masta, Bajhang",
+        "Contact": "Email:&nbsp;masta@rbb.com.np",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
+    },
+    {
         "SN": "104",
         "BankName": "Global IME Bank Limited (GBIME)",
         "BranchName": "Attariya-B Branch",
