@@ -1,6 +1,357 @@
 [
     {
         "SN": "1",
+        "BankName": "Sanima Bank Limited (SANIMA)",
+        "BranchName": "AMARGADHI BRANCH",
+        "Location": "Amargadhi-5, Dadeldhura",
+        "Contact": "Phone: 00977 -96-410286/87, 9851248315Email:&nbsp;Amargadhi@sanimabank.com",
+        "Province": "Sudurpaschim Province",
+        "District": "Dadeldhura"
+    },
+    {
+        "SN": "3",
+        "BankName": "Sanima Bank Limited (SANIMA)",
+        "BranchName": "BHAGESHWOR BRANCH",
+        "Location": "Bhageshwor-04 Dadeldhura",
+        "Contact": "Phone: 00977-9847146433 / 9868715187Email:&nbsp;Bhageshwor@sanimabank.com",
+        "Province": "Sudurpaschim Province",
+        "District": "Dadeldhura"
+    },
+    {
+        "SN": "4",
+        "BankName": "Muktinath Bikas Bank Ltd.",
+        "BranchName": "Darchula Branch",
+        "Location": "Mahakali Municipality - 05 Khalanga,&nbsp;",
+        "Contact": "Phone: 093-420307",
+        "Province": "Sudurpaschim Province",
+        "District": "Darchula"
+    },
+    {
+        "SN": "5",
+        "BankName": "NMB Bank Limited (NMB)",
+        "BranchName": "Dhangadhi Branch",
+        "Location": "Bus Park Road",
+        "Contact": "Phone: 091-417511/417637",
+        "Province": "Sudurpaschim Province",
+        "District": "Kailali"
+    },
+    {
+        "SN": "6",
+        "BankName": "Goodwill Finance Limited (GFCL)",
+        "BranchName": "Dhangadhi Branch",
+        "Location": "Dhangadhi Chauraha,Bhansar Road",
+        "Contact": "Phone: 091-417357/091-417359, 9858029199/9858485199Email:&nbsp;Dhangadhi@goodwill.net.np",
+        "Province": "Sudurpaschim Province",
+        "District": "Kailali"
+    },
+    {
+        "SN": "7",
+        "BankName": "NMB Bank Limited (NMB)",
+        "BranchName": "Doti Branch",
+        "Location": "Pipalla Bazar, Dipayal, Silgadhi",
+        "Contact": "Phone: 94-412277/420110",
+        "Province": "Sudurpaschim Province",
+        "District": "Doti"
+    },
+    {
+        "SN": "10",
+        "BankName": "Sanima Bank Limited (SANIMA)",
+        "BranchName": "MAHENDRANAGAR BRANCH",
+        "Location": "Mahendranagar, Bhimdatta-4, Kanchanpur",
+        "Contact": "Phone: 00977-99-521249 / 521164Email:&nbsp;mahendranagar@sanimabank.com",
+        "Province": "Sudurpaschim Province",
+        "District": "Kanchanpur"
+    },
+    {
+        "SN": "11",
+        "BankName": "NMB Bank Limited (NMB)",
+        "BranchName": "Masuriya Branch",
+        "Location": "Masuriya-8, Kailali",
+        "Contact": "Phone: 91-402128/29/30Email:&nbsp;chhavi.joshi@nmb.com.np",
+        "Province": "Sudurpaschim Province",
+        "District": "Kailali"
+    },
+    {
+        "SN": "23",
+        "BankName": "Prabhu Bank Limited (PRVU)",
+        "BranchName": "Accham Branch",
+        "Location": "Kamalbazar-08, Achham",
+        "Contact": "Email:&nbsp;raghunath.upadhayay@prabhubank.com",
+        "Province": "Sudurpaschim Province",
+        "District": "Achham"
+    },
+    {
+        "SN": "24",
+        "BankName": "Global IME Bank Limited (GBIME)",
+        "BranchName": "Achham Branch",
+        "Location": "Mangalsen Municipality -5, Mangalsen Bazar Achham",
+        "Contact": "Phone: 977-097-620317/19, BM: 9802261171Email:&nbsp;achham@gibl.com.np",
+        "Province": "Sudurpaschim Province",
+        "District": "Achham"
+    },
+    {
+        "SN": "30",
+        "BankName": "Himalayan Bank Limited (HBL)",
+        "BranchName": "Adarsha Branch",
+        "Location": "Aadarsha Rural Municipality, Doti",
+        "Contact": "Phone: 9751099960Email:&nbsp;adarsha@himalayanbank.com",
+        "Province": "Sudurpaschim Province",
+        "District": "Doti"
+    },
+    {
+        "SN": "32",
+        "BankName": "Global IME Bank Limited (GBIME)",
+        "BranchName": "Ajayameru Branch",
+        "Location": "Ajaymeru Rural Municipality 3, Bhadrapur, Dadeldhura district",
+        "Contact": "Phone: 9858784565 +977 9802261133Email:&nbsp;ajayameru@gibl.com.np",
+        "Province": "Sudurpaschim Province",
+        "District": "Dadeldhura"
+    },
+    {
+        "SN": "33",
+        "BankName": "Nabil Bank Limited (NABIL)",
+        "BranchName": "Alitaal",
+        "Location": "Aalital-08,Godam Bazar,Dadeldhura",
+        "Contact": "Phone: 9848407786,+977 9814686423Email:&nbsp;lok.binadi@nabilbank.com",
+        "Province": "Sudurpaschim Province",
+        "District": "Dadeldhura"
+    },
+    {
+        "SN": "39",
+        "BankName": "Nabil Bank Limited (NABIL)",
+        "BranchName": "Amargadhi Branch",
+        "Location": "Dadeldhura District, Amargadhi Municipality, Ward no-05",
+        "Contact": "Phone: 9841893917Email:&nbsp;Ganga.Ayer@nabilbank.com",
+        "Province": "Sudurpaschim Province",
+        "District": "Dadeldhura"
+    },
+    {
+        "SN": "41",
+        "BankName": "Agricultural Development Bank Limited (ADBL)",
+        "BranchName": "Amargadhi Branch",
+        "Location": "Amargadhi-4, Dadeldhura",
+        "Contact": "Phone: 096-420945",
+        "Province": "Sudurpaschim Province",
+        "District": "Dadeldhura"
+    },
+    {
+        "SN": "46",
+        "BankName": "Machhapuchchhre Bank Limited (MBL)",
+        "BranchName": "Api Himal Branch",
+        "Location": "Khandeshwori, ApiHimal Gaunpalika-4, Darchula",
+        "Contact": "Phone: 9860922784Email:&nbsp;mahesh.chand@mbl.com.np",
+        "Province": "Sudurpaschim Province",
+        "District": "Darchula"
+    },
+    {
+        "SN": "52",
+        "BankName": "Jyoti Bikash Bank Limited (JBBL)",
+        "BranchName": "Attariya",
+        "Location": "Malakheti, Attariya",
+        "Contact": "Phone: 091-590277/78,9802267807Email:&nbsp;sunil.chand@jbbl.com.np",
+        "Province": "Sudurpaschim Province",
+        "District": "Kailali"
+    },
+    {
+        "SN": "54",
+        "BankName": "Nepal Investment Mega Bank Limited (NIMB)",
+        "BranchName": "ATTARIYA - 144",
+        "Location": "Godawari Municipality-01,Attariya, Kailali",
+        "Contact": "Phone: 091-550326/528, 091550528, 091550326Email:&nbsp;attariya@nimb.com.np",
+        "Province": "Sudurpaschim Province",
+        "District": "Kailali"
+    },
+    {
+        "SN": "61",
+        "BankName": "NIC ASIA Bank Limited (NICA)",
+        "BranchName": "Attariya Branch",
+        "Location": "Attariya Municipality-04, Mahendranagar Road",
+        "Contact": "Phone: 091-551383/550787/551384, 9801982572Email:&nbsp;umesh.kc@nicasiabank.com",
+        "Province": "Sudurpaschim Province",
+        "District": "Kailali"
+    },
+    {
+        "SN": "63",
+        "BankName": "Himalayan Bank Limited (HBL)",
+        "BranchName": "Attariya Branch",
+        "Location": "Mahendranagar Road, Attariya, Kailali",
+        "Contact": "Phone: 091-590453, 091-590454Email:&nbsp;attariya@himalayanbank.com",
+        "Province": "Sudurpaschim Province",
+        "District": "Kailali"
+    },
+    {
+        "SN": "64",
+        "BankName": "Shine Resunga Development Bank Limited (SHINE)",
+        "BranchName": "Attariya Branch",
+        "Location": "Attariya-1 , Sudurpashchim , Kailali",
+        "Contact": "Phone: 091-550399 / 9858489184Email:&nbsp;attariyabranch@srdb.com.np",
+        "Province": "Sudurpaschim Province",
+        "District": "Kailali"
+    },
+    {
+        "SN": "67",
+        "BankName": "Machhapuchchhre Bank Limited (MBL)",
+        "BranchName": "Attariya Branch",
+        "Location": "Attariya, Godawari Municipality-1, Kailali",
+        "Contact": "Phone: +977-91-550431,9851245425Email:&nbsp;mukund.joshi@mbl.com.np",
+        "Province": "Sudurpaschim Province",
+        "District": "Kailali"
+    },
+    {
+        "SN": "69",
+        "BankName": "Prabhu Bank Limited (PRVU)",
+        "BranchName": "Attariya Branch",
+        "Location": "Godawari-01, Attariya",
+        "Contact": "Phone: 091-550932/091-550037Email:&nbsp;hark.singh@prabhubank.com",
+        "Province": "Sudurpaschim Province",
+        "District": "Kailali"
+    },
+    {
+        "SN": "72",
+        "BankName": "Kumari Bank Limited (KBL)",
+        "BranchName": "ATTARIYA BRANCH",
+        "Location": "Attariya, Kailali",
+        "Contact": "Phone: 091-551223/072Email:&nbsp;attariya@kumaribank.com",
+        "Province": "Sudurpaschim Province",
+        "District": "Kailali"
+    },
+    {
+        "SN": "73",
+        "BankName": "Global IME Bank Limited (GBIME)",
+        "BranchName": "Attariya Branch",
+        "Location": "Godawari Municipality -02, Attariya,Kailali",
+        "Contact": "Phone: 977-091550987/, BM: 9802261137Email:&nbsp;attariya@gibl.com.np",
+        "Province": "Sudurpaschim Province",
+        "District": "Kailali"
+    },
+    {
+        "SN": "75",
+        "BankName": "Shangri-la Development Bank Limited (SADBL)",
+        "BranchName": "Attariya Branch",
+        "Location": "Attariya-13, Kailali",
+        "Contact": "Phone: 091-551167/68/69",
+        "Province": "Sudurpaschim Province",
+        "District": "Kailali"
+    },
+    {
+        "SN": "77",
+        "BankName": "Prime Commercial Bank Limited (PCBL)",
+        "BranchName": "Attariya Branch",
+        "Location": "Attariya,Kailali",
+        "Contact": "Phone: 091-550170",
+        "Province": "Sudurpaschim Province",
+        "District": "Kailali"
+    },
+    {
+        "SN": "80",
+        "BankName": "Siddhartha Bank Limited (SBL)",
+        "BranchName": "Attariya Branch",
+        "Location": "Ward No. 2 Attariya, Godawari Municipality, Kailali",
+        "Contact": "Phone: 091-550516/550031Email:&nbsp;sblatr@sbl.com.np",
+        "Province": "Sudurpaschim Province",
+        "District": "Kailali"
+    },
+    {
+        "SN": "83",
+        "BankName": "Reliance Finance Limited (RLFL)",
+        "BranchName": "Attariya Branch",
+        "Location": "Attariya Bazar, Godawari-1, Kailali, Seti, Sudurpashchim Pradesh, Nepal",
+        "Contact": "Phone: 091-550033, 091-550084Email:&nbsp;attariya@reliancenepal.com.np",
+        "Province": "Sudurpaschim Province",
+        "District": "Kailali"
+    },
+    {
+        "SN": "85",
+        "BankName": "Kanchan Development Bank Ltd.",
+        "BranchName": "Attariya Branch",
+        "Location": "Godawari Municipality -03, Attariya, Kailali",
+        "Contact": "Phone: 091-551142, 9801397738Email:&nbsp;attaria@kanchanbank.com.np",
+        "Province": "Sudurpaschim Province",
+        "District": "Kailali"
+    },
+    {
+        "SN": "86",
+        "BankName": "Everest Bank Limited (EBL)",
+        "BranchName": "Attariya Branch",
+        "Location": "Attariya, Kailali",
+        "Contact": "Phone: 091-550007Email:&nbsp;attariya@ebl.com.np,&nbsp;ramesh.bhandari@ebl.com.np",
+        "Province": "Sudurpaschim Province",
+        "District": "Kailali"
+    },
+    {
+        "SN": "87",
+        "BankName": "Kamana Sewa Bikash Bank Ltd.",
+        "BranchName": "Attariya Branch",
+        "Location": "Godawari Municipality Ward No - 1, Attariya, Kailali",
+        "Contact": "Phone: 9851366275 ,091-550529 / 551018Email:&nbsp;khem.bhandari@kamanasewabank.com",
+        "Province": "Sudurpaschim Province",
+        "District": "Kailali"
+    },
+    {
+        "SN": "88",
+        "BankName": "Sanima Bank Limited (SANIMA)",
+        "BranchName": "ATTARIYA BRANCH",
+        "Location": "Dhangadhi road, Godawari-1, Attariya, Kailali",
+        "Contact": "Phone: +977-91-590232/33/35/36Email:&nbsp;attariya@sanimabank.com",
+        "Province": "Sudurpaschim Province",
+        "District": "Kailali"
+    },
+    {
+        "SN": "90",
+        "BankName": "Nabil Bank Limited (NABIL)",
+        "BranchName": "Attariya Branch",
+        "Location": "Godawari Muncipality Ward No-02 Mahendranagar Road Attariya, Kailali",
+        "Contact": "Phone: +977 91 550788 , +977 91 550789 , +977 91 550820 ,9858775033Email:&nbsp;Tilak.Bhatta@nabilbank.com",
+        "Province": "Sudurpaschim Province",
+        "District": "Kailali"
+    },
+    {
+        "SN": "91",
+        "BankName": "Garima Bikas Bank Limited (GBBL)",
+        "BranchName": "Attariya Branch",
+        "Location": "Godwari Municipality 02, Attariya Bazar, Kailali",
+        "Contact": "Phone: 091-550145,9858491086Email:&nbsp;attariya@garimabank.com.np",
+        "Province": "Sudurpaschim Province",
+        "District": "Kailali"
+    },
+    {
+        "SN": "94",
+        "BankName": "Muktinath Bikas Bank Ltd.",
+        "BranchName": "Attariya Branch",
+        "Location": "Godawari- 1 Metropolitan City, Attariya, Kailali",
+        "Contact": "Phone: 091-550528/550326",
+        "Province": "Sudurpaschim Province",
+        "District": "Kailali"
+    },
+    {
+        "SN": "96",
+        "BankName": "NMB Bank Limited (NMB)",
+        "BranchName": "Attariya Branch",
+        "Location": "Dhangadi Road",
+        "Contact": "Phone: +977-91-551142/143Email:&nbsp;subodh.pandey@nmb.com.np",
+        "Province": "Sudurpaschim Province",
+        "District": "Kailali"
+    },
+    {
+        "SN": "97",
+        "BankName": "Nepal Bank Limited (NBL)",
+        "BranchName": "Attariya Branch (295)",
+        "Location": "Kailali",
+        "Contact": "Phone: 091, 9848444477",
+        "Province": "Sudurpaschim Province",
+        "District": "Kailali"
+    },
+    {
+        "SN": "98",
+        "BankName": "Citizens Bank International Limited (CZBIL)",
+        "BranchName": "ATTARIYA BRANCH (Kailali)",
+        "Location": "Godaveri-2, Mahendranagar Road, kailali",
+        "Contact": "Phone: 091-550097, 091-550982, 9858050030Email:&nbsp;info@ctznbank.com",
+        "Province": "Sudurpaschim Province",
+        "District": "Kailali"
+    },
+    {
+        "SN": "1",
         "BankName": "Siddhartha Bank Limited (SBL)",
         "BranchName": "BALKOT BRANCH",
         "Location": "Ward No: 11, Balkot, Suryabinayak Municipality, Bhaktapur, Nepal",
