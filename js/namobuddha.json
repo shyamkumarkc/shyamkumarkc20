@@ -54,7 +54,10 @@
         "BankName": "Kumari Bank Limited (KBL)",
         "BranchName": "Baitadi Branch",
         "Location": "Gothalapani, Baitadi",
-        "Contact": "Phone: 095-520546Email:&nbsp;baitadi@kumaribank.com"v
+        "Contact": "Phone: 095-520546Email:&nbsp;baitadi@kumaribank.com",
+	    "Province" : "Sudurpaschim Province",
+	    "District" : "",
+	    "Locallevel" : ""
     },
     {
         "SN": "120",
