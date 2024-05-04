@@ -53,8 +53,8 @@
         <button type="button" onclick="generateQR()">Generate QR Code</button>
     </form>
     <div id="qrCode"></div>
-    <button id="downloadBtn" style="display:none;">Download QR Code</button>
-    <button id="shareBtn" style="display:none;">Share on Facebook</button>
+    <button id="downloadBtn" style="display:none;" onclick="downloadQR()">Download QR Code</button>
+    <button id="shareBtn" style="display:none;" onclick="shareOnFacebook()">Share on Facebook</button>
 </div>
 
 <script>
@@ -98,10 +98,15 @@
     function shareOnFacebook() {
         var canvas = document.querySelector('canvas');
         var image = canvas.toDataURL("image/png");
-        var url = encodeURIComponent(window.location.href);
-        var shareUrl = 'https://www.facebook.com/sharer/sharer.php?u=' + url + '&amp;picture=' + image;
 
-        window.open(shareUrl, 'Share on Facebook', 'width=600,height=300');
+        // Encode image URL
+        var encodedImageURL = encodeURIComponent(image);
+
+        // Facebook share URL with image parameter
+        var shareURL = 'https://www.facebook.com/sharer/sharer.php?u=' + encodedImageURL;
+
+        // Open share dialog
+        window.open(shareURL, 'Share on Facebook', 'width=600,height=300');
     }
 </script>
 
