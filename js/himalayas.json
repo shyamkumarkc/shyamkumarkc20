@@ -31,37 +31,27 @@
   },
 
   {
-    "Sno": "",
-  "Name" : "",
-  "Heightm": "",
-  "Heightft":"", 
-"Range": "",
-"FirstAscent": "",
-"Co-Ordinates": "",
-"Worldranking": ""
+    "Sno": "4",
+  "Name" : "Makalu",
+  "Heightm": "8,463m",
+  "Heightft":"27,766ft", 
+"Range": "Mahalangur Himalaya",
+"FirstAscent": "May 15, 1955",
+"Co-Ordinates": "27°53′23″N 87°05′20″E",
+"Worldranking": "5"
   },
-4. Makalu
-Elevation: 8,463m/27,766ft
-Region/Range: Mahalangur Himalaya
-First Ascent: May 15, 1955
-Co-Ordinates: 27°53′23″N 87°05′20″E
-World ranking: 5
+
   {
-    "Sno": "",
-  "Name" : "",
-  "Heightm": "",
-  "Heightft":"", 
-"Range": "",
-"FirstAscent": "",
-"Co-Ordinates": "",
-"Worldranking": ""
+    "Sno": "5",
+  "Name" : "Cho Oyu",
+  "Heightm": "8,201m",
+  "Heightft":"26,906ft", 
+"Range": "Mahalangur Himalaya",
+"FirstAscent": "October 19, 1954",
+"Co-Ordinates": "28°05′39″N 86°39′39″E",
+"Worldranking": "6"
   },
-5. Cho Oyu
-Elevation: 8,201m/26,906ft
-Region/Range: Mahalangur Himalaya
-First Ascent: October 19, 1954
-Co-Ordinates: 28°05′39″N 86°39′39″E
-World ranking: 6
+
   {
     "Sno": "",
   "Name" : "",
