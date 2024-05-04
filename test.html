@@ -1,9 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>WiFi QR Code Generator</title>
+<title><title>WiFi QR Code Generator</title></title>
+<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+</script>
+<script>
+$(function(){
+$('#header').load('/assets/header.html');
+});
+</script>
+
+</head>
+
+<div id ="header"></div>
+
 <style>
     body {
         font-family: Arial, sans-serif;
@@ -142,5 +153,12 @@
 
 <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
 
+<script>
+$(function(){
+$('#footer').load('/assets/footer.html');
+});
+</script>
+
 </body>
+  <div id ="footer"></div>
 </html>
