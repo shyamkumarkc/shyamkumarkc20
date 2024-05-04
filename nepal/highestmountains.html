@@ -17,7 +17,7 @@ $('#header').load('/assets/header.html');
 
 
 <h2>
-List of Commercial Bank in Nepal</h2>
+Top 10 Highest Mountains in Nepal</h2>
 
 
 <br />
@@ -42,16 +42,13 @@ tr:nth-child(even) {
 <thead>
 <tr>
 <th>S.No.</th>
-<th>Bank Name</th>
-	<th>Bank<br/>Logo</th>
-<th>Operation<br/>Date</th>
-<th>Head<br/>Office</th>
+<th>Name</th>
+	<th>Height</th>
+<th>Range</th>
+<th>First Climber</th>
 
-<th>NEPSE<br/>Code</th>
-<th>SWIFT <br/>Code</th>
-	<th>Toll<br/>Free</th>
-<th>Phone<br/>Number</th>	
-	<th>Email<br/>Address</th>
+<th>World<br/>Ranking</th>
+
 
 </tr>
 </thead>
@@ -71,21 +68,14 @@ tr:nth-child(even) {
    let out = "";
    for(let product of products){
       out += `
-         <tr>
-            
-            <td>${product.SNO}</td>
-             <td><a href ="https://${product.Website}"target="blank">${product.Name}</a></td>
-	    <td><img src="${product.IMG}" width="120" height="100" ></td>
-			<td>${product.ODAD} <br>${product.ODBS}</td>
-			<td>${product.HO}</td>
-			<td>${product.NEPSE}</td>
-			<td>${product.Swift}</td>
-  			 <td><a href="tel:${product.TOLL}">${product.TOLL}</a></td>
- 			  <td><a href="tel:${product.phone1}">${product.phone1}</a><br/><a href="tel:${product.phone2}">${product.phone2}</a></td>
-      <td><a href="mailto:${product.email}">${product.email}</a></td>
-           
-            
-         </tr>
+         <tr>            
+            <td>${product.Sno}</td>
+             <td>${product.Name}</a></td>	 
+	     <td>${product.heightm} <br>${product.heightft}</td>
+			<td>${product.Range}</td>
+			<td>${product.FirstAscent}</td>
+			<td>${product.Worldranking}</td>			          
+ </tr>
       `;
    }
  
