@@ -53,38 +53,26 @@
   },
 
   {
-    "Sno": "",
-  "Name" : "",
-  "Heightm": "",
-  "Heightft":"", 
-"Range": "",
-"FirstAscent": "",
-"Co-Ordinates": "",
-"Worldranking": ""
-  },
-6. Dhaulagiri
-Elevation: 8,167m/26,795ft
-Region/Range: Dhaulagiri Himalaya
-First Ascent: Kurt Diemberger, Peter Diener, Nawang Dorje, Nima Dorje, Ernst Forrer and Albin Schelbert on May 19, 1960
-Co-Ordinates: 28°41′48″N 83°29′35″E
-World ranking: 7
-  {
-    "Sno": "",
-  "Name" : "",
-  "Heightm": "",
-  "Heightft":"", 
-"Range": "",
-"FirstAscent": "",
-"Co-Ordinates": "",
-"Worldranking": ""
+    "Sno": "6",
+  "Name" : "Dhaulagiri",
+  "Heightm": "8,167m",
+  "Heightft":"26,795ft", 
+"Range": "Dhaulagiri Himalaya",
+"FirstAscent": "Kurt Diemberger, Peter Diener, Nawang Dorje, Nima Dorje, Ernst Forrer and Albin Schelbert on May 19, 1960",
+"Co-Ordinates": "28°41′48″N 83°29′35″E",
+"Worldranking": "7"
   },
 
-7. Manaslu
-Elevation: 8,156m/26,759ft
-Region/Range: Manaslu Himalaya
-First Ascent: Toshio Imanishi and Gyalzen Norbu on May 9, 1956
-Co-Ordinates: 28°33′00″N 84°33′35″E
-World ranking: 8
+  {
+    "Sno": "7",
+  "Name" : "Manaslu",
+  "Heightm": "8,156m",
+  "Heightft":"26,759ft", 
+"Range": "Manaslu Himalaya",
+"FirstAscent": "Toshio Imanishi and Gyalzen Norbu on May 9, 1956",
+"Co-Ordinates": "28°33′00″N 84°33′35″E",
+"Worldranking": "8"
+  },
   {
     "Sno": "8",
   "Name" : "Annapurna",
