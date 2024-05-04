@@ -14,76 +14,90 @@
     {
         "SNO": "3.",
         "Name": "Mr. Pradyuma Lal Rajbhandari",
-        "TermAD": "June 18, 1965 - August 13, 1966"
+        "TermAD": "June 18, 1965 - August 13, 1966",
+        "TermBS": ""
     },
     {
         "SNO": "4.",
         "Name": "Dr. Bhekh Bahadur Thapa",
-        "TermAD": "August 14, 1966 - July 26, 1967"
+        "TermAD": "August 14, 1966 - July 26, 1967",
+        "TermBS": ""
     },
     {
         "SNO": "5.",
         "Name": "Dr. Yadav Prasad Pant",
-        "TermAD": "April 24, 1968 - April 28, 1973"
+        "TermAD": "April 24, 1968 - April 28, 1973",
+        "TermBS": ""
     },
     {
         "SNO": "6.",
         "Name": "Mr. Kul Shekhar Sharma",
-        "TermAD": "April 29, 1973 - December 12, 1978"
+        "TermAD": "April 29, 1973 - December 12, 1978",
+        "TermBS": ""
     },
     {
         "SNO": "7.",
         "Name": "Mr. Kalyana Bikram Adhikary",
-        "TermAD": "June 13, 1979 - December 8, 1984"
+        "TermAD": "June 13, 1979 - December 8, 1984",
+        "TermBS": ""
     },
     {
         "SNO": "8.",
         "Name": "Mr. Ganesh Bahadur Thapa",
-        "TermAD": "March 25, 1985 - May 22, 1990"
+        "TermAD": "March 25, 1985 - May 22, 1990",
+        "TermBS": ""
     },
     {
         "SNO": "9.",
         "Name": "Mr. Hari Shankar Tripathi",
-        "TermAD": "August 10, 1990 - January 17, 1995"
+        "TermAD": "August 10, 1990 - January 17, 1995",
+        "TermBS": ""
     },
     {
         "SNO": "10.",
         "Name": "Mr. Satyendra Pyara Shrestha",
-        "TermAD": "January 18, 1995 - January 17, 2000"
+        "TermAD": "January 18, 1995 - January 17, 2000"v
     },
     {
         "SNO": "11.",
         "Name": "Dr. Tilak Bahadur Rawal",
-        "TermAD": "January 18, 2000 - January 17, 2005"
+        "TermAD": "January 18, 2000 - January 17, 2005",
+        "TermBS": ""
     },
     {
         "SNO": "12.",
         "Name": "Mr. Deependra Purush Dhakal",
-        "TermAD": "August 29, 2000 - April 27, 2001"
+        "TermAD": "August 29, 2000 - April 27, 2001",
+        "TermBS": ""
     },
     {
         "SNO": "13.",
         "Name": "Mr. Bijaya Nath Bhattarai",
-        "TermAD": "January 31, 2005 - January 30, 2010"
+        "TermAD": "January 31, 2005 - January 30, 2010",
+        "TermBS": ""
     },
     {
         "SNO": "14.",
         "Name": "Mr. Deependra Bahadur Kshetry",
-        "TermAD": "January 15, 2009 - July 26, 2009"
+        "TermAD": "January 15, 2009 - July 26, 2009",
+        "TermBS": ""
     },
     {
         "SNO": "15.",
         "Name": "Dr. Yuba Raj Khatiwada",
-        "TermAD": "March 22, 2010 - March 19, 2015"
+        "TermAD": "March 22, 2010 - March 19, 2015",
+        "TermBS": ""
     },
     {
         "SNO": "16.",
         "Name": "Dr. Chiranjibi Nepal",
-        "TermAD": "March 19, 2015 - April 06, 2020"
+        "TermAD": "March 19, 2015 - April 06, 2020",
+        "TermBS": ""
     },
     {
         "SNO": "17.",
         "Name": "Maha Prasad Adhikari",
-        "TermAD": "April 06, 2020 - Present"
+        "TermAD": "April 06, 2020 - Present",
+        "TermBS": ""
     }
 ]
