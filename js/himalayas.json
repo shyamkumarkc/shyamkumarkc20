@@ -86,51 +86,36 @@ First Ascent: Toshio Imanishi and Gyalzen Norbu on May 9, 1956
 Co-Ordinates: 28°33′00″N 84°33′35″E
 World ranking: 8
   {
-    "Sno": "",
-  "Name" : "",
-  "Heightm": "",
-  "Heightft":"", 
-"Range": "",
-"FirstAscent": "",
-"Co-Ordinates": "",
-"Worldranking": ""
+    "Sno": "8",
+  "Name" : "Annapurna",
+  "Heightm": "8091m",
+  "Heightft":"26,545ft", 
+"Range": "Annapurna Himalaya",
+"FirstAscent": "Maurice Herzog and Louis Lachenal on June 3, 1950",
+"Co-Ordinates": "28°35′44″N 83°49′13″E",
+"Worldranking": "10"
   },
-8. Annapurna
-Elevation: 8091m/26,545ft
-Region/Range: Annapurna Himalaya
-First Ascent: Maurice Herzog and Louis Lachenal on June 3, 1950
-Co-Ordinates: 28°35′44″N 83°49′13″E
-World ranking: 10
+
   {
-    "Sno": "",
-  "Name" : "",
-  "Heightm": "",
-  "Heightft":"", 
-"Range": "",
-"FirstAscent": "",
-"Co-Ordinates": "",
-"Worldranking": ""
+    "Sno": "9",
+  "Name" : "Gyachung Khang",
+  "Heightm": " 7,952m",
+  "Heightft":"26,089ft", 
+"Range": "Mahalangur Himalaya",
+"FirstAscent": "Y. Kato, K. Sakaizawa and Pasang Phutar on April 10, 1964",
+"Co-Ordinates": "28°05′53″N 86°44′42″E",
+"Worldranking": "15"
   },
-9. Gyachung Khang
-Elevation: 7,952m/26,089ft
-Region/Range: Mahalangur Himalaya
-First Ascent: Y. Kato, K. Sakaizawa and Pasang Phutar on April 10, 1964
-Co-Ordinates: 28°05′53″N 86°44′42″E
-World ranking: 15
+
   {
-    "Sno": "",
-  "Name" : "",
-  "Heightm": "",
-  "Heightft":"", 
-"Range": "",
-"FirstAscent": "",
-"Co-Ordinates": "",
-"Worldranking": ""
-  },
-10. Annapurna II
-Elevation: 7,937m/26,040ft
-Region/Range: Annapurna Himalaya
-First Ascent: J. O. M. Roberts, Richard Grant, Chris Bonington, and Sherpa Ang Nyima on 1960
-Co-Ordinates: 28°32′05″N 84°07′19″E
-World ranking: 17
+    "Sno": "10",
+  "Name" : "Annapurna II",
+  "Heightm": "7,937m",
+  "Heightft":"26,040ft", 
+"Range": "Annapurna Himalaya",
+"FirstAscent": "J. O. M. Roberts, Richard Grant, Chris Bonington, and Sherpa Ang Nyima on 1960",
+"Co-Ordinates": "28°32′05″N 84°07′19″E",
+"Worldranking": "17"
+  }
+
 ]
