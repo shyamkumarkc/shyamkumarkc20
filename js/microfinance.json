@@ -506,7 +506,7 @@
     },
     {
         "SNO": "37",
-        "Name": " Sabaiko Laghubitta Bittiya Sanstha Limited",
+        "Name": " Sampada Laghubitta Bittiya Sanstha Limited",
         "OD": ". 2017/07/14 ",
         "HO": "Bandipur, Tanahu",
         "Paidup": " 31.86",
@@ -520,17 +520,17 @@
     },
     {
         "SNO": "38",
-        "Name": "Sadhana Laghubitta Bittiya Sanstha Limited",
-        "OD": " 2017/10/30 ",
-        "HO": "Gorkha, Gorkha",
-        "Paidup": " 38.23",
+        "Name": " Jeevan Bikash Laghubitta Bittiya Sanstha Limited",
+        "OD": " 2020-09-07*",
+        "HO": " Katahari , Morang",
+        "Paidup": " 118.20",
         "Area": " National Level",
-		"Website": "sadhanalaghubitta.com.np/",
-		"Contact": "064 420503 ",
+		"Website": "",
+		"Contact": "",
 		"Fax": " ",
-		"Email": "info@sadhanalaghubitta.com.np ",
-			"IMG": "https://shyamkumarkc20.com.np/logo/sdlbsl.jpg ",
-		"NEPSE": "SDLBSL "
+		"Email": " ",
+			"IMG": "https://shyamkumarkc20.com.np/logo/jblb.jpg",
+		"NEPSE": "JBLB"
     },
     {
         "SNO": "39",
@@ -728,23 +728,10 @@
 			"IMG": "https://shyamkumarkc20.com.np/logo/klbsl1.jpg",
 		"NEPSE": "KLBSL"
     },
-    {
-        "SNO": "53",
-        "Name": " Jeevan Bikash Laghubitta Bittiya Sanstha Limited",
-        "OD": " 2020-09-07*",
-        "HO": " Katahari , Morang",
-        "Paidup": " 118.20",
-        "Area": " National Level",
-		"Website": "",
-		"Contact": "",
-		"Fax": " ",
-		"Email": " ",
-			"IMG": "https://shyamkumarkc20.com.np/logo/jblb.jpg",
-		"NEPSE": "JBLB"
-    },
+    
     
     {
-        "SNO": "54",
+        "SNO": "53",
         "Name": " Super Laghubitta Bittiya Sanstha Limited",
         "OD": " 2020-01-15",
         "HO": " Tulshipur, Dang",
