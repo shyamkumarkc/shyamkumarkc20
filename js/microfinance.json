@@ -548,17 +548,17 @@
     },
     {
         "SNO": "40",
-        "Name": " Manakamana Smart Laghubitta Bittiya Sanstha Limited",
-        "OD": " 2020-07-26* ",
-        "HO": "Siddarthanagar, Ruphandehi",
-        "Paidup": " 14.85",
-        "Area": " Province Level (Lumbini Province)",
-		"Website": "www.manakamanalbs.com/",
-		"Contact": "071-587316",
+        "Name": " Matribhumi Laghubitta Bittiya Sanstha Limited",
+        "OD": " 2020-07-13*",
+        "HO": " Dhanagadhi, Kailali",
+        "Paidup": " 50.44",
+        "Area": " National Level",
+		"Website": "www.kisanlaghubitta.com.np/",
+		"Contact": "01-4372274",
 		"Fax": " ",
-		"Email": "manakamanalbs@gmail.com ",
-			"IMG": "https://shyamkumarkc20.com.np/logo/mklb.jpg",
-		"NEPSE": "MKLB"
+		"Email": "info.kisanmf@gmail.com ",
+			"IMG": "https://shyamkumarkc20.com.np/logo/klbsl1.jpg",
+		"NEPSE": "KLBSL"
     },
     {
         "SNO": "41",
@@ -714,24 +714,11 @@
 			"IMG": "https://shyamkumarkc20.com.np/logo/shlb.jpg",
 		"NEPSE": "SHLB"
     },
+    
+    
+    
     {
         "SNO": "52",
-        "Name": " Matribhumi Laghubitta Bittiya Sanstha Limited",
-        "OD": " 2020-07-13*",
-        "HO": " Dhanagadhi, Kailali",
-        "Paidup": " 50.44",
-        "Area": " National Level",
-		"Website": "www.kisanlaghubitta.com.np/",
-		"Contact": "01-4372274",
-		"Fax": " ",
-		"Email": "info.kisanmf@gmail.com ",
-			"IMG": "https://shyamkumarkc20.com.np/logo/klbsl1.jpg",
-		"NEPSE": "KLBSL"
-    },
-    
-    
-    {
-        "SNO": "53",
         "Name": " Super Laghubitta Bittiya Sanstha Limited",
         "OD": " 2020-01-15",
         "HO": " Tulshipur, Dang",
