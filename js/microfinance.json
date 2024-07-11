@@ -617,18 +617,18 @@
 		"NEPSE": "UNLB"
     },
     {
-        "SNO": "45",
-        "Name": " Jalpa Samudayik Laghubitta Bittiya Sanstha Limited",
-        "OD": " 2020-12-01*",
-        "HO": "Butwal, Rupandehi",
-        "Paidup": " 18.28",
-        "Area": " National Level",
-		"Website": "",
-		"Contact": "",
+        "SNO": "45 ",
+        "Name": "Aatmanirbhar Laghubitta Bittiya Sanstha Limited",
+        "OD": " 2019-04-15",
+        "HO": " Ghorahi, Dang",
+        "Paidup": " 6.86",
+        "Area": " Province Level (Lumbini Province)",
+		"Website": "aatmanirbhar.org.np/",
+		"Contact": " 082-560489",
 		"Fax": " ",
-		"Email": " ",
-			"IMG": "https://shyamkumarkc20.com.np/logo/jalpa.jpg",
-		"NEPSE": "JALPA"
+		"Email": "aatmanirbhar2076@gmail.com ",
+			"IMG": "https://shyamkumarkc20.com.np/logo/anlb.png",
+		"NEPSE": "ANLB"
     },
     {
         "SNO": "46",
@@ -742,22 +742,9 @@
 			"IMG": "https://shyamkumarkc20.com.np/logo/jblb.jpg",
 		"NEPSE": "JBLB"
     },
+    
     {
-        "SNO": "54 ",
-        "Name": "Aatmanirbhar Laghubitta Bittiya Sanstha Limited",
-        "OD": " 2019-04-15",
-        "HO": " Ghorahi, Dang",
-        "Paidup": " 6.86",
-        "Area": " Province Level (Lumbini Province)",
-		"Website": "aatmanirbhar.org.np/",
-		"Contact": " 082-560489",
-		"Fax": " ",
-		"Email": "aatmanirbhar2076@gmail.com ",
-			"IMG": "https://shyamkumarkc20.com.np/logo/anlb.png",
-		"NEPSE": "ANLB"
-    },
-    {
-        "SNO": "55",
+        "SNO": "54",
         "Name": " Super Laghubitta Bittiya Sanstha Limited",
         "OD": " 2020-01-15",
         "HO": " Tulshipur, Dang",
