@@ -1,30 +1,30 @@
 [
 	{
-		"S No": "1",
+		"SNo": "1",
 		"Name": "Manakamana Cable Car",
 		"length": "0",
 		"Height": "0",
 		"Year": "0"
 	},
 	{
-		"S No": "2",
+		"SNo": "2",
 		"Name": "Chandragiri Cable Car"
 	},
 	{
-		"S No": "3",
+		"SNo": "3",
 		"Name": "Kalinchowk Cable Car",
 		"length": "    "
 	},
 	{
-		"S No": "4",
+		"SNo": "4",
 		"Name": "Annapurna Cable Car"
 	},
 	{
-		"S No": "5",
+		"SNo": "5",
 		"Name": "Maula Kali Cable Car"
 	},
 	{
-		"S No": "6",
+		"SNo": "6",
 		"Name": "Lumbini Cable Car"
 	}
 ]
