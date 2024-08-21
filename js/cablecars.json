@@ -25,10 +25,10 @@
 		"Name": "Kalinchowk Cable Car",
 		"IMG": "https://shyamkumarkc20.com.np/logo/.jpg",
 		
-		"Length": "",
-		"Height": "",
-"sp": "",
-		"ep": "",
+		"Length": "950m",
+		"Height": "3755m",
+"sp": "Kuri Bazar",
+		"ep": "Kalinchowk Temple",
 
 		"Year": ""
 		
@@ -37,20 +37,20 @@
 		"SNo": "4",
 		"Name": "Annapurna Cable Car","IMG": "https://shyamkumarkc20.com.np/logo/.jpg",
 		
-		"Length": "",
-		"Height": "",
-"sp": "",
-		"ep": "",
+		"Length": "2200m",
+		"Height": "1600m",
+"sp": "Fewa Lake",
+		"ep": "Sarangkot",
 		"Year": ""
 	},
 	{
 		"SNo": "5",
 		"Name": "Maula Kali Cable Car","IMG": "https://shyamkumarkc20.com.np/logo/.jpg",
 		
-		"Length": "",
-		"Height": "",
-"sp": "",
-		"ep": "",
+		"Length": "1200m",
+		"Height": "560m",
+"sp": "Gaidakot",
+		"ep": "Maula Kali Temple",
 
 		"Year": ""
 	},
@@ -58,10 +58,10 @@
 		"SNo": "6",
 		"Name": "Lumbini Cable Car","IMG": "https://shyamkumarkc20.com.np/logo/.jpg",
 		
-		"Length": "",
-		"Height": "",
-"sp": "",
-		"ep": "",
+		"Length": "2600m",
+		"Height": "940m",
+"sp": "Balaghat Butwal",
+		"ep": "Basantapur Palpa",
 
 		"Year": ""
 	}
