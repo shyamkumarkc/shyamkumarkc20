@@ -2,6 +2,7 @@
 	{
 		"SNo": "1",
 		"Name": "Manakamana Cable Car",
+		"IMG": "https://shyamkumarkc20.com.np/logo/.jpg",
 		"Length": "2800m",
 		"Height": "1300m",
 		"sp": "Kurintar",
@@ -11,6 +12,8 @@
 	{
 		"SNo": "2",
 		"Name": "Chandragiri Cable Car",
+		"IMG": "https://shyamkumarkc20.com.np/logo/.jpg",
+		
 		"Length": "2551m",
 		"Height": "2551m",
 "sp": "Thankot",
@@ -20,6 +23,8 @@
 	{
 		"SNo": "3",
 		"Name": "Kalinchowk Cable Car",
+		"IMG": "https://shyamkumarkc20.com.np/logo/.jpg",
+		
 		"Length": "",
 		"Height": "",
 "sp": "",
@@ -30,7 +35,8 @@
 	},
 	{
 		"SNo": "4",
-		"Name": "Annapurna Cable Car",
+		"Name": "Annapurna Cable Car","IMG": "https://shyamkumarkc20.com.np/logo/.jpg",
+		
 		"Length": "",
 		"Height": "",
 "sp": "",
@@ -39,7 +45,8 @@
 	},
 	{
 		"SNo": "5",
-		"Name": "Maula Kali Cable Car",
+		"Name": "Maula Kali Cable Car","IMG": "https://shyamkumarkc20.com.np/logo/.jpg",
+		
 		"Length": "",
 		"Height": "",
 "sp": "",
@@ -49,7 +56,8 @@
 	},
 	{
 		"SNo": "6",
-		"Name": "Lumbini Cable Car",
+		"Name": "Lumbini Cable Car","IMG": "https://shyamkumarkc20.com.np/logo/.jpg",
+		
 		"Length": "",
 		"Height": "",
 "sp": "",
