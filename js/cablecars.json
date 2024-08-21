@@ -2,29 +2,44 @@
 	{
 		"SNo": "1",
 		"Name": "Manakamana Cable Car",
-		"length": "0",
-		"Height": "0",
-		"Year": "0"
+		"length": "",
+		"Height": "",
+		"Year": ""
 	},
 	{
 		"SNo": "2",
-		"Name": "Chandragiri Cable Car"
+		"Name": "Chandragiri Cable Car",
+		"length": "",
+		"Height": "",
+		"Year": ""
 	},
 	{
 		"SNo": "3",
-		"Name": "Kalinchowk Cable Car",
+		"Name": "Kalinchowk Cable Car",,
+		"length": "",
+		"Height": "",
+		"Year": ""
 		"length": "    "
 	},
 	{
 		"SNo": "4",
-		"Name": "Annapurna Cable Car"
+		"Name": "Annapurna Cable Car",
+		"length": "",
+		"Height": "",
+		"Year": ""
 	},
 	{
 		"SNo": "5",
-		"Name": "Maula Kali Cable Car"
+		"Name": "Maula Kali Cable Car",
+		"length": "",
+		"Height": "",
+		"Year": ""
 	},
 	{
 		"SNo": "6",
-		"Name": "Lumbini Cable Car"
+		"Name": "Lumbini Cable Car",
+		"length": "",
+		"Height": "",
+		"Year": ""
 	}
 ]
