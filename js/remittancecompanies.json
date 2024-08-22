@@ -282,34 +282,10 @@
         "IMG": "0",
         "OD": "0"
     },
+
+    
     {
         "SNO": "23",
-        "Name": "Best Remit",
-        "Location": "0",
-        "Contact": "0",
-        "Fax": "0",
-        "Toll": "0",
-        "Email": "0",
-        "PO": "0",
-        "Website": "0",
-        "IMG": "0",
-        "OD": "0"
-    },
-    {
-        "SNO": "24",
-        "Name": "GME Remit",
-        "Location": "Lainchaur, Kathmandu",
-        "Contact": "015970107",
-        "Fax": "01 5970107",
-        "Toll": "0",
-        "Email": "info@gmeremit.com.np",
-        "PO": "0",
-        "Website": "www.gmeremit.com.np/",
-        "IMG": "https://shyamkumarkc20.com.np/logo/gme.png",
-        "OD": "2016"
-    },
-    {
-        "SNO": "25",
         "Name": "E-Sewa Money Transfer",
         "Location": "Pulchowk, Lalitpur",
         "Contact": "01 5970377",
