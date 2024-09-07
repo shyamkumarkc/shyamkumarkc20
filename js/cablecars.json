@@ -2,18 +2,19 @@
 	{
 		"SNo": "1",
 		"Name": "Manakamana Cable Car",
-		"IMG": "https://shyamkumarkc20.com.np/logo/.jpg",
+		"IMG": "https://shyamkumarkc20.com.np/logo/manakamana.jpg",
 		"Length": "2800m",
 		"Height": "1300m",
 		"sp": "Kurintar",
 		"ep": "ManakamanaTemple",
+		"Website": "manakamanacablecar.com/cable-car/",
 		"Year": ""
 	},
 	{
 		"SNo": "2",
 		"Name": "Chandragiri Cable Car",
 		"IMG": "https://shyamkumarkc20.com.np/logo/.jpg",
-		
+		"Website": "www.chandragirihills.com/cable-car-ride/",
 		"Length": "2551m",
 		"Height": "2551m",
 "sp": "Thankot",
