@@ -38,8 +38,9 @@
 	},
 	{
 		"SNo": "4",
-		"Name": "Annapurna Cable Car","IMG": "https://shyamkumarkc20.com.np/logo/.jpg",
-		
+		"Name": "Annapurna Cable Car",
+		"IMG": "https://shyamkumarkc20.com.np/logo/annapurna.png",
+		"Website": "www.annapurnacablecar.com.np/",
 		"Length": "2200m",
 		"Height": "1600m",
 "sp": "Fewa Lake",
