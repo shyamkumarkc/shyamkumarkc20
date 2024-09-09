@@ -24,4 +24,32 @@
         "Sector": "Banking",
         "Instrument": "Equity",
         "link": "shyamkumarkc20.com.np/M&A"}
+    ,
+  {
+    "SN": "3",
+        "Name": "Merger & Acquisition",
+        "Symbol": "NABIL",
+        "Status": "Active",
+        "Sector": "Banking",
+        "Instrument": "Equity",
+        "link": "shyamkumarkc20.com.np/M&A"}
+    ,
+  {
+    "SN": "3",
+        "Name": "Insurance Companies",
+        "Symbol": "NABIL",
+        "Status": "Active",
+        "Sector": "Banking",
+        "Instrument": "Equity",
+        "link": "shyamkumarkc20.com.np/insurancecompanies"}
+    ,
+  {
+    "SN": "3",
+        "Name": "Commercial Banks",
+        "Symbol": "NABIL",
+        "Status": "Active",
+        "Sector": "Banking",
+        "Instrument": "Equity",
+        "link": "shyamkumarkc20.com.np//banking/commercialbanks"}
 ]
+
