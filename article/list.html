@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>SHYAM KUMAR K.C.</title>
+<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+</script>
+<script>
+$(function(){
+$('#header').load('/assets/header.html');
+});
+</script>
+
+</head>
+<body>
+<div id ="header"></div>
+	<style>
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+</style>
+	
+<label for="sectorFilter">Select Sector:</label>
+    <select id="sectorFilter" onchange="filterBySector()">
+        <option value="">Sectors</option>
+    </select>
+
+    <table id="companyTable">
+        <thead>
+            <tr>
+                <th>Symbol</th>
+                <th>Name</th>
+                <th>Sector</th>
+				
+            </tr>
+        </thead>
+        <tbody id="companyTableBody">
+            <!-- Table content will be populated dynamically -->
+        </tbody>
+    </table>
+
+    <script>
+        // Fetch JSON data
+        fetch('https://shyamkumarkc20.com.np/js/list.json')
+            .then(response => response.json())
+            .then(data => {
+                const sectorFilter = document.getElementById('sectorFilter');
+                const companyTableBody = document.getElementById('companyTableBody');
+                const sectors = new Set();
+
+                // Populate table and gather unique sectors
+                data.forEach(company => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td>${company['Symbol']}</td>
+                        <td>${company['Name']}</td>
+                        <td>${company['Sector']}</td>
+						
+                    `;
+                    companyTableBody.appendChild(row);
+                    sectors.add(company['Sector']);
+                });
+
+                // Populate sector filter options
+                sectors.forEach(sector => {
+                    const option = document.createElement('option');
+                    option.value = sector;
+                    option.textContent = sector;
+                    sectorFilter.appendChild(option);
+                });
+            })
+            .catch(error => console.error('Error fetching data:', error));
+
+        // Function to filter companies by sector
+        function filterBySector() {
+            const sectorFilter = document.getElementById('sectorFilter').value;
+            const rows = document.querySelectorAll('#companyTableBody tr');
+
+            rows.forEach(row => {
+                const sector = row.children[2].textContent;
+                if (sectorFilter === '' || sector === sectorFilter) {
+                    row.style.display = '';
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+        }
+    </script>
+   <script>
+$(function(){
+$('#footer').load('/assets/footer.html');
+});
+</script>
+
+</body>
+  <div id ="footer"></div>
+</html>
