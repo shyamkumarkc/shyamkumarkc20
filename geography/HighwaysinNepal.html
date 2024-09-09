@@ -35,191 +35,52 @@ tr:nth-child(even) {
     background-color: #f2f2f2
 }
 </style>
-<table border="black" style="width: 100%;">
-<tbody>
+<table border="black" >
+<thead>
 <tr>
 <th>Name</th>
-<th>Length</th>
-<th>Starting point</th>
-<th>Ending point</th>
+	<th>Length</th>
+<th>Starting Point</th>
+<th>Ending Point</th>
 <th>Year</th>
-<th>Made by</th>
+<th>Made By</th>
 </tr>
-<tr>
-<th>Mahendra Highway</th>
-<td>1027.67 km</td>
-<td>Mechi Bridge,<br />
-Jhapa Border</td>
-<td>Gaddachowki Border, Kanchanpur</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<th>Tribhuvan Highway</th>
-<td>189 km</td>
-<td>Tribhuvan Statue, Tripureshwor</td>
-<td>Sirsiya Bridge, Birgunj Border</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<th>Araniko Highway</th>
-<td>114 km</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<th>Prithivi Highway</th>
-<td>174 km</td>
-<td>Naubise</td>
-<td>Prithvi Chowk, Pokhara</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<th>Madan Ashrit Highway</th>
-<td>36 km</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<th>Mechi Highway</th>
-<td>267 km</td>
-<td>Kechana Border, Bhadrapur</td>
-<td>Taplejung</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<th>Koshi Highway</th>
-<td>111 km</td>
-<td>Rani Border,<br />
-Biratnagar</td>
-<td>myanglung</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<th>Siddhartha Highway</th>
-<td>183 km</td>
-<td>Sunauli Border</td>
-<td>Prithvi Chowk, Pokhara</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
+</thead>
 
-<th>Rapti Highway</th>
-<td>196 km</td>
-<td>Ameliya, Dang</td>
-<td>Musikot, Rukum</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<th>Karnali Highway</th>
-<td>210 km</td>
-<td>Surkhet,<br />
-Bangesimal</td>
-<td>Jumla, Kalikot</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<th>Mahakali Highway</th>
-<td>320 km</td>
-<td>Mohana Bridge, Dhangadhi Border</td>
-<td>Darchula</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<th>Seti Highway</th>
-<td>64 km</td>
-<td>Syaule, Dadeldhura</td>
-<td>Samuwagad</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<th>Ratna Highway</th>
-<td>113 km﻿</td>
-<td>Jamuniya Border, Nepalgunj</td>
-<td>Bangesimal, Surkhet</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
+      <tbody id="data-output">
+         <!-- Prodcuts from javascript file in here. -->
+      </tbody>
+   </table>
+ 
+   <script>
+   fetch("https://shyamkumarkc20.com.np/js/highway.json")
+.then(function(response){
+   return response.json();
+})
+.then(function(products){
+   let placeholder = document.querySelector("#data-output");
+   let out = "";
+   for(let product of products){
+      out += `
+         <tr>
+            
+            
+             <td>${product.name}</a></td>	   
+			<td>${product.length</td>
+			<td>${product.sp}</td>
+			<td>${product.ep}</td>
+			<td>${product.year}</td>
+  			 <td>${product.made}</a></td>
+ 			 
+           
+            
+         </tr>
+      `;
+   }
+ 
+   placeholder.innerHTML = out;
+});
 
-<th>Kathmandu Kodari Highway</th>
-<td>113 km</td>
-<td>Maitighar Junction, Kathmandu</td>
-<td>Friendship Bridge, Kodari Border</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<th>B.P. Highway</th>
-<td>198 km</td>
-<td>Bhittamod Border, Jaleshwor</td>
-<td>Dhulikhel</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<th>Sagarmatha Highway</th>
-<td>265 km</td>
-<td>Kadmaha, Saptari</td>
-<td>Solusalleri Solukhumbu</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<th>Mid-Hills Highway(Puspalal lokmarg)</th>
-<td>1776 km</td>
-<td>Chiyabhanjyang,<br />
-Panchthar</td>
-<td>Jhulaghat,Baitadi</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<th></th>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<th></th>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<th></th>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<th></th>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody></table>
 <script>
 $(function(){
 $('#footer').load('/assets/footer.html');
