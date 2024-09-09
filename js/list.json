@@ -15,5 +15,13 @@
         "Status": "Active",
         "Sector": "Share Market",
         "Instrument": "Equity",
-        "link": "shyamkumarkc20.com.np/banking/minimumpaidup"}
+        "link": "shyamkumarkc20.com.np/banking/minimumpaidup"},
+  {
+    "SN": "3",
+        "Name": "Merger & Acquisition",
+        "Symbol": "NABIL",
+        "Status": "Active",
+        "Sector": "Banking",
+        "Instrument": "Equity",
+        "link": "shyamkumarkc20.com.np/M&A"}
 ]
