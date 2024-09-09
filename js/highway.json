@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Mahendra Highway",
+    "length": "1027.67 km",
+    "sp": "Mechi Bridge",
+    "ep": "Jhapa Border",
+    "year": "Gaddachowki Border",
+    "made": " Kanchanpur"
+  },
+  {
+    "name": "Tribhuvan Highway",
+    "length": "189 km",
+    "sp": "Tribhuvan Statue",
+    "ep": " Tripureshwor",
+    "year": "Sirsiya Bridge",
+    "made": " Birgunj Border"
+  },
+  {
+    "name": "Araniko Highway",
+    "length": "114 km",
+    "sp": "",
+    "ep": "",
+    "year": "",
+    "made": ""
+  },
+  {
+    "name": "Prithivi Highway",
+    "length": "174 km",
+    "sp": "Naubise",
+    "ep": "Prithvi Chowk",
+    "year": " Pokhara",
+    "made": ""
+  },
+  {
+    "name": "Madan Ashrit Highway",
+    "length": "36 km",
+    "sp": "",
+    "ep": "",
+    "year": "",
+    "made": ""
+  },
+  {
+    "name": "Mechi Highway",
+    "length": "267 km",
+    "sp": "Kechana Border",
+    "ep": " Bhadrapur",
+    "year": "Taplejung",
+    "made": ""
+  },
+  {
+    "name": "Koshi Highway",
+    "length": "111 km",
+    "sp": "Rani Border",
+    "ep": ""
+  },
+  {
+    "name": "Biratnagar",
+    "length": "myanglung",
+    "sp": "",
+    "ep": ""
+  },
+  {
+    "name": "Siddhartha Highway",
+    "length": "183 km",
+    "sp": "Sunauli Border",
+    "ep": "Prithvi Chowk",
+    "year": " Pokhara",
+    "made": ""
+  },
+  {
+    "name": "Rapti Highway",
+    "length": "196 km",
+    "sp": "Ameliya",
+    "ep": " Dang",
+    "year": "Musikot",
+    "made": " Rukum"
+  },
+  {
+    "name": "Karnali Highway",
+    "length": "210 km",
+    "sp": "Surkhet",
+    "ep": ""
+  },
+  {
+    "name": "Bangesimal",
+    "length": "Jumla",
+    "sp": " Kalikot",
+    "ep": "",
+    "year": ""
+  },
+  {
+    "name": "Mahakali Highway",
+    "length": "320 km",
+    "sp": "Mohana Bridge",
+    "ep": " Dhangadhi Border",
+    "year": "Darchula",
+    "made": ""
+  },
+  {
+    "name": "Seti Highway",
+    "length": "64 km",
+    "sp": "Syaule",
+    "ep": " Dadeldhura",
+    "year": "Samuwagad",
+    "made": ""
+  },
+  {
+    "name": "Ratna Highway",
+    "length": "113 km",
+    "sp": "Jamuniya Border",
+    "ep": " Nepalgunj",
+    "year": "Bangesimal",
+    "made": " Surkhet"
+  },
+  {
+    "name": "Kathmandu Kodari Highway",
+    "length": "113 km",
+    "sp": "Maitighar Junction",
+    "ep": " Kathmandu",
+    "year": "Friendship Bridge",
+    "made": " Kodari Border"
+  },
+  {
+    "name": "B.P. Highway",
+    "length": "198 km",
+    "sp": "Bhittamod Border",
+    "ep": " Jaleshwor",
+    "year": "Dhulikhel",
+    "made": ""
+  },
+  {
+    "name": "Sagarmatha Highway",
+    "length": "265 km",
+    "sp": "Kadmaha",
+    "ep": " Saptari",
+    "year": "Solusalleri Solukhumbu",
+    "made": ""
+  },
+  {
+    "name": "Mid-Hills Highway(Puspalal lokmarg)",
+    "length": "1776 km",
+    "sp": "Chiyabhanjyang",
+    "ep": ""
+  },
+  {
+    "name": "Panchthar",
+    "length": "Jhulaghat",
+    "sp": "Baitadi",
+    "ep": "",
+    "year": ""
+  }
+]
