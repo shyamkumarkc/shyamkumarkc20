@@ -68,7 +68,7 @@ tr:nth-child(even) {
                         <td>${company['Symbol']}</td>
                         <td>${company['Name']}</td>
                         <td>${company['Sector']}</td>
-			<td><a href ="https://${product.link}"target="blank">${product.Name}</a></td>	
+			<td><a href ="https://${company.link}"target="blank">${company.Name}</a></td>	
                     `;
                     companyTableBody.appendChild(row);
                     sectors.add(company['Sector']);
