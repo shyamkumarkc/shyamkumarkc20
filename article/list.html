@@ -65,7 +65,7 @@ tr:nth-child(even) {
                 data.forEach(company => {
                     const row = document.createElement('tr');
                     row.innerHTML = `
-		    <td>${company['Symbol']}</td>
+		    <td>${company['SN']}</td>
                         <td><a href ="https://${company.link}"target="blank">${company.Name}</a></td>
                         <td>${company['Sector']}</td>
 				
