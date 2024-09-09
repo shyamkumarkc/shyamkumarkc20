@@ -1,49 +1,86 @@
 [
   {
-    "name": "Chitwan National Park",
-    "area": " ",
-  
-    "made": ""
+    "sno": "1",
+    "nationalparks": "Chitwan National Park",
+    "area": "932.63 km2 (367.81 sq mi)",
+    "coverage": "Chitwan",
+    "date": " Parsa"
   },
-  { "name": "Bardiya National Park",
-    "area": " ",
-  
-    "made": ""},
-  { "name": "Sagarmatha National Park",
-    "area": " ",
-  
-    "made": ""},
-  { "name": "Makalu Barun National Park",
-    "area": " ",
-  
-    "made": ""},
-  { "name": "Khaptad National Park",
-    "area": " ",
-  
-    "made": ""},
-  { "name": "Rara National Park",
-    "area": " ",
-  
-    "made": ""},
-  { "name": "Shey Phoksundo National Park",
-    "area": " ",
-  
-    "made": ""}
-  ,
-  { "name": "Langtang National Park",
-    "area": " ",
-  
-    "made": ""},
-  { "name": "Banke National Park",
-    "area": " ",
-  
-    "made": ""},
-  { "name": "Shuklaphanta National Park",
-    "area": " ",
-  
-    "made": ""},
-  { "name": "Shivapuri Nagarjun National Park",
-    "area": " ",
-  
-    "made": ""}
+  {
+    "sno": "2",
+    "nationalparks": "Banke National Park",
+    "area": "550 km2 (210 sq mi)",
+    "coverage": "Banke",
+    "date": " Dang and Salyan"
+  },
+  {
+    "sno": "3",
+    "nationalparks": "Bardiya National Park",
+    "area": "968 km2 (374 sq mi)",
+    "coverage": "Bardiya",
+    "date": "2032(1976 A.D.)"
+  },
+  {
+    "sno": "4",
+    "nationalparks": "Parsa National Park",
+    "area": "627.39 km2 (246 sq mi)",
+    "coverage": "Bara",
+    "date": " Parsa"
+  },
+  {
+    "sno": "5",
+    "nationalparks": "Rara National park",
+    "area": "106 km2 (41 sq mi)",
+    "coverage": "Mugu and Jumla",
+    "date": "2032(1976 A.D.)"
+  },
+  {
+    "sno": "6",
+    "nationalparks": "Sagarmatha National Park",
+    "area": "1148 km2 (443 sq mi)",
+    "coverage": "Solukhumbu",
+    "date": "2032(1976 A.D.)"
+  },
+  {
+    "sno": "7",
+    "nationalparks": "Makalu Barun National Park",
+    "area": "1500 km2 (580 sq mi)",
+    "coverage": "Shankhuwashabha",
+    "date": "2048(1991 A.D.)"
+  },
+  {
+    "sno": "8",
+    "nationalparks": "Shivapuri Nagarjun National Park",
+    "area": "159 km2 (61 sq mi)",
+    "coverage": "Kathmandu",
+    "date": " Nuwakot"
+  },
+  {
+    "sno": "9",
+    "nationalparks": "Shuklaphanta National Park",
+    "area": "305 km2  (118 sq mi)",
+    "coverage": "Kanchanpur",
+    "date": "2031(1976 A.D.)"
+  },
+  {
+    "sno": "10",
+    "nationalparks": "Lantang National Park",
+    "area": "1710 km2 (660 sq mi)",
+    "coverage": "Rasuwa",
+    "date": " Nuwakot and Sindhupalchowk"
+  },
+  {
+    "sno": "11",
+    "nationalparks": "Shey-phoksundo National Park",
+    "area": "3555 km2 (1",
+    "coverage": "373 sq mi)",
+    "date": "Dolpa and Mugu"
+  },
+  {
+    "sno": "12",
+    "nationalparks": "Khaptad National Park",
+    "area": "225 km2 (87 sq mi)",
+    "coverage": "Bajhang",
+    "date": " Bajura"
+  }
 ]
