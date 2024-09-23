@@ -1,6 +1,6 @@
 [
   {
-    "name": "Mahendra Highway",
+    "name": "Mahendra Highway / East West Highway",
     "length": "1027.67 km",
     "sp": "Mechi Bridge Jhapa Border",
     "ep": "Gaddachowki Border Kanchanpur",
@@ -20,8 +20,8 @@
   {
     "name": "Araniko Highway",
     "length": "112 km",
-    "sp": "",
-    "ep": "",
+    "sp": "Kathmandu",
+    "ep": "Kodari",
     "year": "",
     "code": "NH 34",
     "made": ""
@@ -32,7 +32,7 @@
     "sp": "Naubise",
     "ep": "Prithvi Chowk Pokhara",
     "year": "",
-    "code": "",
+    "code": "NH 17",
     "made": ""
   },
   {
@@ -48,9 +48,9 @@
     "name": "Mechi Highway",
     "length": "267 km",
     "sp": "Kechana Border Bhadrapur",
-    "ep": "Taplejung",
+    "ep": "Olangchungola",
     "year": "",
-    "code": "",
+    "code": "NH 02",
     "made": ""
   },
   {
@@ -59,7 +59,7 @@
     "sp": "Rani Border Biratnagar",
     "ep": "myanglung",
     "year": "",
-    "code": "",
+    "code": "NH 08",
     "made": ""
   },
   {
@@ -95,7 +95,7 @@
     "sp": "Mohana Bridge Dhangadhi Border",
     "ep": "Darchula",
     "year": "",
-    "code": "",
+    "code": "NH 66",
     "made": ""
   },
   {
@@ -149,7 +149,7 @@
     "sp": "Chiyabhanjyang Panchthar",
     "ep": "JhulaghatBaitadi",
     "year": "",
-    "code": "",
+    "code": "NH 04",
     "made": ""
   }
 ]
