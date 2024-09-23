@@ -1,6 +1,7 @@
 [
   {
-    "name": "Mahendra Highway / East West Highway",
+    "name": "Mahendra Highway",
+    "name1": "East West Highway",
     "length": "1027.67 km",
     "sp": "Mechi Bridge Jhapa Border",
     "ep": "Gaddachowki Border Kanchanpur",
@@ -144,7 +145,8 @@
     "made": ""
   },
   {
-    "name": "Mid-Hills Highway/ Puspalal lokmarg",
+    "name": "Mid-Hills Highway",
+    "name1": "Puspalal lokmarg",
     "length": "1776 km",
     "sp": "Chiyabhanjyang Panchthar",
     "ep": "JhulaghatBaitadi",
