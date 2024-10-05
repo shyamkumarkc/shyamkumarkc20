@@ -1,8 +1,8 @@
 [
   {
     "SNO": 1, 
-	  "Code" : "7516",
-	"Casba" : "",
+	  "Code": "7516",
+	"Casba": "",
     "Name": "Best Finance",
 	"OD": "1995",
 	"HO": "Kamaladi, Kathmandu",
@@ -19,8 +19,8 @@
   },
   {
     "SNO": 2,
-	  "Code" : "",
-	"Casba" : "",
+	  "Code": "",
+	"Casba": "",
     "Name": "Capital Merchant Banking & Finance",
 	"OD": "2002",
 	"HO": "Battisputali, Kathmandu",
@@ -73,8 +73,8 @@
   },
   {
     "SNO": 5,
-	  "Code" : "9001",
-	"Casba" : "",
+	  "Code": "9001",
+	"Casba": "",
     "Name": "Goodwill Finance",
 	"OD": "1995",
 	"HO": "Hattisar, Kathmandu",
@@ -92,8 +92,8 @@
   },
   {
     "SNO": 6,
-	  "Code" : "9915",
-	"Casba" : "",
+	  "Code": "9915",
+	"Casba": "",
     "Name": "Guheshwori Merchant Banking & Finance",
 	"OD": "2002",
 	"HO": "Pulchowk, Lalitpur",
@@ -109,8 +109,8 @@
 	
   },{
     "SNO": 7,
-	  "Code" : "9919",
-	"Casba" : "",
+	  "Code": "9919",
+	"Casba": "",
     "Name": "ICFC Finance",
 	"OD": "2004",
 	"HO": "Bhatbhateni, Kathmandu",
@@ -126,8 +126,8 @@
 	
   },{
     "SNO": 8,
-	  "Code" : "7604",
-	"Casba" : "",
+	  "Code": "7604",
+	"Casba": "",
     "Name": "Janaki Finance",
 	"OD": "1997",
 	"HO": "Janakpurdham, Madhesh",
@@ -142,8 +142,9 @@
 	"pobox": "0"
 	
   },{
-    "SNO": 9,"Code" : "",
-	"Casba" : "",
+    "SNO": 9,
+	  "Code": "9935",
+	"Casba": "",
     "Name": "Manjushree Finance",
 	"OD": "2007",
 	"HO": "Nayabaneshwor, Kathmandu",
@@ -158,8 +159,9 @@
 	"pobox": "23170"
 	
   },{
-    "SNO": 10,"Code" : "",
-	"Casba" : "",
+    "SNO": 10,
+	  "Code": "7607",
+	"Casba": "",
     "Name": "Multipurpose Finance",
 	"OD": "1998",
 	"HO": "Rajbiraj, Madhesh",
@@ -174,8 +176,9 @@
 	"pobox": "0"
 	
   },{
-    "SNO": 11,"Code" : "",
-	"Casba" : "",
+    "SNO": 11,
+	  "Code": "7701",
+	"Casba": "",
     "Name": "Nepal Finance",
 	"OD": "1993",
 	"HO": "Kamaladi, Kathmandu",
@@ -190,8 +193,9 @@
 	"pobox": "6867"
 	
   },{
-    "SNO": 12,"Code" : "",
-	"Casba" : "",
+    "SNO": 12,
+	  "Code": "",
+	"Casba": "",
     "Name": "Nepal Share Markets and Finance",
 	"OD": "1993",
 	"HO": "Ramshahapath, Kathmandu",
@@ -206,8 +210,9 @@
 	"pobox": "0"
 	
   },{
-    "SNO": 13,"Code" : "",
-	"Casba" : "",
+    "SNO": 13,
+	  "Code": "9905",
+	"Casba": "",
     "Name": "Pokhara Finance",
 	"OD": "1997",
 	"HO": "Pokhara, Gandaki",
@@ -222,8 +227,9 @@
 	"pobox": "0"
 	
   },{
-    "SNO": 14,"Code" : "",
-	"Casba" : "",
+    "SNO": 14,
+	  "Code": "9902",
+	"Casba": "",
     "Name": "Progressive Finance",
 	"OD": "1996",
 	"HO": "New Road, Kathmandu",
@@ -239,8 +245,9 @@
 	"Fax" : "01-5199668"
 	
   },{
-    "SNO": 15,"Code" : "",
-	"Casba" : "",
+    "SNO": 15,
+	  "Code": "9939",
+	"Casba": "",
     "Name": "Reliance Finance",
 	"OD": "2009",
 	"HO": "Pradarsani Marg, Kathmandu",
@@ -254,9 +261,11 @@
 	"email": "info@reliancenepal.com.np",
 	"pobox": "20136"
 	
-  },{
-    "SNO": 16,"Code" : "",
-	"Casba" : "",
+  },
+	{
+    "SNO": 16,
+	  "Code": "9911",
+	"Casba": "",
     "Name": "Samriddhi Finance Company",
 	"OD": "2001",
 	"HO": "Hetauda, Bagmati",
@@ -272,7 +281,8 @@
 	
   },
   {
-    "SNO": 17,"Code" : "",
+    "SNO": 17,
+	  "Code" : "9201",
 	"Casba" : "",
     "Name": "Shree Investment & Finance",
 	"OD": "1994",
@@ -284,7 +294,7 @@
 	"IMG": "https://shyamkumarkc20.com.np/logo/sifc.jpg",
 	"TOLL": "0",
 	"phone": "01-4521779",
-	"fax" :"01-4521779",
+	"fax":"01-4521779",
 	"email": "info@shreefinance.com.np",
 	"pobox": "10717"
 	
