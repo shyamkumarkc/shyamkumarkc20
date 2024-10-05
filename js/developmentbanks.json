@@ -107,7 +107,8 @@
 	"email": "info@muktinathbank.com.np",
 	"pobox": "0"
 	
-  },{
+  },
+	{
     "SNO": 7,
 	  "Code": "9929",
 	"Casba": "",
@@ -124,7 +125,8 @@
 	"email": "info@kdblnepal.com",
 	"pobox": "0"
 	
-  },{
+  },
+	{
     "SNO": 8,
 	  "Code" : "6601",
 	"Casba" : "",
@@ -141,7 +143,8 @@
 	"email": "info@garimabank.com.np",
 	"pobox": "0"
 	
-  },{
+  },
+	{
     "SNO": 9,
 	  "Code" : "6801",
 	"Casba" : "",
@@ -158,9 +161,11 @@
 	"email": "customercare@kamanasewabank.com",
 	"pobox": "0"
 	
-  },{
-    "SNO": 10,"Code" : "",
-	"Casba" : "",
+  },
+	{
+    "SNO": 10,
+	  "Code": "9908",
+	"Casba": "",
     "Name": "Corporate Development Bank Limited",
 	"OD": "2007-11-07",
 	"HO": "Birgunj, Parsa",
@@ -175,9 +180,11 @@
 	"pobox": "0",
 	"fax": "051-527843"
 	
-  },{
-    "SNO": 11,"Code" : "",
-	"Casba" : "",
+  },
+	{
+    "SNO": 11,
+	  "Code": "6001",
+	"Casba": "",
     "Name": "Jyoti Bikas Bank Limited",
 	"OD": "2016-08-12",
 	"HO": "KamalPokhari Kathmandu",
@@ -191,9 +198,11 @@
 	"email": "info@jbbl.com.np",
 	"pobox": "6518"
 	
-  },{
-    "SNO": 12,"Code" : "",
-	"Casba" : "",
+  },
+	{
+    "SNO": 12,
+	  "Code": "8101",
+	"Casba": "",
     "Name": "Shine Resunga Development Bank Limited",
 	"OD": "2013-03-17",
 	"HO": "Butwal, Rupandehi",
@@ -207,8 +216,10 @@
 	"email": "info@srdb.com.np",
 	"pobox": "0"
 	
-  },{
-    "SNO": 13,"Code" : "",
+  },
+	{
+    "SNO": 13,
+	  "Code" : "5401",
 	"Casba" : "Rs. 5",
     "Name": "Lumbini Bikas Bank Limited",
 	"OD": "2017-07-09",
@@ -224,9 +235,11 @@
 	"pobox": "20700",
 	"fax": "01-4513526"
 	
-  },{
-    "SNO": 14,"Code" : "",
-	"Casba" : "",
+  },
+	{
+    "SNO": 14,
+	  "Code": "6401",
+	"Casba": "",
     "Name": "Sindhu Bikas Bank Limited",
 	"OD": "2067-05-24 (2010-09-09)",
 	"HO": "Barhabise Bazar, Barhabise",
@@ -240,8 +253,10 @@
 	"email": "info@sindhubank.com.np",
 	"pobox": "0"
 	
-  },{
-    "SNO": 15,"Code" : "",
+  },
+	{
+    "SNO": 15,
+	  "Code" : "7608",
 	"Casba" : "",
     "Name": "Salapa Bikash Bank Limited",
 	"OD": "2069/04/01",
@@ -256,9 +271,11 @@
 	"email": "info@salapabikasbank.com.np",
 	"pobox": "0"
 	
-  },{
-    "SNO": 16,"Code" : "",
-	"Casba" : "",
+  },
+	{
+    "SNO": 16,
+	  "Code": "5901",
+	"Casba": "",
     "Name": "Saptakoshi Development Bank Limited",
 	"OD": "2019-07-07",
 	"HO": "Biratnagar, Morang",
@@ -274,7 +291,8 @@
 	
   },
   {
-    "SNO": 17,"Code" : "",
+    "SNO": 17,
+	  "Code" : "7517",
 	"Casba" : "",
     "Name": "Green Development Bank Limited",
 	"OD": "2013-08-25",
