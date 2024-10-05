@@ -1,6 +1,7 @@
 [
   {
-    "SNO": 1, "Code" : "",
+    "SNO": 1, 
+	  "Code" : "7516",
 	"Casba" : "",
     "Name": "Best Finance",
 	"OD": "1995",
@@ -17,7 +18,8 @@
 	
   },
   {
-    "SNO": 2,"Code" : "",
+    "SNO": 2,
+	  "Code" : "",
 	"Casba" : "",
     "Name": "Capital Merchant Banking & Finance",
 	"OD": "2002",
@@ -34,7 +36,8 @@
 	
   },
   {
-    "SNO": 3,"Code" : "",
+    "SNO": 3,
+	  "Code" : "9906",
 	"Casba" : "",
     "Name": "Central Finance",
 	"OD": "1996",
@@ -51,7 +54,8 @@
 	
   },
   {
-    "SNO": 4,"Code" : "",
+    "SNO": 4,
+	  "Code" : "8301",
 	"Casba" : "",
     "Name": "Gurkhas Finance",
 	"OD": "1994",
@@ -68,7 +72,8 @@
 	
   },
   {
-    "SNO": 5,"Code" : "",
+    "SNO": 5,
+	  "Code" : "9001",
 	"Casba" : "",
     "Name": "Goodwill Finance",
 	"OD": "1995",
@@ -86,7 +91,8 @@
 	
   },
   {
-    "SNO": 6,"Code" : "",
+    "SNO": 6,
+	  "Code" : "9915",
 	"Casba" : "",
     "Name": "Guheshwori Merchant Banking & Finance",
 	"OD": "2002",
@@ -102,7 +108,8 @@
 	"pobox": "0"
 	
   },{
-    "SNO": 7,"Code" : "",
+    "SNO": 7,
+	  "Code" : "9919",
 	"Casba" : "",
     "Name": "ICFC Finance",
 	"OD": "2004",
@@ -118,7 +125,8 @@
 	"pobox": "0"
 	
   },{
-    "SNO": 8,"Code" : "",
+    "SNO": 8,
+	  "Code" : "7604",
 	"Casba" : "",
     "Name": "Janaki Finance",
 	"OD": "1997",
