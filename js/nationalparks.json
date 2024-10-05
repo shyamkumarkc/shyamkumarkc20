@@ -1,86 +1,98 @@
 [
   {
-    "sno": "1",
-    "nationalparks": "Chitwan National Park",
+    "s no.": "1",
+    "name": "Chitwan National Park",
     "area": "932.63 km2 (367.81 sq mi)",
-    "coverage": "Chitwan",
-    "date": " Parsa"
+    "coverage": "Chitwan, Parsa, Nawalparasi and Makawanpur",
+    "bs": "2030 B.S.",
+    "ad": "1973 A.D."
   },
   {
-    "sno": "2",
-    "nationalparks": "Banke National Park",
+    "s no.": "2",
+    "name": "Banke National Park",
     "area": "550 km2 (210 sq mi)",
-    "coverage": "Banke",
-    "date": " Dang and Salyan"
+    "coverage": "Banke, Dang and Salyan",
+    "bs": "2067 B.S.",
+    "ad": "2010 A.D."
   },
   {
-    "sno": "3",
-    "nationalparks": "Bardiya National Park",
+    "s no.": "3",
+    "name": "Bardiya National Park",
     "area": "968 km2 (374 sq mi)",
     "coverage": "Bardiya",
-    "date": "2032(1976 A.D.)"
+    "bs": "2032 B.S.",
+    "ad": "1976 A.D."
   },
   {
-    "sno": "4",
-    "nationalparks": "Parsa National Park",
+    "s no.": "4",
+    "name": "Parsa National Park",
     "area": "627.39 km2 (246 sq mi)",
-    "coverage": "Bara",
-    "date": " Parsa"
+    "coverage": "Bara, Parsa, Chitwan and Makawanpur",
+    "bs": "2040 B.S.",
+    "ad": "1984 A.D."
   },
   {
-    "sno": "5",
-    "nationalparks": "Rara National park",
+    "s no.": "5",
+    "name": "Rara National Park",
     "area": "106 km2 (41 sq mi)",
     "coverage": "Mugu and Jumla",
-    "date": "2032(1976 A.D.)"
+    "bs": "2032 B.S.",
+    "ad": "1976 A.D."
   },
   {
-    "sno": "6",
-    "nationalparks": "Sagarmatha National Park",
+    "s no.": "6",
+    "name": "Sagarmatha National Park",
     "area": "1148 km2 (443 sq mi)",
     "coverage": "Solukhumbu",
-    "date": "2032(1976 A.D.)"
+    "bs": "2032 B.S.",
+    "ad": "1976 A.D."
   },
   {
-    "sno": "7",
-    "nationalparks": "Makalu Barun National Park",
+    "s no.": "7",
+    "name": "Makalu Barun National Park",
     "area": "1500 km2 (580 sq mi)",
     "coverage": "Shankhuwashabha",
-    "date": "2048(1991 A.D.)"
+    "bs": "2048 B.S.",
+    "ad": "1991 A.D."
   },
   {
-    "sno": "8",
-    "nationalparks": "Shivapuri Nagarjun National Park",
+    "s no.": "8",
+    "name": "Shivapuri Nagarjun National Park",
     "area": "159 km2 (61 sq mi)",
-    "coverage": "Kathmandu",
-    "date": " Nuwakot"
+    "coverage": "Kathmandu, Nuwakot, Sindhupalchowk and Dhading",
+    "bs": "2058 B.S.",
+    "ad": "2002 A.D."
   },
   {
-    "sno": "9",
-    "nationalparks": "Shuklaphanta National Park",
+    "s no.": "9",
+    "name": "Shuklaphanta National Park",
     "area": "305 km2  (118 sq mi)",
     "coverage": "Kanchanpur",
-    "date": "2031(1976 A.D.)"
+    "bs": "2031 B.S.",
+    "ad": "1976 A.D."
   },
   {
-    "sno": "10",
-    "nationalparks": "Lantang National Park",
+    "s no.": "10",
+    "name": "Lantang National Park",
     "area": "1710 km2 (660 sq mi)",
-    "coverage": "Rasuwa",
-    "date": " Nuwakot and Sindhupalchowk"
+    "coverage": "Rasuwa, Nuwakot and Sindhupalchowk",
+    "bs": "2032 B.S.",
+    "ad": "1976 A.D."
   },
   {
-    "sno": "11",
-    "nationalparks": "Shey-phoksundo National Park",
+    "s no.": "11",
+    "name": "Shey-phoksundo National Park",
     "area": "3555 km2 (1",
     "coverage": "373 sq mi)",
-    "date": "Dolpa and Mugu"
+    "bs": "Dolpa and Mugu",
+    "ad": "2040 B.S."
   },
   {
-    "sno": "12",
-    "nationalparks": "Khaptad National Park",
+    "s no.": "12",
+    "name": "Khaptad National Park",
     "area": "225 km2 (87 sq mi)",
-    "coverage": "Bajhang",
-    "date": " Bajura"
+    "coverage": "Bajhang, Bajura, Doti and Achham",
+    "bs": "2040 B.S.",
+    "ad": "1984 A.D."
   }
 ]
