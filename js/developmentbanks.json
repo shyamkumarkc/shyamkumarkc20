@@ -1,8 +1,8 @@
 [
   {
     "SNO": 1,
-	"Code" : "",
-	"Casba" : "",
+	"Code": "9931",
+	"Casba": "",
     "Name": "Mahalaxmi Bikas Bank Limited",
 	"OD": "2017-07-02",
 	"HO": "Durbarmarg, Kathmandu",
@@ -19,8 +19,9 @@
 	
   },
   {
-    "SNO": 2,"Code" : "",
-	"Casba" : "",
+    "SNO": 2,
+	  "Code": "7605",
+	"Casba": "",
     "Name": "Narayani Development Bank Limited",
 	"OD": "2001-10-17",
 	"HO": "Tandi, Chitwan",
@@ -36,8 +37,9 @@
 	
   },
   {
-    "SNO": 3,"Code" : "",
-	"Casba" : "",
+    "SNO": 3,
+	  "Code": "",
+	"Casba": "",
     "Name": "Sangrila Development Bank Limited",
 	"OD": "2061 BS",
 	"HO": "Baluwatar,Kathmandu",
@@ -53,8 +55,9 @@
 	
   },
   {
-    "SNO": 4,"Code" : "",
-	"Casba" : "",
+    "SNO": 4,
+	  "Code": "7502",
+	"Casba": "",
     "Name": "Excel Development Bank Limited",
 	"OD": "2005-07-21",
 	"HO": "Birtamode",
@@ -70,8 +73,9 @@
 	
   },
   {
-    "SNO": 5,"Code" : "",
-	"Casba" : "",
+    "SNO": 5,
+	  "Code": "7509",
+	"Casba": "",
     "Name": "Miteri Development Bank Limited",
 	"OD": "2006-10-13",
 	"HO": "Mahendrapath, Dharan",
@@ -87,7 +91,8 @@
 	
   },
   {
-    "SNO": 6,"Code" : "",
+    "SNO": 6,
+	  "Code" : "7201",
 	"Casba" : "Rs. 5",
     "Name": "Muktinath Bikas Bank Limited",
 	"OD": "2007-01-03",
@@ -103,8 +108,9 @@
 	"pobox": "0"
 	
   },{
-    "SNO": 7,"Code" : "",
-	"Casba" : "",
+    "SNO": 7,
+	  "Code": "9929",
+	"Casba": "",
     "Name": "Karnali Bikas Bank Limited",
 	"OD": "2004-02-18",
 	"HO": "Nepalgunj, Banke",
@@ -119,7 +125,8 @@
 	"pobox": "0"
 	
   },{
-    "SNO": 8,"Code" : "",
+    "SNO": 8,
+	  "Code" : "6601",
 	"Casba" : "",
     "Name": "Garima Bikas Bank Limited",
 	"OD": "2021-11-14",
@@ -135,7 +142,8 @@
 	"pobox": "0"
 	
   },{
-    "SNO": 9,"Code" : "",
+    "SNO": 9,
+	  "Code" : "6801",
 	"Casba" : "",
     "Name": "Kamana Sewa Bikas Bank Limited",
 	"OD": "2017-08-04",
