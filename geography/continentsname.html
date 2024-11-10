@@ -40,64 +40,46 @@ Name of Continents </h2>
 <th>S No</th>
 <th>Name</th>
     <th>Land (km <sup>2</sup>)</th>
-    <th>%</th>
-
-
-</tr>
-<tr>
-<td>1</td>
-<td>North America</td>
-    <td>24,230,000</td>
-    <td>16.2</td>
-
+  <th>Highest Peak</th>
+	<th>Lowest Point</th>
+	<th>GrassLand</th>
+	<th>Lake</th>
 
 </tr>
-<tr>
-<td>2</td>
-<td>South America</td>
-    <td>17,814,000</td>
-    <td>11.9</td>
+    <tbody id="data-output">
+         <!-- Prodcuts from javascript file in here. -->
+      </tbody>
+   </table>
+ 
+ <script>
+   fetch("https://shyamkumarkc20.com.np/js/continents.json")
+.then(function(response){
+   return response.json();
+})
+.then(function(products){
+   let placeholder = document.querySelector("#data-output");
+   let out = "";
+   for(let product of products){
+      out += `
+         <tr>
+            
+            <td>${product.SNO}</td>
+	    <td>${product.name}</td>
+		 <td>${product.area}</td>
+		<td>${product.hmount}</td>
+  <td>${product.lpoint}</td>
+<td>${product.grass}</td>
+<td>${product.blake}</td>
 
 
-</tr>
-<tr>
-<td>3</td>
-<td>Europe</td>
-    <td>10,000,000</td>
-    <td>6.7</td>
 
-
-</tr>
-<tr>
-<td>4</td>
-<td>Africa</td>
-    <td>30,365,000</td>
-    <td>20.3</td>
-
-
-</tr>
-<tr>
-<td>5</td>
-<td>Asia</td>
-    <td>44,614,000</td>
-    <td>29.8</td>
-
-</tr>
-<tr>
-<td>6</td>
-<td>Australia</td>
-    <td>8,510,926</td>
-    <td>5.7</td>
-
-</tr>
-  <tr>
-<td>7</td>
-<td>Antarctica</td>
-      <td>14,200,000</td>
-      <td>9.5</td>
-
-  </tr>
-</tbody></table>
+         </tr>
+      `;
+   }
+ 
+   placeholder.innerHTML = out;
+});
+ </script>
 
   <script>
 $(function(){
