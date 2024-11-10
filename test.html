@@ -34,7 +34,55 @@ tr:nth-child(even) {
 <h1>
 Panche Baja</h1>
 The Panche Baja comprises a collection of five traditional musical instruments from Nepal, typically performed during sacred ceremonies, particularly weddings. In the Hindu tradition, these instruments are predominantly played by the Damai and Gaine castes. The performance is characterized by the rhythm of folk Nepali melodies. The term "Panche Baja" derives from the Nepali word "panch," meaning five, which refers to the five distinct instruments included in the set, while "baaja" translates to musical instruments.
-<script>
+<table border="black" >
+<thead>
+<tr>
+<th>S.No.</th>
+<th>Bank Name</th>
+	<th>Bank<br/>Logo</th>
+<th>Operation<br/>Date</th>
+<th>Head<br/>Office</th>
+
+<th>NEPSE<br/>Code</th>
+<th>SWIFT <br/>Code</th>
+	<th>Toll<br/>Free</th>
+<th>Phone<br/>Number</th>	
+	<th>Email<br/>Address</th>
+
+</tr>
+</thead>
+
+      <tbody id="data-output">
+         <!-- Prodcuts from javascript file in here. -->
+      </tbody>
+   </table>
+ 
+   <script>
+   fetch("https://shyamkumarkc20.com.np/js/panchebaja.json")
+.then(function(response){
+   return response.json();
+})
+.then(function(products){
+   let placeholder = document.querySelector("#data-output");
+   let out = "";
+   for(let product of products){
+      out += `
+         <tr>
+            
+            <td>${product.SNO}</td>
+             <td>${product.Name}</a></td>
+	    <td><img src="${product.IMG}" width="120" height="100" ></td>
+			
+           
+            
+         </tr>
+      `;
+   }
+ 
+   placeholder.innerHTML = out;
+});
+   </script>
+	<script>
 	$(function(){
 $('#footer').load('/assets/footer.html');
 });
