@@ -2,43 +2,50 @@
   {
     "SNO": 1,
 	    "Name": "Jhyali",	
-	"IMG": "https://shyamkumarkc20.com.np/logo/jhyali.jpeg"
+	"IMG": "https://shyamkumarkc20.com.np/logo/jhyali.jpeg",
+	  "dp": ""
 	
   },
   {
     "SNO": 2,
 	    "Name": "Dholak",	
-	"IMG": "https://shyamkumarkc20.com.np/logo/dholak.jpeg"
+	"IMG": "https://shyamkumarkc20.com.np/logo/dholak.jpeg",
+	  "dp": ""
 	
   },
   {
     "SNO": 3,
 	    "Name": "Damaha",	
-	"IMG": "https://shyamkumarkc20.com.np/logo/damaha.jpg"
+	"IMG": "https://shyamkumarkc20.com.np/logo/damaha.jpg",
+	  "dp": ""
 	
   },
   {
     "SNO": 4,
 	    "Name": "Narsinga",	
-	"IMG": "https://shyamkumarkc20.com.np/logo/narsinga.jpeg"
+	"IMG": "https://shyamkumarkc20.com.np/logo/narsinga.jpeg",
+	  "dp": ""
 	
   },
   {
     "SNO": 5,
 	    "Name": "Shehnai",	
-	"IMG": "https://shyamkumarkc20.com.np/logo/shehnai.jpg"
+	"IMG": "https://shyamkumarkc20.com.np/logo/shehnai.jpg",
+	  "dp": ""
 	
   },
   {
     "SNO": 6,
 	    "Name": "Karnal",	
-	"IMG": "https://shyamkumarkc20.com.np/logo/karnal.jpeg"
+	"IMG": "https://shyamkumarkc20.com.np/logo/karnal.jpeg",
+	  "dp": ""
 	
   },
   {
     "SNO": 7,
 	    "Name": "Tyamko",	
-	"IMG": "https://shyamkumarkc20.com.np/logo/tyamko.jpeg"
+	"IMG": "https://shyamkumarkc20.com.np/logo/tyamko.jpeg",
+	  "dp": ""
 	
   }
 ]
