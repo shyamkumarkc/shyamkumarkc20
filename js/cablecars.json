@@ -15,6 +15,7 @@
 		"Name": "Chandragiri Cable Car",
 		"IMG": "https://shyamkumarkc20.com.np/logo/.jpg",
 		"Website": "www.chandragirihills.com/cable-car-ride/",
+		"dis": "Kathmandu",
 		"Length": "2551m",
 		"Height": "2551m",
 "sp": "Thankot",
@@ -41,6 +42,7 @@
 		"Name": "Annapurna Cable Car",
 		"IMG": "https://shyamkumarkc20.com.np/logo/annapurna.png",
 		"Website": "www.annapurnacablecar.com.np/",
+		
 		"Length": "2200m",
 		"Height": "1600m",
 "sp": "Fewa Lake",
@@ -49,8 +51,9 @@
 	},
 	{
 		"SNo": "5",
-		"Name": "Maula Kali Cable Car","IMG": "https://shyamkumarkc20.com.np/logo/.jpg",
-		
+		"Name": "Maula Kali Cable Car",
+		"IMG": "https://shyamkumarkc20.com.np/logo/.jpg",
+		"dis": "Nawalparasi",
 		"Length": "1200m",
 		"Height": "560m",
 "sp": "Gaidakot",
@@ -62,7 +65,7 @@
 		"SNo": "6",
 		"Name": "Lumbini Cable Car",
 		"IMG": "https://shyamkumarkc20.com.np/logo/bh.png",
-		
+		"dis": "Nawalpur",
 		"Length": "2600m",
 		"Height": "940m",
 "sp": "Balaghat Butwal",
