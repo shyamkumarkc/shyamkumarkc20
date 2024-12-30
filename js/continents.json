@@ -7,7 +7,8 @@
 "hmount": "Sagarmatha (MountEverest) 8848.86m",
 "lpoint": "Dead Sea",
 "grass": "Steppes",
-"blake": "Baikal"
+"blake": "Baikal",
+  "glacier" : "Siachen "
 },
 {
 "SNO": "2",
@@ -17,7 +18,8 @@
 "hmount": "Kilimanjaro 5896m",
 "lpoint": "Lake Assal",
 "grass": "Velds",
-"blake": "Victoria"
+"blake": "Victoria",
+  "glacier" : "Glacier of Mount Kilimanjaro"
 },
 {
 "SNO": "3",
@@ -27,7 +29,8 @@
 "hmount": "McKinley 6194m",
 "lpoint": "Death Valley",
 "grass": "Prairies",
-"blake": "Superior"
+"blake": "Superior",
+  "glacier" : "Harvard"
 },
 {
 "SNO": "4",
@@ -37,7 +40,8 @@
 "hmount": "Aconcagua 6962m",
 "lpoint": "Peninsula",
 "grass": "Pampas",
-"blake": "Titikaka"
+"blake": "Titikaka",
+  "glacier" : " Perito Moreno"
 },
 {
 "SNO": "5",
@@ -47,7 +51,8 @@
 "hmount": "Vinson Masif 4892m",
 "lpoint": "Bentley Subglacial Trench",
 "grass": "",
-"blake": "Vostok"
+"blake": "Vostok",
+  "glacier" : "Lambert"
 },
 {
 "SNO": "6",
@@ -57,7 +62,8 @@
 "hmount": "Elbrus 5642m",
 "lpoint": "Caspean Trench",
 "grass": "Steppes",
-"blake": "Ladoga"
+"blake": "Ladoga",
+  "glacier" : "Vatnajokull"
 },
 {
 "SNO": "7",
@@ -67,6 +73,7 @@
 "hmount": "Kosciuszko 2228m",
 "lpoint": "Aaira Lake",
 "grass": "Downs",
-"blake": "Aairi"
+"blake": "Aairi",
+  "glacier" : "Heard Island"
 }
 ]
