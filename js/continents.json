@@ -21,7 +21,7 @@
 "grass": "Velds",
 "blake": "Victoria",
   "glacier" : "Glacier of Mount Kilimanjaro",
-  "dessert" : " "
+  "dessert" : "Sahara"
 },
 {
 "SNO": "3",
@@ -45,7 +45,7 @@
 "grass": "Pampas",
 "blake": "Titikaka",
   "glacier" : " Perito Moreno",
-  "dessert" : " "
+  "dessert" : "Patagonian"
 },
 {
 "SNO": "5",
@@ -57,7 +57,7 @@
 "grass": "",
 "blake": "Vostok",
   "glacier" : "Lambert",
-  "dessert" : " "
+  "dessert" : "Antarctic Polar"
 },
 {
 "SNO": "6",
@@ -81,6 +81,6 @@
 "grass": "Downs",
 "blake": "Aairi",
   "glacier" : "Heard Island",
-  "dessert" : " "
+  "dessert" : "Great Victoria "
 }
 ]
