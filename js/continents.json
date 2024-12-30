@@ -8,7 +8,8 @@
 "lpoint": "Dead Sea",
 "grass": "Steppes",
 "blake": "Baikal",
-  "glacier" : "Siachen "
+  "glacier" : "Siachen",
+  "dessert" : " "
 },
 {
 "SNO": "2",
@@ -19,7 +20,8 @@
 "lpoint": "Lake Assal",
 "grass": "Velds",
 "blake": "Victoria",
-  "glacier" : "Glacier of Mount Kilimanjaro"
+  "glacier" : "Glacier of Mount Kilimanjaro",
+  "dessert" : " "
 },
 {
 "SNO": "3",
@@ -30,7 +32,8 @@
 "lpoint": "Death Valley",
 "grass": "Prairies",
 "blake": "Superior",
-  "glacier" : "Harvard"
+  "glacier" : "Harvard",
+  "dessert" : " "
 },
 {
 "SNO": "4",
@@ -41,7 +44,8 @@
 "lpoint": "Peninsula",
 "grass": "Pampas",
 "blake": "Titikaka",
-  "glacier" : " Perito Moreno"
+  "glacier" : " Perito Moreno",
+  "dessert" : " "
 },
 {
 "SNO": "5",
@@ -52,7 +56,8 @@
 "lpoint": "Bentley Subglacial Trench",
 "grass": "",
 "blake": "Vostok",
-  "glacier" : "Lambert"
+  "glacier" : "Lambert",
+  "dessert" : " "
 },
 {
 "SNO": "6",
@@ -63,7 +68,8 @@
 "lpoint": "Caspean Trench",
 "grass": "Steppes",
 "blake": "Ladoga",
-  "glacier" : "Vatnajokull"
+  "glacier" : "Vatnajokull",
+  "dessert" : " "
 },
 {
 "SNO": "7",
@@ -74,6 +80,7 @@
 "lpoint": "Aaira Lake",
 "grass": "Downs",
 "blake": "Aairi",
-  "glacier" : "Heard Island"
+  "glacier" : "Heard Island",
+  "dessert" : " "
 }
 ]
