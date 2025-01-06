@@ -99,7 +99,7 @@
   {
     "SNO": 6,
 	"Code" : "601",
-	"Casba" : "Rs. 5",
+	"Casba" : "Free",
     "Name": "Standard Chartered Bank Nepal Limited",
 	"ODAD": "1987/02/28 AD",
 	"ODBS": "2043/10/16 BS",
@@ -317,7 +317,7 @@
   {
     "SNO": 18,
 	"Code" : "2501",
-	"Casba" : "Rs. 5",
+	"Casba" : "Free",
     "Name": "NMB Bank Limited",
 	"ODAD": "2015/10/18",
 	"ODBS": "",
