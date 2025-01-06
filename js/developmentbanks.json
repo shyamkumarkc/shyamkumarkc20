@@ -2,7 +2,7 @@
   {
     "SNO": 1,
 	"Code": "9931",
-	"Casba": "",
+	"Casba": "Rs. 5",
     "Name": "Mahalaxmi Bikas Bank Limited",
 	"OD": "2017-07-02",
 	"HO": "Durbarmarg, Kathmandu",
@@ -21,7 +21,7 @@
   {
     "SNO": 2,
 	  "Code": "7605",
-	"Casba": "",
+	"Casba": "Rs. 5",
     "Name": "Narayani Development Bank Limited",
 	"OD": "2001-10-17",
 	"HO": "Tandi, Chitwan",
@@ -39,7 +39,7 @@
   {
     "SNO": 3,
 	  "Code": "",
-	"Casba": "",
+	"Casba": "Rs. 5",
     "Name": "Sangrila Development Bank Limited",
 	"OD": "2061 BS",
 	"HO": "Baluwatar,Kathmandu",
@@ -57,7 +57,7 @@
   {
     "SNO": 4,
 	  "Code": "7502",
-	"Casba": "",
+	"Casba": "Rs. 5",
     "Name": "Excel Development Bank Limited",
 	"OD": "2005-07-21",
 	"HO": "Birtamode",
@@ -129,7 +129,7 @@
 	{
     "SNO": 8,
 	  "Code" : "6601",
-	"Casba" : "",
+	"Casba" : "Rs. 5",
     "Name": "Garima Bikas Bank Limited",
 	"OD": "2021-11-14",
 	"HO": "Kathmandu 02, Lazimpat",
@@ -184,7 +184,7 @@
 	{
     "SNO": 11,
 	  "Code": "6001",
-	"Casba": "",
+	"Casba": "Rs. 5",
     "Name": "Jyoti Bikas Bank Limited",
 	"OD": "2016-08-12",
 	"HO": "KamalPokhari Kathmandu",
@@ -202,7 +202,7 @@
 	{
     "SNO": 12,
 	  "Code": "8101",
-	"Casba": "",
+	"Casba": "Free",
     "Name": "Shine Resunga Development Bank Limited",
 	"OD": "2013-03-17",
 	"HO": "Butwal, Rupandehi",
@@ -293,7 +293,7 @@
   {
     "SNO": 17,
 	  "Code" : "7517",
-	"Casba" : "",
+	"Casba" : "Free",
     "Name": "Green Development Bank Limited",
 	"OD": "2013-08-25",
 	"HO": "Pokhara, Kaski ",
