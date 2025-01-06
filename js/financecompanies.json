@@ -2,7 +2,7 @@
   {
     "SNO": 1, 
 	  "Code": "7516",
-	"Casba": "",
+	"Casba": "Free",
     "Name": "Best Finance Limited",
 	"OD": "1995",
 	"HO": "Kamaladi, Kathmandu",
@@ -38,7 +38,7 @@
   {
     "SNO": 3,
 	  "Code" : "9906",
-	"Casba" : "",
+	"Casba" : "Free",
     "Name": "Central Finance Limited",
 	"OD": "1996",
 	"HO": "Kupondole, Lalitpur",
@@ -56,7 +56,7 @@
   {
     "SNO": 4,
 	  "Code" : "8301",
-	"Casba" : "",
+	"Casba" : "Free",
     "Name": "Gurkhas Finance Limited",
 	"OD": "1994",
 	"HO": "Dillibazar, Kathmandu",
@@ -144,7 +144,7 @@
   },{
     "SNO": 9,
 	  "Code": "9935",
-	"Casba": "",
+	"Casba": "Free",
     "Name": "Manjushree Finance Limited",
 	"OD": "2007",
 	"HO": "Nayabaneshwor, Kathmandu",
