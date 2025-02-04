@@ -336,5 +336,16 @@
         "Email": "office@utkhpl.org.np",
         "Website": "www.tamakhosihydro.org.np",
          "Units": "80"
+    },
+    {
+        "SN": "",
+        "Name": "Himalayan Life Insurance Limited",
+        "Symbol": "HLI",
+        "Status": "Active",
+        "Sector": "Life Insurance",
+        "Instrument": "Equity",
+        "Email": "",
+        "Website": "",
+         "Units": "57"
     }
 ]
