@@ -1,10 +1,85 @@
-<html>
- <body>
-   <iframe width="315" height="560"
-    src="https://www.youtube.com/embed/c5_xk9JxP3w"
-    title="YouTube Shorts"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen> </iframe>
- </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slideshow</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: Arial, sans-serif; }
+
+        .slideshow-container {
+            position: relative;
+            max-width: 800px;
+            margin: auto;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+        
+        .slides {
+            display: none;
+            width: 100%;
+        }
+        
+        .fade {
+            animation: fadeEffect 2s ease-in-out;
+        }
+        
+        @keyframes fadeEffect {
+            from { opacity: 0.4; }
+            to { opacity: 1; }
+        }
+
+        .prev, .next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        .prev { left: 10px; }
+        .next { right: 10px; }
+        
+        .prev:hover, .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <div class="slideshow-container">
+        <img class="slides fade" src="https://via.placeholder.com/800x400/ff7f7f" alt="Slide 1">
+        <img class="slides fade" src="https://via.placeholder.com/800x400/7f7fff" alt="Slide 2">
+        <img class="slides fade" src="https://via.placeholder.com/800x400/7fff7f" alt="Slide 3">
+        
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+    
+    <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+            let slides = document.querySelectorAll(".slides");
+            slides.forEach(slide => slide.style.display = "none");
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1; }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 3000); // Change image every 3 seconds
+        }
+        
+        function changeSlide(n) {
+            let slides = document.querySelectorAll(".slides");
+            slideIndex += n - 1;
+            if (slideIndex >= slides.length) { slideIndex = 0; }
+            if (slideIndex < 0) { slideIndex = slides.length - 1; }
+            slides.forEach(slide => slide.style.display = "none");
+            slides[slideIndex].style.display = "block";
+        }
+    </script>
+</body>
 </html>
