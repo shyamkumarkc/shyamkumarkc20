@@ -108,32 +108,9 @@ tr:nth-child(even) {
     
         fetchBankData1();
     </script> </tr></table>
-<h2>List of Subsidiaries Company</h2>
-<style>
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-    
-    border: 1px solid #ddd;
-}
+<h2>Subsidiaries Companies</h2>
+<div id="subInfo" class="bank-container"></div>
 
-th, td {
-    text-align: left;
-    padding: 16px;
-}
-
-tr:nth-child(even) {
-    background-color: #f2f2f2
-}
-</style>
- <table border="black">  
-  <head>
-                  <tr>
-                   <td>Company Name</td>
-                   
-                  </tr></head>
-  <tbody id="bankInfos1" class="bank-container"></tbody>
-  <tr>
     <script>
         async function fetchBankData2() {
             try {
@@ -141,23 +118,23 @@ tr:nth-child(even) {
                 const banks = await response.json();
                 
                 // Filter for Nabil Bank Limited
-                const globalBank = banks.find(bank => bank.Name === "Global Bank");
-             
+                const globalBank = banks.find(bank => bank.Name === "Global IME Bank Limited");
+                
                 if (globalBank) {
-                    document.getElementById('bankInfos1').innerHTML = `
+                    document.getElementById('subInfo').innerHTML = `
                     
-                        <td>${globalBank.subsidiaries}</td>
-                        
-                       
+                        <p> ${globalBank.subsidiaries}</p>
+                      
+                        </p>
                     `;
                 } else {
-                    document.getElementById('bankInfos1').innerHTML = '<p>Global Bank data not found.</p>';
+                    document.getElementById('subInfo').innerHTML = '<p>Global IME Bank data not found.</p>';
                 }
             } catch (error) {
                 console.error('Error fetching bank data:', error);
-                document.getElementById('bankInfos1').innerHTML = '<p>Error loading bank details.</p>';
+                document.getElementById('subInfo').innerHTML = '<p>Error loading bank details.</p>';
             }
         }
-    
+        
         fetchBankData2();
-    </script> </tr></table>
+    </script>
