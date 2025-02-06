@@ -16,14 +16,14 @@
 	"phone1": "01-5971222",
 	"phone2": "",
 	"email": "info@nepalbank.com.np",
-	"pobox": "0",
-	  "desc":"Nepal Bank Limited (NBL) , the first bank of Nepal proudly holds the glory of marking the formal beginning of banking system in Nepal. Nepal Bank Limited was established as FIRST bank of Nepal on Kartik 30, 1994 (November 15, 1937 A.D.) under Nepal Bank Act 1937.<br/>Noteablly, Nepal Bank Limited was inaugurated by King Tribhuvan with supportive vision of Prime Minister Juddha Shumsher Jung Bahadur Rana to institutionalize formal banking system in Nepal. Before the establishment of NBL, all monetary transactions were carried out by private dealers and trading centers. "
+	"pobox": "",
+	  "desc": "Nepal Bank Limited (NBL), the first bank of Nepal proudly holds the glory of marking the formal beginning of banking system in Nepal. Nepal Bank Limited was established as FIRST bank of Nepal on Kartik 30, 1994 (November 15, 1937 A.D.) under Nepal Bank Act 1937.<br/>Noteablly, Nepal Bank Limited was inaugurated by King Tribhuvan with supportive vision of Prime Minister Juddha Shumsher Jung Bahadur Rana to institutionalize formal banking system in Nepal. Before the establishment of NBL, all monetary transactions were carried out by private dealers and trading centers. "
 	
   },
   {
     "SNO": 2,
-	"Code" : "201",
-	"Casba" : "Free",
+	"Code": "201",
+	"Casba": "Free",
     "Name": "Rastriya Banijya Bank Limited",
 	"ODAD": "1966/01/23 AD",
 	"ODBS": "2022/10/10 BS",
@@ -57,7 +57,7 @@
 	"phone1": "01-4263387",
 	"phone2": "",
 	"email": "info@adbl.gov.np",
-	"pobox": "0",
+	"pobox": "",
 	"fax": "01-4262616"
   },
   {
@@ -77,7 +77,7 @@
 	"phone1": "01-5970015",
 	"phone2": "",
 	"email": "customercare@nabilbank.com",
-	"pobox": "0",
+	"pobox": "",
 	"subsidiaries": "a. Nabil Retirement Fund<br/>b. Nabil Stock Dealer Limited<br/>c. Nabil Investment Banking Limited"
 	
   },
@@ -97,7 +97,7 @@
 	"phone1": "01-5342530",
 	"phone2": "01-5328229",
 	"email": "info@nimb.com.np",
-	"pobox": "0"
+	"pobox": ""
   },
   {
     "SNO": 6,
@@ -115,7 +115,7 @@
 	"phone1": " 01-4791800",
 	"phone2": "01-5424198",
 	"email": "Clientcarecentre.Nepal@sc.com",
-	"pobox": "0"
+	"pobox": ""
   },
   {
     "SNO": 7,
@@ -151,7 +151,7 @@
 	"phone1": "01-5970333",
 	"phone2": "",
 	"email": "corporate@nsbl.com.np",
-	"pobox": "0"
+	"pobox": ""
   },
   {
     "SNO": 9,
@@ -170,7 +170,7 @@
 	"phone2": "",
 	"phone1": "01-5970118",
 	"email": "customercare@ebl.com.np",
-	"pobox": "0"
+	"pobox": ""
   },
   {
     "SNO": 10,
@@ -184,15 +184,15 @@
 	"Swift": "KMBLNPKA",
 	"Website": "www.kumaribank.com",
 	  "IMG": "https://shyamkumarkc20.com.np/logo/kbl.png",
-	"TOLL": "0",
+	"TOLL": "",
 	"phone1": "01-4543076",
 	"phone2": "01-4543077",
 	"email": "contact@kumaribank.com",
-	"pobox": "0"
+	"pobox": ""
   },
   {
     "SNO": 11,
-	"Code" : "2201",
+	"Code": "2201",
 	"Casba": "Rs. 5",
     "Name": "Laxmi Sunrise Bank Limited",
 	"ODAD": "2002/04/03 AD",
@@ -224,12 +224,12 @@
 	"phone1": "01-5970068",
 	"phone2": "",
 	"email": "info@ctznbank.com",
-	"pobox": "0"
+	"pobox": ""
   },
   {
     "SNO": 13,
-	"Code" : "2101",
-	"Casba" : "Rs. 5",
+	"Code": "2101",
+	"Casba": "Rs. 5",
     "Name": "Prime Commercial Bank Limited",
 	"ODAD": "2007/09/24 AD",
 	"ODBS": "",
@@ -242,7 +242,7 @@
 	"phone1": " 01-4523254",
 	"phone2": "01-4523432",
 	"email": "info@pcbl.com.np",
-	"pobox": "0"
+	"pobox": ""
   },
   {
     "SNO": 14,
@@ -300,8 +300,8 @@
 	  },
   {
     "SNO": 17,
-	"Code" : "1901",
-	"Casba" : "Rs. 5",
+	"Code": "1901",
+	"Casba": "Rs. 5",
     "Name": "Global IME Bank Limited",
 	"ODAD": "2012 AD",
 	"ODBS": "",
@@ -321,8 +321,8 @@
   },
   {
     "SNO": 18,
-	"Code" : "2501",
-	"Casba" : "Free",
+	"Code": "2501",
+	"Casba": "Free",
     "Name": "NMB Bank Limited",
 	"ODAD": "2015/10/18",
 	"ODBS": "",
@@ -334,12 +334,13 @@
 	"TOLL": "",
 	"phone1": "01-5970150",
 	"phone2": "01-5346160",
-	"email": "call@nmb.com.np"
+	"email": "call@nmb.com.np",
+	"pobox": ""
   },
   {
     "SNO": 19,
-	"Code" : "2601",
-	"Casba" : "Rs. 5",
+	"Code": "2601",
+	"Casba": "Rs. 5",
     "Name": "Prabhu Bank Limited",
 	"ODAD": "2014/09/14",
 	"ODBS": "",
@@ -357,8 +358,8 @@
   },
   {
     "SNO": 20,
-	"Code" : "1801",
-	"Casba" : "Free",
+	"Code": "1801",
+	"Casba": "Free",
     "Name": "Siddhartha Bank Limited",
 	"ODAD": "2016/07/21",
 	"ODBS": "",
