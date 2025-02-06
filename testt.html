@@ -1,4 +1,4 @@
- <div id="bankInfo" class="bank-container"></div>
+ <div id="bankInfos" class="bank-container"></div>
 
     <script>
         async function fetchBankData() {
@@ -10,19 +10,19 @@
                 const nabilBank = banks.find(bank => bank.Name === "Nabil Bank Limited");
                 
                 if (nabilBank) {
-                    document.getElementById('bankInfo').innerHTML = `
-                     <img src="${nabilBank.IMG}" alt="Nabil Bank Logo" class="bank-logo">
+                    document.getElementById('bankInfos').innerHTML = `
+                     
                         <h2>${nabilBank.Name}</h2>
                         <p><strong>Established:</strong> ${nabilBank.BFI}</p>
                         <p><strong>Head Office:</strong> ${nabilBank.Merger}</p>
                         
                     `;
                 } else {
-                    document.getElementById('bankInfo').innerHTML = '<p>Nabil Bank data not found.</p>';
+                    document.getElementById('bankInfos').innerHTML = '<p>Nabil Bank data not found.</p>';
                 }
             } catch (error) {
                 console.error('Error fetching bank data:', error);
-                document.getElementById('bankInfo').innerHTML = '<p>Error loading bank details.</p>';
+                document.getElementById('bankInfos').innerHTML = '<p>Error loading bank details.</p>';
             }
         }
         
