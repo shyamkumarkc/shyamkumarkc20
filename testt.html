@@ -31,7 +31,7 @@ tr:nth-child(even) {
                 const banks = await response.json();
                 
                 // Filter for Nabil Bank Limited
-                const nabilBank = banks.find(bank => bank.Name === "Nabil Bank Limited");
+                const nabilBank = banks.find(bank => bank.Name === "Global Bank");
              
                 if (nabilBank) {
                     document.getElementById('bankInfo').innerHTML = `
