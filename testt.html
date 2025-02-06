@@ -31,18 +31,18 @@ tr:nth-child(even) {
                 const banks = await response.json();
                 
                 // Filter for Nabil Bank Limited
-                const nabilBank = banks.find(bank => bank.Name === "Global Bank");
+                const globalBank = banks.find(bank => bank.Name === "Global Bank");
              
-                if (nabilBank) {
+                if (globalBank) {
                     document.getElementById('bankInfo').innerHTML = `
                     
-                        <td>${nabilBank.Name}</td>
-                        <td>${nabilBank.BFI} </td>
-                        <td>${nabilBank.Merger}</td>
+                        <td>${globalBank.Name}</td>
+                        <td>${globalBank.BFI} </td>
+                        <td>${globalBank.Merger}</td>
                        
                     `;
                 } else {
-                    document.getElementById('bankInfo').innerHTML = '<p>Nabil Bank data not found.</p>';
+                    document.getElementById('bankInfo').innerHTML = '<p>Global Bank data not found.</p>';
                 }
             } catch (error) {
                 console.error('Error fetching bank data:', error);
