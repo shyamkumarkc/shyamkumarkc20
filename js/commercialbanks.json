@@ -141,7 +141,7 @@
 	"phone1": "01-5971346",
 	"phone2": "01-4227749",
 	"email": "himb@himalayanbank.com",
-	  "ceo": "",
+	  "ceo": "Ashok SJB Rana",
 	"pobox": "20590"
   },
   {
@@ -160,7 +160,7 @@
 	"phone1": "01-5970333",
 	"phone2": "",
 	"email": "corporate@nsbl.com.np",
-	  "ceo": "",
+	  "ceo": "Ram Kumar Tiwari",
 	"pobox": ""
   },
   {
@@ -180,13 +180,13 @@
 	"phone2": "",
 	"phone1": "01-5970118",
 	"email": "customercare@ebl.com.np",
-	  "ceo": "",
+	  "ceo": "Sudesh Khaling",
 	"pobox": ""
   },
   {
     "SNO": 10,
-	"Code" : "1601",
-	"Casba" : "Rs. 5",
+	"Code": "1601",
+	"Casba": "Rs. 5",
     "Name": "Kumari Bank Limited",
 	"ODAD": "2001/04/03 AD",
 	"ODBS": "",
@@ -199,7 +199,7 @@
 	"phone1": "01-4543076",
 	"phone2": "01-4543077",
 	"email": "contact@kumaribank.com",
-	  "ceo": "",
+	  "ceo": "Ram Chandra Khanal",
 	"pobox": ""
   },
   {
@@ -218,7 +218,7 @@
 	"phone1": "01-5970684",
 	"phone2": "01-4544684",
 	"email": "info@laxmisunrise.com",
-	  "ceo": "",
+	  "ceo": "Sumed Bhattarai",
 	"pobox": "19593"
   },
   {
@@ -237,7 +237,7 @@
 	"phone1": "01-5970068",
 	"phone2": "",
 	"email": "info@ctznbank.com",
-	  "ceo": "",
+	  "ceo": "Ganesh Raj Pokharel",
 	"pobox": ""
   },
   {
