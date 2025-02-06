@@ -26,13 +26,13 @@ $('#header').load('/assets/header.html');
             .then(response => response.json())
             .then(data => {
                 // Filter only Nabil Bank
-                const nabilBank = data.find(bank => bank.name === "Nabil Bank Limited");
+                const nabilBank = data.find(bank => bank.Name === "Nabil Bank Limited");
                 
                 if (nabilBank) {
                     document.getElementById("bank-info").innerHTML = `
                         <p><strong>Name:</strong> ${nabilBank.Name}</p>
-                        <p><strong>Location:</strong> ${nabilBank.location}</p>
-                        <p><strong>Services:</strong> ${nabilBank.services.join(", ")}</p>
+                        <p><strong>Location:</strong> ${nabilBank.HO}</p>
+                        <p><strong>Services:</strong> ${nabilBank.NEPSE.join(", ")}</p>
                     `;
                 } else {
                     document.getElementById("bank-info").innerHTML = "<p>No data found for Nabil Bank.</p>";
