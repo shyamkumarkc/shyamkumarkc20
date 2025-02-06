@@ -16,7 +16,32 @@ $('#header').load('/assets/header.html');
 <div id ="header"></div>
 <h1>Nabil Bank Limited</h1>
 <p>Nabil Bank was formerly known as Nepal Arab Bank Limited, which was established in 1984&ensp;as the first private commercial bank in Nepal. It offers a variety of commercial banking services, such as branch banking, treasury, trade, cards, remittance, and investment banking under its subsidiary, Nabil Investment Banking&ensp;Ltd. With&ensp;a robust presence of 268 branches,317 ATMs and substantial correspondent banking relationships</p>
-<script>
+<body>
+    <h1>Nabil Bank Details</h1>
+    <div id="bank-info"></div>
+
+    <script>
+        // Fetch JSON file
+        fetch("https://shyamkumarkc20.com.np/js/commercialbanks.json")
+            .then(response => response.json())
+            .then(data => {
+                // Filter only Nabil Bank
+                const nabilBank = data.find(bank => bank.name === "Nabil Bank");
+                
+                if (nabilBank) {
+                    document.getElementById("bank-info").innerHTML = `
+                        <p><strong>Name:</strong> ${nabilBank.name}</p>
+                        <p><strong>Location:</strong> ${nabilBank.location}</p>
+                        <p><strong>Services:</strong> ${nabilBank.services.join(", ")}</p>
+                    `;
+                } else {
+                    document.getElementById("bank-info").innerHTML = "<p>No data found for Nabil Bank.</p>";
+                }
+            })
+            .catch(error => console.error("Error loading JSON:", error));
+    </script>
+</body>
+  <script>
 $(function(){
 $('#footer').load('/assets/footer.html');
 });
