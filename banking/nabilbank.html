@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>SHYAM KUMAR K.C.</title>
+<title>Nabil Bank Limited</title>
 <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
 </script>
@@ -15,7 +15,10 @@ $('#header').load('/assets/header.html');
 <body>
 <div id ="header"></div>
 <h1>Nabil Bank Limited</h1>
-<p>Nabil Bank was formerly known as Nepal Arab Bank Limited, which was established in 1984&ensp;as the first private commercial bank in Nepal. It offers a variety of commercial banking services, such as branch banking, treasury, trade, cards, remittance, and investment banking under its subsidiary, Nabil Investment Banking&ensp;Ltd. With&ensp;a robust presence of 268 branches,317 ATMs and substantial correspondent banking relationships</p>
+<p>Nabil Bank was formerly known as Nepal Arab Bank Limited, which was established in 1984&ensp;as the first private commercial bank in Nepal.
+     It offers a variety of commercial banking services, such as branch banking, treasury, trade, cards, remittance, and
+    investment banking under its subsidiary, Nabil Investment Banking&ensp;Ltd. With&ensp;a robust presence of 268 branches, 
+    317 ATMs and substantial correspondent banking relationships</p>
 
     <h1>Nabil Bank Details</h1>
       <div id="bankInfo" class="bank-container"></div>
@@ -33,7 +36,7 @@ $('#header').load('/assets/header.html');
                     document.getElementById('bankInfo').innerHTML = `
                         <img src="${nabilBank.IMG}" alt="Nabil Bank Logo" class="bank-logo">
                         <h2>${nabilBank.Name}</h2>
-                        <p><strong>Established:</strong> ${nabilBank.ODAD}</p>
+                        <p><strong>Established:</strong> ${nabilBank.ODAD} [ ${nabilBank.ODBS} ]</p>
                         <p><strong>Head Office:</strong> ${nabilBank.HO}</p>
                         <p><strong>NEPSE Code:</strong> ${nabilBank.NEPSE}</p>
                         <p><strong>Swift Code:</strong> ${nabilBank.Swift}</p>
