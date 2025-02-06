@@ -3,7 +3,7 @@
     <script>
         async function fetchBankData() {
             try {
-                const response = await fetch('https://shyamkumarkc20.com.np/js/commercialbanks.json'); // Replace with actual API endpoint
+                const response = await fetch('https://shyamkumarkc20.com.np/js/merger.json'); // Replace with actual API endpoint
                 const banks = await response.json();
                 
                 // Filter for Nabil Bank Limited
@@ -13,14 +13,9 @@
                     document.getElementById('bankInfo').innerHTML = `
                      <img src="${nabilBank.IMG}" alt="Nabil Bank Logo" class="bank-logo">
                         <h2>${nabilBank.Name}</h2>
-                        <p><strong>Established:</strong> ${nabilBank.ODAD} [ ${nabilBank.ODBS} ]</p>
-                        <p><strong>Head Office:</strong> ${nabilBank.HO}</p>
-                        <p><strong>NEPSE Code:</strong> ${nabilBank.NEPSE}</p>
-                        <p><strong>Swift Code:</strong> ${nabilBank.Swift}</p>
-                        <p><strong>Phone:</strong> ${nabilBank.phone1}</p>
-                        <p><strong>Email:</strong> <a href="mailto:${nabilBank.email}">${nabilBank.email}</a></p>
-                        <p><strong>Website:</strong> <a href="https://${nabilBank.Website}" target="_blank">${nabilBank.Website}</a>
-                        </p>
+                        <p><strong>Established:</strong> ${nabilBank.BFI}</p>
+                        <p><strong>Head Office:</strong> ${nabilBank.Merger}</p>
+                        
                     `;
                 } else {
                     document.getElementById('bankInfo').innerHTML = '<p>Nabil Bank data not found.</p>';
