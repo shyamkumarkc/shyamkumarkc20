@@ -1,6 +1,20 @@
- <div id="bankInfos" class="bank-container"></div>
+<table border="black" >
+<thead>
+<tr>
+<th>S.No.</th>
+<th>Name</th>
+	
 
-    <script>
+</tr>
+</thead>
+
+      <tbody id="data-output">
+         <!-- Prodcuts from javascript file in here. -->
+      </tbody>
+   </table>
+ 
+  
+      <script>
         async function fetchBankData() {
             try {
                 const response = await fetch('https://shyamkumarkc20.com.np/js/merger.json'); // Replace with actual API endpoint
@@ -11,11 +25,13 @@
                 
                 if (nabilBank) {
                     document.getElementById('bankInfos').innerHTML = `
-                     
-                        <h2>${nabilBank.Name}</h2>
-                        <p><strong>Established:</strong> ${nabilBank.BFI}</p>
-                        <p><strong>Head Office:</strong> ${nabilBank.Merger}</p>
-                        
+                     <tr>
+            
+        
+                        <td>${nabilBank.Name}</td>
+                        <td><strong>Established:</strong> ${nabilBank.BFI}</td>
+                        <td><strong>Head Office:</strong> ${nabilBank.Merger}</td>
+                         </tr>
                     `;
                 } else {
                     document.getElementById('bankInfos').innerHTML = '<p>Nabil Bank data not found.</p>';
@@ -27,4 +43,15 @@
         }
         
         fetchBankData();
-    </script>
+  
+  
+         
+      `;
+   }
+ 
+   placeholder.innerHTML = out;
+});
+
+   </script>
+
+
