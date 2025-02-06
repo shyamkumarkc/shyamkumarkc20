@@ -114,30 +114,29 @@ tr:nth-child(even) {
         fetchBankData1();
     </script> </tr></table>
 <h2>Subsidiaries Companies</h2>
-<div id="subInfo" class="bank-container"></div>
+
 
     <script>
         async function fetchBankData2() {
-            try {
-                const response = await fetch('https://shyamkumarkc20.com.np/js/commercialbanks.json'); // Replace with actual API endpoint
-                const banks = await response.json();
+          
+                
                 
                 // Filter for Nabil Bank Limited
                 const nabilBank = banks.find(bank => bank.Name === "Global IME Bank Limited");
                 
                 if (nabilBank) {
-                    document.getElementById('subInfo').innerHTML = `
+                    document.getElementById('bankInfo').innerHTML = `
                     
                         <p> ${nabilBank.subsidiaries}</p>
                       
                         </p>
                     `;
                 } else {
-                    document.getElementById('subInfo').innerHTML = '<p>Global IME Bank data not found.</p>';
+                    document.getElementById('bankInfo').innerHTML = '<p>Global IME Bank data not found.</p>';
                 }
             } catch (error) {
                 console.error('Error fetching bank data:', error);
-                document.getElementById('subInfo').innerHTML = '<p>Error loading bank details.</p>';
+                document.getElementById('bankInfo').innerHTML = '<p>Error loading bank details.</p>';
             }
         }
         
