@@ -1,5 +1,6 @@
-<div id="bankInfo" class="bank-container"></div>
-
+<table id="bankInfo" class="bank-container"></div>
+ <table>  
+                  <tr>
     <script>
         async function fetchBankData() {
             try {
@@ -8,8 +9,7 @@
                 
                 // Filter for Nabil Bank Limited
                 const nabilBank = banks.find(bank => bank.Name === "Nabil Bank Limited");
-              <table>  
-                  <tr>
+             
                 if (nabilBank) {
                     document.getElementById('bankInfo').innerHTML = `
                     
