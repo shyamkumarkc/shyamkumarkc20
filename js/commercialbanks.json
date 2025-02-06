@@ -256,7 +256,7 @@
 	"phone1": " 01-4523254",
 	"phone2": "01-4523432",
 	"email": "info@pcbl.com.np",
-	  "ceo": "",
+	  "ceo": "Sanjeev Manandhar",
 	"pobox": ""
   },
   {
@@ -275,7 +275,7 @@
 	"phone1": "01-5970033",
 	"phone2": "",
 	"email": "sanima@sanimabank.com",
-	  "ceo": "",
+	  "ceo": "Nischal Raj Pandey",
 	"pobox": "20394"
   },
   {
@@ -294,13 +294,13 @@
 	"phone1": "01-5970555",
 	"phone2": "",
 	"email": "customercare@mbl.com.np",
-	  "ceo": "",
+	  "ceo": "Santosh Koirala",
 	"pobox": "12427"
   },
   {
     "SNO": 16,
-	"Code" : "2301",
-	"Casba" : "Rs. 5",
+	"Code": "2301",
+	"Casba": "Rs. 5",
     "Name": "NIC Asia Bank Limited",
 	"ODAD": "2013/06/30 AD",
 	"ODBS": "",
@@ -313,7 +313,7 @@
 	"phone1": "01-5970101",
 	"phone2": "",
 	"email": "info@nicasiabank.com",
-	  "ceo": "",
+	  "ceo": "Roshan Kumar Neupane",
 	"pobox": "11022"
 	  },
   {
@@ -334,7 +334,7 @@
 	"phone2": "",
 	"email": "info@gibl.com.np",
 	"pobox": "19327",
-	  "ceo": "",
+	  "ceo": "Surendra Raj Regmi",
 	  "subsidiaries": "a. Global IME Capital Limited<br/>b. Global IME Laghubitta Bittiya Sanstha Limited</br>c. Global IME Securities Limited<br/>d. Global IME Retirement Fund"
 	
   },
@@ -354,7 +354,7 @@
 	"phone1": "01-5970150",
 	"phone2": "01-5346160",
 	"email": "call@nmb.com.np",
-	  "ceo": "",
+	  "ceo": "Sunil KC",
 	"pobox": ""
   },
   {
@@ -373,7 +373,7 @@
 	"phone1": "01-5719000",
 	"phone2": "01-5719001",
 	"email": "info@prabhubank.com",	
-	  "ceo": "",
+	  "ceo": "Ashok Serchan",
 	"pobox": "19327"
 
   },
@@ -393,7 +393,7 @@
 	"phone1": "01-5970020",
 	"phone2": "",
 	"email": "customercare@sbl.com.np",
-	  "ceo": "",
+	  "ceo": "Sundar Prasad Kadel",
 	"pobox": "19327"
 	
   }
