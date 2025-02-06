@@ -8,13 +8,14 @@
                 
                 // Filter for Nabil Bank Limited
                 const nabilBank = banks.find(bank => bank.Name === "Nabil Bank Limited");
-                
+              <table>  
+                  <tr>
                 if (nabilBank) {
                     document.getElementById('bankInfo').innerHTML = `
                     
-                        <h2>${nabilBank.Name}</h2>
-                        <p><strong>Established:</strong> ${nabilBank.BFI} </p>
-                        <p><strong>Head Office:</strong> ${nabilBank.Merger}</p>
+                        <td>${nabilBank.Name}</td>
+                        <td><strong>Established:</strong> ${nabilBank.BFI} </td>
+                        <td><strong>Head Office:</strong> ${nabilBank.Merger}</td>
                        
                     `;
                 } else {
@@ -25,6 +26,6 @@
                 document.getElementById('bankInfo').innerHTML = '<p>Error loading bank details.</p>';
             }
         }
-        
-        fetchBankData();
+    
+        fetchBankData(); </tr></table>
     </script>
