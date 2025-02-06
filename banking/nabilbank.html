@@ -40,7 +40,8 @@ $('#header').load('/assets/header.html');
                         <p><strong>Head Office:</strong> ${nabilBank.HO}</p>
                         <p><strong>NEPSE Code:</strong> ${nabilBank.NEPSE}</p>
                         <p><strong>Swift Code:</strong> ${nabilBank.Swift}</p>
-                        <p><strong>Phone:</strong> ${nabilBank.phone1}</p>
+                        <p><strong>Phone:</strong><a href="tel:${nabilBank.phone1}"> ${nabilBank.phone1}</p>
+                        <p><strong>Toll Free:</strong><a href="tel:${nabilBank.TOLL}"> ${nabilBank.TOLL}</p>
                         <p><strong>Email:</strong> <a href="mailto:${nabilBank.email}">${nabilBank.email}</a></p>
                         <p><strong>Website:</strong> <a href="https://${nabilBank.Website}" target="_blank">${nabilBank.Website}</a>
                         </p>
