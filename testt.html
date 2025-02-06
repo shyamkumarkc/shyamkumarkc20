@@ -73,9 +73,9 @@
                     `;
                 }
                 
-                const nabilBank = banks.find(bank => bank.Name === "Nabil Bank Limited");
-                if (nabilBank) {
-                    document.getElementById('subInfo').innerHTML = `<p>${nabilBank.subsidiaries}</p>`;
+                const nabilBank1 = banks.find(bank => bank.Name === "Nabil Bank Limited");
+                if (nabilBank1) {
+                    document.getElementById('subInfo').innerHTML = `<p>${nabilBank1.subsidiaries}</p>`;
                 }
             } catch (error) {
                 console.error('Error fetching bank data:', error);
