@@ -34,9 +34,9 @@ $('#header').load('/assets/header.html');
                 
                 if (nabilBank) {
                     document.getElementById('bankInfo').innerHTML = `
-                    <table> <tr>   <img src="${nabilBank.IMG}" alt="Nabil Bank Logo" class="bank-logo">
+                     <img src="${nabilBank.IMG}" alt="Nabil Bank Logo" class="bank-logo">
                         <h2>${nabilBank.Name}</h2>
-                        <td><strong>Established:</strong> ${nabilBank.ODAD} [ ${nabilBank.ODBS} ]</td>
+                        <p><strong>Established:</strong> ${nabilBank.ODAD} [ ${nabilBank.ODBS} ]</p>
                         <p><strong>Head Office:</strong> ${nabilBank.HO}</p>
                         <p><strong>NEPSE Code:</strong> ${nabilBank.NEPSE}</p>
                         <p><strong>Swift Code:</strong> ${nabilBank.Swift}</p>
