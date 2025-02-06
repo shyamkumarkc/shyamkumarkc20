@@ -1,8 +1,8 @@
 [
   {
     "SNO": 1,
-	"Code" : "101",
-	"Casba" : "Rs. 5",
+	"Code": "101",
+	"Casba": "Rs. 5",
     "Name": "Nepal Bank Limited",
 	"ODAD": "1937/11/15 AD",
 	"ODBS": "1994/07/30 BS",
@@ -17,7 +17,7 @@
 	"phone2": "",
 	"email": "info@nepalbank.com.np",
 	"pobox": "",
-	  "ceo": "",
+	  "ceo": "Tilak Raj Pandeya",
 	  "desc": "Nepal Bank Limited (NBL), the first bank of Nepal proudly holds the glory of marking the formal beginning of banking system in Nepal. Nepal Bank Limited was established as FIRST bank of Nepal on Kartik 30, 1994 (November 15, 1937 A.D.) under Nepal Bank Act 1937.<br/>Noteablly, Nepal Bank Limited was inaugurated by King Tribhuvan with supportive vision of Prime Minister Juddha Shumsher Jung Bahadur Rana to institutionalize formal banking system in Nepal. Before the establishment of NBL, all monetary transactions were carried out by private dealers and trading centers. "
     
   },
@@ -39,7 +39,7 @@
 	"phone2": "",
 	"email": "rbb.info@rbb.com.np",
 	"pobox": "8368",
-	  "ceo": "",
+	  "ceo": "Kiran Kumar Shrestha",
 	  "desc": "Rastriya Banijya Bank Limited (RBBL) has a history of serving its customers far and wide across the nation for more than half a century. The bank then fully owned by Government of Nepal, was established on 10 Magh 2022 (23 January 1966) under the special statute 'Rastriya Banijya Bank Act, 2021' and had operated under 'Commercial Bank Act,2031' until it was re-registered as public limited company on 6 Baishak 2063 (19 May 2006). At present, the Bank operates as 'A' class financial institution licensed by Nepal Rastra Bank and carries out commercial banking activities as per the provisions of the Bank and Financial Institutions Act 2073 (2017)"
     
 	},
@@ -62,7 +62,7 @@
 	"email": "info@adbl.gov.np",
 	"pobox": "",
 	"fax": "01-4262616",
-	  "ceo": "",
+	  "ceo": "Govinda Gurung",
 	  "desc": "With the main objective of providing institutional credit for enhancing the production and productivity of the agricultural sector in the country, the Agricultural Development Bank, Nepal was established in 1968 under the ADBN Act 1967, as successor to the cooperative Bank. The Land Reform Savings Corporation was merged with ADBN in 1973. Subsequent amendments to the Act empowered the bank to extend credit to small farmers under group liability and expand the scope of financing to promote cottage industries. The amendments also permitted the bank to engage in commercial banking activities for the mobilization of domestic resources."
   },
   {
@@ -83,7 +83,7 @@
 	"phone2": "",
 	"email": "customercare@nabilbank.com",
 	"pobox": "",
-	  "ceo": "",
+	  "ceo": "Gyanendra Prasad Dhungana",
 	"subsidiaries": "a. Nabil Retirement Fund<br/>b. Nabil Stock Dealer Limited<br/>c. Nabil Investment Banking Limited"
 	
   },
@@ -103,7 +103,7 @@
 	"phone1": "01-5342530",
 	"phone2": "01-5328229",
 	"email": "info@nimb.com.np",
-	  "ceo": "",
+	  "ceo": "Jyoti Prakash Pandey",
 	"pobox": ""
   },
   {
@@ -122,7 +122,7 @@
 	"phone1": " 01-4791800",
 	"phone2": "01-5424198",
 	"email": "Clientcarecentre.Nepal@sc.com",
-	  "ceo": "",
+	  "ceo": "Gorakh Rana",
 	"pobox": ""
   },
   {
