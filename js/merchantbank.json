@@ -11,7 +11,7 @@
 "ODAD":"",
 "ODBS":"",
 "license": "41",
-"Services":"",
+"Services":"Portfolio Management",
 "Capital": ""
 },
 {
@@ -26,7 +26,7 @@
 "ODAD":"",
 "ODBS":"",
 "license": "43",
-"Services":"",
+"Services":"Portfolio Management",
 "Capital": ""
 },
 {
@@ -41,7 +41,7 @@
 "ODAD":"",
 "ODBS":"",
 "license": "42",
-"Services":"",
+"Services":"Portfolio Management",
 "Capital": ""
 },
 {
@@ -56,7 +56,7 @@
 "ODAD":"",
 "ODBS":"",
 "license": "08",
-"Services":"",
+"Services":"Issue Management, Share Registration, Underwriting",
 "Capital": ""
 },
 {
@@ -71,7 +71,7 @@
 "ODAD":"",
 "ODBS":"",
 "license": "34",
-"Services":"",
+"Services":"Issue Management, Share Registration, Underwriting, Portfolio Management",
 "Capital": ""
 },
 {
@@ -86,7 +86,7 @@
 "ODAD":"",
 "ODBS":"",
 "license": "54",
-"Services":"",
+"Services":"Underwriting, Portfolio Management, Corporate Advisory",
 "Capital": ""
 },
 {
@@ -100,6 +100,7 @@
 "logo":"",
 "ODAD":"",
 "ODBS":"",
+"Services":"Underwriting, Portfolio Management",
 "license": "44",
 "Capital": ""
 },
@@ -115,7 +116,7 @@
 "ODAD":"",
 "ODBS":"",
 "license": "09",
-"Services":"",
+"Services":"Issue Management, Share Registration, Underwriting, Portfolio Management, Corporate Advisory",
 "Capital": ""
 },
 {
@@ -130,7 +131,7 @@
 "Capital": "",
 "ODAD":"",
 "license": "58",
-"Services":"",
+"Services":"Underwriting, Portfolio Management, Corporate Advisory",
 "ODBS":""
 },
 {
@@ -145,7 +146,7 @@
 "ODAD":"",
 "ODBS":"",
 "license": "",
-"Services":"",
+"Services":"Issue Management, Share Registration, Underwriting, Portfolio Management, Corporate Advisory",
 "Capital": ""
 },
 {
@@ -160,7 +161,7 @@
 "ODAD":"",
 "ODBS":"",
 "license": "",
-"Services":"",
+"Services":"Underwriting, Portfolio Management, Corporate Advisory",
 "Capital": ""
 },
 {
@@ -175,7 +176,7 @@
 "ODAD":"",
 "ODBS":"",
 "license": "",
-"Services":"",
+"Services":"Underwriting, Portfolio Management, Corporate Advisory",
 "Capital": ""
 },
 {
@@ -190,7 +191,7 @@
 "ODAD":"",
 "ODBS":"",
 "license": "45",
-"Services":"",
+"Services":"Issue Management, Share Registration, Underwriting, Portfolio Management, Corporate Advisory",
 "Capital": ""
 },
 {
@@ -205,7 +206,7 @@
 "ODAD":"",
 "ODBS":"",
 "license": "25",
-"Services":"",
+"Services":"Issue Management, Share Registration, Underwriting, Portfolio Management, Corporate Advisory",
 "Capital": ""
 },
 {
@@ -219,8 +220,8 @@
 "logo":"",
 "ODAD":"",
 "ODBS":"",
-"license": "",
-"Services":"",
+"license": "51",
+"Services":"Underwriting, Portfolio Management, Corporate Advisory",
 "Capital": ""
 },
 {
@@ -235,6 +236,7 @@
 "ODAD":"",
 "ODBS":"",
 "license": "53",
+"Services":"Portfolio Management",
 "Capital": ""
 },
 {
@@ -249,7 +251,7 @@
 "ODAD":"",
 "ODBS":"",
 "license": "20",
-"Services":"",
+"Services":"Issue Management, Share Registration, Underwriting, Portfolio Management, Corporate Advisory",
 "Capital": ""
 },
 {
@@ -264,7 +266,7 @@
 "ODAD":"",
 "ODBS":"",
 "license": "18",
-"Services":"",
+"Services":"Issue Management, Share Registration, Underwriting, Portfolio Management, Corporate Advisory",
 "Capital": ""
 },
 {
@@ -279,7 +281,7 @@
 "ODAD":"",
 "ODBS":"",
 "license": "31",
-"Services":"",
+"Services":"Underwriting, Portfolio Management",
 "Capital": ""
 },
 {
@@ -294,7 +296,7 @@
 "ODAD":"",
 "ODBS":"",
 "license": "37",
-"Services":"",
+"Services":"Issue Management, Share Registration, Underwriting, Portfolio Management, Corporate Advisory",
 "Capital": ""
 },
 {
@@ -309,7 +311,7 @@
 "ODAD":"",
 "ODBS":"",
 "license": "39",
-"Services":"",
+"Services":"Issue Management, Share Registration, Underwriting, Portfolio Management, Corporate Advisory",
 "Capital": ""
 },
 {
@@ -324,7 +326,7 @@
 "ODAD":"",
 "ODBS":"",
 "license": "",
-"Services":"",
+"Services":"Issue Management, Share Registration, Underwriting, Portfolio Management, Corporate Advisory",
 "Capital": ""
 },
 {
@@ -339,7 +341,7 @@
 "ODAD":"",
 "ODBS":"",
 "license": "22",
-"Services":"",
+"Services":"Issue Management, Share Registration, Underwriting, Portfolio Management, Corporate Advisory",
 "Capital": ""
 },
 {
@@ -354,7 +356,7 @@
 "ODAD":"",
 "ODBS":"",
 "license": "18",
-"Services":"",
+"Services":"Issue Management, Share Registration, Underwriting, Portfolio Management, Corporate Advisory",
 "Capital": ""
 },
 {
@@ -369,7 +371,7 @@
 "ODAD":"",
 "ODBS":"",
 "license": "",
-"Services":"",
+"Services":"Share Registration, Portfolio Management",
 "Capital": ""
 },
 {
@@ -384,7 +386,7 @@
 "ODAD":"",
 "ODBS":"",
 "license": "40",
-"Services":"",
+"Services":"Issue Management, Share Registration, Underwriting, Portfolio Management",
 "Capital": ""
 },
 {
@@ -399,7 +401,7 @@
 "ODAD":"",
 "ODBS":"",
 "license": "",
-"Services":"",
+"Services":"Underwriting, Portfolio Management",
 "Capital": ""
 },
 {
@@ -414,7 +416,7 @@
 "ODAD":"",
 "ODBS":"",
 "license": "",
-"Services":"",
+"Services":"Corporate Advisory",
 "Capital": ""
 },
 {
@@ -429,7 +431,7 @@
 "ODAD":"",
 "ODBS":"",
 "license": "",
-"Services":"",
+"Services":"Issue Management, Share Registration, Underwriting, Portfolio Management, Corporate Advisory",
 "Capital": ""
 },
 {
