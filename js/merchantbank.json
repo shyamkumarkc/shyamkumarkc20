@@ -2,68 +2,83 @@
 {
 "SNo": "1",
 "Name": "Aakash Capital Limited",
-"HO": "",
-"phone": "",
-"email": "",
-"website": "",
+"HO": "Thapathali, Kathamandu",
+"phone": "015111145",
+"email": "info@aakashcapital.com.np",
+"website": "www.aakashcapital.com.np/",
 "logo":"",
 "ODAD":"",
 "ODBS":"",
+"license": "41",
 "Capital": ""
 },
 {
 "SNo": "2",
 "Name": "Arks Capital Advisors Limited",
-"HO": "",
-"phone": "",
-"email": "",
-"website": "","logo":"",
+"HO": "Central Business Park, Thapathali , Kathmandu",
+"phone": "015911676",
+"email": "info@arkscapitaladvisors.com.np",
+"website": "www.arkscapitalsdvisors.com/",
+"logo":"",
 "ODAD":"",
 "ODBS":"",
+"license": "43",
 "Capital": ""
 },
 {
 "SNo": "3",
 "Name": "Asian Capital Limited",
-"HO": "",
-"phone": "",
-"email": "",
-"website": "","logo":"",
+"HO": "Maitidevi complex, Maitidevi, Kathmandu-32",
+"phone": "014418664",
+"phone1": "014416504",
+"email": "info@asiancapital.com.np",
+"website": "www.wealth.com.np/",
+"logo":"",
 "ODAD":"",
 "ODBS":"",
+"license": "42",
 "Capital": ""
 },
 {
 "SNo": "4",
 "Name": "Citizen Investment Trus",
-"HO": "",
-"phone": "",
-"email": "",
-"website": "","logo":"",
+"HO": "New Baneshwor, Kathmandu",
+"phone": "014785319",
+"phone1": "014785321",
+"email": "cit_cmkt@nlk.org.np",
+"website": "www.nlk.org.np/",
+"logo":"",
 "ODAD":"",
 "ODBS":"",
+"license": "08",
 "Capital": ""
 },
 {
 "SNo": "5",
 "Name": "Citizens Capital Limited",
-"HO": "",
-"phone": "",
-"email": "",
-"website": "","logo":"",
+"HO": "Batule Ghar, Dillibazar 33, Kathmandu, Bagmati, Nepal",
+"phone": "014417723",
+"phone1": "014417457",
+"email": "info@citizenscapital.com.np",
+"website": "www.citizenscapital.com.np/",
+"logo":"",
 "ODAD":"",
 "ODBS":"",
+"license": "34",
 "Capital": ""
 },
 {
 "SNo": "6",
 "Name": "Elite Merchant Capital Limited",
-"HO": "",
-"phone": "",
-"email": "",
-"website": "","logo":"",
+"HO": "2nd Floor, Metro Park Building, Lazimpat-2, Kathmandu, Nepal",
+"phone": "014425190",
+"phone1": "",
+"email": "elitecapitalnepal@gmail.com",
+"website": "www.elitecapital.com.np/",
+"logo":"",
 "ODAD":"",
 "ODBS":"",
+"license": "54",
 "Capital": ""
 },
 {
@@ -75,6 +90,7 @@
 "website": "","logo":"",
 "ODAD":"",
 "ODBS":"",
+"license": "",
 "Capital": ""
 },
 {
@@ -86,6 +102,7 @@
 "website": "","logo":"",
 "ODAD":"",
 "ODBS":"",
+"license": "",
 "Capital": ""
 },
 {
@@ -97,6 +114,7 @@
 "website": "","logo":"",
 "Capital": "",
 "ODAD":"",
+"license": "",
 "ODBS":""
 },
 {
@@ -108,6 +126,7 @@
 "website": "","logo":"",
 "ODAD":"",
 "ODBS":"",
+"license": "",
 "Capital": ""
 },
 {
@@ -119,6 +138,7 @@
 "website": "","logo":"",
 "ODAD":"",
 "ODBS":"",
+"license": "",
 "Capital": ""
 },
 {
@@ -130,6 +150,7 @@
 "website": "","logo":"",
 "ODAD":"",
 "ODBS":"",
+"license": "",
 "Capital": ""
 },
 {
@@ -141,6 +162,7 @@
 "website": "","logo":"",
 "ODAD":"",
 "ODBS":"",
+"license": "",
 "Capital": ""
 },
 {
@@ -152,6 +174,7 @@
 "website": "","logo":"",
 "ODAD":"",
 "ODBS":"",
+"license": "",
 "Capital": ""
 },
 {
@@ -163,6 +186,7 @@
 "website": "","logo":"",
 "ODAD":"",
 "ODBS":"",
+"license": "",
 "Capital": ""
 },
 {
@@ -174,6 +198,7 @@
 "website": "","logo":"",
 "ODAD":"",
 "ODBS":"",
+"license": "",
 "Capital": ""
 },
 {
