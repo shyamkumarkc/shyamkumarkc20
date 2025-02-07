@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>SHYAM KUMAR K.C.</title>
+<title>Merchant Banks In Nepal</title>
 <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
 </script>
@@ -16,37 +16,82 @@ $('#header').load('/assets/header.html');
 <div id ="header"></div>
 
 
-<h1>Merchant Banker In Nepal </h1>
-<ol>
+<h2>
+List of Merchant Banks in Nepal</h2>
 
-<li>CZBIL Capital Limited</li>
-<li>Citizen Investment Trust (Nagarik Lagani Kosh)</li>
 
-<li>Global IME Capital</li>
-<li>Himalayan Capital Ltd.</li>
-<li>Kathmandu Capital Market Limited</li>
-<li>Kumari Capital</li>
-<li>Laxmi Capital Limited</li>
-<li>Machhapuchchhre Kriti Capital Ltd.</li>
+<br />
+	<style>
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
 
-<li>Muktinath Capital Limited</li>
-<li>Nabil Investment Banking Limited</li>
-<li>National Merchant Banker Limited</li>
-<li>Nepal Bangladesh Capital Ltd.</li>
-<li>Nepal SBI Merchant Banking Limited</li>
-<li>NIMB Ace Capital Limited</li>
-<li>NIC Asia Capital</li>
-<li>NMB Capital Limited</li>
-<li>Prabhu Capital Limited</li>
-<li>Provident Merchant Banker Limited</li>
-<li>RBB Merchant Banking Limited</li>
-<li>Samriddhi Capital Limited</li>
-<li>Sanima Capital</li>
-<li>Siddhartha Capital Limited</li>
-<li>Sunrise Capital Limited</li>
-<li>Wealth Management And Merchant Banking Limited</li>
-</ol>
-<script>
+th, td {
+    text-align: left;
+    padding: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+</style>
+<table border="black" >
+<thead>
+<tr>
+<th>S.No.</th>
+<th>Bank Name</th>
+	<th>Bank<br/>Logo</th>
+<th>Operation<br/>Date</th>
+<th>Head<br/>Office</th>
+
+<th>NEPSE<br/>Code</th>
+<th>SWIFT <br/>Code</th>
+	<th>Toll<br/>Free</th>
+<th>Phone<br/>Number</th>	
+	<th>Email<br/>Address</th>
+
+</tr>
+</thead>
+
+      <tbody id="data-output">
+         <!-- Prodcuts from javascript file in here. -->
+      </tbody>
+   </table>
+ 
+   <script>
+   fetch("https://shyamkumarkc20.com.np/js/merchantbank.json")
+.then(function(response){
+   return response.json();
+})
+.then(function(products){
+   let placeholder = document.querySelector("#data-output");
+   let out = "";
+   for(let product of products){
+      out += `
+         <tr>
+            
+            <td>${product.SNO}</td>
+             <td><a href ="https://${product.Website}"target="blank">${product.Name}</a></td>
+	    <td><img src="${product.IMG}" width="120" height="100" ></td>
+			<td>${product.ODAD} <br>${product.ODBS}</td>
+			<td>${product.HO}</td>
+			<td>${product.NEPSE}</td>
+			<td>${product.Swift}</td>
+  			 <td><a href="tel:${product.TOLL}">${product.TOLL}</a></td>
+ 			  <td><a href="tel:${product.phone1}">${product.phone1}</a><br/><a href="tel:${product.phone2}">${product.phone2}</a></td>
+      <td><a href="mailto:${product.email}">${product.email}</a></td>
+           
+            
+         </tr>
+      `;
+   }
+ 
+   placeholder.innerHTML = out;
+});
+
 $(function(){
 $('#footer').load('/assets/footer.html');
 });
