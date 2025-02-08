@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Union Pay</title>
+<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+</script>
+<script>
+$(function(){
+$('#header').load('/assets/header.html');
+});
+</script>
+
+</head>
+<body>
+<div id ="header"></div>
+
+
+<h2>
+Union Pay</h2>
+<p>UnionPay International (UPI) is a subsidiary of&nbsp;China UnionPay&nbsp;focused on the growth and support of UnionPay's global business. In partnership with more than 2600 institutions worldwide, UnionPay International has enabled card acceptance in 183 countries and regions with issuance in 84 countries and regions. UnionPay International provides high quality, cost effective and secure cross-border payment services to the world's largest cardholder base and ensures convenient local services to a growing number of global UnionPay cardholders and merchants.</p>
+<dl>
+<dt>Mobile Payment</dt>
+<dd>UnionPay mobile QuickPass</dd>
+<dd>UnionPay APP</dd>
+<dd>QR Code Payment</dd>
+</dl>
+<dl>
+<dt>UnionPay Card</dt>
+<dd>Debit Card</dd>
+<dd>Credit Card</dd>
+<dd>Prepaid Card</dd>
+<dd>Commercial Card</dd>
+<dd>Premium Card</dd>
+<dd>Theme Card</dd>
+</dl>
+<dl>
+<dt>Services and Benefits</dt>
+<dd>UnionPay Card Emergency Assistance Service</dd>
+<dd>Cross-border Remittance</dd>
+<dd>UnionPay Tax Refund</dd>
+<dd>U Rewards Platform</dd>
+<dd>Installment Service</dd>
+</dl>
+
+<script>
+
+$(function(){
+$('#footer').load('/assets/footer.html');
+});
+</script>
+
+</body>
+  <div id ="footer"></div>
+</html>
