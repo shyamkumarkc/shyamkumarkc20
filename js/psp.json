@@ -1,0 +1,210 @@
+[
+  {
+    "sno": "1",
+    "name": "IME Digital Solution Ltd.",
+    "wallet": "IME Pay",
+    "ho": "Panipokhari",
+    "od": " Kathmandu",
+    "capital": "2074/03/05"
+  },
+  {
+    "sno": "2",
+    "name": "Esewa Ltd.",
+    "wallet": "eSewa",
+    "ho": "Pulchowk",
+    "od": " Lalitpur",
+    "capital": "2074/03/05"
+  },
+  {
+    "sno": "3",
+    "name": "Cellcom Pvt. Ltd.",
+    "wallet": "CellPay",
+    "ho": "Airport",
+    "od": " Kathmandu",
+    "capital": "2075/09/08"
+  },
+  {
+    "sno": "4",
+    "name": "CG Pay Nepal Pvt. Ltd.",
+    "wallet": "CG Pay",
+    "ho": "Sanepa",
+    "od": " Lalitpur",
+    "capital": "2075/09/13"
+  },
+  {
+    "sno": "5",
+    "name": "Khalti Pvt. Ltd.",
+    "wallet": "Khalti",
+    "ho": "Pulchowk",
+    "od": " Lalitpur",
+    "capital": "2076/01/12"
+  },
+  {
+    "sno": "6",
+    "name": "Pay Nep Pvt. Ltd.",
+    "wallet": "Moru",
+    "ho": "Naxal",
+    "od": " Kathmandu",
+    "capital": "2076/04/15"
+  },
+  {
+    "sno": "7",
+    "name": "Que Pay Pvt. Ltd.",
+    "wallet": "QPay",
+    "ho": "Bhadrakali",
+    "od": " Kathmandu",
+    "capital": "2076/05/19"
+  },
+  {
+    "sno": "8",
+    "name": "Nepal Pay Time Pvt. Ltd.",
+    "wallet": "PayTime",
+    "ho": "Putalisadak",
+    "od": " Kathmandu",
+    "capital": "2076/05/19"
+  },
+  {
+    "sno": "9",
+    "name": "Smart Card Nepal Pvt. Ltd.",
+    "wallet": "MyPay",
+    "ho": "Thimi",
+    "od": " Bhaktapur",
+    "capital": "2076/06/29"
+  },
+  {
+    "sno": "10",
+    "name": "Prabhu Technology Pvt. Ltd.",
+    "wallet": "PrabhuPay",
+    "ho": "Gairidhara",
+    "od": " Kathmandu",
+    "capital": "2074/03/04"
+  },
+  {
+    "sno": "11",
+    "name": "FocusOne Payment Solutions Pvt. Ltd.",
+    "wallet": "MOCO",
+    "ho": "Kamaladi",
+    "od": " Kathmandu",
+    "capital": "2076/11/29"
+  },
+  {
+    "sno": "12",
+    "name": "Kurakani Pay Pvt. Ltd.",
+    "wallet": "Nimbuzz Pay",
+    "ho": "Sanepa",
+    "od": " Lalitpur",
+    "capital": "2077/02/29"
+  },
+  {
+    "sno": "13",
+    "name": "Pay Well Nepal Pvt. Ltd.",
+    "wallet": "Paywell",
+    "ho": "Anamnagar",
+    "od": " Kathmandu",
+    "capital": "2076/06/11"
+  },
+  {
+    "sno": "14",
+    "name": "Goldmine Business Group Pvt. Ltd.",
+    "wallet": "Dpaisa",
+    "ho": "Baneshwor",
+    "od": " Kathmandu",
+    "capital": "2077/08/29"
+  },
+  {
+    "sno": "15",
+    "name": "We Pay Pvt. Ltd.",
+    "wallet": "YODApay",
+    "ho": "Gairidhara",
+    "od": " Kathmandu",
+    "capital": "2077/09/15"
+  },
+  {
+    "sno": "16",
+    "name": "Fintech International Pvt. Ltd.",
+    "wallet": "Yatra Card",
+    "ho": "Thamel",
+    "od": " Kathmandu",
+    "capital": "2077/10/20"
+  },
+  {
+    "sno": "17",
+    "name": "Lenden Sewa Pvt. Ltd.",
+    "wallet": "Hamro Pay",
+    "ho": "Teku",
+    "od": " Kathmandu",
+    "capital": "2077/10/20"
+  },
+  {
+    "sno": "18",
+    "name": "Digi Pay Pvt. Ltd.",
+    "wallet": "DigiPay",
+    "ho": "Anamnagar",
+    "od": " Kathmandu",
+    "capital": "2077/11/18"
+  },
+  {
+    "sno": "19",
+    "name": "Nepal E. Biz. Management Pvt. Ltd.",
+    "wallet": "Mobalet",
+    "ho": "Sundhara",
+    "od": " Kathmandu",
+    "capital": "2077/12/18"
+  },
+  {
+    "sno": "20",
+    "name": "I Pay Pvt. Ltd.",
+    "wallet": "iPay",
+    "ho": "Kichhapokhari",
+    "od": " Kathmandu",
+    "capital": "2077/11/21"
+  },
+  {
+    "sno": "21",
+    "name": "iCash Pvt. Ltd.",
+    "wallet": "iCash",
+    "ho": "Jamal",
+    "od": " Kathmandu",
+    "capital": "2077/12/07"
+  },
+  {
+    "sno": "22",
+    "name": "Nepal Digital Payments Company Ltd.",
+    "wallet": "Namaste Pay",
+    "ho": "Tripureshwor",
+    "od": " Kathmandu",
+    "capital": "2077/12/03"
+  },
+  {
+    "sno": "23",
+    "name": "Sulav Pay Pvt. Ltd.",
+    "wallet": "N-Cash",
+    "ho": "Kuleshwor",
+    "od": " Kathmandu",
+    "capital": "2077/12/05"
+  },
+  {
+    "sno": "24",
+    "name": "Chhito Paisa Pvt. Ltd.",
+    "wallet": "Chhito Paisa",
+    "ho": "Mid-Baneshwor",
+    "od": " Kathmandu",
+    "capital": "2077/12/05"
+  },
+  {
+    "sno": "25",
+    "name": "Sajilo Pay Payment Services Pvt. Ltd.",
+    "wallet": "SajiloPay",
+    "ho": "Baluwatar",
+    "od": " Kathmandu",
+    "capital": "2077/12/17"
+  },
+  {
+    "sno": "26",
+    "name": "City Wallet Pvt. Ltd.",
+    "wallet": "City Pay",
+    "ho": "Kamaladi",
+    "od": " Kathmandu",
+    "capital": "2080/07/15"
+  }
+]
