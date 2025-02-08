@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>SHYAM KUMAR K.C.</title>
+<title>PSPs In Nepal</title>
 <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
 </script>
@@ -16,38 +16,76 @@ $('#header').load('/assets/header.html');
 <div id ="header"></div>
 
 
-<h1>Payment Service Provider (PSP) in Nepal </h1>
-<ol>
-<li>Cellcom Private Limited (Cell Pay)</li>
-<li><a href="/tech/cgpay">CG Pay Nepal Pvt. Ltd. (CG Pay)</a></li>
-<li>Chitto Paisa Private Limited (Chitto Paisa)</li>
-<li>D.G. Pay Pvt. Ltd.</li>
-<li>E-Net Payment Pvt. Ltd. (E-net Payment)</li>
-<li><a href="/tech/esewa">Esewa Phonepay Pvt Ltd (e-Sewa)</a></li>
-<li>Fintech International Pvt. Ltd.</li>
-<li><a href="/tech/moco">FocusOne Payment Solutions Pvt. Ltd. (MOCO)</a></li>
+<h2>
+Payment Service Providers (PSPs) in Nepal</h2>
 
-<li>Goldmine Business Group PVT. LTD. (Dpaisa)</li>
-<li>I Cash Private Limited (iCash)</li>
-<li>I Pay Pvt. Ltd. (e-dheba)</li>
-<li><a href="/tech/imepay">IME Digital Solution Ltd. (IME Pay)</a></li>
-<li>Kurakani Pay Pvt. Ltd. (Nimbuzz)</li>
-<li>Lenden Sewa Pvt. Ltd. (Lenden Sewa)</li>
 
-<li>Nepal Digital Payments Company Limited</li>
-<li>Nepal E Bij Management Pvt. Ltd. (Mobalet)</li>
-<li>Nepal Pay Time Pvt. Ltd. (PayTime)</li>
-<li><a href="/tech/moru">Pay Nep Pvt. Ltd. (Moru)</a></li>
-<li><a href="/tech/paywellnepal">PayWell Nepal Pvt. Ltd. (PayWell)</a></li>
-<li><a href="/tech/prabhupay">Prabhu Technology Pvt. Ltd. (Prabhu PAY)</a></li>
-<li>Q-Pay Pvt. Ltd (Q-Pay)</li>
-<li>Sajilo Pay Payment Services Pvt. Ltd. (Sajilo Pay)</li>
-<li>Smart Card Nepal Pvt. Ltd. (Smart Card)</li>
-  <li><a href="/tech/khalti">Sparrow Pay Pvt. Ltd (Khalti)</a></li>
-<li>Sulav Pay Private Limited (N-Cash)</li>
-<li>We Pay Pvt. Ltd. (We Pay)</li>
-</ol>
-<script>
+<br />
+	<style>
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+   
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+</style>
+<table border="black" >
+<thead>
+<tr>
+<th>S.No.</th>
+<th>PSP Name</th>
+	<th>Logo</th>
+	<th>Wallet</th>
+<th>Operation<br/>Date</th>
+<th>Head<br/>Office</th>
+
+
+
+</tr>
+</thead>
+
+      <tbody id="data-output">
+         <!-- Prodcuts from javascript file in here. -->
+      </tbody>
+   </table>
+ 
+   <script>
+   fetch("https://shyamkumarkc20.com.np/js/psp.json")
+.then(function(response){
+   return response.json();
+})
+.then(function(products){
+   let placeholder = document.querySelector("#data-output");
+   let out = "";
+   for(let product of products){
+      out += `
+         <tr>
+            
+            <td>${product.SNo}</td>
+             <td><a href ="https://${product.Website}"target="blank">${product.Name}</a></td>
+	    <td><img src="${product.IMG}" width="120" height="100" ></td>
+     <td>${product.Wallet}</td>
+			<td>${product.OD}</td>
+			<td>${product.HO}</td>
+			
+           
+            
+         </tr>
+      `;
+   }
+ 
+   placeholder.innerHTML = out;
+});
+
 $(function(){
 $('#footer').load('/assets/footer.html');
 });
