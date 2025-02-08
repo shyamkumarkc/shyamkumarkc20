@@ -6,14 +6,6 @@
         "OD": "2074/04/15",
         "Capital": "NPR 1,065,773",
         "IMG": "https://shyamkumarkc20.com.np/logo/nchl.png",
-        "Website": "www.nchl.com.np/",[
-    {
-        "SNo": "1",
-        "Name": "Nepal Clearing House Limited",
-        "HO": "Kamaladi, Kathmandu",
-        "OD": "2074/04/15",
-        "Capital": "NPR 1,065,773",
-        "IMG": "https://shyamkumarkc20.com.np/logo/nchl.png",
         "Website": "www.nchl.com.np/",
         "Link": "https://shyamkumarkc20.com.np/tech/nchl"
     },
@@ -95,89 +87,6 @@
         "Capital": "NPR 100,000",
         "IMG": "https://shyamkumarkc20.com.np/logo/gateway.png",
         "Website": "www.gatewaypayment.com.np/",
-        "Link": "https://shyamkumarkc20.com.np/tech/"
-    }
-]
-        "Link": "https://shyamkumarkc20.com.np/tech/nchl"
-    },
-    {
-        "SNo": "2",
-        "Name": "SmartChoice Technologies Limited",
-        "HO": "Panipokhari, Kathmandu",
-        "OD": "2074/09/17",
-        "Capital": "NPR 500,000",
-        "IMG": "https://shyamkumarkc20.com.np/logo/sct.png",
-        "Website": "www.sct.com.np/",
-        "Link": "https://shyamkumarkc20.com.np/tech/sct"
-    },
-    {
-        "SNo": "3",
-        "Name": "Union Pay International Company Limited",
-        "HO": "Shanghai, China",
-        "OD": "2076/03/30",
-        "Capital": "CNY 2,000,000",
-        "IMG": "https://shyamkumarkc20.com.np/logo/unionpay.png",
-        "Website": "www.unionpayintl.com/en/",
-        "Link": "https://shyamkumarkc20.com.np/tech/unionpay"
-    },
-    {
-        "SNo": "4",
-        "Name": "Visa Worldwide Private Limited",
-        "HO": "Singapore",
-        "OD": "2076/04/29",
-        "Capital": "USD 8,968",
-        "IMG": "https://shyamkumarkc20.com.np/logo/visa.png",
-        "Website": "",
-        "Link": "https://shyamkumarkc20.com.np/tech/"
-    },
-    {
-        "SNo": "5",
-        "Name": "Nepal Payment Solution Limited",
-        "HO": "Gairidhara, Kathmandu",
-        "OD": "2076/07/19",
-        "Capital": "NPR 250,000",
-        "IMG": "https://shyamkumarkc20.com.np/logo/",
-        "Website": "",
-        "Link": "https://shyamkumarkc20.com.np/tech/"
-    },
-    {
-        "SNo": "6",
-        "Name": "Mastercard Asia/Pacific Private Limited",
-        "HO": "Singapore",
-        "OD": "2076/08/24",
-        "Capital": "USD 28,852",
-        "IMG": "https://shyamkumarkc20.com.np/logo/mastercard.png",
-        "Website": "",
-        "Link": "https://shyamkumarkc20.com.np/tech/"
-    },
-    {
-        "SNo": "7",
-        "Name": "Fonepay Payment Service Limited",
-        "HO": "Pulchowk, Lalitpur",
-        "OD": "2076/10/26",
-        "Capital": "NPR 505,000",
-        "IMG": "https://shyamkumarkc20.com.np/logo/fonepay.png",
-        "Website": "www.fonepay.com/",
-        "Link": "https://shyamkumarkc20.com.np/tech/"
-    },
-    {
-        "SNo": "8",
-        "Name": "First Pay Technology Private Limited",
-        "HO": "Hattisar, Kathmandu",
-        "OD": "2076/11/13",
-        "Capital": "NPR 100,000",
-        "IMG": "https://shyamkumarkc20.com.np/logo/firstpay.png",
-        "Website": "www.firstpay.com.np/",
-        "Link": "https://shyamkumarkc20.com.np/tech/"
-    },
-    {
-        "SNo": "9",
-        "Name": "Gate Way Payment Service Private Limited",
-        "HO": "Banasthali, Kathmandu",
-        "OD": "2077/11/03",
-        "Capital": "NPR 100,000",
-        "IMG": "https://shyamkumarkc20.com.np/logo/",
-        "Website": "",
         "Link": "https://shyamkumarkc20.com.np/tech/"
     }
 ]
