@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>SHYAM KUMAR K.C.</title>
+<title>PSOs In Nepal</title>
 <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
 </script>
@@ -16,19 +16,76 @@ $('#header').load('/assets/header.html');
 <div id ="header"></div>
 
 
-<h1>Payment Service Operator (PSO) in Nepal </h1>
-<ol>
-<li>First Pay Technology Pvt. Ltd.</li>
-<li>Fonepay Payment Service Limited</li>
-<li>Gateway Payment Service Pvt. Ltd.</li>
-<li>Mastercard Asia/Pacific Pvt. Ltd.</li>
-<li><a title="NCHL" href="/tech/nchl">Nepal Clearing House (NCHL)</a></li>
-<li>Nepal Payment Solution Pvt. Ltd.</li>
-<li><a title="SCT" href="/sct">SmartChoice Technologies Ltd. (SCT)</a></li>
-<li>Union Pay International Company Ltd.</li>
-<li>Visa Worldwide Pvt Ltd.</li>
-</ol>
-<script>
+<h2>
+Payment Service Operators (PSOs) in Nepal</h2>
+
+
+<br />
+	<style>
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+   
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+</style>
+<table border="black" >
+<thead>
+<tr>
+<th>S.No.</th>
+<th>PSP Name</th>
+	<th>Logo</th>
+	
+<th>Operation<br/>Date</th>
+<th>Head<br/>Office</th>
+
+
+
+</tr>
+</thead>
+
+      <tbody id="data-output">
+         <!-- Prodcuts from javascript file in here. -->
+      </tbody>
+   </table>
+ 
+   <script>
+   fetch("https://shyamkumarkc20.com.np/js/pso.json")
+.then(function(response){
+   return response.json();
+})
+.then(function(products){
+   let placeholder = document.querySelector("#data-output");
+   let out = "";
+   for(let product of products){
+      out += `
+         <tr>
+            
+            <td>${product.SNo}</td>
+             <td><a href ="https://${product.Website}"target="blank">${product.Name}</a></td>
+	    <td><img src="${product.IMG}" width="120" height="100" ></td>
+    
+			<td>${product.OD}</td>
+			<td>${product.HO}</td>
+			
+           
+            
+         </tr>
+      `;
+   }
+ 
+   placeholder.innerHTML = out;
+});
+
 $(function(){
 $('#footer').load('/assets/footer.html');
 });
