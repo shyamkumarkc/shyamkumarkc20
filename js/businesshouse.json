@@ -1,23 +1,28 @@
 [
     {
         "SNO": "1",
-        "Name": "Bhat-Bhateni Group"
+        "Name": "Bhat-Bhateni Group",
+        "Sector": "Bhat-Bhateni Supermarket"
     },
     {
         "SNO": "2",
-        "Name": "Chachan Group"
+        "Name": "Chachan Group",
+        "Sector": ""
     },
     {
         "SNO": "3",
-        "Name": "Chaudhary Group"
+        "Name": "Chaudhary Group",
+        "Sector": ""
     },
     {
         "SNO": "4",
-        "Name": "Dugar Family"
+        "Name": "Dugar Family",
+        "Sector": ""
     },
     {
         "SNO": "5",
-        "Name": "Golchha Organisation"
+        "Name": "Golchha Organisation",
+        "Sector": ""
     },
     {
         "SNO": "6",
@@ -25,95 +30,118 @@
     },
     {
         "SNO": "7",
-        "Name": "ICTC Group"
+        "Name": "ICTC Group",
+        "Sector": ""
     },
     {
         "SNO": "8",
-        "Name": "IME Group"
+        "Name": "IME Group",
+        "Sector": ""
     },
     {
         "SNO": "9",
-        "Name": "Jyoti Group"
+        "Name": "Jyoti Group",
+        "Sector": ""
     },
     {
         "SNO": "10",
-        "Name": "KC Group"
+        "Name": "KC Group",
+        "Sector": ""
     },
     {
         "SNO": "11",
-        "Name": "Kedia Organization"
+        "Name": "Kedia Organization",
+        "Sector": ""
     },
     {
         "SNO": "12",
-        "Name": "Keyal Group"
+        "Name": "Keyal Group",
+        "Sector": ""
     },
     {
         "SNO": "13",
-        "Name": "Khetan Group"
+        "Name": "Khetan Group",
+        "Sector": ""
     },
     {
         "SNO": "14",
-        "Name": "Laxmi Group"
+        "Name": "Laxmi Group",
+        "Sector": ""
     },
     {
         "SNO": "15",
-        "Name": "Mahato Group of Industries"
+        "Name": "Mahato Group of Industries",
+        "Sector": ""
     },
     {
         "SNO": "16",
-        "Name": "MS Group"
+        "Name": "MS Group",
+        "Sector": ""
     },
     {
         "SNO": "17",
-        "Name": "Muktishree Group"
+        "Name": "Muktishree Group",
+        "Sector": ""
     },
     {
         "SNO": "18",
-        "Name": "NE Group"
+        "Name": "NE Group",
+        "Sector": ""
     },
     {
         "SNO": "19",
-        "Name": "Nimbus Holdings"
+        "Name": "Nimbus Holdings",
+        "Sector": ""
     },
     {
         "SNO": "20",
-        "Name": "Panchakanya Group"
+        "Name": "Panchakanya Group",
+        "Sector": ""
     },
     {
         "SNO": "21",
-        "Name": "Prabhu Group"
+        "Name": "Prabhu Group",
+        "Sector": ""
     },
     {
         "SNO": "22",
-        "Name": "Saakha Group"
+        "Name": "Saakha Group",
+        "Sector": ""
     },
     {
         "SNO": "23",
-        "Name": "Sanima Group"
+        "Name": "Sanima Group",
+        "Sector": ""
     },
     {
         "SNO": "24",
-        "Name": "Shanker Group"
+        "Name": "Shanker Group",
+        "Sector": ""
     },
     {
         "SNO": "25",
-        "Name": "Sharda Group"
+        "Name": "Sharda Group",
+        "Sector": ""
     },
     {
         "SNO": "26",
-        "Name": "Siddhartha Rana Group"
+        "Name": "Siddhartha Rana Group",
+        "Sector": ""
     },
     {
         "SNO": "27",
-        "Name": "Triveni Group"
+        "Name": "Triveni Group",
+        "Sector": ""
     },
     {
         "SNO": "28",
-        "Name": "Universal Group"
+        "Name": "Universal Group",
+        "Sector": ""
     },
     {
         "SNO": "29",
-        "Name": "Vishal Group"
+        "Name": "Vishal Group",
+        "Sector": ""
     },
     {
         "SNO": "30",
