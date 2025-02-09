@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Business Houses In Nepal</title>
+<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+</script>
+<script>
+$(function(){
+$('#header').load('/assets/header.html');
+});
+</script>
+
+</head>
+<body>
+<div id ="header"></div>
+  <h2>Top 30 Business Houses in Nepal</h2>
+<style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <p><strong>The top 30 business houses are listed in alphabetical order.</strong></p>
+  <table border="black" >
+<thead>
+<tr>
+<th>S.No.</th>
+<th>Name</th>
+	
+
+</tr>
+</thead>
+
+      <tbody id="data-output">
+         <!-- Prodcuts from javascript file in here. -->
+      </tbody>
+   </table>
+ 
+   <script>
+   fetch("https://shyamkumarkc20.com.np/js/businesshouses.json")
+.then(function(response){
+   return response.json();
+})
+.then(function(products){
+   let placeholder = document.querySelector("#data-output");
+   let out = "";
+   for(let product of products){
+      out += `
+         <tr>
+            
+            <td>${product.SNO}</td>
+             <td>${product.Name}</td>
+	    
+			
+           
+            
+         </tr>
+      `;
+   }
+ 
+   placeholder.innerHTML = out;
+});
+
+   </script>
+<script>
+  $(function(){
+$('#footer').load('/assets/footer.html');
+});
+</script>
+
+</body>
+  <div id ="footer"></div>
+</html>
