@@ -16,7 +16,14 @@
     <div id="header"></div>
     <h1>Nabil Bank Limited</h1>
   <div id="bankInfo1" class="bank-container"></div>
-   
+   <table>
+     <tr>
+      <td id="atm" class="bank-container"></td>
+    <td id="branch" class="bank-container"></td>
+     <td id="ext" class="bank-container"></td>
+    <td id="blb" class="bank-container"></td>
+    </tr>
+    </table>
     <h2>Nabil Bank Limited</h2>
     <div id="bankInfo" class="bank-container"></div>
     
@@ -24,6 +31,42 @@
      <div id="subInfo1" class="bank-container"></div>
     <h2>Subsidiary Companies</h2>
     <div id="subInfo" class="bank-container"></div>
+    <style>
+        table {
+           
+            border-collapse: collapse;
+        }
+        td {
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+        
+        #atm {
+            background-color: #add8e6; /* Light blue for ATM */
+        }
+        #atm1 {
+            background-color: #add8e6; /* Light blue for ATM */
+        }
+        #branch {
+            background-color: #90ee90; /* Light green for Branches */
+        }
+        #branch1 {
+            background-color: #90ee90; /* Light green for Branches */
+        }
+        #ext {
+            background-color: #ffebcd; /* Blanched Almond for Extension Counters */
+        }
+        #ext1 {
+            background-color: #ffebcd; /* Blanched Almond for Extension Counters */
+        }
+        #blb {
+            background-color: #ffcccb; /* Light red for Branchless Banking */
+        }
+        #blb1 {
+            background-color: #ffcccb; /* Light red for Branchless Banking */
+        }
+    </style>
     
     <script>
         async function fetchBankData() {
@@ -36,7 +79,7 @@
                 
                 if (nabilBank) {
                     document.getElementById('bankInfo').innerHTML = `
-                        <img src="${nabilBank.IMG}" alt="Nabil Bank Logo" class="bank-logo">
+                        <img src="${nabilBank.IMG}" alt="Prabhu Bank Logo" class="bank-logo">
                         <p><strong>Name:</strong> ${nabilBank.Name}</p>
                         <p><strong>Established:</strong> ${nabilBank.ODAD} [ ${nabilBank.ODBS} ]</p>
                         <p><strong>Head Office:</strong> ${nabilBank.HO}</p>
@@ -48,13 +91,17 @@
                         <p><strong>Email:</strong> <a href="mailto:${nabilBank.email}">${nabilBank.email}</a></p>
                         <p><strong>Website:</strong> <a href="https://${nabilBank.Website}" target="_blank">${nabilBank.Website}</a></p>
                     `;
+                    document.getElementById('atm').innerHTML = `<p>ATM: ${nabilBank.ATM}</p>`;
+                    document.getElementById('ext').innerHTML = `<p>Extention Counters: ${nabilBank.ext}</p>`;
+                    document.getElementById('blb').innerHTML = `<p>Branchless Banking: ${nabilBank.blb}</p>`;
+                    document.getElementById('branch').innerHTML = `<p>Branches: ${nabilBank.branch}</p>`;
                     document.getElementById('subInfo1').innerHTML = `<p>${nabilBank.merger}</p>`;
                   document.getElementById('bankInfo1').innerHTML = `<p>${nabilBank.desc}</p>`;
                     document.getElementById('subInfo').innerHTML = `<p>${nabilBank.subsidiaries}</p>`;
                 } else {
-                    document.getElementById('bankInfo').innerHTML = '<p>Nabil Bank data not found.</p>';
-                    document.getElementById('subInfo').innerHTML = '<p>Nabil Bank subsidiaries data not found.</p>';
-                  document.getElementById('subInfo1').innerHTML = '<p>Nabil Bank merger data not found.</p>';
+                    document.getElementById('bankInfo').innerHTML = '<p>Nabil Bank Limited data not found.</p>';
+                    document.getElementById('subInfo').innerHTML = '<p>Nabil Bank Limited subsidiaries data not found.</p>';
+                  document.getElementById('subInfo1').innerHTML = '<p>Nabil Bank Limited merger data not found.</p>';
                 }
             } catch (error) {
                 console.error('Error fetching bank data:', error);
