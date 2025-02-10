@@ -15,8 +15,8 @@
 <body>
     <div id="header"></div>
     <h1>Global IME Bank Limited</h1>
-    <p>Global Bank Limited began its journey in 2007 as a 'Class A' commercial bank after receiving approval from Nepal Rastra Bank. In 2012, it merged with the former IME Financial Institution Limited and Lord Buddha Finance Limited, subsequently rebranding and operating as Global IME Bank Limited. Over the years, we expanded further, merging with other financial institutions, including Commerz and Trust Bank Nepal Ltd., Janata Bank Nepal Limited, and Bank of Kathmandu. These strategic mergers have made us Nepal&rsquo;s largest bank, with a strong foundation and an unwavering commitment to excellence.<br /><br />We aspire to be &ldquo;The Bank for All,&rdquo; fueling the economy with world-class banking services. Established in 2007, GIBL began with the largest capital base for a commercial bank in Nepal, which has since grown to NPR 36.1287 billion. Our shares are publicly traded on the Nepal Stock Exchange, reflecting our solid financial standing and trustworthiness.</p>
-    
+  <div id="bankInfo1" class="bank-container"></div>
+   
     <h2>Global IME Bank Details</h2>
     <div id="bankInfo" class="bank-container"></div>
     
@@ -48,6 +48,7 @@
                         <p><strong>Website:</strong> <a href="https://${globalBank.Website}" target="_blank">${globalBank.Website}</a></p>
                     `;
                     document.getElementById('subInfo1').innerHTML = `<p>${globalBank.merger}</p>`;
+                  document.getElementById('bankInfo1').innerHTML = `<p>${globalBank.desc}</p>`;
                     document.getElementById('subInfo').innerHTML = `<p>${globalBank.subsidiaries}</p>`;
                 } else {
                     document.getElementById('bankInfo').innerHTML = '<p>Global IME Bank data not found.</p>';
