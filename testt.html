@@ -1,96 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>PSOs In Nepal</title>
-<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
-</script>
-<script>
-$(function(){
-$('#header').load('/assets/header.html');
-});
-</script>
-
+    <title>Nabil Bank Limited</title>
+    <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        $(function(){
+            $('#header').load('/assets/header.html');
+            $('#footer').load('/assets/footer.html');
+        });
+    </script>
 </head>
 <body>
-<div id ="header"></div>
+    <div id="header"></div>
+    <h1>Nabil Bank Limited</h1>
+    <p>Nabil Bank was formerly known as Nepal Arab Bank Limited, which was established in 1984 as the first private commercial bank in Nepal. It offers a variety of commercial banking services, such as branch banking, treasury, trade, cards, remittance, and investment banking under its subsidiary, Nabil Investment Banking Ltd. With a robust presence of 268 branches, 317 ATMs and substantial correspondent banking relationships.</p>
 
+    <h2>Nabil Bank Details</h2>
+    <div id="bankInfo" class="bank-container"></div>
 
-<h2>
-Payment Service Operators (PSOs) in Nepal</h2>
-
-
-<br />
-	<style>
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-   
-    border: 1px solid #ddd;
-}
-
-th, td {
-    text-align: left;
-    padding: 16px;
-}
-
-tr:nth-child(even) {
-    background-color: #f2f2f2
-}
-</style>
-<table border="black" >
-<thead>
-<tr>
-<th>S.No.</th>
-<th>PSP Name</th>
-	<th>Logo</th>
-	
-<th>Operation<br/>Date</th>
-<th>Head<br/>Office</th>
-
-
-
-</tr>
-</thead>
-
-      <tbody id="data-output">
-         <!-- Prodcuts from javascript file in here. -->
-      </tbody>
-   </table>
- 
-   <script>
-   fetch("https://shyamkumarkc20.com.np/js/pso.json")
-.then(function(response){
-   return response.json();
-})
-.then(function(products){
-   let placeholder = document.querySelector("#data-output");
-   let out = "";
-   for(let product of products){
-      out += `
-         <tr>
-            
-            <td>${product.SNo}</td>
-             <td><a href ="https://${product.Website}"target="blank">${product.Name}</a></td>
-	    <td><img src="${product.IMG}" width="120" height="100" ></td>
+    <h2>Merged BFIs with Nabil Bank</h2>
+    <table border="1">  
+        <thead>
+            <tr>
+                <th>BFI Name</th>
+                <th>BFI Name</th>
+                <th>BFI Name after Merger</th>
+            </tr>
+        </thead>
+        <tbody id="bankInfos" class="bank-container"></tbody>
+    </table>
     
-			<td>${product.OD}</td>
-			<td>${product.HO}</td>
-			
-           
-            
-         </tr>
-      `;
-   }
- 
-   placeholder.innerHTML = out;
-});
+    <h3>Subsidiaries Companies</h3>
+    <div id="subInfo" class="bank-container"></div>
 
-$(function(){
-$('#footer').load('/assets/footer.html');
-});
-</script>
+    <script>
+        async function fetchBankData() {
+            try {
+                const [bankResponse, mergerResponse] = await Promise.all([
+                    fetch('https://shyamkumarkc20.com.np/js/commercialbanks.json'),
+                    fetch('https://shyamkumarkc20.com.np/js/commercialbanks.json')
+                ]);
+                
+                const banks = await bankResponse.json();
+                const mergers = await mergerResponse.json();
+                
+                const nabilBank = banks.find(bank => bank.Name === "Nabil Bank Limited");
+                const mergedBank = mergers.find(bank => bank.Name === "Nabil Bank Limited");
 
+                if (nabilBank) {
+                    document.getElementById('bankInfo').innerHTML = `
+                        <img src="${nabilBank.IMG}" alt="Nabil Bank Logo" class="bank-logo">
+                        <h2>${nabilBank.Name}</h2>
+                        <p><strong>Established:</strong> ${nabilBank.ODAD} [ ${nabilBank.ODBS} ]</p>
+                        <p><strong>Head Office:</strong> ${nabilBank.HO}</p>
+                        <p><strong>NEPSE Code:</strong> ${nabilBank.NEPSE}</p>
+                        <p><strong>Swift Code:</strong> ${nabilBank.Swift}</p>
+                        <p><strong>Phone:</strong> <a href="tel:${nabilBank.phone1}">${nabilBank.phone1}</a></p>
+                        <p><strong>Toll Free:</strong> <a href="tel:${nabilBank.TOLL}">${nabilBank.TOLL}</a></p>
+                        <p><strong>Email:</strong> <a href="mailto:${nabilBank.email}">${nabilBank.email}</a></p>
+                        <p><strong>Website:</strong> <a href="https://${nabilBank.Website}" target="_blank">${nabilBank.Website}</a></p>
+                    `;
+                }
+                
+                if (mergedBank) {
+                    document.getElementById('bankInfos').innerHTML = `
+                        
+                            <p>${mergedBank.Merger}</p>
+                                            `;
+                }
+                
+                const nabilBank1 = banks.find(bank => bank.Name === "Nabil Bank Limited");
+                if (nabilBank1) {
+                    document.getElementById('subInfo').innerHTML = `<p>${nabilBank1.subsidiaries}</p>`;
+                }
+            } catch (error) {
+                console.error('Error fetching bank data:', error);
+                document.getElementById('bankInfo').innerHTML = '<p>Error loading bank details.</p>';
+                document.getElementById('bankInfos').innerHTML = '<tr><td colspan="3">Error loading merger details.</td></tr>';
+                document.getElementById('subInfo').innerHTML = '<p>Error loading subsidiary details.</p>';
+            }
+        }
+        
+        fetchBankData();
+    </script>
+
+    <div id="footer"></div>
 </body>
-  <div id ="footer"></div>
 </html>
