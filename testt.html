@@ -5,8 +5,10 @@
     <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script>
-        $(function(){
+        $(document).ready(function(){
             $('#header').load('/assets/header.html');
+            $('#footer').load('/assets/footer.html');
+            fetchBankData();
         });
     </script>
 </head>
@@ -19,7 +21,7 @@
     <div id="bankInfo" class="bank-container"></div>
     
     <h2>List of Companies merged with Global IME Bank Limited</h2>
-    
+     <div id="subInfo1" class="bank-container"></div>
     <h2>Subsidiaries Companies</h2>
     <div id="subInfo" class="bank-container"></div>
     
@@ -45,26 +47,20 @@
                         <p><strong>Email:</strong> <a href="mailto:${globalBank.email}">${globalBank.email}</a></p>
                         <p><strong>Website:</strong> <a href="https://${globalBank.Website}" target="_blank">${globalBank.Website}</a></p>
                     `;
-                    
+                    document.getElementById('subInfo1').innerHTML = `<p>${globalBank.merger}</p>`;
                     document.getElementById('subInfo').innerHTML = `<p>${globalBank.subsidiaries}</p>`;
                 } else {
                     document.getElementById('bankInfo').innerHTML = '<p>Global IME Bank data not found.</p>';
                     document.getElementById('subInfo').innerHTML = '<p>Global IME Bank subsidiaries data not found.</p>';
+                  document.getElementById('subInfo1').innerHTML = '<p>Global IME Bank merger data not found.</p>';
                 }
             } catch (error) {
                 console.error('Error fetching bank data:', error);
                 document.getElementById('bankInfo').innerHTML = '<p>Error loading bank details.</p>';
                 document.getElementById('subInfo').innerHTML = '<p>Error loading subsidiaries details.</p>';
+              document.getElementById('subInfo1').innerHTML = '<p>Error loading merger details.</p>';
             }
         }
-        
-        fetchBankData();
-    </script>
-    
-    <script>
-        $(function(){
-            $('#footer').load('/assets/footer.html');
-        });
     </script>
     
     <div id="footer"></div>
