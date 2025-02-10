@@ -20,7 +20,7 @@
     <h2>Global IME Bank Details</h2>
     <div id="bankInfo" class="bank-container"></div>
     
-    <h2>List of Companies merged with Global IME Bank Limited</h2>
+    <h2>Merged BFIs</h2>
      <div id="subInfo1" class="bank-container"></div>
     <h2>Subsidiaries Companies</h2>
     <div id="subInfo" class="bank-container"></div>
@@ -37,7 +37,7 @@
                 if (globalBank) {
                     document.getElementById('bankInfo').innerHTML = `
                         <img src="${globalBank.IMG}" alt="Global IME Bank Logo" class="bank-logo">
-                         <p><strong>Name: <a href ="https://${globalBank.Website}"target="blank">${globalBank.Name}</a></strong></p>
+                        <p><strong>Name: <a href ="https://${globalBank.Website}"target="blank">${globalBank.Name}</a></strong></p>
                         <p><strong>Established:</strong> ${globalBank.ODAD} [ ${globalBank.ODBS} ]</p>
                         <p><strong>Head Office:</strong> ${globalBank.HO}</p>
                         <p><strong>NEPSE Code:</strong> ${globalBank.NEPSE}</p>
