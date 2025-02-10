@@ -84,6 +84,7 @@
 	"email": "customercare@nabilbank.com",
 	"pobox": "",
 	  "ceo": "Gyanendra Prasad Dhungana",
+	   "merger": "a. United Finance Limited</br>b. Nepal Bangladesh Bank Limited",
 	"subsidiaries": "a. Nabil Retirement Fund<br/>b. Nabil Stock Dealer Limited<br/>c. Nabil Investment Banking Limited"
 	
   },
@@ -200,6 +201,7 @@
 	"phone2": "01-4543077",
 	"email": "contact@kumaribank.com",
 	  "ceo": "Ram Chandra Khanal",
+	  "BFI": "a. Kastamandap Development Bank Limited<br/>b. Mahakali Bikas Bank Limited<br/>c. KakreBihar Bikas Bank Limited<br/>d. Paschimanchal Finance Limited<br/>e. Dev Bikas Bank Limited<br/>f. NCC Bank Limited",
 	"pobox": ""
   },
   {
@@ -335,8 +337,8 @@
 	"email": "info@gibl.com.np",
 	"pobox": "19327",
 	  "ceo": "Surendra Raj Regmi",
-	  "subsidiaries": "a. Global IME Capital Limited<br/>b. Global IME Laghubitta Bittiya Sanstha Limited</br>c. Global IME Securities Limited<br/>d. Global IME Retirement Fund"
-	
+	  "subsidiaries": "a. Global IME Capital Limited<br/>b. Global IME Laghubitta Bittiya Sanstha Limited</br>c. Global IME Securities Limited<br/>d. Global IME Retirement Fund",
+	"merger": "a. IME Finance Limited</br>b. Lord Buddha Finance Limited</br>c. Social Development Bank Limited</br>d. Gulmi Bikas Bank Limited</br>e. Commerce &amp; Trust Bank Limited<br/>f. Pacific Development Bank Limited</br>g. Reliable Development Bank Limited</br>h. Hathway Finance Limited</br>i. Janata Bank Limited</br>j. Bank of Kathmandu Limited"
   },
   {
     "SNO": 18,
@@ -374,6 +376,7 @@
 	"phone2": "01-5719001",
 	"email": "info@prabhubank.com",	
 	  "ceo": "Ashok Serchan",
+	   "merger": "a. Grand Bank Limited<br/>b. Kist Bank Limited</br>c. Century Commercial Bank Limited",
 	"pobox": "19327"
 
   },
