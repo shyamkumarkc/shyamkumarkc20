@@ -37,9 +37,10 @@
                 if (globalBank) {
                     document.getElementById('bankInfo').innerHTML = `
                         <img src="${globalBank.IMG}" alt="Global IME Bank Logo" class="bank-logo">
-                        <p><strong>Name: ${globalBank.Name}</strong></p>
+                        <p><strong>Name:</strong> ${globalBank.Name}</p>
                         <p><strong>Established:</strong> ${globalBank.ODAD} [ ${globalBank.ODBS} ]</p>
                         <p><strong>Head Office:</strong> ${globalBank.HO}</p>
+                        <p><strong>CEO:<strong> ${globalBank.ceo}</p>
                         <p><strong>NEPSE Code:</strong> ${globalBank.NEPSE}</p>
                         <p><strong>Swift Code:</strong> ${globalBank.Swift}</p>
                         <p><strong>Phone:</strong> <a href="tel:${globalBank.phone1}">${globalBank.phone1}</a></p>
