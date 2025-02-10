@@ -16,7 +16,14 @@
     <div id="header"></div>
     <h1>Prabhu Bank Limited</h1>
   <div id="bankInfo1" class="bank-container"></div>
-   
+   <table>
+     <tr>
+      <td id="atm" class="bank-container"></td>
+    <td id="branch" class="bank-container"></td>
+     <td id="ext" class="bank-container"></td>
+    <td id="blb" class="bank-container"></td>
+    </tr>
+    </table>
     <h2>Prabhu Bank Limited</h2>
     <div id="bankInfo" class="bank-container"></div>
     
@@ -24,6 +31,42 @@
      <div id="subInfo1" class="bank-container"></div>
     <h2>Subsidiary Companies</h2>
     <div id="subInfo" class="bank-container"></div>
+    <style>
+        table {
+           
+            border-collapse: collapse;
+        }
+        td {
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+        
+        #atm {
+            background-color: #add8e6; /* Light blue for ATM */
+        }
+        #atm1 {
+            background-color: #add8e6; /* Light blue for ATM */
+        }
+        #branch {
+            background-color: #90ee90; /* Light green for Branches */
+        }
+        #branch1 {
+            background-color: #90ee90; /* Light green for Branches */
+        }
+        #ext {
+            background-color: #ffebcd; /* Blanched Almond for Extension Counters */
+        }
+        #ext1 {
+            background-color: #ffebcd; /* Blanched Almond for Extension Counters */
+        }
+        #blb {
+            background-color: #ffcccb; /* Light red for Branchless Banking */
+        }
+        #blb1 {
+            background-color: #ffcccb; /* Light red for Branchless Banking */
+        }
+    </style>
     
     <script>
         async function fetchBankData() {
@@ -48,6 +91,10 @@
                         <p><strong>Email:</strong> <a href="mailto:${prabhuBank.email}">${prabhuBank.email}</a></p>
                         <p><strong>Website:</strong> <a href="https://${prabhuBank.Website}" target="_blank">${prabhuBank.Website}</a></p>
                     `;
+                    document.getElementById('atm').innerHTML = `<p>ATM: ${prabhuBank.ATM}</p>`;
+                    document.getElementById('ext').innerHTML = `<p>Extention Counters: ${prabhuBank.ext}</p>`;
+                    document.getElementById('blb').innerHTML = `<p>Branchless Banking: ${prabhuBank.blb}</p>`;
+                    document.getElementById('branch').innerHTML = `<p>Branches: ${prabhuBank.branch}</p>`;
                     document.getElementById('subInfo1').innerHTML = `<p>${prabhuBank.merger}</p>`;
                   document.getElementById('bankInfo1').innerHTML = `<p>${prabhuBank.desc}</p>`;
                     document.getElementById('subInfo').innerHTML = `<p>${prabhuBank.subsidiaries}</p>`;
