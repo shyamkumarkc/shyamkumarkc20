@@ -11,25 +11,59 @@
             fetchBankData();
         });
     </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .bank-container {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .others-box {
+            background-color: #e7f3fe;
+            border: 1px solid #b3d7ff;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .others-box h2 {
+            margin-top: 0;
+        }
+    </style>
 </head>
 <body>
     <div id="header"></div>
     <h1>Prabhu Bank Limited</h1>
-  <div id="bankInfo1" class="bank-container"></div>
+    <div id="bankInfo1" class="bank-container"></div>
    
     <h2>Prabhu Bank Limited</h2>
     <div id="bankInfo" class="bank-container"></div>
     
     <h2>Merged BFIs</h2>
-     <div id="subInfo1" class="bank-container"></div>
+    <div id="subInfo1" class="bank-container"></div>
+    
     <h2>Subsidiary Companies</h2>
     <div id="subInfo" class="bank-container"></div>
-      <h2>Others</h2>
-    <div class="container">
-    <div class="bitcoin-price-box" id="usd-box">
-        <p id="SubInfo2">Loading Data...</p>
-    </div>
     
+    <h2>Others</h2>
+    <div id="SubInfo2" class="others-box">
+        <!-- Others details will be populated here -->
     </div>
   
     <script>
@@ -53,32 +87,26 @@
                         <p><strong>Phone:</strong> <a href="tel:${prabhuBank.phone1}">${prabhuBank.phone1}</a></p>
                         <p><strong>Toll Free:</strong> <a href="tel:${prabhuBank.TOLL}">${prabhuBank.TOLL}</a></p>
                         <p><strong>Email:</strong> <a href="mailto:${prabhuBank.email}">${prabhuBank.email}</a></p>
-                        <p><strong>Website:</strong> <a href="https://${prabhuBank.Website}" target="_blank">${prabhuBank.Website}</a></p>
+                        <p><strong>Website:</strong> <a href=" https://${prabhuBank.Website}" target="_blank">${prabhuBank.Website}</a></p>
                     `;
-                  document.getElementById('subInfo2').innerHTML = `<p>${prabhuBank.ATM}</p>`;
+                    document.getElementById('subInfo2').innerHTML = `<p>${prabhuBank.ATM}</p>`;
                     document.getElementById('subInfo1').innerHTML = `<p>${prabhuBank.merger}</p>`;
-                  document.getElementById('bankInfo1').innerHTML = `<p>${prabhuBank.desc}</p>`;
+                    document.getElementById('bankInfo1').innerHTML = `<p>${prabhuBank.desc}</p>`;
                     document.getElementById('subInfo').innerHTML = `<p>${prabhuBank.subsidiaries}</p>`;
                 } else {
-                    document.getElementById('bankInfo').innerHTML = '<p>Prabhu Bankdata not found.</p>';
-                    document.getElementById('subInfo').innerHTML = '<p>Prabhu Banksubsidiaries data not found.</p>';
-                  document.getElementById('subInfo1').innerHTML = '<p>Prabhu Bankmerger data not found.</p>';
+                    document.getElementById('bankInfo').innerHTML = '<p>Prabhu Bank data not found.</p>';
+                    document.getElementById('subInfo').innerHTML = '<p>Prabhu Bank subsidiaries data not found.</p>';
+                    document.getElementById('subInfo1').innerHTML = '<p>Prabhu Bank merger data not found.</p>';
                 }
             } catch (error) {
                 console.error('Error fetching bank data:', error);
                 document.getElementById('bankInfo').innerHTML = '<p>Error loading bank details.</p>';
                 document.getElementById('subInfo').innerHTML = '<p>Error loading subsidiaries details.</p>';
-              document.getElementById('subInfo1').innerHTML = '<p>Error loading merger details.</p>';
+                document.getElementById('subInfo1').innerHTML = '<p>Error loading merger details.</p>';
             }
         }
     </script>
-    
-    
   
-    
-
-
-   
     <div id="footer"></div>
 </body>
 </html>
