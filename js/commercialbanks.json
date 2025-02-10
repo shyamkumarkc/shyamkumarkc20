@@ -18,6 +18,10 @@
 	"email": "info@nepalbank.com.np",
 	"pobox": "",
 	  "ceo": "Tilak Raj Pandeya",
+	  "ATM": "",
+	  "branch": "",
+	  "ext": "",
+	  "blb": "",
 	  "desc": "Nepal Bank Limited (NBL), the first bank of Nepal proudly holds the glory of marking the formal beginning of banking system in Nepal. Nepal Bank Limited was established as FIRST bank of Nepal on Kartik 30, 1994 (November 15, 1937 A.D.) under Nepal Bank Act 1937.<br/>Noteablly, Nepal Bank Limited was inaugurated by King Tribhuvan with supportive vision of Prime Minister Juddha Shumsher Jung Bahadur Rana to institutionalize formal banking system in Nepal. Before the establishment of NBL, all monetary transactions were carried out by private dealers and trading centers. "
     
   },
@@ -40,8 +44,11 @@
 	"email": "rbb.info@rbb.com.np",
 	"pobox": "8368",
 	  "ceo": "Kiran Kumar Shrestha",
-	  "desc": "Rastriya Banijya Bank Limited (RBBL) has a history of serving its customers far and wide across the nation for more than half a century. The bank then fully owned by Government of Nepal, was established on 10 Magh 2022 (23 January 1966) under the special statute 'Rastriya Banijya Bank Act, 2021' and had operated under 'Commercial Bank Act,2031' until it was re-registered as public limited company on 6 Baishak 2063 (19 May 2006). At present, the Bank operates as 'A' class financial institution licensed by Nepal Rastra Bank and carries out commercial banking activities as per the provisions of the Bank and Financial Institutions Act 2073 (2017)"
-    
+	  "desc": "Rastriya Banijya Bank Limited (RBBL) has a history of serving its customers far and wide across the nation for more than half a century. The bank then fully owned by Government of Nepal, was established on 10 Magh 2022 (23 January 1966) under the special statute 'Rastriya Banijya Bank Act, 2021' and had operated under 'Commercial Bank Act,2031' until it was re-registered as public limited company on 6 Baishak 2063 (19 May 2006). At present, the Bank operates as 'A' class financial institution licensed by Nepal Rastra Bank and carries out commercial banking activities as per the provisions of the Bank and Financial Institutions Act 2073 (2017)",
+	  "ATM": "",
+	  "branch": "",
+	  "ext": "",
+	  "blb": ""
 	},
   {
     "SNO": 3,
@@ -63,6 +70,10 @@
 	"pobox": "",
 	"fax": "01-4262616",
 	  "ceo": "Govinda Gurung",
+	  "ATM": "",
+	  "branch": "",
+	  "ext": "",
+	  "blb": "",
 	  "desc": "With the main objective of providing institutional credit for enhancing the production and productivity of the agricultural sector in the country, the Agricultural Development Bank, Nepal was established in 1968 under the ADBN Act 1967, as successor to the cooperative Bank. The Land Reform Savings Corporation was merged with ADBN in 1973. Subsequent amendments to the Act empowered the bank to extend credit to small farmers under group liability and expand the scope of financing to promote cottage industries. The amendments also permitted the bank to engage in commercial banking activities for the mobilization of domestic resources."
   },
   {
@@ -85,6 +96,10 @@
 	"pobox": "",
 	  "ceo": "Gyanendra Prasad Dhungana",
 	   "merger": "a. United Finance Limited</br>b. Nepal Bangladesh Bank Limited",
+	  "ATM": "",
+	  "branch": "",
+	  "ext": "",
+	  "blb": "",
 	  "desc": "Nabil Bank was formerly known as Nepal Arab Bank Limited, which was established in 1984 as the first private commercial bank in Nepal. It offers a variety of commercial banking services, such as branch banking, treasury, trade, cards, remittance, and investment banking under its subsidiary, Nabil Investment Banking Ltd.",
 	"subsidiaries": "a. Nabil Retirement Fund<br/>b. Nabil Stock Dealer Limited<br/>c. Nabil Investment Banking Limited"
 	
@@ -106,6 +121,10 @@
 	"phone2": "01-5328229",
 	"email": "info@nimb.com.np",
 	  "ceo": "Jyoti Prakash Pandey",
+	  "ATM": "",
+	  "branch": "",
+	  "ext": "",
+	  "blb": "",
 	"pobox": ""
   },
   {
@@ -125,7 +144,11 @@
 	"phone2": "01-5424198",
 	"email": "Clientcarecentre.Nepal@sc.com",
 	  "ceo": "Gorakh Rana",
-	"pobox": ""
+	"pobox": "",
+	  "ATM": "",
+	  "branch": "",
+	  "ext": "",
+	  "blb": ""
   },
   {
     "SNO": 7,
@@ -144,7 +167,11 @@
 	"phone2": "01-4227749",
 	"email": "himb@himalayanbank.com",
 	  "ceo": "Ashok SJB Rana",
-	"pobox": "20590"
+	"pobox": "20590",
+	  "ATM": "",
+	  "branch": "",
+	  "ext": "",
+	  "blb": ""
   },
   {
     "SNO": 8,
@@ -163,7 +190,11 @@
 	"phone2": "",
 	"email": "corporate@nsbl.com.np",
 	  "ceo": "Ram Kumar Tiwari",
-	"pobox": ""
+	"pobox": "",
+	  "ATM": "",
+	  "branch": "",
+	  "ext": "",
+	  "blb": ""
   },
   {
     "SNO": 9,
@@ -183,7 +214,11 @@
 	"phone1": "01-5970118",
 	"email": "customercare@ebl.com.np",
 	  "ceo": "Sudesh Khaling",
-	"pobox": ""
+	"pobox": "",
+	  "ATM": "",
+	  "branch": "",
+	  "ext": "",
+	  "blb": ""
   },
   {
     "SNO": 10,
@@ -203,7 +238,11 @@
 	"email": "contact@kumaribank.com",
 	  "ceo": "Ram Chandra Khanal",
 	  "BFI": "a. Kastamandap Development Bank Limited<br/>b. Mahakali Bikas Bank Limited<br/>c. KakreBihar Bikas Bank Limited<br/>d. Paschimanchal Finance Limited<br/>e. Dev Bikas Bank Limited<br/>f. NCC Bank Limited",
-	"pobox": ""
+	"pobox": "",
+	  "ATM": "",
+	  "branch": "",
+	  "ext": "",
+	  "blb": ""
   },
   {
     "SNO": 11,
@@ -222,7 +261,11 @@
 	"phone2": "01-4544684",
 	"email": "info@laxmisunrise.com",
 	  "ceo": "Sumed Bhattarai",
-	"pobox": "19593"
+	"pobox": "19593",
+	  "ATM": "",
+	  "branch": "",
+	  "ext": "",
+	  "blb": ""
   },
   {
     "SNO": 12,
@@ -241,7 +284,11 @@
 	"phone2": "",
 	"email": "info@ctznbank.com",
 	  "ceo": "Ganesh Raj Pokharel",
-	"pobox": ""
+	"pobox": "",
+	  "ATM": "",
+	  "branch": "",
+	  "ext": "",
+	  "blb": ""
   },
   {
     "SNO": 13,
@@ -260,7 +307,11 @@
 	"phone2": "01-4523432",
 	"email": "info@pcbl.com.np",
 	  "ceo": "Sanjeev Manandhar",
-	"pobox": ""
+	"pobox": "",
+	  "ATM": "",
+	  "branch": "",
+	  "ext": "",
+	  "blb": ""
   },
   {
     "SNO": 14,
@@ -279,7 +330,11 @@
 	"phone2": "",
 	"email": "sanima@sanimabank.com",
 	  "ceo": "Nischal Raj Pandey",
-	"pobox": "20394"
+	"pobox": "20394",
+	  "ATM": "",
+	  "branch": "",
+	  "ext": "",
+	  "blb": ""
   },
   {
     "SNO": 15,
@@ -298,7 +353,11 @@
 	"phone2": "",
 	"email": "customercare@mbl.com.np",
 	  "ceo": "Santosh Koirala",
-	"pobox": "12427"
+	"pobox": "12427",
+	  "ATM": "",
+	  "branch": "",
+	  "ext": "",
+	  "blb": ""
   },
   {
     "SNO": 16,
@@ -317,7 +376,11 @@
 	"phone2": "",
 	"email": "info@nicasiabank.com",
 	  "ceo": "Roshan Kumar Neupane",
-	"pobox": "11022"
+	"pobox": "11022",
+	  "ATM": "",
+	  "branch": "",
+	  "ext": "",
+	  "blb": ""
 	  },
   {
     "SNO": 17,
@@ -338,6 +401,10 @@
 	"email": "info@gibl.com.np",
 	"pobox": "19327",
 	  "ceo": "Surendra Raj Regmi",
+	  "ATM": "",
+	  "branch": "",
+	  "ext": "",
+	  "blb": "",
 	  "desc": "Global Bank Limited began its journey in 2007 as a 'Class A' commercial bank after receiving approval from Nepal Rastra Bank. In 2012, it merged with the former IME Financial Institution Limited and Lord Buddha Finance Limited, subsequently rebranding and operating as Global IME Bank Limited. Over the years, we expanded further, merging with other financial institutions, including Commerz and Trust Bank Nepal Ltd., Janata Bank Nepal Limited, and Bank of Kathmandu. These strategic mergers have made us Nepal’s largest bank, with a strong foundation and an unwavering commitment to excellence. <br/><br/>We aspire to be “The Bank for All,” fueling the economy with world-class banking services. Established in 2007, GIBL began with the largest capital base for a commercial bank in Nepal, which has since grown to NPR 36.1287 billion. Our shares are publicly traded on the Nepal Stock Exchange, reflecting our solid financial standing and trustworthiness.",
 	  "subsidiaries": "a. Global IME Capital Limited<br/>b. Global IME Laghubitta Bittiya Sanstha Limited</br>c. Global IME Securities Limited<br/>d. Global IME Retirement Fund",
 	"merger": "a. IME Finance Limited</br>b. Lord Buddha Finance Limited</br>c. Social Development Bank Limited</br>d. Gulmi Bikas Bank Limited</br>e. Commerce &amp; Trust Bank Limited<br/>f. Pacific Development Bank Limited</br>g. Reliable Development Bank Limited</br>h. Hathway Finance Limited</br>i. Janata Bank Limited</br>j. Bank of Kathmandu Limited"
@@ -359,7 +426,11 @@
 	"phone2": "01-5346160",
 	"email": "call@nmb.com.np",
 	  "ceo": "Sunil KC",
-	"pobox": ""
+	"pobox": "",
+	  "ATM": "",
+	  "branch": "",
+	  "ext": "",
+	  "blb": ""
   },
   {
     "SNO": 19,
@@ -406,7 +477,11 @@
 	"phone2": "",
 	"email": "customercare@sbl.com.np",
 	  "ceo": "Sundar Prasad Kadel",
-	"pobox": "19327"
+	"pobox": "19327",
+	  "ATM": "",
+	  "branch": "",
+	  "ext": "",
+	  "blb": ""
 	
   }
 ]
