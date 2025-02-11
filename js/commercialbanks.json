@@ -378,10 +378,13 @@
 	"email": "customercare@mbl.com.np",
 	  "ceo": "Santosh Koirala",
 	"pobox": "12427",
-	  "ATM": "",
-	  "branch": "",
-	  "ext": "",
-	  "blb": ""
+	  "ATM": "204",
+	  "branch": "165",
+	  "ext": "11",
+	  "blb": "99",
+	  "subsidiaries": "a. Machhapuchchhre Capital Limited",
+	  "desc": "Machhapuchchhre Bank Limited was registered in 1998 as the first regional commercial bank from the western region of Nepal and started its banking operations from Pokhara since year 2000.
+<br/>The Bank facilitates it's customers' need by delivering the best of services in combination with the latest state of the art technologies and prudent international practices.The bank provides modern banking facilities such as Any Branch Banking, Internet Banking, Mobile Banking, Safe Deposit Locker facilities, Utility Bill payment (Telephone & Mobile), ATM (VISA Debit Cards) to its valued customers. Besides these, the Bank is providing 365 Days Banking and Evening Counter services to the customers through many of its offices."
   },
   {
     "SNO": 16,
