@@ -46,7 +46,7 @@
 	"pobox": "8368",
 	  "ceo": "Kiran Kumar Shrestha",
 	  "desc": "Rastriya Banijya Bank Limited (RBBL) has a history of serving its customers far and wide across the nation for more than half a century. The bank then fully owned by Government of Nepal, was established on 10 Magh 2022 (23 January 1966) under the special statute 'Rastriya Banijya Bank Act, 2021' and had operated under 'Commercial Bank Act,2031' until it was re-registered as public limited company on 6 Baishak 2063 (19 May 2006). At present, the Bank operates as 'A' class financial institution licensed by Nepal Rastra Bank and carries out commercial banking activities as per the provisions of the Bank and Financial Institutions Act 2073 (2017)",
-	  "ATM": "",
+	  "ATM": "250",
 	  "branch": "",
 	  "ext": "",
 	  "blb": ""
@@ -452,10 +452,12 @@
 	"email": "call@nmb.com.np",
 	  "ceo": "Sunil KC",
 	"pobox": "",
-	  "ATM": "",
-	  "branch": "",
-	  "ext": "",
-	  "blb": ""
+	  "ATM": "186",
+	  "branch": "202",
+	  "ext": "10",
+	  "blb": "",
+	  "subsidiaries": "a. NMB Capital Limited<br/>b. NMB Microfinance Limited<br/>c. N.M.B. Securities",
+	  "desc": "NMB Bank Limited licensed as “A” class financial institution by Nepal Rastra Bank in May 2008 has been operating in the Nepalese Financial market for over twenty years and is one of the leading commercial banks in the banking industry.<br/>The Bank has a Joint Venture Agreement with Nederlandse Financierings-Maatschappij voor Ontwikkelingslanden (FMO), wherein FMO holds 13.69% of the Bank’s shares and is the largest shareholder of the Bank. In September 2016, the Bank signed a Joint Venture Agreement with Nederlandse Financierings-Maatschappij voor Ontwikkelingslanden (FMO), the Dutch development bank following which FMO became the single largest share holder of the Bank. The alliance with FMO positions NMB Bank in becoming the market leader in managing environmental & social risks and the leading player in renewable energy and agribusiness."
   },
   {
     "SNO": 19,
