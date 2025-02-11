@@ -204,10 +204,11 @@
 	"email": "corporate@nsbl.com.np",
 	  "ceo": "Ram Kumar Tiwari",
 	"pobox": "",
-	  "ATM": "",
-	  "branch": "",
-	  "ext": "",
-	  "blb": ""
+	  "ATM": "121",
+	  "branch": "100",
+	  "ext": "22",
+	  "blb": "19",
+	  "subsidiaries": "a. Nepal SBI Merchant Banking Limited"
   },
   {
     "SNO": 9,
