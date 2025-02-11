@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Prabhu Bank Limited</title>
+    <title>NIC Asia Bank Limited</title>
     <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script>
@@ -14,7 +14,7 @@
 </head>
 <body>
     <div id="header"></div>
-    <h1>Prabhu Bank Limited</h1>
+    <h1>NIC Asia Bank Limited</h1>
   <div id="bankInfo1" class="bank-container"></div>
    <table>
      <tr>
@@ -24,9 +24,10 @@
     <td id="blb" class="bank-container"></td>
     </tr>
     </table>
-    <h2>Prabhu Bank Limited</h2>
+    <h2>NIC Asia Bank Limited</h2>
     <div id="bankInfo" class="bank-container"></div>
-    
+    <h2>Awards</h2>
+    <div id="bankInfo2" class="bank-container"></div>
     <h2>Merged BFIs</h2>
      <div id="subInfo1" class="bank-container"></div>
     <h2>Subsidiary Companies</h2>
@@ -45,27 +46,18 @@
         #atm {
             background-color: #add8e6; /* Light blue for ATM */
         }
-        #atm1 {
-            background-color: #add8e6; /* Light blue for ATM */
-        }
+        
         #branch {
             background-color: #90ee90; /* Light green for Branches */
         }
-        #branch1 {
-            background-color: #90ee90; /* Light green for Branches */
-        }
+        
         #ext {
             background-color: #ffebcd; /* Blanched Almond for Extension Counters */
         }
-        #ext1 {
-            background-color: #ffebcd; /* Blanched Almond for Extension Counters */
-        }
+        
         #blb {
             background-color: #ffcccb; /* Light red for Branchless Banking */
-        }
-        #blb1 {
-            background-color: #ffcccb; /* Light red for Branchless Banking */
-        }
+        
     </style>
     
     <script>
@@ -74,37 +66,39 @@
                 const response = await fetch('https://shyamkumarkc20.com.np/js/commercialbanks.json'); // Replace with actual API endpoint
                 const banks = await response.json();
                 
-                // Filter for Prabhu Bank Limited
-                const prabhuBank = banks.find(bank => bank.Name === "Prabhu Bank Limited");
+                // Filter for NIC Asia Bank Limited
+                const nicBank = banks.find(bank => bank.Name === "NIC Asia Bank Limited");
                 
-                if (prabhuBank) {
+                if (nicBank) {
                     document.getElementById('bankInfo').innerHTML = `
-                        <img src="${prabhuBank.IMG}" alt="Prabhu Bank Logo" class="bank-logo">
-                        <p><strong>Name:</strong> ${prabhuBank.Name}</p>
-                        <p><strong>Established:</strong> ${prabhuBank.ODAD} [ ${prabhuBank.ODBS} ]</p>
-                        <p><strong>Head Office:</strong> ${prabhuBank.HO}</p>
-                        <p><strong>CEO:</strong> ${prabhuBank.ceo}</p>
-                        <p><strong>NEPSE Code:</strong> ${prabhuBank.NEPSE}</p>
-                        <p><strong>Swift Code:</strong> ${prabhuBank.Swift}</p>
-                        <p><strong>Phone:</strong> <a href="tel:${prabhuBank.phone1}">${prabhuBank.phone1}</a></p>
-                        <p><strong>Toll Free:</strong> <a href="tel:${prabhuBank.TOLL}">${prabhuBank.TOLL}</a></p>
-                        <p><strong>Email:</strong> <a href="mailto:${prabhuBank.email}">${prabhuBank.email}</a></p>
-                        <p><strong>Website:</strong> <a href="https://${prabhuBank.Website}" target="_blank">${prabhuBank.Website}</a></p>
+                        <img src="${nicBank.IMG}" alt="NIC Asia Bank Limited Logo" class="bank-logo">
+                        <p><strong>Name:</strong> ${nicBank.Name}</p>
+                        <p><strong>Established:</strong> ${nicBank.ODAD} [ ${nicBank.ODBS} ]</p>
+                        <p><strong>Head Office:</strong> ${nicBank.HO}</p>
+                        <p><strong>CEO:</strong> ${nicBank.ceo}</p>
+                        <p><strong>NEPSE Code:</strong> ${nicBank.NEPSE}</p>
+                        <p><strong>Swift Code:</strong> ${nicBank.Swift}</p>
+                        <p><strong>Phone:</strong> <a href="tel:${nicBank.phone1}">${nicBank.phone1}</a></p>
+                        <p><strong>Toll Free:</strong> <a href="tel:${nicBank.TOLL}">${nicBank.TOLL}</a></p>
+                        <p><strong>Email:</strong> <a href="mailto:${nicBank.email}">${nicBank.email}</a></p>
+                        <p><strong>Website:</strong> <a href="https://${nicBank.Website}" target="_blank">${nicBank.Website}</a></p>
                     `;
-                    document.getElementById('atm').innerHTML = `<p>ATM: ${prabhuBank.ATM}</p>`;
-                    document.getElementById('ext').innerHTML = `<p>Extention Counters: ${prabhuBank.ext}</p>`;
-                    document.getElementById('blb').innerHTML = `<p>Branchless Banking: ${prabhuBank.blb}</p>`;
-                    document.getElementById('branch').innerHTML = `<p>Branches: ${prabhuBank.branch}</p>`;
-                    document.getElementById('subInfo1').innerHTML = `<p>${prabhuBank.merger}</p>`;
-                  document.getElementById('bankInfo1').innerHTML = `<p>${prabhuBank.desc}</p>`;
-                    document.getElementById('subInfo').innerHTML = `<p>${prabhuBank.subsidiaries}</p>`;
-                } else {
-                    document.getElementById('bankInfo').innerHTML = '<p>Prabhu Bankdata not found.</p>';
-                    document.getElementById('subInfo').innerHTML = '<p>Prabhu Banksubsidiaries data not found.</p>';
-                  document.getElementById('subInfo1').innerHTML = '<p>Prabhu Bankmerger data not found.</p>';
+                    document.getElementById('atm').innerHTML = `<p>ATM: ${nicBank.ATM}</p>`;
+                    document.getElementById('ext').innerHTML = `<p>Extention Counters: ${nicBank.ext}</p>`;
+                    document.getElementById('blb').innerHTML = `<p>Branchless Banking: ${nicBank.blb}</p>`;
+                    document.getElementById('branch').innerHTML = `<p>Branches: ${nicBank.branch}</p>`;
+                    document.getElementById('subInfo1').innerHTML = `<p>${nicBank.merger}</p>`;
+                  document.getElementById('bankInfo1').innerHTML = `<p>${nicBank.desc}</p>`;
+                    document.getElementById('subInfo').innerHTML = `<p>${nicBank.subsidiaries}</p>`;
+                     document.getElementById('bankInfo2').innerHTML = `<p>${nicBank.awards}</p>`;
+                } else {document.getElementById('bankInfo2').innerHTML = '<p>NIC Asia Bank Limited data not found.</p>';
+                    document.getElementById('bankInfo').innerHTML = '<p>NIC Asia Bank Limited data not found.</p>';
+                    document.getElementById('subInfo').innerHTML = '<p>NIC Asia Bank Limited subsidiaries data not found.</p>';
+                  document.getElementById('subInfo1').innerHTML = '<p>NIC Asia Bank Limited merger data not found.</p>';
                 }
             } catch (error) {
                 console.error('Error fetching bank data:', error);
+                document.getElementById('bankInfo2').innerHTML = '<p>NIC Asia Bank Limited data not found.</p>';
                 document.getElementById('bankInfo').innerHTML = '<p>Error loading bank details.</p>';
                 document.getElementById('subInfo').innerHTML = '<p>Error loading subsidiaries details.</p>';
               document.getElementById('subInfo1').innerHTML = '<p>Error loading merger details.</p>';
