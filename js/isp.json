@@ -4,7 +4,7 @@
         "Name": "WorldLink Communications",
         "IMG": "https://shyamkumarkc20.com.np/logo/worldlink.png",
         "OD": "1995",
-        "Location": "0",
+        "Location": "Jawalakhel, Lalitpur",
         "Contact": "01-5970050",
         "Email": "support@worldlink.com.np",
         "Website": "worldlink.com.np/"
@@ -23,7 +23,7 @@
         "SNO": "3",
         "Name": "Classic Tech",
         "IMG": "https://shyamkumarkc20.com.np/logo/classictech.png",
-        "OD": "704",
+        "OD": "",
         "Location": "New Baneshwor, Kathmandu",
         "Contact": "9801006633",
         "Email": "info@classic.com.np",
@@ -64,9 +64,10 @@
         "Name": "Websurfer Nepal Communications",
         "IMG": "https://shyamkumarkc20.com.np/logo/websurfer.jpg",
         "OD": "2001",
-        "Location": "Dhumbarahi Height,Kathmandu",
+        "Location": "Dhumbarahi Height, Kathmandu",
         "Contact": "01-5970222",
-        "Email": "1,47,447",
+        "Toll": "16600170222",
+        "Email": "",
         "Website": "websurfer.com.np/"
     },
     {
