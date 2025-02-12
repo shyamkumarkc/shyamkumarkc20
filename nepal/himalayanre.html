@@ -1,7 +1,8 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Himalayan RE</title>
+    <title>Himalayan Reinsurance Company Limited</title>
     <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script>
@@ -14,7 +15,7 @@
 </head>
 <body>
     <div id="header"></div>
-    <h1>Himalayan RE</h1>
+    <h1>Himalayan Reinsurance Company Limited</h1>
   <p>
     Himalayan Re is the first private sector reinsurance company established in the Republic of Nepal. The company would offer Reinsurance support to Life
     and General Insurance Companies in Nepal and overseas.
@@ -32,9 +33,11 @@
     Paid up Capital: NPR 7 Billions (USD 60 Millions approx)
 </p>
    
+   
+    <h2>Himalayan Reinsurance Company Limited</h2>
+    <div id="bankInfo" class="bank-container"></div>
     
-    <h2>Merged BFIs</h2>
-     <div id="bankInfo" class="bank-container"></div>
+    
     <h2>Subsidiary Companies</h2>
     <div id="subInfo" class="bank-container"></div>
     
@@ -45,27 +48,30 @@
                 const response = await fetch('https://shyamkumarkc20.com.np/js/reinsurance.json'); // Replace with actual API endpoint
                 const banks = await response.json();
                 
-                // Filter for Himalayan RE
-                const himalayanRe = banks.find(bank => bank.Name === "Himalayan Reinsurance Company Limited");
+                // Filter for Global IME Bank Limited
+                const globalBank = banks.find(bank => bank.Name === "Himalayan Reinsurance Company Limited");
                 
-                if (himalayanRe) {
-                    
+                if (globalBank) {
                     document.getElementById('bankInfo').innerHTML = `
-                        <img src="${himalayanRe.IMG}" alt="Himalayan Reinsurance Company Limited Logo" class="bank-logo">
-                        <p><strong>Name:</strong> ${himalayanRe.Name}</p>
-                        <p><strong>Established:</strong> ${himalayanRe.Operation}</p>
-                        <p><strong>Head Office:</strong> ${himalayanRe.HO}</p>
+                        <img src="${globalBank.IMG}" alt="Himalayan Reinsurance Company Limited" class="bank-logo">
+                        <p><strong>Name:</strong> ${globalBank.Name}</p>
+                        <p><strong>Established:</strong> ${globalBank.ODAD} [ ${globalBank.ODBS} ]</p>
+                        <p><strong>Head Office:</strong> ${globalBank.HO}</p>
+                        <p><strong>CEO:</strong> ${globalBank.ceo}</p>
+                        <p><strong>NEPSE Code:</strong> ${globalBank.NEPSE}</p>
                         
-                        <p><strong>Phone:</strong> <a href="tel:${himalayanRe.Phone}">${himalayanRe.Phone}</a></p>
-                       
-                        <p><strong>Email:</strong> <a href="mailto:${himalayanRe.email}">${himalayanRe.Email}</a></p>
-                        <p><strong>Website:</strong> <a href="https://${himalayanRe.Website}" target="_blank">${himalayanRe.Website}</a></p>
+                        <p><strong>Phone:</strong> <a href="tel:${globalBank.phone1}">${globalBank.phone1}</a>  <a href="tel:${globalBank.phone2}">${globalBank.phone2}</a></p>
+                        <p><strong>Toll Free:</strong> <a href="tel:${globalBank.Toll}">${globalBank.Toll}</a></p>
+                        <p><strong>Email:</strong> <a href="mailto:${globalBank.email}">${globalBank.email}</a></p>
+                        <p><strong>Website:</strong> <a href="https://${globalBank.Website}" target="_blank">${globalBank.Website}</a></p>
                     `;
-                     
+                    
+                  
+                    document.getElementById('subInfo').innerHTML = `<p>${globalBank.subsidiaries}</p>`;
                 } else {
-                    document.getElementById('bankInfo').innerHTML = '<p>Himalayan RE data not found.</p>';
-                    document.getElementById('subInfo').innerHTML = '<p>Himalayan RE subsidiaries data not found.</p>';
-                  document.getElementById('subInfo1').innerHTML = '<p>Himalayan RE merger data not found.</p>';
+                    document.getElementById('bankInfo').innerHTML = '<p>Global IME Bank Limited data not found.</p>';
+                    document.getElementById('subInfo').innerHTML = '<p>Global IME Bank Limited subsidiaries data not found.</p>';
+                  document.getElementById('subInfo1').innerHTML = '<p>Global IME Bank Limited merger data not found.</p>';
                 }
             } catch (error) {
                 console.error('Error fetching bank data:', error);
