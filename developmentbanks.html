@@ -37,7 +37,7 @@ $('#header').load('/assets/header.html');
 <th>S.No.</th>
 <th>Name</th>
 	<th>Logo</th>
-<th>Operation Date (A.D.)</th>
+<th>Operation Date</th>
 <th>Head Office</th>
 
 <th>NEPSE Code</th>
@@ -69,7 +69,7 @@ $('#header').load('/assets/header.html');
 	      <td><a href ="https://${product.Website}"target="blank">${product.Name}</a></td>
 			<td><img src="${product.IMG}" width="100" height="100" ></td>
            
-			<td>${product.ODAD}</td>
+			<td>${product.ODAD}<br/>${product.ODBS}</td>
 			<td>${product.HO}</td>
 			<td>${product.NEPSE}</td>
 			
