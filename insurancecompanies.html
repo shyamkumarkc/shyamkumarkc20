@@ -20,38 +20,10 @@ $('#header').load('/assets/header.html');
 </div><div>C. Reinsurance</div><div>&nbsp;19 life insurance, 20 non-life or general insurance and 1 reinsurance companies are operating in Nepal.&nbsp;</div><h3>List of Life Insurance Companies In Nepal</h3>
 
 There are currently 19 life insurance companies in Nepal. The list of the life insurance companies is shown below:
-	<style>
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
+	<table>
 
-    border: 1px solid #ddd;
-}
-
-th, td {
-    text-align: left;
-    padding: 16px;
-}
-
-tr:nth-child(even) {
-    background-color: #f2f2f2
-}
-</style>
-	<table border="black">
-
-      <thead>
-         <tr>
-            <th>S No</th>
-            <th>Company Name</th>
-           <th>Logo</th>
-            <th>Operation Date</th>
-		 <th>Head Office</th>
-            <th>NEPSE</th>
-			<th>Phone</th>
-			<th>Email</th>
-         </tr>
-      </thead>
-      <tbody id="data-output">
+      
+      <tbody id="data-output1">
          <!-- Prodcuts from javascript file in here. -->
       </tbody>
    </table>
@@ -62,20 +34,15 @@ tr:nth-child(even) {
    return response.json();
 })
 .then(function(products){
-   let placeholder = document.querySelector("#data-output");
+   let placeholder = document.querySelector("#data-output1");
    let out = "";
    for(let product of products){
       out += `
          <tr>
             
             <td>${product.Sno}</td>
-		<td><a href ="https://${product.Website}"target="blank">${product.Name}</a></td>
-  <td><img src="${product.IMG}" width="120" height="100" ></td>
-            			<td>${product.Operation}</td>
-			<td>${product.HO}</td>
-			<td>${product.NEPSE}</td>
-			<td><a href ="tel:${product.Phone}">${product.Phone}</a></td>
-            <td><a href ="mailto:${product.Email}">${product.Email}</a></td>
+			
+           <td><a href ="https://${product.Website}"target="blank">${product.Name}</a></td>
             
          </tr>
       `;
@@ -92,19 +59,7 @@ Non-life insurance covers accidents, medical expenses, third party liability, pr
 Below are the list of 20 general or non-life insurance companies of Nepal:
 <table border="black" style="width: 100%;">
 
-      <thead>
-         <tr>
-            <th>S No</th>
-            <th>Company Name</th>
-           <th>Logo</th>
-            <th>Operation Date</th>
-		 <th>Head Office</th>
-            <th>NEPSE</th>
-		 <th>Phone</th>
-			
-			<th>Email</th>
-         </tr>
-      </thead>
+      
       <tbody id="data-output1">
          <!-- Prodcuts from javascript file in here. -->
       </tbody>
@@ -125,14 +80,7 @@ Below are the list of 20 general or non-life insurance companies of Nepal:
             <td>${product.Sno}</td>
 			
            <td><a href ="https://${product.Website}"target="blank">${product.Name}</a></td>
-	     <td><img src="${product.IMG}" width="120" height="100" ></td>
-			<td>${product.Operation}</td>
-			 <td>${product.HO}</td>
-			<td>${product.NEPSE}</td>
-			
-           <td><a href ="tel:${product.Phone}">${product.Phone}</a></td>
-            <td><a href ="mailto:${product.Email}">${product.Email}</a></td>
-            
+	    
          </tr>
       `;
    }
