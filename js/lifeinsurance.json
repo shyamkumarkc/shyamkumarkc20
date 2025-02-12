@@ -20,7 +20,8 @@
 	"Phone": "01-4510115",
 	"Email": "asianlife@asianlife.com.np",
 	"IMG": "https://shyamkumarkc20.com.np/logo/alicl.png",
-    "Website": "www.asianlife.com.np/"
+    "Website": "www.asianlife.com.np/",
+	  "subsidiaries": "a. Asian life Capital"
   },
   {
     "Sno": "3",
@@ -107,7 +108,8 @@
 	"Phone": "01-5970971",
 	"Email" : "customer.service@nepallife.com.np",
 	"IMG": "https://shyamkumarkc20.com.np/logo/nlic.jpg",
-    "Website": "www.nepallife.com.np/en/home"
+    "Website": "www.nepallife.com.np/en/home",
+	  "subsidiaries": "a. Nepal Life Capital"
   },
   
   {
@@ -175,6 +177,7 @@
 	"Phone": "01-4536126",
 	"Email": "info@snlic.com",
 	"IMG": "https://shyamkumarkc20.com.np/logo/snli.png",
-    "Website": "www.sunlife.com.np/"
+    "Website": "www.sunlife.com.np/",
+	  "subsidiaries": "a. Sunlife Capital"
   }
 ]
