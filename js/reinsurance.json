@@ -2,7 +2,8 @@
   {
     "Sno": "1",
     "Name": "Nepal Reinsurance Company Limited",
-    "Operation": "2014 A.D ",
+    "ODAD": "2014 A.D ",
+	  "ODBS": "",
     "NEPSE": "NRIC",
 	"HO": "Thapathali, Kathmandu",
 	"PO": "",
@@ -23,7 +24,8 @@
    {
     "Sno": "2",
     "Name": "Himalayan Reinsurance Company Limited",
-    "Operation": "2021 A.D ",
+    "ODAD": "2021 A.D ",
+	   "ODBS": "",
     "NEPSE": "HRL",
 	
 	"HO": "Maharajgunj, Kathmandu",
