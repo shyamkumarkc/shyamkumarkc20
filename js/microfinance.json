@@ -1,8 +1,9 @@
 [
     {
-        "SNO": "1",
+        "SNO": "1",	    
+	  "class": "D",
         "Name": "Nirdhan Utthan Laghubitta Bittiya Sanstha Limited",
-        "OD": " 1999-07-17",
+        "ODAD": " 1999-07-17",
         "HO": " Naxal, Kathmandu",
         "Paidup": " 261.21",
         "Area": " National Level",
@@ -14,9 +15,10 @@
 		"NEPSE": "NUBL"
     },
     {
-        "SNO": "2",
+        "SNO": "2",	    
+	  "class": "D",
         "Name": " Deprosc Laghubitta Bittiya Sanstha Limited",
-        "OD": " 2001-07-03",
+        "ODAD": " 2001-07-03",
         "HO": " Bharatpur, Chitwan",
         "Paidup": " 155.11",
         "Area": " National Level",
@@ -28,9 +30,10 @@
 		"NEPSE": "DDBL"
     },
     {
-        "SNO": "3",
+        "SNO": "3",	    
+	  "class": "D",
         "Name": " Chhimek Laghubitta Bittiya Sanstha Limited",
-        "OD": " 2001-12-10",
+        "ODAD": " 2001-12-10",
         "HO": " Old Baneshwor, Kathmandu",
         "Paidup": " 297.72",
         "Area": " National Level",
@@ -42,9 +45,10 @@
 		"NEPSE": "CBBL"
     },
     {
-        "SNO": "4",
+        "SNO": "4",	    
+	  "class": "D",
         "Name": "Swabalamban Laghubitta Bittiya Sanstha Limited",
-        "OD": " 2002-02-22",
+        "ODAD": " 2002-02-22",
         "HO": " Kamal Pokhari, Kathmandu",
         "Paidup": " 145.00",
         "Area": " National Level",
@@ -56,9 +60,10 @@
 		"NEPSE": "SWBBL"
     },
     {
-        "SNO": "5",
+        "SNO": "5",	    
+	  "class": "D",
         "Name": "Sana Kisan Bikas Laghubitta Bittiya Sanstha Limited",
-        "OD": " 2002-03-11",
+        "ODAD": " 2002-03-11",
         "HO": " Babarmahal, Kathmandu",
         "Paidup": " 380.64",
         "Area": " National Level",
@@ -70,9 +75,10 @@
 		"NEPSE": "SKBBL"
     },
     {
-        "SNO": "6",
+        "SNO": "6",	    
+	  "class": "D",
         "Name": " Nerude Mirmire Laghubitta Bittiya Sanstha Limited",
-        "OD": " 2007-06-15",
+        "ODAD": " 2007-06-15",
         "HO": " Banepa, Kavrepalanchowk",
         "Paidup": " 73.20",
         "Area": " National Level",
@@ -84,9 +90,10 @@
 		"NEPSE": ""
     },
     {
-        "SNO": "7",
+        "SNO": "7",	    
+	  "class": "D",
         "Name": " Mithila Laghubitta Bittiya Sanstha Limited",
-        "OD": " 2009-04-29",
+        "ODAD": " 2009-04-29",
         "HO": " Dhalkebar, Dhanusha",
         "Paidup": " 19.60",
         "Area": " Province Level (Madhesh Province)",
@@ -98,9 +105,10 @@
 		"NEPSE": "MLBBL"
     },
     {
-        "SNO": "8",
+        "SNO": "8",	    
+	  "class": "D",
         "Name": "Sworojagar Laghubitta Bittiya Sanstha Limited",
-        "OD": " 2009-12-16",
+        "ODAD": " 2009-12-16",
         "HO": " Banepa, Kavrepalanchowk",
         "Paidup": " 62.72",
         "Area": " National Level",
@@ -112,9 +120,10 @@
 		"NEPSE": "SLBBL"
     },
     {
-        "SNO": "9",
+        "SNO": "9",	    
+	  "class": "D",
         "Name": "First Microfinance Laghubitta Bittiya Sanstha Limited",
-        "OD": " 2009-12-28",
+        "ODAD": " 2009-12-28",
         "HO": " Gyaneshwor, Kathmandu",
         "Paidup": " 123.38",
         "Area": " National Level",
@@ -126,9 +135,10 @@
 		"NEPSE": "FMDBL"
     },
     {
-        "SNO": "10",
+        "SNO": "10",	    
+	  "class": "D",
         "Name": " Kalika Laghubitta Bittiya Sanstha Limited",
-        "OD": " 2020-01-08*",
+        "ODAD": " 2020-01-08*",
         "HO": " Pokhara, Kaski",
         "Paidup": " 37.23",
         "Area": " National Level",
@@ -141,9 +151,10 @@
     
     },
     {
-        "SNO": "11",
+        "SNO": "11",	    
+	  "class": "D",
         "Name": " Aviyan Laghubitta Bittiya Sanstha Limited",
-        "OD": " 2019-12-17",
+        "ODAD": " 2019-12-17",
         "HO": " Panauti, Kavrepalanchowk ",
         "Paidup": "25.00 ",
         "Area": "National Level",
@@ -155,9 +166,10 @@
 		"NEPSE": "AVYAN"
     },
     {
-        "SNO": "12",
+        "SNO": "12",	    
+	  "class": "D",
         "Name": " Janautthan Samudayik Laghubitta Bittiya Sanstha Limited",
-        "OD": "  2010-11-09",
+        "ODAD": "  2010-11-09",
         "HO": "  Butwal, Rupandehi",
         "Paidup": "  17.01",
         "Area": " 19 District Level (Kailali, Kanchanpur,\nBanke, Bardiya, Dang, Kapilvastu, Rupandehi, Nawalparasi East, Nawalparasi West, Chitwan, Parsa, Surkhet,  Dadeldhura, Gulmi, Palpa, Tanahu, Arghakhachi, Pyuthan, Salyan)",
@@ -169,9 +181,10 @@
 		"NEPSE": "JSLBL"
     },
     {
-        "SNO": "13",
+        "SNO": "13",	    
+	  "class": "D",
         "Name": "  Suryodaya Womi Laghubitta Bittiya Sanstha Limited",
-        "OD": "  2022-04-02*",
+        "ODAD": "  2022-04-02*",
         "HO": "  Banepa, Kavrepalanchowk",
         "Paidup": "  79.19",
         "Area": "  National Level",
@@ -183,9 +196,10 @@
 		"NEPSE": " SWMF"
     },
     {
-        "SNO": "14",
+        "SNO": "14",	    
+	  "class": "D",
         "Name": "  Laxmi Laghubitta Bittiya Sanstha Limited",
-        "OD": "  2012-06-04",
+        "ODAD": "  2012-06-04",
         "HO": "  Maharajgunj, Kathmandu",
         "Paidup": "  44.17 ",
         "Area": " National Level",
@@ -197,9 +211,10 @@
 		"NEPSE": "LLBS "
     },
     {
-        "SNO": "15",
+        "SNO": "15",	    
+	  "class": "D",
         "Name": "  Himalayan Laghubitta Bittiya Sanstha Limited",
-        "OD": "  2012-07-05",
+        "ODAD": "  2012-07-05",
         "HO": "  Chuchepati , Kathmandu",
         "Paidup": "  31.98",
         "Area": "  National Level",
@@ -211,9 +226,10 @@
 		"NEPSE": "HLBSL "
     },
     {
-        "SNO": "16",
+        "SNO": "16",	    
+	  "class": "D",
         "Name": "  Vijaya Laghubitta Bittiya Sanstha Limited",
-        "OD": "  2013/03/28",
+        "ODAD": "  2013/03/28",
         "HO": "  Gaidakot, Nawalparasi",
         "Paidup": "  74.50",
         "Area": "  National Level",
@@ -225,9 +241,10 @@
 		"NEPSE": "VLBS "
     },
     {
-        "SNO": "17",
+        "SNO": "17",	    
+	  "class": "D",
         "Name": "  NMB Laghubitta Bittiya Sanstha Limited",
-        "OD": "  2013/03/31",
+        "ODAD": "  2013/03/31",
         "HO": " Pokhara-Hemja, Kaski",
         "Paidup": "  72.14",
         "Area": "  National Level",
@@ -241,7 +258,7 @@
     {
         "SNO": "18",
         "Name": "  Forward Microfinance Laghubitta Bittiya Sanstha Limited",
-        "OD": "  2013/05/17",
+        "ODAD": "  2013/05/17",
         "HO": "  Duhabi Bhaluwa, Sunsari",
         "Paidup": "  105.56",
         "Area": "  National Level",
@@ -253,9 +270,10 @@
 		"NEPSE": "FOWAD "
     },
     {
-        "SNO": "19",
+        "SNO": "19",	    
+	  "class": "D",
         "Name": "  Global IME Laghubitta Bittiya Sanstha Limited",
-        "OD": "  2013/05/19",
+        "ODAD": "  2013/05/19",
         "HO": "  Pokhara, Kaski",
         "Paidup": "  61.89",
         "Area": "  National Level",
@@ -267,9 +285,10 @@
 		"NEPSE": "GILB "
     },
     {
-        "SNO": "20",
+        "SNO": "20",	    
+	  "class": "D",
         "Name": "  Mahuli Laghubitta Bittiya Sanstha Limited",
-        "OD": "  2020-11-23*",
+        "ODAD": "  2020-11-23*",
         "HO": "  Bakdhuwa, Saptari",
         "Paidup": "  32.24 ",
         "Area": "National Level",
@@ -281,9 +300,10 @@
 		"NEPSE": "MSLB"
     },
     {
-        "SNO": "21",
+        "SNO": "21",	    
+	  "class": "D",
         "Name": " Meromicrofinance Laghubitta Bittiya Sanstha Limited",
-        "OD": " 2013/07/18",
+        "ODAD": " 2013/07/18",
         "HO": " Battar, Nuwakot",
         "Paidup": " 132.00",
         "Area": " National Level",
@@ -295,9 +315,10 @@
 		"NEPSE": "MERO "
     },
     {
-        "SNO": "22",
+        "SNO": "22",	    
+	  "class": "D",
         "Name": " Samata Gharelu Laghubitta Bittiya Sanatha Limited",
-        "OD": " 2021-04-15*",
+        "ODAD": " 2021-04-15*",
         "HO": " Banepa, Kavrepalanchowk",
         "Paidup": " 39.42",
         "Area": " National Level",
@@ -309,9 +330,10 @@
 		"NEPSE": "SMATA "
     },
     {
-        "SNO": "23",
+        "SNO": "23",	    
+	  "class": "D",
         "Name": " RSDC Laghubitta Bitiya Sanstha Limited",
-        "OD": " 2013/09/11",
+        "ODAD": " 2013/09/11",
         "HO": " Butwal, Rupandehi",
         "Paidup": " 86.96",
         "Area": " National Level",
@@ -323,9 +345,10 @@
 		"NEPSE": "RSDC"
     },
     {
-        "SNO": "24",
+        "SNO": "24",	    
+	  "class": "D",
         "Name": " Samudayik Laghubitta Bitiya Sanstha Limited",
-        "OD": " 2014/04/13",
+        "ODAD": " 2014/04/13",
         "HO": " Banepa, Kavrepalanchowk",
         "Paidup": " 14.52",
         "Area": "4-10 District Level (Sindhupalchowk, Kavrepalanchowk, Dolakha,\nRamechhap, Solukhumbu, Okhaldhunga, Nuwakot, Khotang, Bhojpur, Sankhuasabha) ",
@@ -337,9 +360,10 @@
 		"NEPSE": "SLBSL "
     },
     {
-        "SNO": "25",
+        "SNO": "25",	    
+	  "class": "D",
         "Name": " National Microfinance Laghubitta Bittiya Sanstha Limited",
-        "OD": " 2021-07-14* ",
+        "ODAD": " 2021-07-14* ",
         "HO": "Nilkantha, Dhading",
         "Paidup": " 108.42",
         "Area": " National Level",
@@ -351,9 +375,10 @@
 		"NEPSE": "NMFBS "
     },
     {
-        "SNO": "26",
+        "SNO": "26",	    
+	  "class": "D",
         "Name": " Grameen Bikas Laghubitta Bittiya Sanstha Limited",
-        "OD": " 2014-08-15*",
+        "ODAD": " 2014-08-15*",
         "HO": " Butawal, Rupandehi",
         "Paidup": " 98.25",
         "Area": " National Level",
@@ -365,9 +390,10 @@
 		"NEPSE": "GBLBS "
     },
     {
-        "SNO": "27",
+        "SNO": "27",	    
+	  "class": "D",
         "Name": " Wean Nepal Laghubitta Bittiya Sanstha Limited",
-        "OD": " 2021-11-01*",
+        "ODAD": " 2021-11-01*",
         "HO": " Banepa, Kavrepalanchowk",
         "Paidup": " 7.92",
         "Area": " Province Level (Bagmati Province)",
@@ -379,9 +405,10 @@
 		"NEPSE": "WNLB "
     },
     {
-        "SNO": "28 ",
+        "SNO": "28 ",	    
+	  "class": "D",
         "Name": "Unnati Sahakarya Laghubitta Bittiya Sanstha Limited",
-        "OD": " 2020-07-10*",
+        "ODAD": " 2020-07-10*",
         "HO": " Siddarthanagar, Rupandehi",
         "Paidup": " 24.69 ",
         "Area": "National Level",
@@ -393,9 +420,10 @@
 		"NEPSE": " USLB"
     },
     {
-        "SNO": "29",
+        "SNO": "29",	    
+	  "class": "D",
         "Name": " NADEP Laghubitta Bittiya Sanstha Limited",
-        "OD": " 2015-05-15",
+        "ODAD": " 2015-05-15",
         "HO": " Gajuri, Dhading",
         "Paidup": " 48.58",
         "Area": " National Level",
@@ -407,9 +435,10 @@
 		"NEPSE": "NADEP "
     },
     {
-        "SNO": "30",
+        "SNO": "30",	    
+	  "class": "D",
         "Name": " Support Laghubitta Bittiya Sanstha Limited",
-        "OD": " 2015/07/12",
+        "ODAD": " 2015/07/12",
         "HO": " Hasposa, Itahari",
         "Paidup": " 9.52",
         "Area": " Province Level (Koshi Province)",
@@ -421,9 +450,10 @@
 		"NEPSE": "SMB "
     },
     {
-        "SNO": "31",
+        "SNO": "31",	    
+	  "class": "D",
         "Name": " Aarambha Chautari Laghubitta Bittiya Sanstha Limited",
-        "OD": " 2021-11-16*",
+        "ODAD": " 2021-11-16*",
         "HO": " Banepa, Kavrepalanchowk",
         "Paidup": " 36.71",
         "Area": " National Level",
@@ -435,9 +465,10 @@
 		"NEPSE": "ACLBSL "
     },
     {
-        "SNO": "32",
-        "Name": " Asha Lagubitta Bittiya Sastha Limited",
-        "OD": " 2016/08/29",
+        "SNO": "32",	    
+	  "class": "D",
+        "Name": " Asha Lagubitta Bittiya Sanstha Limited",
+        "ODAD": " 2016/08/29",
         "HO": " Madanpur Nuwakot",
         "Paidup": " 64.16",
         "Area": " National Level",
@@ -449,9 +480,10 @@
 		"NEPSE": "ALBSL "
     },
     {
-        "SNO": "33",
-        "Name": " Gurans LaghuBitta Bittiya Sastha Limited",
-        "OD": " 2016/11/16 ",
+        "SNO": "33",	    
+	  "class": "D",
+        "Name": " Gurans LaghuBitta Bittiya Sanstha Limited",
+        "ODAD": " 2016/11/16 ",
         "HO": "Dhankutabazaar, Dhankuta",
         "Paidup": " 10.14",
         "Area": " Province Level (Koshi Province)",
@@ -463,9 +495,10 @@
 		"NEPSE": "GLBSL "
     },
     {
-        "SNO": "34",
-        "Name": " Ganapati Laghubitta Bittiya Sastha Limited",
-        "OD": " 2016/12/09 ",
+        "SNO": "34",	    
+	  "class": "D",
+        "Name": " Ganapati Laghubitta Bittiya Sanstha Limited",
+        "ODAD": " 2016/12/09 ",
         "HO": "Shuklagandaki, Tanahu",
         "Paidup": " 15.16",
         "Area": " National Level",
@@ -477,9 +510,10 @@
 		"NEPSE": "GMFBS "
     },
     {
-        "SNO": "35",
-        "Name": " Infinity Laghubitta Bittiya Sanstha Ltd",
-        "OD": " 1900/01/09 ",
+        "SNO": "35",	    
+	  "class": "D",
+        "Name": " Infinity Laghubitta Bittiya Sanstha Limited",
+        "ODAD": " 1900/01/09 ",
         "HO": "Gaidakot, Nawalparasi",
         "Paidup": " 49.74",
         "Area": " National Level",
@@ -491,9 +525,10 @@
 		"NEPSE": "ILBS "
     },
     {
-        "SNO": "36",
+        "SNO": "36",	    
+	  "class": "D",
         "Name": " Swabhiman Laghubitta Bittiya Sanstha Limited",
-        "OD": " 2017/05/22 ",
+        "ODAD": " 2017/05/22 ",
         "HO": "Tilottama, Rupandehi",
         "Paidup": " 14.61",
         "Area": " Province Level (Lumbini Province)",
@@ -505,9 +540,10 @@
 		"NEPSE": "SMFBS "
     },
     {
-        "SNO": "37",
+        "SNO": "37",	    
+	  "class": "D",
         "Name": " Sampada Laghubitta Bittiya Sanstha Limited",
-        "OD": ". 2017/07/14 ",
+        "ODAD": ". 2017/07/14 ",
         "HO": "Bandipur, Tanahu",
         "Paidup": " 31.86",
         "Area": " National Level",
@@ -519,9 +555,10 @@
 		"NEPSE": "SABSL "
     },
     {
-        "SNO": "38",
+        "SNO": "38",	    
+	  "class": "D",
         "Name": " Jeevan Bikash Laghubitta Bittiya Sanstha Limited",
-        "OD": " 2020-09-07*",
+        "ODAD": " 2020-09-07*",
         "HO": " Katahari , Morang",
         "Paidup": " 118.20",
         "Area": " National Level",
@@ -533,9 +570,10 @@
 		"NEPSE": "JBLB"
     },
     {
-        "SNO": "39",
+        "SNO": "39",	    
+	  "class": "D",
         "Name": " NIC Asia Laghubitta Bittiya Sanstha Limited",
-        "OD": " 2021-03-21* ",
+        "ODAD": " 2021-03-21* ",
         "HO": "Banepa, Kavrepalanchowk",
         "Paidup": " 173.94",
         "Area": " National Level",
@@ -547,9 +585,10 @@
 		"NEPSE": "NICLBSL "
     },
     {
-        "SNO": "40",
+        "SNO": "40",	    
+	  "class": "D",
         "Name": " Matribhumi Laghubitta Bittiya Sanstha Limited",
-        "OD": " 2020-07-13*",
+        "ODAD": " 2020-07-13*",
         "HO": " Budhanilkantha, Kathmandu",
         "Paidup": " 50.44",
         "Area": " National Level",
@@ -561,9 +600,10 @@
 		"NEPSE": "KLBSL"
     },
     {
-        "SNO": "41",
+        "SNO": "41",	    
+	  "class": "D",
         "Name": " Samaj Laghubitta Bittiya Sanstha Limited ",
-        "OD": "2018/05/15",
+        "ODAD": "2018/05/15",
         "HO": " Malangawa,Sarlahi",
         "Paidup": " 2.29",
         "Area": " 1-3 District Level (Sarlahi, Mahottari, Dhanusa)",
@@ -575,9 +615,10 @@
 		"NEPSE": "SAMAJ"
     },
     {
-        "SNO": "42",
+        "SNO": "42",	    
+	  "class": "D",
         "Name": " Mahila Laghubitta Bittiya Sanstha Limited",
-        "OD": " 2018/10/18",
+        "ODAD": " 2018/10/18",
         "HO": " Banepa, Sanga, Kavrepalanchok ",
         "Paidup": "21.76 ",
         "Area": "National Level",
@@ -589,9 +630,10 @@
 		"NEPSE": "MLBSL"
     },
     {
-        "SNO": "43",
+        "SNO": "43",	    
+	  "class": "D",
         "Name": " Manushi Laghubitta Bittiya Sanstha Limited",
-        "OD": " 2018/11/17",
+        "ODAD": " 2018/11/17",
         "HO": " Banepa, Bhaisepati, Kavrepalanchok ",
         "Paidup": "10.94 ",
         "Area": "National Level",
@@ -603,9 +645,10 @@
 		"NEPSE": "MLBS"
     },
     {
-        "SNO": "44",
+        "SNO": "44",	    
+	  "class": "D",
         "Name": " Unique Nepal Laghubitta Bittiya Sanstha Limited",
-        "OD": " 2022-01-14*",
+        "ODAD": " 2022-01-14*",
         "HO": " Kohalpur, Banke ",
         "Paidup": "14.86",
         "Area": "\n4 - 10 District (Bardiya, Banke, Kailali, Kanchanpur,  Dang, Kapilbastu,Rupandehi, Nawalparasi, Surkhet, Dadeldhura)",
@@ -617,9 +660,10 @@
 		"NEPSE": "UNLB"
     },
     {
-        "SNO": "45 ",
+        "SNO": "45 ",	    
+	  "class": "D",
         "Name": "Aatmanirbhar Laghubitta Bittiya Sanstha Limited",
-        "OD": " 2019-04-15",
+        "ODAD": " 2019-04-15",
         "HO": " Ghorahi, Dang",
         "Paidup": " 6.86",
         "Area": " Province Level (Lumbini Province)",
@@ -631,9 +675,10 @@
 		"NEPSE": "ANLB"
     },
     {
-        "SNO": "46",
+        "SNO": "46",	    
+	  "class": "D",
         "Name": " Upakar Laghubitta Bittiya Sanstha Limited",
-        "OD": " 2019/03/27",
+        "ODAD": " 2019/03/27",
         "HO": " Kohalpur, Banke",
         "Paidup": " 10.61",
         "Area": " Province Level (Lumbini Province)",
@@ -645,9 +690,10 @@
 		"NEPSE": "ULBSL"
     },
     {
-        "SNO": "47",
+        "SNO": "47",	    
+	  "class": "D",
         "Name": " Dhaulagiri Laghubitta Bittiya Sanstha Limited",
-        "OD": " 2019/02/19 ",
+        "ODAD": " 2019/02/19 ",
         "HO": "Baglung -2 , Baglung",
         "Paidup": " 13.31",
         "Area": " National Level",
@@ -659,9 +705,10 @@
 		"NEPSE": "DLBS"
     },
     {
-        "SNO": "48",
+        "SNO": "48",	    
+	  "class": "D",
         "Name": " CYC Nepal Laghubitta Bittiya Sanstha Limited",
-        "OD": " 2023-03-14*",
+        "ODAD": " 2023-03-14*",
         "HO": " Pokhara, Kaski",
         "Paidup": " 26.64",
         "Area": " National Level",
@@ -673,9 +720,10 @@
 		"NEPSE": "CYCL"
     },
     {
-        "SNO": "49",
+        "SNO": "49",	    
+	  "class": "D",
         "Name": " NESDO Samriddha Laghubitta Bittiya Sanstha Limited",
-        "OD": " 2019/03/05",
+        "ODAD": " 2019/03/05",
         "HO": " Kushma, Parbat",
         "Paidup": " 25.50 ",
         "Area": "National Level",
@@ -687,9 +735,10 @@
 		"NEPSE": "NESDO"
     },
     {
-        "SNO": "50",
+        "SNO": "50",	    
+	  "class": "D",
         "Name": " Swastik Laghubitta Bittiya Sanstha Limited",
-        "OD": " 2019/03/26 ",
+        "ODAD": " 2019/03/26 ",
         "HO": "Lahan, Siraha",
         "Paidup": " 1.20",
         "Area": " Province Level (Madhesh Province)",
@@ -701,9 +750,10 @@
 		"NEPSE": ""
     },
     {
-        "SNO": "51",
+        "SNO": "51",	    
+	  "class": "D",
         "Name": " Shrijanshil Laghubitta Bittiya Sanstha Limited",
-        "OD": " 2019/03/15",
+        "ODAD": " 2019/03/15",
         "HO": " Golbazar, Siraha",
         "Paidup": " 10.94 ",
         "Area": "National Level",
@@ -718,9 +768,10 @@
     
     
     {
-        "SNO": "52",
+        "SNO": "52",	    
+	  "class": "D",
         "Name": " Super Laghubitta Bittiya Sanstha Limited",
-        "OD": " 2020-01-15",
+        "ODAD": " 2020-01-15",
         "HO": " Tulshipur, Dang",
         "Paidup": " 1.95",
         "Area": " Province Level (Lumbini Province)",
