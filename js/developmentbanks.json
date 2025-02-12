@@ -15,6 +15,7 @@
 	"IMG": "https://shyamkumarkc20.com.np/logo/mlbl.png",
 	"TOLL": "16600115015",
 	"phone1": "01- 5368719",
+	  "phone2": "",
 	"email": "info@mahalaxmibank.com.np",
 	"pobox": "0",
 	"fax": "01-4269308"
@@ -57,6 +58,7 @@
 	"IMG": "https://shyamkumarkc20.com.np/logo/sadbl.png",
 	"TOLL": "18105000052",
 	"phone1": "01-5970052 ",
+	  "phone2": "",
 	"email": "info@shangrilabank.com",
 	"pobox": "0"
 	
@@ -181,6 +183,7 @@
 	"IMG": "https://shyamkumarkc20.com.np/logo/ksbbl.jpg",
 	"TOLL": "16600113000",
 	"phone1": "01-5970030",
+	  "phone2": "",
 	"email": "customercare@kamanasewabank.com",
 	"pobox": "0"
 	
@@ -201,6 +204,7 @@
 	"IMG": "https://shyamkumarkc20.com.np/logo/corbl.jpg",
 	"TOLL": "0",
 	"phone1": "051-531031",
+	  "phone2": "",
 	"email": " info@corporatebank.com.np",
 	"pobox": "0",
 	"fax": "051-527843"
@@ -243,7 +247,7 @@
 	"IMG": "https://shyamkumarkc20.com.np/logo/shine.png",
 	"TOLL": "16607152010",
 	"phone1": "071- 415502",
-	"phone": "071415503"
+	"phone2": "071415503"
 	"email": "info@srdb.com.np",
 	"pobox": "0"
 	
@@ -349,6 +353,7 @@
 	"IMG": "https://shyamkumarkc20.com.np/logo/grdbl.png",
 	"TOLL": "0",
 	"phone1": "061-533590",
+	  "phone2": "",
 	"email": "info@greenbank.com.np",
 	"pobox": "0",
 	"fax": "061-533634"
