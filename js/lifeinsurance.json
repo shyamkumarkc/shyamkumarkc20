@@ -2,11 +2,11 @@
   {
     "Sno": "1",
     "Name": "American Life Insurance Company Limited (MetLife)",
-    "Operation": "2058 B.S (2001 A.D)",
-	"HO" : "",
+    "Operation": "2058 B.S (2001/12/05 A.D)",
+	"HO": "",
     "NEPSE": "",
 	"Phone": "01-5970166",
-	"Email" : "",
+	"Email": "",
 	"IMG": "https://shyamkumarkc20.com.np/logo/MetLife.png",
     "Website": "www.metlife.com.np/en/"
   },
@@ -14,10 +14,10 @@
     "Sno": "2",
     "Name": "Asian Life Insurance Company Limited",
     "Operation": "2064 B.S (2008 A.D)",
-	"HO" : "Maitidevi, Kathmandu",
+	"HO": "Maitidevi, Kathmandu",
     "NEPSE": "ALICL",
 	"Phone": "01-4510115",
-	"Email" : "asianlife@asianlife.com.np",
+	"Email": "asianlife@asianlife.com.np",
 	"IMG": "https://shyamkumarkc20.com.np/logo/alicl.png",
     "Website": "www.asianlife.com.np/"
   },
@@ -41,7 +41,7 @@
 	"PO": "740",
 	"Fax": "",
 	"Phone": "01-4024071",
-	"Email" : "info@imelifeinsurance.com",
+	"Email": "info@imelifeinsurance.com",
 	"IMG": "https://shyamkumarkc20.com.np/logo/ili.png",
     "Website": "imelifeinsurance.com/"
   },
@@ -49,10 +49,10 @@
     "Sno": "5",
     "Name": "Surya Jyoti Life Insurance Company Limited",
     "Operation": "2079 B.S (2023 A.D)",
-	"HO" : "Shanta Plaza, Gyaneshwor",
+	"HO": "Shanta Plaza, Gyaneshwor",
     "NEPSE": "SJLIC",
 	"Phone": "014545941",
-	"Email" : "info@suryajyotilife.com",
+	"Email": "info@suryajyotilife.com",
 	"IMG": "https://shyamkumarkc20.com.np/logo/sjlic.png",
     "Website": "www.suryajyotilife.com/"
   },
@@ -65,7 +65,7 @@
 	"PO": "21905",
 	"Fax": "01-4012615",
 	"Phone": "01-4012613",
-	"Email" : "liccorporate@licnepal.com.np",
+	"Email": "liccorporate@licnepal.com.np",
 	"IMG": "https://shyamkumarkc20.com.np/logo/licn.png",
     "Website": "www.licnepal.com.np/"
   },
@@ -78,7 +78,7 @@
 	"PO": "",
 	"Fax": "05362497",
 	"Phone": "05352012",
-	"Email" : "info@pmlil.com",
+	"Email": "info@pmlil.com",
 	"IMG": "https://shyamkumarkc20.com.np/logo/pmli.jpg",
     "Website": "www.pmlil.com/"
   },
@@ -91,7 +91,7 @@
 	"PO": "4332",
 	"Fax": "01-4535633",
 	"Phone": "01-4514799",
-	"Email" : "nlgilife@mail.com.np",
+	"Email": "nlgilife@mail.com.np",
 	"IMG": "https://shyamkumarkc20.com.np/logo/nlicl.jpg",
     "Website": "www.nationallife.com.np/"
   },
@@ -131,8 +131,8 @@
 	"HO": "Ramshahpath, Kathmandu",
 	"PO": "",
 	"Fax": "",
-	"Phone" :"01-4262520",
-    "Email" : "info@rbs.gov.np",
+	"Phone":"01-4262520",
+    "Email": "info@rbs.gov.np",
 	"IMG": "https://shyamkumarkc20.com.np/logo/rbs.png",
 	"Website": "www.rbs.gov.np/"
   },
@@ -146,7 +146,7 @@
 	"PO": "",
 	"Fax": "",
 	"Phone": "01-4523618",
-	"Email" : "info@reliablelife.com.np",
+	"Email": "info@reliablelife.com.np",
 	"IMG": "https://shyamkumarkc20.com.np/logo/rnli.png",
     "Website": "www.reliablelife.com.np/"
   },
@@ -168,11 +168,11 @@
     "Name": "Sun Nepal Life Insurance Limited",
     "Operation": "2074 B.S (2017 A.D)",
     "NEPSE": "SNLI",
-	"HO": "New PLaza,Kathmandu",
+	"HO": "New PLaza, Kathmandu",
 	"PO": "",
 	"Fax": "",
 	"Phone": "01-4536126",
-	"Email" : "info@snlic.com",
+	"Email": "info@snlic.com",
 	"IMG": "https://shyamkumarkc20.com.np/logo/snli.png",
     "Website": "www.sunlife.com.np/"
   }
