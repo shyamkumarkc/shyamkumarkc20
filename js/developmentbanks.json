@@ -6,6 +6,7 @@
 	  "class": "B",
     "Name": "Mahalaxmi Bikas Bank Limited",
 	"ODAD": "2017-07-02",
+	  "ODBS": "",
 	"HO": "Durbarmarg, Kathmandu",
 	"NEPSE": "MLBL",
 	"Swift": "",
@@ -13,7 +14,7 @@
 	"links": "https://shyamkumarkc20.com.np/nepalbank.html",
 	"IMG": "https://shyamkumarkc20.com.np/logo/mlbl.png",
 	"TOLL": "16600115015",
-	"phone": "01- 5368719",
+	"phone1": "01- 5368719",
 	"email": "info@mahalaxmibank.com.np",
 	"pobox": "0",
 	"fax": "01-4269308"
@@ -26,6 +27,7 @@
 	  "class": "B",
     "Name": "Narayani Development Bank Limited",
 	"ODAD": "2001-10-17",
+	  "ODBS": "",
 	"HO": "Tandi, Chitwan",
 	"NEPSE": "NABBC",
 	"Swift": "",
@@ -33,7 +35,7 @@
 	"links": "https://shyamkumarkc20.com.np/nepalbank.html",
 	"IMG": "https://shyamkumarkc20.com.np/logo/nabbc.png",
 	"TOLL": "0",
-	"phone": "+977-56-560608 / +977-56-561258",
+	"phone1": "+977-56-560608 / +977-56-561258",
 	"email": "0",
 	"pobox": "0"
 	
@@ -45,6 +47,7 @@
 	  "class": "B",
     "Name": "Sangrila Development Bank Limited",
 	"ODAD": "2061 BS",
+	  "ODBS": "",
 	"HO": "Baluwatar,Kathmandu",
 	"NEPSE": "SADBL",
 	"Swift": "",
@@ -52,7 +55,7 @@
 	"links": "https://shyamkumarkc20.com.np/nepalbank.html",
 	"IMG": "https://shyamkumarkc20.com.np/logo/sadbl.png",
 	"TOLL": "18105000052",
-	"phone": "01-5970052 ",
+	"phone1": "01-5970052 ",
 	"email": "info@shangrilabank.com",
 	"pobox": "0"
 	
@@ -64,6 +67,7 @@
 	  "class": "B",
     "Name": "Excel Development Bank Limited",
 	"ODAD": "2005-07-21",
+	  "ODBS": "",
 	"HO": "Birtamode",
 	"NEPSE": "EDBL",
 	"Swift": "",
@@ -71,7 +75,7 @@
 	"links": "https://shyamkumarkc20.com.np/nepalbank.html",
 	"IMG": "https://shyamkumarkc20.com.np/logo/edbl.jpg",
 	"TOLL": "0",
-	"phone": "023-533563/64 023-534010",
+	"phone1": "023-533563/64 023-534010",
 	"email": "info@edb.com.np",
 	"pobox": "0"
 	
@@ -83,6 +87,7 @@
 	  "class": "B",
     "Name": "Miteri Development Bank Limited",
 	"ODAD": "2006-10-13",
+	  "ODBS": "",
 	"HO": "Mahendrapath, Dharan",
 	"NEPSE": "MDB",
 	"Swift": "",
@@ -90,7 +95,7 @@
 	"links": "https://shyamkumarkc20.com.np/nepalbank.html",
 	"IMG": "https://shyamkumarkc20.com.np/logo/mdb.png",
 	"TOLL": "0",
-	"phone": "+977-025-536317, 025-538317",
+	"phone1": "+977-025-536317, 025-538317",
 	"email": "info@miteribank.com.np",
 	"pobox": "0"
 	
@@ -102,6 +107,7 @@
 	  "class": "B",
     "Name": "Muktinath Bikas Bank Limited",
 	"ODAD": "2007-01-03",
+	  "ODBS": "",
 	"HO": "Hattisar, Kathmandu",
 	"NEPSE": "MNBBL",
 	"Swift": "",
@@ -109,7 +115,7 @@
 	"links": "https://shyamkumarkc20.com.np/nepalbank.html",
 	"IMG": "https://shyamkumarkc20.com.np/logo/mnbbl.jpg",
 	"TOLL": "16600149999",
-	"phone": "01-4537324, 4538714",
+	"phone1": "01-4537324, 4538714",
 	"email": "info@muktinathbank.com.np",
 	"pobox": "0"
 	
@@ -121,6 +127,7 @@
 	  "class": "B",
     "Name": "Karnali Bikas Bank Limited",
 	"ODAD": "2004-02-18",
+	  "ODBS": "",
 	"HO": "Nepalgunj, Banke",
 	"NEPSE": "KRBL",
 	"Swift": "",
@@ -128,18 +135,19 @@
 	"links": "https://shyamkumarkc20.com.np/nepalbank.html",
 	"IMG": "https://shyamkumarkc20.com.np/logo/krbl.jpg",
 	"TOLL": "0",
-	"phone": "081-415040/415074",
+	"phone1": "081-415040/415074",
 	"email": "info@kdblnepal.com",
 	"pobox": "0"
 	
   },
 	{
     "SNO": 8,
-	  "Code" : "6601",
-	"Casba" : "Rs. 5",
+	  "Code": "6601",
+	"Casba": "Rs. 5",
 	  "class": "B",
     "Name": "Garima Bikas Bank Limited",
 	"ODAD": "2021-11-14",
+	  "ODBS": "",
 	"HO": "Kathmandu 02, Lazimpat",
 	"NEPSE": "GBBL",
 	"Swift": "",
@@ -147,7 +155,7 @@
 	"links": "https://shyamkumarkc20.com.np/nepalbank.html",
 	"IMG": "https://shyamkumarkc20.com.np/logo/gbbl.jpg",
 	"TOLL": "16600145444",
-	"phone": "01-5970179",
+	"phone1": "01-5970179",
 	"email": "info@garimabank.com.np",
 	"pobox": "0"
 	
@@ -159,6 +167,7 @@
 	  "class": "B",
     "Name": "Kamana Sewa Bikas Bank Limited",
 	"ODAD": "2017-08-04",
+	  "ODBS": "",
 	"HO": "Gyaneshwor, Aanand Bhairab Marg",
 	"NEPSE": "KSBBL",
 	"Swift": "",
@@ -166,7 +175,7 @@
 	"links": "https://shyamkumarkc20.com.np/nepalbank.html",
 	"IMG": "https://shyamkumarkc20.com.np/logo/ksbbl.jpg",
 	"TOLL": "16600113000",
-	"phone": "01-5970030",
+	"phone1": "01-5970030",
 	"email": "customercare@kamanasewabank.com",
 	"pobox": "0"
 	
@@ -178,6 +187,7 @@
 	  "class": "B",
     "Name": "Corporate Development Bank Limited",
 	"ODAD": "2007-11-07",
+	  "ODBS": "",
 	"HO": "Birgunj, Parsa",
 	"NEPSE": "CORBL",
 	"Swift": "",
@@ -185,7 +195,7 @@
 	"links": "https://shyamkumarkc20.com.np/nepalbank.html",
 	"IMG": "https://shyamkumarkc20.com.np/logo/corbl.jpg",
 	"TOLL": "0",
-	"phone": "051-531031",
+	"phone1": "051-531031",
 	"email": " info@corporatebank.com.np",
 	"pobox": "0",
 	"fax": "051-527843"
@@ -198,6 +208,7 @@
 	  "class": "B",
     "Name": "Jyoti Bikas Bank Limited",
 	"ODAD": "2016-08-12",
+	  "ODBS": "",
 	"HO": "KamalPokhari Kathmandu",
 	"NEPSE": "JBBL",
 	"Swift": "",
@@ -205,7 +216,7 @@
 	"links": "https://shyamkumarkc20.com.np/nepalbank.html",
 	"IMG": "https://shyamkumarkc20.com.np/logo/jbbl.jpg",
 	"TOLL": "0",
-	"phone": "01 5970306 /307",
+	"phone1": "01 5970306 /307",
 	"email": "info@jbbl.com.np",
 	"pobox": "6518"
 	
@@ -217,6 +228,7 @@
 	  "class": "B",
     "Name": "Shine Resunga Development Bank Limited",
 	"ODAD": "2013-03-17",
+	  "ODBS": "",
 	"HO": "Butwal, Rupandehi",
 	"NEPSE": "SHINE",
 	"Swift": "",
@@ -224,7 +236,7 @@
 	"links": "https://shyamkumarkc20.com.np/nepalbank.html",
 	"IMG": "https://shyamkumarkc20.com.np/logo/shine.png",
 	"TOLL": "16607152010",
-	"phone": "071- 415502 / 415503",
+	"phone1": "071- 415502 / 415503",
 	"email": "info@srdb.com.np",
 	"pobox": "0"
 	
@@ -236,6 +248,7 @@
 	  "class": "B",
     "Name": "Lumbini Bikas Bank Limited",
 	"ODAD": "2017-07-09",
+	  "ODBS": "",
 	"HO": "Dilibazar, Kathmandu",
 	"NEPSE": "LBBL",
 	"Swift": "",
@@ -243,7 +256,7 @@
 	"links": "https://shyamkumarkc20.com.np/nepalbank.html",
 	"IMG": "https://shyamkumarkc20.com.np/logo/lbbl.jpg",
 	"TOLL": "0",
-	"phone": "01-4513232/4521696; 5970369 ,",
+	"phone1": "01-4513232/4521696; 5970369 ,",
 	"email": "info@lumbinibikasbank.com",
 	"pobox": "20700",
 	"fax": "01-4513526"
@@ -255,7 +268,8 @@
 	"Casba": "",
 	  "class": "B",
     "Name": "Sindhu Bikas Bank Limited",
-	"ODAD": "2067-05-24 (2010-09-09)",
+	"ODAD": "2010-09-09",
+	  "ODBS": "2067-05-24",
 	"HO": "Barhabise Bazar, Barhabise",
 	"NEPSE": "SINDHU",
 	"Swift": "",
@@ -263,7 +277,7 @@
 	"links": "https://shyamkumarkc20.com.np/nepalbank.html",
 	"IMG": "https://shyamkumarkc20.com.np/logo/sindhu.png",
 	"TOLL": "0",
-	"phone": "011-662340 011-662341",
+	"phone1": "011-662340 011-662341",
 	"email": "info@sindhubank.com.np",
 	"pobox": "0"
 	
@@ -274,7 +288,8 @@
 	"Casba" : "",
 	  "class": "B",
     "Name": "Salapa Bikash Bank Limited",
-	"ODAD": "2069/04/01",
+	"ODAD": "",
+	  "ODBS": "2069/04/01",
 	"HO": "Diktel, Khotang",
 	"NEPSE": "",
 	"Swift": "",
@@ -282,7 +297,7 @@
 	"links": "https://shyamkumarkc20.com.np/nepalbank.html",
 	"IMG": "https://shyamkumarkc20.com.np/logo/salapa.png",
 	"TOLL": "0",
-	"phone": "036420457 / 036420638 / 036420639",
+	"phone1": "036420457 / 036420638 / 036420639",
 	"email": "info@salapabikasbank.com.np",
 	"pobox": "0"
 	
@@ -294,6 +309,7 @@
 	  "class": "B",
     "Name": "Saptakoshi Development Bank Limited",
 	"ODAD": "2019-07-07",
+	  "ODBS": "",
 	"HO": "Biratnagar, Morang",
 	"NEPSE": "SAPDBL",
 	"Swift": "",
@@ -301,7 +317,7 @@
 	"links": "https://shyamkumarkc20.com.np/nepalbank.html",
 	"IMG": "https://shyamkumarkc20.com.np/logo/sapdbl.png",
 	"TOLL": "0",
-	"phone": "021-518135/37",
+	"phone1": "021-518135/37",
 	"email": "info@skdbl.com.np",
 	"pobox": "0"
 	
@@ -313,6 +329,7 @@
 	  "class": "B",
     "Name": "Green Development Bank Limited",
 	"ODAD": "2013-08-25",
+	  "ODBS": "",
 	"HO": "Pokhara, Kaski ",
 	"NEPSE": "GRDBL",
 	"Swift": " ",
@@ -320,7 +337,7 @@
 	"links": "https://shyamkumarkc20.com.np/nepalbank.html",
 	"IMG": "https://shyamkumarkc20.com.np/logo/grdbl.png",
 	"TOLL": "0",
-	"phone": "061-533590",
+	"phone1": "061-533590",
 	"email": "info@greenbank.com.np",
 	"pobox": "0",
 	"fax": "061-533634"
