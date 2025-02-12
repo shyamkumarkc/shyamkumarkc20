@@ -16,22 +16,25 @@
 <body>
     <div id="header"></div>
     <h1>Himalayan Reinsurance Company Limited</h1>
-  <p>
-    Himalayan Re is the first private sector reinsurance company established in the Republic of Nepal. The company would offer Reinsurance support to Life
-    and General Insurance Companies in Nepal and overseas.
-</p>
+  <div id="desc" class="bank-container"></div>
 <h4>
     Capital Structure:
 </h4>
-<p>
-    Authorized Capital: NPR 21 Billions (USD 175 Millions approx)
-<br/>
 
-    Issued Capital: NPR 10 Billions (USD 85 Millions approx)
-<br/>
+<table border="black"><tr>
+<td>Authorized Capital:</td>
+     <td id="AC" class="bank-container"> </td> </tr> <tr>
 
-    Paid up Capital: NPR 7 Billions (USD 60 Millions approx)
-</p>
+
+    <td>Issued Capital:</td>
+     <td id="IC" class="bank-container"> </td> </tr>
+     <tr>
+     <td> Paid up Capital:</td>
+     <td id="PC" class="bank-container"> </td> </tr>
+
+   
+   
+</table>
    
    
     <h2>Himalayan Reinsurance Company Limited</h2>
@@ -65,9 +68,11 @@
                         <p><strong>Email:</strong> <a href="mailto:${globalBank.email}">${globalBank.email}</a></p>
                         <p><strong>Website:</strong> <a href="https://${globalBank.Website}" target="_blank">${globalBank.Website}</a></p>
                     `;
-                    
-                  
+                   document.getElementById('AC').innerHTML = `<p>${globalBank.AuthorizedCapital}</p>`;
+                   document.getElementById('IC').innerHTML = `<p>${globalBank.IssuedCapital}</p>`; 
+                  document.getElementById('PC').innerHTML = `<p>${globalBank.PaidupCapital}</p>`;
                     document.getElementById('subInfo').innerHTML = `<p>${globalBank.subsidiaries}</p>`;
+                     document.getElementById('desc').innerHTML = `<p>${globalBank.desc}</p>`;
                 } else {
                     document.getElementById('bankInfo').innerHTML = '<p>Global IME Bank Limited data not found.</p>';
                     document.getElementById('subInfo').innerHTML = '<p>Global IME Bank Limited subsidiaries data not found.</p>';
