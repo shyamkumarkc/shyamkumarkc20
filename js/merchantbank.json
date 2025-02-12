@@ -9,7 +9,7 @@
 "Website": "www.aakashcapital.com.np/",
 "logo":"",
 "ODAD":"",
-"ODBS":"2074/09/26 BS",
+"ODBS": "2074/09/26 BS",
 "license": "41",
 "Services":"Portfolio Management",
 "Capital": ""
@@ -17,13 +17,13 @@
 {
 "SNo": "2",
 "Name": "Arks Capital Advisors Limited",
-"HO": "Thapathali , Kathmandu",
+"HO": "Thapathali, Kathmandu",
 "phone": "015911676",
 "phone1": "985140021",
 "email": "info@arkscapitaladvisors.com.np",
 "Website": "www.arkscapitaladvisors.com/",
 "logo":"",
-"ODAD":"2017 AD",
+"ODAD": "2017 AD",
 "ODBS":"",
 "license": "43",
 "Services":"Portfolio Management",
@@ -56,7 +56,7 @@
 "ODAD":"",
 "ODBS":"",
 "license": "08",
-"Services":"Issue Management, Share Registration, Underwriting",
+"Services": "Issue Management, Share Registration, Underwriting",
 "Capital": ""
 },
 {
@@ -68,10 +68,10 @@
 "email": "info@citizenscapital.com.np",
 "Website": "www.citizenscapital.com.np/",
 "logo":"",
-"ODAD":"2007 AD",
+"ODAD": "2007 AD",
 "ODBS":"",
 "license": "34",
-"Services":"Issue Management, Share Registration, Underwriting, Portfolio Management",
+"Services": "Issue Management, Share Registration, Underwriting, Portfolio Management",
 "Capital": ""
 },
 {
@@ -116,7 +116,7 @@
 "ODAD":"2008 AD",
 "ODBS":"",
 "license": "09",
-"Services":"Issue Management, Share Registration, Underwriting, Portfolio Management, Corporate Advisory",
+"Services": "Issue Management, Share Registration, Underwriting, Portfolio Management, Corporate Advisory",
 "Capital": ""
 },
 {
@@ -146,7 +146,7 @@
 "ODAD":"",
 "ODBS":"",
 "license": "",
-"Services":"Issue Management, Share Registration, Underwriting, Portfolio Management, Corporate Advisory",
+"Services": "Issue Management, Share Registration, Underwriting, Portfolio Management, Corporate Advisory",
 "Capital": ""
 },
 {
@@ -156,12 +156,12 @@
 "phone": "015920341",
 "phone1": "015920342",
 "email": "info@himalayaninvest.com",
-"Website": "www.himalayaninvest.com/",
+"Website": "himalayaninvest.com/",
 "logo":"",
 "ODAD":"",
-"ODBS":"2081/07/08 BS",
+"ODBS": "2081/07/08 BS",
 "license": "",
-"Services":"Underwriting, Portfolio Management, Corporate Advisory",
+"Services": "Underwriting, Portfolio Management, Corporate Advisory",
 "Capital": ""
 },
 {
