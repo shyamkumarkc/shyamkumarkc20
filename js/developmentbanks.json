@@ -57,7 +57,7 @@
 	"links": "",
 	"IMG": "https://shyamkumarkc20.com.np/logo/sadbl.png",
 	"TOLL": "18105000052",
-	"phone1": "01-5970052 ",
+	"phone1": "01-5970052",
 	  "phone2": "",
 	"email": "info@shangrilabank.com",
 	"pobox": "0"
@@ -107,8 +107,8 @@
   },
   {
     "SNO": 6,
-	  "Code" : "7201",
-	"Casba" : "Rs. 5",
+	  "Code": "7201",
+	"Casba": "Rs. 5",
 	  "class": "B",
     "Name": "Muktinath Bikas Bank Limited",
 	"ODAD": "2007-01-03",
@@ -142,7 +142,7 @@
 	"IMG": "https://shyamkumarkc20.com.np/logo/krbl.jpg",
 	"TOLL": "0",
 	"phone1": "081-415040",
-	"phone2": "01415074"
+	"phone2": "01415074",
 	"email": "info@kdblnepal.com",
 	"pobox": "0"
 	
@@ -163,14 +163,15 @@
 	"IMG": "https://shyamkumarkc20.com.np/logo/gbbl.jpg",
 	"TOLL": "16600145444",
 	"phone1": "01-5970179",
+		"phone2": "",
 	"email": "info@garimabank.com.np",
 	"pobox": "0"
 	
   },
 	{
     "SNO": 9,
-	  "Code" : "6801",
-	"Casba" : "",
+	  "Code": "6801",
+	"Casba": "",
 	  "class": "B",
     "Name": "Kamana Sewa Bikas Bank Limited",
 	"ODAD": "2017-08-04",
@@ -247,7 +248,7 @@
 	"IMG": "https://shyamkumarkc20.com.np/logo/shine.png",
 	"TOLL": "16607152010",
 	"phone1": "071- 415502",
-	"phone2": "071415503"
+	"phone2": "071415503",
 	"email": "info@srdb.com.np",
 	"pobox": "0"
 	
