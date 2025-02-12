@@ -10,7 +10,7 @@
 	  "TOLL":"16600155555",
 	"IMG": "https://shyamkumarkc20.com.np/logo/MetLife.png",
     "Website": "www.metlife.com.np/en/"
-  },
+	   },
   {
     "Sno": "2",
     "Name": "Asian Life Insurance Company Limited",
@@ -109,7 +109,9 @@
 	"Email" : "customer.service@nepallife.com.np",
 	"IMG": "https://shyamkumarkc20.com.np/logo/nlic.jpg",
     "Website": "www.nepallife.com.np/en/home",
-	  "subsidiaries": "a. Nepal Life Capital"
+	  "subsidiaries": "a. Nepal Life Capital",
+	  "desc": "Nepal Life, established under the Company Act 2053 and Insurance Act 2049 as a public limited company on 2058/01/21 (04/05/2001). Nepal Life is the foremost life insurance company established by private investors. The promoters of the company are a group of well known businessmen and business houses of Nepal. In more than two decades of operation, the Company has set up an excellent business record and has a strong financial position. "
+ 
   },
   
   {
