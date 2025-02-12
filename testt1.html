@@ -27,11 +27,11 @@
 
     <table id="dataTable">
         <thead>
-            <tr>
+            <tr> <th>Class</th>
                 <th>Name</th>
                 <th>HO</th>
                 <th>Operation<br/>Date</th>
-                <th>Class</th>
+               
                 <th>Marks</th>
             </tr>
         </thead>
@@ -73,10 +73,11 @@
             data.filter(student => student.class === selectedClass).forEach(student => {
                 const row = tableBody.insertRow();
                 row.innerHTML = `
+                    <td>${student.class}</td>
                     <td>${student.Name}</td>
                     <td>${student.HO}</td>
                      <td>${student.ODAD}<br/>${student.ODAD}</td>
-                    <td>${student.class}</td>
+                   
                     <td>${student.marks}</td>
                 `;
             });
