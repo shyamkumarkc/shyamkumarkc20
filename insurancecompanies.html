@@ -19,7 +19,7 @@ $('#header').load('/assets/header.html');
 &nbsp;</div><div>B. Non-Life/General Insurance&nbsp;
 </div><div>C. Reinsurance</div><div>&nbsp;19 life insurance, 20 non-life or general insurance and 1 reinsurance companies are operating in Nepal.&nbsp;</div><h3>List of Life Insurance Companies In Nepal</h3>
 
-There are currently 19 life insurance companies in Nepal. The list of the life insurance companies is shown below:
+There are currently 19 <a href= "/lifeinsurance">life insurance companies in Nepal</a>. The list of the life insurance companies is shown below:
 	<table>
 
       
@@ -170,21 +170,9 @@ So far, there is only two reinsurance company in Nepal.&nbsp;<div>
         regulations in Nepal
     </li>
 </ul>
-<table border="black" style="width: 100%;">
+<table>
 
-      <thead>
-         <tr>
-            <th>S No</th>
-            <th>Company Name</th>
-            <th>Logo</th>
-            <th>Operation Date</th>
-		 <th>Location </th>
-            <th>NEPSE</th>
-			<th>Phone</th>
-			<th>Email</th>
-		
-         </tr>
-      </thead>
+      
       <tbody id="data-output2">
          <!-- Prodcuts from javascript file in here. -->
       </tbody>
@@ -205,13 +193,7 @@ So far, there is only two reinsurance company in Nepal.&nbsp;<div>
             <td>${product.Sno}</td>
 			
             <td><a href ="https://${product.Website}"target="blank">${product.Name}</a></td>
-	     <td><img src="${product.IMG}" width="100" height="100" ></td>
-			<td>${product.Operation}</td>
-			<td>${product.HO}</td>
-			<td><a href ="${product.neps}"target="blank">${product.NEPSE}</a></td>
-			
-            <td><a href ="tel:${product.Phone}">${product.Phone}</a></td>
-            <td><a href ="mailto:${product.Email}">${product.Email}</a></td>
+	     
             
          </tr>
       `;
