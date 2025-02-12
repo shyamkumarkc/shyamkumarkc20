@@ -16,8 +16,7 @@
     <div id="header"></div>
     <h1>Himalayan RE</h1>
   <p>
-    Himalayan Re is the first private sector reinsurance company established in
-    the Republic of Nepal. The company would offer Reinsurance support to Life
+    Himalayan Re is the first private sector reinsurance company established in the Republic of Nepal. The company would offer Reinsurance support to Life
     and General Insurance Companies in Nepal and overseas.
 </p>
 <h4>
@@ -35,7 +34,7 @@
    
     
     <h2>Merged BFIs</h2>
-     <div id="subInfo1" class="bank-container"></div>
+     <div id="bankInfo" class="bank-container"></div>
     <h2>Subsidiary Companies</h2>
     <div id="subInfo" class="bank-container"></div>
     
@@ -50,6 +49,7 @@
                 const himalayanRe = banks.find(bank => bank.Name === "Himalayan Reinsurance Company Limited");
                 
                 if (himalayanRe) {
+                    
                     document.getElementById('bankInfo').innerHTML = `
                         <img src="${himalayanRe.IMG}" alt="Himalayan Reinsurance Company Limited Logo" class="bank-logo">
                         <p><strong>Name:</strong> ${himalayanRe.Name}</p>
