@@ -28,10 +28,16 @@
     <table id="dataTable">
         <thead>
             <tr> <th>Class</th>
-                <th>Name</th>
-                <th>Logo</th>
-                <th>Head Office</th>
-                <th>Operation<br/>Date</th>
+                <th>BFI Name</th>
+                <th>BFI<br/>Logo</th>
+<th>Operation<br/>Date</th>
+<th>Head<br/>Office</th>
+
+<th>NEPSE<br/>Code</th>
+<th>SWIFT <br/>Code</th>
+	<th>Toll<br/>Free</th>
+<th>Phone<br/>Number</th>	
+	<th>Email<br/>Address</th>
                
                 <th>Marks</th>
             </tr>
@@ -54,7 +60,7 @@
         });
 
         function populateClassDropdown(data) {
-            const classSet = new Set(data.map(student => student.class));
+            const classSet = new Set(data.map(product => product.class));
             const select = document.getElementById('classSelect');
 
             classSet.forEach(cls => {
@@ -71,16 +77,19 @@
 
             tableBody.innerHTML = ""; // Clear previous data
 
-            data.filter(student => student.class === selectedClass).forEach(student => {
+            data.filter(product => product.class === selectedClass).forEach(product => {
                 const row = tableBody.insertRow();
                 row.innerHTML = `
-                    <td>${student.class}</td>
-                    <td>${student.Name}</td>
-                    <td><img src="${student.IMG}" width="120" height="100" ></td>
-                    <td>${student.HO}</td>
-                     <td>${student.ODAD}<br/>${student.ODAD}</td>
-                   
-                    <td>${student.marks}</td>
+                     <td><a href ="https://${product.Website}"target="blank">${product.Name}</a></td>
+	    <td><img src="${product.IMG}" width="120" height="100" ></td>
+			<td>${product.ODAD} <br>${product.ODBS}</td>
+			<td>${product.HO}</td>
+			<td>${product.NEPSE}</td>
+			
+  			 <td><a href="tel:${product.TOLL}">${product.TOLL}</a></td>
+ 			  <td><a href="tel:${product.phone1}">${product.phone1}</a><br/><a href="tel:${product.phone2}">${product.phone2}</a></td>
+      <td><a href="mailto:${product.email}">${product.email}</a></td>
+           
                 `;
             });
         }
