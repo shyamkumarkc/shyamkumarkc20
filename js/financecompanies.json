@@ -14,6 +14,7 @@
 	"IMG": "https://shyamkumarkc20.com.np/logo/bfc.png",
 	"TOLL": "0",
 	"phone1": "01-4542460",
+	  "phone2": "",
 	"email": "info@bestfinance.com.np",
 	"pobox": "0"
 	
@@ -33,6 +34,7 @@
 	"IMG": "https://shyamkumarkc20.com.np/logo/cmbfl.png",
 	"TOLL": "0",
 	"phone1": "01-4471458",
+	  "phone2": "",
 	"email": "info@cmbfl.com.np",
 	"pobox": "0"
 	
@@ -52,6 +54,7 @@
 	"IMG": "https://shyamkumarkc20.com.np/logo/cfcl.png",
 	"TOLL": "0",
 	"phone1": "01-5970005",
+	  "phone2": "",
 	"email": "info@centralfinance.com.np",
 	"pobox": "0"
 	
@@ -70,7 +73,8 @@
 	"links": "https://shyamkumarkc20.com.np/0",
 	"IMG": "https://shyamkumarkc20.com.np/logo/gufl.png",
 	"TOLL": "0",
-	"phone1": "014537401, 014529060",
+	"phone1": "014537401",
+	  "phone2": "014529060",
 	"email": "info@gurkhasfinance.com.np",
 	"pobox": "0"
 	
@@ -90,6 +94,7 @@
 	"IMG": "https://shyamkumarkc20.com.np/logo/gfcl.png",
 	"TOLL": "0",
 	"phone1": "04544039",
+	  "phone2": "",
 	"email": "info@goodwill.net.np",
 	"pobox": "8867",
 	"fax": "04543414"
@@ -109,7 +114,8 @@
 	"links": "https://shyamkumarkc20.com.np/0",
 	"IMG": "https://shyamkumarkc20.com.np/logo/gmfil.jpg",
 	"TOLL": "0",
-	"phone1": "01-5437407,01-5450406",
+	"phone1": "01-5437407",
+	  "phone2": "01-5450406",
 	"email": "gmbf@gmbf.com.np",
 	"pobox": "0"
 	
@@ -128,6 +134,7 @@
 	"IMG": "https://shyamkumarkc20.com.np/logo/icfc.png",
 	"TOLL": "0",
 	"phone1": "01-4525292",
+	  "phone2": "",
 	"email": "info@icfcbank.com",
 	"pobox": "0"
 	
@@ -145,7 +152,8 @@
 	"links": "https://shyamkumarkc20.com.np/0",
 	"IMG": "https://shyamkumarkc20.com.np/logo/jfl.png",
 	"TOLL": "0",
-	"phone1": "041-590586, 041-590587",
+	"phone1": "041-590586",
+	  "phone2": "041-590587",
 	"email": "info@jfcjanakpur.com",
 	"pobox": "0"
 	
@@ -163,7 +171,8 @@
 	"links": "https://shyamkumarkc20.com.np/0",
 	"IMG": "https://shyamkumarkc20.com.np/logo/mfil.png",
 	"TOLL": "0",
-	"phone1": "014792517",
+	"phone1": "014792517",	  
+	  "phone2": "",
 	"email": "info@manjushreefinance.com.np",
 	"pobox": "23170"
 	
@@ -182,6 +191,7 @@
 	"IMG": "https://shyamkumarkc20.com.np/logo/mpfl.jpg",
 	"TOLL": "0",
 	"phone1": "041-591170",
+	  "phone2": "",
 	"email": "info@multipurposefinance.com",
 	"pobox": "0"
 	
@@ -200,6 +210,7 @@
 	"IMG": "https://shyamkumarkc20.com.np/logo/nfs.jpg",
 	"TOLL": "0",
 	"phone1": "015912196",
+	  "phone2": "",
 	"email": "info@nepalfinance.com.np",
 	"pobox": "6867"
 	
@@ -217,7 +228,8 @@
 	"links": "https://shyamkumarkc20.com.np/0",
 	"IMG": "https://shyamkumarkc20.com.np/logo/nsm.jpg",
 	"TOLL": "0",
-	"phone1": "0",
+	"phone1": "",	  
+	  "phone2": "",
 	"email": "0",
 	"pobox": "0"
 	
@@ -237,6 +249,7 @@
 	"TOLL": "0",
 	    "class": "C",
 	"phone1": "01-4982595",
+	  "phone2": "",
 	"email": "info@pokharafinance.com.np",
 	"pobox": "0"
 	
@@ -255,9 +268,10 @@
 	"IMG": "https://shyamkumarkc20.com.np/logo/profl.png",
 	"TOLL": "0",
 	"phone1": "01-5199667",
+	  "phone2": "",
 	"email": "info@pfltd.com.np",
 	"pobox": "10390",
-	"Fax" : "01-5199668"
+	"Fax": "01-5199668"
 	
   },{
     "SNO": 15,
@@ -274,6 +288,7 @@
 	"IMG": "https://shyamkumarkc20.com.np/logo/rlfl.png",
 	"TOLL": "0",
 	"phone1": "01–5361104",
+	  "phone2": "",
 	"email": "info@reliancenepal.com.np",
 	"pobox": "20136"
 	
@@ -293,6 +308,7 @@
 	"IMG": "https://shyamkumarkc20.com.np/logo/sfcl.png",
 	"TOLL": "0",
 	"phone1": "057-525100",
+	  "phone2": "",
 	"email": "info@sfcl.com.np",
 	"pobox": "0"
 	
@@ -312,6 +328,7 @@
 	"IMG": "https://shyamkumarkc20.com.np/logo/sifc.jpg",
 	"TOLL": "0",
 	"phone1": "01-4521779",
+	  "phone2": "",
 	"fax": "01-4521779",
 	"email": "info@shreefinance.com.np",
 	"pobox": "10717"
