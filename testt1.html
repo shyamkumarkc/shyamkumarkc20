@@ -39,7 +39,7 @@
 <th>Phone<br/>Number</th>	
 	<th>Email<br/>Address</th>
                
-                <th>Marks</th>
+                
             </tr>
         </thead>
         <tbody></tbody>
@@ -80,6 +80,7 @@
             data.filter(product => product.class === selectedClass).forEach(product => {
                 const row = tableBody.insertRow();
                 row.innerHTML = `
+		<td>${product.class}</td>
                      <td><a href ="https://${product.Website}"target="blank">${product.Name}</a></td>
 	    <td><img src="${product.IMG}" width="120" height="100" ></td>
 			<td>${product.ODAD} <br>${product.ODBS}</td>
