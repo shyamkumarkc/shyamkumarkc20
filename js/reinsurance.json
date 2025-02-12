@@ -1,7 +1,7 @@
 [
   {
     "Sno": "1",
-    "Name": "Nepal Reinsurace Company Limited",
+    "Name": "Nepal Reinsurance Company Limited",
     "Operation": "2014 A.D ",
     "NEPSE": "NRIC",
 	"HO": "Thapathali, Kathmandu",
@@ -14,14 +14,14 @@
     "Website": "www.nepalre.com.np",
 	"neps":"https://nepalstock.com.np/company/detail/2881",
 	"AuthorizedCapital": "NPR 15 Billions",
-	"IssuedCapital" : "NPR 10 Billions",
-	"PaidupCapital" : "NPR 10 Billions"
+	"IssuedCapital": "NPR 10 Billions",
+	"PaidupCapital": "NPR 10 Billions"
 	
 	
   },
    {
     "Sno": "2",
-    "Name": "Himalayan Reinsurace Company Limited",
+    "Name": "Himalayan Reinsurance Company Limited",
     "Operation": "2021 A.D ",
     "NEPSE": "HRL",
 	
@@ -29,8 +29,8 @@
 	"PO": "",
 	"Fax": " ",
 	"Toll": " 0",
-	"Phone" :"014543432",
-    "Email" : "contactus@himalayanre.com",
+	"Phone" : "014543432",
+    "Email": "contactus@himalayanre.com",
 	"IMG": "https://shyamkumarkc20.com.np/logo/hrl.png",
     "Website": "himalayanre.com",
 	"neps": "https://nepalstock.com.np/company/detail/9234",
