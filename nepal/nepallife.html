@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Nepal Life Insurance Limited</title>
+    <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $('#header').load('/assets/header.html');
+            $('#footer').load('/assets/footer.html');
+            fetchBankData();
+        });
+    </script>
+</head><style>
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+</style>
+<body>
+    <div id="header"></div>
+    <h1>Nepal Life Insurance Limited</h1>
+  <div id="desc" class="bank-container"></div>
+
+   
+   
+    <h2>Nepal Life Insurance Limited</h2>
+    <div id="bankInfo" class="bank-container"></div>
+    
+    
+    <h2>Subsidiary Companies</h2>
+    <div id="subInfo" class="bank-container"></div>
+    
+    
+    <script>
+        async function fetchBankData() {
+            try {
+                const response = await fetch('https://shyamkumarkc20.com.np/js/lifeinsurance.json'); // Replace with actual API endpoint
+                const banks = await response.json();
+                
+                // Filter for Global IME Bank Limited
+                const globalBank = banks.find(bank => bank.Name === "Nepal Life Insurance Company Limited");
+                
+                if (globalBank) {
+                    document.getElementById('bankInfo').innerHTML = `
+                        <img src="${globalBank.IMG}" width= "300dp" alt="Himalayan Reinsurance Company Limited" class="bank-logo">
+                        <p><strong>Name:</strong> ${globalBank.Name}</p>
+                        <p><strong>Established:</strong> ${globalBank.Operation}</p>
+                        <p><strong>Head Office:</strong> ${globalBank.HO}</p>
+                        <p><strong>CEO:</strong> ${globalBank.ceo}</p>
+                        <p><strong>NEPSE Code:</strong> ${globalBank.NEPSE}</p>
+                        
+                        <p><strong>Phone:</strong> <a href="tel:${globalBank.Phone}">${globalBank.Phone}</a>  </p>
+                        <p><strong>Toll Free:</strong> <a href="tel:${globalBank.Toll}">${globalBank.Toll}</a></p>
+                        <p><strong>Email:</strong> <a href="mailto:${globalBank.Email}">${globalBank.Email}</a></p>
+                        <p><strong>Website:</strong> <a href="https://${globalBank.Website}" target="_blank">${globalBank.Website}</a></p>
+                    `;
+                   
+                    document.getElementById('subInfo').innerHTML = `<p>${globalBank.subsidiaries}</p>`;
+                     document.getElementById('desc').innerHTML = `<p>${globalBank.desc}</p>`;
+                } else {
+                    document.getElementById('bankInfo').innerHTML = '<p>Global IME Bank Limited data not found.</p>';
+                    document.getElementById('subInfo').innerHTML = '<p>Global IME Bank Limited subsidiaries data not found.</p>';
+                  document.getElementById('subInfo1').innerHTML = '<p>Global IME Bank Limited merger data not found.</p>';
+                }
+            } catch (error) {
+                console.error('Error fetching bank data:', error);
+                document.getElementById('bankInfo').innerHTML = '<p>Error loading bank details.</p>';
+                document.getElementById('subInfo').innerHTML = '<p>Error loading subsidiaries details.</p>';
+              document.getElementById('subInfo1').innerHTML = '<p>Error loading merger details.</p>';
+            }
+        }
+    </script>
+    
+    <div id="footer"></div>
+</body>
+</html>
