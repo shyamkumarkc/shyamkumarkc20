@@ -1,6 +1,7 @@
 [
   {
     "Sno": "1",
+	  "class": "nonlifeinsurance",
     "Name": "Himalayan Everest Insurance",
     "Operation": "2079 B.S (2022 A.D) ",
     "NEPSE": "HEI",
@@ -14,19 +15,21 @@
   },
   {
     "Sno": "2",
+	  "class": "nonlifeinsurance",
     "Name": "IGI Prudential Insurance Company Limited",
     "Operation": "2080 B.S (2023 A.D) ",
     "NEPSE": "IGI",
 	"HO": "Naxal, Kathmandu",
 	"PO": "",
 	"Fax": "01-4511736",
-	"Phone" :"01 4511520, 4511735, 4525508, 4525509",
-    "Email" : "info@igiprudential.com",
+	"Phone" : "01 4511520, 4511735, 4525508, 4525509",
+    "Email": "info@igiprudential.com",
 	"IMG": "https://shyamkumarkc20.com.np/logo/igi.png",
     "Website": "www.igiprudential.com "
   },
   {
     "Sno": "3",
+	  "class": "nonlifeinsurance",
     "Name": "National Insurance Co. Ltd.",
     "Operation": "2030 B.S (1974 A.D) ",
     "NEPSE": "NLICL",
@@ -40,6 +43,7 @@
   },
   {
     "Sno": "4",
+	  "class": "nonlifeinsurance",
     "Name": "NECO Insurance Company Limited",
     "Operation": "2051 B.S (1994 A.D)",
     "NEPSE": "NIL",
@@ -53,6 +57,7 @@
   },
   {
     "Sno": "5",
+	  "class": "nonlifeinsurance",
     "Name": "Nepal insurance Company Limited",
     "Operation": "2004 B.S (1947 A.D) ",
     "NEPSE": "NICL",
@@ -66,6 +71,7 @@
   },
   {
     "Sno": "6",
+	  "class": "nonlifeinsurance",
     "Name": "NLG Insurance Company Limited",
     "Operation": " 2054 B.S (1998 A.D)",
     "NEPSE": "NLG",
@@ -79,6 +85,7 @@
   },
   {
     "Sno": "7",
+	  "class": "nonlifeinsurance",
     "Name": "Prabhu Insurance Company Limited",
     "Operation": "2053 B.S (1996 A.D) ",
     "NEPSE": "PRIN",
@@ -93,6 +100,7 @@
   },
   {
     "Sno": "8",
+	  "class": "nonlifeinsurance",
     "Name": "Rastriya Beema Company Limited",
     "Operation": "2071 B.S (2015 A.D) ",
     "NEPSE": " RBCL",
@@ -106,6 +114,7 @@
   },
   {
     "Sno": "9",
+	  "class": "nonlifeinsurance",
     "Name": "Sagarmatha Lumbini Insurance Company Ltd.",
     "Operation": "2079 B.S (2023 A.D) ",
     "NEPSE": "SALICO",
@@ -121,6 +130,7 @@
   {
     
     "Sno": "10",
+	  "class": "nonlifeinsurance",
     "Name": "Sanima GIC Insurance Limited",
     "Operation": "2079 B.S (2022 A.D) ",
     "NEPSE": "SGIC",
@@ -135,6 +145,7 @@
   },
   {
     "Sno": "11",
+	  "class": "nonlifeinsurance",
     "Name": "Shikhar Insurance Company Limited",
     "Operation": "2061 B.S (2004 A.D) ",
     "NEPSE": "SICL",
@@ -148,6 +159,7 @@
   },
   {
     "Sno": "12",
+	  "class": "nonlifeinsurance",
     "Name": "Siddhartha Premier Insurance Limited",
     "Operation": "2079 B.S (2023 A.D) ",
     "NEPSE": "SPIL",
@@ -161,6 +173,7 @@
   },
   {
     "Sno": "13",
+	  "class": "nonlifeinsurance",
     "Name": "Oriental Insurance Company Limited",
     "Operation": "2012 B.S (1956 A.D)",
     "NEPSE": "",
@@ -174,6 +187,7 @@
   },
   {
     "Sno": "14",
+	  "class": "nonlifeinsurance",
     "Name": "United Ajod Insurance Limited",
     "Operation": "2080 B.S (2023 A.D) ",
     "NEPSE": "UAIL",
@@ -181,8 +195,8 @@
 	"PO": "",
 	"Fax": " 01 5344013",
 	"Toll": " 16600186496",
-	"Phone" :"01-5343072",
-    "Email" : "info@unitedajodinsurance.com",
+	"Phone":"01-5343072",
+    "Email": "info@unitedajodinsurance.com",
 	"IMG": "https://shyamkumarkc20.com.np/logo/uail.png",
     "Website": "www.unitedajodinsurance.com"
   }
