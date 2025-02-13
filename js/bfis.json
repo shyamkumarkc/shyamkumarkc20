@@ -922,6 +922,7 @@
 	    "class": "C",
     "Name": "Best Finance Limited",
 	"ODAD": "1995",
+	  "ODBS": "",
 	"HO": "Kamaladi, Kathmandu",
 	"NEPSE": "BFC",
 	"Swift": "",
@@ -930,6 +931,7 @@
 	"IMG": "https://shyamkumarkc20.com.np/logo/bfc.png",
 	"TOLL": "0",
 	"phone1": "01-4542460",
+	  "phone2": "",
 	"email": "info@bestfinance.com.np",
 	"pobox": "0"
 	
@@ -941,6 +943,7 @@
 	    "class": "C",
     "Name": "Capital Merchant Banking & Finance Limited",
 	"ODAD": "2002",
+	  "ODBS": "",
 	"HO": "Battisputali, Kathmandu",
 	"NEPSE": "",
 	"Swift": "",
@@ -949,6 +952,7 @@
 	"IMG": "https://shyamkumarkc20.com.np/logo/cmbfl.png",
 	"TOLL": "0",
 	"phone1": "01-4471458",
+	  "phone2": "",
 	"email": "info@cmbfl.com.np",
 	"pobox": "0"
 	
@@ -960,6 +964,7 @@
 	    "class": "C",
     "Name": "Central Finance Limited",
 	"ODAD": "1996",
+	  "ODBS": "",
 	"HO": "Kupondole, Lalitpur",
 	"NEPSE": "CFCL",
 	"Swift": "",
@@ -968,6 +973,7 @@
 	"IMG": "https://shyamkumarkc20.com.np/logo/cfcl.png",
 	"TOLL": "0",
 	"phone1": "01-5970005",
+	  "phone2": "",
 	"email": "info@centralfinance.com.np",
 	"pobox": "0"
 	
@@ -979,6 +985,7 @@
 	    "class": "C",
     "Name": "Gurkhas Finance Limited",
 	"ODAD": "1994",
+	  "ODBS": "",
 	"HO": "Dillibazar, Kathmandu",
 	"NEPSE": "GUFL",
 	"Swift": "",
@@ -986,7 +993,8 @@
 	"links": "https://shyamkumarkc20.com.np/0",
 	"IMG": "https://shyamkumarkc20.com.np/logo/gufl.png",
 	"TOLL": "0",
-	"phone1": "014537401, 014529060",
+	"phone1": "014537401",
+	  "phone2": "014529060",
 	"email": "info@gurkhasfinance.com.np",
 	"pobox": "0"
 	
@@ -998,6 +1006,7 @@
 	    "class": "C",
     "Name": "Goodwill Finance Limited",
 	"ODAD": "1995",
+	  "ODBS": "",
 	"HO": "Hattisar, Kathmandu",
 	"NEPSE": "GFCL",
 	"Swift": "",
@@ -1006,6 +1015,7 @@
 	"IMG": "https://shyamkumarkc20.com.np/logo/gfcl.png",
 	"TOLL": "0",
 	"phone1": "04544039",
+	  "phone2": "",
 	"email": "info@goodwill.net.np",
 	"pobox": "8867",
 	"fax": "04543414"
@@ -1018,6 +1028,7 @@
 	    "class": "C",
     "Name": "Guheshwori Merchant Banking & Finance Limited",
 	"ODAD": "2002",
+	  "ODBS": "",
 	"HO": "Pulchowk, Lalitpur",
 	"NEPSE": "GMFIL",
 	"Swift": "",
@@ -1025,7 +1036,8 @@
 	"links": "https://shyamkumarkc20.com.np/0",
 	"IMG": "https://shyamkumarkc20.com.np/logo/gmfil.jpg",
 	"TOLL": "0",
-	"phone1": "01-5437407,01-5450406",
+	"phone1": "01-5437407",
+	  "phone2": "01-5450406",
 	"email": "gmbf@gmbf.com.np",
 	"pobox": "0"
 	
@@ -1036,6 +1048,7 @@
 	    "class": "C",
     "Name": "ICFC Finance Limited",
 	"ODAD": "2004",
+	  "ODBS": "",
 	"HO": "Bhatbhateni, Kathmandu",
 	"NEPSE": "ICFC",
 	"Swift": "",
@@ -1044,6 +1057,7 @@
 	"IMG": "https://shyamkumarkc20.com.np/logo/icfc.png",
 	"TOLL": "0",
 	"phone1": "01-4525292",
+	  "phone2": "",
 	"email": "info@icfcbank.com",
 	"pobox": "0"
 	
@@ -1054,6 +1068,7 @@
 	    "class": "C",
     "Name": "Janaki Finance Limited",
 	"ODAD": "1997",
+	  "ODBS": "",
 	"HO": "Janakpurdham, Madhesh",
 	"NEPSE": "JFL",
 	"Swift": "",
@@ -1061,7 +1076,8 @@
 	"links": "https://shyamkumarkc20.com.np/0",
 	"IMG": "https://shyamkumarkc20.com.np/logo/jfl.png",
 	"TOLL": "0",
-	"phone1": "041-590586, 041-590587",
+	"phone1": "041-590586",
+	  "phone2": "041-590587",
 	"email": "info@jfcjanakpur.com",
 	"pobox": "0"
 	
@@ -1072,6 +1088,7 @@
 	    "class": "C",
     "Name": "Manjushree Finance Limited",
 	"ODAD": "2007",
+	  "ODBS": "",
 	"HO": "Nayabaneshwor, Kathmandu",
 	"NEPSE": "MFIL",
 	"Swift": "",
@@ -1079,7 +1096,8 @@
 	"links": "https://shyamkumarkc20.com.np/0",
 	"IMG": "https://shyamkumarkc20.com.np/logo/mfil.png",
 	"TOLL": "0",
-	"phone1": "014792517",
+	"phone1": "014792517",	  
+	  "phone2": "",
 	"email": "info@manjushreefinance.com.np",
 	"pobox": "23170"
 	
@@ -1090,6 +1108,7 @@
 	    "class": "C",
     "Name": "Multipurpose Finance Limited",
 	"ODAD": "1998",
+	  "ODBS": "",
 	"HO": "Rajbiraj, Madhesh",
 	"NEPSE": "MPFL",
 	"Swift": "",
@@ -1098,6 +1117,7 @@
 	"IMG": "https://shyamkumarkc20.com.np/logo/mpfl.jpg",
 	"TOLL": "0",
 	"phone1": "041-591170",
+	  "phone2": "",
 	"email": "info@multipurposefinance.com",
 	"pobox": "0"
 	
@@ -1108,6 +1128,7 @@
 	    "class": "C",
     "Name": "Nepal Finance Limited",
 	"ODAD": "1993",
+	  "ODBS": "",
 	"HO": "Kamaladi, Kathmandu",
 	"NEPSE": "NFS",
 	"Swift": "",
@@ -1116,6 +1137,7 @@
 	"IMG": "https://shyamkumarkc20.com.np/logo/nfs.jpg",
 	"TOLL": "0",
 	"phone1": "015912196",
+	  "phone2": "",
 	"email": "info@nepalfinance.com.np",
 	"pobox": "6867"
 	
@@ -1126,6 +1148,7 @@
 	    "class": "C",
     "Name": "Nepal Share Markets and Finance Limited",
 	"ODAD": "1993",
+	  "ODBS": "",
 	"HO": "Ramshahapath, Kathmandu",
 	"NEPSE": "",
 	"Swift": "",
@@ -1133,7 +1156,8 @@
 	"links": "https://shyamkumarkc20.com.np/0",
 	"IMG": "https://shyamkumarkc20.com.np/logo/nsm.jpg",
 	"TOLL": "0",
-	"phone1": "0",
+	"phone1": "",	  
+	  "phone2": "",
 	"email": "0",
 	"pobox": "0"
 	
@@ -1144,6 +1168,7 @@
 	    "class": "C",
     "Name": "Pokhara Finance Limited",
 	"ODAD": "1997",
+	  "ODBS": "",
 	"HO": "Pokhara, Gandaki",
 	"NEPSE": "PFL",
 	"Swift": "",
@@ -1153,6 +1178,7 @@
 	"TOLL": "0",
 	    "class": "C",
 	"phone1": "01-4982595",
+	  "phone2": "",
 	"email": "info@pokharafinance.com.np",
 	"pobox": "0"
 	
@@ -1163,6 +1189,7 @@
 	    "class": "C",
     "Name": "Progressive Finance Limited",
 	"ODAD": "1996",
+	  "ODBS": "",
 	"HO": "New Road, Kathmandu",
 	"NEPSE": "PROFL",
 	"Swift": "",
@@ -1171,9 +1198,10 @@
 	"IMG": "https://shyamkumarkc20.com.np/logo/profl.png",
 	"TOLL": "0",
 	"phone1": "01-5199667",
+	  "phone2": "",
 	"email": "info@pfltd.com.np",
 	"pobox": "10390",
-	"Fax" : "01-5199668"
+	"Fax": "01-5199668"
 	
   },{
     "SNO": 15,
@@ -1182,6 +1210,7 @@
 	    "class": "C",
     "Name": "Reliance Finance Limited",
 	"ODAD": "2009",
+	  "ODBS": "",
 	"HO": "Pradarsani Marg, Kathmandu",
 	"NEPSE": "RLFL",
 	"Swift": "",
@@ -1190,6 +1219,7 @@
 	"IMG": "https://shyamkumarkc20.com.np/logo/rlfl.png",
 	"TOLL": "0",
 	"phone1": "01–5361104",
+	  "phone2": "",
 	"email": "info@reliancenepal.com.np",
 	"pobox": "20136"
 	
@@ -1201,6 +1231,7 @@
 	    "class": "C",
     "Name": "Samriddhi Finance Company Limited",
 	"ODAD": "2001",
+	  "ODBS": "",
 	"HO": "Hetauda, Bagmati",
 	"NEPSE": "SFCL",
 	"Swift": "",
@@ -1209,6 +1240,7 @@
 	"IMG": "https://shyamkumarkc20.com.np/logo/sfcl.png",
 	"TOLL": "0",
 	"phone1": "057-525100",
+	  "phone2": "",
 	"email": "info@sfcl.com.np",
 	"pobox": "0"
 	
@@ -1220,6 +1252,7 @@
 	    "class": "C",
     "Name": "Shree Investment & Finance Limited",
 	"ODAD": "1994",
+	  "ODBS": "",
 	"HO": "Dillibazar, Kathmandu",
 	"NEPSE": "SIFC",
 	"Swift": " ",
@@ -1228,6 +1261,7 @@
 	"IMG": "https://shyamkumarkc20.com.np/logo/sifc.jpg",
 	"TOLL": "0",
 	"phone1": "01-4521779",
+	  "phone2": "",
 	"fax": "01-4521779",
 	"email": "info@shreefinance.com.np",
 	"pobox": "10717"
