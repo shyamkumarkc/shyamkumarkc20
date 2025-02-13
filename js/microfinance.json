@@ -7,12 +7,13 @@
         "HO": " Naxal, Kathmandu",
         "Paidup": " 261.21",
         "Area": " National Level",
-		"Website": "www.nirdhan.com.np",
-		"phone1": "01- 4513711",
-		"Fax": "01-4513856",
-		"email": "info@nirdhan.com.np",
-		"IMG": "https://shyamkumarkc20.com.np/logo/nubl.png",
-		"NEPSE": "NUBL"
+	"Website": "www.nirdhan.com.np",
+	"phone1": "014513711",
+	"phone2": "",
+	"fax":"01-4513856",
+	"email": "info@nirdhan.com.np",
+	"IMG": "https://shyamkumarkc20.com.np/logo/nubl.png",
+	"NEPSE": "NUBL"
     },
     {
         "SNO": "2",	    
@@ -24,7 +25,8 @@
         "Area": " National Level",
 		"Website": "www.deproscbank.com.np/",
 		"phone1": " 056 517900",
-		"Fax": "056 523056",
+	"phone2": "",
+		"fax":"056 523056",
 		"email": "info@deproscbank.com.np",
 		"IMG": "https://shyamkumarkc20.com.np/logo/ddbl.jpg",
 		"NEPSE": "DDBL"
@@ -39,7 +41,8 @@
         "Area": " National Level",
 		"Website": "www.chhimekbank.org/",
 		"phone1": "01-4595513",
-		"Fax": "01-4465785",
+	"phone2": "",
+		"fax":"01-4465785",
 		"email": "info@chhimekbank.org",
 			"IMG": "https://shyamkumarkc20.com.np/logo/cbbl.png",
 		"NEPSE": "CBBL"
@@ -54,7 +57,8 @@
         "Area": " National Level",
 		"Website": "www.swbbl.com.np/",
 		"phone1": "01-4534921",
-		"Fax": "",
+	"phone2": "",
+		"fax":"",
 		"email": "info@swbbl.com.np",
 			"IMG": "https://shyamkumarkc20.com.np/logo/swbbl.jpg",
 		"NEPSE": "SWBBL"
@@ -69,7 +73,8 @@
         "Area": " National Level",
 		"Website": "www.skbbl.com.np/",
 		"phone1": "01-5320913",
-		"Fax": "",
+	"phone2": "",
+		"fax":"",
 		"email": "info@skbbl.com.np",
 			"IMG": "https://shyamkumarkc20.com.np/logo/skbbl.jpg",
 		"NEPSE": "SKBBL"
@@ -84,7 +89,8 @@
         "Area": " National Level",
 		"Website": "www.nerudemirmire.com.np/",
 		"phone1": "011-662311",
-		"Fax": "",
+	"phone2": "",
+		"fax":"",
 		"email": "info@nerudemirmire.com.np",
 			"IMG": "https://shyamkumarkc20.com.np/logo/nerude.jpg",
 		"NEPSE": ""
@@ -99,7 +105,8 @@
         "Area": " Province Level (Madhesh Province)",
 		"Website": "mlbbank.com.np/",
 		"phone1": "041-560172",
-		"Fax": "",
+	"phone2": "",
+		"fax":"",
 		"email": "info@mlbbank.com.np",
 			"IMG": "https://shyamkumarkc20.com.np/logo/mlbbl.jpg",
 		"NEPSE": "MLBBL"
@@ -114,7 +121,8 @@
         "Area": " National Level",
 		"Website": "www.slbbl.com.np/",
 		"phone1": "011-661060",
-		"Fax": "",
+	"phone2": "",
+		"fax":"",
 		"email": "info@slbbl.com.np",
 			"IMG": "https://shyamkumarkc20.com.np/logo/slbbl.jpg",
 		"NEPSE": "SLBBL"
@@ -129,7 +137,8 @@
         "Area": " National Level",
 		"Website": "fmdb.com.np/",
 		"phone1": "01-4525361",
-		"Fax": "01-4527046",
+	"phone2": "",
+		"fax":"01-4527046",
 		"email": "info@fmdb.com.np",
 			"IMG": "https://shyamkumarkc20.com.np/logo/fmdbl.jpg",
 		"NEPSE": "FMDBL"
@@ -144,7 +153,8 @@
         "Area": " National Level",
 		"Website": "www.kalikabank.com.np/",
 		"phone1": "061-434412",
-		"Fax": " ",
+	"phone2": "",
+		"fax":" ",
 		"email": "info@kalikabank.com.np",
 			"IMG": "https://shyamkumarkc20.com.np/logo/klbsl.png ",
 		"NEPSE": "KLBSL"
@@ -160,7 +170,8 @@
         "Area": "National Level",
 		"Website": "www.aviyanlaghubitta.com/",
 		"phone1": "011441027",
-		"Fax": " ",
+	"phone2": "",
+		"fax":" ",
 		"email": "aviyanlaghu@gmail.com ",
 			"IMG": "https://shyamkumarkc20.com.np/logo/avyan.jpg ",
 		"NEPSE": "AVYAN"
@@ -175,7 +186,8 @@
         "Area": " 19 District Level (Kailali, Kanchanpur,\nBanke, Bardiya, Dang, Kapilvastu, Rupandehi, Nawalparasi East, Nawalparasi West, Chitwan, Parsa, Surkhet,  Dadeldhura, Gulmi, Palpa, Tanahu, Arghakhachi, Pyuthan, Salyan)",
 		"Website": "www.jucbank.com.np/",
 		"phone1": "071438171 ",
-		"Fax": " ",
+	"phone2": "",
+		"fax":" ",
 		"email": "info@jucbank.com.np ",
 			"IMG": "https://shyamkumarkc20.com.np/logo/jslbl.jpg ",
 		"NEPSE": "JSLBL"
@@ -190,7 +202,8 @@
         "Area": "  National Level",
 		"Website": "swmfi.com.np/",
 		"phone1": "01-5912753 ",
-		"Fax": "01-5912753 ",
+	"phone2": "",
+		"fax":"01-5912753 ",
 		"email": " info@swmfi.com.np",
 			"IMG": "https://shyamkumarkc20.com.np/logo/swmf.png ",
 		"NEPSE": " SWMF"
@@ -205,7 +218,8 @@
         "Area": " National Level",
 		"Website": "laxmilaghu.com.np/",
 		"phone1": "01-4373682 ",
-		"Fax": " ",
+	"phone2": "",
+		"fax":" ",
 		"email": "info@laxmilaghu.com.np ",
 			"IMG": "https://shyamkumarkc20.com.np/logo/llbs.jpg ",
 		"NEPSE": "LLBS "
@@ -220,7 +234,8 @@
         "Area": "  National Level",
 		"Website": "www.himalayanlaghubitta.com/",
 		"phone1": "01-4598333 ",
-		"Fax": " ",
+	"phone2": "",
+		"fax":" ",
 		"email": "info@himalayanlaghubitta.com ",
 			"IMG": "https://shyamkumarkc20.com.np/logo/hlbsl.png ",
 		"NEPSE": "HLBSL "
@@ -235,7 +250,8 @@
         "Area": "  National Level",
 		"Website": "vlbs.com.np/",
 		"phone1": "011-490671 ",
-		"Fax": " ",
+	"phone2": "",
+		"fax":" ",
 		"email": "vlbs@vlbs.com.np ",
 			"IMG": "https://shyamkumarkc20.com.np/logo/vlbs.jpg ",
 		"NEPSE": "VLBS "
@@ -250,7 +266,8 @@
         "Area": "  National Level",
 		"Website": "nmbmicrofinance.com/",
 		"phone1": " 061-400427 ",
-		"Fax": " ",
+	"phone2": "",
+		"fax":" ",
 		"email": "info@nmbmicrofinance.com ",
 			"IMG": "https://shyamkumarkc20.com.np/logo/nmbmf.jpg ",
 		"NEPSE": "NMBMF "
@@ -264,7 +281,8 @@
         "Area": "  National Level",
 		"Website": "forwardmfbank.com.np/",
 		"phone1": "025-542018 ",
-		"Fax": "025-541483 ",
+	"phone2": "",
+		"fax":"025-541483 ",
 		"email": "info@forwardmfbank.com.np ",
 			"IMG": "https://shyamkumarkc20.com.np/logo/fowad.jpg ",
 		"NEPSE": "FOWAD "
@@ -279,7 +297,8 @@
         "Area": "  National Level",
 		"Website": "gilb.com.np/",
 		"phone1": "061-411438 ",
-		"Fax": " ",
+	"phone2": "",
+		"fax":" ",
 		"email": "info@gilb.com.np ",
 			"IMG": "https://shyamkumarkc20.com.np/logo/gilb.jpg ",
 		"NEPSE": "GILB "
@@ -294,7 +313,8 @@
         "Area": "National Level",
 		"Website": "www.mslbsl.com.np/",
 		"phone1": "031411005 ",
-		"Fax": "031411008 ",
+	"phone2": "",
+		"fax":"031411008 ",
 		"email": "info@mslbsl.com.np ",
 			"IMG": "https://shyamkumarkc20.com.np/logo/mslb.png ",
 		"NEPSE": "MSLB"
@@ -309,7 +329,8 @@
         "Area": " National Level",
 		"Website": "www.meromicrofinance.com/",
 		"phone1": " 10 561746 ",
-		"Fax": " ",
+	"phone2": "",
+		"fax":" ",
 		"email": "corporate@meromicrofinance.com ",
 			"IMG": "https://shyamkumarkc20.com.np/logo/mero.jpg ",
 		"NEPSE": "MERO "
@@ -324,7 +345,8 @@
         "Area": " National Level",
 		"Website": "www.samata.org.np/",
 		"phone1": "011597000 ",
-		"Fax": " ",
+	"phone2": "",
+		"fax":" ",
 		"email": "samata@samata.org.np ",
 			"IMG": "https://shyamkumarkc20.com.np/logo/smata.jpg ",
 		"NEPSE": "SMATA "
@@ -339,7 +361,8 @@
         "Area": " National Level",
 		"Website": "www.rsdcmf.com/",
 		"phone1": "071-438513 ",
-		"Fax": " ",
+	"phone2": "",
+		"fax":" ",
 		"email": "info@rsdcmf.com",
 			"IMG": "https://shyamkumarkc20.com.np/logo/rsdc.jpg ",
 		"NEPSE": "RSDC"
@@ -354,7 +377,8 @@
         "Area": "4-10 District Level (Sindhupalchowk, Kavrepalanchowk, Dolakha,\nRamechhap, Solukhumbu, Okhaldhunga, Nuwakot, Khotang, Bhojpur, Sankhuasabha) ",
 		"Website": "www.slbsl.com.np/",
 		"phone1": "011-662251 ",
-		"Fax": " ",
+	"phone2": "",
+		"fax":" ",
 		"email": "info@slbsl.com.np ",
 			"IMG": "https://shyamkumarkc20.com.np/logo/slbsl.jpg ",
 		"NEPSE": "SLBSL "
@@ -369,7 +393,8 @@
         "Area": " National Level",
 		"Website": "nationalmicrofinance.com.np/",
 		"phone1": " 011-665572",
-		"Fax": " 010-520904 ",
+	"phone2": "",
+		"fax":" 010-520904 ",
 		"email": "info@nationalmicrofinance.com.np ",
 			"IMG": "https://shyamkumarkc20.com.np/logo/nmfbs.jpg ",
 		"NEPSE": "NMFBS "
@@ -384,7 +409,8 @@
         "Area": " National Level",
 		"Website": "gblbs.com.np/",
 		"phone1": " 071-437530 ",
-		"Fax": " 071-438954 ",
+	"phone2": "",
+		"fax":" 071-438954 ",
 		"email": "info@gblbs.com.np ",
 			"IMG": "https://shyamkumarkc20.com.np/logo/gblbs.jpg ",
 		"NEPSE": "GBLBS "
@@ -399,7 +425,8 @@
         "Area": " Province Level (Bagmati Province)",
 		"Website": "www.nslbsl.com.np/",
 		"phone1": "011-665626 ",
-		"Fax": " ",
+	"phone2": "",
+		"fax":" ",
 		"email": "nepalseva@gmail.com ",
 			"IMG": "https://shyamkumarkc20.com.np/logo/wnlb.png ",
 		"NEPSE": "WNLB "
@@ -414,7 +441,8 @@
         "Area": "National Level",
 		"Website": "unnatislbs-001-site1.mysitepanel.net/home",
 		"phone1": "071-571126 ",
-		"Fax": " ",
+	"phone2": "",
+		"fax":" ",
 		"email": "info@unnatislbs.com ",
 			"IMG": "https://shyamkumarkc20.com.np/logo/uslb.jpg",
 		"NEPSE": " USLB"
@@ -429,7 +457,8 @@
         "Area": " National Level",
 		"Website": "www.nadeplaghubitta.com/",
 		"phone1": "010-402111",
-		"Fax": " ",
+	"phone2": "",
+		"fax":" ",
 		"email": "info@nadeplaghubitta.com ",
 			"IMG": "https://shyamkumarkc20.com.np/logo/nadep.jpg ",
 		"NEPSE": "NADEP "
@@ -444,7 +473,8 @@
         "Area": " Province Level (Koshi Province)",
 		"Website": "www.supportmicrofinance.com.np/",
 		"phone1": " 025-588177 ",
-		"Fax": " ",
+	"phone2": "",
+		"fax":" ",
 		"email": "smicrofinance7@gmail.com ",
 			"IMG": "https://shyamkumarkc20.com.np/logo/smb.jpg",
 		"NEPSE": "SMB "
@@ -459,7 +489,8 @@
         "Area": " National Level",
 		"Website": "www.aarambhachautari.com/",
 		"phone1": "011-664579 ",
-		"Fax": " ",
+	"phone2": "",
+		"fax":" ",
 		"email": "info@aarambhachautari.com ",
 			"IMG": "https://shyamkumarkc20.com.np/logo/aslbsl.png ",
 		"NEPSE": "ACLBSL "
@@ -474,7 +505,8 @@
         "Area": " National Level",
 		"Website": "ashamicrofinance.com.np/",
 		"phone1": "011-660073 ",
-		"Fax": " ",
+	"phone2": "",
+		"fax":" ",
 		"email": "info@ashamicrofinance.com.np ",
 			"IMG": "https://shyamkumarkc20.com.np/logo/albsl.png ",
 		"NEPSE": "ALBSL "
@@ -489,7 +521,8 @@
         "Area": " Province Level (Koshi Province)",
 		"Website": "guranslaghubitta.com.np/",
 		"phone1": "026523746 ",
-		"Fax": " ",
+	"phone2": "",
+		"fax":" ",
 		"email": "info@guranslaghubitta.com.np ",
 			"IMG": "https://shyamkumarkc20.com.np/logo/glbsl.jpg ",
 		"NEPSE": "GLBSL "
@@ -504,7 +537,7 @@
         "Area": " National Level",
 		"Website": "ganapatimicro.com.np/",
 		"phone1": "065-414247 ",
-		"Fax": " ",
+		"fax":" ",
 		"email": "info@ganapatimicro.com.np ",
 			"IMG": "https://shyamkumarkc20.com.np/logo/gmfbs.png ",
 		"NEPSE": "GMFBS "
@@ -519,7 +552,8 @@
         "Area": " National Level",
 		"Website": "infinitylbsl.com.np/",
 		"phone1": "078-503301 ",
-		"Fax": " ",
+	"phone2": "",
+		"fax":" ",
 		"email": "info@infinitylbsl.com.np",
 			"IMG": "https://shyamkumarkc20.com.np/logo/ilbs.png ",
 		"NEPSE": "ILBS "
@@ -534,7 +568,8 @@
         "Area": " Province Level (Lumbini Province)",
 		"Website": "swabhimaanlaghubitta.com.np/",
 		"phone1": "071-561258 ",
-		"Fax": " ",
+	"phone2": "",
+		"fax":" ",
 		"email": "info@swabhimaanlaghubitta.com.np ",
 			"IMG": "https://shyamkumarkc20.com.np/logo/smfbs.jpg ",
 		"NEPSE": "SMFBS "
@@ -549,7 +584,8 @@
         "Area": " National Level",
 		"Website": "sabaikolaghubitta.com/",
 		"phone1": "065-580407 ",
-		"Fax": " ",
+	"phone2": "",
+		"fax":" ",
 		"email": "info@sabaikolaghubitta.com ",
 			"IMG": "https://shyamkumarkc20.com.np/logo/sabsl.png ",
 		"NEPSE": "SABSL "
@@ -564,7 +600,8 @@
         "Area": " National Level",
 		"Website": "www.jeevanbikasmf.com/eg",
 		"phone1": "021-442662",
-		"Fax": " ",
+	"phone2": "",
+		"fax":" ",
 		"email": "info@jeevanbikasmf.com",
 			"IMG": "https://shyamkumarkc20.com.np/logo/jblb.jpg",
 		"NEPSE": "JBLB"
@@ -579,7 +616,8 @@
         "Area": " National Level",
 		"Website": "www.nicasialaghubitta.com/",
 		"phone1": "011 660034 ",
-		"Fax": " ",
+	"phone2": "",
+		"fax":" ",
 		"email": "info@nicasialaghubitta.com ",
 			"IMG": "https://shyamkumarkc20.com.np/logo/niclbsl.png ",
 		"NEPSE": "NICLBSL "
@@ -594,7 +632,8 @@
         "Area": " National Level",
 		"Website": "www.matribhumimf.com.np",
 		"phone1": "01-4372274",
-		"Fax": " ",
+	"phone2": "",
+		"fax":" ",
 		"email": "info@matribhumimf.com.np",
 			"IMG": "https://shyamkumarkc20.com.np/logo/klbsl1.jpg",
 		"NEPSE": "KLBSL"
@@ -609,7 +648,8 @@
         "Area": " 1-3 District Level (Sarlahi, Mahottari, Dhanusa)",
 		"Website": "www.samajlaghubitta.com.np/",
 		"phone1": "046521795",
-		"Fax": " ",
+	"phone2": "",
+		"fax":" ",
 		"email": "samajmalangawa@gmail.com ",
 			"IMG": "https://shyamkumarkc20.com.np/logo/samaj.jpg",
 		"NEPSE": "SAMAJ"
@@ -624,7 +664,7 @@
         "Area": "National Level",
 		"Website": "www.mlbsl.com.np/",
 		"phone1": " 011-661329",
-		"Fax": " ",
+		"fax":" ",
 		"email": "mlbsl.nepal@gmail.com ",
 			"IMG": "https://shyamkumarkc20.com.np/logo/mlbsl.jpg",
 		"NEPSE": "MLBSL"
@@ -639,7 +679,8 @@
         "Area": "National Level",
 		"Website": "www.manushilbs.com/",
 		"phone1": "011-662785",
-		"Fax": " ",
+	"phone2": "",
+		"fax":" ",
 		"email": "info@manushilbs.com.np ",
 			"IMG": "https://shyamkumarkc20.com.np/logo/mlbs.png",
 		"NEPSE": "MLBS"
@@ -654,7 +695,8 @@
         "Area": "\n4 - 10 District (Bardiya, Banke, Kailali, Kanchanpur,  Dang, Kapilbastu,Rupandehi, Nawalparasi, Surkhet, Dadeldhura)",
 		"Website": "uniquenepalmicrofinance.com.np/",
 		"phone1": "081-540213",
-		"Fax": " ",
+	"phone2": "",
+		"fax":" ",
 		"email": "info@unlbsl.com.np ",
 			"IMG": "https://shyamkumarkc20.com.np/logo/unlb.jpg",
 		"NEPSE": "UNLB"
@@ -669,7 +711,8 @@
         "Area": " Province Level (Lumbini Province)",
 		"Website": "aatmanirbhar.org.np/",
 		"phone1": " 082-560489",
-		"Fax": " ",
+	"phone2": "",
+		"fax":" ",
 		"email": "aatmanirbhar2076@gmail.com ",
 			"IMG": "https://shyamkumarkc20.com.np/logo/anlb.png",
 		"NEPSE": "ANLB"
@@ -684,7 +727,7 @@
         "Area": " Province Level (Lumbini Province)",
 		"Website": "www.ulbsl.com.np/",
 		"phone1": "081-540744",
-		"Fax": "081-540744 ",
+		"fax":"081-540744 ",
 		"email": "upakar.banke1@gmail.com ",
 			"IMG": "https://shyamkumarkc20.com.np/logo/ulbsl.jpg",
 		"NEPSE": "ULBSL"
@@ -699,7 +742,8 @@
         "Area": " National Level",
 		"Website": "dhaulagiribank.com/",
 		"phone1": "068-520905",
-		"Fax": " ",
+	"phone2": "",
+		"fax":" ",
 		"email": "infodesk@dhaulagiribank.com ",
 			"IMG": "https://shyamkumarkc20.com.np/logo/dlbs.jpg",
 		"NEPSE": "DLBS"
@@ -714,7 +758,8 @@
         "Area": " National Level",
 		"Website": "cycnlbsl.org.np/",
 		"phone1": "061-590894",
-		"Fax": " ",
+	"phone2": "",
+		"fax":" ",
 		"email": "info@cycnlbsl.org.np ",
 			"IMG": "https://shyamkumarkc20.com.np/logo/cycl.png",
 		"NEPSE": "CYCL"
@@ -729,7 +774,8 @@
         "Area": "National Level",
 		"Website": "slbs.nesdonepal.org",
 		"phone1": "067-420406",
-		"Fax": " ",
+	"phone2": "",
+		"fax":" ",
 		"email": "info@nesdonepal.org ",
 			"IMG": "https://shyamkumarkc20.com.np/logo/nesdo.jpg",
 		"NEPSE": "NESDO"
@@ -744,7 +790,8 @@
         "Area": " Province Level (Madhesh Province)",
 		"Website": "swastikmicrofinance.com/",
 		"phone1": "033-563067",
-		"Fax": " ",
+	"phone2": "",
+		"fax":" ",
 		"email": "info@swastikmicrofinance.com ",
 			"IMG": "https://shyamkumarkc20.com.np/logo/swastik.jpg",
 		"NEPSE": ""
@@ -759,7 +806,8 @@
         "Area": "National Level",
 		"Website": "www.shrijanshil.org/",
 		"phone1": "033-401045",
-		"Fax": " ",
+	"phone2": "",
+		"fax":" ",
 		"email": "info@shrijanshil.com.np ",
 			"IMG": "https://shyamkumarkc20.com.np/logo/shlb.jpg",
 		"NEPSE": "SHLB"
@@ -777,7 +825,8 @@
         "Area": " Province Level (Lumbini Province)",
 		"Website": "www.superlaghubitta.com.np/",
 		"phone1": "",
-		"Fax": " ",
+	"phone2": "",
+		"fax":" ",
 		"email": " ",
 			"IMG": "https://shyamkumarkc20.com.np/logo/",
 		"NEPSE": ""
