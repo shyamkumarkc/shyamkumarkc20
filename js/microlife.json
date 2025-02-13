@@ -1,6 +1,7 @@
 [
     {
         "Sno": "1",
+        "class": "microlife",
         "Name": "Crest Micro Life Insurance Limited",
         "Operation": "2080 B.S (2023 A.D)",
         "Website": "cmli.com.np/",
@@ -12,6 +13,7 @@
     },
     {
         "Sno": "2",
+        "class": "microlife",
         "Name": "Guardian Micro Life Insurance Limited",
         "Operation": "2080 B.S (2023 A.D)",
         "Website": "gmli.com.np/",
@@ -23,6 +25,7 @@
     },
     {
         "Sno": "3",
+        "class": "microlife",
         "Name": "Liberty Micro Life Insurance Limited",
         "Operation": "2080 B.S (2023 A.D)",
         "Website": "libertymlife.com.np/",
