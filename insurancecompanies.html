@@ -156,22 +156,9 @@ So far, there are only two reinsurance companies in Nepal.&nbsp;<div>
        placeholder.innerHTML = out;
     });
     </script>
-<table border="black" style="width: 100%;">
-    <thead>
-    <tr>
-    <th>S.No.</th>
-    <th>Name</th>
-        <th>Logo</th>
-    <th>Operation Date </th>
-    <th>Head Office</th>
-         
-    <th>Contact </th>	
-        <th>Email</th>
+<table>    
     
-    </tr>
-    </thead>
-    
-          <tbody id="data-outputmicrononlife">
+          <tbody id="micrononlife">
              <!-- Prodcuts from javascript file in here. -->
           </tbody>
        </table>
@@ -182,7 +169,7 @@ So far, there are only two reinsurance companies in Nepal.&nbsp;<div>
        return response.json();
     })
     .then(function(products){
-       let placeholder = document.querySelector("#data-outputmicrononlife");
+       let placeholder = document.querySelector("micrononlife");
        let out = "";
        for(let product of products){
           out += `
@@ -190,13 +177,7 @@ So far, there are only two reinsurance companies in Nepal.&nbsp;<div>
                 
                 <td>${product.Sno}</td>
                  <td><a href ="https://${product.Website}"target="blank">${product.Name}</a></td>
-            <td><img src="${product.IMG}" width="100" height="100" ></td>
-                <td>${product.Operation}</td>
-                <td>${product.HO}</td>
-                
-                   <td><a href="tel:${product.Phone}">${product.Phone}</a></td>
-          <td><a href="mailto:${product.Email}">${product.Email}</a></td>
-               
+           
                 
              </tr>
           `;
