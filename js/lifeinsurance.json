@@ -142,11 +142,14 @@
 	"HO": "Manakamana Marga, Kathmandu",
 	"PO": "25979",
 	"Fax": "",
+	  "desc": "Himalayan Investment Banker Limited is subsidiary company of Himalayan life Insurance. Our company is incorporated under company act 2063 of the Government of Nepal. The company obtained the license of Merchant Banker from the Securities Board of Nepal (SEBON) on the 2081/07/08. The company is developed by the promoter shareholders, experts in the financial market.",
 	  "ceo": "Manoj Kumar Lal Karn",
 	"phone1": "01-5970057",
 	"Email" : "info@himalayanlife.com.np",
 	"IMG": "https://shyamkumarkc20.com.np/logo/hli.png",
-    "Website": "himalayanlife.com.np/"
+    "Website": "himalayanlife.com.np/",
+	  "subsidiaries": "a. Himalayan Investment Banker Limited",
+	  "merger": "a. Prime Life Insurance Company Limited<br/>b. Gurans Life Insurance Company Limited<br/>c. Union Life Insurance Company Limited"
   },
   {
     "Sno": "11",
