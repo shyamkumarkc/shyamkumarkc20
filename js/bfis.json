@@ -2397,5 +2397,58 @@
     "email": "info@unitedajodinsurance.com",
 	"IMG": "https://shyamkumarkc20.com.np/logo/uail.png",
     "Website": "www.unitedajodinsurance.com"
+  },
+	{
+    "Sno": "1",
+	  "class": "reinsurance",
+    "Name": "Nepal Reinsurance Company Limited",
+    "ODAD": "2014/11/07 A.D ",
+	  "ODBS": "",
+	  "ceo": "Surendra Thapa",
+    "NEPSE": "NRIC",
+	"HO": "Thapathali, Kathmandu",
+	"PO": "",
+	"Fax": " ",
+	"Toll": " ",
+	  "link": "/nepal/nepalre.html",
+	  "desc": "Nepal Reinsurance Company Limited, the successor of insurance Pool that was set up in 2003 with the aim to cover damages caused by the terrorism, was incorporated on 7 November 2014, under the Companies Act, 2006 of Nepal in accordance to the decision of Council of Ministers (Nepal) dated 7th August, 2014 to convert the Insurance Pool, Nepal into Reinsurance Company. Nepal Re was formally inaugurated on 22nd December 2014 by the Hon’ble Finance Minister Dr. Ram Sharan Mahat. It is established in the PPP Model with equity participation of Government of Nepal.",
+	"phone1": "015970401",
+	  "phone2": "015970402",
+    "email": "nepalre@ntc.net.np",
+	  "subsidiaries": "",
+	"IMG": "https://shyamkumarkc20.com.np/logo/nric.jpg",
+    "Website": "www.nepalre.com.np",
+	"neps": "https://nepalstock.com.np/company/detail/2881",
+	"AuthorizedCapital": "NPR 15 Billions",
+	"IssuedCapital": "NPR 10 Billions",
+	"PaidupCapital": "NPR 10 Billions"
+	
+	
+  },
+   {
+    "Sno": "2",
+	  "class": "reinsurance",
+    "Name": "Himalayan Reinsurance Company Limited",
+    "ODAD": "2021 A.D ",
+	   "ODBS": "2078/02/23 BS",
+    "NEPSE": "HRL",
+	"ceo": "Upasana Poudel",
+	"HO": "Maharajgunj, Kathmandu",
+	"PO": "",
+	"Fax": " ",
+	"Toll": "",
+	   "link": "/nepal/himalayanre.html",
+	"phone1": "014543432",
+	   "phone2": "01-4003122",
+    "email": "contactus@himalayanre.com",
+	"IMG": "https://shyamkumarkc20.com.np/logo/hrl.png",
+    "Website": "himalayanre.com",
+	   "desc": "Himalayan Re is the first private sector reinsurance company established in the Republic of Nepal. The company would offer Reinsurance support to Life and General Insurance Companies in Nepal and overseas.",
+	   "subsidiaries": "a. Himalaya Securities Banker Limited",
+	"neps": "https://nepalstock.com.np/company/detail/9234",
+	"AuthorizedCapital": "NPR 21 Billions (USD 175 Millions approx",
+	"IssuedCapital" : "NPR 10 Billions (USD 85 Millions approx)",
+	"PaidupCapital" : "NPR 7 Billions (USD 60 Millions approx)"
   }
+]
 
