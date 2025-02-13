@@ -1,6 +1,7 @@
 [
   {
     "Sno": "1",
+	  "class": "reinsurance",
     "Name": "Nepal Reinsurance Company Limited",
     "ODAD": "2014/11/07 A.D ",
 	  "ODBS": "",
@@ -27,6 +28,7 @@
   },
    {
     "Sno": "2",
+	  "class": "reinsurance",
     "Name": "Himalayan Reinsurance Company Limited",
     "ODAD": "2021 A.D ",
 	   "ODBS": "2078/02/23 BS",
