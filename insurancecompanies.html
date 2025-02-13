@@ -17,7 +17,7 @@ $('#header').load('/assets/header.html');
 
 <h2>List of Insurance Companies in Nepal</h2>There are 40 insurance companies in Nepal. The insurance companies in Nepal are divided into three types:<div>A. Life Insurance
 &nbsp;</div><div>B. Non-Life/General Insurance&nbsp;
-</div><div>C. Reinsurance</div><div>&nbsp;19 life insurance, 20 non-life or general insurance and 1 reinsurance companies are operating in Nepal.&nbsp;</div><h3>List of Life Insurance Companies In Nepal</h3>
+</div><div>C. Reinsurance</div><div>&nbsp;14 life insurance, 14 non-life or general insurance and 2 reinsurance companies are operating in Nepal.&nbsp;</div><h3>List of Life Insurance Companies In Nepal</h3>
 
 There are currently 14 <a href= "/lifeinsurance">life insurance companies in Nepal</a>. The list of the life insurance companies is shown below:
 	<table>
@@ -52,11 +52,11 @@ There are currently 14 <a href= "/lifeinsurance">life insurance companies in Nep
 });
    </script> 
 <h3>List of General (Non-Life) Insurance Companies In Nepal</h3>
-Non-life insurance is an agreement made to avoid the risk of loss of property and liability. It is generally used to insure movable and immovable property such as houses, factories, vehicles, etc.<br />
+Non-life insurance is an agreement made to avoid the risk of loss of property and liability. It is generally used to ensure movable and immovable property such as houses, factories, vehicles, etc.<br />
 
-Non-life insurance covers accidents, medical expenses, third party liability, production liability, risks involved in foreign travel. It is used to obtain compensation for damage caused by various natural calamities including accidents, fires, thefts and to get compensation or relief from possible losses due to risk. At current, there are 20 general or non-life insurance companies in Nepal.&nbsp;<br />
+Non-life insurance covers accidents, medical expenses, third-party liability, production liability, and risks involved in foreign travel. It is used to obtain compensation for damage caused by various natural calamities including accidents, fires, thefts and to get compensation or relief from possible losses due to risk. At current, there are 20 general or non-life insurance companies in Nepal.&nbsp;<br />
 
-Below are the list of 20 general or non-life insurance companies of Nepal:
+Below are the lists of 14 general or non-life insurance companies in Nepal:
 <table>
 
       
@@ -95,7 +95,7 @@ Below are the list of 20 general or non-life insurance companies of Nepal:
 <h4>List of Re-Insurance Companies In Nepal</h4>
 Insurance companies cannot bear the entire risk of the insurance they cover, they transfer the risk from one company to another to reduce the risk, which is called reinsurance.
 
-So far, there is only two reinsurance companies in Nepal.&nbsp;<div>
+So far, there are only two reinsurance companies in Nepal.&nbsp;<div>
   
 
       
@@ -110,7 +110,7 @@ So far, there is only two reinsurance companies in Nepal.&nbsp;<div>
    return response.json();
 })
 .then(function(products){
-   let placeholder = document.querySelector("#reinsunranc");
+   let placeholder = document.querySelector("#reinsunrance");
    let out = "";
    for(let product of products){
       out += `
@@ -128,22 +128,9 @@ So far, there is only two reinsurance companies in Nepal.&nbsp;<div>
    placeholder.innerHTML = out;
 });
    </script> 
-<table border="black" style="width: 100%;">
-    <thead>
-    <tr>
-    <th>S.No.</th>
-    <th>Name</th>
-        <th>Logo</th>
-    <th>Operation Date </th>
-    <th>Head Office</th>
-         
-    <th>Contact </th>	
-        <th>Email</th>
-    
-    </tr>
-    </thead>
-    
-          <tbody id="data-outputmicrolife">
+<table>
+        
+          <tbody id="microlife">
              <!-- Prodcuts from javascript file in here. -->
           </tbody>
        </table>
@@ -154,7 +141,7 @@ So far, there is only two reinsurance companies in Nepal.&nbsp;<div>
        return response.json();
     })
     .then(function(products){
-       let placeholder = document.querySelector("#data-outputmicrolife");
+       let placeholder = document.querySelector("microlife");
        let out = "";
        for(let product of products){
           out += `
@@ -162,13 +149,7 @@ So far, there is only two reinsurance companies in Nepal.&nbsp;<div>
                 
                 <td>${product.Sno}</td>
                  <td><a href ="https://${product.Website}"target="blank">${product.Name}</a></td>
-            <td><img src="${product.IMG}" width="100" height="100" ></td>
-                <td>${product.Operation}</td>
-                <td>${product.HO}</td>
-                
-                   <td><a href="tel:${product.Phone}">${product.Phone}</a></td>
-          <td><a href="mailto:${product.Email}">${product.Email}</a></td>
-               
+            
                 
              </tr>
           `;
