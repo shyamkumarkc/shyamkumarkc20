@@ -15,9 +15,9 @@ $('#header').load('/assets/header.html');
 <body>
 <div id ="header"></div>
 
-<h2>List of Insurance Companies in Nepal</h2>There are 40 insurance companies in Nepal. The insurance companies in Nepal are divided into three types:<div>A. Life Insurance
+<h2>List of Insurance Companies in Nepal</h2>There are 37 insurance companies in Nepal. The insurance companies in Nepal are divided into three types:<div>A. Life Insurance
 &nbsp;</div><div>B. Non-Life/General Insurance&nbsp;
-</div><div>C. Reinsurance</div><div>&nbsp;14 <a href= "/lifeinsurance.html">life insurance companies</a>, 14 <a href= "/nonlifeinsurance.html">Non-life insurance companies (general insurance) and 2 reinsurance companies are operating in Nepal.&nbsp;</div><h3>List of Life Insurance Companies In Nepal</h3>
+</div><div>C. Reinsurance</div><div>&nbsp;14 <a href= "/lifeinsurance.html">life insurance companies</a>, 14 <a href= "/nonlifeinsurance.html">Non-life insurance companies (general insurance)</a>, 2 <a href= "/reinsurance.html">Reinsurance companies</a>, 3 <a href= "/microlifeinsurance.html">Micro Life Insurance Companies</a> and 4 <a href= "/micrononlifeinsurance.html">Micro Non Life Insurance companies</a> are operating in Nepal.&nbsp;</div><h3>List of Life Insurance Companies In Nepal</h3>
 
 There are currently 14 <a href= "/lifeinsurance.html">life insurance companies in Nepal</a>. The list of the life insurance companies is shown below:
 	<table>
@@ -125,7 +125,8 @@ So far, there are only two reinsurance companies in Nepal.&nbsp;<div>
  
    placeholder.innerHTML = out;
 });
-   </script> 
+   </script>
+   <h4>List of Micro Life Insurance Companies In Nepal</h4>
 <table>
         
           <tbody id="microlife">
@@ -139,14 +140,14 @@ So far, there are only two reinsurance companies in Nepal.&nbsp;<div>
        return response.json();
     })
     .then(function(products){
-       let placeholder = document.querySelector("microlife");
+       let placeholder = document.querySelector("#microlife");
        let out = "";
        for(let product of products){
           out += `
              <tr>
                 
                 <td>${product.Sno}</td>
-                 <td><a href ="https://${product.Website}"target="blank">${product.Name}</a></td>
+                 <td><a href="https://${product.Website}"target="blank">${product.Name}</a></td>
             
                 
              </tr>
@@ -156,6 +157,7 @@ So far, there are only two reinsurance companies in Nepal.&nbsp;<div>
        placeholder.innerHTML = out;
     });
     </script>
+    <h4>List of Micro Non Life Insurance Companies In Nepal</h4>
 <table>    
     
           <tbody id="micrononlife">
@@ -169,7 +171,7 @@ So far, there are only two reinsurance companies in Nepal.&nbsp;<div>
        return response.json();
     })
     .then(function(products){
-       let placeholder = document.querySelector("micrononlife");
+       let placeholder = document.querySelector("#micrononlife");
        let out = "";
        for(let product of products){
           out += `
