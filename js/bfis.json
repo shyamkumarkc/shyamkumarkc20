@@ -2408,7 +2408,7 @@
 	"HO": "Pulchowk, Lalitpur",
     "NEPSE": "",
 	"phone1": "01-5970166",
-	"Email": "service-nepal@metlife.com.np",
+	"email": "service-nepal@metlife.com.np",
 	  "TOLL":"16600155555",
 	"IMG": "https://shyamkumarkc20.com.np/logo/MetLife.png",
     "Website": "www.metlife.com.np/en/"
@@ -2421,7 +2421,7 @@
 	"HO": "Maitidevi, Kathmandu",
     "NEPSE": "ALICL",
 	"phone1": "01-4510115",
-	"Email": "asianlife@asianlife.com.np",
+	"email": "asianlife@asianlife.com.np",
 	"IMG": "https://shyamkumarkc20.com.np/logo/alicl.png",
     "Website": "www.asianlife.com.np/",
 	  "subsidiaries": "a. Asian life Capital"
@@ -2448,7 +2448,7 @@
 	"PO": "740",
 	"Fax": "",
 	"phone1": "01-4024071",
-	"Email": "info@imelifeinsurance.com",
+	"email": "info@imelifeinsurance.com",
 	"IMG": "https://shyamkumarkc20.com.np/logo/ili.png",
     "Website": "imelifeinsurance.com/"
   },
@@ -2460,7 +2460,7 @@
 	"HO": "Shanta Plaza, Gyaneshwor",
     "NEPSE": "SJLIC",
 	"phone1": "014545941",
-	"Email": "info@suryajyotilife.com",
+	"email": "info@suryajyotilife.com",
 	"IMG": "https://shyamkumarkc20.com.np/logo/sjlic.png",
     "Website": "www.suryajyotilife.com/"
   },
@@ -2474,7 +2474,7 @@
 	"PO": "21905",
 	"Fax": "01-4012615",
 	"phone1": "01-4012613",
-	"Email": "liccorporate@licnepal.com.np",
+	"email": "liccorporate@licnepal.com.np",
 	"IMG": "https://shyamkumarkc20.com.np/logo/licn.png",
     "Website": "www.licnepal.com.np/"
   },
@@ -2488,7 +2488,7 @@
 	"PO": "",
 	"Fax": "05362497",
 	"phone1": "05352012",
-	"Email": "info@pmlil.com",
+	"email": "info@pmlil.com",
 	"IMG": "https://shyamkumarkc20.com.np/logo/pmli.jpg",
     "Website": "www.pmlil.com/"
   },
@@ -2502,7 +2502,7 @@
 	"PO": "4332",
 	"Fax": "01-4535633",
 	"phone1": "01-4514799",
-	"Email": "nlgilife@mail.com.np",
+	"email": "nlgilife@mail.com.np",
 	"IMG": "https://shyamkumarkc20.com.np/logo/nlicl.jpg",
     "Website": "www.nationallife.com.np/"
   },
@@ -2518,7 +2518,7 @@
 	  "Toll": "",
 	  "ceo": "Prabin Raman Parajuli",
 	"phone1": "01-5970971",
-	"Email": "customer.service@nepallife.com.np",
+	"email": "customer.service@nepallife.com.np",
 	"IMG": "https://shyamkumarkc20.com.np/logo/nlic.jpg",
     "Website": "www.nepallife.com.np/en/home",
 	  "subsidiaries": "a. Nepal Life Capital",
@@ -2551,7 +2551,7 @@
 	"PO": "",
 	"Fax": "",
 	"phone1":"01-4262520",
-    "Email": "info@rbs.gov.np",
+    "email": "info@rbs.gov.np",
 	"IMG": "https://shyamkumarkc20.com.np/logo/rbs.png",
 	"Website": "www.rbs.gov.np/"
   },
@@ -2566,7 +2566,7 @@
 	"PO": "",
 	"Fax": "",
 	"phone1": "01-4523618",
-	"Email": "info@reliablelife.com.np",
+	"email": "info@reliablelife.com.np",
 	"IMG": "https://shyamkumarkc20.com.np/logo/rnli.png",
     "Website": "www.reliablelife.com.np/"
   },
@@ -2594,7 +2594,7 @@
 	"PO": "",
 	"Fax": "",
 	"phone1": "01-4536126",
-	"Email": "info@snlic.com",
+	"email": "info@snlic.com",
 	"IMG": "https://shyamkumarkc20.com.np/logo/snli.png",
     "Website": "www.sunlife.com.np/",
 	  "subsidiaries": "a. Sunlife Capital"
