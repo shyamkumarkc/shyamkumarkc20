@@ -1,6 +1,7 @@
 [
   {
     "Sno": "1",
+	  "class": "lifeinsurance",
     "Name": "American Life Insurance Company Limited (MetLife)",
     "Operation": "2058/01/21 B.S (2001/12/05 A.D)",
 	"HO": "Pulchowk, Lalitpur",
@@ -13,6 +14,7 @@
 	   },
   {
     "Sno": "2",
+	  "class": "lifeinsurance",
     "Name": "Asian Life Insurance Company Limited",
     "Operation": "2064 B.S (2008 A.D)",
 	"HO": "Maitidevi, Kathmandu",
@@ -25,6 +27,7 @@
   },
   {
     "Sno": "3",
+	  "class": "lifeinsurance",
     "Name": "Citizen Life Insurance Company Limited",
     "Operation": "2074 B.S (2017 A.D)",
 	"HO": "Thapathali, Kathmandu",
@@ -36,6 +39,7 @@
   },
   {
     "Sno": "4",
+	  "class": "lifeinsurance",
     "Name": "IME Life Insurance Company Limited",
     "Operation": "2074 B.S (2017 A.D)",
     "NEPSE": "ILI",
@@ -49,6 +53,7 @@
   },
   {
     "Sno": "5",
+	  "class": "lifeinsurance",
     "Name": "Surya Jyoti Life Insurance Company Limited",
     "Operation": "2079 B.S (2023 A.D)",
 	"HO": "Shanta Plaza, Gyaneshwor",
@@ -60,6 +65,7 @@
   },
   {
     "Sno": "6",
+	  "class": "lifeinsurance",
     "Name": "Life Insurance Corporation (Nepal) Limited",
     "Operation": "2057 B.S (2000 A.D)",
     "NEPSE": "LICN",
@@ -73,6 +79,7 @@
   },
   {
     "Sno": "7",
+	  "class": "lifeinsurance",
     "Name": "Prabhu Mahalaxmi Life Insurance Company Limited",
     "Operation": "2075 B.S (2018 A.D)",
     "NEPSE": "PMLI",
@@ -86,6 +93,7 @@
   },
   {
     "Sno": "8",
+	  "class": "lifeinsurance",
     "Name": "National Life Insurance Company Limited",
     "Operation": "2044 B.S (1988 A.D.)",
     "NEPSE": "NLICL",
@@ -99,6 +107,7 @@
   },
   {
     "Sno": "9",
+	  "class": "lifeinsurance",
     "Name": "Nepal Life Insurance Company Limited",
     "Operation": "2058 B.S (2001 A.D)",
     "NEPSE": "NLIC",
@@ -119,6 +128,7 @@
   {
     
     "Sno": "10",
+	  "class": "lifeinsurance",
     "Name": "Himalayan Life Insurance Company Limited",
     "Operation": "2080 B.S (2023 A.D)",
     "NEPSE": "HLI",
@@ -132,6 +142,7 @@
   },
   {
     "Sno": "11",
+	  "class": "lifeinsurance",
     "Name": "Rastriya Jeewan Beema Company Limited",
     "Operation": "2025 B.S (1969 A.D)",
     "NEPSE": "RBCL",
@@ -145,6 +156,7 @@
   },
   {
     "Sno": "12",
+	  "class": "lifeinsurance",
     "Name": "Reliable Nepal Life Insurance Limited",
     "Operation": "2074 B.S (2017 A.D)",
     "NEPSE": "RNLI",
@@ -159,6 +171,7 @@
   },
   {
     "Sno": "13",
+	  "class": "lifeinsurance",
     "Name": "Sanima Reliance Life Insurance Limited",
     "Operation": "2074 B.S (2017 A.D)",
     "NEPSE": "SRLI",
@@ -172,6 +185,7 @@
   },
   {
     "Sno": "14",
+	  "class": "lifeinsurance",
     "Name": "Sun Nepal Life Insurance Limited",
     "Operation": "2074 B.S (2017 A.D)",
     "NEPSE": "SNLI",
