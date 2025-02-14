@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Himalayan Bank limited</title>
+    <title>Himalayan Bank Limited</title>
     <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script>
@@ -14,7 +14,7 @@
 </head>
 <body>
     <div id="header"></div>
-    <h1>Himalayan Bank limited</h1>
+    <h1>Himalayan Bank Limited</h1>
   <div id="bankInfo1" class="bank-container"></div>
    <table>
      <tr>
@@ -24,7 +24,7 @@
     <td id="blb" class="bank-container"></td>
     </tr>
     </table>
-    <h2>Himalayan Bank limited</h2>
+    <h2>Himalayan Bank Limited</h2>
     <div id="bankInfo" class="bank-container"></div>
     
     <h2>Merged BFIs</h2>
@@ -65,12 +65,12 @@
                 const response = await fetch('https://shyamkumarkc20.com.np/js/commercialbanks.json'); // Replace with actual API endpoint
                 const banks = await response.json();
                 
-                // Filter for Himalayan Bank limited
-                const himalayanBank = banks.find(bank => bank.Name === "Himalayan Bank limited");
+                // Filter for Himalayan Bank Limited
+                const himalayanBank = banks.find(bank => bank.Name === "Himalayan Bank Limited");
                 
                 if (himalayanBank) {
                     document.getElementById('bankInfo').innerHTML = `
-                        <img src="${himalayanBank.IMG}" alt="Himalayan Bank limited Logo" class="bank-logo">
+                        <img src="${himalayanBank.IMG}" alt="Himalayan Bank Limited Logo" class="bank-logo">
                         <p><strong>Name:</strong> ${himalayanBank.Name}</p>
                         <p><strong>Established:</strong> ${himalayanBank.ODAD} [ ${himalayanBank.ODBS} ]</p>
                         <p><strong>Head Office:</strong> ${himalayanBank.HO}</p>
@@ -90,9 +90,9 @@
                   document.getElementById('bankInfo1').innerHTML = `<p>${himalayanBank.desc}</p>`;
                     document.getElementById('subInfo').innerHTML = `<p>${himalayanBank.subsidiaries}</p>`;
                 } else {
-                    document.getElementById('bankInfo').innerHTML = '<p>Himalayan Bank limited data not found.</p>';
-                    document.getElementById('subInfo').innerHTML = '<p>Himalayan Bank limited subsidiaries data not found.</p>';
-                  document.getElementById('subInfo1').innerHTML = '<p>Himalayan Bank limited merger data not found.</p>';
+                    document.getElementById('bankInfo').innerHTML = '<p>Himalayan Bank Limited data not found.</p>';
+                    document.getElementById('subInfo').innerHTML = '<p>Himalayan Bank Limited subsidiaries data not found.</p>';
+                  document.getElementById('subInfo1').innerHTML = '<p>Himalayan Bank Limited merger data not found.</p>';
                 }
             } catch (error) {
                 console.error('Error fetching bank data:', error);
