@@ -345,7 +345,7 @@
 	  "ext": "3",
 	  "blb": "74",
 	  "fax": "01-4527044",
-	  "merger": "a. Nepal Housing &amp; Merchant Limited<br/>b. Peoples Finance Limited<br/>c. Premier Finance<br/>d. Sahayogi Bikas Bank Limited<br/>e.Srijana Finance Limited",
+	  "merger": "a. Nepal Housing &amp; Merchant Limited<br/>b. Peoples Finance Limited<br/>c. Premier Finance<br/>d. Sahayogi Bikas Bank Limited<br/>e. Srijana Finance Limited",
 	  "subsidiaries": "a. Citizens Capital Limited<br/>b. CBIL Securities Limited",
 	  "awards": "Bank of the Year 2024",
 	  "desc": "Citizens Bank International Limited has been established as a reliable and trustworthy partner for all financial solutions. Institutionalized by a highly professional and experienced team, we have gained credibility in the banking sector through quality financial service. Established on April 20, 2007 (2064/01/07) as 20th commercial bank of the nation, 'Citizens Bank International Limited', has its corporate office at the heart of the financial sector of the country, Narayanhiti Path, Kathmandu. It is promoted by eminent personalities, business and industrial houses and reputed individuals having high social standing and has been managed by a team of experienced bankers and professionals. "
@@ -369,11 +369,14 @@
 	"phone2": "01-4523432",
 	"email": "info@pcbl.com.np",
 	  "ceo": "Sanjeev Manandhar",
-	"pobox": "",
+	"pobox": "44600",
 	  "ATM": "",
 	  "branch": "",
 	  "ext": "",
-	  "blb": ""
+	  "blb": "",
+	  "merger": "a. Kailash Bikas Bank Limited ",
+	  "subsidiaries": "",
+	  "desc": "Prime Commercial Bank Ltd. was incorporated in September 2007 as the 21st commercial bank in Nepal. We are a Category ‘A’ Financial Institution registered under the “Banks and Financial Institutions Act” of Nepal. It has been established by prominent business personnel and professionals from diversified areas with a prime objective of providing 'Banking Services to Everyone' in the country where still large number of population are deprived of Banking Services.<br/>The bank has established itself as an emerging player in financial sector with focus in customer service excellence maintaining excellent relationship with valued customers. It is counted among the top 10 commercial banks in Nepal by independent raters and publications in the country."
   },
   {
     "SNO": 14,
@@ -428,6 +431,7 @@
 	  "branch": "165",
 	  "ext": "11",
 	  "blb": "99",
+	  "merger": "",
 	  "subsidiaries": "a. Machhapuchchhre Capital Limited",
 	  "desc": "Machhapuchchhre Bank Limited was registered in 1998 as the first regional commercial bank from the western region of Nepal and started its banking operations from Pokhara since year 2000.<br/>The Bank facilitates it's customers' need by delivering the best of services in combination with the latest state of the art technologies and prudent international practices.The bank provides modern banking facilities such as Any Branch Banking, Internet Banking, Mobile Banking, Safe Deposit Locker facilities, Utility Bill payment (Telephone & Mobile), ATM (VISA Debit Cards) to its valued customers. Besides these, the Bank is providing 365 Days Banking and Evening Counter services to the customers through many of its offices."
   },
