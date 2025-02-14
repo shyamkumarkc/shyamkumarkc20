@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Everest Bank Limited</title>
+    <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $('#header').load('/assets/header.html');
+            $('#footer').load('/assets/footer.html');
+            fetchBankData();
+        });
+    </script>
+</head>
+<body>
+    <div id="header"></div>
+    <h1>Everest Bank Limited</h1>
+  <div id="bankInfo1" class="bank-container"></div>
+   <table>
+     <tr>
+      <td id="atm" class="bank-container"></td>
+    <td id="branch" class="bank-container"></td>
+     <td id="ext" class="bank-container"></td>
+    <td id="blb" class="bank-container"></td>
+    </tr>
+    </table>
+    <h2>Everest Bank Limited</h2>
+    <div id="bankInfo" class="bank-container"></div>
+    
+    <h2>Merged BFIs</h2>
+     <div id="subInfo1" class="bank-container"></div>
+    <h2>Subsidiary Companies</h2>
+    <div id="subInfo" class="bank-container"></div>
+    <style>
+        table {
+           
+            border-collapse: collapse;
+        }
+        td {
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+        
+        #atm {
+            background-color: #add8e6; /* Light blue for ATM */
+        }
+        
+        #branch {
+            background-color: #90ee90; /* Light green for Branches */
+        }
+        
+        #ext {
+            background-color: #ffebcd; /* Blanched Almond for Extension Counters */
+        }
+        
+        #blb {
+            background-color: #ffcccb; /* Light red for Branchless Banking */
+        
+    </style>
+    
+    <script>
+        async function fetchBankData() {
+            try {
+                const response = await fetch('https://shyamkumarkc20.com.np/js/commercialbanks.json'); // Replace with actual API endpoint
+                const banks = await response.json();
+                
+                // Filter for Everest Bank Limited
+                const everestBank = banks.find(bank => bank.Name === "Everest Bank Limited");
+                
+                if (everestBank) {
+                    document.getElementById('bankInfo').innerHTML = `
+                        <img src="${everestBank.IMG}" alt="Everest Bank Limited Logo" class="bank-logo">
+                        <p><strong>Name:</strong> ${everestBank.Name}</p>
+                        <p><strong>Established:</strong> ${everestBank.ODAD} [ ${everestBank.ODBS} ]</p>
+                        <p><strong>Head Office:</strong> ${everestBank.HO}</p>
+                        <p><strong>CEO:</strong> ${everestBank.ceo}</p>
+                        <p><strong>NEPSE Code:</strong> ${everestBank.NEPSE}</p>
+                        <p><strong>Swift Code:</strong> ${everestBank.Swift}</p>
+                        <p><strong>Phone:</strong> <a href="tel:${everestBank.phone1}">${everestBank.phone1}</a></p>
+                        <p><strong>Toll Free:</strong> <a href="tel:${everestBank.TOLL}">${everestBank.TOLL}</a></p>
+                        <p><strong>Email:</strong> <a href="mailto:${everestBank.email}">${everestBank.email}</a></p>
+                        <p><strong>Website:</strong> <a href="https://${everestBank.Website}" target="_blank">${everestBank.Website}</a></p>
+                    `;
+                    document.getElementById('atm').innerHTML = `<p>ATM: ${everestBank.ATM}</p>`;
+                    document.getElementById('ext').innerHTML = `<p>Extention Counters: ${everestBank.ext}</p>`;
+                    document.getElementById('blb').innerHTML = `<p>Branchless Banking: ${everestBank.blb}</p>`;
+                    document.getElementById('branch').innerHTML = `<p>Branches: ${everestBank.branch}</p>`;
+                    document.getElementById('subInfo1').innerHTML = `<p>${everestBank.merger}</p>`;
+                  document.getElementById('bankInfo1').innerHTML = `<p>${everestBank.desc}</p>`;
+                    document.getElementById('subInfo').innerHTML = `<p>${everestBank.subsidiaries}</p>`;
+                } else {
+                    document.getElementById('bankInfo').innerHTML = '<p>Everest Bank Limited data not found.</p>';
+                    document.getElementById('subInfo').innerHTML = '<p>Everest Bank Limited subsidiaries data not found.</p>';
+                  document.getElementById('subInfo1').innerHTML = '<p>Everest Bank Limited merger data not found.</p>';
+                }
+            } catch (error) {
+                console.error('Error fetching bank data:', error);
+                document.getElementById('bankInfo').innerHTML = '<p>Error loading bank details.</p>';
+                document.getElementById('subInfo').innerHTML = '<p>Error loading subsidiaries details.</p>';
+              document.getElementById('subInfo1').innerHTML = '<p>Error loading merger details.</p>';
+            }
+        }
+    </script>
+    
+    <div id="footer"></div>
+</body>
+</html>
