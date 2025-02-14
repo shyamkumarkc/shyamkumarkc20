@@ -229,7 +229,9 @@
 	  "branch": "100",
 	  "ext": "22",
 	  "blb": "19",
-	  "subsidiaries": "a. Nepal SBI Merchant Banking Limited"
+	  "subsidiaries": "a. Nepal SBI Merchant Banking Limited",
+	  "merger": "",
+	  "desc": ""
   },
   {
     "SNO": 9,
@@ -256,7 +258,9 @@
 	  "ATM": "",
 	  "branch": "",
 	  "ext": "",
-	  "blb": ""
+	  "blb": "",
+	  "merger": "",
+	  "desc": ""
   },
   {
     "SNO": 10,
