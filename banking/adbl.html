@@ -58,7 +58,7 @@
     <td id="blb" class="bank-container"></td>
     </tr>
     </table>
-    <h2>Agriculture Development Bank Limited</h2>
+    <h2>Agricultural Development Bank Limited</h2>
     <div id="bankInfo" class="bank-container"></div>
     
     <h2>Merged BFIs</h2>
@@ -99,12 +99,12 @@
                 const response = await fetch('https://shyamkumarkc20.com.np/js/commercialbanks.json'); // Replace with actual API endpoint
                 const banks = await response.json();
                 
-                // Filter for Agriculture Development Bank Limited
-                const adblBank = banks.find(bank => bank.Name === "Agriculture Development Bank Limited");
+                // Filter for Agricultural Development Bank Limited
+                const adblBank = banks.find(bank => bank.Name === "Agricultural Development Bank Limited");
                 
                 if (adblBank) {
                     document.getElementById('bankInfo').innerHTML = `
-                        <img src="${adblBank.IMG}" alt="Agriculture Development Bank Limited Logo" class="bank-logo">
+                        <img src="${adblBank.IMG}" alt="Agricultural Development Bank Limited Logo" class="bank-logo">
                         <p><strong>Name:</strong> ${adblBank.Name}</p>
                         <p><strong>Established:</strong> ${adblBank.ODAD} [ ${adblBank.ODBS} ]</p>
                         <p><strong>Head Office:</strong> ${adblBank.HO}</p>
@@ -124,9 +124,9 @@
                   document.getElementById('bankInfo1').innerHTML = `<p>${adblBank.desc}</p>`;
                     document.getElementById('subInfo').innerHTML = `<p>${adblBank.subsidiaries}</p>`;
                 } else {
-                    document.getElementById('bankInfo').innerHTML = '<p>Agriculture Development Bank Limited data not found.</p>';
-                    document.getElementById('subInfo').innerHTML = '<p>Agriculture Development Bank Limited subsidiaries data not found.</p>';
-                  document.getElementById('subInfo1').innerHTML = '<p>Agriculture Development Bank Limited merger data not found.</p>';
+                    document.getElementById('bankInfo').innerHTML = '<p>Agricultural Development Bank Limited data not found.</p>';
+                    document.getElementById('subInfo').innerHTML = '<p>Agricultural Development Bank Limited subsidiaries data not found.</p>';
+                  document.getElementById('subInfo1').innerHTML = '<p>Agricultural Development Bank Limited merger data not found.</p>';
                 }
             } catch (error) {
                 console.error('Error fetching bank data:', error);
