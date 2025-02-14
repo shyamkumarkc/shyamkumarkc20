@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Citizen International Bank Limited</title>
+    <title>Prime Commercial Bank Limited</title>
     <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script>
@@ -14,7 +14,7 @@
 </head>
 <body>
     <div id="header"></div>
-    <h1>Citizen International Bank Limited</h1>
+    <h1>Prime Commercial Bank Limited</h1>
   <div id="bankInfo1" class="bank-container"></div>
    <table>
      <tr>
@@ -24,7 +24,7 @@
     <td id="blb" class="bank-container"></td>
     </tr>
     </table>
-    <h2>Citizen International Bank Limited</h2>
+    <h2>Prime Commercial Bank Limited</h2>
     <div id="bankInfo" class="bank-container"></div>
     
     <h2>Merged BFIs</h2>
@@ -65,34 +65,34 @@
                 const response = await fetch('https://shyamkumarkc20.com.np/js/commercialbanks.json'); // Replace with actual API endpoint
                 const banks = await response.json();
                 
-                // Filter for Citizen International Bank Limited
-                const citizenBank = banks.find(bank => bank.Name === "Citizen International Bank Limited");
+                // Filter for Prime Commercial Bank Limited
+                const primeBank = banks.find(bank => bank.Name === "Prime Commercial Bank Limited");
                 
-                if (citizenBank) {
+                if (primeBank) {
                     document.getElementById('bankInfo').innerHTML = `
-                        <img src="${citizenBank.IMG}" alt="Citizen International Bank Limited Logo" class="bank-logo">
-                        <p><strong>Name:</strong> ${citizenBank.Name}</p>
-                        <p><strong>Established:</strong> ${citizenBank.ODAD} [ ${citizenBank.ODBS} ]</p>
-                        <p><strong>Head Office:</strong> ${citizenBank.HO}</p>
-                        <p><strong>CEO:</strong> ${citizenBank.ceo}</p>
-                        <p><strong>NEPSE Code:</strong> ${citizenBank.NEPSE}</p>
-                        <p><strong>Swift Code:</strong> ${citizenBank.Swift}</p>
-                        <p><strong>Phone:</strong> <a href="tel:${citizenBank.phone1}">${citizenBank.phone1}</a></p>
-                        <p><strong>Toll Free:</strong> <a href="tel:${citizenBank.TOLL}">${citizenBank.TOLL}</a></p>
-                        <p><strong>Email:</strong> <a href="mailto:${citizenBank.email}">${citizenBank.email}</a></p>
-                        <p><strong>Website:</strong> <a href="https://${citizenBank.Website}" target="_blank">${citizenBank.Website}</a></p>
+                        <img src="${primeBank.IMG}" alt="Prime Commercial Bank Limited Logo" class="bank-logo">
+                        <p><strong>Name:</strong> ${primeBank.Name}</p>
+                        <p><strong>Established:</strong> ${primeBank.ODAD} [ ${primeBank.ODBS} ]</p>
+                        <p><strong>Head Office:</strong> ${primeBank.HO}</p>
+                        <p><strong>CEO:</strong> ${primeBank.ceo}</p>
+                        <p><strong>NEPSE Code:</strong> ${primeBank.NEPSE}</p>
+                        <p><strong>Swift Code:</strong> ${primeBank.Swift}</p>
+                        <p><strong>Phone:</strong> <a href="tel:${primeBank.phone1}">${primeBank.phone1}</a></p>
+                        <p><strong>Toll Free:</strong> <a href="tel:${primeBank.TOLL}">${primeBank.TOLL}</a></p>
+                        <p><strong>Email:</strong> <a href="mailto:${primeBank.email}">${primeBank.email}</a></p>
+                        <p><strong>Website:</strong> <a href="https://${primeBank.Website}" target="_blank">${primeBank.Website}</a></p>
                     `;
-                    document.getElementById('atm').innerHTML = `<p>ATM: ${citizenBank.ATM}</p>`;
-                    document.getElementById('ext').innerHTML = `<p>Extention Counters: ${citizenBank.ext}</p>`;
-                    document.getElementById('blb').innerHTML = `<p>Branchless Banking: ${citizenBank.blb}</p>`;
-                    document.getElementById('branch').innerHTML = `<p>Branches: ${citizenBank.branch}</p>`;
-                    document.getElementById('subInfo1').innerHTML = `<p>${citizenBank.merger}</p>`;
-                  document.getElementById('bankInfo1').innerHTML = `<p>${citizenBank.desc}</p>`;
-                    document.getElementById('subInfo').innerHTML = `<p>${citizenBank.subsidiaries}</p>`;
+                    document.getElementById('atm').innerHTML = `<p>ATM: ${primeBank.ATM}</p>`;
+                    document.getElementById('ext').innerHTML = `<p>Extention Counters: ${primeBank.ext}</p>`;
+                    document.getElementById('blb').innerHTML = `<p>Branchless Banking: ${primeBank.blb}</p>`;
+                    document.getElementById('branch').innerHTML = `<p>Branches: ${primeBank.branch}</p>`;
+                    document.getElementById('subInfo1').innerHTML = `<p>${primeBank.merger}</p>`;
+                  document.getElementById('bankInfo1').innerHTML = `<p>${primeBank.desc}</p>`;
+                    document.getElementById('subInfo').innerHTML = `<p>${primeBank.subsidiaries}</p>`;
                 } else {
-                    document.getElementById('bankInfo').innerHTML = '<p>Citizen International Bank Limited data not found.</p>';
-                    document.getElementById('subInfo').innerHTML = '<p>Citizen International Bank Limited subsidiaries data not found.</p>';
-                  document.getElementById('subInfo1').innerHTML = '<p>Citizen International Bank Limited merger data not found.</p>';
+                    document.getElementById('bankInfo').innerHTML = '<p>Prime Commercial Bank Limited data not found.</p>';
+                    document.getElementById('subInfo').innerHTML = '<p>Prime Commercial Bank Limited subsidiaries data not found.</p>';
+                  document.getElementById('subInfo1').innerHTML = '<p>Prime Commercial Bank Limited merger data not found.</p>';
                 }
             } catch (error) {
                 console.error('Error fetching bank data:', error);
