@@ -567,8 +567,67 @@ b. Nepal Bangladesh Bank</td>
 </tr>
 </tbody>
 </table>
+<h2>
+History of Merger and Acquisition in Nepal</h2>
 
-<script>
+
+<br />
+	<style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+<table border="black" >
+<thead>
+<tr>
+<th>S.No.</th>
+<th>BFI Name before Merger</th>
+	<th>BFI Merged</th>
+<th>BFI Name after Merger</th>
+
+
+</tr>
+</thead>
+
+      <tbody id="data-output">
+         <!-- Prodcuts from javascript file in here. -->
+      </tbody>
+   </table>
+ 
+   <script>
+   fetch("https://shyamkumarkc20.com.np/js/merger.json")
+.then(function(response){
+   return response.json();
+})
+.then(function(products){
+   let placeholder = document.querySelector("#data-output");
+   let out = "";
+   for(let product of products){
+      out += `
+         <tr>            
+            <td>${product.SNo}</td>
+             <td>${product.Name}</td>	   
+			<td>${product.BFI}</td>			
+			<td>${product.Merger}</td>            
+            
+         </tr>
+      `;
+   }
+ 
+   placeholder.innerHTML = out;
+});
+
+
 $(function(){
 $('#footer').load('/assets/footer.html');
 });
