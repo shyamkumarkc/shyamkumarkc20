@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Standard Chatered Bank Limited</title>
+    <title>Himalayan Bank limited</title>
     <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script>
@@ -14,7 +14,7 @@
 </head>
 <body>
     <div id="header"></div>
-    <h1>Standard Chatered Bank Limited</h1>
+    <h1>Himalayan Bank limited</h1>
   <div id="bankInfo1" class="bank-container"></div>
    <table>
      <tr>
@@ -24,7 +24,7 @@
     <td id="blb" class="bank-container"></td>
     </tr>
     </table>
-    <h2>Standard Chatered Bank Limited</h2>
+    <h2>Himalayan Bank limited</h2>
     <div id="bankInfo" class="bank-container"></div>
     
     <h2>Merged BFIs</h2>
@@ -65,34 +65,34 @@
                 const response = await fetch('https://shyamkumarkc20.com.np/js/commercialbanks.json'); // Replace with actual API endpoint
                 const banks = await response.json();
                 
-                // Filter for Standard Chatered Bank Limited
-                const scBank = banks.find(bank => bank.Name === "Standard Chatered Bank Limited");
+                // Filter for Himalayan Bank limited
+                const himalayanBank = banks.find(bank => bank.Name === "Himalayan Bank limited");
                 
-                if (scBank) {
+                if (himalayanBank) {
                     document.getElementById('bankInfo').innerHTML = `
-                        <img src="${scBank.IMG}" alt="Standard Chatered Bank Limited Logo" class="bank-logo">
-                        <p><strong>Name:</strong> ${scBank.Name}</p>
-                        <p><strong>Established:</strong> ${scBank.ODAD} [ ${scBank.ODBS} ]</p>
-                        <p><strong>Head Office:</strong> ${scBank.HO}</p>
-                        <p><strong>CEO:</strong> ${scBank.ceo}</p>
-                        <p><strong>NEPSE Code:</strong> ${scBank.NEPSE}</p>
-                        <p><strong>Swift Code:</strong> ${scBank.Swift}</p>
-                        <p><strong>Phone:</strong> <a href="tel:${scBank.phone1}">${scBank.phone1}</a></p>
-                        <p><strong>Toll Free:</strong> <a href="tel:${scBank.TOLL}">${scBank.TOLL}</a></p>
-                        <p><strong>Email:</strong> <a href="mailto:${scBank.email}">${scBank.email}</a></p>
-                        <p><strong>Website:</strong> <a href="https://${scBank.Website}" target="_blank">${scBank.Website}</a></p>
+                        <img src="${himalayanBank.IMG}" alt="Himalayan Bank limited Logo" class="bank-logo">
+                        <p><strong>Name:</strong> ${himalayanBank.Name}</p>
+                        <p><strong>Established:</strong> ${himalayanBank.ODAD} [ ${himalayanBank.ODBS} ]</p>
+                        <p><strong>Head Office:</strong> ${himalayanBank.HO}</p>
+                        <p><strong>CEO:</strong> ${himalayanBank.ceo}</p>
+                        <p><strong>NEPSE Code:</strong> ${himalayanBank.NEPSE}</p>
+                        <p><strong>Swift Code:</strong> ${himalayanBank.Swift}</p>
+                        <p><strong>Phone:</strong> <a href="tel:${himalayanBank.phone1}">${himalayanBank.phone1}</a></p>
+                        <p><strong>Toll Free:</strong> <a href="tel:${himalayanBank.TOLL}">${himalayanBank.TOLL}</a></p>
+                        <p><strong>Email:</strong> <a href="mailto:${himalayanBank.email}">${himalayanBank.email}</a></p>
+                        <p><strong>Website:</strong> <a href="https://${himalayanBank.Website}" target="_blank">${himalayanBank.Website}</a></p>
                     `;
-                    document.getElementById('atm').innerHTML = `<p>ATM: ${scBank.ATM}</p>`;
-                    document.getElementById('ext').innerHTML = `<p>Extention Counters: ${scBank.ext}</p>`;
-                    document.getElementById('blb').innerHTML = `<p>Branchless Banking: ${scBank.blb}</p>`;
-                    document.getElementById('branch').innerHTML = `<p>Branches: ${scBank.branch}</p>`;
-                    document.getElementById('subInfo1').innerHTML = `<p>${scBank.merger}</p>`;
-                  document.getElementById('bankInfo1').innerHTML = `<p>${scBank.desc}</p>`;
-                    document.getElementById('subInfo').innerHTML = `<p>${scBank.subsidiaries}</p>`;
+                    document.getElementById('atm').innerHTML = `<p>ATM: ${himalayanBank.ATM}</p>`;
+                    document.getElementById('ext').innerHTML = `<p>Extention Counters: ${himalayanBank.ext}</p>`;
+                    document.getElementById('blb').innerHTML = `<p>Branchless Banking: ${himalayanBank.blb}</p>`;
+                    document.getElementById('branch').innerHTML = `<p>Branches: ${himalayanBank.branch}</p>`;
+                    document.getElementById('subInfo1').innerHTML = `<p>${himalayanBank.merger}</p>`;
+                  document.getElementById('bankInfo1').innerHTML = `<p>${himalayanBank.desc}</p>`;
+                    document.getElementById('subInfo').innerHTML = `<p>${himalayanBank.subsidiaries}</p>`;
                 } else {
-                    document.getElementById('bankInfo').innerHTML = '<p>Standard Chatered Bank Limited data not found.</p>';
-                    document.getElementById('subInfo').innerHTML = '<p>Standard Chatered Bank Limited subsidiaries data not found.</p>';
-                  document.getElementById('subInfo1').innerHTML = '<p>Standard Chatered Bank Limited merger data not found.</p>';
+                    document.getElementById('bankInfo').innerHTML = '<p>Himalayan Bank limited data not found.</p>';
+                    document.getElementById('subInfo').innerHTML = '<p>Himalayan Bank limited subsidiaries data not found.</p>';
+                  document.getElementById('subInfo1').innerHTML = '<p>Himalayan Bank limited merger data not found.</p>';
                 }
             } catch (error) {
                 console.error('Error fetching bank data:', error);
