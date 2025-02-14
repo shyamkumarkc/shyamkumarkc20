@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Nepal SBI Bank Limited</title>
+    <title>Machhapuchchhre Bank Limited</title>
     <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script>
@@ -14,7 +14,7 @@
 </head>
 <body>
     <div id="header"></div>
-    <h1>Nepal SBI Bank Limited</h1>
+    <h1>Machhapuchchhre Bank Limited</h1>
   <div id="bankInfo1" class="bank-container"></div>
    <table>
      <tr>
@@ -24,7 +24,7 @@
     <td id="blb" class="bank-container"></td>
     </tr>
     </table>
-    <h2>Nepal SBI Bank Limited</h2>
+    <h2>Machhapuchchhre Bank Limited</h2>
     <div id="bankInfo" class="bank-container"></div>
     
     <h2>Merged BFIs</h2>
@@ -65,34 +65,34 @@
                 const response = await fetch('https://shyamkumarkc20.com.np/js/commercialbanks.json'); // Replace with actual API endpoint
                 const banks = await response.json();
                 
-                // Filter for Nepal SBI Bank Limited
-                const nsbiBank = banks.find(bank => bank.Name === "Nepal SBI Bank Limited");
+                // Filter for Machhapuchchhre Bank Limited
+                const machBank = banks.find(bank => bank.Name === "Machhapuchchhre Bank Limited");
                 
-                if (nsbiBank) {
+                if (machBank) {
                     document.getElementById('bankInfo').innerHTML = `
-                        <img src="${nsbiBank.IMG}" alt="Nepal SBI Bank Limited Logo" class="bank-logo">
-                        <p><strong>Name:</strong> ${nsbiBank.Name}</p>
-                        <p><strong>Established:</strong> ${nsbiBank.ODAD} [ ${nsbiBank.ODBS} ]</p>
-                        <p><strong>Head Office:</strong> ${nsbiBank.HO}</p>
-                        <p><strong>CEO:</strong> ${nsbiBank.ceo}</p>
-                        <p><strong>NEPSE Code:</strong> ${nsbiBank.NEPSE}</p>
-                        <p><strong>Swift Code:</strong> ${nsbiBank.Swift}</p>
-                        <p><strong>Phone:</strong> <a href="tel:${nsbiBank.phone1}">${nsbiBank.phone1}</a></p>
-                        <p><strong>Toll Free:</strong> <a href="tel:${nsbiBank.TOLL}">${nsbiBank.TOLL}</a></p>
-                        <p><strong>Email:</strong> <a href="mailto:${nsbiBank.email}">${nsbiBank.email}</a></p>
-                        <p><strong>Website:</strong> <a href="https://${nsbiBank.Website}" target="_blank">${nsbiBank.Website}</a></p>
+                        <img src="${machBank.IMG}" alt="Machhapuchchhre Bank Limited Logo" class="bank-logo">
+                        <p><strong>Name:</strong> ${machBank.Name}</p>
+                        <p><strong>Established:</strong> ${machBank.ODAD} [ ${machBank.ODBS} ]</p>
+                        <p><strong>Head Office:</strong> ${machBank.HO}</p>
+                        <p><strong>CEO:</strong> ${machBank.ceo}</p>
+                        <p><strong>NEPSE Code:</strong> ${machBank.NEPSE}</p>
+                        <p><strong>Swift Code:</strong> ${machBank.Swift}</p>
+                        <p><strong>Phone:</strong> <a href="tel:${machBank.phone1}">${machBank.phone1}</a></p>
+                        <p><strong>Toll Free:</strong> <a href="tel:${machBank.TOLL}">${machBank.TOLL}</a></p>
+                        <p><strong>Email:</strong> <a href="mailto:${machBank.email}">${machBank.email}</a></p>
+                        <p><strong>Website:</strong> <a href="https://${machBank.Website}" target="_blank">${machBank.Website}</a></p>
                     `;
-                    document.getElementById('atm').innerHTML = `<p>ATM: ${nsbiBank.ATM}</p>`;
-                    document.getElementById('ext').innerHTML = `<p>Extention Counters: ${nsbiBank.ext}</p>`;
-                    document.getElementById('blb').innerHTML = `<p>Branchless Banking: ${nsbiBank.blb}</p>`;
-                    document.getElementById('branch').innerHTML = `<p>Branches: ${nsbiBank.branch}</p>`;
-                    document.getElementById('subInfo1').innerHTML = `<p>${nsbiBank.merger}</p>`;
-                  document.getElementById('bankInfo1').innerHTML = `<p>${nsbiBank.desc}</p>`;
-                    document.getElementById('subInfo').innerHTML = `<p>${nsbiBank.subsidiaries}</p>`;
+                    document.getElementById('atm').innerHTML = `<p>ATM: ${machBank.ATM}</p>`;
+                    document.getElementById('ext').innerHTML = `<p>Extention Counters: ${machBank.ext}</p>`;
+                    document.getElementById('blb').innerHTML = `<p>Branchless Banking: ${machBank.blb}</p>`;
+                    document.getElementById('branch').innerHTML = `<p>Branches: ${machBank.branch}</p>`;
+                    document.getElementById('subInfo1').innerHTML = `<p>${machBank.merger}</p>`;
+                  document.getElementById('bankInfo1').innerHTML = `<p>${machBank.desc}</p>`;
+                    document.getElementById('subInfo').innerHTML = `<p>${machBank.subsidiaries}</p>`;
                 } else {
-                    document.getElementById('bankInfo').innerHTML = '<p>Nepal SBI Bank Limited data not found.</p>';
-                    document.getElementById('subInfo').innerHTML = '<p>Nepal SBI Bank Limited subsidiaries data not found.</p>';
-                  document.getElementById('subInfo1').innerHTML = '<p>Nepal SBI Bank Limited merger data not found.</p>';
+                    document.getElementById('bankInfo').innerHTML = '<p>Machhapuchchhre Bank Limited data not found.</p>';
+                    document.getElementById('subInfo').innerHTML = '<p>Machhapuchchhre Bank Limited subsidiaries data not found.</p>';
+                  document.getElementById('subInfo1').innerHTML = '<p>Machhapuchchhre Bank Limited merger data not found.</p>';
                 }
             } catch (error) {
                 console.error('Error fetching bank data:', error);
