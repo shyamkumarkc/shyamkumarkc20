@@ -52,15 +52,49 @@
         "Name": "NMB Bank Limited",
         "BFI": "a. Pathivara Bikas Bank Limited <br/>b. Bhrikuti Bikas Bank Limited<br/>c. Clean Energy Development Bank Limited<br/>d. Prudential Development Bank Limited<br/>e. Om Development Bank Limited<br/>f. Kanchan Development Bank Limited",
         "Merger": "NMB Bank Limited"
-    }
-    ,
+    },
     {
         "SNo": "10",
         "Name": "Prime Commercial Bank Limited",
         "BFI": "a. BiratLaxmi Bikas Bank<br/>b. Country Development Bank<br/>c. Kailash Bikas Bank<br/>d. Kankai Development Bank",
         "Merger": "Prime Commercial Bank Limited"
-    }
-    ,
+    },
+    {
+        "SNo": "11",
+        "Name": "Himalayan Bank Limited",
+        "BFI": "Civil Bank Limited",
+        "Merger": "Himalayan Bank Limited"
+    },
+    {
+        "SNo": "",
+        "Name": "",
+        "BFI": "",
+        "Merger": ""
+    },
+    {
+        "SNo": "",
+        "Name": "",
+        "BFI": "",
+        "Merger": ""
+    },
+    {
+        "SNo": "",
+        "Name": "",
+        "BFI": "",
+        "Merger": ""
+    },
+    {
+        "SNo": "",
+        "Name": "",
+        "BFI": "",
+        "Merger": ""
+    },
+    {
+        "SNo": "",
+        "Name": "",
+        "BFI": "",
+        "Merger": ""
+    },
     {
         "SNo": "",
         "Name": "",
