@@ -18,7 +18,10 @@
 	  "phone2": "",
 	"email": "info@mahalaxmibank.com.np",
 	"pobox": "0",
-	"fax": "01-4269308"
+	"fax": "01-4269308",
+	  "ceo" : "",
+	   "subsidiaries" : ""
+	  
 	
   },
   {
@@ -39,7 +42,9 @@
 	"phone1": "056-560608",
 	  "phone2": "056-561258",
 	"email": "",
-	"pobox": "0"
+	"pobox": "0",
+	  "ceo" : "",
+	   "subsidiaries" : ""
 	
   },
   {
@@ -60,7 +65,9 @@
 	"phone1": "01-5970052",
 	  "phone2": "",
 	"email": "info@shangrilabank.com",
-	"pobox": "0"
+	"pobox": "0",
+	  "ceo" : "",
+	   "subsidiaries" : ""
 	
   },
   {
@@ -81,7 +88,9 @@
 	"phone1": "023-533563",
 	  "phone2": "023-534010",
 	"email": "info@edb.com.np",
-	"pobox": "0"
+	"pobox": "0",
+	  "ceo" : "",
+	   "subsidiaries" : ""
 	
   },
   {
@@ -102,7 +111,9 @@
 	"phone1": "025-536317",
 	  "phone2": "025-538317",
 	"email": "info@miteribank.com.np",
-	"pobox": "0"
+	"pobox": "0",
+	  "ceo" : "",
+	   "subsidiaries" : ""
 	
   },
   {
@@ -123,7 +134,9 @@
 	"phone1": "01-4537324",
 	  "phone2": "01 4538714",
 	"email": "info@muktinathbank.com.np",
-	"pobox": "0"
+	"pobox": "0",
+	  "ceo" : "",
+	   "subsidiaries" : ""
 	
   },
 	{
@@ -144,7 +157,9 @@
 	"phone1": "081-415040",
 	"phone2": "01415074",
 	"email": "info@kdblnepal.com",
-	"pobox": "0"
+	"pobox": "0",
+	  "ceo" : "",
+	   "subsidiaries" : ""
 	
   },
 	{
@@ -165,7 +180,9 @@
 	"phone1": "01-5970179",
 		"phone2": "",
 	"email": "info@garimabank.com.np",
-	"pobox": "0"
+	"pobox": "0",
+	  "ceo" : "",
+	   "subsidiaries" : ""
 	
   },
 	{
@@ -186,7 +203,9 @@
 	"phone1": "01-5970030",
 	  "phone2": "",
 	"email": "customercare@kamanasewabank.com",
-	"pobox": "0"
+	"pobox": "0",
+	  "ceo" : "",
+	   "subsidiaries" : ""
 	
   },
 	{
@@ -208,7 +227,9 @@
 	  "phone2": "",
 	"email": " info@corporatebank.com.np",
 	"pobox": "0",
-	"fax": "051-527843"
+	"fax": "051-527843",
+	  "ceo" : "",
+	   "subsidiaries" : ""
 	
   },
 	{
@@ -229,7 +250,9 @@
 	"phone1": "015970306",
 		"phone2": "015970307", 
 	"email": "info@jbbl.com.np",
-	"pobox": "6518"
+	"pobox": "6518",
+	  "ceo": "",
+	   "subsidiaries": ""
 	
   },
 	{
@@ -250,7 +273,9 @@
 	"phone1": "071- 415502",
 	"phone2": "071415503",
 	"email": "info@srdb.com.np",
-	"pobox": "0"
+	"pobox": "0",
+	  "ceo" : "",
+	   "subsidiaries" : ""
 	
   },
 	{
@@ -272,7 +297,9 @@
 	"phone2": "014521696",
 	"email": "info@lumbinibikasbank.com",
 	"pobox": "20700",
-	"fax": "01-4513526"
+	"fax": "01-4513526",
+	  "ceo" : "",
+	   "subsidiaries" : ""
 	
   },
 	{
@@ -293,7 +320,9 @@
 	"phone1": "011-662340",
 	"phone2": "011-662341",
 	"email": "info@sindhubank.com.np",
-	"pobox": "0"
+	"pobox": "0",
+	  "ceo" : "",
+	   "subsidiaries" : ""
 	
   },
 	{
@@ -314,7 +343,9 @@
 	"phone1": "036420457",
 	"phone2": "036420638",
 	"email": "info@salapabikasbank.com.np",
-	"pobox": "0"
+	"pobox": "0",
+	  "ceo" : "",
+	   "subsidiaries" : ""
 	
   },
 	{
@@ -335,7 +366,9 @@
 	"phone1": "021-518135",
 	"phone2": "021518137",
 	"email": "info@skdbl.com.np",
-	"pobox": "0"
+	"pobox": "0",
+	  "ceo" : "",
+	   "subsidiaries" : ""
 	
   },
   {
@@ -357,7 +390,9 @@
 	  "phone2": "",
 	"email": "info@greenbank.com.np",
 	"pobox": "0",
-	"fax": "061-533634"
+	"fax": "061-533634",
+	  "ceo": "",
+	   "subsidiaries": ""
 	
   }
   ]
