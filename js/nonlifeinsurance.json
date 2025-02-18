@@ -8,24 +8,28 @@
 	"HO": "Thapagaun, Kathmandu ",
 	"PO": "",
 	"Fax": "015245099 ",
-	"Phone" :"01-5245090",
-    "Email" : "ktm@hei.com.np",
+	"phone1": "01-5245090",
+	  "phone2": "",
+    "email":  "ktm@hei.com.np",
 	"IMG": "https://shyamkumarkc20.com.np/logo/hei.png",
     "Website": "www.hei.com.np"
   },
   {
-    "Sno": "2",
-	  "class": "nonlifeinsurance",
-    "Name": "IGI Prudential Insurance Company Limited",
-    "Operation": "2080 B.S (2023 A.D) ",
-    "NEPSE": "IGI",
-	"HO": "Naxal, Kathmandu",
-	"PO": "",
-	"Fax": "01-4511736",
-	"Phone" : "01 4511520, 4511735, 4525508, 4525509",
-    "Email": "info@igiprudential.com",
-	"IMG": "https://shyamkumarkc20.com.np/logo/igi.png",
-    "Website": "www.igiprudential.com "
+"Sno": "2",
+"class": "nonlifeinsurance",
+"Name": "IGI Prudential Insurance Company Limited",
+"Operation": "2080 B.S (2023 A.D) ",
+"NEPSE": "IGI",
+"HO": "Naxal, Kathmandu",
+"PO": "",
+"Fax": "01-4511736",
+"phone1": "01 4511520",
+	  "phone2": "014511735", 
+"email": "info@igiprudential.com",
+"IMG": "https://shyamkumarkc20.com.np/logo/igi.png",
+"Website": "www.igiprudential.com ",
+"merger": "a. IME General Insurance Limited<br/>b. Prudential Insurance Company Limited",
+"subsidiaries": ""
   },
   {
     "Sno": "3",
@@ -36,10 +40,13 @@
 	"HO": "Tripureshwor, Kathmandu",
 	"PO": "",
 	"Fax": "",
-	"Phone" :"0977-1-4260366 / 4250710 / 4254045",
-    "Email" : " info@nicnepal.com.np",
+	"phone1": "01-4260366",
+	  "phone2": "014250710",
+    "email":  " info@nicnepal.com.np",
 	"IMG": "https://shyamkumarkc20.com.np/logo/",
-    "Website": "www.nicnepal.com.np "
+    "Website": "www.nicnepal.com.np ",
+"merger": "",
+"subsidiaries": ""
   },
   {
     "Sno": "4",
@@ -50,10 +57,13 @@
 	"HO": "BEEMA BHAWAN, GYANESHWOR",
 	"PO": "12271",
 	"Fax": "",
-	"Phone" :"01-4542263",
-    "Email" : "info@neco.com.np",
+	"phone1": "01-4542263",
+	   "phone2": "",
+    "email":  "info@neco.com.np",
 	"IMG": "https://shyamkumarkc20.com.np/logo/neco.png",
-    "Website": "www.neco.com.np"
+    "Website": "www.neco.com.np",
+"merger": "",
+"subsidiaries": ""
   },
   {
     "Sno": "5",
@@ -64,10 +74,12 @@
 	"HO": "Ganeshthan, Kamaladi",
 	"PO": "3623",
 	"Fax": "01-5325446",
-	"Phone" :"5321353, 5328690, 5345565/68",
-    "Email" : "nic@nepalinsurance.com.np",
+	"phone1": "015321353", "phone2": "015328690",
+    "email":  "nic@nepalinsurance.com.np",
 	"IMG": "https://shyamkumarkc20.com.np/logo/nic.jpg",
-    "Website": "www.nepalinsurance.com.np "
+    "Website": "www.nepalinsurance.com.np ",
+"merger": "",
+"subsidiaries": ""
   },
   {
     "Sno": "6",
@@ -78,10 +90,12 @@
 	"HO": "Lazimpat, Kathmandu",
 	"PO": "",
 	"Fax": "01-4416427",
-	"Phone" :"01- 4542646, 01-4006648",
-    "Email" : "info@nlgi.com.np",
+	"phone1": "01-4542646", "phone2": "01-4006648",
+    "email":  "info@nlgi.com.np",
 	"IMG": "https://shyamkumarkc20.com.np/logo/nlg.png",
-    "Website": "www.nlg.com.np"
+    "Website": "www.nlg.com.np",
+"merger": "",
+"subsidiaries": ""
   },
   {
     "Sno": "7",
@@ -93,10 +107,12 @@
 	"Toll": "16600100066",
 	"PO": "10811",
 	"Fax": "01-5199247",
-	"Phone" :"01-5199220, 5199226",
-    "Email" : "info@prabhuinsurance.com",
+	"phone1": "01-5199220", "phone2": "015199226",
+    "email": "info@prabhuinsurance.com",
 	"IMG": "https://shyamkumarkc20.com.np/logo/prin.png",
-    "Website": "www.prabhuinsurance.com"
+    "Website": "www.prabhuinsurance.com",
+"merger": "",
+"subsidiaries": ""
   },
   {
     "Sno": "8",
@@ -107,10 +123,12 @@
 	"HO": "RBCL Building, Ramshahpath",
 	"PO": "01-5358866",
 	"Fax": "01-5358721",
-	"Phone" :"",
-    "Email" : "info@rbcl.gov.np",
+	"phone1":"", "phone2": "",
+    "email": "info@rbcl.gov.np",
 	"IMG": "https://shyamkumarkc20.com.np/logo/rbcl.png",
-    "Website": "www.rbcl.gov.np"
+    "Website": "www.rbcl.gov.np",
+"merger": "",
+"subsidiaries": ""
   },
   {
     "Sno": "9",
@@ -122,10 +140,13 @@
 	"PO": "",
 	"Fax": "",
 	"Toll": " 16600166666",
-	"Phone" :"01-4529042/4529043",
-    "Email" : " info@salico.com.np",
+	"phone1": "01-4529042",
+	  "phone2": "014529043",
+    "email":  " info@salico.com.np",
 	"IMG": "https://shyamkumarkc20.com.np/logo/salico.png",
-    "Website": "www.salico.com.np"
+    "Website": "www.salico.com.np",
+"merger": "a. Sagarmatha Insurance Company Limited<br/>b. Lumbini General Insurance Company Limited",
+"subsidiaries": ""
   },
   {
     
@@ -137,11 +158,14 @@
 	"HO": "Tangal Marg, Kathmandu",
 	"PO": "",
 	"Fax": "01-45271703",
-	"Phone" :"01-4527170/ 4527171/ 4527172/ 4527101 ",
-    "Email" : "info@sgic.com.np",
+	"phone1": "01-4527170",
+	  "phone2": "014527171",
+    "email":  "info@sgic.com.np",
 	
 	"IMG": "https://shyamkumarkc20.com.np/logo/sgic.png",
-    "Website": "www.sgic.com.np"
+    "Website": "www.sgic.com.np",
+"merger": "",
+"subsidiaries": ""
   },
   {
     "Sno": "11",
@@ -152,10 +176,12 @@
 	"HO": "Shikhar Biz Centre, Thapathali",
 	"PO": "10692",
 	"Fax": "01-5346103",
-	"Phone" :"01-5346101, 01-5346102, 01-5346107",
-    "Email" : "shikharins@mos.com.np",
+	"phone1": "01-5346101", "phone2":  "01-5346102", 
+    "email":  "shikharins@mos.com.np",
 	"IMG": "https://shyamkumarkc20.com.np/logo/sicl.png",
-    "Website": "www.shikharinsurance.com"
+    "Website": "www.shikharinsurance.com",
+"merger": "",
+"subsidiaries": ""
   },
   {
     "Sno": "12",
@@ -166,10 +192,13 @@
 	"HO": "Babarmahal, Kathmandu",
 	"PO": "24876",
 	"Fax": "01-5706776",
-	"Phone" :"01-5705766, 5707190, 5705447",
-    "Email" : " siddharthapremier@spil.com.np",
+	"phone1": "01-5705766",
+	  "phone2": "015707190",
+    "email":  " siddharthapremier@spil.com.np",
 	"IMG": "https://shyamkumarkc20.com.np/logo/spil.jpg",
-    "Website": "www.siddharthapremier.com.np "
+    "Website": "www.siddharthapremier.com.np ",
+"merger": "",
+"subsidiaries": ""
   },
   {
     "Sno": "13",
@@ -180,10 +209,13 @@
 	"HO": "Dillibazar, Kathmandu",
 	"PO": "165",
 	"Fax": "",
-	"Phone" :"4520402 / 4516439 / 4518578",
-    "Email" : "oriental@orientalinsurance.com.np",
+	"phone1": "014520402",
+	  "phone2": "014516439",
+    "email":  "oriental@orientalinsurance.com.np",
 	"IMG": "https://shyamkumarkc20.com.np/logo/oicl.jpg",
-    "Website": "www.orientalinsurance.com.np"
+    "Website": "www.orientalinsurance.com.np",
+"merger": "",
+"subsidiaries": ""
   },
   {
     "Sno": "14",
@@ -195,10 +227,12 @@
 	"PO": "",
 	"Fax": " 01 5344013",
 	"Toll": " 16600186496",
-	"Phone":"01-5343072",
-    "Email": "info@unitedajodinsurance.com",
+	"phone1": "01-5343072",
+    "email": "info@unitedajodinsurance.com",
 	"IMG": "https://shyamkumarkc20.com.np/logo/uail.png",
-    "Website": "www.unitedajodinsurance.com"
+    "Website": "www.unitedajodinsurance.com",
+"merger": "",
+"subsidiaries": ""
   }
 ]
 
