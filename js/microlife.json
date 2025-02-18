@@ -7,8 +7,9 @@
         "Website": "cmli.com.np/",
         "HO": "Surkhet",
         "NEPSE": "undefined",
-        "Email": "info@cmli.com.np",
-        "Phone": "083590622, 015916740",
+        "email": "info@cmli.com.np",
+        "phone1": "083590622",
+        "phone2": "015916740",
         "IMG": "https://shyamkumarkc20.com.np/logo/crest.png"
     },
     {
@@ -19,8 +20,9 @@
         "Website": "gmli.com.np/",
         "HO": "Munal Path, Biratnagar",
         "NEPSE": "GMLI",
-        "Email": "info@gmli.com.np",
-        "Phone": "021-590902",
+        "email": "info@gmli.com.np",
+        "phone1": "021-590902",
+        "phone2":"", 
         "IMG": "https://shyamkumarkc20.com.np/logo/gmli.jpg"
     },
     {
@@ -31,8 +33,9 @@
         "Website": "libertymlife.com.np/",
         "HO": "Newroad, Pokhara",
         "NEPSE": "undefined",
-        "Email": "info@libertymlife.com.np",
-        "Phone": "061-591097/98",
+        "email": "info@libertymlife.com.np",
+        "phone1": "061591097",
+        "phone2": "061591098",
         "IMG": "https://shyamkumarkc20.com.np/logo/liberty.png"
     }
 ]
