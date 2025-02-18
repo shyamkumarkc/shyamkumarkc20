@@ -1,11 +1,11 @@
 [
   {
     "Sno": "1",
-	  "class": "lifeinsurance",
+    "class": "lifeinsurance",
     "Name": "American Life Insurance Company Limited (MetLife)",
     "ODBS": "2058/01/21 B.S",
-	  "ODAD": "2001/12/05 A.D",
-	"HO": "Pulchowk, Lalitpur",
+    "ODAD": "2001/12/05 A.D",
+    "HO": "Pulchowk, Lalitpur",
     "NEPSE": "",
 	"phone1": "01-5970166",
 	"email": "service-nepal@metlife.com.np",
