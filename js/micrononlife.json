@@ -6,8 +6,9 @@
         "Website": "nepalmicro.com/",
         "HO": "Bhrikuti Path, Bharatpur",
         "NEPSE": "",
-        "Email": "info@nepalmicro.com",
-        "Phone": "056- 494327",
+        "email": "info@nepalmicro.com",
+        "phone1": "056- 494327",
+        "phone2": "",
         "IMG": "https://shyamkumarkc20.com.np/logo/nimc.png"
     },
     {
@@ -17,8 +18,8 @@
         "Website": "protectivemicro.com/",
         "HO": "Chatakpur, Dhangadhi",
         "NEPSE": "&nbsp;",
-        "Email": "info@protectivemicro.com",
-        "Phone": "091- 590707",
+        "email": "info@protectivemicro.com",
+        "phone1": "091- 590707",  "phone2": "",
         "IMG": "https://shyamkumarkc20.com.np/logo/protective.jpg"
     },
     {
@@ -28,8 +29,8 @@
         "Website": "starmicroinsure.com/",
         "HO": "Bhanuchowk, Janakpur",
         "NEPSE": "&nbsp;",
-        "Email": "info@starmicroinsure.com",
-        "Phone": "041-591453",
+        "email": "info@starmicroinsure.com",
+        "phone1": "041-591453",  "phone2": "",
         "IMG": "https://shyamkumarkc20.com.np/logo/star.png"
     },
     {
@@ -39,8 +40,8 @@
         "Website": " ",
         "HO": "Butwal Rupandehi",
         "NEPSE": "&nbsp;",
-        "Email": " ",
-        "Phone": " ",
+        "email": " ",
+        "phone1": " ",  "phone2": "",
         "IMG": "https://shyamkumarkc20.com.np/logo/"
     }
 ]
