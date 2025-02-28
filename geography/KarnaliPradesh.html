@@ -1,20 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>SHYAM KUMAR K.C.</title>
+<title>Karnali Pradesh</title>
 <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
-</script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script>
 $(function(){
-$('#header').load('/assets/header.html');
+    $('#header').load('/assets/header.html');
 });
 </script>
-
 </head>
 <body>
-<div id ="header"></div>
-
+<div id="header"></div>
 <style>
 .collapsible {
     background-color: #777;
@@ -39,10 +36,8 @@ $('#header').load('/assets/header.html');
     background-color: #f1f1f1;
 }
 </style>
-</head>
-<body>
-<h1>Karnali Pradesh</h1>
 
+<h2>Karnali Pradesh</h2>
 This article will let you know geography of Nepal in new structure
 
 <ol>
@@ -145,7 +140,7 @@ This article will let you know geography of Nepal in new structure
 <li>Sani Bheri Rural Municipality</li>
   </ol>
 </div></li></ol>
-</body></html>
+
 
 <script>
 var coll = document.getElementsByClassName("collapsible");
@@ -153,6 +148,12 @@ var i;
 
 for (i = 0; i < coll.length; i++) {
     coll[i].addEventListener("click", function() {
+        var active = document.querySelector(".collapsible.active");
+        if (active && active !== this) {
+            active.classList.remove("active");
+            active.nextElementSibling.style.display = "none";
+        }
+        
         this.classList.toggle("active");
         var content = this.nextElementSibling;
         if (content.style.display === "block") {
@@ -164,15 +165,14 @@ for (i = 0; i < coll.length; i++) {
 }
 </script>
 
-
-
-
 <script>
 $(function(){
-$('#footer').load('/assets/footer.html');
+    $('#footer').load('/assets/footer.html');
 });
 </script>
 
+<div id="footer"></div>
 </body>
-  <div id ="footer"></div>
 </html>
+
+
