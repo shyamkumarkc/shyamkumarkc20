@@ -38,7 +38,7 @@
     {
         "Name": "Cheque",
         "link": "/article/cheque.html",
-        "Desc": "Cheque is a document that orders a bank to pay a specific amount of money from a person’s account to the entity whose name the cheque has been issued. When a bank account is opened, the bank provides the cheque book to the account holder. There are three parties involved in cheque i.e. Drawer. Drawee and Payee.\nDrawer: The person writing the cheque or the bank account holder.\nDrawee: Bank who is responsible to make payment\n  Payee: Party receiving the payment whose name is written in the cheque"
+        "Desc": "A Cheque is a document that orders a bank to pay a specific amount of money from a person’s account to the entity whose name the cheque has been issued. When a bank account is opened, the bank provides the cheque book to the account holder. There are three parties involved in cheque i.e. Drawer. Drawee and Payee.\nDrawer: The person writing the cheque or the bank account holder.\nDrawee: Bank who is responsible to make payment\n  Payee: Party receiving the payment whose name is written in the cheque"
     },
     {
         "Name": "Compound Interest",
@@ -102,6 +102,7 @@
     },
     {
         "Name": "Mutual Funds",
+        "link": "/sharemarket/mutualfund.html",
         "Desc": "Mutual fund is the professionally managed investment fund that is collected from many small and large investors for the purpose of investing in the securities such as stocks, bonds, money market instruments etc."
     },
     {
@@ -138,7 +139,7 @@
         "Desc": "Retail banking is the services that is provided by bank to general public on individual basis. It is also known as consumer banking."
     },
     {
-        "Name": "Real Time Gross Settlement&nbsp;(RTGS)",
+        "Name": "Real Time Gross Settlement (RTGS)",
         "Desc": "RTGS is a form of electronic fund transfer system that transfers or clear and settle the high value funds or cheques from one bank to other banks within a country in few seconds."
     },
     {
