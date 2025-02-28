@@ -60,7 +60,7 @@
         "Instrument": "Equity",
         "Email": "nlisting@gibl.com.np",
         "Website": "http://www.globalimebank.com",
-         "Units": "528"
+         "Units": "550"
     },
     {
         "SN": "141",
@@ -347,5 +347,16 @@
         "Email": "",
         "Website": "",
          "Units": "57"
+    },
+    {
+        "SN": "",
+        "Name": "Citizen Life Insurance Limited",
+        "Symbol": "CLI",
+        "Status": "Active",
+        "Sector": "Life Insurance",
+        "Instrument": "Equity",
+        "Email": "",
+        "Website": "",
+         "Units": "43"
     }
 ]
