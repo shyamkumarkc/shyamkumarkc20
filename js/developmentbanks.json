@@ -205,7 +205,7 @@
 	"email": "customercare@kamanasewabank.com",
 	"pobox": "0",
 	  "ceo" : "",
-	   "subsidiaries" : ""
+	   "subsidiaries": ""
 	
   },
 	{
@@ -275,7 +275,8 @@
 	"email": "info@srdb.com.np",
 	"pobox": "0",
 	  "ceo" : "",
-	   "subsidiaries" : ""
+		"merger": "a. Bhargav Bikas Bank <br />b. Purnima Bikas Bank",
+	   "subsidiaries": ""
 	
   },
 	{
