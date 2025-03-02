@@ -19,9 +19,11 @@
 	"email": "info@mahalaxmibank.com.np",
 	"pobox": "0",
 	"fax": "01-4269308",
-	  "ceo" : "",
+	  "ceo": "Dipesh Lamsal",
 	  "merger": "Yeti Development Bank",
-	   "subsidiaries" : ""
+	  "ATM": "49",
+	  "branch": "103",
+	   "subsidiaries": ""
 	  
 	
   },
