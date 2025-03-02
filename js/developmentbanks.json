@@ -305,9 +305,12 @@
 	"email": "info@lumbinibikasbank.com",
 	"pobox": "20700",
 	"fax": "01-4513526",
-	  "ceo" : "",
+	  "ceo": "Naresh Singh Bohra",
+		"ATM": "20",
+		"branch": "89",
+		"blb": "1",
 		"merger": "a. Bhajuratna Finance Ltd.<br/>b. Birgunj Finance Ltd.<br/>c. Himichuli Bikas Bank Ltd.<br/>d. Lumbini Finance and Leasing Co. Ltd.<br/>e. Vibor Society Development Bank <br/>f. Lumbini Finance and Leasing",
-	   "subsidiaries" : ""
+	   "subsidiaries": ""
 	
   },
 	{
