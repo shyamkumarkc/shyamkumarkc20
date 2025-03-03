@@ -59,7 +59,7 @@
 "sp": "Gaidakot",
 		"ep": "Maula Kali Temple",
 "Website": "",
-		"Year": ""
+		"Year": "2023"
 	},
 	{
 		"SNo": "6",
@@ -72,7 +72,7 @@
 		"Website": "",
 		"ep": "Basantapur Palpa",
 
-		"Year": ""
+		"Year": "2023"
 	},
 	{
 		"SNo": "7",
@@ -84,6 +84,19 @@
 "sp": "Dumre Bazzar",
 		"Website": "www.bandipurcablecar.com.np/",
 		"ep": " ",
+
+		"Year": "2024"
+	},
+	{
+		"SNo": "8",
+		"Name": "Siddhartha Cable Car",
+		"IMG": "https://shyamkumarkc20.com.np/logo/.png",
+		"dis": "",
+		"Length": "",
+		"Height": " ",
+"sp": "Butwal",
+		"Website": "www.bandipurcablecar.com.np/",
+		"ep": "Nuwakot, Palpa",
 
 		"Year": "2024"
 	}
