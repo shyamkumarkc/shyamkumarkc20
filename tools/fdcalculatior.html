@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fixed Deposit Calculator</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+        .container { max-width: 400px; margin: auto; padding: 20px; border: 1px solid #ccc; border-radius: 10px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); }
+        input, button { margin: 10px 0; padding: 10px; width: 90%; }
+        button { background-color: #28a745; color: white; border: none; cursor: pointer; }
+        button:hover { background-color: #218838; }
+        table { width: 100%; margin-top: 20px; border-collapse: collapse; }
+        th, td { border: 1px solid #ddd; padding: 10px; text-align: center; }
+        th { background-color: #f4f4f4; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Fixed Deposit Calculator</h2>
+        <label for="principal">Principal Amount (Rs):</label>
+        <input type="number" id="principal" placeholder="Enter Principal" required oninput="calculateInterest()">
+        
+        <label for="rate">Annual Interest Rate (%):</label>
+        <input type="number" id="rate" step="0.01" placeholder="Enter Interest Rate" required oninput="calculateInterest()">
+        
+        <label for="tax">Tax Rate (%):</label>
+        <input type="number" id="tax" step="0.01" placeholder="Enter Tax Rate" oninput="calculateInterest()">
+        
+        <table>
+            <tr>
+                <th>Type</th>
+                <th>Before Tax (Rs)</th>
+                <th>After Tax (Rs)</th>
+                <th>Difference</th>
+            </tr>
+            <tr>
+                <td>Annual Interest</td>
+                <td id="annual"></td>
+                <td id="annualAfterTax"></td>
+                <td id="annualDiff"></td>
+            </tr>
+            <tr>
+                <td>Quarterly Interest</td>
+                <td id="quarterly"></td>
+                <td id="quarterlyAfterTax"></td>
+                <td id="quarterlyDiff"></td>
+            </tr>
+            <tr>
+                <td>Monthly Interest</td>
+                <td id="monthly"></td>
+                <td id="monthlyAfterTax"></td>
+                <td id="monthlyDiff"></td>
+            </tr>
+            <tr>
+                <td>Daily Interest</td>
+                <td id="daily"></td>
+                <td id="dailyAfterTax"></td>
+                <td id="dailyDiff"></td>
+            </tr>
+        </table>
+    </div>
+    
+    <script>
+        function calculateInterest() {
+            var principal = parseFloat(document.getElementById("principal").value);
+            var rate = parseFloat(document.getElementById("rate").value) / 100;
+            var taxInput = document.getElementById("tax").value;
+            var tax = taxInput ? parseFloat(taxInput) / 100 : 0; // Default tax to 0 if not entered
+            
+            if (!isNaN(principal) && principal > 0 && !isNaN(rate) && rate > 0) {
+                var annualInterest = principal * rate;
+                var annualAfterTax = annualInterest * (1 - tax);
+                var annualDiff = annualInterest - annualAfterTax;
+                
+                var quarterlyInterest = annualInterest / 4;
+                var quarterlyAfterTax = annualAfterTax / 4;
+                var quarterlyDiff = annualDiff / 4;
+                
+                var monthlyInterest = annualInterest / 12;
+                var monthlyAfterTax = annualAfterTax / 12;
+                var monthlyDiff = annualDiff / 12;
+                
+                var dailyInterest = annualInterest / 365;
+                var dailyAfterTax = annualAfterTax / 365;
+                var dailyDiff = annualDiff / 365;
+                
+                document.getElementById("annual").innerText = annualInterest.toFixed(2);
+                document.getElementById("annualAfterTax").innerText = annualAfterTax.toFixed(2);
+                document.getElementById("annualDiff").innerText = annualDiff.toFixed(2);
+                
+                document.getElementById("quarterly").innerText = quarterlyInterest.toFixed(2);
+                document.getElementById("quarterlyAfterTax").innerText = quarterlyAfterTax.toFixed(2);
+                document.getElementById("quarterlyDiff").innerText = quarterlyDiff.toFixed(2);
+                
+                document.getElementById("monthly").innerText = monthlyInterest.toFixed(2);
+                document.getElementById("monthlyAfterTax").innerText = monthlyAfterTax.toFixed(2);
+                document.getElementById("monthlyDiff").innerText = monthlyDiff.toFixed(2);
+                
+                document.getElementById("daily").innerText = dailyInterest.toFixed(2);
+                document.getElementById("dailyAfterTax").innerText = dailyAfterTax.toFixed(2);
+                document.getElementById("dailyDiff").innerText = dailyDiff.toFixed(2);
+            }
+        }
+    </script>
+</body>
+</html>
