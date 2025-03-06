@@ -341,15 +341,15 @@
 	"phone2": "011-662341",
 	"email": "info@sindhubank.com.np",
 	"pobox": "0",
-	  "ceo" : "",
-	   "subsidiaries" : "",
+	  "ceo": "Suresh Devkota",
+	   "subsidiaries": "",
 		"desc": "SINDHU BIKASH BANK is the first development bank, opened in Sindhupalchok district of Nepal and started operation on Bhadra 24, 2067 i.e. September 9, 2010. This bank is licensed by Nepal Rastra Bank (Central Bank of Nepal) & running under the Company Act & Bank & Financial Institution Act of Nepal. Sindhupalchok Chamber of Commerce & Industry of Nepal has taken the initiative to open the bank."
 	
   },
 	{
     "SNO": 15,
-	  "Code" : "7608",
-	"Casba" : "",
+	  "Code": "7608",
+	"Casba": "",
 	  "class": "B",
     "Name": "Salapa Bikash Bank Limited",
 	"ODAD": "",
@@ -365,8 +365,8 @@
 	"phone2": "036420638",
 	"email": "info@salapabikasbank.com.np",
 	"pobox": "0",
-	  "ceo" : "",
-	   "subsidiaries" : ""
+	  "ceo": "Yogendra Pun",
+	   "subsidiaries": ""
 	
   },
 	{
@@ -388,15 +388,15 @@
 	"phone2": "021518137",
 	"email": "info@skdbl.com.np",
 	"pobox": "0",
-	  "ceo" : "",
+	  "ceo": "Dinesh Kumar Pokhrel",
 	"merger": "Kabeli Bikas Bank",
-	   "subsidiaries" : ""
+	   "subsidiaries": ""
 	
   },
   {
     "SNO": 17,
-	  "Code" : "7517",
-	"Casba" : "Free",
+	  "Code": "7517",
+	"Casba": "Free",
 	  "class": "B",
     "Name": "Green Development Bank Limited",
 	"ODAD": "2013-08-25",
