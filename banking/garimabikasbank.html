@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Garima Bikas Bank Limited</title>
+    <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $('#header').load('/assets/header.html');
+            $('#footer').load('/assets/footer.html');
+            fetchBankData();
+        });
+    </script>
+</head>
+<body>
+    <div id="header"></div>
+    <h1>Garima Bikas Bank Limited</h1>
+  <div id="bankInfo1" class="bank-container"></div>
+   <table>
+     <tr>
+      <td id="atm" class="bank-container"></td>
+    <td id="branch" class="bank-container"></td>
+     <td id="ext" class="bank-container"></td>
+    <td id="blb" class="bank-container"></td>
+    </tr>
+    </table>
+    <h2>Garima Bikas Bank Limited</h2>
+    <div id="bankInfo" class="bank-container"></div>
+    
+    <h2>Merged BFIs</h2>
+     <div id="subInfo1" class="bank-container"></div>
+    <h2>Subsidiary Companies</h2>
+    <div id="subInfo" class="bank-container"></div>
+    <style>
+        table {
+           
+            border-collapse: collapse;
+        }
+        td {
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+        
+        #atm {
+            background-color: #add8e6; /* Light blue for ATM */
+        }
+        
+        #branch {
+            background-color: #90ee90; /* Light green for Branches */
+        }
+        
+        #ext {
+            background-color: #ffebcd; /* Blanched Almond for Extension Counters */
+        }
+        
+        #blb {
+            background-color: #ffcccb; /* Light red for Branchless Banking */
+        
+    </style>
+    
+    <script>
+        async function fetchBankData() {
+            try {
+                const response = await fetch('https://shyamkumarkc20.com.np/js/developmentbanks.json'); // Replace with actual API endpoint
+                const banks = await response.json();
+                
+                // Filter for Garima Bikas Bank Limited
+                const garimaBank = banks.find(bank => bank.Name === "Garima Bikas Bank Limited");
+                
+                if (garimaBank) {
+                    document.getElementById('bankInfo').innerHTML = `
+                        <img src="${garimaBank.IMG}" alt="Garima Bikas Bank Limited Logo" class="bank-logo">
+                        <p><strong>Name:</strong> ${garimaBank.Name}</p>
+                        <p><strong>Established:</strong> ${garimaBank.ODAD} [ ${garimaBank.ODBS} ]</p>
+                        <p><strong>Head Office:</strong> ${garimaBank.HO}</p>
+                        <p><strong>CEO:</strong> ${garimaBank.ceo}</p>
+                        <p><strong>NEPSE Code:</strong> ${garimaBank.NEPSE}</p>
+                        
+                        <p><strong>Phone:</strong> <a href="tel:${garimaBank.phone1}">${garimaBank.phone1}</a></p>
+                        <p><strong>Toll Free:</strong> <a href="tel:${garimaBank.TOLL}">${garimaBank.TOLL}</a></p>
+                        <p><strong>Email:</strong> <a href="mailto:${garimaBank.email}">${garimaBank.email}</a></p>
+                        <p><strong>Website:</strong> <a href="https://${garimaBank.Website}" target="_blank">${garimaBank.Website}</a></p>
+                    `;
+                    document.getElementById('atm').innerHTML = `<p>ATM: ${garimaBank.ATM}</p>`;
+                    document.getElementById('ext').innerHTML = `<p>Extention Counters: ${garimaBank.ext}</p>`;
+                    document.getElementById('blb').innerHTML = `<p>Branchless Banking: ${garimaBank.blb}</p>`;
+                    document.getElementById('branch').innerHTML = `<p>Branches: ${garimaBank.branch}</p>`;
+                    document.getElementById('subInfo1').innerHTML = `<p>${garimaBank.merger}</p>`;
+                  document.getElementById('bankInfo1').innerHTML = `<p>${garimaBank.desc}</p>`;
+                    document.getElementById('subInfo').innerHTML = `<p>${garimaBank.subsidiaries}</p>`;
+                } else {
+                    document.getElementById('bankInfo').innerHTML = '<p>Garima Bikas Bank Limited data not found.</p>';
+                    document.getElementById('subInfo').innerHTML = '<p>Garima Bikas Bank Limited subsidiaries data not found.</p>';
+                  document.getElementById('subInfo1').innerHTML = '<p>Garima Bikas Bank Limited merger data not found.</p>';
+                }
+            } catch (error) {
+                console.error('Error fetching bank data:', error);
+                document.getElementById('bankInfo').innerHTML = '<p>Error loading bank details.</p>';
+                document.getElementById('subInfo').innerHTML = '<p>Error loading subsidiaries details.</p>';
+              document.getElementById('subInfo1').innerHTML = '<p>Error loading merger details.</p>';
+            }
+        }
+    </script>
+    
+    <div id="footer"></div>
+</body>
+</html>
