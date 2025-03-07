@@ -97,12 +97,6 @@
     },
     {
         "SNo": "",
-        "Name": "Mahalaxmi Bikas Bank",
-        "BFI": "Yeti Development Bank",
-        "Merger": "Mahalaxmi Bikas Bank"
-    },
-    {
-        "SNo": "",
         "Name": "Jyoti Bikas Bank",
         "BFI": "a. Jhimruk Bikas Bank<br/>b. Hamro Bikas Bank",
         "Merger": "Jyoti Bikas Bank"
@@ -128,7 +122,7 @@
     {
         "SNo": "",
         "Name": "Garima Bikas Bank",
-        "BFI": "Nilgiri Bikas Bank",
+        "BFI": "a. Nilgiri Bikas Bank<br/>b. Subhekshya Bikas Bank<br/>c.Sahara Bikas Bank",
         "Merger": "Garima Bikas Bank"
     },
     {
@@ -136,6 +130,30 @@
         "Name": "Central Finance",
         "BFI": "Bhaktapur Finance",
         "Merger": "Central Finance"
+    },
+    {
+        "SNo": "",
+        "Name": "Vibor Society Development Bank",
+        "BFI": "Lumbini Finance &amp; Leasing Company",
+        "Merger": "Lumbini Bikas Bank"
+    },
+    {
+        "SNo": "",
+        "Name": "Shree Investment &amp; Finance",
+        "BFI": "Everest Finance",
+        "Merger": "Shree Investment &amp; Finance"
+    },
+    {
+        "SNo": "",
+        "Name": "Malika Bikas Bank",
+        "BFI": "a.Mahalaxmi Finance<br/>b. Siddhartha Finance<br/>Yeti Development Bank",
+        "Merger": "Mahalaxmi Bikas Bank"
+    },
+    {
+        "SNo": "",
+        "Name": "",
+        "BFI": "",
+        "Merger": ""
     },
     {
         "SNo": "",
