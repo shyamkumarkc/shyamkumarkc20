@@ -50,7 +50,11 @@
 	"email": "info@ndbl.com.np",
 	"pobox": "0",
 	  "ceo": "Bishnu Regmi",
-	   "subsidiaries": ""
+	   "subsidiaries": "",
+	   "ATM": "",
+	  "branch": "",
+	  "ext": "",
+	  "blb": ""
 	
   },
   {
@@ -74,6 +78,10 @@
 	"pobox": "0",
 	  "ceo": "Suyog Shrestha",
 	  "merger": "a. Cosmos Development Bank</br>b. Bageswori Bikas Bank",
+	   "ATM": "",
+	  "branch": "",
+	  "ext": "",
+	  "blb": "",
 	   "subsidiaries": ""
 	
   },
@@ -97,6 +105,10 @@
 	"email": "info@edb.com.np",
 	"pobox": "0",
 	  "ceo": "Indra Kumar Kattel",
+	   "ATM": "",
+	  "branch": "",
+	  "ext": "",
+	  "blb": "",
 	   "subsidiaries": ""
 	
   },
@@ -120,6 +132,10 @@
 	"email": "info@miteribank.com.np",
 	"pobox": "0",
 	  "ceo": "Ananta Kumar Chapagain",
+	   "ATM": "",
+	  "branch": "",
+	  "ext": "",
+	  "blb": "",
 	   "subsidiaries" : ""
 	
   },
@@ -171,7 +187,11 @@
 	"phone2": "081415074",
 	"email": "info@kdblnepal.com",
 	"pobox": "0",
-	  "ceo" : "",
+	  "CEO" : "",
+		 "ATM": "",
+	  "branch": "",
+	  "ext": "",
+	  "blb": "",
 	   "subsidiaries" : ""
 	
   },
@@ -195,6 +215,10 @@
 	"email": "info@garimabank.com.np",
 	"pobox": "0",
 	  "ceo": "Madhav Prasad Upadhaya",
+		 "ATM": "",
+	  "branch": "",
+	  "ext": "",
+	  "blb": "",
 	   "subsidiaries" : ""
 	
   },
@@ -218,6 +242,10 @@
 	"email": "customercare@kamanasewabank.com",
 	"pobox": "0",
 	  "ceo": "Dinesh Thakali",
+		 "ATM": "",
+	  "branch": "",
+	  "ext": "",
+	  "blb": "",
 	   "subsidiaries": ""
 	
   },
@@ -242,6 +270,10 @@
 	"pobox": "0",
 	"fax": "051-527843",
 	  "ceo": "Lal Bahadur Thing",
+		 "ATM": "",
+	  "branch": "",
+	  "ext": "",
+	  "blb": "",
 	   "subsidiaries": ""
 	
   },
@@ -266,6 +298,10 @@
 	"pobox": "6518",
 	  "ceo": "Kapil Dhakal",
 	"merger": "a. Jhimruk Bikas Bank<br/>b. Hamro Bikas Bank",
+		 "ATM": "",
+	  "branch": "",
+	  "ext": "",
+	  "blb": "",
 	   "subsidiaries": ""
 	
   },
@@ -290,6 +326,10 @@
 	"pobox": "0",
 	  "ceo": "Prakash Poudel",
 		"merger": "a. Bhargav Bikas Bank <br />b. Purnima Bikas Bank",
+		 "ATM": "",
+	  "branch": "",
+	  "ext": "",
+	  "blb": "",
 	   "subsidiaries": ""
 	
   },
@@ -343,6 +383,10 @@
 	"pobox": "0",
 	  "ceo": "Suresh Devkota",
 	   "subsidiaries": "",
+		 "ATM": "",
+	  "branch": "",
+	  "ext": "",
+	  "blb": "",
 		"desc": "SINDHU BIKASH BANK is the first development bank, opened in Sindhupalchok district of Nepal and started operation on Bhadra 24, 2067 i.e. September 9, 2010. This bank is licensed by Nepal Rastra Bank (Central Bank of Nepal) & running under the Company Act & Bank & Financial Institution Act of Nepal. Sindhupalchok Chamber of Commerce & Industry of Nepal has taken the initiative to open the bank."
 	
   },
@@ -366,6 +410,10 @@
 	"email": "info@salapabikasbank.com.np",
 	"pobox": "0",
 	  "ceo": "Yogendra Pun",
+		 "ATM": "",
+	  "branch": "",
+	  "ext": "",
+	  "blb": "",
 	   "subsidiaries": ""
 	
   },
@@ -390,6 +438,10 @@
 	"pobox": "0",
 	  "ceo": "Dinesh Kumar Pokhrel",
 	"merger": "Kabeli Bikas Bank",
+		 "ATM": "",
+	  "branch": "",
+	  "ext": "",
+	  "blb": "",
 	   "subsidiaries": ""
 	
   },
@@ -414,6 +466,10 @@
 	"pobox": "0",
 	"fax": "061-533634",
 	  "ceo": "Hari Bahadur Budhathoki",
+	   "ATM": "",
+	  "branch": "",
+	  "ext": "",
+	  "blb": "",
 	   "subsidiaries": ""
 	
   }
