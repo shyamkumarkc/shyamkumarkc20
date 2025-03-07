@@ -124,7 +124,7 @@
 	"NEPSE": "MDB",
 	"Swift": "",
 	"Website": "miteribank.com.np",
-	"links": "",
+	"links": "/banking/miteribikasbank.html",
 	"IMG": "https://shyamkumarkc20.com.np/logo/mdb.png",
 	"TOLL": "",
 	"phone1": "025-536317",
@@ -176,11 +176,11 @@
     "Name": "Karnali Bikas Bank Limited",
 	"ODAD": "2004-02-18",
 	"ODBS": "",
-	"HO": "Nepalgunj, Banke",
+	"HO": "Nepalgurenj, Banke",
 	"NEPSE": "KRBL",
 	"Swift": "",
 	"Website": "kdblnepal.com",
-	"links": "",
+	"links": "/banking/karnalibikasbank.html",
 	"IMG": "https://shyamkumarkc20.com.np/logo/krbl.jpg",
 	"TOLL": "",
 	"phone1": "081-415040",
@@ -192,7 +192,7 @@
 	  "branch": "",
 	  "ext": "",
 	  "blb": "",
-	   "subsidiaries" : ""
+	   "subsidiaries": ""
 	
   },
 	{
@@ -207,7 +207,7 @@
 	"NEPSE": "GBBL",
 	"Swift": "",
 	"Website": "www.garimabank.com.np",
-	"links": "",
+	"links": "/banking/garimabikasbank.html",
 	"IMG": "https://shyamkumarkc20.com.np/logo/gbbl.jpg",
 	"TOLL": "16600145444",
 	"phone1": "01-5970179",
