@@ -55,7 +55,8 @@
 	   "ATM": "",
 	  "branch": "",
 	  "ext": "",
-	  "blb": ""
+	  "blb": "",
+	  "desc": ""
 	
   },
   {
@@ -83,7 +84,8 @@
 	  "branch": "",
 	  "ext": "",
 	  "blb": "",
-	   "subsidiaries": ""
+	   "subsidiaries": "",
+	  "desc": ""
 	
   },
   {
@@ -111,7 +113,8 @@
 	  "branch": "",
 	  "ext": "",
 	  "blb": "",
-	   "subsidiaries": ""
+	   "subsidiaries": "",
+	  "desc": ""
 	
   },
   {
@@ -139,7 +142,8 @@
 	  "branch": "",
 	  "ext": "",
 	  "blb": "",
-	   "subsidiaries" : ""
+	   "subsidiaries" : "",
+	  "desc": ""
 	
   },
   {
@@ -196,7 +200,8 @@
 	  "branch": "",
 	  "ext": "",
 	  "blb": "",
-	   "subsidiaries": ""
+	   "subsidiaries": "",
+	  "desc": ""
 	
   },
 	{
@@ -224,7 +229,8 @@
 	  "branch": "",
 	  "ext": "",
 	  "blb": "",
-	   "subsidiaries" : ""
+	   "subsidiaries": "",
+	  "desc": ""
 	
   },
 	{
@@ -252,7 +258,8 @@
 	  "branch": "",
 	  "ext": "",
 	  "blb": "",
-	   "subsidiaries": ""
+	   "subsidiaries": "",
+	  "desc": ""
 	
   },
 	{
@@ -281,7 +288,8 @@
 	  "branch": "",
 	  "ext": "",
 	  "blb": "",
-	   "subsidiaries": ""
+	   "subsidiaries": "",
+	  "desc": ""
 	
   },
 	{
@@ -309,7 +317,8 @@
 	  "branch": "",
 	  "ext": "",
 	  "blb": "",
-	   "subsidiaries": "a. Jyoti Capital Limited"
+	   "subsidiaries": "a. Jyoti Capital Limited",
+	  "desc": ""
 	
   },
 	{
@@ -337,7 +346,8 @@
 	  "branch": "",
 	  "ext": "",
 	  "blb": "",
-	   "subsidiaries": ""
+	   "subsidiaries": "",
+	  "desc": ""
 	
   },
 	{
@@ -366,7 +376,8 @@
 		"branch": "89",
 		"blb": "1",
 		"merger": "a. Bhajuratna Finance Ltd.<br/>b. Birgunj Finance Ltd.<br/>c. Himichuli Bikas Bank Ltd.<br/>d. Lumbini Finance and Leasing Co. Ltd.<br/>e. Vibor Society Development Bank <br/>f. Lumbini Finance and Leasing",
-	   "subsidiaries": ""
+	   "subsidiaries": "",
+	  "desc": ""
 	
   },
 	{
@@ -423,7 +434,8 @@
 	  "branch": "",
 	  "ext": "",
 	  "blb": "",
-	   "subsidiaries": ""
+	   "subsidiaries": "",
+	  "desc": ""
 	
   },
 	{
@@ -451,7 +463,8 @@
 	  "branch": "",
 	  "ext": "",
 	  "blb": "",
-	   "subsidiaries": ""
+	   "subsidiaries": "",
+	  "desc": ""
 	
   },
   {
@@ -480,7 +493,8 @@
 	  "branch": "",
 	  "ext": "",
 	  "blb": "",
-	   "subsidiaries": ""
+	   "subsidiaries": "",
+	  "desc": ""
 	
   }
   ]
