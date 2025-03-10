@@ -17,7 +17,7 @@
             padding: 0;
             display: flex;
             flex-direction: column;
-            
+            align-items: center;
         }
         .container {
             background: white;
@@ -26,8 +26,7 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             max-width: 500px;
             width: 100%;
-            margin: 20px 0;
-            align-items: center;
+            margin: 20px auto;
         }
         h2 {
             text-align: center;
@@ -37,7 +36,6 @@
             font-weight: bold;
             display: block;
             margin-top: 10px;
-             align-items: center;
         }
         input {
             width: 100%;
@@ -67,12 +65,15 @@
         tr:hover {
             background: #f1f1f1;
         }
+        #header, #footer {
+            width: 100%;
+        }
     </style>
 </head>
 <body>
     <div id="header"></div>
-    <h2>Calculator</h2>
-    <div class="container" align="center">
+    <div class="container">
+        <h2>Calculator</h2>
         <label for="principal">Principal Amount (Rs):</label>
         <input type="number" id="principal" placeholder="Enter Principal" required oninput="calculateInterest()">
         
