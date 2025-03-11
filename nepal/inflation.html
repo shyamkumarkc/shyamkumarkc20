@@ -3,7 +3,8 @@
 <head>
 <title>SHYAM KUMAR K.C.</title>
 <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+</script>
 <script>
 $(function(){
 $('#header').load('/assets/header.html');
@@ -11,7 +12,21 @@ $('#header').load('/assets/header.html');
 </script>
 
 </head>
-<body>
+	 <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
 <div id ="header"></div>
 
 <canvas id="InflationChart" style="width:100%;max-width:600px"></canvas>
