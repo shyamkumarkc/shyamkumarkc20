@@ -1,0 +1,133 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+<title>SHYAM KUMAR K.C.</title>
+<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<script>
+$(function(){
+$('#header').load('/assets/header.html');
+});
+</script>
+
+</head>
+<body>
+<div id ="header"></div>
+
+<canvas id="InflationChart" style="width:100%;max-width:600px"></canvas>
+
+<script>
+var xValues = ["Shrawan", "Bhadra", "Ashoj", "Kartik", "Mangsir", "Poush", "Magh", "Falgun", "Chaitra", "Baishak", "Jestha", "Ashadh"];
+var yValues = [4.10, 3.85, 4.82, 5.60, 6.05, 5.41, 4.16, 0, 0, 0, 0, 0];
+var barColors = ["red", "green","blue","orange","brown", "pink", "indigo", "gold", "yellow", "lime", "aqua", "navy"];
+
+new Chart("InflationChart", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "Inflation: As of 2081/2082 Fiscal Year"
+    }
+  }
+});
+</script>
+<style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+<table border="black">
+<tr>
+<th>S No</th>
+<th>Month</th>
+<th>Inflation Rate(%)</th>
+</tr>
+<tr>
+<td>1</td>
+<td>Shrawan</td>
+<td>4.10</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Bhadra</td>
+<td>3.85</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Ashoj</td>
+<td>4.82</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Kartik</td>
+<td>5.60</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Mangsir</td>
+<td>6.05</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Poush</td>
+<td>5.41</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Magh</td>
+<td>4.16</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Falgun</td>
+<td></td>
+</tr>
+<tr>
+<td>9</td>
+<td>Chaitra</td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>Baishak</td>
+<td></td>
+</tr>
+<tr>
+<td>11</td>
+<td>Jestha</td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td>Ashadh</td>
+<td></td>
+</tr>
+
+</table>
+<script>
+$(function(){
+$('#footer').load('/assets/footer.html');
+});
+</script>
+
+</body>
+  <div id ="footer"></div>
+</html>
