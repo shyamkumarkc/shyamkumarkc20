@@ -14,20 +14,22 @@ $('#header').load('/assets/header.html');
 
 </head>
 	 <style>
-        table {
-            
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
-        th, td {
-            border: 1px solid black;
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+</style>
 <div id ="header"></div>
 <h2>Inlation Rate in Nepal as of 2081/2082 Fiscal Year </h2>
 <canvas id="InflationChart" style="width:100%;max-width:600px"></canvas>
