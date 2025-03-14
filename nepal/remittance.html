@@ -23,18 +23,18 @@
           // Create the data table for the chart
           var dataTable = google.visualization.arrayToDataTable(dataArray);
 
-          // Define chart options
+          // Define chart options for a vertical bar chart
           var options = {
             title: 'Company Performance',
             chartArea: { width: '50%' },
             hAxis: {
-              title: 'Year',
+              title: 'Sales & Expenses',
               minValue: 0
             },
             vAxis: {
-              title: 'Sales & Expenses'
+              title: 'Year'
             },
-            bars: 'vertical'  // Horizontal bar chart style
+            bars: 'vertical'  // Vertical bar chart style
           };
 
           // Create and draw the chart
