@@ -1,6 +1,6 @@
 [
-  {"year": "2004", "sales": 1000, "expenses": 400},
-  {"year": "2005", "sales": 1170, "expenses": 460},
-  {"year": "2006", "sales": 660, "expenses": 1120},
-  {"year": "2007", "sales": 1030, "expenses": 540}
+  {"year": "Shrawan", "sales": 136.93 },
+  {"year": "Bhadra", "sales": 263.14},
+  {"year": "Ashoj", "sales": 660},
+  {"year": "Kartik", "sales": 1030}
 ]
