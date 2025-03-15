@@ -6,9 +6,9 @@
   {"year": "Mangsir", "remittance": 640.43},
    {"year": "Poush", "remittance": 763.08},
    {"year": "Magh", "remittance": 900.58},
-   {"year": "Falgun", "remittance": ""},
-   {"year": "Chaitra", "remittance": ""},
-   {"year": "Baishakh", "remittance": ""},
-   {"year": "Jestha", "remittance": ""},
-   {"year": "Ashadh", "remittance": ""}
+   {"year": "Falgun", "remittance": "0"},
+   {"year": "Chaitra", "remittance": "0"},
+   {"year": "Baishakh", "remittance": "0"},
+   {"year": "Jestha", "remittance": "0"},
+   {"year": "Ashadh", "remittance": "0"}
 ]
