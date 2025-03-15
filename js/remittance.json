@@ -1,6 +1,14 @@
 [
   {"year": "Shrawan", "sales": 136.93 },
   {"year": "Bhadra", "sales": 263.14},
-  {"year": "Ashoj", "sales": 660},
-  {"year": "Kartik", "sales": 1030}
+  {"year": "Ashoj", "sales": 407.31},
+  {"year": "Kartik", "sales": 521.63},
+  {"year": "Mangsir", "sales": 640.43},
+   {"year": "Poush", "sales": 763.08},
+   {"year": "Magh", "sales": 900.58},
+   {"year": "Falgun", "sales":},
+   {"year": "Chaitra", "sales":},
+   {"year": "Baishakh", "sales":},
+   {"year": "Jestha", "sales":},
+   {"year": "Ashadh", "sales":},
 ]
