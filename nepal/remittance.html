@@ -13,11 +13,11 @@
         .then(response => response.json())  // Parse the JSON data
         .then(data => {
           // Prepare the data array to be used with Google Charts
-          var dataArray = [['Year', 'Sales']];
+          var dataArray = [['Year', 'Remittance']];
 
           // Loop through the JSON data and add it to the dataArray
           data.forEach(function(item) {
-            dataArray.push([item.year, item.sales]);
+            dataArray.push([item.year, item.remittance]);
           });
 
           // Create the data table for the chart
@@ -26,7 +26,7 @@
           // Define chart options for a vertical bar chart
           var options = {
             title: 'Company Performance',
-            chartArea: { width: '50%' },
+            chartArea: { width: '90%' },
             hAxis: {
               title: 'Amount in Billion ',
               minValue: 0
