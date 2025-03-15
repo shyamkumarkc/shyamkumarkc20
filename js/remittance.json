@@ -6,9 +6,9 @@
   {"year": "Mangsir", "sales": 640.43},
    {"year": "Poush", "sales": 763.08},
    {"year": "Magh", "sales": 900.58},
-   {"year": "Falgun", "sales":},
-   {"year": "Chaitra", "sales":},
-   {"year": "Baishakh", "sales":},
-   {"year": "Jestha", "sales":},
-   {"year": "Ashadh", "sales":}
+   {"year": "Falgun", "sales": 0},
+   {"year": "Chaitra", "sales": 0},
+   {"year": "Baishakh", "sales": 0},
+   {"year": "Jestha", "sales": 0},
+   {"year": "Ashadh", "sales": 0}
 ]
