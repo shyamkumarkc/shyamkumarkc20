@@ -43,7 +43,7 @@
     <div id="header"></div>
     <h2>Remittance in Nepal as of 2081/2082 Fiscal Year</h2>
     <canvas id="InflationChart" style="width:100%;max-width:600px;height:500px"></canvas>
-      <table id="data-table">
+     <table id="data-table">
     <thead>
       <tr>
         <th>Month</th>
@@ -56,29 +56,33 @@
   </table>
 
   <script>
-    // Your JSON data
-    const jsonData = {https://shyamkumarkc20.com.np/js/remittance.json};
+    // Fetch data from the external JSON file
+    fetch('data.json') // Make sure this is the correct path to your JSON file
+      .then(response => response.json()) // Parse the JSON
+      .then(data => {
+        const tableBody = document.querySelector('#data-table tbody');
 
-    // Get table body element
-    const tableBody = document.querySelector('#data-table tbody');
+        // Loop through the data and create table rows
+        for (let i = 0; i < data.months.length; i++) {
+          const row = document.createElement('tr');
 
-    // Loop through the data and create table rows
-    for (let i = 0; i < jsonData.months.length; i++) {
-      const row = document.createElement('tr');
+          // Create and insert month cell
+          const monthCell = document.createElement('td');
+          monthCell.textContent = data.months[i];
+          row.appendChild(monthCell);
 
-      // Create and insert month cell
-      const monthCell = document.createElement('td');
-      monthCell.textContent = jsonData.months[i];
-      row.appendChild(monthCell);
+          // Create and insert remittance cell
+          const remittanceCell = document.createElement('td');
+          remittanceCell.textContent = data.remittance[i];
+          row.appendChild(remittanceCell);
 
-      // Create and insert remittance cell
-      const remittanceCell = document.createElement('td');
-      remittanceCell.textContent = jsonData.remittance[i];
-      row.appendChild(remittanceCell);
-
-      // Append the row to the table body
-      tableBody.appendChild(row);
-    }
+          // Append the row to the table body
+          tableBody.appendChild(row);
+        }
+      })
+      .catch(error => {
+        console.error('Error loading JSON data:', error);
+      });
   </script>
 
 </body>
