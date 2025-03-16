@@ -1,138 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Inflation Rate in Nepal</title>
-<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
-</script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
-<script>
-$(function(){
-$('#header').load('/assets/header.html');
-});
-</script>
+    <title>Inflation Rate In Nepal</title>
+    <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
 
+    <script>
+        $(function() {
+            $('#header').load('/assets/header.html');
+            
+            // Load JSON data
+            $.getJSON('https://shyamkumarkc20.com.np/js/economy.json', function(data) {
+                var xValues = data.months;  // Data for months
+                var yValues = data.inflation;  // Data for inflation values
+                var barColors = data.colors; // Bar colors
+                
+                // Create the chart
+                new Chart("InflationChart", {
+                    type: "bar",
+                    data: {
+                        labels: xValues,
+                        datasets: [{
+                            backgroundColor: barColors,
+                            data: yValues
+                        }]
+                    },
+                    options: {
+                        legend: { display: false },
+                        title: {
+                            display: false,
+                            text: "Inflation in Nepal as of 2081/2082 Fiscal Year"
+                        }
+                    }
+                });
+            });
+        });
+    </script>
 </head>
-	
-<div id ="header"></div>
-<h2>Inlation Rate in Nepal as of 2081/2082 Fiscal Year </h2>
-<canvas id="InflationChart" style="width:100%;max-width:600px;height:500px"></canvas>
-
-<script>
-var xValues = ["Shrawan", "Bhadra", "Ashoj", "Kartik", "Mangsir", "Poush", "Magh", "Falgun", "Chaitra", "Baishak", "Jestha", "Ashadh"];
-var yValues = [4.10, 3.85, 4.82, 5.60, 6.05, 5.41, 4.16, 0, 0, 0, 0, 0];
-var barColors = ["red", "green","blue","orange","brown", "pink", "indigo", "gold", "yellow", "lime", "aqua", "navy"];
-
-new Chart("InflationChart", {
-  type: "bar",
-  data: {
-    labels: xValues,
-    datasets: [{
-      backgroundColor: barColors,
-      data: yValues
-    }]
-  },
-  options: {
-    legend: {display: false},
-    title: {
-      display: true,
-     
-    }
-  }
-});
-</script>
-<style>
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
     
-    border: 1px solid #ddd;
-}
+<body>
+    <div id="header"></div>
+    <h2>Inflation in Nepal as of 2081/2082 Fiscal Year</h2>
+    <canvas id="InflationChart" style="width:100%;max-width:600px;height:500px"></canvas>
+    <h3>Inflation in Nepal: as of 2081/2082 Fiscal Year</h3>
+    <style>
+        
+        table {
+            width: 50%;
+           
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+      <table id="data-table">
+        <thead>
+            <tr>
+                <th>S No</th>
+                <th>Month</th>
+                <th>Inflation Rate (%)</th>
+                
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            fetchData();
+        });
 
-th, td {
-    text-align: left;
-    padding: 16px;
-}
-
-tr:nth-child(even) {
-    background-color: #f2f2f2
-}
-</style>
-	<br/><br/>
-<table border="black">
-<tr>
-<th>S No</th>
-<th>Month</th>
-<th>Inflation Rate(%)</th>	
-</tr>
-<tr>
-<td>1</td>
-<td>Shrawan</td>
-<td>4.10</td>
-</tr>
-<tr>
-<td>2</td>
-<td>Bhadra</td>
-<td>3.85</td>
-	
-</tr>
-<tr>
-<td>3</td>
-<td>Ashoj</td>
-<td>4.82</td>
-	
-</tr>
-<tr>
-<td>4</td>
-<td>Kartik</td>
-<td>5.60</td>
-	
-</tr>
-<tr>
-<td>5</td>
-<td>Mangsir</td>
-<td>6.05</td>	
-</tr>
-<tr>
-<td>6</td>
-<td>Poush</td>
-<td>5.41</td>
-	
-</tr>
-	<tr>
-<td>7</td>
-<td>Magh</td>
-<td>4.16</td>
-	</tr>
-	<tr>
-<td>8</td>
-<td>Falgun</td>
-<td></td>
-	</tr>
-	<tr>
-<td>9</td>
-<td>Chaitra</td>
-<td></td>
-	</tr>
-<tr>
-<td>10</td>
-<td>Baishak</td>
-<td></td>
-</tr>
-	<tr>
-<td>11</td>
-<td>Jestha</td>
-<td></td>
-	</tr>
-	<tr>
-		
-<td>12</td>
-<td>Ashadh</td>
-<td></td>
-	</tr>
-</table>
-<script>
-$(function(){
+        function fetchData() {
+            fetch("https://shyamkumarkc20.com.np/js/economy.json") // Ensure data.json is accessible
+                .then(response => response.json())
+                .then(data => {
+                    const tableBody = document.querySelector("#data-table tbody");
+                    tableBody.innerHTML = ""; // Clear previous data
+                    
+                    data.months.forEach((month, index) => {
+                        let row = `<tr>
+                        <td>${data.sno[index]}</td>
+                            <td>${month}</td>
+                            <td>${data.inflation[index]}</td>
+                          
+                        </tr>`;
+                        tableBody.innerHTML += row;
+                    });
+                })
+                .catch(error => console.error("Error fetching data:", error));
+        }
+    $(function(){
 $('#footer').load('/assets/footer.html');
 });
 </script>
