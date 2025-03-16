@@ -43,47 +43,40 @@
     <div id="header"></div>
     <h2>Remittance in Nepal as of 2081/2082 Fiscal Year</h2>
     <canvas id="InflationChart" style="width:100%;max-width:600px;height:500px"></canvas>
-     <table id="data-table">
-    <thead>
-      <tr>
-        <th>Month</th>
-        <th>Remittance</th>
-      </tr>
-    </thead>
-    <tbody>
-      <!-- Data will be inserted here -->
-    </tbody>
-  </table>
+      <table id="data-table">
+        <thead>
+            <tr>
+                <th>Month</th>
+                <th>Remittance</th>
+                <th>Inflation</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            fetchData();
+        });
 
-  <script>
-    // Fetch data from the external JSON file
-    fetch('data.json') // Make sure this is the correct path to your JSON file
-      .then(response => response.json()) // Parse the JSON
-      .then(data => {
-        const tableBody = document.querySelector('#data-table tbody');
-
-        // Loop through the data and create table rows
-        for (let i = 0; i < data.months.length; i++) {
-          const row = document.createElement('tr');
-
-          // Create and insert month cell
-          const monthCell = document.createElement('td');
-          monthCell.textContent = data.months[i];
-          row.appendChild(monthCell);
-
-          // Create and insert remittance cell
-          const remittanceCell = document.createElement('td');
-          remittanceCell.textContent = data.remittance[i];
-          row.appendChild(remittanceCell);
-
-          // Append the row to the table body
-          tableBody.appendChild(row);
+        function fetchData() {
+            fetch("https://shyamkumarkc20.com.np/js/remittance.json") // Ensure data.json is accessible
+                .then(response => response.json())
+                .then(data => {
+                    const tableBody = document.querySelector("#data-table tbody");
+                    tableBody.innerHTML = ""; // Clear previous data
+                    
+                    data.months.forEach((month, index) => {
+                        let row = `<tr>
+                            <td>${month}</td>
+                            <td>${data.remittance[index]}</td>
+                            <td>${data.inflation[index]}</td>
+                        </tr>`;
+                        tableBody.innerHTML += row;
+                    });
+                })
+                .catch(error => console.error("Error fetching data:", error));
         }
-      })
-      .catch(error => {
-        console.error('Error loading JSON data:', error);
-      });
-  </script>
-
+    </script>
 </body>
 </html>
