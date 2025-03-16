@@ -66,7 +66,7 @@ n
         <thead>
             <tr>
                 <th>Month</th>
-                <th>Remittance</th>
+                <th>Remittance in Billions</th>
                 
             </tr>
         </thead>
@@ -79,7 +79,7 @@ n
         });
 
         function fetchData() {
-            fetch("https://shyamkumarkc20.com.np/js/remittance.json") // Ensure data.json is accessible
+            fetch("https://shyamkumarkc20.com.np/js/economy.json") // Ensure data.json is accessible
                 .then(response => response.json())
                 .then(data => {
                     const tableBody = document.querySelector("#data-table tbody");
