@@ -43,5 +43,45 @@
     <div id="header"></div>
     <h2>Remittance in Nepal as of 2081/2082 Fiscal Year</h2>
     <canvas id="InflationChart" style="width:100%;max-width:600px;height:500px"></canvas>
+    <table border="black" >
+<thead>
+<tr>
+<th>S.No.</th>
+<th>Bank Name</th>
+	<th>Bank<br/>Logo</th>
+
+
+</tr>
+</thead>
+
+      <tbody id="data-output">
+         <!-- Prodcuts from javascript file in here. -->
+      </tbody>
+   </table>
+ 
+   <script>
+   fetch("https://shyamkumarkc20.com.np/js/commercialbanks.json")
+.then(function(response){
+   return response.json();
+})
+.then(function(products){
+   let placeholder = document.querySelector("#data-output");
+   let out = "";
+   for(let product of products){
+      out += `
+         <tr>
+            
+            <td>${product.months}</td>
+             <td>${product.remittance}</a></td>
+	    
+           
+            
+         </tr>
+      `;
+   }
+ 
+   placeholder.innerHTML = out;
+});
+   </script>
 </body>
 </html>
