@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Remittance</title>
+    <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+
+    <script>
+        $(function() {
+            $('#header').load('/assets/header.html');
+            
+            // Load JSON data
+            $.getJSON('https://shyamkumarkc20.com.np/js/remittance.json', function(data) {
+                var xValues = data.months;  // Data for months
+                var yValues = data.values;  // Data for remittance values
+                var barColors = data.colors; // Bar colors
+                
+                // Create the chart
+                new Chart("InflationChart", {
+                    type: "bar",
+                    data: {
+                        labels: xValues,
+                        datasets: [{
+                            backgroundColor: barColors,
+                            data: yValues
+                        }]
+                    },
+                    options: {
+                        legend: { display: false },
+                        title: {
+                            display: true,
+                            text: "Remittance in Nepal as of 2081/2082 Fiscal Year"
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</head>
+    
+<body>
+    <div id="header"></div>
+    <h2>Remittance in Nepal as of 2081/2082 Fiscal Year</h2>
+    <canvas id="InflationChart" style="width:100%;max-width:600px;height:500px"></canvas>
+</body>
+</html>
