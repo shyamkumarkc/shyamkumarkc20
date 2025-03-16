@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Commercial Banks In Nepal</title>
+<title>Rmeittance</title>
 <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
 </script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
 <script>
 $(function(){
 $('#header').load('/assets/header.html');
@@ -12,63 +13,39 @@ $('#header').load('/assets/header.html');
 </script>
 
 </head>
+	
+<div id ="header"></div>
+<h2>Inlation Rate in Nepal as of 2081/2082 Fiscal Year </h2>
+<canvas id="InflationChart" style="width:100%;max-width:600px;height:500px"></canvas>
 
+<script>
+var xValues = ["Shrawan", "Bhadra", "Ashoj", "Kartik", "Mangsir", "Poush", "Magh", "Falgun", "Chaitra", "Baishak", "Jestha", "Ashadh"];
+var yValues = [136.93, 263.14, 407.31, 521.63, 640.43, 763.08, 900.58, 0, 0, 0, 0, 0];
+var barColors = ["red", "green","blue","orange","brown", "pink", "indigo", "gold", "yellow", "lime", "aqua", "navy"];
 
-
-  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-  <script type="text/javascript">
-    google.charts.load('current', {'packages':['corechart', 'bar']});
-    google.charts.setOnLoadCallback(fetchAndDrawChart);
-
-    // Function to fetch the external JSON and draw the chart
-    function fetchAndDrawChart() {
-      // Fetch the JSON data from an external file (replace with your actual file path)
-      fetch('https://shyamkumarkc20.com.np/js/remittance.json')
-        .then(response => response.json())  // Parse the JSON data
-        .then(data => {
-          // Prepare the data array to be used with Google Charts
-          var dataArray = [['Year', 'Remittance']];
-
-          // Loop through the JSON data and add it to the dataArray
-          data.forEach(function(item) {
-            dataArray.push([item.year, item.remittance]);
-          });
-
-          // Create the data table for the chart
-          var dataTable = google.visualization.arrayToDataTable(dataArray);
-
-          // Define chart options for a vertical bar chart
-          var options = {
-            
-            chartArea: { width: '88%' },
-            hAxis: {
-              title: 'Months',
-              minValue: 0
-            },
-            vAxis: {
-              title: 'Amount in Billions'
-            },
-            bars: 'vertical'  // Vertical bar chart style
-          };
-
-          // Create and draw the chart
-          var chart = new google.visualization.ColumnChart(document.getElementById('curve_chart'));
-          chart.draw(dataTable, options);
-        })
-        .catch(error => {
-          console.log('Error fetching the JSON data:', error);
-        });
+new Chart("InflationChart", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+     
     }
-  </script>
-</head>
-<body>
-	<div id ="header"></div>
-  <div id="curve_chart" style="width: 950px; height: 500px;"></div>
+  }
+});
+</script>
 <style>
 table {
     border-collapse: collapse;
     border-spacing: 0;
-   
+    
     border: 1px solid #ddd;
 }
 
@@ -81,44 +58,80 @@ tr:nth-child(even) {
     background-color: #f2f2f2
 }
 </style>
-<table border="black" >
-<thead>
+	<br/><br/>
+<table border="black">
 <tr>
-<th>Months</th>
-<th>Remittance in billions</th>
-
+<th>S No</th>
+<th>Month</th>
+<th>Remittance in billons</th>	
 </tr>
-</thead>
-
-      <tbody id="data-output">
-         <!-- Prodcuts from javascript file in here. -->
-      </tbody>
-   </table>
- 
-   <script>
-   fetch("https://shyamkumarkc20.com.np/js/remittance.json")
-.then(function(response){
-   return response.json();
-})
-.then(function(products){
-   let placeholder = document.querySelector("#data-output");
-   let out = "";
-   for(let product of products){
-      out += `
-         <tr>
-            
-            <td>${product.year}</td>
-             <td>${product.remittance}</a></td>
-	   
-           
-            
-         </tr>
-      `;
-   }
- 
-   placeholder.innerHTML = out;
-});
-
+<tr>
+<td>1</td>
+<td>Shrawan</td>
+<td>136.93</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Bhadra</td>
+<td>263.14</td>
+	
+</tr>
+<tr>
+<td>3</td>
+<td>Ashoj</td>
+<td>407.31</td>
+	
+</tr>
+<tr>
+<td>4</td>
+<td>Kartik</td>
+<td>521.63</td>
+	
+</tr>
+<tr>
+<td>5</td>
+<td>Mangsir</td>
+<td>640.43</td>	
+</tr>
+<tr>
+<td>6</td>
+<td>Poush</td>
+<td>763.08</td>
+	
+</tr>
+	<tr>
+<td>7</td>
+<td>Magh</td>
+<td>900.58</td>
+	</tr>
+	<tr>
+<td>8</td>
+<td>Falgun</td>
+<td></td>
+	</tr>
+	<tr>
+<td>9</td>
+<td>Chaitra</td>
+<td></td>
+	</tr>
+<tr>
+<td>10</td>
+<td>Baishak</td>
+<td></td>
+</tr>
+	<tr>
+<td>11</td>
+<td>Jestha</td>
+<td></td>
+	</tr>
+	<tr>
+		
+<td>12</td>
+<td>Ashadh</td>
+<td></td>
+	</tr>
+</table>
+<script>
 $(function(){
 $('#footer').load('/assets/footer.html');
 });
