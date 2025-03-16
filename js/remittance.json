@@ -1,5 +1,6 @@
 {
   "months": ["Shrawan", "Bhadra", "Ashoj", "Kartik", "Mangsir", "Poush", "Magh", "Falgun", "Chaitra", "Baishak", "Jestha", "Ashadh"],
-  "values": [136.93, 263.14, 407.31, 521.63, 640.43, 763.08, 900.58, 0, 0, 0, 0, 0],
+  "remittance": [136.93, 263.14, 407.31, 521.63, 640.43, 763.08, 900.58, 0, 0, 0, 0, 0],
+  "inflation":  [136.93, 263.14, 407.31, 521.63, 640.43, 763.08, 900.58, 0, 0, 0, 0, 0],
   "colors": ["red", "green", "blue", "orange", "brown", "pink", "indigo", "gold", "yellow", "lime", "aqua", "navy"]
 }
