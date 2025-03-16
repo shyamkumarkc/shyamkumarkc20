@@ -65,6 +65,7 @@
       <table id="data-table">
         <thead>
             <tr>
+                <th>S No</th>
                 <th>Month</th>
                 <th>Remittance</th>
                 
@@ -87,7 +88,7 @@
                     
                     data.months.forEach((month, index) => {
                         let row = `<tr>
-                         <td>${sno}</td>
+                         <td>${data.sno[index]}</td>
                             <td>${month}</td>
                             <td>${data.remittance[index]}</td>
                           
