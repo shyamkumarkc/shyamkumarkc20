@@ -3,10 +3,12 @@
     "year": "2009",
     "Website": "www.sc.com/np",
 	  "IMG": "https://shyamkumarkc20.com.np/logo/scb.jpg",
+	   "links": "/banking/standardcharteredbank.html",
     "bankname": "Standard Chartered Bank Nepal"
   },
   {
     "year": "2010","Website": "www.nimb.com.np",
+	  "links": "/banking/nepalinvestmentmegabank.html",
 	  "IMG": "https://shyamkumarkc20.com.np/logo/nimb.png",
     "bankname": "Nepal Investment Bank Limited"
   },
@@ -39,6 +41,7 @@
   },
   {
     "year": "2016","Website": "www.nimb.com.np",
+	  "links": "/banking/nepalinvestmentmegabank.html",
 	  "IMG": "https://shyamkumarkc20.com.np/logo/nimb.png",
     "bankname": "Nepal Investment Mega Bank Limited"
   },
@@ -54,6 +57,7 @@
   },
   {
     "year": "2019","Website": "www.nimb.com.np",
+	  "links": "/banking/nepalinvestmentmegabank.html",
 	  "IMG": "https://shyamkumarkc20.com.np/logo/nimb.png",
     "bankname": "Nepal Investment Mega Bank Limited (Former Mega)"
   },
@@ -69,6 +73,7 @@
   },
   {
     "year": "2022","Website": "www.nimb.com.np",
+	  "links": "/banking/nepalinvestmentmegabank.html",
 	  "IMG": "https://shyamkumarkc20.com.np/logo/nimb.png",
     "bankname": "Nepal Investment Mega Bank Limited"
   },
