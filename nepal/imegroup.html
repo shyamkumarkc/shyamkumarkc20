@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Cable Cars In Nepal</title>
+<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+</script>
+<script>
+$(function(){
+$('#header').load('/assets/header.html');
+});
+</script>
+
+</head>
+<body>
+<div id ="header"></div>
+
+
+<style>
+    /* Reset & base */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: #f4f6f9;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #2c3e50;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    ul {
+      list-style: none;
+      width: 100%;
+      max-width: 600px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+      padding: 20px 30px;
+    }
+
+    li {
+      padding: 12px 0;
+      border-bottom: 1px solid #e0e0e0;
+      font-size: 1.1rem;
+      transition: all 0.3s ease;
+    }
+
+    li:last-child {
+      border-bottom: none;
+    }
+
+    li:hover {
+      color: #1abc9c;
+      padding-left: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Finance Companies</h2>
+  <ul id="finance-list"></ul>
+
+  <script>
+    fetch('https://shyamkumarkc20.com.np/js/imegroup.json')
+      .then(response => response.json())
+      .then(data => {
+        const financeList = data.finance;
+        const ul = document.getElementById('finance-list');
+
+        financeList.forEach(company => {
+          const li = document.createElement('li');
+          li.textContent = company;
+          ul.appendChild(li);
+        });
+      })
+      .catch(error => {
+        console.error('Error fetching JSON:', error);
+      });
+  </script>
+  <script>
+$(function(){
+$('#footer').load('/assets/footer.html');
+});
+</script>
+
+</body>
+  <div id ="footer"></div>
+</html>
