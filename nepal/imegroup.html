@@ -62,20 +62,60 @@ $('#header').load('/assets/header.html');
   </style>
 </head>
 <body>
-  <h2>Finance Companies</h2>
-  <ul id="finance-list"></ul>
+  <h1>IME Group Companies</h1>
+
+  <section>
+    <h2>Finance</h2>
+    <ul id="finance-list"></ul>
+  </section>
+
+  <section>
+    <h2>Insurance</h2>
+    <ul id="insurance-list"></ul>
+  </section>
+  <section>
+    <h2>Tourism & Hospitality</h2>
+    <ul id="tourism-list"></ul>
+  </section>
+  <section>
+    <h2>Automotives</h2>
+    <ul id="automotives-list"></ul>
+  </section>
 
   <script>
     fetch('https://shyamkumarkc20.com.np/js/imegroup.json')
       .then(response => response.json())
       .then(data => {
-        const financeList = data.finance;
-        const ul = document.getElementById('finance-list');
+        const financeList = data.Finance;
+        const insuranceList = data.Insurance;
+        const tourismList = data.TourismHospitality;
+         const automotivesList = data.Automotives;
+
+        const financeUl = document.getElementById('finance-list');
+        const insuranceUl = document.getElementById('insurance-list');
+         const tourismUl = document.getElementById('tourism-list');
+          const automotivesUl = document.getElementById('automotives-list');
 
         financeList.forEach(company => {
           const li = document.createElement('li');
           li.textContent = company;
-          ul.appendChild(li);
+          financeUl.appendChild(li);
+        });
+
+        insuranceList.forEach(company => {
+          const li = document.createElement('li');
+          li.textContent = company;
+          insuranceUl.appendChild(li);
+        });
+        tourismList.forEach(company => {
+          const li = document.createElement('li');
+          li.textContent = company;
+          tourismUl.appendChild(li);
+        });
+        automotivesList.forEach(company => {
+          const li = document.createElement('li');
+          li.textContent = company;
+           automotivesUl.appendChild(li);
         });
       })
       .catch(error => {
