@@ -1,10 +1,39 @@
  {
-    "finance": ["IME Digital Solution Ltd.", "IME Limited", "IME Co-operative Service Ltd.", "Global IME Bank Limited", "Nepal Infrastructure Bank Limited", "Global IME Capital Limited"],
-    "Insurance": ["IGI Prudential Insurance", "IME Life Insurance"],
-    "Tourism & Hospitality": ["Chandragiri Hills", "Lake Side Retreat", "Hotel Le Himalaya", "IME Travels and Tours", "Lumbini Cable Car Ltd", "MaulaKalika Cable Car", "Sikless Cable Car", "Jalpadevi Cable Car", "Pathivara Cable Car"      ],
-    "Automotives": ["IME Automotive Private Ltd.", "IME Motors Private Ltd.", "IME Electric", "Venture Hire Purchase Private Limited"        ],
-    "infotainment": ["Dish Media Network Private Ltd."],
-    "Trading & Retail":[ "My Mart Nepal Private Ltd.", "C.M Trading Enterprises Pvt. Ltd."],
+    "finance": [
+     "IME Digital Solution Ltd.", 
+     "IME Limited", 
+     "IME Co-operative Service Ltd.", 
+     "Global IME Bank Limited", 
+     "Nepal Infrastructure Bank Limited", 
+     "Global IME Capital Limited"
+    ],
+    "Insurance": [
+     "IGI Prudential Insurance", 
+     "IME Life Insurance"
+    ],
+  
+    "Tourism & Hospitality": [
+     "Chandragiri Hills", 
+     "Lake Side Retreat", 
+     "Hotel Le Himalaya", 
+     "IME Travels and Tours", 
+     "Lumbini Cable Car Ltd", 
+     "MaulaKalika Cable Car", 
+     "Sikless Cable Car", 
+     "Jalpadevi Cable Car", 
+     "Pathivara Cable Car"
+    ],
+    "Automotives": [
+     "IME Automotive Private Ltd.", 
+     "IME Motors Private Ltd.", 
+     "IME Electric", 
+     "Venture Hire Purchase Private Limited"
+    ],
+    "infotainment": [
+     "Dish Media Network Private Ltd."
+    ],
+    "Trading & Retail":
+  [ "My Mart Nepal Private Ltd.", "C.M Trading Enterprises Pvt. Ltd."],
     "Sports": ["FC Chitwan"],
     "Energy": ["Himalayan Power Partner Ltd. and Mountain Energy Ltd.", "Middle Kaligandaki Hydropower", "Tiplyang Kaligandaki Hydropower Pvt. Ltd."],
     "Logistics": ["Mountain Pumori Air Cargo Pvt. Ltd."],
