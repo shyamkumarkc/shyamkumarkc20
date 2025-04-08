@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>IME Group Companies</title>
+<title>IME Group</title>
+<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+</script>
+<script>
+$(function(){
+$('#header').load('/assets/header.html');
+});
+</script>
+
+</head>
+
   <style>
     /* Reset & base */
     * {
@@ -68,6 +78,8 @@
   </style>
 </head>
 <body>
+ 
+<div id ="header"></div>
   <h1>IME Group Companies</h1>
 
   <section>
@@ -87,6 +99,38 @@
     <h2>Automotives</h2>
     <ul id="automotives-list"></ul>
   </section>
+  <section>
+    <h2>Infotainment</h2>
+    <ul id="infotainment-list"></ul>
+  </section>
+  <section>
+    <h2>Trading & Retail</h2>
+    <ul id="tradingRetail-list"></ul>
+  </section>
+  <section>
+    <h2>Sports</h2>
+    <ul id="sports-list"></ul>
+  </section>
+  <section>
+    <h2>Energy</h2>
+    <ul id="energy-list"></ul>
+  </section>
+  <section>
+    <h2>Logistics</h2>
+    <ul id="logistics-list"></ul>
+  </section>
+  <section>
+    <h2>Technology</h2>
+    <ul id="technology-list"></ul>
+  </section>
+  <section>
+    <h2>Manufacturing</h2>
+    <ul id="manufacturing-list"></ul>
+  </section>
+  <section>
+    <h2>Education</h2>
+    <ul id="education-list"></ul>
+  </section>
 
   <script>
     fetch('https://shyamkumarkc20.com.np/js/imegroup.json')
@@ -97,14 +141,26 @@
         const tourismList = data.TourismHospitality;
          const automotivesList = data.Automotives;
          const infotainmentList = data.Infotainment;
-         const TradingRetailList = data.TradingRetail;
+         const tradingRetailList = data.TradingRetail;
+         const  sportsList = data.Sports ;
+         const  energyList = data.Energy ;
+         const  logisticsList = data.Logistics ;
+         const  technologyList = data.Technology ;
+         const  manufacturingList = data.Manufacturing ;
+         const  educationList = data.Education ;
 
         const financeUl = document.getElementById('finance-list');
         const insuranceUl = document.getElementById('insurance-list');
-         const tourismUl = document.getElementById('tourism-list');
-          const automotivesUl = document.getElementById('automotives-list');
-          const infotainmentUl = document.getElementById('infotainment-list');
-          const tradingRetailsUl = document.getElementById('tradingRetail-list');
+        const tourismUl = document.getElementById('tourism-list');
+        const automotivesUl = document.getElementById('automotives-list');
+        const infotainmentUl = document.getElementById('infotainment-list');
+        const tradingRetailUl = document.getElementById('tradingRetail-list');
+        const  sportsUl = document.getElementById('sports-list');
+        const  energyUl = document.getElementById('energy-list');
+        const  logisticsUl = document.getElementById('logistics-list');
+        const  technologyUl = document.getElementById('technology-list');
+        const  manufacturingUl = document.getElementById('manufacturing-list');
+        const  educationUl = document.getElementById('education-list');
 
         financeList.forEach(company => {
           const li = document.createElement('li');
@@ -137,10 +193,47 @@
           li.textContent = company;
            tradingRetailUl.appendChild(li);
         });
+         sportsList.forEach(company => {
+          const li = document.createElement('li');
+          li.textContent = company;
+           sportsUl.appendChild(li);
+        });
+        energyList.forEach(company => {
+          const li = document.createElement('li');
+          li.textContent = company;
+           energyUl.appendChild(li);
+        });
+        logisticsList.forEach(company => {
+          const li = document.createElement('li');
+          li.textContent = company;
+           logisticsUl.appendChild(li);
+        });
+        technologyList.forEach(company => {
+          const li = document.createElement('li');
+          li.textContent = company;
+           technologyUl.appendChild(li);
+        });
+       manufacturingList.forEach(company => {
+          const li = document.createElement('li');
+          li.textContent = company;
+           manufacturingUl.appendChild(li);
+        });
+        educationList.forEach(company => {
+          const li = document.createElement('li');
+          li.textContent = company;
+           educationUl.appendChild(li);
+        });
       })
       .catch(error => {
         console.error('Error fetching JSON:', error);
       });
   </script>
+  <script>
+$(function(){
+$('#footer').load('/assets/footer.html');
+});
+</script>
+
 </body>
+  <div id ="footer"></div>
 </html>
