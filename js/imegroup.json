@@ -32,13 +32,29 @@
     "infotainment": [
      "Dish Media Network Private Ltd."
     ],
-    "Trading & Retail":
-  [ "My Mart Nepal Private Ltd.", "C.M Trading Enterprises Pvt. Ltd."],
+    "Trading & Retail":[ 
+     "My Mart Nepal Private Ltd.", 
+     "C.M Trading Enterprises Pvt. Ltd."
+    ],
     "Sports": ["FC Chitwan"],
-    "Energy": ["Himalayan Power Partner Ltd. and Mountain Energy Ltd.", "Middle Kaligandaki Hydropower", "Tiplyang Kaligandaki Hydropower Pvt. Ltd."],
-    "Logistics": ["Mountain Pumori Air Cargo Pvt. Ltd."],
-    "Technology": ["Swift Technology Pvt. Ltd.", "Midas Technologies Pvt. Ltd.", "Smart Choice Technologies Limited", "Rigo"],
-      "Manufacturing": ["Nepal Pulp and Paper Industries Private Limited"],
-      "Education": ["Kathmandu Technical School"]
+    "Energy": [
+     "Himalayan Power Partner Ltd. and Mountain Energy Ltd.", 
+     "Middle Kaligandaki Hydropower", 
+     "Tiplyang Kaligandaki Hydropower Pvt. Ltd."
+    ],
+    "Logistics": ["Mountain Pumori Air Cargo Pvt. Ltd."
+    ],
+    "Technology": [
+     "Swift Technology Pvt. Ltd.", 
+     "Midas Technologies Pvt. Ltd.", 
+     "Smart Choice Technologies Limited", 
+     "Rigo"
+    ],
+      "Manufacturing": [
+       "Nepal Pulp and Paper Industries Private Limited"
+      ],
+      "Education": [
+       "Kathmandu Technical School"
+      ]
         
       }
