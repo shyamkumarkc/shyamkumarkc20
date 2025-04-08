@@ -1,22 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Cable Cars In Nepal</title>
-<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
-</script>
-<script>
-$(function(){
-$('#header').load('/assets/header.html');
-});
-</script>
-
-</head>
-<body>
-<div id ="header"></div>
-
-
-<style>
+  <meta charset="UTF-8">
+  <title>IME Group Companies</title>
+  <style>
     /* Reset & base */
     * {
       margin: 0;
@@ -25,23 +12,42 @@ $('#header').load('/assets/header.html');
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
-    
+    body {
+      background: #f4f6f9;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+    }
 
     h1 {
       font-size: 2.5rem;
       color: #2c3e50;
       margin-bottom: 30px;
-     
+      text-align: center;
     }
 
-    ul {
-      list-style: none;
+    section {
       width: 100%;
       max-width: 600px;
       background: white;
       border-radius: 12px;
       box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
       padding: 20px 30px;
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      font-size: 1.6rem;
+      margin-bottom: 15px;
+      color: #34495e;
+      border-left: 4px solid #1abc9c;
+      padding-left: 10px;
+    }
+
+    ul {
+      list-style: none;
     }
 
     li {
@@ -90,11 +96,15 @@ $('#header').load('/assets/header.html');
         const insuranceList = data.Insurance;
         const tourismList = data.TourismHospitality;
          const automotivesList = data.Automotives;
+         const infotainmentList = data.Infotainment;
+         const TradingRetailList = data.TradingRetail;
 
         const financeUl = document.getElementById('finance-list');
         const insuranceUl = document.getElementById('insurance-list');
          const tourismUl = document.getElementById('tourism-list');
           const automotivesUl = document.getElementById('automotives-list');
+          const infotainmentUl = document.getElementById('infotainment-list');
+          const tradingRetailsUl = document.getElementById('tradingRetail-list');
 
         financeList.forEach(company => {
           const li = document.createElement('li');
@@ -117,16 +127,20 @@ $('#header').load('/assets/header.html');
           li.textContent = company;
            automotivesUl.appendChild(li);
         });
+        infotainmentList.forEach(company => {
+          const li = document.createElement('li');
+          li.textContent = company;
+           infotainmentUl.appendChild(li);
+        });
+        tradingRetailList.forEach(company => {
+          const li = document.createElement('li');
+          li.textContent = company;
+           tradingRetailUl.appendChild(li);
+        });
       })
       .catch(error => {
         console.error('Error fetching JSON:', error);
       });
   </script>
-  <script>
-$(function(){
-$('#footer').load('/assets/footer.html');
-});
-</script>
 </body>
-  <div id ="footer"></div>
 </html>
