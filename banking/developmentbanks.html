@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Development Banks</title>
+<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+</script>
+<script>
+$(function(){
+$('#header').load('/assets/header.html');
+});
+</script>
+
+</head>
+<body>
+<div id ="header"></div>
+  <h1>Development Banks </h1>
+<p>In Nepal, development banks are <strong>licensed by Nepal Rastra Bank (NRB)</strong>&mdash;the central bank&mdash;and categorized as <strong>Class 'B' financial institutions</strong>. They operate under the <strong>Bank and Financial Institutions Act (BAFIA)</strong> and are allowed to carry out banking activities such as:
+<ul>
+<li>Accepting deposits</li>
+<li>Providing loans (especially long-term and project financing)</li>
+<li>Investing in productive sectors</li>
+</ul>
+<h3>Roles of Development Banks in Nepal:</h3>
+<ul>
+<li>Financing agriculture and rural development</li>
+<li>Supporting small-scale industries and entrepreneurs</li>
+<li>Promoting financial inclusion in remote areas</li>
+<li>Helping generate employment and reduce poverty</li>
+</ul>
+<h3>Types of Development Banks in Nepal:</h3>
+<p>Nepal has two main categories of development banks:
+<ol>
+<li><strong>National Level Development Banks</strong>
+<ul>
+<li>Operate across the whole country.</li>
+</ul>
+</li>
+<li><strong>Regional or Local Level Development Banks</strong>
+<ul>
+<li>Operate in specific regions or districts.</li>
+</ul>
+</li>
+</ol>
+<h3>List of Development Banks in Nepal:</h3>
+<table border="black" >
+<thead>
+<tr>
+<th>S.No.</th>
+<th>Name</th>
+	
+
+</tr>
+</thead>
+
+      <tbody id="data-output">
+         <!-- Prodcuts from javascript file in here. -->
+      </tbody>
+   </table>
+ 
+   <script>
+   fetch("https://shyamkumarkc20.com.np/js/developmentbanks.json")
+.then(function(response){
+   return response.json();
+})
+.then(function(products){
+   let placeholder = document.querySelector("#data-output");
+   let out = "";
+   for(let product of products){
+      out += `
+         <tr>
+            
+            <td>${product.SNO}</td>
+             <td><a href ="${product.links}">${product.Name}</a></td>
+	    
+			
+           
+            
+         </tr>
+      `;
+   }
+ 
+   placeholder.innerHTML = out;
+});
+
+   </script>
+
+
+
+  <script>
+$(function(){
+$('#footer').load('/assets/footer.html');
+});
+</script>
+
+</body>
+  <div id ="footer"></div>
+</html>
