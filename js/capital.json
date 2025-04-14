@@ -2,6 +2,7 @@
     {
         "BFIs": "Commercial Bank",
         "Class": "A",
+        "links": "/banking/commercialbanks",
         "Total": "20",
         "NationalLevel": "8 billion",
         "RegionalLevel ": "-",
@@ -10,7 +11,7 @@
     },
     {
         "BFIs": "DevelopmentBank",
-        "Class": "B",
+        "Class": "B", "links": "/banking/developmentbanks",
         "Total": "17",
         "NationalLevel": "2.5 billion",
         "RegionalLevel ": "-",
@@ -19,7 +20,7 @@
     },
     {
         "BFIs": "Finance Company",
-        "Class": "C",
+        "Class": "C", "links": "/banking/financecompanies",
         "Total": "17",
         "NationalLevel": "800 million",
         "RegionalLevel ": "-",
@@ -28,7 +29,7 @@
     },
     {
         "BFIs": "Microfinance Company",
-        "Class": "D",
+        "Class": "D", "links": "/microfinancecompanies",
         "Total": "65",
         "NationalLevel": "100 million",
         "RegionalLevel ": "60 million",
