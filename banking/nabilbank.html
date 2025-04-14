@@ -17,20 +17,25 @@
     <h1>Nabil Bank Limited</h1>
   <div id="bankInfo1" class="bank-container"></div>
    <table style="margin-left: auto; margin-right: auto;">
-     <tr>
+   <tr>
+   <td colspan="5" style="background-color: #ffca33;">Small OverView of Nabil Bank Limited</td></tr>
+     <tr><td id="customer" class="bank-container"></td>
       <td id="atm" class="bank-container"></td>
     <td id="branch" class="bank-container"></td>
      <td id="ext" class="bank-container"></td>
     <td id="blb" class="bank-container"></td>
     </tr>
     </table>
-    <h2>Nabil Bank Limited</h2>
+    <br/>
+    <section style="margin-left: auto; margin-right: auto;">
+    <h2>Nabil Bank Limited Details:</h2>
     <div id="bankInfo" class="bank-container"></div>
     
     <h2>Merged BFIs</h2>
      <div id="subInfo1" class="bank-container"></div>
     <h2>Subsidiary Companies</h2>
     <div id="subInfo" class="bank-container"></div>
+    </section>
     <style>
         table {
            
@@ -41,7 +46,9 @@
             border: 1px solid #ccc;
             text-align: center;
         }
-        
+         #customer {
+            background-color: #11aee5; /* Light blue for Customer */
+        }
         #atm {
             background-color: #add8e6; /* Light blue for ATM */
         }
@@ -56,7 +63,11 @@
         
         #blb {
             background-color: #ffcccb; /* Light red for Branchless Banking */
-        
+        }
+     section {
+      width: 100%;
+      max-width: 600px;   
+             align-text: center;
     </style>
     
     <script>
@@ -82,6 +93,7 @@
                         <p><strong>Email:</strong> <a href="mailto:${nabilBank.email}">${nabilBank.email}</a></p>
                         <p><strong>Website:</strong> <a href="https://${nabilBank.Website}" target="_blank">${nabilBank.Website}</a></p>
                     `;
+document.getElementById('customer').innerHTML = `<p>Customer: ${nabilBank.Customer}</p>`;
                     document.getElementById('atm').innerHTML = `<p>ATM: ${nabilBank.ATM}</p>`;
                     document.getElementById('ext').innerHTML = `<p>Extention Counters: ${nabilBank.ext}</p>`;
                     document.getElementById('blb').innerHTML = `<p>Branchless Banking: ${nabilBank.blb}</p>`;
