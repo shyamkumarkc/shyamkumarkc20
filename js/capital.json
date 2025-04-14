@@ -29,11 +29,29 @@
     {
         "BFIs": "Microfinance Company",
         "Class": "D", "links": "/microfinancecompanies",
-        "Total": "65",
+        "Total": "52",
         "NationalLevel": "100 million",
         "RegionalLevel": "60 million",
         "fourto10districts": "20 million",
         "oneto3districts": "10 million"
+    },
+    {
+        "BFIs": "Life Insurance Company",
+        "Class": "-", "links": "/",
+        "Total": "14",
+        "NationalLevel": "200 million",
+        "RegionalLevel": " ",
+        "fourto10districts": " ",
+        "oneto3districts": " "
+    }    ,
+    {
+        "BFIs": "Non Life Insurance Company",
+        "Class": "-", "links": "/",
+        "Total": "14",
+        "NationalLevel": "100 million",
+        "RegionalLevel": " ",
+        "fourto10districts": " ",
+        "oneto3districts": " "
     }
 ]
    
