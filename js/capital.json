@@ -4,7 +4,7 @@
         "Class": "A",   "links": "/banking/commercialbanks",
         "Total": "20",
         "NationalLevel": "8 billion",
-        "RegionalLevel ": "-",
+        "RegionalLevel": "-",
         "fourto10districts": "-",
         "oneto3districts": "-"
     },
@@ -13,7 +13,7 @@
         "Class": "B", "links": "/banking/developmentbanks",
         "Total": "17",
         "NationalLevel": "2.5 billion",
-        "RegionalLevel ": "-",
+        "RegionalLevel": "-",
         "fourto10districts": "1.2 billion",
         "oneto3districts": "0.5 billion"
     },
@@ -22,7 +22,7 @@
         "Class": "C", "links": "/banking/financecompanies",
         "Total": "17",
         "NationalLevel": "800 million",
-        "RegionalLevel ": "-",
+        "RegionalLevel": "-",
         "fourto10districts": "800 million",
         "oneto3districts": "400 million"
     },
@@ -31,7 +31,7 @@
         "Class": "D", "links": "/microfinancecompanies",
         "Total": "65",
         "NationalLevel": "100 million",
-        "RegionalLevel ": "60 million",
+        "RegionalLevel": "60 million",
         "fourto10districts": "20 million",
         "oneto3districts": "10 million"
     }
