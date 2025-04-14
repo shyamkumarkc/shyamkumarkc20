@@ -157,6 +157,18 @@
     },
     {
         "SNo": "",
+        "Name": "Tinau Bikas Bank",
+        "BFI": "a. Mission Development Bank<br/>b. Nepal Community Development Bank",
+        "Merger": "Tinau Mission Development Bank"
+    },
+    {
+        "SNo": "",
+        "Name": "Shine Development Bank",
+        "BFI": "Resunga Bikas Bank",
+        "Merger": "Shine Resunga Development Bank"
+    },
+    {
+        "SNo": "",
         "Name": "",
         "BFI": "",
         "Merger": ""
