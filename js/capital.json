@@ -1,0 +1,38 @@
+[
+    {
+        "BFIs": "Commercial Bank",
+        "Class": "A",
+        "Total": "20",
+        "NationalLevel": "8 billion",
+        "RegionalLevel ": "-",
+        "4-10districts": "-",
+        "1-3districts": "-"
+    },
+    {
+        "BFIs": "DevelopmentBank",
+        "Class": "B",
+        "Total": "17",
+        "NationalLevel": "2.5 billion",
+        "RegionalLevel ": "-",
+        "4-10districts": "1.2 billion",
+        "1-3districts": "0.5 billion"
+    },
+    {
+        "BFIs": "Finance Company",
+        "Class": "C",
+        "Total": "17",
+        "NationalLevel": "800 million",
+        "RegionalLevel ": "-",
+        "4-10districts": "800 million",
+        "1-3districts": "400 million"
+    },
+    {
+        "BFIs": "Microfinance Company",
+        "Class": "D",
+        "Total": "65",
+        "NationalLevel": "100 million",
+        "RegionalLevel ": "60 million",
+        "4-10districts": "20 million",
+        "1-3districts": "10 million"
+    }
+]
