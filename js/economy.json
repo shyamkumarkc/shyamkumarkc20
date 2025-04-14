@@ -2,7 +2,7 @@
   "sno": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],
   "months": ["Shrawan", "Bhadra", "Ashoj", "Kartik", "Mangsir", "Poush", "Magh", "Falgun", "Chaitra", "Baishak", "Jestha", "Ashadh"],
   "remittance": [136.93, 263.14, 407.31, 521.63, 640.43, 763.08, 900.58, 0, 0, 0, 0, 0],
-  "inflation":  [4.10, 3.85, 4.82, 5.60, 6.05, 5.41, 4.16, 0, 0, 0, 0, 0],
+  "inflation":  [4.10, 3.85, 4.82, 5.60, 6.05, 5.41, 4.16, 3.75, 0, 0, 0, 0],
   "revenue":  [94.74, 166.39, 248.26, 323.24, 399.60, 559.61, 642.85, 0, 0, 0, 0, 0],
   "colors": ["red", "green", "blue", "orange", "brown", "pink", "indigo", "gold", "yellow", "lime", "aqua", "navy"]
 }
