@@ -14,6 +14,108 @@ $('#header').load('/assets/header.html');
 </head>
 <body>
 <div id ="header"></div>
+  <div id="header"></div>
+    <h1>Nabil Bank Limited</h1>
+  <div id="bankInfo1" class="bank-container"></div>
+   <table style="margin-left: auto; margin-right: auto;">
+   <tr>
+   <td colspan="5" style="background-color: #ffca33;">Small OverView of Nabil Bank Limited</td></tr>
+     <tr><td id="customer" class="bank-container"></td>
+      <td id="atm" class="bank-container"></td>
+    <td id="branch" class="bank-container"></td>
+     <td id="ext" class="bank-container"></td>
+    <td id="blb" class="bank-container"></td>
+    </tr>
+    </table>
+    <br/>
+    <section >
+    <h2>Nabil Bank Limited Details:</h2>
+    <div id="bankInfo" class="bank-container"></div>
+    
+    <h2>Merged BFIs</h2>
+     <div id="subInfo1" class="bank-container"></div>
+    <h2>Subsidiary Companies</h2>
+    <div id="subInfo" class="bank-container"></div>
+    </section>
+    <style>
+        table {
+           
+            border-collapse: collapse;
+        }
+        td {
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+         #customer {
+            background-color: #11aee5; /* Light blue for Customer */
+        }
+        #atm {
+            background-color: #add8e6; /* Light blue for ATM */
+        }
+        
+        #branch {
+            background-color: #90ee90; /* Light green for Branches */
+        }
+        
+        #ext {
+            background-color: #ffebcd; /* Blanched Almond for Extension Counters */
+        }
+        
+        #blb {
+            background-color: #ffcccb; /* Light red for Branchless Banking */
+        }
+     section {
+      width: 100%;
+      max-width: 600px;
+      padding-left:20px;
+             align-text: center;
+    </style>
+    
+    <script>
+        async function fetchBankData() {
+            try {
+                const response = await fetch('https://shyamkumarkc20.com.np/js/commercialbanks.json'); // Replace with actual API endpoint
+                const banks = await response.json();
+                
+                // Filter for Nabil Bank Limited
+                const nabilBank = banks.find(bank => bank.Name === "Nabil Bank Limited");
+                
+                if (nabilBank) {
+                    document.getElementById('bankInfo').innerHTML = `
+                        <img src="${nabilBank.IMG}" alt="Nabil Bank Limited Logo" class="bank-logo">
+                        <p><strong>Name:</strong> ${nabilBank.Name}</p>
+                        <p><strong>Established:</strong> ${nabilBank.ODAD} [ ${nabilBank.ODBS} ]</p>
+                        <p><strong>Head Office:</strong> ${nabilBank.HO}</p>
+                        <p><strong>CEO:</strong> ${nabilBank.ceo}</p>
+                        <p><strong>NEPSE Code:</strong> ${nabilBank.NEPSE}</p>
+                        <p><strong>Swift Code:</strong> ${nabilBank.Swift}</p>
+                        <p><strong>Phone:</strong> <a href="tel:${nabilBank.phone1}">${nabilBank.phone1}</a> <a href="tel:${nabilBank.phone2}">${nabilBank.phone2}</a></p>
+                        <p><strong>Toll Free:</strong> <a href="tel:${nabilBank.TOLL}">${nabilBank.TOLL}</a></p>
+                        <p><strong>Email:</strong> <a href="mailto:${nabilBank.email}">${nabilBank.email}</a></p>
+                        <p><strong>Website:</strong> <a href="https://${nabilBank.Website}" target="_blank">${nabilBank.Website}</a></p>
+                    `;
+document.getElementById('customer').innerHTML = `<p>Customer: ${nabilBank.Customer}</p>`;
+                    document.getElementById('atm').innerHTML = `<p>ATM: ${nabilBank.ATM}</p>`;
+                    document.getElementById('ext').innerHTML = `<p>Extention Counters: ${nabilBank.ext}</p>`;
+                    document.getElementById('blb').innerHTML = `<p>Branchless Banking: ${nabilBank.blb}</p>`;
+                    document.getElementById('branch').innerHTML = `<p>Branches: ${nabilBank.branch}</p>`;
+                    document.getElementById('subInfo1').innerHTML = `<p>${nabilBank.merger}</p>`;
+                  document.getElementById('bankInfo1').innerHTML = `<p>${nabilBank.desc}</p>`;
+                    document.getElementById('subInfo').innerHTML = `<p>${nabilBank.subsidiaries}</p>`;
+                } else {
+                    document.getElementById('bankInfo').innerHTML = '<p>Nabil Bank Limited data not found.</p>';
+                    document.getElementById('subInfo').innerHTML = '<p>Nabil Bank Limited subsidiaries data not found.</p>';
+                  document.getElementById('subInfo1').innerHTML = '<p>Nabil Bank Limited merger data not found.</p>';
+                }
+            } catch (error) {
+                console.error('Error fetching bank data:', error);
+                document.getElementById('bankInfo').innerHTML = '<p>Error loading bank details.</p>';
+                document.getElementById('subInfo').innerHTML = '<p>Error loading subsidiaries details.</p>';
+              document.getElementById('subInfo1').innerHTML = '<p>Error loading merger details.</p>';
+            }
+        }
+    </script>
 
 <h1>Rastriya Banijya Bank Limited (RBBL)</h1><div class="separator" style="clear: both; text-align: center;"><a href="https://www.rbb.com.np/uploads/config/1588430290-348980.jpg" style="margin-left: 1em; margin-right: 1em;"><img alt="Rastriya Banijya Bank Limited (RBBL)" border="0" data-original-height="135" data-original-width="373" height="115" src="https://www.rbb.com.np/uploads/config/1588430290-348980.jpg" title="Rastriya Banijya Bank Limited (RBBL)" width="320" /></a></div><br /><div><br /></div><script data-cfasync="false" src="//p24789.clksite.com/adServe/banners?tid=24789_34790_27" type="text/javascript"></script><p><a href="https://www.rbb.com.np" rel="nofollow" target="_blank">Rastriya Banijya Bank Limited (RBBL)</a> is fully government owned, largest commercial bank in Nepal. Rastriya Banijya Bank Limited (RBBL) has a history of serving its customers far and wide across the nation for more than half a century. The bank then fully owned by Government of Nepal, was established on 10 Magh 2022 (23 January 1966) under the special statute "Rastriya Banijya Bank Act, 2021" and had operated under "Commercial Bank Act, 2031" until it was re-registered as public limited company on 6 Baishak 2063 (19 May 2006). At present, the Bank operates as "A" class financial institution licensed by Nepal Rastra Bank and carries out commercial banking activities as per the provisions of the "Bank and Financial institutions Act 2073," (2017).</p><p>
 
