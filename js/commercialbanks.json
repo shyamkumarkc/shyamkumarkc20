@@ -234,7 +234,9 @@
 	  "ATM": "125",
 	  "branch": "100",
 	  "ext": "22",
-	  "blb": "19",  "Customer": "",
+	  "blb": "19",  
+	  "Customer": "",
+	  "first": "Use Robert in Nepal",
 	  "subsidiaries": "a. Nepal SBI Merchant Banking Limited",
 	  "merger": "",
 	  "desc": "Nepal SBI Bank Ltd. (NSBL) is a subsidiary of State Bank of India (SBI) having 55 percent of ownership. The local partner viz. Employee Provident Fund holds 15% equity and General Public 30%. In terms of the Technical Services Agreement between SBI and the NSBL, the former provides management support to the bank through its expatriate officers including Managing Director who is also the CEO of the Bank. Central Management Committee (CENMAC), consisting of the Managing Director & CEO, Dy. CEO & Chief Financial Officer, Chief Operating Officer and two Vertical Heads as decided by Managing Director of the Bank, exercises overall control functions with the help of controlling offices, and oversee the overall operations of the Bank."
