@@ -263,8 +263,9 @@
 	  "ATM": "167",
 	  "branch": "131",
 	  "ext": "36",
-	  "blb": "",  "Customer": "",
+	  "blb": "",  "Customer": "Introduce ATM Machine and Debit card in Nepal",
 	  "merger": "",
+	  "first": "",
 	  "subsidiaries": "",
 	  "desc": "Catering to more than 14 lacs customers, Everest Bank Limited (EBL) is a name you can depend on for professionalized & efficient banking services. Founded in 1994, the Bank has been one of the leading banks of the country and has been catering its services to various segments of the society. With clients from all walks of life, the Bank has helped the nation to develop corporately, agriculturally & industrially.<br/>Punjab National Bank (PNB), India’s first Swadeshi Bank, commenced its operation on April 12, 1895 form Lahore and was the first bank purely managed by Indian with Indian Capital. During the long history of the Bank, 9 banks have been merged with PNB."
   },
@@ -293,6 +294,7 @@
 	  "branch": "302",
 	  "ext": "50",  "Customer": "",
 	  "blb": "54",
+	  "first": "Internet banking in Nepal in 2002",
 	  "subsidiaries": "a. Kumari Capital Limited<br/>b. Kumari Securities Limited",
 	  "desc": "Kumari Bank Limited, came into existence as the fifteenth commercial banks of Nepal, starting its banking operations from Chaitra 21, 2057 B.S (April 03, 2001) with an objective of providing competitive modern banking services in the Nepalese financial market. The Bank has paid up capital of NPR 26.23 billion.<br/>The Bank has pioneered in providing modern banking services like Internet Banking and Mobile Banking. With the implementation of Core Banking Software, FINACLE (version 10), the Bank has been providing a robust, ultra-modern banking platform for all customers throughout the country."
   },
