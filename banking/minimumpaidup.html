@@ -37,7 +37,7 @@ The minimum paid-up capital requirement for Bank and Financial Institutions in N
 </tr>
 </thead>
 
-      <tbody id="data-output">
+      <tbody id="data-output0">
          <!-- Prodcuts from javascript file in here. -->
       </tbody>
    </table>
@@ -48,7 +48,7 @@ The minimum paid-up capital requirement for Bank and Financial Institutions in N
    return response.json();
 })
 .then(function(products){
-   let placeholder = document.querySelector("#data-output");
+   let placeholder = document.querySelector("#data-output0");
    let out = "";
    for(let product of products){
       out += `
@@ -71,9 +71,315 @@ The minimum paid-up capital requirement for Bank and Financial Institutions in N
 });
 
    </script>
+<br/> <br/>
+<h2>Minimum Paid up capital maintained by Bank and Financial Instituitions in Nepal</h2>
+<style>
+    
+
+    .tabs {
+      max-width: 700px;
+      
+    }
+
+    .tab-labels {
+      display: flex;
+      cursor: pointer;
+      margin-bottom: 1em;
+    }
+
+    .tab-labels label {
+      flex: 1;
+      padding: 10px;
+      background: #eee;
+      text-align: center;
+      border: 1px solid #ccc;
+      border-bottom: none;
+      transition: background 0.3s;
+    }
+
+    .tab-labels label:hover {
+      background: #ddd;
+    }
+
+    input[type="radio"] {
+      display: none;
+    }
+
+    .tab-content {
+      border: 1px solid #ccc;
+      padding: 15px;
+      background: #fff;
+    }
+
+    .tab {
+      display: none;
+    }
+
+    #tab1:checked ~ .content .tab1,
+    #tab2:checked ~ .content .tab2,
+    #tab3:checked ~ .content .tab3,
+    #tab4:checked ~ .content .tab4,
+    #tab5:checked ~ .content .tab5{
+      display: block;
+    }
+
+    /* Active tab style */
+    #tab1:checked ~ .tab-labels label[for="tab1"],
+    #tab2:checked ~ .tab-labels label[for="tab2"],
+    #tab3:checked ~ .tab-labels label[for="tab3"],
+    #tab4:checked ~ .tab-labels label[for="tab4"],
+    #tab5:checked ~ .tab-labels label[for="tab5"]{
+      background: #fff;
+      font-weight: bold;
+    }
+  </style>
 
 
+<style>
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
 
+th, td {
+    text-align: left;
+    padding: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+</style>
+
+<div class="tabs">
+  <!-- Radio buttons -->
+  <input type="radio" name="tabs" id="tab1" checked>
+  <input type="radio" name="tabs" id="tab2">
+  <input type="radio" name="tabs" id="tab3">
+  <input type="radio" name="tabs" id="tab4">
+  
+
+  <!-- Tab labels -->
+  <div class="tab-labels">
+    <label for="tab1">Commercial Banks</label>
+    <label for="tab2">Development Banks</label>
+    <label for="tab3">Finance Companies</label>
+    <label for="tab4">Microfinance Companies</label>
+    
+  </div>
+
+  <!-- Tab content -->
+  <div class="content">
+    <div class="tab tab1 tab-content">
+      
+     
+<table border="black">
+<thead>
+<tr>
+<th>S.No.</th>
+<th>Bank Name</th>
+	
+<th>Paid-up Capital<br/>(in Billions)</th>
+
+</tr>
+</thead>
+      <tbody id="data-output">
+         <!-- Prodcuts from javascript file in here. -->
+      </tbody>
+   </table>
+ 
+   <script>
+   fetch("https://shyamkumarkc20.com.np/js/commercialbanks.json")
+.then(function(response){
+   return response.json();
+})
+.then(function(products){
+   let placeholder = document.querySelector("#data-output");
+   let out = "";
+   for(let product of products){
+      out += `
+         <tr>            
+            <td>${product.SNO}</td>
+             <td>${product.Name}</td>             
+             <td>${product.paidup}</td>
+			            
+            
+         </tr>
+      `;
+   }
+ 
+   placeholder.innerHTML = out;
+});
+</script>
+    </div>
+    <div class="tab tab2 tab-content">
+      
+ 
+      <table border="black">
+<thead>
+<tr>
+<th>S.No.</th>
+<th>Bank Name</th>
+	
+<th>Paid-up Capital<br/>(in Billions)</th>
+
+</tr>
+</thead>
+
+      <tbody id="data-output3">
+         <!-- Prodcuts from javascript file in here. -->
+      </tbody>
+   </table>
+ 
+   <script>
+   fetch("https://shyamkumarkc20.com.np/js/developmentbanks.json")
+.then(function(response){
+   return response.json();
+})
+.then(function(products){
+   let placeholder = document.querySelector("#data-output3");
+   let out = "";
+   for(let product of products){
+      out += `
+         <tr>            
+            <td>${product.SNO}</td>
+             <td>${product.Name}</td>
+             <td>${product.paidup}</td>
+			            
+            
+         </tr>
+      `;
+   }
+ 
+   placeholder.innerHTML = out;
+});
+</script>
+    </div>
+    <div class="tab tab3 tab-content">
+      
+      <table border="black" >
+<thead>
+<tr>
+<th>S.No.</th>
+<th>Bank Name</th>
+	
+<th>Paid-up Capital<br/>(in Billions)</th>
+
+</tr>
+</thead>
+
+      <tbody id="data-output2">
+         <!-- Prodcuts from javascript file in here. -->
+      </tbody>
+   </table>
+ 
+   <script>
+   fetch("https://shyamkumarkc20.com.np/js/financecompanies.json")
+.then(function(response){
+   return response.json();
+})
+.then(function(products){
+   let placeholder = document.querySelector("#data-output2");
+   let out = "";
+   for(let product of products){
+      out += `
+         <tr>            
+            <td>${product.SNO}</td>
+            <td>${product.Name}</td>
+            <td>${product.paidup}</td>
+                        
+            
+         </tr>
+      `;
+   }
+ 
+   placeholder.innerHTML = out;
+});
+</script>
+    </div>
+  
+    <div class="tab tab4 tab-content">
+    
+      
+<table  border="black">
+<thead>
+<tr>
+<th>S.No.</th>
+<th>Bank Name</th>
+	
+<th>Paid-up Capital<br/>(in Billions)</th>
+
+</tr>
+</thead>
+
+      <tbody id="data-output5">
+         <!-- Prodcuts from javascript file in here. -->
+      </tbody>
+   </table>
+ 
+   <script>
+   fetch("https://shyamkumarkc20.com.np/js/microfinance.json")
+.then(function(response){
+   return response.json();
+})
+.then(function(products){
+   let placeholder = document.querySelector("#data-output5");
+   let out = "";
+   for(let product of products){
+      out += `
+         <tr>            
+            <td>${product.SNO}</td>
+             <td>${product.Name}</td>
+             <td>${product.paidup}</td>
+			            
+            
+         </tr>
+      `;
+   }
+ 
+   placeholder.innerHTML = out;
+});
+</script>
+    </div>
+    <div class="tab tab5 tab-content">
+
+      
+<table >
+
+
+      <tbody id="data-output6">
+         <!-- Prodcuts from javascript file in here. -->
+      </tbody>
+   </table>
+ 
+   <script>
+   fetch("https://shyamkumarkc20.com.np/js/micrononlife.json")
+.then(function(response){
+   return response.json();
+})
+.then(function(products){
+   let placeholder = document.querySelector("#data-output6");
+   let out = "";
+   for(let product of products){
+      out += `
+         <tr>            
+            <td>${product.Sno}</td>
+             <td>${product.Name}</td>	   
+			            
+            
+         </tr>
+      `;
+   }
+ 
+   placeholder.innerHTML = out;
+});
+</script>
+    </div>
+    </div>
+    </div>
+  
 <script>
 $(function(){
 $('#footer').load('/assets/footer.html');
