@@ -18,8 +18,9 @@
   <div id="bankInfo1" class="bank-container"></div>
    <table style="margin-left: auto; margin-right: auto;">
    <tr>
-   <td colspan="5" style="background-color: #ffca33;">Small OverView of Nabil Bank Limited</td></tr>
-     <tr><td id="customer" class="bank-container"></td>
+   <td colspan="6" style="background-color: #ffca33;">Small OverView of Nabil Bank Limited</td></tr>
+    <tr><td id="paidup" class="bank-container"></td>
+     <td id="customer" class="bank-container"></td>
       <td id="atm" class="bank-container"></td>
     <td id="branch" class="bank-container"></td>
      <td id="ext" class="bank-container"></td>
@@ -45,6 +46,9 @@
             padding: 10px;
             border: 1px solid #ccc;
             text-align: center;
+             }
+         #paidup {
+            background-color: #d958db; /* Light blue for Paidup */
         }
          #customer {
             background-color: #11aee5; /* Light blue for Customer */
@@ -94,7 +98,7 @@
                         <p><strong>Email:</strong> <a href="mailto:${nabilBank.email}">${nabilBank.email}</a></p>
                         <p><strong>Website:</strong> <a href="https://${nabilBank.Website}" target="_blank">${nabilBank.Website}</a></p>
                     `;
-document.getElementById('customer').innerHTML = `<p>Customer: ${nabilBank.Customer}</p>`;
+document.getElementById('customer').innerHTML = `<p>Customer: ${nabilBank.Customer}</p>`;document.getElementById('paidup').innerHTML = `<p>Paid-up: ${nabilBank.paidup} B </p>`;
                     document.getElementById('atm').innerHTML = `<p>ATM: ${nabilBank.ATM}</p>`;
                     document.getElementById('ext').innerHTML = `<p>Extention Counters: ${nabilBank.ext}</p>`;
                     document.getElementById('blb').innerHTML = `<p>Branchless Banking: ${nabilBank.blb}</p>`;
