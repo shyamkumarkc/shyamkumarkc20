@@ -14,11 +14,64 @@ $('#header').load('/assets/header.html');
 </head>
 <body>
 <div id ="header"></div>
-<p>1. Churia Tunnel</p>
-  <p>The Churia Tunnel, constructed in 1917, holds the distinction of being Nepal's first tunnel and is also considered the first road tunnel in Asia. Located near Hetauda, it was built under the supervision of Colonel Dilli Jung Thapa, Nepal's first civil engineer, to connect Amlekhganj and Bhimphedi through the Chure hills. This 500-meter tunnel was part of the country's first motorable gravel road, facilitating trade between the Indian border and Kathmandu</p>
-  
-<p>1. Nagdhunga Tunnel Location: Connects Kathmandu Valley to the western Terai region. Length: Approximately 2.68 km . Status: Under construction (as of 2024). Purpose: Eases traffic congestion at Nagdhunga Pass; shortens travel time and improves safety. Funding: Supported by the Government of Japan (JICA). 2. Siddhababa Tunnel Location: On the Butwal&ndash;Palpa road section (Siddhartha Highway). Length: Approx. 1.2 km (planned). Status: Under planning/construction. Purpose: Avoids landslide-prone areas and ensures road connectivity year-round.</p>
-<script>
+<style>
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+</style>
+<table border="black" >
+<thead>
+<tr>
+<th>S.No.</th>
+<th>Name</th>
+	
+</tr>
+</thead>
+
+      <tbody id="data-output">
+         <!-- Products from javascript file in here. -->
+      </tbody>
+   </table>
+ 
+   <script>
+   fetch("https://shyamkumarkc20.com.np/js/tunnels.json")
+.then(function(response){
+   return response.json();
+})
+.then(function(products){
+   let placeholder = document.querySelector("#data-output");
+   let out = "";
+   for(let product of products){
+      out += `
+         <tr>
+            
+            <td>${product.SNO}</td>
+             <td>${product.Name}</a></td>
+	               
+            
+         </tr>
+      `;
+   }
+ 
+   placeholder.innerHTML = out;
+});
+
+$(function(){
+$('#footer').load('/assets/footer.html');
+});
+</script><script>
   $(function(){
 $('#footer').load('/assets/footer.html');
 });
