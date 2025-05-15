@@ -2,36 +2,46 @@
 {
 "SNo": "1",
 "Name": "Churia Tunnel",
-"desc": "The Churia Tunnel, constructed in 1917, holds the distinction of being Nepal's first tunnel and is also considered the first road tunnel in Asia. Located near Hetauda, it was built under the supervision of Colonel Dilli Jung Thapa, Nepal's first civil engineer, to connect Amlekhganj and Bhimphedi through the Chure hills. This 500-meter tunnel was part of the country's first motorable gravel road, facilitating trade between the Indian border and Kathmandu",
+"desc": "The Churia Tunnel, constructed in 1917, holds the distinction of being Nepal's first tunnel and is also considered the first road tunnel in Asia. Located near Hetauda, it was built under the supervision of Colonel Dilli Jung Thapa, Nepal's first civil engineer, to connect Amlekhganj and Bhimphedi through the Chure hills. This 500-meter tunnel was part of the country's first motorable gravel road, facilitating trade between the Indian border and Kathmandu"
 "sp": "Amlekhganj",
-"ep": "Bhimphedi ",
+"ep": "Bhimphedi",
 "Length": "500m",
 "Year": "1917"
 },
 {
 "SNo": "2",
-"Name": "Nagdhunga-Sisnekhola Tunnel",
-"desc": "currently under construction, is Nepal's first modern road tunnel. Spanning approximately 2.688 kilometers, it aims to improve connectivity between Kathmandu and the western regions by reducing travel time and avoiding landslide-prone areas. This project, supported by the Government of Japan, marks a significant advancement in Nepal's infrastructure development.",
+"Name": "Nagdhunga Tunnel",
+"desc": "Currently under construction, is Nepal's first modern road tunnel. Spanning approximately 2.688 kilometers, it aims to improve connectivity between Kathmandu and the western regions by reducing travel time and avoiding landslide-prone areas. This project, supported by the Government of Japan, marks a significant advancement in Nepal's infrastructure development.",
+"sp": "Sisnekhola",
+"ep": "Nagdhunga",
 "Length": "2688m",
+"highway": "Tribhuvan Highway",
 "Year": ""
 },
 {
 "SNo": "3",
 "Name": "Siddhababa Tunnel",
+"desc": "The Siddhababa Tunnel project in Nepal, aimed at improving the Butwal-Palpa section of the Siddharth highway, has recently achieved a breakthrough in its main tunnel. This 1,089-meter tunnel, part of a larger 1,126-meter project including tunnel lining, will feature two lanes with a width of 10.5 meters and a height of around 7 meters. Three evacuation tunnels, totaling 151, 161, and 130 meters, have also been constructed. ",
 "sp": "Butwal",
 "ep": "Palpa",
 "Length": "1200m",
+"highway": "Siddharth Highway",
 "Year": ""
 },
 {
 "SNo": "",
 "Name": "",
+"desc": "",
+"sp": "",
+"ep": " ",
 "Length": "",
 "Year": ""
 },
 {
 "SNo": "",
 "Name": "",
+"desc": "",
+"sp": "",
 "Length": "",
 "Year": ""
 }
