@@ -98,7 +98,13 @@
     {
         "SNO": "17.",
         "Name": "Maha Prasad Adhikari",
-        "TermAD": "April 06, 2020 - Present",
+        "TermAD": "April 06, 2020 - April 05, 2025",
+        "TermBS": ""
+    },
+    {
+        "SNO": "18.",
+        "Name": "Dr Bishwo Nath Paudel",
+        "TermAD": "March 20, 2025 - Present",
         "TermBS": ""
     }
 ]
