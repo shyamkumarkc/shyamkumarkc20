@@ -563,6 +563,7 @@
     },
   {
         "Sno": "1",
+	  "class": "micrononlife",
         "Name": "Nepal Micro Insurance Company Limited",
         "Operation": "2080 B.S (2023 A.D)",
         "Website": "nepalmicro.com/",
@@ -575,6 +576,7 @@
     },
     {
         "Sno": "2",
+	    "class": "micrononlife",
         "Name": "Protective Insurance Company Limited",
         "Operation": "2080 B.S (2023 A.D)",
         "Website": "protectivemicro.com/",
@@ -586,6 +588,7 @@
     },
     {
         "Sno": "3",
+	    "class": "micrononlife",
         "Name": "Star Micro Insurance Company Limited",
         "Operation": "2080 B.S (2023 A.D)",
         "Website": "starmicroinsure.com/",
@@ -597,6 +600,7 @@
     },
     {
         "Sno": "4",
+	    "class": "micrononlife",
         "Name": "Trust Micro Insurance Company Limited",
         "Operation": "2080 B.S (2024 A.D)",
         "Website": "trustmicroinsure.com",
