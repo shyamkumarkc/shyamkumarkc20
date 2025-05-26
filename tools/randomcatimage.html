@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Random Cat Images</title>
+<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+</script>
+<script>
+$(function(){
+$('#header').load('/assets/header.html');
+});
+</script>
+
+</head>
+<body>
+<div id ="header"></div>
+   
+    <style>
+        /* CSS styles for the container */
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        /* CSS styles for the image */
+        .dog-image {
+            max-width: 100%;
+            max-height: 80vh;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* CSS styles for the refresh button */
+        .refresh-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* CSS styles for the refresh button on hover */
+        .refresh-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+
+        <img id="catImage" src="" alt="Random Cat" style="max-width: 400px;">
+
+        <button class="refresh-button" onclick="getCatImage()">Refresh</button>
+    </div>
+
+   
+
+  <script>
+    async function getCatImage() {
+      try {
+        const response = await fetch('https://api.thecatapi.com/v1/images/search');
+        const data = await response.json();
+        document.getElementById('catImage').src = data[0].url;
+      } catch (error) {
+        console.error('Error fetching cat image:', error);
+      }
+    }
+
+    // Load a cat image immediately when the page loads
+    window.onload = getCatImage;
+  </script>
+    <script>
+$(function(){
+$('#footer').load('/assets/footer.html');
+});
+</script>
+
+</body>
+  <div id ="footer"></div>
+</html>
