@@ -1,0 +1,58 @@
+[
+  {
+    "country": "Afghanistan",
+    "capital": "Kabul",
+    "population": "40 million",
+    "currency": "Afghani (AFN)",
+    "sector": "Agriculture"
+  },
+  {
+    "country": "Bangladesh",
+    "capital": "Dhaka",
+    "population": "170 million",
+    "currency": "Taka (BDT)",
+    "sector": "Garments"
+  },
+  {
+    "country": "Bhutan",
+    "capital": "Thimphu",
+    "population": "0.8 million",
+    "currency": "Ngultrum (BTN)",
+    "sector": "Hydropower"
+  },
+  {
+    "country": "India",
+    "capital": "New Delhi",
+    "population": "1.43 billion",
+    "currency": "Rupee (INR)",
+    "sector": "IT"
+  },
+  {
+    "country": "Maldives",
+    "capital": "Malé",
+    "population": "0.5 million",
+    "currency": "Rufiyaa (MVR)",
+    "sector": "Tourism"
+  },
+  {
+    "country": "Nepal",
+    "capital": "Kathmandu",
+    "population": "30 million",
+    "currency": "Rupee (NPR)",
+    "sector": "Tourism"
+  },
+  {
+    "country": "Pakistan",
+    "capital": "Islamabad",
+    "population": "240 million",
+    "currency": "Rupee (PKR)",
+    "sector": "Textiles"
+  },
+  {
+    "country": "Sri Lanka",
+    "capital": "Colombo / Kotte",
+    "population": "22 million",
+    "currency": "Rupee (LKR)",
+    "sector": "Tourism"
+  }
+]
