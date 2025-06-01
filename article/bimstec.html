@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Bay of Bengal Initiative for Multi-Sector Technical and Economic Co-operation</title>
+<title>BIMSTEC</title>
 <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
 </script>
@@ -34,18 +34,39 @@ tr:nth-child(even) {
 </style>
 <h2><a href="https://bimstec.org/" target="_blank">BIMSTEC</a> - Bay of Bengal Initiative for Multi-Sector Technical and Economic Co-operation</h2>
 
-<div><a href="https://bimstec.org/wp-content/uploads/2021/08/revised@2x.png"><img title="BIMSTEC - Bay of Bengal Initiative for Multi-Sector Technical and Economic Co-operation" src="https://bimstec.org/wp-content/uploads/2021/08/revised@2x.png" alt="BIMSTEC - Bay of Bengal Initiative for Multi-Sector Technical and Economic Co-operation" width="320" height="94" border="0" data-original-height="161" data-original-width="550" /></a></div>
+<div><img src="https://shyamkumarkc20.com.np/logo/bimsteclogo.jpg" alt="BIMSTEC Logo" width="450" height="250"> <br/><br/></div>
 <p>On 6th June 1997, a new sub regional grouping was formed on Bangkok, Capital city of Thailand. It was given the name BIST-EC (Bangladesh, India, Sri lanka and Thailand Economic Co-operation). Myanmar joined the organization as a full member at a special ministerial meeting held in Bangkok on 22th December 1997, upon which the name of grouping was named to BIMST-EC. Nepal and Bhutan has acquired its membership in 2004 in the first summit on 31st July 2004. The grouping was named BIMSTEC - Bay of Bengal Initiative for Multi-Sector Technical and Economic Co-operation.<br /> BIMSTEC is a unique link between ASEAN (Association of South East Asian Countries) and SAARC (South Asian Association for Regional Co-operation). It is because it has linked South Asia and East Asia. Leadership is rotated in alphabetical order of country names. The permanent secretariat is in Dhaka, Bangladesh.</p>
-<h6>Member Countries of BIMSTEC</h6>
-<ol>
-<li>Bangladesh</li>
-<li>India</li>
-<li>Sri Lanka</li>
-<li>Myanmar (Burma)</li>
-<li>Thailand</li>
-<li>Nepal</li>
-<li>Bhutan</li>
-</ol>
+<strong>Member Countries of BIMSTEC</strong>
+
+      <p id="data-output1">
+         <!-- Prodcuts from javascript file in here. -->
+      </p>
+   
+ 
+   <script>
+   fetch("https://shyamkumarkc20.com.np/js/bimstec.json")
+.then(function(response){
+   return response.json();
+})
+.then(function(products){
+   let placeholder = document.querySelector("#data-output1");
+   let out = "";
+   for(let product of products){
+      out += `
+         <p>            
+            <p>${product.SNO}. ${product.country} 
+	     <img src="${product.IMG}" width="30" height="20" >
+			
+           
+            
+         </p>
+      `;
+   }
+ 
+   placeholder.innerHTML = out;
+});
+</script>
+
 <p><br /> </p>
 <h3>Objectives of BIMSTEC</h3>
 <p>The major objectives of BIMSTEC are as follows:</p>
