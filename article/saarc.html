@@ -72,6 +72,71 @@ Strengthen cooperation among member states in areas like education, health, agri
 <li>SAARC Disaster Management Centre</li>
 
 <li>SAARC University — based in India</li></ul>
+
+<style>
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+</style>
+<table border="black" >
+<thead>
+<tr>
+<th>S.No.</th>
+<th>Country Name</th>
+	<th>Country<br/>Logo</th>
+<th>Capital<br/>City</th>
+<th>Population</th>
+
+<th>Currency</th>
+
+
+</tr>
+</thead>
+
+      <tbody id="data-output">
+         <!-- Prodcuts from javascript file in here. -->
+      </tbody>
+   </table>
+ 
+   <script>
+   fetch("https://shyamkumarkc20.com.np/js/saarc.json")
+.then(function(response){
+   return response.json();
+})
+.then(function(products){
+   let placeholder = document.querySelector("#data-output");
+   let out = "";
+   for(let product of products){
+      out += `
+         <tr>            
+            <td>${product.SNO}</td>
+             <td>${product.country}</a></td>
+	    <td><img src="${product.IMG}" width="120" height="100" ></td>
+			<td>${product.capital} </td>
+			<td>${product.population}</td>
+						<td>${product.currency}</td>
+  			
+           
+            
+         </tr>
+      `;
+   }
+ 
+   placeholder.innerHTML = out;
+});
+</script>
 <script>
 $(function(){
 $('#footer').load('/assets/footer.html');
