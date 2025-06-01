@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+-<!DOCTYPE html>
 <html lang="en">
 <head>
 <title>SAARC</title>
@@ -20,22 +20,36 @@ SAARC stands for South Asian Association for Regional Cooperation. It is a regio
 </p>
 <strong>Member Countries:</strong>
 <p>SAARC has 8 member states:</p>
-<ol><li>Afghanistan</li>
 
-<li>Bangladesh</li>
+      <p id="data-output1">
+         <!-- Prodcuts from javascript file in here. -->
+      </p>
+   
+ 
+   <script>
+   fetch("https://shyamkumarkc20.com.np/js/saarc.json")
+.then(function(response){
+   return response.json();
+})
+.then(function(products){
+   let placeholder = document.querySelector("#data-output1");
+   let out = "";
+   for(let product of products){
+      out += `
+         <p>            
+            <p>${product.SNO}. ${product.country} 
+	     <img src="${product.IMG}" width="30" height="20" >
+			
+           
+            
+         </p>
+      `;
+   }
+ 
+   placeholder.innerHTML = out;
+});
+</script>
 
-<li>Bhutan</li>
-
-<li>India</li>
-
-<li>Maldives</li>
-
-<li>Nepal</li>
-
-<li>Pakistan</li>
-
-<li>Sri Lanka</li>
-</ol>
 
 <strong>Establishment:</strong>
 <ul><li>
@@ -72,12 +86,12 @@ Strengthen cooperation among member states in areas like education, health, agri
 <li>SAARC Disaster Management Centre</li>
 
 <li>SAARC University — based in India</li></ul>
-
+<p>Some Information about Member Countries</p>
 <style>
 table {
     border-collapse: collapse;
     border-spacing: 0;
-   
+    
     border: 1px solid #ddd;
 }
 
