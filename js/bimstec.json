@@ -1,0 +1,62 @@
+[
+  
+  {"SNO": "1",
+    "country": "Bangladesh",
+	"IMG": "https://shyamkumarkc20.com.np/logo/bangladeshflag.png",
+    "capital": "Dhaka",
+    "population": "170 million",
+    "currency": "Taka (BDT)",
+    "sector": "Garments"
+  },
+  
+  {"SNO": "2",
+    "country": "India",
+	"IMG": "https://shyamkumarkc20.com.np/logo/indiaflag.png",
+    "capital": "New Delhi",
+    "population": "1.43 billion",
+    "currency": "Rupee (INR)",
+    "sector": "IT"
+  },
+  {"SNO": "3",
+    "country": "Sri Lanka",
+	"IMG": "https://shyamkumarkc20.com.np/logo/srilankaflag.png",
+    "capital": "Colombo",
+    "population": "22 million",
+    "currency": "Rupee (LKR)",
+    "sector": "Tourism"
+  },
+  {"SNO": "4",
+    "country": "Myanmar (Burma)",
+	"IMG": "https://shyamkumarkc20.com.np/logo/myanmarflag.png",
+    "capital": "",
+    "population": "",
+    "currency": "",
+    "sector": ""
+  },
+  
+  {"SNO": "5",
+    "country": "Thailand",
+	"IMG": "https://shyamkumarkc20.com.np/logo/thailandflag.png",
+    "capital": "",
+    "population": "",
+    "currency": "",
+    "sector": ""
+  },
+  
+  {"SNO": "6",
+    "country": "Nepal",
+	"IMG": "https://shyamkumarkc20.com.np/logo/nepalflag.png",
+    "capital": "Kathmandu",
+    "population": "30 million",
+    "currency": "Rupee (NPR)",
+    "sector": "Tourism"
+  },
+  {"SNO": "7",
+    "country": "Bhutan",
+	"IMG": "https://shyamkumarkc20.com.np/logo/bhutanflag.png",
+    "capital": "Thimphu",
+    "population": "0.8 million",
+    "currency": "Ngultrum (BTN)",
+    "sector": "Hydropower"
+  }
+]
