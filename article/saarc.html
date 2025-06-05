@@ -4,6 +4,7 @@
 <title>SAARC</title>
 <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+
 </script>
 <script>
 $(function(){
@@ -17,8 +18,7 @@ $('#header').load('/assets/header.html');
 <h2>South Asian Association for Regional Cooperation SAARC</h2>
 <p>
 SAARC stands for South Asian Association for Regional Cooperation. It is a regional intergovernmental organization and geopolitical union in South Asia.
-</p>
-	<img src="https://shyamkumarkc20.com.np/logo/saarclogo.jpg" alt="SAARC Logo" width="120" height="100"><br/><br/>
+</p><img src="https://shyamkumarkc20.com.np/logo/saarclogo.jpg" alt="SAARC Logo" width="120" height="100"> <br/><br/>
 <strong>Member Countries:</strong>
 <p>SAARC has 8 member states:</p>
 
@@ -39,7 +39,7 @@ SAARC stands for South Asian Association for Regional Cooperation. It is a regio
       out += `
          <p>            
             <p>${product.SNO}. ${product.country} 
-	     <img src="${product.IMG}" width="30" height="20" >
+	     
 			
            
             
@@ -87,71 +87,109 @@ Strengthen cooperation among member states in areas like education, health, agri
 <li>SAARC Disaster Management Centre</li>
 
 <li>SAARC University — based in India</li></ul>
-<p>Some Information about Member Countries</p>
-<style>
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
+<h2>Some Information about Member Countries</h2>
+ <style>
     
-    border: 1px solid #ddd;
-}
 
-th, td {
-    text-align: left;
-    padding: 16px;
-}
+    
 
-tr:nth-child(even) {
-    background-color: #f2f2f2
-}
-</style>
-<table border="black" >
-<thead>
-<tr>
-<th>S.No.</th>
-<th>Country Name</th>
-	<th>Country<br/>Logo</th>
-<th>Capital<br/>City</th>
-<th>Population</th>
+    select {
+      padding: 0.5em;
+      font-size: 1rem;
+      width: 250px;
+      margin-bottom: 1.5em;
+    }
 
-<th>Currency</th>
+    .card {
+     
+      border-radius: 10px;
+      padding: 1.5em;
+      max-width: 500px;
+      width: 100%;
+      
+      
+    }
 
+    img {
+      max-width: 200px;
+      height: 150px;
+      margin-bottom: 1em;
+    }
 
-</tr>
-</thead>
+    .info {
+      margin-bottom: 0.5em;
+    }
 
-      <tbody id="data-output">
-         <!-- Prodcuts from javascript file in here. -->
-      </tbody>
-   </table>
- 
-   <script>
-   fetch("https://shyamkumarkc20.com.np/js/saarc.json")
-.then(function(response){
-   return response.json();
-})
-.then(function(products){
-   let placeholder = document.querySelector("#data-output");
-   let out = "";
-   for(let product of products){
-      out += `
-         <tr>            
-            <td>${product.SNO}</td>
-             <td>${product.country}</a></td>
-	    <td><img src="${product.IMG}" width="120" height="100" ></td>
-			<td>${product.capital} </td>
-			<td>${product.population}</td>
-						<td>${product.currency}</td>
-  			
-           
-            
-         </tr>
+    .label {
+      font-weight: bold;
+    }
+
+    .error {
+      color: red;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<div1>
+
+  
+
+  <select id="countryDropdown" onchange="displayCountryInfo()"></select>
+
+  <div class="card" id="country-info">Loading country information...</div>
+
+  <script>
+    let saarcData = [];
+
+    async function loadCountries() {
+      const dropdown = document.getElementById('countryDropdown');
+      try {
+        const response = await fetch('https://shyamkumarkc20.com.np/js/saarc.json');
+        saarcData = await response.json();
+
+        // Populate dropdown
+        saarcData.forEach(country => {
+          const option = document.createElement('option');
+          option.value = country.country;
+          option.textContent = country.country;
+          dropdown.appendChild(option);
+        });
+
+        // Automatically select and display Afghanistan
+        dropdown.value = 'Afghanistan';
+        displayCountryInfo();
+
+      } catch (error) {
+        document.getElementById('country-info').innerHTML = '<p class="error">Error loading country data.</p>';
+        console.error(error);
+      }
+    }
+
+    function displayCountryInfo() {
+      const selected = document.getElementById('countryDropdown').value;
+      const container = document.getElementById('country-info');
+
+      const country = saarcData.find(c => c.country === selected);
+      if (!country) {
+        container.innerHTML = '<p class="error">Country not found.</p>';
+        return;
+      }
+
+      container.innerHTML = `
+        <img src="${country.IMG}"  alt="Flag of ${country.country}" />
+        
+        <h2>${country.country}</h2>
+        <div class="info"><span class="label">Capital City:</span> ${country.capital || 'N/A'}</div>
+        <div class="info"><span class="label">Currency:</span> ${country.currency || 'N/A'}</div>
+        <div class="info"><span class="label">Sector:</span> ${country.sector || 'N/A'}</div>
+        <div class="info"><span class="label">Population:</span> ${country.population || 'N/A'}</div>
+        <div class="info"><span class="label">Languages:</span> ${country.languages || 'N/A'}</div>
       `;
-   }
- 
-   placeholder.innerHTML = out;
-});
-</script>
+    }
+
+    window.onload = loadCountries;
+  </script>
+  </div1>
 <script>
 $(function(){
 $('#footer').load('/assets/footer.html');
