@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Random Jokes</title>
+<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+</script>
+<script>
+$(function(){
+$('#header').load('/assets/header.html');
+});
+</script>
+
+</head>
+<body>
+<div id ="header"></div>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fefefe;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2em;
+    }
+    #joke {
+      max-width: 600px;
+      font-size: 1.25rem;
+      margin: 1em 0;
+      padding: 1em;
+      background-color: #f0f0f0;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    button {
+      padding: 0.75em 1.5em;
+      font-size: 1rem;
+      border: none;
+      background-color: #4CAF50;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    
+  </style>
+</head>
+<body>
+
+  <h1>Random Jokes</h1>
+  <div id="joke">Loading ...</div>
+  <button onclick="fetchJoke()">Refresh</button>
+
+  <script>
+    async function fetchJoke() {
+      const jokeContainer = document.getElementById('joke');
+      
+
+      try {
+        const response = await fetch('https://v2.jokeapi.dev/joke/Any');
+        const data = await response.json();
+
+        if (data.error) {
+          jokeContainer.textContent = "Oops! Something went wrong.";
+        } else if (data.type === 'single') {
+          jokeContainer.textContent = data.joke;
+        } else if (data.type === 'twopart') {
+          jokeContainer.innerHTML = `<strong>${data.setup}</strong><br>${data.delivery}`;
+        }
+      } catch (error) {
+        jokeContainer.textContent = "Failed to fetch joke.";
+        console.error('Error fetching joke:', error);
+      }
+    }
+
+    // Show a joke when the page loads
+    window.onload = fetchJoke;
+  </script>
+<script>
+$(function(){
+$('#footer').load('/assets/footer.html');
+});
+</script>
+
+
+  <div id ="footer"></div>
+</body>
+</html>
