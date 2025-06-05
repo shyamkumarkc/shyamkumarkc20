@@ -10,13 +10,8 @@ $(function(){
 $('#header').load('/assets/header.html');
 });
 </script>
-
-</head>
-<body>
-<div id ="header"></div>
-
-  <style>
-    body {
+<style>
+    div1 {
       font-family: Arial, sans-serif;
       background-color: #f4f4f4;
       padding: 2em;
@@ -66,7 +61,12 @@ $('#header').load('/assets/header.html');
     }
   </style>
 </head>
+
 <body>
+<div id ="header"></div>
+
+  
+<div1>
 
   
   <select id="countryDropdown" onchange="fetchCountryData()">
@@ -142,6 +142,7 @@ $('#header').load('/assets/header.html');
     // Load dropdown when page loads
     window.onload = loadCountries;
   </script>
+</div1>
  <script>
 $(function(){
 $('#footer').load('/assets/footer.html');
