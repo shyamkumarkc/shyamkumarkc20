@@ -11,14 +11,50 @@ $(function(){
 $('#header').load('/assets/header.html');
 });
 </script>
+<style>     
 
+    select {
+      padding: 0.5em;
+      font-size: 1rem;
+      width: 250px;
+      margin-bottom: 1.5em;
+    }
+
+    .card {
+     
+      border-radius: 10px;
+      padding: 1.5em;
+      max-width: 500px;
+      width: 100%;
+      
+      
+    }
+
+    img {
+      
+      margin-bottom: 1em;
+    }
+
+    .info {
+      margin-bottom: 0.5em;
+    }
+
+    .label {
+      font-weight: bold;
+    }
+
+    .error {
+      color: red;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
 <div id ="header"></div>
 <h2>South Asian Association for Regional Cooperation SAARC</h2>
 <p>
 SAARC stands for South Asian Association for Regional Cooperation. It is a regional intergovernmental organization and geopolitical union in South Asia.
-</p><img src="https://shyamkumarkc20.com.np/logo/saarclogo.jpg" alt="SAARC Logo" width="120" height="100"> <br/><br/>
+</p><img src="https://shyamkumarkc20.com.np/logo/saarclogo.jpg" alt="SAARC Logo" width="120" height="100"> 
 <strong>Member Countries:</strong>
 <p>SAARC has 8 member states:</p>
 
@@ -88,48 +124,8 @@ Strengthen cooperation among member states in areas like education, health, agri
 
 <li>SAARC University — based in India</li></ul>
 <h2>Some Information about Member Countries</h2>
- <style>
-    
+ 
 
-    
-
-    select {
-      padding: 0.5em;
-      font-size: 1rem;
-      width: 250px;
-      margin-bottom: 1.5em;
-    }
-
-    .card {
-     
-      border-radius: 10px;
-      padding: 1.5em;
-      max-width: 500px;
-      width: 100%;
-      
-      
-    }
-
-    img {
-      max-width: 200px;
-      height: 150px;
-      margin-bottom: 1em;
-    }
-
-    .info {
-      margin-bottom: 0.5em;
-    }
-
-    .label {
-      font-weight: bold;
-    }
-
-    .error {
-      color: red;
-      font-weight: bold;
-    }
-  </style>
-</head>
 <div1>
 
   
@@ -176,7 +172,7 @@ Strengthen cooperation among member states in areas like education, health, agri
       }
 
       container.innerHTML = `
-        <img src="${country.IMG}"  alt="Flag of ${country.country}" />
+        <img src="${country.IMG}" width="200px"  height= "150px"  alt="Flag of ${country.country}" />
         
         <h2>${country.country}</h2>
         <div class="info"><span class="label">Capital City:</span> ${country.capital || 'N/A'}</div>
@@ -195,9 +191,7 @@ $(function(){
 $('#footer').load('/assets/footer.html');
 });
 </script>
-
+<div id ="footer"></div>
 </body>
-  <div id ="footer"></div>
+  
 </html>
-
-
