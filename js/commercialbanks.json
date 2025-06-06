@@ -121,6 +121,7 @@
 	"app": "Nbank",
 	"neps": "https://nepalstock.com.np/company/detail/131",
 	"ceo": "Manoj Kumar Gyawali",
+	"ceoimg": "https://content.sharesansar.com/photos/FEB12/July%2020/Manoj_G.jpg",
 	"chairman": "Upendra Prasad Poudyal",
 	"merger": "a. United Finance Limited</br>b. Nepal Bangladesh Bank Limited",
 	"ATM": "320",
@@ -128,7 +129,7 @@
 	"ext": "",  
 	"Customer": "2.4 M",
 	"shours": "Sunday to Thursday 10:00 AM - 3:00PM</br>Friday 10:00 AM - 01:00 PM",
-	"whours": "10",
+	"whours": "Sunday to Thursday 10:00 AM - 3:00PM</br>Friday 10:00 AM - 01:00 PM",
 	"blb": "12", 
 	"awards": "",	
 	"desc": "Nabil Bank was formerly known as Nepal Arab Bank Limited, which was established in 1984 as the first private commercial bank in Nepal. It offers a variety of commercial banking services, such as branch banking, treasury, trade, cards, remittance, and investment banking under its subsidiary, Nabil Investment Banking Ltd.",
@@ -295,6 +296,8 @@
 	  "merger": "",
 	  "first": "",
 	  "subsidiaries": "",
+	  "whours":"",
+	  "shours: "",4
 	  "desc": "Catering to more than 14 lacs customers, Everest Bank Limited (EBL) is a name you can depend on for professionalized & efficient banking services. Founded in 1994, the Bank has been one of the leading banks of the country and has been catering its services to various segments of the society. With clients from all walks of life, the Bank has helped the nation to develop corporately, agriculturally & industrially.<br/>Punjab National Bank (PNB), India’s first Swadeshi Bank, commenced its operation on April 12, 1895 form Lahore and was the first bank purely managed by Indian with Indian Capital. During the long history of the Bank, 9 banks have been merged with PNB."
   },
   {
