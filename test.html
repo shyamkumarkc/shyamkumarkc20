@@ -25,13 +25,8 @@
     <td id="branch" class="bank-container"></td>
      <td id="ext" class="bank-container"></td>
     <td id="blb" class="bank-container"></td></tr> 
-    <tr>
-     <td colspan="6" style="background-color: #60e028;">Business Hour</td>
-    <tr> 
-    <td id="shours" class="bank-container" colspan="3"></td>
-    <td id="whours" class="bank-container"  colspan="3"></td>
     
-    </tr>
+    
     </table>
     <br/>
     <section >
@@ -42,6 +37,18 @@
      <div id="subInfo1" class="bank-container"></div>
     <h2>Subsidiary Companies</h2>
     <div id="subInfo" class="bank-container"></div>
+    <h2>Businesss Hours</h2>
+    <table>
+    <tr>
+     <td id="shour" class="bank-container" colspan="3"><b>Summer Hour</b></td>
+    <td id="whour" class="bank-container"  colspan="3">Winter Hour</td>
+     </tr>
+    <tr> 
+    <td id="shours" class="bank-container" colspan="3"></td>
+    <td id="whours" class="bank-container"  colspan="3"></td>
+    
+    </tr>
+    </table>
     </section>
     <style>
         table {
@@ -79,6 +86,12 @@
         }
         #whours {
             background-color: #ed075b; /* Light red for Winter Hours */
+        }
+        #shour {
+            background-color: #ebbccd; /* Light yellow for Summer Hours */
+        }
+        #whour {
+            background-color: #c1ebbc; /* Light red for Winter Hours */
         }
      section {
       width: 100%;
