@@ -16,16 +16,17 @@
     <div id="header"></div>
     <h1>Nabil Bank Limited</h1>
   <div id="bankInfo1" class="bank-container"></div>
-   <table style="margin-left: auto; margin-right: auto;">
+   <table>
    <tr>
-   <td colspan="6" style="background-color: #ffca33;">Small OverView of Nabil Bank Limited</td></tr>
+   <td colspan="3" style="background-color: #ffca33;">Small OverView of Nabil Bank Limited</td></tr>
     <tr><td id="paidup" class="bank-container"></td>
      <td id="customer" class="bank-container"></td>
-      <td id="atm" class="bank-container"></td>
-    <td id="branch" class="bank-container"></td>
+      <td id="atm" class="bank-container"></td></tr>
+    <tr><td id="branch" class="bank-container"></td>
      <td id="ext" class="bank-container"></td>
-    <td id="blb" class="bank-container"></td>
-    </tr>
+    <td id="blb" class="bank-container"></td></tr> 
+    
+    
     </table>
     <br/>
     <section >
@@ -36,6 +37,18 @@
      <div id="subInfo1" class="bank-container"></div>
     <h2>Subsidiary Companies</h2>
     <div id="subInfo" class="bank-container"></div>
+    <h2>Businesss Hours</h2>
+    <table>
+    <tr>
+     <td id="shour" class="bank-container" colspan="3"><b>Summer Hour</b></td>
+    <td id="whour" class="bank-container"  colspan="3">Winter Hour</td>
+     </tr>
+    <tr> 
+    <td id="shours" class="bank-container" colspan="3"></td>
+    <td id="whours" class="bank-container"  colspan="3"></td>
+    
+    </tr>
+    </table>
     </section>
     <style>
         table {
@@ -68,6 +81,18 @@
         #blb {
             background-color: #ffcccb; /* Light red for Branchless Banking */
         }
+        #shours {
+            background-color: #edf511; /* Light yellow for Summer Hours */
+        }
+        #whours {
+            background-color: #ed075b; /* Light red for Winter Hours */
+        }
+        #shour {
+            background-color: #ebbccd; /* Light yellow for Summer Hours */
+        }
+        #whour {
+            background-color: #c1ebbc; /* Light red for Winter Hours */
+        }
      section {
       width: 100%;
       max-width: 600px;
@@ -90,7 +115,7 @@
                         <p><strong>Name:</strong> ${nabilBank.Name}</p>
                         <p><strong>Established:</strong> ${nabilBank.ODAD} [ ${nabilBank.ODBS} ]</p>
                         <p><strong>Head Office:</strong> ${nabilBank.HO}</p>
-                        <p><strong>CEO:</strong> ${nabilBank.ceo}</p>
+                        <p><strong>CEO:</strong> ${nabilBank.ceo} <img src="${nabilBank.ceoimg}" width="30" height="30"></p>
                         <p><strong>Chairman:</strong> ${nabilBank.chairman}</p>
                         <p><strong>NEPSE Code:</strong> ${nabilBank.NEPSE}</p>
                         <p><strong>Swift Code:</strong> ${nabilBank.Swift}</p>
@@ -107,6 +132,12 @@ document.getElementById('customer').innerHTML = `<p>Customer: ${nabilBank.Custom
                     document.getElementById('subInfo1').innerHTML = `<p>${nabilBank.merger}</p>`;
                   document.getElementById('bankInfo1').innerHTML = `<p>${nabilBank.desc}</p>`;
                     document.getElementById('subInfo').innerHTML = `<p>${nabilBank.subsidiaries}</p>`;
+                    
+                   document.getElementById('shours').innerHTML = `<p>${nabilBank.shours}</p>`;
+                  document.getElementById('whours').innerHTML = `<p>${nabilBank.whours}</p>`; 
+                    
+                    
+                    
                 } else {
                     document.getElementById('bankInfo').innerHTML = '<p>Nabil Bank Limited data not found.</p>';
                     document.getElementById('subInfo').innerHTML = '<p>Nabil Bank Limited subsidiaries data not found.</p>';
