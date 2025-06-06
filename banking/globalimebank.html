@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Global IME Bank Limited</title>
+    <title> Global IME Bank Limited</title>
     <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script>
@@ -14,23 +14,42 @@
 </head>
 <body>
     <div id="header"></div>
-    <h1>Global IME Bank Limited</h1>
+    <h1> Global IME Bank Limited</h1>
   <div id="bankInfo1" class="bank-container"></div>
    <table>
-     <tr>
-      <td id="atm" class="bank-container"></td>
-    <td id="branch" class="bank-container"></td>
+   <tr>
+   <td colspan="3" style="background-color: #ffca33;">Small OverView of  Global IME Bank Limited</td></tr>
+    <tr><td id="paidup" class="bank-container"></td>
+     <td id="customer" class="bank-container"></td>
+      <td id="atm" class="bank-container"></td></tr>
+    <tr><td id="branch" class="bank-container"></td>
      <td id="ext" class="bank-container"></td>
-    <td id="blb" class="bank-container"></td>
-    </tr>
+    <td id="blb" class="bank-container"></td></tr> 
+    
+    
     </table>
-    <h2>Global IME Bank Limited</h2>
+    <br/>
+    <section >
+    <h2> Global IME Bank Limited Details:</h2>
     <div id="bankInfo" class="bank-container"></div>
     
     <h2>Merged BFIs</h2>
      <div id="subInfo1" class="bank-container"></div>
     <h2>Subsidiary Companies</h2>
     <div id="subInfo" class="bank-container"></div>
+    <h2>Businesss Hours</h2>
+    <table>
+    <tr>
+     <td id="shour" class="bank-container" colspan="3"><b>Summer Hour</b></td>
+    <td id="whour" class="bank-container"  colspan="3">Winter Hour</td>
+     </tr>
+    <tr> 
+    <td id="shours" class="bank-container" colspan="3"></td>
+    <td id="whours" class="bank-container"  colspan="3"></td>
+    
+    </tr>
+    </table>
+    </section>
     <style>
         table {
            
@@ -40,8 +59,13 @@
             padding: 10px;
             border: 1px solid #ccc;
             text-align: center;
+             }
+         #paidup {
+            background-color: #d958db; /* Light blue for Paidup */
         }
-        
+         #customer {
+            background-color: #11aee5; /* Light blue for Customer */
+        }
         #atm {
             background-color: #add8e6; /* Light blue for ATM */
         }
@@ -56,7 +80,24 @@
         
         #blb {
             background-color: #ffcccb; /* Light red for Branchless Banking */
-        
+        }
+        #shours {
+            background-color: #edf511; /* Light yellow for Summer Hours */
+        }
+        #whours {
+            background-color: #ed075b; /* Light red for Winter Hours */
+        }
+        #shour {
+            background-color: #ebbccd; /* Light yellow for Summer Hours */
+        }
+        #whour {
+            background-color: #c1ebbc; /* Light red for Winter Hours */
+        }
+     section {
+      width: 100%;
+      max-width: 600px;
+      padding-left:20px;
+             align-text: center;
     </style>
     
     <script>
@@ -65,24 +106,25 @@
                 const response = await fetch('https://shyamkumarkc20.com.np/js/commercialbanks.json'); // Replace with actual API endpoint
                 const banks = await response.json();
                 
-                // Filter for Global IME Bank Limited
+                // Filter for  Global IME Bank Limited
                 const globalBank = banks.find(bank => bank.Name === "Global IME Bank Limited");
                 
                 if (globalBank) {
                     document.getElementById('bankInfo').innerHTML = `
-                        <img src="${globalBank.IMG}" alt="Global IME Bank Limited Logo" class="bank-logo">
+                        <img src="${globalBank.IMG}" alt=" Global IME Bank Limited Logo" class="bank-logo">
                         <p><strong>Name:</strong> ${globalBank.Name}</p>
                         <p><strong>Established:</strong> ${globalBank.ODAD} [ ${globalBank.ODBS} ]</p>
                         <p><strong>Head Office:</strong> ${globalBank.HO}</p>
-                        <p><strong>CEO:</strong> ${globalBank.ceo}</p>
+                        <p><strong>CEO:</strong> ${globalBank.ceo} <img src="${globalBank.ceoimg}" width="30" height="30"></p>
+                        <p><strong>Chairman:</strong> ${globalBank.chairman}</p>
                         <p><strong>NEPSE Code:</strong> ${globalBank.NEPSE}</p>
                         <p><strong>Swift Code:</strong> ${globalBank.Swift}</p>
                         <p><strong>Phone:</strong> <a href="tel:${globalBank.phone1}">${globalBank.phone1}</a> <a href="tel:${globalBank.phone2}">${globalBank.phone2}</a></p>
                         <p><strong>Toll Free:</strong> <a href="tel:${globalBank.TOLL}">${globalBank.TOLL}</a></p>
                         <p><strong>Email:</strong> <a href="mailto:${globalBank.email}">${globalBank.email}</a></p>
-                        <p><strong>App:</strong> ${globalBank.app}</p>
                         <p><strong>Website:</strong> <a href="https://${globalBank.Website}" target="_blank">${globalBank.Website}</a></p>
                     `;
+document.getElementById('customer').innerHTML = `<p>Customer: ${globalBank.Customer}</p>`;document.getElementById('paidup').innerHTML = `<p>Paid-up: ${globalBank.paidup} B </p>`;
                     document.getElementById('atm').innerHTML = `<p>ATM: ${globalBank.ATM}</p>`;
                     document.getElementById('ext').innerHTML = `<p>Extention Counters: ${globalBank.ext}</p>`;
                     document.getElementById('blb').innerHTML = `<p>Branchless Banking: ${globalBank.blb}</p>`;
@@ -90,10 +132,16 @@
                     document.getElementById('subInfo1').innerHTML = `<p>${globalBank.merger}</p>`;
                   document.getElementById('bankInfo1').innerHTML = `<p>${globalBank.desc}</p>`;
                     document.getElementById('subInfo').innerHTML = `<p>${globalBank.subsidiaries}</p>`;
+                    
+                   document.getElementById('shours').innerHTML = `<p>${globalBank.shours}</p>`;
+                  document.getElementById('whours').innerHTML = `<p>${globalBank.whours}</p>`; 
+                    
+                    
+                    
                 } else {
-                    document.getElementById('bankInfo').innerHTML = '<p>Global IME Bank Limited data not found.</p>';
-                    document.getElementById('subInfo').innerHTML = '<p>Global IME Bank Limited subsidiaries data not found.</p>';
-                  document.getElementById('subInfo1').innerHTML = '<p>Global IME Bank Limited merger data not found.</p>';
+                    document.getElementById('bankInfo').innerHTML = '<p> Global IME Bank Limited data not found.</p>';
+                    document.getElementById('subInfo').innerHTML = '<p> Global IME Bank Limited subsidiaries data not found.</p>';
+                  document.getElementById('subInfo1').innerHTML = '<p> Global IME Bank Limited merger data not found.</p>';
                 }
             } catch (error) {
                 console.error('Error fetching bank data:', error);
