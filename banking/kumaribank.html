@@ -17,20 +17,39 @@
     <h1>Kumari Bank Limited</h1>
   <div id="bankInfo1" class="bank-container"></div>
    <table>
-     <tr>
-      <td id="atm" class="bank-container"></td>
-    <td id="branch" class="bank-container"></td>
+   <tr>
+   <td colspan="3" style="background-color: #ffca33;">Small OverView of Kumari Bank Limited</td></tr>
+    <tr><td id="paidup" class="bank-container"></td>
+     <td id="customer" class="bank-container"></td>
+      <td id="atm" class="bank-container"></td></tr>
+    <tr><td id="branch" class="bank-container"></td>
      <td id="ext" class="bank-container"></td>
-    <td id="blb" class="bank-container"></td>
-    </tr>
+    <td id="blb" class="bank-container"></td></tr> 
+    
+    
     </table>
-    <h2>Kumari Bank Limited</h2>
+    <br/>
+    <section >
+    <h2>Kumari Bank Limited Details:</h2>
     <div id="bankInfo" class="bank-container"></div>
     
     <h2>Merged BFIs</h2>
      <div id="subInfo1" class="bank-container"></div>
     <h2>Subsidiary Companies</h2>
     <div id="subInfo" class="bank-container"></div>
+    <h2>Businesss Hours</h2>
+    <table>
+    <tr>
+     <td id="shour" class="bank-container" colspan="3"><b>Summer Hour</b></td>
+    <td id="whour" class="bank-container"  colspan="3">Winter Hour</td>
+     </tr>
+    <tr> 
+    <td id="shours" class="bank-container" colspan="3"></td>
+    <td id="whours" class="bank-container"  colspan="3"></td>
+    
+    </tr>
+    </table>
+    </section>
     <style>
         table {
            
@@ -40,8 +59,13 @@
             padding: 10px;
             border: 1px solid #ccc;
             text-align: center;
+             }
+         #paidup {
+            background-color: #d958db; /* Light blue for Paidup */
         }
-        
+         #customer {
+            background-color: #11aee5; /* Light blue for Customer */
+        }
         #atm {
             background-color: #add8e6; /* Light blue for ATM */
         }
@@ -56,7 +80,24 @@
         
         #blb {
             background-color: #ffcccb; /* Light red for Branchless Banking */
-        
+        }
+        #shours {
+            background-color: #edf511; /* Light yellow for Summer Hours */
+        }
+        #whours {
+            background-color: #ed075b; /* Light red for Winter Hours */
+        }
+        #shour {
+            background-color: #ebbccd; /* Light yellow for Summer Hours */
+        }
+        #whour {
+            background-color: #c1ebbc; /* Light red for Winter Hours */
+        }
+     section {
+      width: 100%;
+      max-width: 600px;
+      padding-left:20px;
+             align-text: center;
     </style>
     
     <script>
@@ -65,16 +106,17 @@
                 const response = await fetch('https://shyamkumarkc20.com.np/js/commercialbanks.json'); // Replace with actual API endpoint
                 const banks = await response.json();
                 
-                // Filter for Kumari Bank Limited
+                // Filter for  Kumari Bank Limited
                 const kumariBank = banks.find(bank => bank.Name === "Kumari Bank Limited");
                 
                 if (kumariBank) {
                     document.getElementById('bankInfo').innerHTML = `
-                        <img src="${kumariBank.IMG}" alt="Prabhu Bank Logo" class="bank-logo">
+                        <img src="${kumariBank.IMG}" alt="Kumari Bank Limited Logo" class="bank-logo">
                         <p><strong>Name:</strong> ${kumariBank.Name}</p>
                         <p><strong>Established:</strong> ${kumariBank.ODAD} [ ${kumariBank.ODBS} ]</p>
                         <p><strong>Head Office:</strong> ${kumariBank.HO}</p>
-                        <p><strong>CEO:</strong> ${kumariBank.ceo}</p>
+                        <p><strong>CEO:</strong> ${kumariBank.ceo} <img src="${kumariBank.ceoimg}" width="30" height="30"></p>
+                        <p><strong>Chairman:</strong> ${kumariBank.chairman}</p>
                         <p><strong>NEPSE Code:</strong> ${kumariBank.NEPSE}</p>
                         <p><strong>Swift Code:</strong> ${kumariBank.Swift}</p>
                         <p><strong>Phone:</strong> <a href="tel:${kumariBank.phone1}">${kumariBank.phone1}</a> <a href="tel:${kumariBank.phone2}">${kumariBank.phone2}</a></p>
@@ -82,6 +124,7 @@
                         <p><strong>Email:</strong> <a href="mailto:${kumariBank.email}">${kumariBank.email}</a></p>
                         <p><strong>Website:</strong> <a href="https://${kumariBank.Website}" target="_blank">${kumariBank.Website}</a></p>
                     `;
+document.getElementById('customer').innerHTML = `<p>Customer: ${kumariBank.Customer}</p>`;document.getElementById('paidup').innerHTML = `<p>Paid-up: ${kumariBank.paidup} B </p>`;
                     document.getElementById('atm').innerHTML = `<p>ATM: ${kumariBank.ATM}</p>`;
                     document.getElementById('ext').innerHTML = `<p>Extention Counters: ${kumariBank.ext}</p>`;
                     document.getElementById('blb').innerHTML = `<p>Branchless Banking: ${kumariBank.blb}</p>`;
@@ -89,10 +132,16 @@
                     document.getElementById('subInfo1').innerHTML = `<p>${kumariBank.merger}</p>`;
                   document.getElementById('bankInfo1').innerHTML = `<p>${kumariBank.desc}</p>`;
                     document.getElementById('subInfo').innerHTML = `<p>${kumariBank.subsidiaries}</p>`;
+                    
+                   document.getElementById('shours').innerHTML = `<p>${kumariBank.shours}</p>`;
+                  document.getElementById('whours').innerHTML = `<p>${kumariBank.whours}</p>`; 
+                    
+                    
+                    
                 } else {
-                    document.getElementById('bankInfo').innerHTML = '<p>Kumari Bank Limited data not found.</p>';
-                    document.getElementById('subInfo').innerHTML = '<p>Kumari Bank Limited subsidiaries data not found.</p>';
-                  document.getElementById('subInfo1').innerHTML = '<p>Kumari Bank Limited merger data not found.</p>';
+                    document.getElementById('bankInfo').innerHTML = '<p> Kumari Bank Limited data not found.</p>';
+                    document.getElementById('subInfo').innerHTML = '<p> Kumari Bank Limited subsidiaries data not found.</p>';
+                  document.getElementById('subInfo1').innerHTML = '<p> Kumari Bank Limited merger data not found.</p>';
                 }
             } catch (error) {
                 console.error('Error fetching bank data:', error);
