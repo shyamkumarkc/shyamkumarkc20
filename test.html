@@ -1,8 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Bank Info Viewer</title>
+<title>Commercial Banks In Nepal</title>
+<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+</script>
+<script>
+$(function(){
+$('#header').load('/assets/header.html');
+});
+</script>
+
+</head>
+<body>
+<div id ="header"></div>
   <style>
     table {
       border-collapse: collapse;
@@ -72,6 +83,15 @@
         <td id="shour" colspan="3"><b>Summer Hour</b></td>
         <td id="whour" colspan="3">Winter Hour</td>
       </tr>
+	    <script>
+	    $(function(){
+$('#footer').load('/assets/footer.html');
+});
+</script>
+
+</body>
+  <div id ="footer"></div>
+</html>
       <tr>
         <td id="shours" colspan="3"></td>
         <td id="whours" colspan="3"></td>
