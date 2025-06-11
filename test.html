@@ -83,15 +83,7 @@ $('#header').load('/assets/header.html');
         <td id="shour" colspan="3"><b>Summer Hour</b></td>
         <td id="whour" colspan="3">Winter Hour</td>
       </tr>
-	    <script>
-	    $(function(){
-$('#footer').load('/assets/footer.html');
-});
-</script>
-
-</body>
-  <div id ="footer"></div>
-</html>
+	  
       <tr>
         <td id="shours" colspan="3"></td>
         <td id="whours" colspan="3"></td>
@@ -177,5 +169,12 @@ document.getElementById('first').innerHTML = `<p>${bank.first || ''}</p>`;
   fetchData();
 </script>
 
+  <script>
+	    $(function(){
+$('#footer').load('/assets/footer.html');
+});
+</script>
+
 </body>
+  <div id ="footer"></div>
 </html>
