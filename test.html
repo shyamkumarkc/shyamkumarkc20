@@ -71,7 +71,7 @@ $('#header').load('/assets/header.html');
     <h2 id="detail"></h2>
     <div id="bankInfo" class="bank-container"></div>
 
-    <h2 id="merge"></h2>
+    <h2>Merged BFIs</h2>
     <div id="subInfo1" class="bank-container"></div>
     
 	<h2 >First In Nepal</h2>
@@ -79,16 +79,15 @@ $('#header').load('/assets/header.html');
     <h2>Awards</h2>
     <div id="subInfo2" class="bank-container"></div>
 
-    <h2 id="sub"></h2>
+    <h2>Subsidiary Companies</h2>
     <div id="subInfo" class="bank-container"></div>
 
-    <h2 id="bhour"></h2>
+    <h2>Business Hours</h2>
     <table>
       <tr>
         <td id="shour" colspan="3"><b>Summer Hour</b></td>
         <td id="whour" colspan="3">Winter Hour</td>
       </tr>
-	  
       <tr>
         <td id="shours" colspan="3"></td>
         <td id="whours" colspan="3"></td>
@@ -132,10 +131,10 @@ $('#header').load('/assets/header.html');
     if (!bank) return;
     document.getElementById('bankInfo2').innerHTML = `<h2>${bank.Name || ''}</h2>`;
     document.getElementById('over').innerHTML = `<p>Small Overview of ${bank.Name || ''}</p>`;
-    document.getElementById('merge').innerHTML = `<p>Merged BFIs of ${bank.Name || ''}</p>`;
     
-     document.getElementById('sub').innerHTML = `<p>Subsidiary Companies of ${bank.Name || ''}</p>`;
-     document.getElementById('bhour').innerHTML = `<p>Business Hours of ${bank.Name || ''}</p>`;
+    
+     
+    
     document.getElementById('detail').innerHTML = `<p>${bank.Name || ''} Details</p>`;
 document.getElementById('bankInfo').innerHTML = `<p>${bank.Name || ''}</p>`;
     document.getElementById('bankInfo1').innerHTML = `<p>${bank.desc || ''}</p>`;
@@ -174,7 +173,7 @@ document.getElementById('first').innerHTML = `<p>${bank.first || ''}</p>`;
   fetchData();
 </script>
 
-  <script>
+<script>
 	    $(function(){
 $('#footer').load('/assets/footer.html');
 });
