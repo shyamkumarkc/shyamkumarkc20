@@ -29,6 +29,7 @@
 	"blb": "",
 	"Customer": "",
 	"subsidiaries": "",
+	"first": "First Bank in Nepal",
 	"shours": "Sunday to Thursday 10:00 AM - 4:00PM</br>Friday 10:00 AM - 12:30 PM",
 	"whours": "Sunday to Thursday 10:00 AM - 4:00PM</br>Friday 10:00 AM - 12:30 PM",
 	"neps": "https://nepalstock.com.np/company/detail/517",
@@ -133,7 +134,8 @@
 	"shours": "Sunday to Thursday 10:00 AM - 3:00PM</br>Friday 10:00 AM - 01:00 PM",
 	"whours": "Sunday to Thursday 10:00 AM - 3:00PM</br>Friday 10:00 AM - 01:00 PM",
 	"blb": "12", 
-	"awards": "",	
+	"awards": "", 
+	"first": "First Joint Venture Bank in Nepal",
 	"desc": "Nabil Bank was formerly known as Nepal Arab Bank Limited, which was established in 1984 as the first private commercial bank in Nepal. It offers a variety of commercial banking services, such as branch banking, treasury, trade, cards, remittance, and investment banking under its subsidiary, Nabil Investment Banking Ltd.",
 	"subsidiaries": "a. Nabil Retirement Fund<br/>b. Nabil Stock Dealer Limited<br/>c. Nabil Investment Banking Limited"
 	
@@ -265,7 +267,7 @@
 	  "ext": "22",
 	  "blb": "19",  
 	  "Customer": "",
-	  "first": "Use Robert in Nepal",
+	  "first": "Use Robert in Nepal (Pari)",
 	  "subsidiaries": "a. Nepal SBI Merchant Banking Limited",
 	  "merger": "",
 	  "desc": "Nepal SBI Bank Ltd. (NSBL) is a subsidiary of State Bank of India (SBI) having 55 percent of ownership. The local partner viz. Employee Provident Fund holds 15% equity and General Public 30%. In terms of the Technical Services Agreement between SBI and the NSBL, the former provides management support to the bank through its expatriate officers including Managing Director who is also the CEO of the Bank. Central Management Committee (CENMAC), consisting of the Managing Director & CEO, Dy. CEO & Chief Financial Officer, Chief Operating Officer and two Vertical Heads as decided by Managing Director of the Bank, exercises overall control functions with the help of controlling offices, and oversee the overall operations of the Bank."
@@ -299,9 +301,9 @@
 	"ext": "36",
 	"blb": "",
 	"Customer": "",
-	"first": "Introduce ATM Machine and Debit card in Nepal",
+	"first": " First Bank to introduce ATM Machine and Debit card in Nepal",
 	"merger": "",
-	"first": "",
+	
 	"subsidiaries": "",
 	"whours":"",
 	"shours": "",
@@ -339,7 +341,7 @@
 	"blb": "54",
 	"shours": "Sunday to Thursday 10:00 AM - 4:00PM</br>Friday 10:00 AM - 01:00 PM",
 	"whours": "Sunday to Thursday 10:00 AM - 4:00PM</br>Friday 10:00 AM - 01:00 PM",  
-	"first": "Internet banking in Nepal in 2002",
+	"first": "First Bank to introduce Internet banking in Nepal in 2002",
 	"subsidiaries": "a. Kumari Capital Limited<br/>b. Kumari Securities Limited",
 	"desc": "Kumari Bank Limited, came into existence as the fifteenth commercial banks of Nepal, starting its banking operations from Chaitra 21, 2057 B.S (April 03, 2001) with an objective of providing competitive modern banking services in the Nepalese financial market. The Bank has paid up capital of NPR 26.23 billion.<br/>The Bank has pioneered in providing modern banking services like Internet Banking and Mobile Banking. With the implementation of Core Banking Software, FINACLE (version 10), the Bank has been providing a robust, ultra-modern banking platform for all customers throughout the country."
   },
@@ -372,6 +374,7 @@
 	"Customer": "",
 	"ext": "28",
 	"blb": "140",
+	"first": "First Bank to introduce Mobile Banking Service",
 	"shours": "Sunday to Thursday 10:00 AM - 4:00PM</br>Friday 10:00 AM - 02:00 PM",
 	"whours": "Sunday to Thursday 10:00 AM - 4:00PM</br>Friday 10:00 AM - 02:00 PM",
 	"desc": "On July 14, 2023, a new era in banking began with the birth of Laxmi Sunrise Bank, emerging from the merger of two established Nepali banks – Laxmi Bank, established in 2002, and Sunrise Bank, established in 2007. As a category “KA” financial institution licensed by the Nepal Rastra Bank and registered under the BAFIA, Laxmi Sunrise is committed to delivering unparalleled financial services to our valued customers. Welcome to Laxmi Sunrise, where the future of banking meets a rich legacy of trust and excellence.",
@@ -408,6 +411,7 @@
 	  "merger": "a. Nepal Housing &amp; Merchant Limited<br/>b. Peoples Finance Limited<br/>c. Premier Finance Limited<br/>d. Sahayogi Bikas Bank Limited<br/>e. Srijana Finance Limited<br/>f. Tinau Mission Development Bank Limited",
 	  "subsidiaries": "a. Citizens Capital Limited<br/>b. CBIL Securities Limited",
 	  "awards": "Bank of the Year 2024",
+	  "first": "First Bank to Introduce Virtual Credit Card",
 	  "desc": "Citizens Bank International Limited has been established as a reliable and trustworthy partner for all financial solutions. Institutionalized by a highly professional and experienced team, we have gained credibility in the banking sector through quality financial service. Established on April 20, 2007 (2064/01/07) as 20th commercial bank of the nation, 'Citizens Bank International Limited', has its corporate office at the heart of the financial sector of the country, Narayanhiti Path, Kathmandu. It is promoted by eminent personalities, business and industrial houses and reputed individuals having high social standing and has been managed by a team of experienced bankers and professionals. "
   },
   {
