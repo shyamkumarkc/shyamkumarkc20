@@ -1,107 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Remittance</title>
-    <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
-
-    <script>
-        $(function() {
-            $('#header').load('/assets/header.html');
-            
-            // Load JSON data
-            $.getJSON('https://shyamkumarkc20.com.np/js/economy.json', function(data) {
-                var xValues = data.months;  // Data for months
-                var yValues = data.remittance;  // Data for remittance values
-                var barColors = data.colors; // Bar colors
-                
-                // Create the chart
-                new Chart("InflationChart", {
-                    type: "bar",
-                    data: {
-                        labels: xValues,
-                        datasets: [{
-                            backgroundColor: barColors,
-                            data: yValues
-                        }]
-                    },
-                    options: {
-                        legend: { display: false },
-                        title: {
-                            display: false,
-                            text: "Remittance in Nepal as of 2081/2082 Fiscal Year"
-                        }
-                    }
-                });
-            });
-        });
-    </script>
+  <title>Remittance</title>
+  <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+  <style>
+    table {
+      width: 50%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: center;
+    }
+    th {
+      background-color: #4CAF50;
+      color: white;
+    }
+    select {
+      margin: 10px 0;
+      padding: 6px 10px;
+    }
+  </style>
 </head>
-    
 <body>
-    <div id="header"></div>
-    <h2>Remittance in Nepal as of 2081/2082 Fiscal Year</h2>
-    <canvas id="InflationChart" style="width:100%;max-width:600px;height:500px"></canvas>
-    <h3>Remittance in Nepal: as of 2081/2082 Fiscal Year</h3>
-    <style>
-        
-        table {
-            width: 50%;
-           
-            border-collapse: collapse;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: center;
-        }
-        th {
-            background-color: #4CAF50;
-            color: white;
-        }
-    </style>
-      <table id="data-table">
-        <thead>
-            <tr>
-                <th>S No</th>
-                <th>Month</th>
-                <th>Remittance in Billions</th>
-                
-            </tr>
-        </thead>
-        <tbody></tbody>
-    </table>
-    
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            fetchData();
-        });
+  <div id="header"></div>
 
-        function fetchData() {
-            fetch("https://shyamkumarkc20.com.np/js/economy.json") // Ensure data.json is accessible
-                .then(response => response.json())
-                .then(data => {
-                    const tableBody = document.querySelector("#data-table tbody");
-                    tableBody.innerHTML = ""; // Clear previous data
-                    
-                    data.months.forEach((month, index) => {
-                        let row = `<tr>
-                        <td>${data.sno[index]}</td>
-                            <td>${month}</td>
-                            <td>${data.remittance[index]}</td>
-                          
-                        </tr>`;
-                        tableBody.innerHTML += row;
-                    });
-                })
-                .catch(error => console.error("Error fetching data:", error));
-        }
-    $(function(){
-$('#footer').load('/assets/footer.html');
-});
-</script>
+  <h2>Remittance in Nepal</h2>
 
+  <label for="yearSelect"><strong>Fiscal Year:</strong></label>
+  <select id="yearSelect">
+   
+    <option value="remittance81/82">2081/2082</option>
+	<option value="remittance80/81">2080/2081</option>
+	<option value="remittance79/80">2079/2080</option>
+	<option value="remittance78/79">2078/2079</option>
+   
+  </select>
+
+  <canvas id="InflationChart" style="width:100%;max-width:600px;height:500px"></canvas>
+
+  <h3 id="dataTitle">Remittance in Nepal: Fiscal Year 2081/2082</h3>
+
+  <table id="data-table">
+    <thead>
+      <tr>
+        <th>S No</th>
+        <th>Month</th>
+        <th>Remittance in Billions</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <div id="footer"></div>
+
+  <script>
+    let chart;
+    let fullData;
+
+    // Load data from JSON
+    function loadData(remittanceKey) {
+      fetch("https://shyamkumarkc20.com.np/js/economy.json")
+        .then(response => response.json())
+        .then(data => {
+          fullData = data;
+          updateChartAndTable(remittanceKey);
+        })
+        .catch(error => console.error("Error fetching data:", error));
+    }
+
+    // Update chart and table based on selected year
+    function updateChartAndTable(remittanceKey) {
+      const remittance = fullData[remittanceKey];
+      const months = fullData.months;
+      const colors = fullData.colors;
+      const sno = fullData.sno;
+
+      // Create or update Chart
+      const ctx = document.getElementById("InflationChart").getContext('2d');
+      if (chart) chart.destroy();
+      chart = new Chart(ctx, {
+        type: "bar",
+        data: {
+          labels: months,
+          datasets: [{
+            backgroundColor: colors,
+            data: remittance
+          }]
+        },
+        options: {
+          legend: { display: false }
+        }
+      });
+
+      // Update table data
+      const tableBody = document.querySelector("#data-table tbody");
+      tableBody.innerHTML = "";
+      months.forEach((month, index) => {
+        let value = remittance[index] !== undefined ? remittance[index] : "-";
+        const row = `<tr>
+          <td>${sno[index]}</td>
+          <td>${month}</td>
+          <td>${value}</td>
+        </tr>`;
+        tableBody.innerHTML += row;
+      });
+
+      // Update year title
+      const yearMap = {
+        "remittance81/82": "2081/2082",
+        "remittance80/81": "2080/2081",
+		"remittance79/80": "2079/2080",
+		"remittance78/79": "2078/2079"
+      };
+      const selectedYear = yearMap[remittanceKey] || "Unknown Year";
+      document.getElementById("dataTitle").innerText = `Remittance in Nepal: Fiscal Year ${selectedYear}`;
+    }
+
+    // Initial load and event binding
+    document.addEventListener("DOMContentLoaded", () => {
+      loadData("remittance81/82");
+
+      document.getElementById("yearSelect").addEventListener("change", function () {
+        updateChartAndTable(this.value);
+      });
+
+      $('#header').load('/assets/header.html');
+      $('#footer').load('/assets/footer.html');
+    });
+  </script>
 </body>
-  <div id ="footer"></div>
 </html>
