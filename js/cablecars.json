@@ -8,7 +8,12 @@
 		"sp": "Kurintar",
 		"ep": "ManakamanaTemple",
 		"Website": "manakamanacablecar.com/cable-car/",
-		"Year": "1998"
+		"Year": "1998",
+		"phone1": "01-4534825",
+		"phone2": "01-4534648",
+		"company": "Manakamana Darshan Private Limited",
+		"email": "info@manakamanacablecar.com",
+		"desc": "The cable car has helped in covering the distance to the Temple in just 10 minutes, which would otherwise be a five-hour uphill climb. The ride begins from across the Trishuli River bank (258 meter) and as you ascend the hill the view of surrounding hills and dense forest is mesmerizing.<br/>Safety and keeping it green are the top most priorities of the company. The cable car is maintained every day before and after normal operation hours. As per the Doppelmayr protocol, the cable car takes a break for 2-3 days in four month intervals.<br/>The top station is situated close to the temple in 1302 meter. Manakamana Cable Car station is 2 1⁄2 Hrs drive from Kathmandu, 2 Hrs from Pokhara and, 1 Hour from Narayanghat."
 	},
 	{
 		"SNo": "2",
@@ -18,11 +23,15 @@
 		"dis": "Kathmandu",
 		"Length": "2551m",
 		"Height": "2551m",
-"sp": "Thankot",
-		
+		"sp": "Thankot",		
 		"ep": "Chandragiri Hills",
-		"Year": "2016"
-	},
+		"Year": "2016",
+		"phone1": "01-5970796",
+		"company": "Chandragiri Hills",
+		"email": "sales@chandragirihills.com",
+		"desc": "Chandragiri Hills cable car gently carries you above the verdant pine forests, opening awe-inspiring panoramic views of the valley below, the lush hills surrounding it, and the majestic Himalayan range. The picturesque ride sets the tone for a truly unforgettable experience that awaits you. At approx. 10 mins, it is the quickest way to get from the base to the hilltop. It offers an untainted, uninterrupted view of the valley and the Himalayas. It is a safe and secure ride, backed up with generators in case of temporary power cuts. Emergency rescue drives are arranged for customers to reach the Bottom Station when required."
+
+},
 	{
 		"SNo": "3",
 		"Name": "Kalinchowk Cable Car",
