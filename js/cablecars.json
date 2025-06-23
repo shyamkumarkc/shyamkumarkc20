@@ -35,28 +35,35 @@
 	{
 		"SNo": "3",
 		"Name": "Kalinchowk Cable Car",
-		"IMG": "https://shyamkumarkc20.com.np/logo/kalinchowk.jpg",
-		
+		"IMG": "https://shyamkumarkc20.com.np/logo/kalinchowk.jpg",		
 		"Length": "950m",
 		"Height": "3755m",
-"sp": "Kuri Bazar",
+		"sp": "Kuri Bazar",
 		"Website": "www.kalinchowkdarshan.com.np",
 		"ep": "Kalinchowk Temple",
-
-		"Year": "2018"
+		"Year": "2018",
+		"phone1": "01-5913710",
+		"company": "Kalinchowk Darshan",
+		"email" : "darshankalinchowk@gmail.com",
+		"desc": "A cable car trip is the shortest means to reach Kalinchow Darshan top station. The 2.5 km long cable car ensures a smooth and safe journey, all the while giving you an up-close view of the untainted wilderness. Cable Car: The 2.5 km cable car ride takes around 6 minutes to reach the Kalinchowwk Darshan top station. A cabin accommodates 8 passengers. A child above 3 feet of height requires a ticket."
 		
 	},
 	{
 		"SNo": "4",
 		"Name": "Annapurna Cable Car",
 		"IMG": "https://shyamkumarkc20.com.np/logo/annapurna.png",
-		"Website": "www.annapurnacablecar.com.np/",
-		
+		"Website": "www.annapurnacablecar.com.np/",		
 		"Length": "2200m",
 		"Height": "1600m",
-"sp": "Fewa Lake",
+		"sp": "Fewa Lake",
 		"ep": "Sarangkot",
-		"Year": "2020"
+		"Year": "2020",
+		"company": "",
+		"phone1": "061-590671",
+		"phone2": "061-590672"
+		"company": "Annapurna Cable Car Limited",
+		"email": "info@annapurnacablecar.com.np",
+		"desc": "With a panoramic view of Himalayan peaks from Dhaulagiri (8167m) in the west to Machhapucharre (6997m), Annapurna II (7937m) to Lamjung(6983m) in the east, Sarangkot lets one experience a spiritual bliss with nature in its purest form. Experience the beauty with Annapurna Cable Car. You can witness sunset and sunrise. Annapurna Cable Car takes you to Sarangkot in just 10 minutes."
 	},
 	{
 		"SNo": "5",
@@ -65,9 +72,9 @@
 		"dis": "Nawalparasi",
 		"Length": "1200m",
 		"Height": "560m",
-"sp": "Gaidakot",
+		"sp": "Gaidakot",
 		"ep": "Maula Kali Temple",
-"Website": "",
+		"Website": "",
 		"Year": "2023"
 	},
 	{
@@ -77,7 +84,7 @@
 		"dis": "Nawalpur",
 		"Length": "2600m",
 		"Height": "940m",
-"sp": "Balaghat Butwal",
+		"sp": "Balaghat Butwal",
 		"Website": "",
 		"ep": "Basantapur Palpa",
 
@@ -90,11 +97,13 @@
 		"dis": "Tanahu",
 		"Length": "1700m",
 		"Height": " ",
-"sp": "Dumre Bazzar",
+		"sp": "Dumre Bazzar",
 		"Website": "www.bandipurcablecar.com.np/",
 		"ep": " ",
 
-		"Year": "2024"
+		"Year": "2024",
+		"phone1": "065-580457",
+		"email": "info@bandipurcablecar.com.np"
 	},
 	{
 		"SNo": "8",
@@ -103,10 +112,12 @@
 		"dis": "Rupandehi",
 		"Length": "1950m",
 		"Height": " ",
-"sp": "Butwal",
+		"sp": "Butwal",
 		"Website": "siddharthacablecar.com.np/",
 		"ep": "Nuwakot, Palpa",
 
-		"Year": "2024"
+		"Year": "2024",
+		"phone1": "065-580457",
+		"desc": "Siddhartha Cable Car, named after Siddhartha, the Little Buddha before enlightenment. Reflecting his first seven steps after birth, we have constructed seven lotus structures: six at the lower station and one at the upper station, where the tallest Siddhartha statue is enshrined. This journey is not just a ride but an immersion into a spiritual and historical odyssey, offering a unique blend of comfort, history, and spirituality."
 	}
 ]
