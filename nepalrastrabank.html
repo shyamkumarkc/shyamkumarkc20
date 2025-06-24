@@ -63,14 +63,12 @@ To maintain macro-economic stability through sound and effective monetary, forei
 <h3>
 NRB Governors over the years</h3>
 <hr />
-<table border="black">
+<table>
       <thead>
-         <tr>
-            <th>S No</th>
-			 <th>Governor Name</th>
-			 
+         <p>
             
-         </tr>
+			 
+         </p>
       </thead>
       <tbody id="data-output">
          <!-- Prodcuts from javascript file in here. -->
@@ -87,22 +85,18 @@ NRB Governors over the years</h3>
    let out = "";
    for(let product of products){
       out += `
-         <tr>
-            
-            <td>${product.SNO}</td>
-			
-            <td>${product.Name}</td>
-			
-            
+         <tr>            
+            <p>${product.SNO} 		
+            ${product.Name}</p>			
+			           
          </tr>
       `;
    }
-   
- 
+    
    placeholder.innerHTML = out;
 });
 
-</script> 
+</script>  
 Also Read: <a href="/banking/nrbgovernor" rel="nofollow" target="_blank">List of Governor In Nepal</a></div>
 <h3>Functions, Rights and Duties</h3>
 <ol style="list-style-type: upper-roman;">
