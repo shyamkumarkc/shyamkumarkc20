@@ -92,6 +92,7 @@
     {
         "SNO": "14.",
         "Name": "Mr. Deependra Bahadur Kshetry",
+		"IMG": "https://www.nrb.org.np/contents/uploads/2019/12/Dipendra_Bd_Chhatri_20120730101400.jpg",
         "TermAD": "January 15, 2009 - July 26, 2009",
         "TermBS": "21 Poush 2065 - 11 Shrawan 2066"
     },
@@ -104,20 +105,22 @@
     },
     {
         "SNO": "16.",
-        "Name": "Dr. Chiranjibi Nepal",
-		"IMG": "",
+        "Name": "Dr. Chiranjivi Nepal",
+		"IMG": "https://republicaimg.nagariknewscdn.com/shared/web/uploads/media/Dr_Chiranjibi_Nepal.jpg",
         "TermAD": "March 19, 2015 - April 06, 2020",
         "TermBS": "05 Chaitra 2071 - 24 Chaitra 2076"
     },
     {
         "SNO": "17.",
         "Name": "Mr. Maha Prasad Adhikari",
+		"IMG": "https://republicaimg.nagariknewscdn.com/shared/web/uploads/media/IBN-CEO_MpAdhikari-1-390x390_20200406164551_20200406165450.jpg",
         "TermAD": "April 06, 2020 - April 05, 2025",
         "TermBS": "24 Chaitra 2076 - 23 Chaitra 2081"
     },
     {
         "SNO": "18.",
         "Name": "Dr Bishwo Nath Paudel",
+		"IMG": "https://ullens.edu.np/wp-content/themes/yootheme/cache/b9/biswo-b9af8068.jpeg",
         "TermAD": "March 20, 2025 - Present",
         "TermBS": "07 Chaitra 2081 - Present"
     }
