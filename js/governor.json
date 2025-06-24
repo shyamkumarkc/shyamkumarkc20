@@ -2,6 +2,7 @@
     {
         "SNO": "1.",
         "Name": "Mr. Himalaya Shumsher J.B. Rana",
+		"IMG": "https://www.nrb.org.np/contents/uploads/2019/12/HimalayaShamsherJangBahadurRanaNepalRastraBankGoverner1956-1961.jpg",
         "TermAD": "April 26, 1956 - February 7, 1961",
         "TermBS": "14 Baishak 2013 - 26 Magh 2017"
     },
@@ -14,12 +15,14 @@
     {
         "SNO": "3.",
         "Name": "Mr. Pradyuma Lal Rajbhandari",
+		"IMG": "https://www.nrb.org.np/contents/uploads/2019/12/Pradyumna-Lal-Rajbhandari.png",
         "TermAD": "June 18, 1965 - August 13, 1966",
         "TermBS": "24 Ashar 2022 - 29 Shrawan 2023"
     },
     {
         "SNO": "4.",
         "Name": "Dr. Bhekh Bahadur Thapa",
+		"IMG": "https://www.nrb.org.np/contents/uploads/2019/12/BhekhBahadurThapaNepalRastraBankGovernerl966-l967.jpg",
         "TermAD": "August 14, 1966 - July 26, 1967",
         "TermBS": "30 Shrawan 2023 - 01 Baishak 2024"
     },
@@ -39,31 +42,31 @@
         "SNO": "7.",
         "Name": "Mr. Kalyana Bikram Adhikary",
         "TermAD": "June 13, 1979 - December 8, 1984",
-        "TermBS": ""
+        "TermBS": "30 Jestha 2036 - 24 Mangsir 2041"
     },
     {
         "SNO": "8.",
         "Name": "Mr. Ganesh Bahadur Thapa",
         "TermAD": "March 25, 1985 - May 22, 1990",
-        "TermBS": ""
+        "TermBS": "12 Chaitra 2041- - 08 Jestha 2047"
     },
     {
         "SNO": "9.",
         "Name": "Mr. Hari Shankar Tripathi",
         "TermAD": "August 10, 1990 - January 17, 1995",
-        "TermBS": ""
+        "TermBS": "26 Shrawan 2047 - 03 Magh 2051"
     },
     {
         "SNO": "10.",
         "Name": "Mr. Satyendra Pyara Shrestha",
         "TermAD": "January 18, 1995 - January 17, 2000",
-		"TermBS": ""
+		"TermBS": "04 Magh 2051 - 03 Magh 2056"
     },
     {
         "SNO": "11.",
         "Name": "Dr. Tilak Bahadur Rawal",
         "TermAD": "January 18, 2000 - January 17, 2005",
-        "TermBS": ""
+        "TermBS": "04 Magh 2056 - 04 Magh 2061 "
     },
     {
         "SNO": "12.",
@@ -81,17 +84,19 @@
         "SNO": "14.",
         "Name": "Mr. Deependra Bahadur Kshetry",
         "TermAD": "January 15, 2009 - July 26, 2009",
-        "TermBS": ""
+        "TermBS": "21 Poush 2065 - 11 Shrawan 2066"
     },
     {
         "SNO": "15.",
         "Name": "Dr. Yuba Raj Khatiwada",
+		"IMG": "https://www.nrb.org.np/contents/uploads/2019/12/spotlight-Khatiwada-may9-2014-1.jpg",
         "TermAD": "March 22, 2010 - March 19, 2015",
         "TermBS": "09 Chaitra 2066 -05 Chaitra 2071"
     },
     {
         "SNO": "16.",
         "Name": "Dr. Chiranjibi Nepal",
+		"IMG": "",
         "TermAD": "March 19, 2015 - April 06, 2020",
         "TermBS": "05 Chaitra 2071 - 24 Chaitra 2076"
     },
