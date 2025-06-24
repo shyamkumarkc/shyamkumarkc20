@@ -29,54 +29,63 @@
     {
         "SNO": "5.",
         "Name": "Dr. Yadav Prasad Pant",
+		"IMG": "https://www.nrb.org.np/contents/uploads/2019/12/Dr.-Yadav-Prasad-Pant.png",
         "TermAD": "April 24, 1968 - April 28, 1973",
         "TermBS": "02 Baishak 2025 - 26 Baishak 2030"
     },
     {
         "SNO": "6.",
         "Name": "Mr. Kul Shekhar Sharma",
+		"IMG": "https://www.nrb.org.np/contents/uploads/2019/12/Kul-Shekhar-Sharma.png",
         "TermAD": "April 29, 1973 - December 12, 1978",
         "TermBS": "27 Baishak 2030 - 27 Mangsir 2035"
     },
     {
         "SNO": "7.",
         "Name": "Mr. Kalyana Bikram Adhikary",
+		"IMG": "https://www.nrb.org.np/contents/uploads/2019/12/Kalyan-Bikram-Adhikari.png",
         "TermAD": "June 13, 1979 - December 8, 1984",
         "TermBS": "30 Jestha 2036 - 24 Mangsir 2041"
     },
     {
         "SNO": "8.",
         "Name": "Mr. Ganesh Bahadur Thapa",
+		"IMG": "https://www.nrb.org.np/contents/uploads/2019/12/Ganesh-Bahadur-Thapa.png",
         "TermAD": "March 25, 1985 - May 22, 1990",
         "TermBS": "12 Chaitra 2041- - 08 Jestha 2047"
     },
     {
         "SNO": "9.",
         "Name": "Mr. Hari Shankar Tripathi",
+		"IMG": "https://www.nrb.org.np/contents/uploads/2019/12/Hari-Shankar-Tripathi.png",
         "TermAD": "August 10, 1990 - January 17, 1995",
         "TermBS": "26 Shrawan 2047 - 03 Magh 2051"
     },
     {
         "SNO": "10.",
         "Name": "Mr. Satyendra Pyara Shrestha",
+		"IMG": "https://www.nrb.org.np/contents/uploads/2019/12/Satyendra-Pyara-Shrestha.png",
         "TermAD": "January 18, 1995 - January 17, 2000",
 		"TermBS": "04 Magh 2051 - 03 Magh 2056"
     },
     {
         "SNO": "11.",
         "Name": "Dr. Tilak Bahadur Rawal",
+		"IMG": "https://www.nrb.org.np/contents/uploads/2019/12/Dr.-Tilak-Bahadur-Rawal.png",
         "TermAD": "January 18, 2000 - January 17, 2005",
         "TermBS": "04 Magh 2056 - 04 Magh 2061 "
     },
     {
         "SNO": "12.",
-        "Name": "Mr. Deependra Purush Dhakal",
+        "Name": "Mr. Dipendra Purush Dhakal",
+		"IMG": "https://www.nrb.org.np/contents/uploads/2019/12/Dipendra-Purush-Dhaka.png",
         "TermAD": "August 29, 2000 - April 27, 2001",
         "TermBS": ""
     },
     {
         "SNO": "13.",
         "Name": "Mr. Bijaya Nath Bhattarai",
+		"IMG": "https://www.nrb.org.np/contents/uploads/2019/12/Bijaya-Nath-Bhattarai.png",
         "TermAD": "January 31, 2005 - January 30, 2010",
         "TermBS": ""
     },
