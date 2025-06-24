@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Remittance</title>
+  <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+  
+
+  
+
+  <style>
+    body {
+       display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+    }
+
+    h1 {
+      color: #e67e22;
+    }
+
+    img {
+       max-width: 100%;
+            max-height: 80vh;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    button {
+      margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+    }
+
+    button:hover {
+     background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div id="header"></div>
+  
+  <div>
+    <img id="foxImage" src="" alt="Loading">
+  </div>
+<button onclick="loadFox()">Refresh</button>
+  <script>
+    function loadFox() {
+      fetch("https://randomfox.ca/floof/")
+        .then(response => response.json())
+        .then(data => {
+          document.getElementById("foxImage").src = data.image;
+        })
+        .catch(error => console.error("Error fetching fox image:", error));
+    }
+
+    // Load one on page load
+    window.onload = loadFox;
+  </script>
+<script>
+	    $(function(){
+$('#footer').load('/assets/footer.html');
+});
+</script>
+
+</body>
+  <div id ="footer"></div>
+</html>
