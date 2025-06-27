@@ -33,14 +33,14 @@
   <label for="yearSelect"><strong>Fiscal Year:</strong></label>
   <select id="yearSelect">
    
-    <option value="Inflation81/82">2081/2082</option>
-	<option value="Inflation80/81">2080/2081</option>
-	<option value="Inflation79/80">2079/2080</option>
-	<option value="Inflation78/79">2078/2079</option>
+    <option value="inflation81/82">2081/2082</option>
+	<option value="inflation80/81">2080/2081</option>
+	<option value="inflation79/80">2079/2080</option>
+	<option value="inflation78/79">2078/2079</option>
    
   </select>
 
-  <canvas id="InflationChart" style="width:100%;max-width:600px;height:500px"></canvas>
+  <canvas id="inflationChart" style="width:100%;max-width:600px;height:500px"></canvas>
 
   <h3 id="dataTitle">Inflation in Nepal: Fiscal Year 2081/2082</h3>
 
@@ -67,14 +67,14 @@
         .then(response => response.json())
         .then(data => {
           fullData = data;
-          updateChartAndTable(InflationKey);
+          updateChartAndTable(inflationKey);
         })
         .catch(error => console.error("Error fetching data:", error));
     }
 
     // Update chart and table based on selected year
-    function updateChartAndTable(InflationKey) {
-      const Inflation = fullData[InflationKey];
+    function updateChartAndTable(inflationKey) {
+      const Inflation = fullData[inflationKey];
       const months = fullData.months;
       const colors = fullData.colors;
       const sno = fullData.sno;
@@ -111,10 +111,10 @@
 
       // Update year title
       const yearMap = {
-        "Inflation81/82": "2081/2082",
-        "Inflation80/81": "2080/2081",
-		"Inflation79/80": "2079/2080",
-		"Inflation78/79": "2078/2079"
+        "inflation81/82": "2081/2082",
+        "inflation80/81": "2080/2081",
+		"inflation79/80": "2079/2080",
+		"inflation78/79": "2078/2079"
       };
       const selectedYear = yearMap[InflationKey] || "Unknown Year";
       document.getElementById("dataTitle").innerText = `Inflation in Nepal: Fiscal Year ${selectedYear}`;
@@ -122,7 +122,7 @@
 
     // Initial load and event binding
     document.addEventListener("DOMContentLoaded", () => {
-      loadData("Inflation81/82");
+      loadData("inflation81/82");
 
       document.getElementById("yearSelect").addEventListener("change", function () {
         updateChartAndTable(this.value);
