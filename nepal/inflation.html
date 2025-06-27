@@ -62,7 +62,7 @@
     let fullData;
 
     // Load data from JSON
-    function loadData(InflationKey) {
+    function loadData(inflationKey) {
       fetch("https://shyamkumarkc20.com.np/js/economy.json")
         .then(response => response.json())
         .then(data => {
@@ -74,13 +74,13 @@
 
     // Update chart and table based on selected year
     function updateChartAndTable(inflationKey) {
-      const Inflation = fullData[inflationKey];
+      const inflation = fullData[inflationKey];
       const months = fullData.months;
       const colors = fullData.colors;
       const sno = fullData.sno;
 
       // Create or update Chart
-      const ctx = document.getElementById("InflationChart").getContext('2d');
+      const ctx = document.getElementById("inflationChart").getContext('2d');
       if (chart) chart.destroy();
       chart = new Chart(ctx, {
         type: "bar",
@@ -88,7 +88,7 @@
           labels: months,
           datasets: [{
             backgroundColor: colors,
-            data: Inflation
+            data: inflation
           }]
         },
         options: {
@@ -100,7 +100,7 @@
       const tableBody = document.querySelector("#data-table tbody");
       tableBody.innerHTML = "";
       months.forEach((month, index) => {
-        let value = Inflation[index] !== undefined ? Inflation[index] : "-";
+        let value = inflation[index] !== undefined ? inflation[index] : "-";
         const row = `<tr>
           <td>${sno[index]}</td>
           <td>${month}</td>
@@ -116,7 +116,7 @@
 		"inflation79/80": "2079/2080",
 		"inflation78/79": "2078/2079"
       };
-      const selectedYear = yearMap[InflationKey] || "Unknown Year";
+      const selectedYear = yearMap[inflationKey] || "Unknown Year";
       document.getElementById("dataTitle").innerText = `Inflation in Nepal: Fiscal Year ${selectedYear}`;
     }
 
