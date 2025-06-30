@@ -136,6 +136,11 @@
         "desc": "NPA refers to those kinds of loans and advances issued by the banks which are default or about to be default where borrowers are not paying their loan principle as well as interest."
     },
     {
+        "Name": "Note Kosh",
+        "link": "/banking/notekosh.html",
+        "desc": "Note Kosh is typically associated with the Note Department of the Nepal Rastra Bank (NRB), the central bank of Nepal. Note Kosh is a vault maintained in commercial bank by central bank to keep Nepalese Currency."
+    },
+    {
         "Name": "Plastic Money",
         "link": "",
         "desc": "Plastic Money refers to the hard plastic cards like credit cards, debit cards, cash cards, dollar cards and other similar cards that is being used in everyday life for making payments and replacing the use of paper cash."
@@ -188,6 +193,11 @@
         "Name": "Teller",
         "link": "",
         "desc": "Teller is the staff of the bank who cashes cheques, accepts deposits and performs different banking services for customers."
+    },
+    {
+        "Name": "Varu Kosh",
+        "link": "/banking/varukosh.html",
+        "desc": "Varu Kosh is like note kosh. Varu kosh is for Indian Currency, and note kosh is for Nepalese Currency."
     },
     {
         "Name": "Wholesale Banking",
