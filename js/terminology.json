@@ -67,8 +67,8 @@
     },
     {
         "Name": "Cash Reserve Ratio (CRR)",
-        "link": "",
-        "desc": "CRR is the certain rate of amount of the cash that the bank and financial institutions should hold as reserves in the Central Bank. Currently in fiscal year 2018/19 Nepal Rastra Bank has decreased the CRR rate from 6% to 4% for the commercial banks."
+        "link": "/banking/CRRSLRofBFIs",
+        "desc": "CRR is the certain rate of the amount of cash that the bank and financial institutions should hold as reserves in the Central Bank. Currently in fiscal year 2018/19 Nepal Rastra Bank has decreased the CRR rate from 6% to 4% for the commercial banks."
     },
     {
         "Name": "Demat Account",
@@ -176,7 +176,7 @@
     },
     {
         "Name": "Statutory Liquidity Ratio (SLR)",
-        "link": "",
+        "link": "/banking/CRRSLRofBFIs",
         "desc": "SLR is a provision of reserve requirement set by the central bank to its bank and financial institutions for maintaining some liquidity in the form of cash, government bonds or other convertible assets. At present, NRB has provisioned 10% SLR for commercial banks"
     },
     {
