@@ -21,7 +21,7 @@
         "desc": "Bank statement is the summary record of all the transaction of an account holder of a particular bank showing all the debits (withdrawals) and credits (deposits)."
     },
     {
-        "Name": "Base Rate&nbsp;",
+        "Name": "Base Rate ",
         "desc": "Base rate is the minimum rate of interest on which bank can issue loans. Base rate is calculated as per the formula provided by the Central Bank."
     },
     {
@@ -62,7 +62,7 @@
         "desc": "Demat Account is the account in which the investors can hold their shares in electronic form."
     },
     {
-        "Name": "Digital&nbsp;Wallet / E-Wallet",
+        "Name": "Digital Wallet / E-Wallet",
         "desc": "Digital wallet is an application or system that allows the customer to perform financial transaction (receive and payment) in the electronic medium. You will have unique user id where you can load money through bank account and the make payments in exchange of goods and services to supplier/seller."
     },
     {
