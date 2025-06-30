@@ -1,21 +1,22 @@
 [
     {
+        "SNo": "",
         "Name": "Automated Teller Machine (ATM)",
         "Desc": "ATM is the machine that dispense cash and also provides mini statements to the customer. When the customer opens bank account in the bank, s/he will be provided ATM card. By using this card s/he can withdraw money from any ATM machines."
     },
-    {
+    { "SNo": "",
         "Name": "ASBA",
         "Desc": "ASBA stands for Application Supported by Blocked Amount. It is the system through which the account holder can apply for shares (IPOs and FPOs). The value of applied share will be in the same bank account but will be blocked or freezed. Once the share is allotted, only the allotted amount will be deducted from that bank account."
     },
-    {
+    { "SNo": "",
         "Name": "Bancassurance",
         "Desc": "Bancassurance is the selling of the insurance policies and products of insurance companies by banks as a corporate agent through their branches."
     },
-    {
+    { "SNo": "",
         "Name": "Bank Rate",
         "Desc": "Bank rate is the rate of interest that is charged on the amount lent by the Central Bank to the banks and financial institutions."
     },
-    {
+    { "SNo": "",
         "Name": "Bank Statement",
         "Desc": "Bank statement is the summary record of all the transaction of an account holder of a particular bank showing all the debits (withdrawals) and credits (deposits)."
     },
