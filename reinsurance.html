@@ -1,98 +1,136 @@
 <!DOCTYPE html>
-<html lang="en">
+
 <head>
 <title>Re-Insurance Companies in Nepal</title>
 <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+
 </script>
 <script>
 $(function(){
 $('#header').load('/assets/header.html');
 });
 </script>
+<style>     
 
+    select {
+      padding: 0.5em;
+      font-size: 1rem;
+      width: 250px;
+      margin-bottom: 1.5em;
+    }
+
+    .card {
+     
+      border-radius: 10px;
+      padding: 1.5em;
+      max-width: 500px;
+      width: 100%;
+      
+      
+    }
+
+    img {
+      
+      margin-bottom: 1em;
+    }
+
+    .info {
+      margin-bottom: 0.5em;
+    }
+
+    .label {
+      font-weight: bold;
+    }
+
+    .error {
+      color: red;
+      font-weight: bold;
+    }
+  </style>
 </head>
-<body><style>
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-    
-    border: 1px solid #ddd;
-}
-
-th, td {
-    text-align: left;
-    padding: 16px;
-}
-
-tr:nth-child(even) {
-    background-color: #f2f2f2
-}
-</style>
+<body>
 <div id ="header"></div>
-<h2>List of Reinsurance Companies in Nepal</h2>
-Below are the list of Reinsurance companies of Nepal:
-<br/>
+<h2>Re-Insurance Companies in Nepal</h2>
+
 
  
- <table border="black" >
 
-      <thead>
-         <tr>
-            <th>S No</th>
-            <th>Company Name</th>
-            <th>Logo</th>
-            <th>Operation Date</th>
-		 <th>Location </th>
-            <th>NEPSE</th>
-			<th>Phone</th>
-			<th>Email</th>
-		 <th>CEO</th>
-		
-         </tr>
-      </thead>
-      <tbody id="data-output2">
-         <!-- Prodcuts from javascript file in here. -->
-      </tbody>
-   </table>
- 
-   <script>
-   fetch("https://shyamkumarkc20.com.np/js/reinsurance.json")
-.then(function(response){
-   return response.json();
-})
-.then(function(products){
-   let placeholder = document.querySelector("#data-output2");
-   let out = "";
-   for(let product of products){
-      out += `
-         <tr>
-            
-            <td>${product.Sno}</td>
-			
-            <td><a href ="${product.link}"target="blank">${product.Name}</a></td>
-	     <td><img src="${product.IMG}" width="100" height="100" ></td>
-			<td>${product.ODAD} <br/>${product.ODBS}</td>
-			<td>${product.HO}</td>
-			<td><a href ="${product.neps}"target="blank">${product.NEPSE}</a></td>
-			
-            <td><a href ="tel:${product.phone1}">${product.phone1}</a><br/><a href ="tel:${product.phone2}">${product.phone2}</a></td>
-            <td><a href ="mailto:${product.email}">${product.email}</a></td>
-	    <td>${product.ceo}</td>
-            
-         </tr>
+<div1>
+
+  
+
+  <select id="countryDropdown" onchange="displayCountryInfo()"></select>
+
+  <div class="card" id="country-info">Loading country information...</div>
+
+  <script>
+    let saarcData = [];
+
+    async function loadCountries() {
+      const dropdown = document.getElementById('countryDropdown');
+      try {
+        const response = await fetch('https://shyamkumarkc20.com.np/js/reinsurance.json');
+        saarcData = await response.json();
+
+        // Populate dropdown
+        saarcData.forEach(country => {
+          const option = document.createElement('option');
+          option.value = country.Name;
+          option.textContent = country.Name;
+          dropdown.appendChild(option);
+        });
+
+        // Automatically select and display Afghanistan
+        dropdown.value = 'Nepal Reinsurance Company Limited';
+        displayCountryInfo();
+
+      } catch (error) {
+        document.getElementById('country-info').innerHTML = '<p class="error">Error loading country data.</p>';
+        console.error(error);
+      }
+    }
+
+    function displayCountryInfo() {
+      const selected = document.getElementById('countryDropdown').value;
+      const container = document.getElementById('country-info');
+
+      const country = saarcData.find(c => c.Name === selected);
+      if (!country) {
+        container.innerHTML = '<p class="error">Country not found.</p>';
+        return;
+      }
+
+      container.innerHTML = `
+        <img src="${country.IMG}" width="200px"  height= "150px"  alt="Flag of ${country.Name}" />
+        
+        <h2>${country.Name}</h2>
+        <p>${country.desc || 'N/A'}</p>
+        <div class="info">
+          <span class="label">Authorized Capital:</span> ${country.AuthorizedCapital || 'N/A'}</div>
+         <div class="info">
+          <span class="label">Issued Capital:</span> ${country.IssuedCapital || 'N/A'}</div>
+        <span class="label">Operation:</span> ${country.ODAD || 'N/A'},  ${country.ODBS || 'N/A'}</div>
+        <div class="info"><span class="label">NEPSE:</span> <a href = "${country.neps || 'N/A'}">${country.NEPSE || 'N/A'}</a></div>
+        <div class="info"><span class="label">Location:</span> ${country.HO || 'N/A'}</div><div class="info"><span class="label">CEO:</span> ${country.ceo || 'N/A'}</div>
+        <div class="info"><span class="label">Phone:</span> 
+        <a href="tel:${country.phone1 || 'N/A'}"> ${country.phone1 || 'N/A'} </a>, 
+        <a href= "tel: ${country.phone2 || 'N/A'}"> ${country.phone2 || 'N/A'}</a> </div>
+        <div class="info"><span class="label">Email:</span> <a href="mailto:${country.email || 'N/A'}">${country.email || 'N/A'}</a></div>
+        <div class="info"><span class="label">Website:</span> <a href = "${country.Website || 'N/A'}">${country.Website || 'N/A'}</a></div>
+         <span class="label">Subsidiaries:</span> ${country.subsidiaries}</div>
       `;
-   }
- 
-   placeholder.innerHTML = out;
-});
-   </script>  
-   <script>
+    }
+
+    window.onload = loadCountries;
+  </script>
+  </div1>
+<script>
 $(function(){
 $('#footer').load('/assets/footer.html');
 });
 </script>
-
+<div id ="footer"></div>
 </body>
-  <div id ="footer"></div>
+  
 </html>
