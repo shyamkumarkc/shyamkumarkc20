@@ -1,38 +1,59 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
-<title>Re-Insurance Companies in Nepal</title>
-<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+  <meta charset="UTF-8" />
+  <title>Re-Insurance Companies in Nepal</title>
+  <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0 1em;
+      
+    }
 
-</script>
-<script>
-$(function(){
-$('#header').load('/assets/header.html');
-});
-</script>
-<style>     
+    h2.page-title {
+      text-align: center;
+      margin-top: 1em;
+    }
 
     select {
       padding: 0.5em;
       font-size: 1rem;
-      width: 250px;
-      margin-bottom: 1.5em;
+      width: 350px;
+      max-width: 100%;
+      margin: 1.5em auto;
+      display: block;
     }
 
     .card {
-     
+      
       border-radius: 10px;
-      padding: 1.5em;
-      max-width: 500px;
+      padding: 2em;
+      max-width: 900px;
       width: 100%;
-      
-      
+      margin: 0 auto;
+      box-sizing: border-box;
+    }
+
+    .card h2 {
+      text-align: center;
+      margin-bottom: 0.5em;
+    }
+
+    .desc {
+      margin: 1em 0;
+      padding: 1em;
+      background-color: #ffffff;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      line-height: 1.5;
     }
 
     img {
-      
-      margin-bottom: 1em;
+      display: block;
+      margin: 0 auto 1em auto;
     }
 
     .info {
@@ -46,23 +67,23 @@ $('#header').load('/assets/header.html');
     .error {
       color: red;
       font-weight: bold;
+      text-align: center;
     }
   </style>
+  <script>
+    $(function(){
+      $('#header').load('/assets/header.html');
+    });
+  </script>
 </head>
 <body>
-<div id ="header"></div>
-<h2>Re-Insurance Companies in Nepal</h2>
+  <div id="header"></div>
+  <h2 class="page-title">Re-Insurance Companies in Nepal</h2>
 
-
- 
-
-<div1>
-
-  
-
-  <select id="countryDropdown" onchange="displayCountryInfo()"></select>
-
-  <div class="card" id="country-info">Loading country information...</div>
+  <div>
+    <select id="countryDropdown" onchange="displayCountryInfo()"></select>
+    <div class="card" id="country-info">Loading company information...</div>
+  </div>
 
   <script>
     let saarcData = [];
@@ -81,12 +102,12 @@ $('#header').load('/assets/header.html');
           dropdown.appendChild(option);
         });
 
-        // Automatically select and display Afghanistan
+        // Automatically select Nepal Reinsurance Company Limited
         dropdown.value = 'Nepal Reinsurance Company Limited';
         displayCountryInfo();
 
       } catch (error) {
-        document.getElementById('country-info').innerHTML = '<p class="error">Error loading country data.</p>';
+        document.getElementById('country-info').innerHTML = '<p class="error">Error loading company data.</p>';
         console.error(error);
       }
     }
@@ -96,41 +117,40 @@ $('#header').load('/assets/header.html');
       const container = document.getElementById('country-info');
 
       const country = saarcData.find(c => c.Name === selected);
+
       if (!country) {
-        container.innerHTML = '<p class="error">Country not found.</p>';
+        container.innerHTML = '<p class="error">Company not found.</p>';
         return;
       }
 
       container.innerHTML = `
-        <img src="${country.IMG}" width="200px"  height= "150px"  alt="Flag of ${country.Name}" />
-        
+        <img src="${country.IMG}" width="200px" height="150px" alt="Logo of ${country.Name}" />
         <h2>${country.Name}</h2>
-        <p>${country.desc || 'N/A'}</p>
-        <div class="info">
-          <span class="label">Authorized Capital:</span> ${country.AuthorizedCapital || 'N/A'}</div>
-         <div class="info">
-          <span class="label">Issued Capital:</span> ${country.IssuedCapital || 'N/A'}</div>
-        <span class="label">Operation:</span> ${country.ODAD || 'N/A'},  ${country.ODBS || 'N/A'}</div>
-        <div class="info"><span class="label">NEPSE:</span> <a href = "${country.neps || 'N/A'}">${country.NEPSE || 'N/A'}</a></div>
-        <div class="info"><span class="label">Location:</span> ${country.HO || 'N/A'}</div><div class="info"><span class="label">CEO:</span> ${country.ceo || 'N/A'}</div>
-        <div class="info"><span class="label">Phone:</span> 
-        <a href="tel:${country.phone1 || 'N/A'}"> ${country.phone1 || 'N/A'} </a>, 
-        <a href= "tel: ${country.phone2 || 'N/A'}"> ${country.phone2 || 'N/A'}</a> </div>
-        <div class="info"><span class="label">Email:</span> <a href="mailto:${country.email || 'N/A'}">${country.email || 'N/A'}</a></div>
-        <div class="info"><span class="label">Website:</span> <a href = "${country.Website || 'N/A'}">${country.Website || 'N/A'}</a></div>
-         <span class="label">Subsidiaries:</span> ${country.subsidiaries}</div>
+        <div class="desc">${country.desc || 'N/A'}</div>
+        <div class="info"><span class="label">Authorized Capital:</span> ${country.AuthorizedCapital || 'N/A'}</div>
+        <div class="info"><span class="label">Issued Capital:</span> ${country.IssuedCapital || 'N/A'}</div>
+        <div class="info"><span class="label">Operation:</span> ${country.ODAD || 'N/A'}, ${country.ODBS || 'N/A'}</div>
+        <div class="info"><span class="label">NEPSE:</span> <a href="${country.neps || '#'}">${country.NEPSE || 'N/A'}</a></div>
+        <div class="info"><span class="label">Location:</span> ${country.HO || 'N/A'}</div>
+        <div class="info"><span class="label">CEO:</span> ${country.ceo || 'N/A'}</div>
+        <div class="info"><span class="label">Phone:</span>
+          <a href="tel:${country.phone1 || ''}">${country.phone1 || 'N/A'}</a>, 
+          <a href="tel:${country.phone2 || ''}">${country.phone2 || 'N/A'}</a>
+        </div>
+        <div class="info"><span class="label">Email:</span> <a href="mailto:${country.email || ''}">${country.email || 'N/A'}</a></div>
+        <div class="info"><span class="label">Website:</span> <a href="${country.Website || '#'}">${country.Website || 'N/A'}</a></div>
+        <div class="info"><span class="label">Subsidiaries:</span> ${country.subsidiaries || 'N/A'}</div>
       `;
     }
 
     window.onload = loadCountries;
   </script>
-  </div1>
-<script>
-$(function(){
-$('#footer').load('/assets/footer.html');
-});
-</script>
-<div id ="footer"></div>
+
+  <script>
+    $(function(){
+      $('#footer').load('/assets/footer.html');
+    });
+  </script>
+  <div id="footer"></div>
 </body>
-  
 </html>
