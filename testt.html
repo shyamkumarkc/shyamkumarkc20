@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Commercial Banks In Nepal</title>
+<title>SHYAM KUMAR K.C.</title>
 <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
 </script>
@@ -10,76 +10,224 @@ $(function(){
 $('#header').load('/assets/header.html');
 });
 </script>
-
+ <style>
+	  body
+	  {
+		   padding-top: 0px;
+		  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+	  }
+    table {
+      border-collapse: collapse;
+    }
+    td {
+     
+      border: 1px solid #ccc;
+      text-align: center;
+    }
+    #paidup { background-color: #d958db; }
+    #customer { background-color: #11aee5; }
+    #atm { background-color: #add8e6; }
+    #branch { background-color: #90ee90; }
+    #ext { background-color: #ffebcd; }
+    #blb { background-color: #ffcccb; }
+    #shours { background-color: #edf511; }
+    #whours { background-color: #ed075b; }
+    #shour { background-color: #ebbccd; }
+    #whour { background-color: #c1ebbc; }
+    section {
+      width: 100%;
+      max-width: 600px;
+      padding-left: 20px;
+    }
+    </style>
 </head>
 <body>
 <div id ="header"></div>
 
 
-<h2>
-List of Commercial Bank in Nepal</h2>
+<h1>Commercial Banks </h1>
+ <p>Commercial Banks are those institutions which are involved in accepting deposits and advancing loans. Generally, the term 'bank' is understood as a commercial bank. Commercial Banks are established to boost commerce, trade and industrial sectors.</p>
+<p>The main functions of commercial banks are accepting deposit from public advancing them loans. However, besides these functions which these banks perform. The major functions of commercial banks are as following:</p> 
+<ol>
+<li>Accepting Deposits (Deposit collection)
+<p>The most important function of commercial bank is to accept deposits from public. Various sections of the society according to their needs and economic conditions deposit their money in the bank, keeping the needs and interest of the society, bank formulate various deposit schemes. i.e.</p>
+<ol style="list-style-type: lower-alpha;">
+<li>Current Deposit</li>
+<li>Saving Deposit</li>
+<li>Term Deposit</li>
+<li>Call Deposit</li>
+<li>Margin Deposit</li>
+</ol>
+<li>Loan and Advances
+<p>The second main function of commercial bank is to advance loan to its customers. Banks charge interest from the borrowers which is the main source of their income. The banks advance loans on the basis of deposit collection. The loan provided by banks are generally secured by proper collateral which valuation is higher than loan amount.</p>
+<ol style="list-style-type: lower-alpha;">
+<li>Cash Credit</li>
+<li>Working capital</li>
+<li>Term Loans</li>
+<li>Mortgaged Loan</li>
+</ol>
+</li>
+</ol>
 
+<h3>Permitted Financial Transactions for Class A Licensed institution</h3>
+<ol style="list-style-type: lower-alpha;">
+<li>Accepting deposits with or without interest and repaying the deposits through various financial instruments
+</li><li>Accepting deposits, making payments, having transactions, providing intermediary services and transfer funds through various electronic medium (devices & instruments)
+</li><li>Disbursement of credit (hire-purchase, leasing, overdrafts and housing)
+</li><li>Disbursement of credit on project or hypothecation, collateral and disbursing and causing to be disbursed loans in consortium financing having divided collateral on pari passu according to the agreement entered into between one another.
+</li><li>Disburse loan on the guarantee of foreign bank or FI
+</li><li>Disbursing loans within the value covered by the movable or immovable assets which has already been mortgaged to it or disbursing loans on remortgaged within the value covered by movable or immovable assets which has already been mortgaged to other bank or financial institution
+</li><li>Issuing guarantees, getting executed necessary bonds such customers in consideration thereof, obtaining security, and acquire their movable or immovable assets as collateral or mortgage, or the assets of third persons as collateral
+</li><li>Availing refinance from NRB as may be necessary or lending or providing loans from other bank and financial institution
+</li><li>Disbursing or managing loans from amount received from Government of Nepal or other native or foreign agency for project promotion
+</li><li>Write off credits as per prevailing credits write off Byelaws
+</li><li>Issuing shares debenture, bond and so on to meet the capital fund subject to the limitations, conditions or directives issued by the Nepal Rastra Bank
+</li><li>Issuing, accepting, paying, discounting or purchasing and selling letters of credit, bill of exchange, promissory notes, cheques, travelers cheques, drafts or other financial instruments
+</li><li>Issuing, accepting, managing digital card or other instruments for electronic transactions and appointing agencies to carry out acts relating thereto
+</li><li>Foreign currency transactions subject to the prevailing laws
+</li><li>Carrying out government transactions subject to limits, terms and conditions or directives of NRB
+</li><li>Purchasing, selling or accepting bonds issued by NRB and Government of Nepal
+</li><li>Remitting or transmitting funds to different places within or outside Nepal and receive from abroad to make payment thereof
+</li><li>Act as custodian in sale or purchase of shares, debentures or securities; collecting interest etc. and also arrange safe deposit vaults for customers acting as a commission agent of its customers
+</li><li>Carrying on off-balance sheet transaction
+</li><li>Disbursing credits within prescribed limit of NRB, against individual or collective guarantee, for the economic up-liftment of the deprived sector people, low-income families, victims of natural calamities and inhabitants in any area of the country
+<li>Exchanging with NRB or any other BFI particulars of information or notices on debtors or customers who have obtained credits form it or other bank and financial institutions
+</li><li>Buying and selling of gold and silver bullions
+</li><li>Conduct, study, research and do survey work relating to establishment, operation and evaluation of projects and provide training, consultancy and other information
+</li><li>Prudently managing or selling its assets of all type to come under its ownership according to this act and prevailing laws</li>
+<li>As per the prevailing laws, giving guarantee with consent of the parties involved on matters of payment to be made or values to be recovered for performance of any act between two or more persons</li>
+<li>Carry out other functions as prescribed by the NRB</li>
+</ol>
+<h2>List of Commercial Bank in Nepal</h2>
 
-<br />
-	<style>
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-    width: 100%;
-    border: 1px solid #ddd;
-}
+<select id="nameDropdown" onchange="showDetails()">
+    
+  </select>
+ <div id="bankInfo2" class="bank-container" style="margin-top: 20px;"></div>
+  <div id="bankInfo1" class="bank-container" style="margin-top: 20px;"></div>
+  <table>
+    <tr><td id="over" colspan="3" style="background-color: #ffca33;"></td></tr>
+    <tr>
+      <td id="paidup" class="bank-container"></td>
+      <td id="customer" class="bank-container"></td>
+      <td id="atm" class="bank-container"></td>
+    </tr>
+    <tr>
+      <td id="branch" class="bank-container"></td>
+      <td id="ext" class="bank-container"></td>
+      <td id="blb" class="bank-container"></td>
+    </tr>
+  </table>
 
-th, td {
-    text-align: left;
-    padding: 16px;
-}
+  <br>
+  <section>
+    <h2 id="detail"></h2>
+    <div id="bankInfo" class="bank-container"></div>
 
-tr:nth-child(even) {
-    background-color: #f2f2f2
-}
-</style>
-<table border="black" >
-<thead>
-<tr>
+    <h2>Merged BFIs</h2>
+    <div id="subInfo1" class="bank-container"></div>
+    
+	<h2 >First In Nepal</h2>
+    <div id="first" class="bank-container"></div>
+    <h2>Awards</h2>
+    <div id="subInfo2" class="bank-container"></div>
 
-<th>Word</th>
-	<th>Description</th>
+    <h2>Subsidiary Companies</h2>
+    <div id="subInfo" class="bank-container"></div>
 
+    <h2>Business Hours</h2>
+    <table>
+      <tr>
+        <td id="shour" colspan="3"><b>Summer Hour</b></td>
+        <td id="whour" colspan="3">Winter Hour</td>
+      </tr>
+      <tr>
+        <td id="shours" colspan="3"></td>
+        <td id="whours" colspan="3"></td>
+      </tr>
+    </table>
+  </section>
 
-</tr>
-</thead>
+ <script>
+  const apiUrl = 'https://shyamkumarkc20.com.np/js/commercialbanks.json';
+  let data = [];
 
-      <tbody id="data-output">
-         <!-- Prodcuts from javascript file in here. -->
-      </tbody>
-   </table>
- 
-   <script>
-   fetch("https://shyamkumarkc20.com.np/js/terminology.json")
-.then(function(response){
-   return response.json();
-})
-.then(function(products){
-   let placeholder = document.querySelector("#data-output");
-   let out = "";
-   for(let product of products){
-      out += `
-         <tr>
-            
-            
-             <td>${product.Name}</td>
-	    
-			<td>${product.Desc}</td>
-			
-           
-            
-         </tr>
-      `;
-   }
- 
-   placeholder.innerHTML = out;
-});
+  async function fetchData() {
+    try {
+      const response = await fetch(apiUrl);
+      if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
+      data = await response.json();
+      populateDropdown();
+    } catch (error) {
+      console.error('Error fetching data:', error);
+    }
+  }
 
+  function populateDropdown() {
+    const dropdown = document.getElementById('nameDropdown');
+    data.forEach(item => {
+      const option = document.createElement('option');
+      option.value = item.Name;
+      option.text = item.Name;
+      if (item.Name === "Nepal Bank Limited") {
+        option.selected = true; // Preselect Nepal Bank Limited
+      }
+      dropdown.appendChild(option);
+    });
+
+    showDetails(); // Show details for selected item after populating
+  }
+
+  function showDetails() {
+    const selectedName = document.getElementById('nameDropdown').value;
+    const bank = data.find(item => item.Name === selectedName);
+    if (!bank) return;
+    document.getElementById('bankInfo2').innerHTML = `<h2>${bank.Name || ''}</h2>`;
+    document.getElementById('over').innerHTML = `<p>Small Overview of ${bank.Name || ''}</p>`;
+    
+    
+     
+    
+    document.getElementById('detail').innerHTML = `<p>${bank.Name || ''} Details</p>`;
+document.getElementById('bankInfo').innerHTML = `<p>${bank.Name || ''}</p>`;
+    document.getElementById('bankInfo1').innerHTML = `<p>${bank.desc || ''}</p>`;
+    document.getElementById('paidup').innerHTML = `<p>Paid-up: ${bank.paidup || ''} B</p>`;
+    document.getElementById('customer').innerHTML = `<p>Customer: ${bank.Customer || ''}</p>`;
+    document.getElementById('atm').innerHTML = `<p>ATM: ${bank.ATM || ''}</p>`;
+    document.getElementById('branch').innerHTML = `<p>Branches: ${bank.branch || ''}</p>`;
+    document.getElementById('ext').innerHTML = `<p>Extension Counters: ${bank.ext || ''}</p>`;
+    document.getElementById('blb').innerHTML = `<p>Branchless Banking: ${bank.blb || ''}</p>`;
+
+    document.getElementById('bankInfo').innerHTML = `
+      ${bank.IMG ? `<img src="${bank.IMG}" alt="${bank.Name} Logo" class="bank-logo" width= "300" height="300">` : ''}
+      <p><strong>Name:</strong> ${bank.Name}</p>
+      <p><strong>Established:</strong> ${bank.ODAD || ''} [ ${bank.ODBS || ''} ]</p>
+      <p><strong>Head Office:</strong> ${bank.HO || ''}</p>
+      <p><strong>CEO:</strong> ${bank.ceo || ''} ${bank.ceoimg ? `<img src="${bank.ceoimg}" width="30" height="30">` : ''}</p>
+      <p><strong>Chairman:</strong> ${bank.chairman || ''}</p>
+      <p><strong>NEPSE Code:</strong> ${bank.NEPSE || ''}</p>
+      <p><strong>Swift Code:</strong> ${bank.Swift || ''}</p>
+      <p><strong>Phone:</strong> 
+        ${bank.phone1 ? `<a href="tel:${bank.phone1}">${bank.phone1}</a>` : ''}
+        ${bank.phone2 ? ` | <a href="tel:${bank.phone2}">${bank.phone2}</a>` : ''}
+      </p>
+      <p><strong>Toll Free:</strong> ${bank.TOLL ? `<a href="tel:${bank.TOLL}">${bank.TOLL}</a>` : ''}</p>
+      <p><strong>Email:</strong> ${bank.email ? `<a href="mailto:${bank.email}">${bank.email}</a>` : ''}</p>
+      <p><strong>Website:</strong> ${bank.Website ? `<a href="https://${bank.Website}" target="_blank">${bank.Website}</a>` : ''}</p>
+    `;
+document.getElementById('first').innerHTML = `<p>${bank.first || ''}</p>`;
+    document.getElementById('subInfo1').innerHTML = `<p>${bank.merger || ''}</p>`;
+    document.getElementById('subInfo2').innerHTML = `<p>${bank.awards || ''}</p>`;
+    document.getElementById('subInfo').innerHTML = `<p>${bank.subsidiaries || ''}</p>`;
+    document.getElementById('shours').innerHTML = `<p>${bank.shours || ''}</p>`;
+    document.getElementById('whours').innerHTML = `<p>${bank.whours || ''}</p>`;
+  }
+
+  fetchData();
+</script>
+  <script>
 $(function(){
 $('#footer').load('/assets/footer.html');
 });
