@@ -12,87 +12,172 @@ $('#header').load('/assets/header.html');
 </script>
 
 </head>
+	<div id ="header"></div>
 <body>
-<div id ="header"></div>
 
+  <style>
+	  body
+	  {
+		   padding-top: 0px;
+		  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+	  }
+    table {
+      border-collapse: collapse;
+    }
+    td {
+     
+      border: 1px solid #ccc;
+      text-align: center;
+    }
+    #paidup { background-color: #d958db; }
+    #customer { background-color: #11aee5; }
+    #atm { background-color: #add8e6; }
+    #branch { background-color: #90ee90; }
+    #ext { background-color: #ffebcd; }
+    #blb { background-color: #ffcccb; }
+    #shours { background-color: #edf511; }
+    #whours { background-color: #ed075b; }
+    #shour { background-color: #ebbccd; }
+    #whour { background-color: #c1ebbc; }
+    section {
+      width: 100%;
+      max-width: 600px;
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  
+  <select id="nameDropdown" onchange="showDetails()">
+    
+  </select>
+ <div id="bankInfo2" class="bank-container" style="margin-top: 20px;"></div>
+  <div id="bankInfo1" class="bank-container" style="margin-top: 20px;"></div>
+  <table>
+    <tr><td id="over" colspan="3" style="background-color: #ffca33;"></td></tr>
+    <tr>
+      <td id="paidup" class="bank-container"></td>
+      <td id="customer" class="bank-container"></td>
+      <td id="atm" class="bank-container"></td>
+    </tr>
+    <tr>
+      <td id="branch" class="bank-container"></td>
+      <td id="ext" class="bank-container"></td>
+      <td id="blb" class="bank-container"></td>
+    </tr>
+  </table>
 
-<h2>
-List of Commercial Banks in Nepal</h2>
+  <br>
+  <section>
+    <h2 id="detail"></h2>
+    <div id="bankInfo" class="bank-container"></div>
 
+    <h2>Merged BFIs</h2>
+    <div id="subInfo1" class="bank-container"></div>
+    
+	<h2 >First In Nepal</h2>
+    <div id="first" class="bank-container"></div>
+    <h2>Awards</h2>
+    <div id="subInfo2" class="bank-container"></div>
 
-<br />
-	<style>
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-    width: 100%;
-    border: 1px solid #ddd;
-}
+    <h2>Subsidiary Companies</h2>
+    <div id="subInfo" class="bank-container"></div>
 
-th, td {
-    text-align: left;
-    padding: 16px;
-}
+    <h2>Business Hours</h2>
+    <table>
+      <tr>
+        <td id="shour" colspan="3"><b>Summer Hour</b></td>
+        <td id="whour" colspan="3">Winter Hour</td>
+      </tr>
+      <tr>
+        <td id="shours" colspan="3"></td>
+        <td id="whours" colspan="3"></td>
+      </tr>
+    </table>
+  </section>
 
-tr:nth-child(even) {
-    background-color: #f2f2f2
-}
-</style>
-<table border="black" >
-<thead>
-<tr>
-<th>S.No.</th>
-<th>Bank Name</th>
-	<th>Bank<br/>Logo</th>
-<th>Operation<br/>Date</th>
-<th>Head<br/>Office</th>
+ <script>
+  const apiUrl = 'https://shyamkumarkc20.com.np/js/commercialbanks.json';
+  let data = [];
 
-<th>NEPSE<br/>Code</th>
-<th>SWIFT <br/>Code</th>
-	<th>Toll<br/>Free</th>
-<th>Phone<br/>Number</th>	
-	<th>Email<br/>Address</th>
+  async function fetchData() {
+    try {
+      const response = await fetch(apiUrl);
+      if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
+      data = await response.json();
+      populateDropdown();
+    } catch (error) {
+      console.error('Error fetching data:', error);
+    }
+  }
 
-</tr>
-</thead>
+  function populateDropdown() {
+    const dropdown = document.getElementById('nameDropdown');
+    data.forEach(item => {
+      const option = document.createElement('option');
+      option.value = item.Name;
+      option.text = item.Name;
+      if (item.Name === "Nepal Bank Limited") {
+        option.selected = true; // Preselect Nepal Bank Limited
+      }
+      dropdown.appendChild(option);
+    });
 
-      <tbody id="data-output">
-         <!-- Prodcuts from javascript file in here. -->
-      </tbody>
-   </table>
- 
-   <script>
-   fetch("https://shyamkumarkc20.com.np/js/commercialbanks.json")
-.then(function(response){
-   return response.json();
-})
-.then(function(products){
-   let placeholder = document.querySelector("#data-output");
-   let out = "";
-   for(let product of products){
-      out += `
-         <tr>
-            
-            <td>${product.SNO}</td>
-             <td><a href ="${product.links}"target="blank">${product.Name}</a></td>
-	    <td><img src="${product.IMG}" width="120" height="100" ></td>
-			<td>${product.ODAD} <br>${product.ODBS}</td>
-			<td>${product.HO}</td>
-			<td><a href ="${product.neps}"target="blank">${product.NEPSE}</a></td>
-			<td>${product.Swift}</td>
-  			 <td><a href="tel:${product.TOLL}">${product.TOLL}</a></td>
- 			  <td><a href="tel:${product.phone1}">${product.phone1}</a><br/><a href="tel:${product.phone2}">${product.phone2}</a></td>
-      <td><a href="mailto:${product.email}">${product.email}</a></td>
-           
-            
-         </tr>
-      `;
-   }
- 
-   placeholder.innerHTML = out;
-});
+    showDetails(); // Show details for selected item after populating
+  }
 
-$(function(){
+  function showDetails() {
+    const selectedName = document.getElementById('nameDropdown').value;
+    const bank = data.find(item => item.Name === selectedName);
+    if (!bank) return;
+    document.getElementById('bankInfo2').innerHTML = `<h2>${bank.Name || ''}</h2>`;
+    document.getElementById('over').innerHTML = `<p>Small Overview of ${bank.Name || ''}</p>`;
+    
+    
+     
+    
+    document.getElementById('detail').innerHTML = `<p>${bank.Name || ''} Details</p>`;
+document.getElementById('bankInfo').innerHTML = `<p>${bank.Name || ''}</p>`;
+    document.getElementById('bankInfo1').innerHTML = `<p>${bank.desc || ''}</p>`;
+    document.getElementById('paidup').innerHTML = `<p>Paid-up: ${bank.paidup || ''} B</p>`;
+    document.getElementById('customer').innerHTML = `<p>Customer: ${bank.Customer || ''}</p>`;
+    document.getElementById('atm').innerHTML = `<p>ATM: ${bank.ATM || ''}</p>`;
+    document.getElementById('branch').innerHTML = `<p>Branches: ${bank.branch || ''}</p>`;
+    document.getElementById('ext').innerHTML = `<p>Extension Counters: ${bank.ext || ''}</p>`;
+    document.getElementById('blb').innerHTML = `<p>Branchless Banking: ${bank.blb || ''}</p>`;
+
+    document.getElementById('bankInfo').innerHTML = `
+      ${bank.IMG ? `<img src="${bank.IMG}" alt="${bank.Name} Logo" class="bank-logo" width= "300" height="300">` : ''}
+      <p><strong>Name:</strong> ${bank.Name}</p>
+      <p><strong>Established:</strong> ${bank.ODAD || ''} [ ${bank.ODBS || ''} ]</p>
+      <p><strong>Head Office:</strong> ${bank.HO || ''}</p>
+      <p><strong>CEO:</strong> ${bank.ceo || ''} ${bank.ceoimg ? `<img src="${bank.ceoimg}" width="30" height="30">` : ''}</p>
+      <p><strong>Chairman:</strong> ${bank.chairman || ''}</p>
+      <p><strong>NEPSE Code:</strong> ${bank.NEPSE || ''}</p>
+      <p><strong>Swift Code:</strong> ${bank.Swift || ''}</p>
+      <p><strong>Phone:</strong> 
+        ${bank.phone1 ? `<a href="tel:${bank.phone1}">${bank.phone1}</a>` : ''}
+        ${bank.phone2 ? ` | <a href="tel:${bank.phone2}">${bank.phone2}</a>` : ''}
+      </p>
+      <p><strong>Toll Free:</strong> ${bank.TOLL ? `<a href="tel:${bank.TOLL}">${bank.TOLL}</a>` : ''}</p>
+      <p><strong>Email:</strong> ${bank.email ? `<a href="mailto:${bank.email}">${bank.email}</a>` : ''}</p>
+      <p><strong>Website:</strong> ${bank.Website ? `<a href="https://${bank.Website}" target="_blank">${bank.Website}</a>` : ''}</p>
+    `;
+document.getElementById('first').innerHTML = `<p>${bank.first || ''}</p>`;
+    document.getElementById('subInfo1').innerHTML = `<p>${bank.merger || ''}</p>`;
+    document.getElementById('subInfo2').innerHTML = `<p>${bank.awards || ''}</p>`;
+    document.getElementById('subInfo').innerHTML = `<p>${bank.subsidiaries || ''}</p>`;
+    document.getElementById('shours').innerHTML = `<p>${bank.shours || ''}</p>`;
+    document.getElementById('whours').innerHTML = `<p>${bank.whours || ''}</p>`;
+  }
+
+  fetchData();
+</script>
+
+<script>
+	    $(function(){
 $('#footer').load('/assets/footer.html');
 });
 </script>
