@@ -62,5 +62,22 @@
     "population": "22 million",
     "currency": "Rupee (LKR)",
     "sector": "Tourism"
+  },
+
+	{"SNO": "9",
+    "country": "Myanmar (Burma)",
+	"IMG": "https://shyamkumarkc20.com.np/logo/myanmarflag.png",
+    "capital": "",
+    "population": "",
+    "currency": "",
+    "sector": "" 
+	},
+	{"SNO": "10",
+    "country": "Thailand",
+	"IMG": "https://shyamkumarkc20.com.np/logo/thailandflag.png",
+    "capital": "",
+    "population": "",
+    "currency": "",
+    "sector": ""
   }
 ]
