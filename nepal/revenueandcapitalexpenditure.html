@@ -11,16 +11,12 @@ $(function(){
 $('#header').load('/assets/header.html');
 });
 </script>
-
-
-
   
-
   <style>
     body {
       font-family: Arial, sans-serif;
       background-color: #f4f4f4;
-     
+      
     }
     h2 {
       text-align: center;
@@ -51,24 +47,48 @@ $('#header').load('/assets/header.html');
       text-align: center;
       color: #666;
     }
+    table {
+      width: 90%;
+      max-width: 900px;
+      margin: 20px auto;
+      border-collapse: collapse;
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    th, td {
+      padding: 10px;
+      border: 1px solid #ddd;
+      text-align: center;
+    }
+    th {
+      background-color: #f0f0f0;
+    }
+    caption {
+      caption-side: top;
+      text-align: center;
+      padding: 10px;
+      font-weight: bold;
+    }
   </style>
 </head>
 	<div id ="header"></div>
 <body>
-  <h2>Revenue and Expenditure Graph</h2>
+  <h2>Revenue and Expenditure</h2>
   <div class="controls">
     <label for="yearSelect">Fiscal Year:</label>
     <select id="yearSelect">
       <option value="81/82" selected>2081/82</option>
       <option value="80/81">2080/81</option>
       <option value="79/80">2079/80</option>
-       <option value="78/79">2078/79</option>
+	   <option value="78/79">2078/79</option>
     </select>
   </div>
   <div class="chart-container">
     <div class="loading">Loading data, please wait...</div>
     <canvas id="revExpChart" style="display:none;"></canvas>
   </div>
+
+  <div id="dataTableContainer"></div>
 
   <script>
     const dataURL = 'https://shyamkumarkc20.com.np/js/economy.json';
@@ -82,8 +102,10 @@ $('#header').load('/assets/header.html');
         document.querySelector('.loading').style.display = 'none';
         document.getElementById('revExpChart').style.display = 'block';
         initChart('81/82');
+        renderTable('81/82');
         document.getElementById('yearSelect').addEventListener('change', (e) => {
           updateChart(e.target.value);
+          renderTable(e.target.value);
         });
       })
       .catch(err => {
@@ -131,7 +153,7 @@ $('#header').load('/assets/header.html');
     function updateChart(fiscalYear) {
       const chartData = getChartData(fiscalYear);
       chart.data = chartData;
-      chart.options.plugins.title.text = `Monthly Revenue vs Expenditure for Fiscal Year ${fiscalYear}`;
+      chart.options.plugins.title.text = `Revenue vs Expenditure for Fiscal Year ${fiscalYear}`;
       chart.update();
     }
 
@@ -181,13 +203,56 @@ $('#header').load('/assets/header.html');
         ]
       };
     }
+
+    function renderTable(fiscalYear) {
+      const months = jsonData.months;
+      let revenue = [];
+      let expenditure = [];
+
+      if (fiscalYear === '81/82') {
+        revenue = jsonData["revenue81/82"];
+        expenditure = jsonData["expenditure81/82"];
+      } else if (fiscalYear === '80/81') {
+        revenue = jsonData["revenue80/81"];
+        expenditure = jsonData["expenditure80/81"];
+      } else if (fiscalYear === '79/80') {
+        revenue = jsonData["revenue79/80"];
+        expenditure = jsonData["expenditure79/80"];
+      }else if (fiscalYear === '78/79') {
+        revenue = jsonData["revenue78/79"];
+        expenditure = jsonData["expenditure78/79"];
+      }
+
+      let tableHTML = `
+        <table>
+          <caption>Revenue and Expenditure Table for Fiscal Year ${fiscalYear}</caption>
+          <tr>
+            <th>Month</th>
+            <th>Revenue (Crores)</th>
+            <th>Expenditure (Crores)</th>
+          </tr>
+      `;
+
+      for (let i = 0; i < months.length; i++) {
+        tableHTML += `
+          <tr>
+            <td>${months[i]}</td>
+            <td>${revenue[i] !== undefined ? revenue[i].toFixed(2) : '-'}</td>
+            <td>${expenditure[i] !== undefined ? expenditure[i].toFixed(2) : '-'}</td>
+          </tr>
+        `;
+      }
+
+      tableHTML += `</table>`;
+      document.getElementById('dataTableContainer').innerHTML = tableHTML;
+    }
   </script>
 <script>
 	    $(function(){
 $('#footer').load('/assets/footer.html');
 });
 </script>
-</body1>
+
 </body>
   <div id ="footer"></div>
 </html>
