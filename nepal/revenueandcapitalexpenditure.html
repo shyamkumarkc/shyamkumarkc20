@@ -1,0 +1,195 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Revenue and Capital Expenditure In Nepal</title>
+<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+</script>
+<script>
+$(function(){
+$('#header').load('/assets/header.html');
+});
+</script>
+
+
+
+  
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+    .controls {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    select {
+      padding: 8px;
+      font-size: 16px;
+    }
+    .chart-container {
+      width: 90%;
+      max-width: 900px;
+      margin: 20px auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    canvas {
+      width: 100% !important;
+      height: auto !important;
+    }
+    .loading {
+      text-align: center;
+      color: #666;
+    }
+  </style>
+</head>
+	<div id ="header"></div>
+<body>
+  <h2>Revenue and Expenditure Graph</h2>
+  <div class="controls">
+    <label for="yearSelect">Fiscal Year:</label>
+    <select id="yearSelect">
+      <option value="81/82" selected>2081/82</option>
+      <option value="80/81">2080/81</option>
+      <option value="79/80">2079/80</option>
+       <option value="78/79">2078/79</option>
+    </select>
+  </div>
+  <div class="chart-container">
+    <div class="loading">Loading data, please wait...</div>
+    <canvas id="revExpChart" style="display:none;"></canvas>
+  </div>
+
+  <script>
+    const dataURL = 'https://shyamkumarkc20.com.np/js/economy.json';
+    let chart;
+    let jsonData;
+
+    fetch(dataURL)
+      .then(res => res.json())
+      .then(data => {
+        jsonData = data;
+        document.querySelector('.loading').style.display = 'none';
+        document.getElementById('revExpChart').style.display = 'block';
+        initChart('81/82');
+        document.getElementById('yearSelect').addEventListener('change', (e) => {
+          updateChart(e.target.value);
+        });
+      })
+      .catch(err => {
+        console.error('Error:', err);
+        document.querySelector('.chart-container').innerHTML = '<p style="color:red;text-align:center;">Failed to load data.</p>';
+      });
+
+    function initChart(fiscalYear) {
+      const ctx = document.getElementById('revExpChart').getContext('2d');
+      const chartData = getChartData(fiscalYear);
+
+      chart = new Chart(ctx, {
+        type: 'bar',
+        data: chartData,
+        options: {
+          responsive: true,
+          plugins: {
+            legend: {
+              position: 'bottom',
+            },
+            title: {
+              display: true,
+              text: `Monthly Revenue vs Expenditure for Fiscal Year ${fiscalYear}`
+            }
+          },
+          scales: {
+            y: {
+              beginAtZero: true,
+              title: {
+                display: true,
+                text: 'Amount in Crores'
+              }
+            },
+            x: {
+              title: {
+                display: true,
+                text: 'Months'
+              }
+            }
+          }
+        }
+      });
+    }
+
+    function updateChart(fiscalYear) {
+      const chartData = getChartData(fiscalYear);
+      chart.data = chartData;
+      chart.options.plugins.title.text = `Monthly Revenue vs Expenditure for Fiscal Year ${fiscalYear}`;
+      chart.update();
+    }
+
+    function getChartData(fiscalYear) {
+      const months = jsonData.months;
+      const colors = jsonData.colors;
+
+      let revenue = [];
+      let expenditure = [];
+      let revLabel = '', expLabel = '';
+
+      if (fiscalYear === '81/82') {
+        revenue = jsonData["revenue"];
+        expenditure = jsonData["expenditure"];
+        revLabel = 'Revenue (81/82)';
+        expLabel = 'Expenditure (81/82)';
+      } else if (fiscalYear === '80/81') {
+        revenue = jsonData["revenue80/81"];
+        expenditure = jsonData["expenditure80/81"];
+        revLabel = 'Revenue (80/81)';
+        expLabel = 'Expenditure (80/81)';
+      } else if (fiscalYear === '79/80') {
+        revenue = jsonData["revenue79/80"];
+        expenditure = jsonData["expenditure79/80"];
+        revLabel = 'Revenue (79/80)';
+        expLabel = 'Expenditure (79/80)';
+      }else if (fiscalYear === '78/79') {
+        revenue = jsonData["revenue78/79"];
+        expenditure = jsonData["expenditure78/79"];
+        revLabel = 'Revenue (78/79)';
+        expLabel = 'Expenditure (78/79)';
+      }
+
+      return {
+        labels: months,
+        datasets: [
+          {
+            label: revLabel,
+            data: revenue,
+            backgroundColor: colors[1] || 'green'
+          },
+          {
+            label: expLabel,
+            data: expenditure,
+            backgroundColor: colors[0] || 'red'
+          }
+        ]
+      };
+    }
+  </script>
+<script>
+	    $(function(){
+$('#footer').load('/assets/footer.html');
+});
+</script>
+</body1>
+</body>
+  <div id ="footer"></div>
+</html>
