@@ -1,56 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Revenue and Capital Expenditure In Nepal</title>
-<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+  <meta charset="UTF-8" />
+  <title>Revenue and Capital Expenditure in Nepal</title>
+  <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
-</script>
-<script>
-$(function(){
-$('#header').load('/assets/header.html');
-});
-</script>
-  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+
   <style>
     body {
       font-family: Arial, sans-serif;
       background-color: #f4f4f4;
-      
+      margin: 0;
+      padding: 0;
     }
     h2 {
       text-align: center;
       color: #333;
+      margin: 20px 10px;
+      font-size: 1.8em;
     }
     .controls {
       text-align: center;
-      margin-bottom: 20px;
+      margin: 20px 10px;
+    }
+    label {
+      font-weight: bold;
+      font-size: 1em;
     }
     select {
       padding: 8px;
-      font-size: 16px;
+      font-size: 1em;
+      margin-left: 8px;
     }
     .chart-container {
-      width: 90%;
+      width: 95%;
       max-width: 900px;
       margin: 20px auto;
       background: #fff;
       padding: 20px;
       border-radius: 12px;
+      box-sizing: border-box;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    canvas {
-      width: 100% !important;
-      height: auto !important;
+      position: relative;
+      height: 400px;
     }
     .loading {
       text-align: center;
       color: #666;
+      font-style: italic;
     }
     table {
-      width: 90%;
-      max-width: 900px;
-      margin: 20px auto;
+      width: 100%;
       border-collapse: collapse;
       background: #fff;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -59,6 +63,7 @@ $('#header').load('/assets/header.html');
       padding: 10px;
       border: 1px solid #ddd;
       text-align: center;
+      font-size: 0.95em;
     }
     th {
       background-color: #f0f0f0;
@@ -68,21 +73,60 @@ $('#header').load('/assets/header.html');
       text-align: center;
       padding: 10px;
       font-weight: bold;
+      font-size: 1.1em;
+    }
+    #dataTableContainer {
+      width: 95%;
+      max-width: 900px;
+      margin: 20px auto;
+      overflow-x: auto;
+    }
+    #dataTableContainer table {
+      min-width: 600px;
+    }
+
+    @media (max-width: 600px) {
+      h2 {
+        font-size: 1.5em;
+      }
+      label {
+        font-size: 0.95em;
+      }
+      select {
+        font-size: 0.95em;
+        width: 100%;
+        max-width: 300px;
+        margin-top: 10px;
+      }
+      .chart-container {
+        padding: 15px;
+        height: 300px;
+      }
+      th, td {
+        padding: 8px;
+        font-size: 0.9em;
+      }
+      caption {
+        font-size: 1em;
+      }
     }
   </style>
 </head>
-	<div id ="header"></div>
 <body>
+  <div id="header"></div>
+
   <h2>Revenue and Expenditure</h2>
+
   <div class="controls">
     <label for="yearSelect">Fiscal Year:</label>
     <select id="yearSelect">
       <option value="81/82" selected>2081/82</option>
       <option value="80/81">2080/81</option>
       <option value="79/80">2079/80</option>
-	   <option value="78/79">2078/79</option>
+      <option value="78/79">2078/79</option>
     </select>
   </div>
+
   <div class="chart-container">
     <div class="loading">Loading data, please wait...</div>
     <canvas id="revExpChart" style="display:none;"></canvas>
@@ -90,7 +134,15 @@ $('#header').load('/assets/header.html');
 
   <div id="dataTableContainer"></div>
 
+  <div id="footer"></div>
+
   <script>
+    // Load header and footer
+    $(function() {
+      $('#header').load('/assets/header.html');
+      $('#footer').load('/assets/footer.html');
+    });
+
     const dataURL = 'https://shyamkumarkc20.com.np/js/economy.json';
     let chart;
     let jsonData;
@@ -113,6 +165,11 @@ $('#header').load('/assets/header.html');
         document.querySelector('.chart-container').innerHTML = '<p style="color:red;text-align:center;">Failed to load data.</p>';
       });
 
+    // Helper to handle leading zeros in JSON keys
+    function getYearKey(prefix, year) {
+      return jsonData[`${prefix}${year}`] || jsonData[`${prefix}0${year}`] || [];
+    }
+
     function initChart(fiscalYear) {
       const ctx = document.getElementById('revExpChart').getContext('2d');
       const chartData = getChartData(fiscalYear);
@@ -122,10 +179,9 @@ $('#header').load('/assets/header.html');
         data: chartData,
         options: {
           responsive: true,
+          maintainAspectRatio: false,
           plugins: {
-            legend: {
-              position: 'bottom',
-            },
+            legend: { position: 'bottom' },
             title: {
               display: true,
               text: `Revenue vs Expenditure for Fiscal Year ${fiscalYear}`
@@ -161,42 +217,19 @@ $('#header').load('/assets/header.html');
       const months = jsonData.months;
       const colors = jsonData.colors;
 
-      let revenue = [];
-      let expenditure = [];
-      let revLabel = '', expLabel = '';
-
-      if (fiscalYear === '81/82') {
-        revenue = jsonData["revenue81/82"];
-        expenditure = jsonData["expenditure81/82"];
-        revLabel = 'Revenue (81/82)';
-        expLabel = 'Expenditure (81/82)';
-      } else if (fiscalYear === '80/81') {
-        revenue = jsonData["revenue80/81"];
-        expenditure = jsonData["expenditure80/81"];
-        revLabel = 'Revenue (80/81)';
-        expLabel = 'Expenditure (80/81)';
-      } else if (fiscalYear === '79/80') {
-        revenue = jsonData["revenue79/80"];
-        expenditure = jsonData["expenditure79/80"];
-        revLabel = 'Revenue (79/80)';
-        expLabel = 'Expenditure (79/80)';
-      }else if (fiscalYear === '78/79') {
-        revenue = jsonData["revenue78/79"];
-        expenditure = jsonData["expenditure78/79"];
-        revLabel = 'Revenue (78/79)';
-        expLabel = 'Expenditure (78/79)';
-      }
+      const revenue = getYearKey('revenue', fiscalYear);
+      const expenditure = getYearKey('expenditure', fiscalYear);
 
       return {
         labels: months,
         datasets: [
           {
-            label: revLabel,
+            label: `Revenue (${fiscalYear})`,
             data: revenue,
             backgroundColor: colors[1] || 'green'
           },
           {
-            label: expLabel,
+            label: `Expenditure (${fiscalYear})`,
             data: expenditure,
             backgroundColor: colors[0] || 'red'
           }
@@ -205,28 +238,17 @@ $('#header').load('/assets/header.html');
     }
 
     function renderTable(fiscalYear) {
+      const sno = jsonData.sno;
       const months = jsonData.months;
-      let revenue = [];
-      let expenditure = [];
 
-      if (fiscalYear === '81/82') {
-        revenue = jsonData["revenue81/82"];
-        expenditure = jsonData["expenditure81/82"];
-      } else if (fiscalYear === '80/81') {
-        revenue = jsonData["revenue80/81"];
-        expenditure = jsonData["expenditure80/81"];
-      } else if (fiscalYear === '79/80') {
-        revenue = jsonData["revenue79/80"];
-        expenditure = jsonData["expenditure79/80"];
-      }else if (fiscalYear === '78/79') {
-        revenue = jsonData["revenue78/79"];
-        expenditure = jsonData["expenditure78/79"];
-      }
+      const revenue = getYearKey('revenue', fiscalYear);
+      const expenditure = getYearKey('expenditure', fiscalYear);
 
       let tableHTML = `
         <table>
           <caption>Revenue and Expenditure Table for Fiscal Year ${fiscalYear}</caption>
           <tr>
+            <th>S No</th>
             <th>Month</th>
             <th>Revenue (Crores)</th>
             <th>Expenditure (Crores)</th>
@@ -236,6 +258,7 @@ $('#header').load('/assets/header.html');
       for (let i = 0; i < months.length; i++) {
         tableHTML += `
           <tr>
+            <td>${sno[i]}</td>
             <td>${months[i]}</td>
             <td>${revenue[i] !== undefined ? revenue[i].toFixed(2) : '-'}</td>
             <td>${expenditure[i] !== undefined ? expenditure[i].toFixed(2) : '-'}</td>
@@ -247,12 +270,5 @@ $('#header').load('/assets/header.html');
       document.getElementById('dataTableContainer').innerHTML = tableHTML;
     }
   </script>
-<script>
-	    $(function(){
-$('#footer').load('/assets/footer.html');
-});
-</script>
-
 </body>
-  <div id ="footer"></div>
 </html>
