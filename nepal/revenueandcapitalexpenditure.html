@@ -238,7 +238,7 @@
     }
 
     function renderTable(fiscalYear) {
-      const sno = jsonData.sno;
+     
       const months = jsonData.months;
 
       const revenue = getYearKey('revenue', fiscalYear);
@@ -248,7 +248,7 @@
         <table>
           <caption>Revenue and Expenditure Table for Fiscal Year ${fiscalYear}</caption>
           <tr>
-            <th>S No</th>
+            
             <th>Month</th>
             <th>Revenue (Crores)</th>
             <th>Expenditure (Crores)</th>
@@ -258,7 +258,7 @@
       for (let i = 0; i < months.length; i++) {
         tableHTML += `
           <tr>
-            <td>${sno[i]}</td>
+            
             <td>${months[i]}</td>
             <td>${revenue[i] !== undefined ? revenue[i].toFixed(2) : '-'}</td>
             <td>${expenditure[i] !== undefined ? expenditure[i].toFixed(2) : '-'}</td>
