@@ -86,18 +86,16 @@
         white-space: nowrap;
         font-weight: bold;
       }
-      td:nth-of-type(1):before { content: "S.N."; }
-      td:nth-of-type(2):before { content: "Symbol"; }
-      td:nth-of-type(3):before { content: "Company"; }
-      td:nth-of-type(4):before { content: "Units"; }
-      td:nth-of-type(5):before { content: "Price"; }
-      td:nth-of-type(6):before { content: "Opening Date"; }
-      td:nth-of-type(7):before { content: "Closing Date"; }
-      td:nth-of-type(8):before { content: "Last Closing Date"; }
-      td:nth-of-type(9):before { content: "Listing Date"; }
-      td:nth-of-type(10):before { content: "Issue Manager"; }
-      td:nth-of-type(11):before { content: "Status"; }
-      td:nth-of-type(12):before { content: "View"; }
+      td:nth-of-type(1):before { content: "S.N."; }      
+      td:nth-of-type(2):before { content: "Company"; }
+      td:nth-of-type(3):before { content: "Units"; }
+      td:nth-of-type(4):before { content: "Price"; }
+      td:nth-of-type(5):before { content: "Opening Date"; }
+      td:nth-of-type(6):before { content: "Closing Date"; }
+      td:nth-of-type(7):before { content: "Last Closing Date"; }      
+      td:nth-of-type(8):before { content: "Issue Manager"; }
+      td:nth-of-type(9):before { content: "Status"; }
+      
     }
   </style>
 </head>
@@ -121,7 +119,7 @@
       <th>Opening Date</th>
       <th>Closing Date</th>
       <th>Last Closing Date</th>
-      <th>Listing Date</th>
+     
       <th>Issue Manager</th>
       <th>Status</th>
       
@@ -174,7 +172,7 @@
         <td>${item.openingDate || ''}</td>
         <td>${item.closingDate || ''}</td>
         <td>${item.lastClosingDate || ''}</td>
-        <td>${item.listingDate || ''}</td>
+       
         <td>${item.issueManager || ''}</td>
         <td><span class="${statusClass(item.status)}">${item.status || ''}</span></td>
         
