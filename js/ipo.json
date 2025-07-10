@@ -159,5 +159,19 @@
       "issueManager": "Muktinath Capital Limited",
       "status": "Open"
     }
+  ],
+   "fpo": [
+    {
+      "symbol": "",
+      "company": "Nepal insurance Company Limited",
+      "units": "6,576,967.76",
+      "price": "100.00",
+      "openingDate": "2025-07-22",
+      "closingDate": "2025-08-11",
+      "lastClosingDate": "",
+      "listingDate": "",
+      "issueManager": "NIMB Ace Capital Limited",
+      "status": "Coming Soon"
+    }
   ]
 }
