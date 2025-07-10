@@ -146,6 +146,18 @@
       "listingDate": "",
       "issueManager": "RBB Merchant Banking Limited",
       "status": "Coming Soon"
+    },
+    {
+      "symbol": "",
+      "company": "Asian Life Insurance Company Limited",
+      "units": "14,279,312.48",
+      "price": "100.00",
+      "openingDate": "2025-07-09",
+      "closingDate": "2025-07-29",
+      "lastClosingDate": "",
+      "listingDate": "",
+      "issueManager": "Muktinath Capital Limited",
+      "status": "Open"
     }
   ]
 }
