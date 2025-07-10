@@ -75,6 +75,17 @@
     },
     {
       "symbol": "",
+      "company": "Mabilung Energy Limited",
+      "units": "1890530",
+      "price": "100.00",
+      "openingDate": "Coming Soon",
+      "closingDate": "Coming Soon",
+      "lastClosingDate": "Coming Soon",
+      "listingDate": "Coming Soon",
+      "issueManager": "Laxmi Sunrise Capital Limited",
+      "status": "Coming Soon"
+    },
+    {
       "company": "",
       "units": "",
       "price": "",
@@ -89,7 +100,7 @@
   "rightShare": [
     {
       "symbol": "",
-      "company": "Nepal insurance Company Limited",
+      "company": "Nepal Insurance Company Limited",
       "units": "6,576,967.76",
       "price": "100.00",
       "openingDate": "2025-07-22",
@@ -161,6 +172,42 @@
       "listingDate": "",
       "issueManager": "Citizens Capital Limited",
       "status": "Coming Soon"
+    }
+  ],
+   "mutual": [
+    {
+      "symbol": "",
+      "company": "Citizens Sadabahar Yojana",
+      "units": "50,000,000.00",
+      "price": "10.00",
+      "openingDate": "2025-06-27",
+      "closingDate": "2025-07-11",
+      "lastClosingDate": "2025-07-11",
+      "listingDate": "",
+      "issueManager": "Citizens Capital Limited",
+      "status": "Closed"
+    },
+     {
+      "company": "Global IME Samunnat Yojana -II",
+      "units": "120,000,000.00",
+      "price": "10.00",
+      "openingDate": "2025-07-06",
+      "closingDate": "2025-07-20",
+      "lastClosingDate": "2025-07-20",
+      "listingDate": "",
+      "issueManager": "Global IME Capital Limited",
+      "status": "Open"
+    },
+    {
+      "company": "Prabhu Systematic Investment Scheme",
+      "units": "25,000,000.00",
+      "price": "10.00",
+      "openingDate": "2025-06-06",
+      "closingDate": "2025-06-20",
+      "lastClosingDate": "2025-06-20",
+      "listingDate": "",
+      "issueManager": "Prabhu Capital Limited",
+      "status": "Closed"
     }
   ]
 }
