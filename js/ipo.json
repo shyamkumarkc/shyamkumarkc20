@@ -23,6 +23,18 @@
       "listingDate": "",
       "issueManager": "Himalayan Capital Limited",
       "status": "Coming Soon"
+    },
+    {
+      "symbol": "HSUCL",
+      "company": "Him Star Urja Company Limited",
+      "units": "773,975.00",
+      "price": "100.00",
+      "openingDate": "2025-07-08",
+      "closingDate": "2025-07-11",
+      "lastClosingDate": "2025-07-22",
+      "listingDate": "",
+      "issueManager": "NIC Asia Capital Limited",
+      "status": "Closed"
     }
   ],
   "rightShare": [
