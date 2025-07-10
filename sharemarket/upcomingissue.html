@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Share Offerings Table</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    h1 { text-align: center; }
+
+    .tabs {
+      margin-bottom: 20px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .tab-button {
+      padding: 8px 16px;
+      border: 1px solid #ccc;
+      background-color: #f0f0f0;
+      cursor: pointer;
+      margin-right: 4px;
+    }
+
+    .tab-button.active {
+      background-color: #333;
+      color: #fff;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      overflow-x: auto;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th { background-color: #f4f4f4; }
+
+    .status-open {
+      background-color: #4CAF50;
+      color: white;
+      padding: 4px 8px;
+      border-radius: 4px;
+    }
+
+    .status-closed {
+      background-color: #f44336;
+      color: white;
+      padding: 4px 8px;
+      border-radius: 4px;
+    }
+
+    .status-coming {
+      background-color: #2196F3;
+      color: white;
+      padding: 4px 8px;
+      border-radius: 4px;
+    }
+
+    .view-btn {
+      background-color: #555;
+      color: white;
+      padding: 4px 8px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    @media (max-width: 768px) {
+      table, thead, tbody, th, td, tr { display: block; }
+      td {
+        border: none;
+        border-bottom: 1px solid #ddd;
+        position: relative;
+        padding-left: 50%;
+      }
+      td:before {
+        position: absolute;
+        left: 10px;
+        width: 45%;
+        white-space: nowrap;
+        font-weight: bold;
+      }
+      td:nth-of-type(1):before { content: "S.N."; }
+      td:nth-of-type(2):before { content: "Symbol"; }
+      td:nth-of-type(3):before { content: "Company"; }
+      td:nth-of-type(4):before { content: "Units"; }
+      td:nth-of-type(5):before { content: "Price"; }
+      td:nth-of-type(6):before { content: "Opening Date"; }
+      td:nth-of-type(7):before { content: "Closing Date"; }
+      td:nth-of-type(8):before { content: "Last Closing Date"; }
+      td:nth-of-type(9):before { content: "Listing Date"; }
+      td:nth-of-type(10):before { content: "Issue Manager"; }
+      td:nth-of-type(11):before { content: "Status"; }
+      td:nth-of-type(12):before { content: "View"; }
+    }
+  </style>
+</head>
+<body>
+
+<h1>Share Offerings Table</h1>
+
+<div class="tabs">
+  <button class="tab-button active" data-type="ipo">IPO</button>
+  <button class="tab-button" data-type="rightShare">Right Share</button>
+</div>
+
+<table id="dataTable">
+  <thead>
+    <tr>
+      <th>S.N.</th>
+      <th>Symbol</th>
+      <th>Company</th>
+      <th>Units</th>
+      <th>Price</th>
+      <th>Opening Date</th>
+      <th>Closing Date</th>
+      <th>Last Closing Date</th>
+      <th>Listing Date</th>
+      <th>Issue Manager</th>
+      <th>Status</th>
+      <th>View</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td colspan="12">Loading...</td></tr>
+  </tbody>
+</table>
+
+<script>
+  let allData = {};
+
+  function statusClass(status) {
+    const s = (status || '').toLowerCase();
+    if (s === 'open') return 'status-open';
+    if (s === 'closed') return 'status-closed';
+    if (s.includes('coming')) return 'status-coming';
+    return '';
+  }
+
+  function statusPriority(status) {
+    const s = (status || '').toLowerCase();
+    if (s === 'open') return 1;
+    if (s.includes('coming')) return 2;
+    if (s === 'closed') return 3;
+    return 4;
+  }
+
+  function renderTable(items) {
+    const tbody = document.querySelector('#dataTable tbody');
+    tbody.innerHTML = '';
+
+    if (!items || items.length === 0) {
+      tbody.innerHTML = `<tr><td colspan="12">No data available.</td></tr>`;
+      return;
+    }
+
+    // Sort items by status priority
+    items.sort((a, b) => statusPriority(a.status) - statusPriority(b.status));
+
+    items.forEach((item, index) => {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td>${index + 1}</td>
+        <td>${item.symbol || ''}</td>
+        <td>${item.company || ''}</td>
+        <td>${item.units || ''}</td>
+        <td>${item.price || ''}</td>
+        <td>${item.openingDate || ''}</td>
+        <td>${item.closingDate || ''}</td>
+        <td>${item.lastClosingDate || ''}</td>
+        <td>${item.listingDate || ''}</td>
+        <td>${item.issueManager || ''}</td>
+        <td><span class="${statusClass(item.status)}">${item.status || ''}</span></td>
+        <td><button class="view-btn">View</button></td>
+      `;
+      tbody.appendChild(tr);
+    });
+  }
+
+  function loadAndShow(type) {
+    const tbody = document.querySelector('#dataTable tbody');
+    tbody.innerHTML = `<tr><td colspan="12">Loading...</td></tr>`;
+
+    if (Object.keys(allData).length > 0) {
+      renderTable(allData[type] || []);
+    } else {
+      fetch('https://shyamkumarkc20.com.np/js/ipo.json')
+        .then(res => {
+          if (!res.ok) throw new Error('Network error');
+          return res.json();
+        })
+        .then(json => {
+          allData = json;
+          renderTable(allData[type] || []);
+        })
+        .catch(err => {
+          console.error(err);
+          tbody.innerHTML = `<tr><td colspan="12">Error loading data: ${err.message}</td></tr>`;
+        });
+    }
+  }
+
+  document.querySelectorAll('.tab-button').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.tab-button').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const type = btn.getAttribute('data-type');
+      loadAndShow(type);
+    });
+  });
+
+  // Initial load
+  loadAndShow('ipo');
+</script>
+
+</body>
+</html>
