@@ -72,8 +72,7 @@
       "listingDate": "Coming Soon",
       "issueManager": "Nepal SBI Merchant Banking Limited",
       "status": "Coming Soon"
-    }
-    ,
+    },
     {
       "symbol": "",
       "company": "",
@@ -89,8 +88,8 @@
   ],
   "rightShare": [
     {
-      "symbol": "NRIC",
-      "company": "Nepal Reinsurance Company Limited",
+      "symbol": "",
+      "company": "Nepal insurance Company Limited",
       "units": "5,000,000.00",
       "price": "100.00",
       "openingDate": "2025-06-15",
@@ -110,6 +109,18 @@
       "lastClosingDate": "Coming Soon",
       "listingDate": "",
       "issueManager": "Nabil Investment Banking Limited",
+      "status": "Open"
+    },
+    {
+      "symbol": "",
+      "company": "People's Power Limited",
+      "units": "3,163,000.00	",
+      "price": "100.00",
+      "openingDate": "2025-07-06",
+      "closingDate": "2025-07-27",
+      "lastClosingDate": "",
+      "listingDate": "",
+      "issueManager": "Prabhu Capital Limited",
       "status": "Open"
     }
   ]
