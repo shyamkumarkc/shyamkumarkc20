@@ -103,7 +103,7 @@
 </head>
 <body>
 
-<h1>Share Offerings Table</h1>
+<h1>Upcoming Issue</h1>
 
 <div class="tabs">
   <button class="tab-button active" data-type="ipo">IPO</button>
@@ -124,7 +124,7 @@
       <th>Listing Date</th>
       <th>Issue Manager</th>
       <th>Status</th>
-      <th>View</th>
+      
     </tr>
   </thead>
   <tbody>
@@ -177,7 +177,7 @@
         <td>${item.listingDate || ''}</td>
         <td>${item.issueManager || ''}</td>
         <td><span class="${statusClass(item.status)}">${item.status || ''}</span></td>
-        <td><button class="view-btn">View</button></td>
+        
       `;
       tbody.appendChild(tr);
     });
