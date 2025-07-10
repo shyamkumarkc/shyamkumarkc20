@@ -116,16 +116,15 @@ $('#header').load('/assets/header.html');
 </div>
 
 <table id="dataTable">
-  <thead>
+  <thead >
     <tr>
-      <th>S.N.</th>
-      
-      <th>Company</th>
-      <th>Units</th>
-      <th>Price</th>
-      <th>Opening Date</th>
-      <th>Closing Date</th>
-      <th>Last Closing Date</th>
+      <th class = "gfgpp">S.N.</th>      
+      <th class = "gfgpp">Company</th>
+      <th class = "gfgpp">Units</th>
+      <th class = "gfgpp">Price</th>
+      <th class = "gfgpp">Opening Date</th>
+      <th class = "gfgpp">Closing Date</th>
+      <th class = "gfgpp">Last Closing Date</th>
      
       <th>Issue Manager</th>
       <th>Status</th>
@@ -136,7 +135,13 @@ $('#header').load('/assets/header.html');
     <tr><td colspan="12">Loading...</td></tr>
   </tbody>
 </table>
-
+<script>
+        // CONDITION TO DETECT SYSTEM
+        if (window.navigator.userAgent.indexOf("Mobile") > -1) {
+            // HIDING ELEMENTS
+            $(".gfgpp").hide();
+        }                                          
+    </script>
 <script>
   let allData = {};
 
