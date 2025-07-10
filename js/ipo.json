@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "HSUCL",
+    "company": "Him Star Urja Company Limited",
+    "units": "773,975.00",
+    "price": "100.00",
+    "openingDate": "2025-07-08",
+    "closingDate": "2025-07-11",
+    "lastClosingDate": "2025-07-22",
+    "listingDate": "",
+    "issueManager": "NIC Asia Capital Limited",
+    "status": "Open"
+  },
+  {
+    "symbol": "BHCL",
+    "company": "Bikash Hydropower Company Limited",
+    "units": "2,942,760.00",
+    "price": "100.00",
+    "openingDate": "2025-07-02",
+    "closingDate": "2025-07-06",
+    "lastClosingDate": "2025-07-16",
+    "listingDate": "",
+    "issueManager": "Prabhu Capital Ltd.",
+    "status": "Closed"
+  },
+  {
+    "symbol": "TTL",
+    "company": "Trade Tower Limited",
+    "units": "3,296,505.19",
+    "price": "100.00",
+    "openingDate": "2025-05-28",
+    "closingDate": "2025-06-03",
+    "lastClosingDate": "2025-06-11",
+    "listingDate": "",
+    "issueManager": "LS Capital Limited",
+    "status": "Closed"
+  },
+  {
+    "symbol": "SANVI",
+    "company": "Sanvi Energy Limited",
+    "units": "2,415,300.00",
+    "price": "100.00",
+    "openingDate": "2025-05-23",
+    "closingDate": "2025-05-27",
+    "lastClosingDate": "2025-06-06",
+    "listingDate": "",
+    "issueManager": "Nepal SBI Merchant Banking Limited",
+    "status": "Closed"
+  },
+  {
+    "symbol": "PURE",
+    "company": "Pure Energy Limited",
+    "units": "1,195,200.00",
+    "price": "100.00",
+    "openingDate": "2025-04-10",
+    "closingDate": "2025-04-15",
+    "lastClosingDate": "2025-04-24",
+    "listingDate": "2025-05-26",
+    "issueManager": "Nabil Investment Banking Limited",
+    "status": "Closed"
+  }
+]
