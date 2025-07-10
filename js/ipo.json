@@ -34,7 +34,7 @@
       "lastClosingDate": "Coming Soon",
       "listingDate": "",
       "issueManager": "Nabil Investment Banking Limited",
-      "status": "Open"
+      "status": "Coming Soon"
     },
     
     {
@@ -48,6 +48,43 @@
       "listingDate": "",
       "issueManager": "NIC Asia Capital Limited",
       "status": "Closed"
+    },
+    {
+      "symbol": "",
+      "company": "Reliance Spinning Mills",
+      "units": "1,155,960.00",
+      "price": "100.00",
+      "openingDate": "Coming Soon",
+      "closingDate": "Coming Soon",
+      "lastClosingDate": "Coming Soon",
+      "listingDate": "Coming Soon",
+      "issueManager": "Coming Soon",
+      "status": "Coming Soon"
+    },
+    {
+      "symbol": "",
+      "company": "Bandipur Cable Car and Tourism Limited",
+      "units": "5,860,000.00",
+      "price": "100.00",
+      "openingDate": "Coming Soon",
+      "closingDate": "Coming Soon",
+      "lastClosingDate": "Coming Soon",
+      "listingDate": "Coming Soon",
+      "issueManager": "Coming Soon",
+      "status": "Coming Soon"
+    }
+    ,
+    {
+      "symbol": "",
+      "company": "",
+      "units": "",
+      "price": "",
+      "openingDate": "",
+      "closingDate": "",
+      "lastClosingDate": "",
+      "listingDate": "",
+      "issueManager": "",
+      "status": ""
     }
   ],
   "rightShare": [
