@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Share Offerings Table</title>
+<title>Upcoming Issue</title>
+<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+</script>
+<script>
+$(function(){
+$('#header').load('/assets/header.html');
+});
+</script>
   <style>
     body { font-family: Arial, sans-serif; margin: 20px; }
     h1 { text-align: center; }
@@ -100,7 +106,7 @@
   </style>
 </head>
 <body>
-
+<div id ="header"></div>
 <h1>Upcoming Issue</h1>
 
 <div class="tabs">
@@ -217,5 +223,12 @@
   loadAndShow('ipo');
 </script>
 
+<script>
+	    $(function(){
+$('#footer').load('/assets/footer.html');
+});
+</script>
+</body1>
 </body>
+  <div id ="footer"></div>
 </html>
