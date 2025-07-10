@@ -90,14 +90,14 @@
     {
       "symbol": "",
       "company": "Nepal insurance Company Limited",
-      "units": "5,000,000.00",
+      "units": "6,576,967.76",
       "price": "100.00",
-      "openingDate": "2025-06-15",
-      "closingDate": "2025-06-25",
-      "lastClosingDate": "2025-07-05",
+      "openingDate": "2025-07-22",
+      "closingDate": "2025-08-11",
+      "lastClosingDate": "",
       "listingDate": "",
-      "issueManager": "Global IME Capital Limited",
-      "status": "Open"
+      "issueManager": "NIMB Ace Capital Limited",
+      "status": "Coming Soon"
     },
     {
       "symbol": "SWLBSL",
@@ -114,7 +114,7 @@
     {
       "symbol": "",
       "company": "People's Power Limited",
-      "units": "3,163,000.00	",
+      "units": "3,163,000.00",
       "price": "100.00",
       "openingDate": "2025-07-06",
       "closingDate": "2025-07-27",
@@ -122,6 +122,30 @@
       "listingDate": "",
       "issueManager": "Prabhu Capital Limited",
       "status": "Open"
+    },
+    {
+      "symbol": "",
+      "company": "Chhyangdi Hydropower Company Limited",
+      "units": "3,869,775.00",
+      "price": "100.00",
+      "openingDate": "2025-06-06	",
+      "closingDate": "2025-07-11",
+      "lastClosingDate": "",
+      "listingDate": "",
+      "issueManager": "Global Ime Capital Limited",
+      "status": "Closed"
+    },
+    {
+      "symbol": "",
+      "company": "Barun Hydropower Company Limited",
+      "units": "5,358,150.00",
+      "price": "100",
+      "openingDate": "2025-07-15",
+      "closingDate": "2025-08-04",
+      "lastClosingDate": "",
+      "listingDate": "",
+      "issueManager": "RBB Merchant Banking Limited",
+      "status": "Coming Soon"
     }
   ]
 }
