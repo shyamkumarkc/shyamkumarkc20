@@ -1,327 +1,296 @@
 {
-  "ipo": [
-    {
-      "company": "Him Star Urja Company Limited",
-      "units": "773,975.00",
-      "price": "100.00",
-      "openingDate": "2025-07-08",
-      "closingDate": "2025-07-11",
-      "lastClosingDate": "2025-07-22",
-      "listingDate": "",
-      "issueManager": "NIC Asia Capital Limited",
-      
-    },
-    {
+    "ipo": [
+        {
+            "company": "Him Star Urja Company Limited",
+            "units": "773,975.00",
+            "price": "100.00",
+            "openingDate": "2025-07-08",
+            "closingDate": "2025-07-11",
+            "lastClosingDate": "2025-07-22",
+            "listingDate": "",
+            "issueManager": "NIC Asia Capital Limited"
+        },
+        {
             "company": "Bungal Hydro Limited",
-      "units": "2,905,000.00",
-      "price": "100.00",
-      "openingDate": "Coming Soon",
-      "closingDate": "Coming Soon",
-      "lastClosingDate": "Coming Soon",
-      "listingDate": "",
-      "issueManager": "Himalayan Capital Limited",
-      
-    },
-    {
-      "company": "Swastik Laghubitta Bittiya Sanstha Limited",
-      "units": "195,195.00",
-      "price": "100.00",
-      "openingDate": "Coming Soon",
-      "closingDate": "Coming Soon",
-      "lastClosingDate": "Coming Soon",
-      "listingDate": "",
-      "issueManager": "Nabil Investment Banking Limited",
-      
-    },
-    
-    {
-      "company": "Bikash Hydropower Company Limited",
-      "units": "2,942,760.00",
-      "price": "100.00",
-      "openingDate": "2025-07-02",
-      "closingDate": "2025-07-06",
-      "lastClosingDate": "2025-07-16",
-      "listingDate": "",
-      "issueManager": "Prabhu Capital Limited",
-      
-    },
-    {
-      "company": "Reliance Spinning Mills",
-      "units": "1,155,960.00",
-      "price": "100.00",
-      "openingDate": "Coming Soon",
-      "closingDate": "Coming Soon",
-      "lastClosingDate": "Coming Soon",
-      "listingDate": "Coming Soon",
-      "issueManager": "Global IME Capital Limited",
-      
-    },
-    {
-      "company": "Bandipur Cable Car and Tourism Limited",
-      "units": "5,860,000.00",
-      "price": "100.00",
-      "openingDate": "Coming Soon",
-      "closingDate": "Coming Soon",
-      "lastClosingDate": "Coming Soon",
-      "listingDate": "Coming Soon",
-      "issueManager": "Nepal SBI Merchant Banking Limited",
-      
-    },
-    {
-      "company": "Mabilung Energy Limited",
-      "units": "1890530",
-      "price": "100.00",
-      "openingDate": "Coming Soon",
-      "closingDate": "Coming Soon",
-      "lastClosingDate": "Coming Soon",
-      "listingDate": "Coming Soon",
-      "issueManager": "Laxmi Sunrise Capital Limited",
-      
-    },
-    {
-      "company": "Trade Tower Limited",
-      "units": "3,296,505.19",
-      "price": "100.00",
-      "openingDate": "2025-05-28",
-      "closingDate": "2025-06-03",
-      "lastClosingDate": "2025-06-11",
-      "listingDate": "",
-      "issueManager": "LS Capital Limited",
-      
-    },
-    {
-      "company": "",
-      "units": "",
-      "price": "",
-      "openingDate": "",
-      "closingDate": "",
-      "lastClosingDate": "",
-      "listingDate": "",
-      "issueManager": "",
-      
-    }
-  ],
-  "rightShare": [
-    {
-      "symbol": "",
-      "company": "Nepal Insurance Company Limited",
-      "units": "6,576,967.76",
-      "price": "100.00",
-      "openingDate": "2025-07-22",
-      "closingDate": "2025-08-11",
-      "lastClosingDate": "",
-      "listingDate": "",
-      "issueManager": "NIMB Ace Capital Limited",
-     
-    },
-    
-    {
-      "symbol": "",
-      "company": "People's Power Limited",
-      "units": "3,163,000.00",
-      "price": "100.00",
-      "openingDate": "2025-07-06",
-      "closingDate": "2025-07-27",
-      "lastClosingDate": "",
-      "listingDate": "",
-      "issueManager": "Prabhu Capital Limited",
-     
-    },
-    {
-      "symbol": "",
-      "company": "Chhyangdi Hydropower Company Limited",
-      "units": "3,869,775.00",
-      "price": "100.00",
-      "openingDate": "2025-06-06",
-      "closingDate": "2025-07-11",
-      "lastClosingDate": "",
-      "listingDate": "",
-      "issueManager": "Global Ime Capital Limited",
-      
-    },
-    {
-      "symbol": "",
-      "company": "Barun Hydropower Company Limited",
-      "units": "5,358,150.00",
-      "price": "100.00",
-      "openingDate": "2025-07-15",
-      "closingDate": "2025-08-04",
-      "lastClosingDate": "",
-      "listingDate": "",
-      "issueManager": "RBB Merchant Banking Limited",
-     
-    },
-    {
-      "symbol": "",
-      "company": "Asian Life Insurance Company Limited",
-      "units": "14,279,312.48",
-      "price": "100.00",
-      "openingDate": "2025-07-09",
-      "closingDate": "2025-07-29",
-      "lastClosingDate": "",
-      "listingDate": "",
-      "issueManager": "Muktinath Capital Limited",
-      
-    },
-    {
-      "company": "Joshi Hydropower Development Company Limited",
-      "units": "2,414,100.00",
-      "price": "100.00",
-      "openingDate": "2025-07-31",
-      "closingDate": "2025-08-20",
-      "lastClosingDate": "",
-      "listingDate": "",
-      "issueManager": "LS Capital Limited",
-      
-    },
-    {
-      "company": "Terhathum Power Company Limited",
-      "units": "4,000,000.00",
-      "price": "100.00",
-      "openingDate": "2025-06-30",
-      "closingDate": "2025-07-20",
-      "lastClosingDate": "",
-      "listingDate": "",
-      "issueManager": "Nabil Investment Banking Limited",
-      
-    }
-  ],
-   "fpo": [
-    {
-      "symbol": "",
-      "company": "Himalayan Bank Limited",
-      "units": "9,250,469.00",
-      "price": "157.00",
-      "openingDate": "2025-07-16",
-      "closingDate": "2025-07-20",
-      "lastClosingDate": "2025-07-30",
-      "listingDate": "",
-      "issueManager": "Citizens Capital Limited",
-      
-    }
-  ],
-   "mutual": [
-    {
-      "symbol": "",
-      "company": "Citizens Sadabahar Yojana",
-      "units": "50,000,000.00",
-      "price": "10.00",
-      "openingDate": "2025-06-27",
-      "closingDate": "2025-07-11",
-      "lastClosingDate": "2025-07-11",
-      "listingDate": "",
-      "issueManager": "Citizens Capital Limited",
-      
-    },
-     {
-      "company": "Global IME Samunnat Yojana -II",
-      "units": "120,000,000.00",
-      "price": "10.00",
-      "openingDate": "2025-07-06",
-      "closingDate": "2025-07-11",
-      "lastClosingDate": "2025-07-20",
-      "listingDate": "",
-      "issueManager": "Global IME Capital Limited",
-      
-    },
-    {
-      "company": "Prabhu Systematic Investment Scheme",
-      "units": "25,000,000.00",
-      "price": "10.00",
-      "openingDate": "2025-06-06",
-      "closingDate": "2025-06-20",
-      "lastClosingDate": "2025-06-20",
-      "listingDate": "",
-      "issueManager": "Prabhu Capital Limited",
-     
-    }
-  ],
-  
-  "migrant": [
-    {
-      "symbol": "HSUCL",
-      "company": "Him Star Urja Company Limited",
-      "units": "93,250.00",
-      "price": "100.00",
-      "openingDate": "2025-06-13",
-      "closingDate": "2025-06-27",
-      "lastClosingDate": "2025-06-27",
-      "listingDate": "",
-      "issueManager": "NIC Asia Capital Limited",
-      
-    },
-    {
-      "symbol": "BLHL",
-      "company": "Bungal Hydro Limited",
-      "units": "207,500.00",
-      "price": "100.00",
-      "openingDate": "2025-07-13",
-      "closingDate": "2025-07-27",
-      "lastClosingDate": "2025-07-27",
-      "listingDate": "",
-      "issueManager": "Himalayan Capital Limited",
-      
-    },
-    {
-      "symbol": "",
-      "company": "Swastik Laghubitta Bittiya Sanstha Limited",
-      "units": "23,100.00",
-      "price": "100.00",
-      "openingDate": "2025-07-11",
-      "closingDate": "2025-07-27",
-      "lastClosingDate": "2025-07-27",
-      "listingDate": "",
-      "issueManager": "Nabil Investment Banking Limited",
-     
-    },
-    
-    {
-      "symbol": "HSUCL",
-      "company": "Bikash Hydropower Company Limited",
-      "units": "354,550.00",
-      "price": "100.00",
-      "openingDate": "2025-05-20",
-      "closingDate": "2025-06-03",
-      "lastClosingDate": "2025-06-03",
-      "listingDate": "",
-      "issueManager": "Prabhu Capital Limited",
-      
-    },
-    {
-      "symbol": "",
-      "company": "Reliance Spinning Mills",
-      "units": "1,155,960.00",
-      "price": "100.00",
-      "openingDate": "Coming Soon",
-      "closingDate": "Coming Soon",
-      "lastClosingDate": "Coming Soon",
-      "listingDate": "Coming Soon",
-      "issueManager": "Global IME Capital Limited",
-      
-    },
-    {
-      "symbol": "",
-      "company": "Bandipur Cable Car and Tourism Limited",
-      "units": "5,860,000.00",
-      "price": "100.00",
-      "openingDate": "Coming Soon",
-      "closingDate": "Coming Soon",
-      "lastClosingDate": "Coming Soon",
-      "listingDate": "Coming Soon",
-      "issueManager": "Nepal SBI Merchant Banking Limited",
-     
-    },
-    {
-      "symbol": "",
-      "company": "Mabilung Energy Limited",
-      "units": "150,471.00",
-      "price": "100.00",
-      "openingDate": "2025-07-06",
-      "closingDate": "2025-07-20",
-      "lastClosingDate": "2025-07-20",
-      "listingDate": "2025-07-06",
-      "issueManager": "Laxmi Sunrise Capital Limited",
-      
-    }
-  ]
+            "units": "2,905,000.00",
+            "price": "100.00",
+            "openingDate": "Coming Soon",
+            "closingDate": "Coming Soon",
+            "lastClosingDate": "Coming Soon",
+            "listingDate": "",
+            "issueManager": "Himalayan Capital Limited"
+        },
+        {
+            "company": "Swastik Laghubitta Bittiya Sanstha Limited",
+            "units": "195,195.00",
+            "price": "100.00",
+            "openingDate": "Coming Soon",
+            "closingDate": "Coming Soon",
+            "lastClosingDate": "Coming Soon",
+            "listingDate": "",
+            "issueManager": "Nabil Investment Banking Limited"
+        },
+        {
+            "company": "Bikash Hydropower Company Limited",
+            "units": "2,942,760.00",
+            "price": "100.00",
+            "openingDate": "2025-07-02",
+            "closingDate": "2025-07-06",
+            "lastClosingDate": "2025-07-16",
+            "listingDate": "",
+            "issueManager": "Prabhu Capital Limited"
+        },
+        {
+            "company": "Reliance Spinning Mills",
+            "units": "1,155,960.00",
+            "price": "100.00",
+            "openingDate": "Coming Soon",
+            "closingDate": "Coming Soon",
+            "lastClosingDate": "Coming Soon",
+            "listingDate": "Coming Soon",
+            "issueManager": "Global IME Capital Limited"
+        },
+        {
+            "company": "Bandipur Cable Car and Tourism Limited",
+            "units": "5,860,000.00",
+            "price": "100.00",
+            "openingDate": "Coming Soon",
+            "closingDate": "Coming Soon",
+            "lastClosingDate": "Coming Soon",
+            "listingDate": "Coming Soon",
+            "issueManager": "Nepal SBI Merchant Banking Limited"
+        },
+        {
+            "company": "Mabilung Energy Limited",
+            "units": "1890530",
+            "price": "100.00",
+            "openingDate": "Coming Soon",
+            "closingDate": "Coming Soon",
+            "lastClosingDate": "Coming Soon",
+            "listingDate": "Coming Soon",
+            "issueManager": "Laxmi Sunrise Capital Limited"
+        },
+        {
+            "company": "Trade Tower Limited",
+            "units": "3,296,505.19",
+            "price": "100.00",
+            "openingDate": "2025-05-28",
+            "closingDate": "2025-06-03",
+            "lastClosingDate": "2025-06-11",
+            "listingDate": "",
+            "issueManager": "LS Capital Limited"
+        },
+        {
+            "company": "",
+            "units": "",
+            "price": "",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": ""
+        }
+    ],
+    "rightShare": [
+        {
+            "symbol": "",
+            "company": "Nepal Insurance Company Limited",
+            "units": "6,576,967.76",
+            "price": "100.00",
+            "openingDate": "2025-07-22",
+            "closingDate": "2025-08-11",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "NIMB Ace Capital Limited"
+        },
+        {
+            "symbol": "",
+            "company": "People's Power Limited",
+            "units": "3,163,000.00",
+            "price": "100.00",
+            "openingDate": "2025-07-06",
+            "closingDate": "2025-07-27",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Prabhu Capital Limited"
+        },
+        {
+            "symbol": "",
+            "company": "Chhyangdi Hydropower Company Limited",
+            "units": "3,869,775.00",
+            "price": "100.00",
+            "openingDate": "2025-06-06",
+            "closingDate": "2025-07-11",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Global Ime Capital Limited"
+        },
+        {
+            "symbol": "",
+            "company": "Barun Hydropower Company Limited",
+            "units": "5,358,150.00",
+            "price": "100.00",
+            "openingDate": "2025-07-15",
+            "closingDate": "2025-08-04",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "RBB Merchant Banking Limited"
+        },
+        {
+            "symbol": "",
+            "company": "Asian Life Insurance Company Limited",
+            "units": "14,279,312.48",
+            "price": "100.00",
+            "openingDate": "2025-07-09",
+            "closingDate": "2025-07-29",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Muktinath Capital Limited"
+        },
+        {
+            "company": "Joshi Hydropower Development Company Limited",
+            "units": "2,414,100.00",
+            "price": "100.00",
+            "openingDate": "2025-07-31",
+            "closingDate": "2025-08-20",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "LS Capital Limited"
+        },
+        {
+            "company": "Terhathum Power Company Limited",
+            "units": "4,000,000.00",
+            "price": "100.00",
+            "openingDate": "2025-06-30",
+            "closingDate": "2025-07-20",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Nabil Investment Banking Limited"
+        }
+    ],
+    "fpo": [
+        {
+            "symbol": "",
+            "company": "Himalayan Bank Limited",
+            "units": "9,250,469.00",
+            "price": "157.00",
+            "openingDate": "2025-07-16",
+            "closingDate": "2025-07-20",
+            "lastClosingDate": "2025-07-30",
+            "listingDate": "",
+            "issueManager": "Citizens Capital Limited"
+        }
+    ],
+    "mutual": [
+        {
+            "symbol": "",
+            "company": "Citizens Sadabahar Yojana",
+            "units": "50,000,000.00",
+            "price": "10.00",
+            "openingDate": "2025-06-27",
+            "closingDate": "2025-07-11",
+            "lastClosingDate": "2025-07-11",
+            "listingDate": "",
+            "issueManager": "Citizens Capital Limited"
+        },
+        {
+            "company": "Global IME Samunnat Yojana -II",
+            "units": "120,000,000.00",
+            "price": "10.00",
+            "openingDate": "2025-07-06",
+            "closingDate": "2025-07-11",
+            "lastClosingDate": "2025-07-20",
+            "listingDate": "",
+            "issueManager": "Global IME Capital Limited"
+        },
+        {
+            "company": "Prabhu Systematic Investment Scheme",
+            "units": "25,000,000.00",
+            "price": "10.00",
+            "openingDate": "2025-06-06",
+            "closingDate": "2025-06-20",
+            "lastClosingDate": "2025-06-20",
+            "listingDate": "",
+            "issueManager": "Prabhu Capital Limited"
+        }
+    ],
+    "migrant": [
+        {
+            "symbol": "HSUCL",
+            "company": "Him Star Urja Company Limited",
+            "units": "93,250.00",
+            "price": "100.00",
+            "openingDate": "2025-06-13",
+            "closingDate": "2025-06-27",
+            "lastClosingDate": "2025-06-27",
+            "listingDate": "",
+            "issueManager": "NIC Asia Capital Limited"
+        },
+        {
+            "symbol": "BLHL",
+            "company": "Bungal Hydro Limited",
+            "units": "207,500.00",
+            "price": "100.00",
+            "openingDate": "2025-07-13",
+            "closingDate": "2025-07-27",
+            "lastClosingDate": "2025-07-27",
+            "listingDate": "",
+            "issueManager": "Himalayan Capital Limited"
+        },
+        {
+            "symbol": "",
+            "company": "Swastik Laghubitta Bittiya Sanstha Limited",
+            "units": "23,100.00",
+            "price": "100.00",
+            "openingDate": "2025-07-11",
+            "closingDate": "2025-07-27",
+            "lastClosingDate": "2025-07-27",
+            "listingDate": "",
+            "issueManager": "Nabil Investment Banking Limited"
+        },
+        {
+            "symbol": "HSUCL",
+            "company": "Bikash Hydropower Company Limited",
+            "units": "354,550.00",
+            "price": "100.00",
+            "openingDate": "2025-05-20",
+            "closingDate": "2025-06-03",
+            "lastClosingDate": "2025-06-03",
+            "listingDate": "",
+            "issueManager": "Prabhu Capital Limited"
+        },
+        {
+            "symbol": "",
+            "company": "Reliance Spinning Mills",
+            "units": "1,155,960.00",
+            "price": "100.00",
+            "openingDate": "Coming Soon",
+            "closingDate": "Coming Soon",
+            "lastClosingDate": "Coming Soon",
+            "listingDate": "Coming Soon",
+            "issueManager": "Global IME Capital Limited"
+        },
+        {
+            "symbol": "",
+            "company": "Bandipur Cable Car and Tourism Limited",
+            "units": "5,860,000.00",
+            "price": "100.00",
+            "openingDate": "Coming Soon",
+            "closingDate": "Coming Soon",
+            "lastClosingDate": "Coming Soon",
+            "listingDate": "Coming Soon",
+            "issueManager": "Nepal SBI Merchant Banking Limited"
+        },
+        {
+            "symbol": "",
+            "company": "Mabilung Energy Limited",
+            "units": "150,471.00",
+            "price": "100.00",
+            "openingDate": "2025-07-06",
+            "closingDate": "2025-07-20",
+            "lastClosingDate": "2025-07-20",
+            "listingDate": "2025-07-06",
+            "issueManager": "Laxmi Sunrise Capital Limited"
+        }
+    ]
 }
