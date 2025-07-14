@@ -10,7 +10,7 @@
       "lastClosingDate": "2025-07-22",
       "listingDate": "",
       "issueManager": "NIC Asia Capital Limited",
-      "status": "Open"
+      
     },
     {
       "symbol": "BLHL",
@@ -22,7 +22,7 @@
       "lastClosingDate": "Coming Soon",
       "listingDate": "",
       "issueManager": "Himalayan Capital Limited",
-      "status": "Coming Soon"
+      
     },
     {
       "symbol": "",
@@ -34,7 +34,7 @@
       "lastClosingDate": "Coming Soon",
       "listingDate": "",
       "issueManager": "Nabil Investment Banking Limited",
-      "status": "Coming Soon"
+      
     },
     
     {
@@ -47,7 +47,7 @@
       "lastClosingDate": "2025-07-16",
       "listingDate": "",
       "issueManager": "Prabhu Capital Limited",
-      "status": "Closed"
+      
     },
     {
       "symbol": "",
@@ -59,7 +59,7 @@
       "lastClosingDate": "Coming Soon",
       "listingDate": "Coming Soon",
       "issueManager": "Global IME Capital Limited",
-      "status": "Coming Soon"
+      
     },
     {
       "symbol": "",
@@ -71,7 +71,7 @@
       "lastClosingDate": "Coming Soon",
       "listingDate": "Coming Soon",
       "issueManager": "Nepal SBI Merchant Banking Limited",
-      "status": "Coming Soon"
+      
     },
     {
       "symbol": "",
@@ -83,7 +83,7 @@
       "lastClosingDate": "Coming Soon",
       "listingDate": "Coming Soon",
       "issueManager": "Laxmi Sunrise Capital Limited",
-      "status": "Coming Soon"
+      
     },
     {
       "company": "",
@@ -94,7 +94,7 @@
       "lastClosingDate": "",
       "listingDate": "",
       "issueManager": "",
-      "status": ""
+      
     }
   ],
   "rightShare": [
@@ -108,7 +108,7 @@
       "lastClosingDate": "",
       "listingDate": "",
       "issueManager": "NIMB Ace Capital Limited",
-      "status": "Coming Soon"
+     
     },
     
     {
@@ -121,7 +121,7 @@
       "lastClosingDate": "",
       "listingDate": "",
       "issueManager": "Prabhu Capital Limited",
-      "status": "Open"
+     
     },
     {
       "symbol": "",
@@ -133,7 +133,7 @@
       "lastClosingDate": "",
       "listingDate": "",
       "issueManager": "Global Ime Capital Limited",
-      "status": "Closed"
+      
     },
     {
       "symbol": "",
@@ -145,7 +145,7 @@
       "lastClosingDate": "",
       "listingDate": "",
       "issueManager": "RBB Merchant Banking Limited",
-      "status": "Coming Soon"
+     
     },
     {
       "symbol": "",
@@ -157,7 +157,7 @@
       "lastClosingDate": "",
       "listingDate": "",
       "issueManager": "Muktinath Capital Limited",
-      "status": "Open"
+      
     }
   ],
    "fpo": [
@@ -171,7 +171,7 @@
       "lastClosingDate": "2025-07-30",
       "listingDate": "",
       "issueManager": "Citizens Capital Limited",
-      "status": "Coming Soon"
+      
     }
   ],
    "mutual": [
@@ -185,7 +185,7 @@
       "lastClosingDate": "2025-07-11",
       "listingDate": "",
       "issueManager": "Citizens Capital Limited",
-      "status": "Closed"
+      
     },
      {
       "company": "Global IME Samunnat Yojana -II",
@@ -196,7 +196,7 @@
       "lastClosingDate": "2025-07-20",
       "listingDate": "",
       "issueManager": "Global IME Capital Limited",
-      "status": "Open"
+      
     },
     {
       "company": "Prabhu Systematic Investment Scheme",
@@ -207,7 +207,7 @@
       "lastClosingDate": "2025-06-20",
       "listingDate": "",
       "issueManager": "Prabhu Capital Limited",
-      "status": "Closed"
+     
     }
   ],
   
@@ -222,7 +222,7 @@
       "lastClosingDate": "2025-06-27",
       "listingDate": "",
       "issueManager": "NIC Asia Capital Limited",
-      "status": "Closed"
+      
     },
     {
       "symbol": "BLHL",
@@ -234,7 +234,7 @@
       "lastClosingDate": "2025-07-27",
       "listingDate": "",
       "issueManager": "Himalayan Capital Limited",
-      "status": "Coming Soon"
+      
     },
     {
       "symbol": "",
@@ -246,7 +246,7 @@
       "lastClosingDate": "2025-07-27",
       "listingDate": "",
       "issueManager": "Nabil Investment Banking Limited",
-      "status": "Coming Soon"
+     
     },
     
     {
@@ -259,7 +259,7 @@
       "lastClosingDate": "2025-06-03",
       "listingDate": "",
       "issueManager": "Prabhu Capital Limited",
-      "status": "Closed"
+      
     },
     {
       "symbol": "",
@@ -271,7 +271,7 @@
       "lastClosingDate": "Coming Soon",
       "listingDate": "Coming Soon",
       "issueManager": "Global IME Capital Limited",
-      "status": "Coming Soon"
+      
     },
     {
       "symbol": "",
@@ -283,7 +283,7 @@
       "lastClosingDate": "Coming Soon",
       "listingDate": "Coming Soon",
       "issueManager": "Nepal SBI Merchant Banking Limited",
-      "status": "Coming Soon"
+     
     },
     {
       "symbol": "",
@@ -295,7 +295,7 @@
       "lastClosingDate": "2025-07-20",
       "listingDate": "2025-07-06",
       "issueManager": "Laxmi Sunrise Capital Limited",
-      "status": "Open"
+      
     }
   ]
 }
