@@ -1,7 +1,6 @@
 {
   "ipo": [
     {
-      "symbol": "HSUCL",
       "company": "Him Star Urja Company Limited",
       "units": "773,975.00",
       "price": "100.00",
@@ -13,8 +12,7 @@
       
     },
     {
-      "symbol": "BLHL",
-      "company": "Bungal Hydro Limited",
+            "company": "Bungal Hydro Limited",
       "units": "2,905,000.00",
       "price": "100.00",
       "openingDate": "Coming Soon",
@@ -25,7 +23,6 @@
       
     },
     {
-      "symbol": "",
       "company": "Swastik Laghubitta Bittiya Sanstha Limited",
       "units": "195,195.00",
       "price": "100.00",
@@ -38,7 +35,6 @@
     },
     
     {
-      "symbol": "HSUCL",
       "company": "Bikash Hydropower Company Limited",
       "units": "2,942,760.00",
       "price": "100.00",
@@ -50,7 +46,6 @@
       
     },
     {
-      "symbol": "",
       "company": "Reliance Spinning Mills",
       "units": "1,155,960.00",
       "price": "100.00",
@@ -62,7 +57,6 @@
       
     },
     {
-      "symbol": "",
       "company": "Bandipur Cable Car and Tourism Limited",
       "units": "5,860,000.00",
       "price": "100.00",
@@ -74,7 +68,6 @@
       
     },
     {
-      "symbol": "",
       "company": "Mabilung Energy Limited",
       "units": "1890530",
       "price": "100.00",
@@ -85,6 +78,17 @@
       "issueManager": "Laxmi Sunrise Capital Limited",
       
     },
+    {
+      "company": "Trade Tower Limited",
+      "units": "3,296,505.19",
+      "price": "100.00",
+      "openingDate": "2025-05-28",
+      "closingDate": "2025-06-03",
+      "lastClosingDate": "2025-06-11",
+      "listingDate": "",
+      "issueManager": "LS Capital Limited",
+      
+    }
     {
       "company": "",
       "units": "",
