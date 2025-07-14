@@ -175,8 +175,8 @@ $(function(){
     opening.setHours(0, 0, 0, 0);
     closing.setHours(0, 0, 0, 0);
 
-    if (today < opening) return 'coming soon';
-    if (today >= opening && today <= closing) return 'open';
+    if (today < opening) return 'Coming Soon';
+    if (today >= opening && today <= closing) return 'Open';
     if (today > closing) return 'closed';
     return 'Coming Soon';
   }
