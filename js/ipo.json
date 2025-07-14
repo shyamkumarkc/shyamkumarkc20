@@ -183,7 +183,7 @@
     ],
     "mutual": [
         {
-               "company": "Citizens Sadabahar Yojana",
+            "company": "Citizens Sadabahar Yojana",
             "units": "50,000,000.00",
             "price": "10.00",
             "openingDate": "2025-06-27",
@@ -294,7 +294,7 @@
     ],
     "debenture": [
         {
-             "company": "8% Shine Resunga Debenture	",
+            "company": "8% Shine Resunga Debenture",
             "units": "1,000,000.00",
             "price": "1000.00",
             "openingDate": "22025-07-16",
@@ -303,8 +303,8 @@
             "listingDate": "",
             "issueManager": "NIMB Ace Capital Limited"
         },
-         {
-             "company": "7% Nepal SBI Bank Debenture 2090",
+        {
+            "company": "7% Nepal SBI Bank Debenture 2090",
             "units": "3,000,000.00",
             "price": "1000.00",
             "openingDate": "2025-07-14",
@@ -313,8 +313,8 @@
             "listingDate": "",
             "issueManager": "Nabil Investment Banking Limited"
         },
-         {
-             "company": "	7.25% SBL Debenture 2091",
+        {
+            "company": "7.25% SBL Debenture 2091",
             "units": "2,500,000.00",
             "price": "1000.00",
             "openingDate": "2025-07-13",
