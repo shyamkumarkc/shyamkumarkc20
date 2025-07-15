@@ -263,7 +263,15 @@
             "lastClosingDate": " ",
             "issueManager": "NIMB Ace Capital Limited"
         },
-        
+        {
+            "company": "Protective Micro Insurance Company Limited",
+            "units": "2,250,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "NIMB Ace Capital Limited"
+        },
         {
             "company": "Star Micro Insurance Company Limited",
             "units": "2,250,000.00",
@@ -276,7 +284,7 @@
         {
             "company": "Ambe Steels Limited",
             "units": "11,192,727.00",
-            "price": "100.00",
+            "price": "303.00",
             "openingDate": " ",
             "closingDate": " ",
             "lastClosingDate": " ",
@@ -330,21 +338,13 @@
         {
             "company": "Kailash Helicopter Services Limited",
             "units": "350,000.00",
-            "price": "100.00",
+            "price": "327.00",
             "openingDate": " ",
             "closingDate": " ",
             "lastClosingDate": " ",
             "issueManager": "Muktinath Capital Limited"
         },
-        {
-            "company": "Business Interest Group of Industries Limited",
-            "units": "4,500,000.00",
-            "price": "100.00",
-            "openingDate": " ",
-            "closingDate": " ",
-            "lastClosingDate": " ",
-            "issueManager": "Kumari Capital Limited"
-        },
+        
         {
             "company": "Shree Distillery Limited",
             "units": "960 000.00",
@@ -364,7 +364,7 @@
             "issueManager": "Nepal SBI Merchant Banking Limited"
         },
         {
-            "company": "Palpa Cements Industries Private Limited",
+            "company": "Palpa Cements Industries Limited",
             "units": "7 500 000.00",
             "price": "100.00",
             "openingDate": " ",
@@ -474,7 +474,7 @@
         {
             "company": "Chhaya Devi Complex Limited",
             "units": "1 437 500.00",
-            "price": "100.00",
+            "price": "400.00",
             "openingDate": " ",
             "closingDate": " ",
             "lastClosingDate": " ",
@@ -679,8 +679,8 @@
             "issueManager": "Nabil Investment Banking Limited"
         },
         {
-            "company": "Hospital For Advanced Medicine & Surgery Limited",
-            "units": "1 125 000.00",
+            "company": "Sagar Distillery Limited",
+            "units": "1,452,000.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -887,6 +887,146 @@
             "issueManager": "Global IME Capital Limited"
         },
         {
+            "company": "Lower Mid Rawa Khola Hydropower Project Limited",
+            "units": "1,000,000",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "RBB Merchant Banking Limited"
+        },
+        {
+            "company": "Tenax Hydro Holdings Limited,",
+            "units": "",
+            "price": "",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Muktinath Capital Limited"
+        },
+		{
+            "company": "Simrik Air Limited",
+            "units": "",
+            "price": "",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": ""
+        },
+		{
+            "company": "Hotel Garima Limited",
+            "units": "",
+            "price": "",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "NIMB Ace Capital Limited"
+        },
+		{
+            "company": "Supreme Health Care Limited",
+            "units": "1,250,000",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Global IME Capital Limited"
+        },
+		{
+            "company": " Paicho Pasal Limited",
+            "units": "",
+            "price": "",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "NIC ASIA Capital Limited"
+        },
+		{
+            "company": "Nepal Tea Development Corporation Limited (NTDC)",
+            "units": "600,000",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "NMB Capital Limited"
+        },
+		{
+            "company": "Hotel Sarathi Limited",
+            "units": "1,500,000",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": " Citizens Capital Limited "
+        },
+		{
+            "company": "Shreenagar Agritech Industries Limited",
+            "units": "3,262,500",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Nabil Investment Banking Limited"
+        },
+		{
+            "company": "HAMS Hospital",
+            "units": "1,125,000",
+            "price": "288.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Muktinath Capital Limited"
+        },
+		{
+            "company": "Riddhisiddhi Cement Limited",
+            "units": "12,171,500 ",
+            "price": "214.10",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "NIMB Ace Capital Limited"
+        },
+		{
+            "company": "Bhugarva Cement Limited",
+            "units": "1,262,500",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": " Nabil Investment Banking Limited"
+        },
+		{
+            "company": "Laxmi Technoplast Limited",
+            "units": "1,000,000",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Nepal SBI Merchant Banking Limited"
+        },
+		{
+            "company": "Shreenagar Agritech Industries Limited",
+            "units": "  3,262,500.00",
+            "price": "",
+            "openingDate": "100.00",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Nabil Investment Banking Limited"
+        },
+        {
             "company": "",
             "units": "",
             "price": "",
@@ -895,6 +1035,16 @@
             "lastClosingDate": "",
             "listingDate": "",
             "issueManager": ""
+        },
+		{
+            "company": "North Summit Hydro Limited ",
+            "units": "38,40,000",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Machhapuchchhre Capital Limited"
         }
     ],
     "rightShare": [
@@ -976,7 +1126,7 @@
     ],
     "fpo": [
         {
-            "symbol": "",
+           
             "company": "Himalayan Bank Limited",
             "units": "9,250,469.00",
             "price": "157.00",
@@ -985,6 +1135,16 @@
             "lastClosingDate": "2025-07-30",
             "listingDate": "",
             "issueManager": "Citizens Capital Limited"
+        },
+        {
+            "company": "Matribhumi Laghubitta Bittiya Sanstha Limited",
+            "units": "1,149,982.598",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Muktinath Capital Limited"
         }
     ],
     "mutual": [
