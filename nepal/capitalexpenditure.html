@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Capital Expenditure</title>
+  <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+  <style>
+    table {
+      width: 50%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: center;
+    }
+    th {
+      background-color: #4CAF50;
+      color: white;
+    }
+    select {
+      margin: 10px 0;
+      padding: 6px 10px;
+    }
+  </style>
+</head>
+<body>
+  <div id="header"></div>
+
+  <h2>Capital Expenditure in Nepal</h2>
+
+  <label for="yearSelect"><strong>Fiscal Year:</strong></label>
+  <select id="yearSelect">
+   
+    <option value="cexpenditure81/82">2081/2082</option>
+	<option value="cexpenditure80/81">2080/2081</option>
+	<option value="cexpenditure79/80">2079/2080</option>
+	<option value="cexpenditure78/79">2078/2079</option>
+   
+  </select>
+
+  <canvas id="InflationChart" style="width:100%;max-width:600px;height:500px"></canvas>
+
+  <h3 id="dataTitle">Capital Expenditure in Nepal: Fiscal Year 2081/2082</h3>
+
+  <table id="data-table">
+    <thead>
+      <tr>
+        <th>S No</th>
+        <th>Month</th>
+        <th>Capital Expenditure in Billions</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <div id="footer"></div>
+
+  <script>
+    let chart;
+    let fullData;
+
+    // Load data from JSON
+    function loadData(expenditureKey) {
+      fetch("https://shyamkumarkc20.com.np/js/economy.json")
+        .then(response => response.json())
+        .then(data => {
+          fullData = data;
+          updateChartAndTable(expenditureKey);
+        })
+        .catch(error => console.error("Error fetching data:", error));
+    }
+
+    // Update chart and table based on selected year
+    function updateChartAndTable(expenditureKey) {
+      const expenditure = fullData[expenditureKey];
+      const months = fullData.months;
+      const colors = fullData.colors;
+      const sno = fullData.sno;
+
+      // Create or update Chart
+      const ctx = document.getElementById("InflationChart").getContext('2d');
+      if (chart) chart.destroy();
+      chart = new Chart(ctx, {
+        type: "bar",
+        data: {
+          labels: months,
+          datasets: [{
+            backgroundColor: colors,
+            data: expenditure
+          }]
+        },
+        options: {
+          legend: { display: false }
+        }
+      });
+
+      // Update table data
+      const tableBody = document.querySelector("#data-table tbody");
+      tableBody.innerHTML = "";
+      months.forEach((month, index) => {
+        let value = expenditure[index] !== undefined ? expenditure[index] : "-";
+        const row = `<tr>
+          <td>${sno[index]}</td>
+          <td>${month}</td>
+          <td>${value}</td>
+        </tr>`;
+        tableBody.innerHTML += row;
+      });
+
+      // Update year title
+      const yearMap = {
+        "cexpenditure81/82": "2081/2082",
+        "cexpenditure80/81": "2080/2081",
+		"cexpenditure79/80": "2079/2080",
+		"cexpenditure78/79": "2078/2079"
+      };
+      const selectedYear = yearMap[remittanceKey] || "Unknown Year";
+      document.getElementById("dataTitle").innerText = `Capital Expenditure in Nepal: Fiscal Year ${selectedYear}`;
+    }
+
+    // Initial load and event binding
+    document.addEventListener("DOMContentLoaded", () => {
+      loadData("cexpenditure81/82");
+
+      document.getElementById("yearSelect").addEventListener("change", function () {
+        updateChartAndTable(this.value);
+      });
+
+      $('#header').load('/assets/header.html');
+      $('#footer').load('/assets/footer.html');
+    });
+  </script>
+</body>
+</html>
