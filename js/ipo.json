@@ -30,6 +30,15 @@
             "listingDate": "",
             "issueManager": "Nabil Investment Banking Limited"
         },
+		{
+            "company": "Jhapa Energy Limited",
+            "units": "950 475.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Himalayan Capital Limited"
+        },
         {
             "company": "Bikash Hydropower Company Limited",
             "units": "2,942,760.00",
@@ -435,15 +444,7 @@
             "lastClosingDate": " ",
             "issueManager": "Sanima Capital Limited"
         },
-        {
-            "company": "Jhapa Energy Limited",
-            "units": "950 475.00",
-            "price": "100.00",
-            "openingDate": " ",
-            "closingDate": " ",
-            "lastClosingDate": " ",
-            "issueManager": "Himalayan Capital Limited"
-        },
+        
         {
             "company": "Kailash Helicopter Services Limited",
             "units": "350 000.00",
@@ -1019,8 +1020,8 @@
 		{
             "company": "Shreenagar Agritech Industries Limited",
             "units": "  3,262,500.00",
-            "price": "",
-            "openingDate": "100.00",
+            "price": "100.00",
+            "openingDate": "",
             "closingDate": "",
             "lastClosingDate": "",
             "listingDate": "",
@@ -1190,6 +1191,15 @@
             "lastClosingDate": "2025-06-27",
             "listingDate": "",
             "issueManager": "NIC Asia Capital Limited"
+        },
+		{
+            "company": "Jhapa Energy Limited",
+            "units": "950 47.50",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Himalayan Capital Limited"
         },
         {
             "symbol": "BLHL",
