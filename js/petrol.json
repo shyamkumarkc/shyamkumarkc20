@@ -11,42 +11,42 @@
     ],
     "Pokhara": [
         {
-            "petrol": "1",
-            "diesel": "1",
-            "kerosene": "1",
-            "aviation": "1",
-            "aviationjet": "1",
-            "gas": "1"
+            "petrol": "160.0",
+            "diesel": "148.0",
+            "kerosene": "148.0",
+            "aviation": "782.0",
+            "aviationjet": "125.0",
+            "gas": "1910.00"
         }
     ],
     "Surkhet": [
         {
-            "petrol": "1",
-            "diesel": "1",
-            "kerosene": "1",
-            "aviation": "1",
-            "aviationjet": "1",
-            "gas": "1"
+            "petrol": "159.5",
+            "diesel": "147.0",
+            "kerosene": "147.0",
+            "aviation": "952.0",
+            "aviationjet": "125.0",
+            "gas": "1910.0"
         }
     ],
     "Kathmandu": [
         {
-            "petrol": "1",
-            "diesel": "1",
-            "kerosene": "1",
-            "aviation": "1",
-            "aviationjet": "1",
-            "gas": "1"
+            "petrol": "160.0",
+            "diesel": "148.0",
+            "kerosene": "148.0",
+            "aviation": "952.0",
+            "aviationjet": "125.0",
+            "gas": "1910.0"
         }
     ],
     "Charali": [
         {
-            "petrol": "1",
-            "diesel": "1",
-            "kerosene": "1",
-            "aviation": "1",
-            "aviationjet": "1",
-            "gas": "1"
+            "petrol": "157.5",
+            "diesel": "145.5",
+            "kerosene": "145.5",
+            "aviation": "952.0",
+            "aviationjet": "125.0",
+            "gas": "1910.0"
         }
     ]
 }
