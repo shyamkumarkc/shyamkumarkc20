@@ -1,12 +1,12 @@
 {
     "Dipayal": [
         {
-            "petrol": "1",
-            "diesel": "1",
-            "kerosene": "1",
-            "aviation": "1",
-            "aviationjet": "1",
-            "gas": "1"
+            "petrol": "160.0",
+            "diesel": "148.0",
+            "kerosene": "148.0",
+            "aviation": "952.0",
+            "aviationjet": "125.0",
+            "gas": "1910.0"
         }
     ],
     "Pokhara": [
