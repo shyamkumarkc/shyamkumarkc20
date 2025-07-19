@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Right Share Adjustment Calculator</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0fdf4;
+      margin: 0;
+      padding: 40px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      background: white;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      padding: 30px;
+      border-radius: 8px;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    h2 span {
+      color: #2e7d32; /* dark green */
+    }
+
+    hr {
+      border: none;
+      height: 2px;
+      background-color: #81c784; /* light green */
+      margin-bottom: 25px;
+    }
+
+    .form-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .left, .right {
+      flex: 1;
+      min-width: 250px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+
+    input[type="number"],
+    select {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    select {
+      background-color: #e0e0e0;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    button {
+      padding: 10px 18px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .btn-calculate {
+      background-color: #66bb6a;
+      color: white;
+      border: 2px solid #2e7d32;
+    }
+
+    .btn-calculate:hover {
+      background-color: #4caf50;
+    }
+
+    .btn-clear {
+      background-color: #a5d6a7;
+      color: black;
+    }
+
+    .btn-clear:hover {
+      background-color: #81c784;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    th, td {
+      padding: 10px;
+      border: 1px solid #ddd;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f3f3f3;
+    }
+
+    td.bold {
+      font-weight: bold;
+      color: #2e7d32;
+    }
+
+    @media (max-width: 600px) {
+      .form-grid {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Right Share Adjustment <span>Calculator</span></h2>
+    <hr />
+    <div class="form-grid">
+      <div class="left">
+        <label for="marketPrice">Market Price (Before Book Closure)</label>
+        <input type="number" id="marketPrice" placeholder="e.g. 100" />
+
+        <label for="rightPercent">% of Right Share</label>
+        <input type="number" id="rightPercent" placeholder="e.g. 100" />
+
+        <label for="rightPrice">Paid-up Value per Share</label>
+        <select id="rightPrice">
+          <option value="10">10</option>
+          <option value="50">50</option>
+          <option value="100" selected>100</option>
+        </select>
+
+        <div class="buttons">
+          <button class="btn-calculate" onclick="calculateRight()">Calculate</button>
+          <button class="btn-clear" onclick="clearFields()">Clear</button>
+        </div>
+      </div>
+
+      <div class="right">
+        <strong>Details:</strong>
+        <table>
+          <tr>
+            <td>Market Price (Before Book Closure)</td>
+            <td id="outMarketPrice">-</td>
+          </tr>
+          <tr>
+            <td>% of Right Share</td>
+            <td id="outRightPercent">-</td>
+          </tr>
+          <tr>
+            <td>Paid-up Value per Share</td>
+            <td id="outRightPrice">-</td>
+          </tr>
+          <tr>
+            <td><strong>Market Price after Right Adjustment</strong></td>
+            <td class="bold" id="outAdjustedPrice">-</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function calculateRight() {
+      const marketPrice = parseFloat(document.getElementById('marketPrice').value);
+      const rightPercent = parseFloat(document.getElementById('rightPercent').value);
+      const rightPrice = parseFloat(document.getElementById('rightPrice').value);
+
+      if (
+        isNaN(marketPrice) || isNaN(rightPercent) || isNaN(rightPrice) ||
+        marketPrice <= 0 || rightPercent < 0 || rightPrice < 0
+      ) {
+        alert("Please enter valid positive values.");
+        return;
+      }
+
+      const adjustedPrice =
+        (marketPrice + (rightPrice * rightPercent / 100)) / (1 + rightPercent / 100);
+
+      document.getElementById('outMarketPrice').innerText = marketPrice.toFixed(2);
+      document.getElementById('outRightPercent').innerText = rightPercent.toFixed(2) + "%";
+      document.getElementById('outRightPrice').innerText = rightPrice.toFixed(2);
+      document.getElementById('outAdjustedPrice').innerText = adjustedPrice.toFixed(2);
+    }
+
+    function clearFields() {
+      document.getElementById('marketPrice').value = '';
+      document.getElementById('rightPercent').value = '';
+      document.getElementById('rightPrice').value = '100';
+      document.getElementById('outMarketPrice').innerText = '-';
+      document.getElementById('outRightPercent').innerText = '-';
+      document.getElementById('outRightPrice').innerText = '-';
+      document.getElementById('outAdjustedPrice').innerText = '-';
+    }
+  </script>
+</body>
+</html>
