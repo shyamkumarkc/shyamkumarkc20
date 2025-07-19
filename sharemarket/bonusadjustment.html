@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+  <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+</script>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
   <title>Bonus Share Adjustment Calculator</title>
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      
       background-color: #f0fdf4;
       margin: 0;
       padding: 40px;
@@ -124,7 +126,15 @@
       }
     }
   </style>
+
+<script>
+$(function(){
+$('#header').load('/assets/header.html');
+});
+</script>
+
 </head>
+	<div id ="header"></div>
 <body>
   <div class="container">
     <h2>Bonus Share Adjustment <span>Calculator</span></h2>
@@ -144,7 +154,7 @@
       </div>
 
       <div class="right">
-        <strong>Details:</strong>
+        <strong>Calculation:</strong>
         <table>
           <tr>
             <td>Market Price (Before Book Closure)</td>
@@ -187,5 +197,12 @@
       document.getElementById('outAdjustedPrice').innerText = '-';
     }
   </script>
+<script>
+	    $(function(){
+$('#footer').load('/assets/footer.html');
+});
+</script>
+
 </body>
+  <div id ="footer"></div>
 </html>
