@@ -1093,6 +1093,26 @@
             "listingDate": "",
             "issueManager": "RBB Merchant Banking Limited"
         },
+		{
+            "company": "City Hotel Limited",
+            "units": "133,92,000",
+            "price": "100",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Prabhu Capital Limited"
+        },
+		{
+            "company": "Shiva Shree Hydropower Limited",
+            "units": "14,764,000",
+            "price": "100",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Citizens Capital Limited"
+        },
         {
             "symbol": "",
             "company": "Asian Life Insurance Company Limited",
@@ -1113,6 +1133,46 @@
             "lastClosingDate": "",
             "listingDate": "",
             "issueManager": "LS Capital Limited"
+        },
+		{
+            "company": "Sagarmatha Jalbidhyut Company Limited (SMJC)",
+            "units": "11,732,000",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "NMB Capital Limited"
+        },
+		{
+            "company": "Vision Energy & Power Limited",
+            "units": "83,00,000",
+            "price": "100",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "NIMB Ace Capital Limited"
+        },
+		{
+            "company": "White Lotus Power Company",
+            "units": "12,19,000",
+            "price": "100",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Nepal SBI Merchant Banking Limited"
+        },
+		{
+            "company": "",
+            "units": "",
+            "price": "",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": ""
         },
         {
             "company": "Terhathum Power Company Limited",
@@ -1298,6 +1358,16 @@
             "lastClosingDate": "2025-07-27",
             "listingDate": "",
             "issueManager": "NMB Capital Limited"
+        },
+		{
+            "company": "4% Agricultural Bond",
+            "units": "1,20,00,000.00",
+            "price": "1000.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": ""
         },
         {
             "company": "7% Nabil Debenture 2089",
