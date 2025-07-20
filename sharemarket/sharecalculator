@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>NEPSE Share Buy Calculator</title>
+  <title>NEPSE Share Calculator</title>
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
@@ -12,7 +12,7 @@
     }
 
     .container {
-      max-width: 600px;
+      max-width: 750px;
       margin: auto;
       background: #fff;
       padding: 20px;
@@ -21,71 +21,165 @@
     }
 
     h2 {
-      text-align: center;
-      color: #2c3e50;
       margin-bottom: 20px;
+      border-bottom: 2px solid orange;
+      display: inline-block;
+      font-size: 24px;
+    }
+
+    h2 span {
+      color: orange;
+    }
+
+    .tabs {
+      margin-bottom: 20px;
+    }
+
+    .tabs button {
+      padding: 10px 20px;
+      margin-right: 10px;
+      border: none;
+      cursor: pointer;
+      background: #eee;
+      border-radius: 5px 5px 0 0;
+      font-weight: bold;
+    }
+
+    .tabs button.active {
+      background: orange;
+      color: black;
+      border-bottom: 2px solid white;
+    }
+
+    .tab-content {
+      display: none;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    .form-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .form-group {
+      flex: 1;
+      min-width: 200px;
     }
 
     label {
       font-weight: bold;
-      margin-top: 10px;
       display: block;
+      margin-bottom: 5px;
     }
 
-    input {
-      width: 100%;
-      padding: 8px;
-      margin-top: 5px;
-      margin-bottom: 15px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-
-    button {
+    input[type="number"] {
       width: 100%;
       padding: 10px;
-      background: #3498db;
-      color: white;
-      border: none;
       border-radius: 5px;
-      font-size: 16px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+
+    .buttons {
+      margin-top: 20px;
+    }
+
+    .calc-btn {
+      background: orange;
+      color: black;
+      border: 2px solid black;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-weight: bold;
       cursor: pointer;
     }
 
-    button:hover {
-      background: #2980b9;
+    .calc-btn:hover {
+      background: #e68a00;
     }
 
     .result {
-      margin-top: 20px;
+      margin-top: 30px;
+      padding: 20px;
+      background: #f1f1f1;
+      border-radius: 10px;
       font-weight: bold;
-      background: #ecf0f1;
-      padding: 15px;
-      border-radius: 8px;
     }
 
     .result p {
       margin: 5px 0;
+    }
+
+    @media (max-width: 600px) {
+      .form-row {
+        flex-direction: column;
+      }
     }
   </style>
 </head>
 <body>
 
   <div class="container">
-    <h2>NEPSE Share Buy Calculator</h2>
-    
-    <label for="quantity">Quantity</label>
-    <input type="number" id="quantity" placeholder="Enter number of shares" />
+    <h2>Share <span>Calculator</span></h2>
 
-    <label for="rate">Rate per Share (Rs.)</label>
-    <input type="number" id="rate" placeholder="Enter rate per share" />
+    <div class="tabs">
+      <button class="active" onclick="showTab('buy')">Buy</button>
+      <button onclick="showTab('sell')">Sell</button>
+    </div>
 
-    <button onclick="calculate()">Calculate</button>
+    <!-- Buy Calculator -->
+    <div id="buy" class="tab-content active">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="buyQty">Quantity</label>
+          <input type="number" id="buyQty" placeholder="Enter number of shares">
+        </div>
+        <div class="form-group">
+          <label for="buyRate">Rate per Share (Rs.)</label>
+          <input type="number" id="buyRate" placeholder="Enter rate per share">
+        </div>
+      </div>
+      <div class="buttons">
+        <button class="calc-btn" onclick="calculateBuy()">Calculate</button>
+      </div>
+      <div class="result" id="buyResult" style="display:none;"></div>
+    </div>
 
-    <div class="result" id="result" style="display:none;"></div>
+    <!-- Sell Calculator -->
+    <div id="sell" class="tab-content">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="sellQty">Quantity</label>
+          <input type="number" id="sellQty" placeholder="Enter number of shares">
+        </div>
+        <div class="form-group">
+          <label for="sellRate">Rate per Share (Rs.)</label>
+          <input type="number" id="sellRate" placeholder="Enter selling rate per share">
+        </div>
+        <div class="form-group">
+          <label for="buyPrice">Buy Price per Share (for CGT)</label>
+          <input type="number" id="buyPrice" placeholder="Enter your buy price per share">
+        </div>
+      </div>
+      <div class="buttons">
+        <button class="calc-btn" onclick="calculateSell()">Calculate</button>
+      </div>
+      <div class="result" id="sellResult" style="display:none;"></div>
+    </div>
   </div>
 
   <script>
+    function showTab(tabId) {
+      document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+      document.querySelectorAll('.tabs button').forEach(b => b.classList.remove('active'));
+      document.getElementById(tabId).classList.add('active');
+      event.target.classList.add('active');
+    }
+
     function getBrokerCommissionRate(amount) {
       if (amount <= 50000) return 0.0036;
       if (amount <= 500000) return 0.0033;
@@ -94,35 +188,62 @@
       return 0.0024;
     }
 
-    function calculate() {
-      const qty = parseFloat(document.getElementById("quantity").value);
-      const rate = parseFloat(document.getElementById("rate").value);
+    function calculateBuy() {
+      const qty = parseFloat(document.getElementById("buyQty").value);
+      const rate = parseFloat(document.getElementById("buyRate").value);
 
       if (!qty || !rate || qty <= 0 || rate <= 0) {
-        alert("Please enter valid quantity and rate.");
+        alert("Enter valid quantity and rate.");
         return;
       }
 
-      const grossAmount = qty * rate;
-      const commissionRate = getBrokerCommissionRate(grossAmount);
-      const brokerCommission = grossAmount * commissionRate;
+      const gross = qty * rate;
+      const commRate = getBrokerCommissionRate(gross);
+      const commission = gross * commRate;
+      const sebon = gross * 0.00015;
+      const dp = 25;
+      const total = gross + commission + sebon + dp;
 
-      const sebonFee = grossAmount * 0.00015; // 0.015%
-      const dpCharge = 25; // flat
-
-      const total = grossAmount + brokerCommission + sebonFee + dpCharge;
-
-      const result = `
-        <p>Gross Amount: Rs. ${grossAmount.toFixed(2)}</p>
-        <p>Broker Commission (${(commissionRate * 100).toFixed(2)}%): Rs. ${brokerCommission.toFixed(2)}</p>
-        <p>SEBON Fee (0.015%): Rs. ${sebonFee.toFixed(2)}</p>
-        <p>DP Charge: Rs. ${dpCharge.toFixed(2)}</p>
+      document.getElementById("buyResult").innerHTML = `
+        <p>Gross Amount: Rs. ${gross.toFixed(2)}</p>
+        <p>Broker Commission (${(commRate * 100).toFixed(2)}%): Rs. ${commission.toFixed(2)}</p>
+        <p>SEBON Fee (0.015%): Rs. ${sebon.toFixed(2)}</p>
+        <p>DP Charge: Rs. ${dp}</p>
         <hr>
         <p>Total Payable Amount: <strong>Rs. ${total.toFixed(2)}</strong></p>
       `;
+      document.getElementById("buyResult").style.display = "block";
+    }
 
-      document.getElementById("result").innerHTML = result;
-      document.getElementById("result").style.display = "block";
+    function calculateSell() {
+      const qty = parseFloat(document.getElementById("sellQty").value);
+      const rate = parseFloat(document.getElementById("sellRate").value);
+      const buyPrice = parseFloat(document.getElementById("buyPrice").value);
+
+      if (!qty || !rate || !buyPrice || qty <= 0 || rate <= 0 || buyPrice <= 0) {
+        alert("Enter valid values in all fields.");
+        return;
+      }
+
+      const gross = qty * rate;
+      const commRate = getBrokerCommissionRate(gross);
+      const commission = gross * commRate;
+      const sebon = gross * 0.00015;
+      const dp = 25;
+      const gain = (rate - buyPrice) * qty;
+      const cgt = gain > 0 ? gain * 0.05 : 0;
+      const net = gross - commission - sebon - dp - cgt;
+
+      document.getElementById("sellResult").innerHTML = `
+        <p>Gross Amount: Rs. ${gross.toFixed(2)}</p>
+        <p>Broker Commission (${(commRate * 100).toFixed(2)}%): Rs. ${commission.toFixed(2)}</p>
+        <p>SEBON Fee (0.015%): Rs. ${sebon.toFixed(2)}</p>
+        <p>DP Charge: Rs. ${dp}</p>
+        <p>Capital Gain Tax (5%): Rs. ${cgt.toFixed(2)}</p>
+        <hr>
+        <p>Net Receivable Amount: <strong>Rs. ${net.toFixed(2)}</strong></p>
+      `;
+      document.getElementById("sellResult").style.display = "block";
     }
   </script>
 
