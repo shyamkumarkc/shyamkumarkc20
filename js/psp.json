@@ -1,14 +1,14 @@
 [
     {
         "SNo": "1",
-        "Name": "Khalti Private Limited ",
-        "Wallet": "Khalti",
-        "HO": "Pulchowk, Lalitpur",
-        "OD": "2076/01/12",
+        "Name": "City Wallet Private Limited ",
+        "Wallet": "City Pay",
+        "HO": "Kamaladi, Kathmandu",
+        "OD": "2080/07/15",
         "Capital": "50,000",
-        "Website": "www.khalti.com",
-        "Links": "www.shyamkumarkc20.com.np/tech/khalti",
-        "IMG": "https://shyamkumarkc20.com.np/logo/khalti.png"
+        "Website": "www.citywallet.com.np",
+        "Links": "www.shyamkumarkc20.com.np/tech/ ",
+        "IMG": "https://shyamkumarkc20.com.np/logo/citypay.jpeg "
     },
     {
         "SNo": "2",
@@ -44,16 +44,15 @@
         "IMG": "https://shyamkumarkc20.com.np/logo/cgpay.jpeg"
     },
     {
-        
         "SNo": "5",
-        "Name": "City Wallet Private Limited ",
-        "Wallet": "City Pay",
-        "HO": "Kamaladi, Kathmandu",
-        "OD": "2080/07/15",
-        "Capital": "50,000",
-        "Website": "www.citywallet.com.np",
-        "Links": "www.shyamkumarkc20.com.np/tech/ ",
-        "IMG": "https://shyamkumarkc20.com.np/logo/citypay.jpeg "
+        "Name": "IME Khalti Limited",
+        "Wallet": "Khalti",
+        "HO": "Panipokhari, Kathmandu ",
+        "OD": "2074/03/05",
+        "Capital": "545,454",
+        "Website": "www.khalti.com",
+        "Links": "www.shyamkumarkc20.com.np/tech/khalti",
+        "IMG": "https://shyamkumarkc20.com.np/logo/khalti.png"
     },
     {
         "SNo": "6",
@@ -79,14 +78,14 @@
     },
     {
         "SNo": "8",
-        "Name": "Nepal Pay Time Private Limited ",
-        "Wallet": "PayTime",
-        "HO": "Putalisadak, Kathmandu",
-        "OD": "2076/05/19",
-        "Capital": "18,376",
-        "Website": "www.paytime.com.np/",
+       "Name": "Chhito Paisa Private Limited ",
+        "Wallet": "Chhito Paisa",
+        "HO": "Mid-Baneshwor, Kathmandu",
+        "OD": "2077/12/05",
+        "Capital": "10,000",
+        "Website": "www.chhitopaisa.com.np/",
         "Links": "www.shyamkumarkc20.com.np/tech/ ",
-        "IMG": "https://shyamkumarkc20.com.np/logo/paytime.png "
+        "IMG": "https://shyamkumarkc20.com.np/logo/chhitopaisa.png"
     },
     {
         "SNo": "9",
@@ -134,14 +133,14 @@
     },
     {
         "SNo": "13",
-        "Name": "Pay Well Nepal Private Limited ",
-        "Wallet": "Paywell",
-        "HO": "Anamnagar, Kathmandu",
-        "OD": "2076/06/11",
-        "Capital": "70,000",
-        "Website": "www.agent.paywellnepal.com ",
-        "Links": "www.shyamkumarkc20.com.np/tech/paywellnepal",
-        "IMG": "https://shyamkumarkc20.com.np/logo/paywell.png "
+        "Name": "Sulav Pay Private Limited ",
+        "Wallet": "N-Cash",
+        "HO": "Kuleshwor, Kathmandu",
+        "OD": "2077/12/05",
+        "Capital": "10,000",
+        "Website": " ",
+        "Links": "www.shyamkumarkc20.com.np/tech/ ",
+        "IMG": "https://shyamkumarkc20.com.np/logo/ncash.png"
     },
     {
         "SNo": "14",
@@ -241,39 +240,6 @@
         "Website": "www.namastepay.com/",
         "Links": "www.shyamkumarkc20.com.np/tech/ ",
         "IMG": "https://shyamkumarkc20.com.np/logo/namastepay.png"
-    },
-    {
-        "SNo": "23",
-        "Name": "Sulav Pay Private Limited ",
-        "Wallet": "N-Cash",
-        "HO": "Kuleshwor, Kathmandu",
-        "OD": "2077/12/05",
-        "Capital": "10,000",
-        "Website": " ",
-        "Links": "www.shyamkumarkc20.com.np/tech/ ",
-        "IMG": "https://shyamkumarkc20.com.np/logo/ncash.png"
-    },
-    {
-        "SNo": "24",
-        "Name": "Chhito Paisa Private Limited ",
-        "Wallet": "Chhito Paisa",
-        "HO": "Mid-Baneshwor, Kathmandu",
-        "OD": "2077/12/05",
-        "Capital": "10,000",
-        "Website": "www.chhitopaisa.com.np/",
-        "Links": "www.shyamkumarkc20.com.np/tech/ ",
-        "IMG": "https://shyamkumarkc20.com.np/logo/chhitopaisa.png"
-    },
-    {
-        "SNo": "25",
-        "Name": "Sajilo Pay Payment Services Private Limited ",
-        "Wallet": "SajiloPay",
-        "HO": "Baluwatar, Kathmandu",
-        "OD": "2077/12/17",
-        "Capital": "10,000",
-        "Website": " ",
-        "Links": "www.shyamkumarkc20.com.np/tech/ ",
-        "IMG": "https://shyamkumarkc20.com.np/logo/ "
     }
     
 ]
