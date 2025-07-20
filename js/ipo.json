@@ -1027,6 +1027,26 @@
             "listingDate": "",
             "issueManager": "Nabil Investment Banking Limited"
         },
+		{
+            "company": "Vision Energy & Power Limited",
+            "units": "83,00,000",
+            "price": "100",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "NIMB Ace Capital Limited"
+        },
+		{
+            "company": "White Lotus Power Company",
+            "units": "12,19,000",
+            "price": "100",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Nepal SBI Merchant Banking Limited"
+        },
         {
             "company": "",
             "units": "",
@@ -1132,7 +1152,7 @@
             "closingDate": "2025-08-20",
             "lastClosingDate": "",
             "listingDate": "",
-            "issueManager": "LS Capital Limited"
+            "issueManager": "Laxmi Sunrise Capital Limited"
         },
 		{
             "company": "Sagarmatha Jalbidhyut Company Limited (SMJC)",
@@ -1144,26 +1164,7 @@
             "listingDate": "",
             "issueManager": "NMB Capital Limited"
         },
-		{
-            "company": "Vision Energy & Power Limited",
-            "units": "83,00,000",
-            "price": "100",
-            "openingDate": "",
-            "closingDate": "",
-            "lastClosingDate": "",
-            "listingDate": "",
-            "issueManager": "NIMB Ace Capital Limited"
-        },
-		{
-            "company": "White Lotus Power Company",
-            "units": "12,19,000",
-            "price": "100",
-            "openingDate": "",
-            "closingDate": "",
-            "lastClosingDate": "",
-            "listingDate": "",
-            "issueManager": "Nepal SBI Merchant Banking Limited"
-        },
+		
 		{
             "company": "",
             "units": "",
