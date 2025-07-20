@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NEPSE Share Buy Calculator</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f5f7fa;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      text-align: center;
+      color: #2c3e50;
+      margin-bottom: 20px;
+    }
+
+    label {
+      font-weight: bold;
+      margin-top: 10px;
+      display: block;
+    }
+
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      background: #3498db;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #2980b9;
+    }
+
+    .result {
+      margin-top: 20px;
+      font-weight: bold;
+      background: #ecf0f1;
+      padding: 15px;
+      border-radius: 8px;
+    }
+
+    .result p {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2>NEPSE Share Buy Calculator</h2>
+    
+    <label for="quantity">Quantity</label>
+    <input type="number" id="quantity" placeholder="Enter number of shares" />
+
+    <label for="rate">Rate per Share (Rs.)</label>
+    <input type="number" id="rate" placeholder="Enter rate per share" />
+
+    <button onclick="calculate()">Calculate</button>
+
+    <div class="result" id="result" style="display:none;"></div>
+  </div>
+
+  <script>
+    function getBrokerCommissionRate(amount) {
+      if (amount <= 50000) return 0.0036;
+      if (amount <= 500000) return 0.0033;
+      if (amount <= 2000000) return 0.0031;
+      if (amount <= 10000000) return 0.0027;
+      return 0.0024;
+    }
+
+    function calculate() {
+      const qty = parseFloat(document.getElementById("quantity").value);
+      const rate = parseFloat(document.getElementById("rate").value);
+
+      if (!qty || !rate || qty <= 0 || rate <= 0) {
+        alert("Please enter valid quantity and rate.");
+        return;
+      }
+
+      const grossAmount = qty * rate;
+      const commissionRate = getBrokerCommissionRate(grossAmount);
+      const brokerCommission = grossAmount * commissionRate;
+
+      const sebonFee = grossAmount * 0.00015; // 0.015%
+      const dpCharge = 25; // flat
+
+      const total = grossAmount + brokerCommission + sebonFee + dpCharge;
+
+      const result = `
+        <p>Gross Amount: Rs. ${grossAmount.toFixed(2)}</p>
+        <p>Broker Commission (${(commissionRate * 100).toFixed(2)}%): Rs. ${brokerCommission.toFixed(2)}</p>
+        <p>SEBON Fee (0.015%): Rs. ${sebonFee.toFixed(2)}</p>
+        <p>DP Charge: Rs. ${dpCharge.toFixed(2)}</p>
+        <hr>
+        <p>Total Payable Amount: <strong>Rs. ${total.toFixed(2)}</strong></p>
+      `;
+
+      document.getElementById("result").innerHTML = result;
+      document.getElementById("result").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
