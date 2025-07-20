@@ -1,14 +1,14 @@
 [
     {
         "SNo": "1",
-        "Name": "IME Digital Solution Limited ",
-        "Wallet": "IME Pay",
-        "HO": "Panipokhari, Kathmandu",
-        "OD": "2074/03/05",
-        "Capital": "300,000",
-        "Website": "www.imepay.com.np",
-        "Links": "www.shyamkumarkc20.com.np/tech/imepay",
-        "IMG": "https://shyamkumarkc20.com.np/logo/imepay.jpg"
+        "Name": "Khalti Private Limited ",
+        "Wallet": "Khalti",
+        "HO": "Pulchowk, Lalitpur",
+        "OD": "2076/01/12",
+        "Capital": "50,000",
+        "Website": "www.khalti.com",
+        "Links": "www.shyamkumarkc20.com.np/tech/khalti",
+        "IMG": "https://shyamkumarkc20.com.np/logo/khalti.png"
     },
     {
         "SNo": "2",
@@ -44,15 +44,16 @@
         "IMG": "https://shyamkumarkc20.com.np/logo/cgpay.jpeg"
     },
     {
+        
         "SNo": "5",
-        "Name": "Khalti Private Limited ",
-        "Wallet": "Khalti",
-        "HO": "Pulchowk, Lalitpur",
-        "OD": "2076/01/12",
+        "Name": "City Wallet Private Limited ",
+        "Wallet": "City Pay",
+        "HO": "Kamaladi, Kathmandu",
+        "OD": "2080/07/15",
         "Capital": "50,000",
-        "Website": "www.khalti.com",
-        "Links": "www.shyamkumarkc20.com.np/tech/khalti",
-        "IMG": "https://shyamkumarkc20.com.np/logo/khalti.jpeg"
+        "Website": "www.citywallet.com.np",
+        "Links": "www.shyamkumarkc20.com.np/tech/ ",
+        "IMG": "https://shyamkumarkc20.com.np/logo/citypay.jpeg "
     },
     {
         "SNo": "6",
@@ -273,16 +274,6 @@
         "Website": " ",
         "Links": "www.shyamkumarkc20.com.np/tech/ ",
         "IMG": "https://shyamkumarkc20.com.np/logo/ "
-    },
-    {
-        "SNo": "26",
-        "Name": "City Wallet Private Limited ",
-        "Wallet": "City Pay",
-        "HO": "Kamaladi, Kathmandu",
-        "OD": "2080/07/15",
-        "Capital": "50,000",
-        "Website": "www.citywallet.com.np",
-        "Links": "www.shyamkumarkc20.com.np/tech/ ",
-        "IMG": "https://shyamkumarkc20.com.np/logo/citypay.jpeg "
     }
+    
 ]
