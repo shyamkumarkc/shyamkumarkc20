@@ -374,7 +374,7 @@
         },
         {
             "company": "Palpa Cements Industries Limited",
-            "units": "7 500 000.00",
+            "units": "7,500,000.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -383,7 +383,7 @@
         },
         {
             "company": "Smart Doors Limited",
-            "units": "306 000.00",
+            "units": "306,000.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -392,7 +392,7 @@
         },
         {
             "company": "Champawati Hydropower Limited",
-            "units": "1 600 000.00",
+            "units": "1,600,000.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -401,7 +401,7 @@
         },
         {
             "company": "Nilgiri Khola Hydropower Company Limited",
-            "units": "4 320 000.00",
+            "units": "4,320,000.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -410,7 +410,7 @@
         },
         {
             "company": "Madame Khola Hydropower Limited",
-            "units": "3 250 000.00",
+            "units": "3,250,000.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -418,8 +418,8 @@
             "issueManager": "Muktinath Capital Limited"
         },
         {
-            "company": "Puwakhola -1 Hydropower Limited",
-            "units": "1 946 660.00",
+            "company": "Puwakhola 1 Hydropower Limited",
+            "units": "1,946,660.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -428,7 +428,7 @@
         },
         {
             "company": "Suryakunda Hydro Electric Limited",
-            "units": "1 379 350.00",
+            "units": "1,379,350.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -437,7 +437,7 @@
         },
         {
             "company": "Snow Rivers Limited",
-            "units": "1 625 000.00",
+            "units": "1,625,000.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -447,7 +447,7 @@
         
         {
             "company": "Kailash Helicopter Services Limited",
-            "units": "350 000.00",
+            "units": "350,000.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -456,7 +456,7 @@
         },
         {
             "company": "Shivam Holdings Limited",
-            "units": "11 600 000.00",
+            "units": "11,600,000.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -465,7 +465,7 @@
         },
         {
             "company": "Business Interest Group of Industries Limited",
-            "units": "4 500 000.00",
+            "units": "4,500,000.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -474,7 +474,7 @@
         },
         {
             "company": "Chhaya Devi Complex Limited",
-            "units": "1 437 500.00",
+            "units": "1,437,500.00",
             "price": "400.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -483,7 +483,7 @@
         },
         {
             "company": "Peoples Energy Limited",
-            "units": "6 600 000.00",
+            "units": "6,600,000.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -492,7 +492,7 @@
         },
         {
             "company": "Hilton Hydro Energy Limited",
-            "units": "1 375 000.00",
+            "units": "1,375,000.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -501,7 +501,7 @@
         },
         {
             "company": "Akama Hotel Limited",
-            "units": "4 500 000.00",
+            "units": "4,500,000.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -510,7 +510,7 @@
         },
         {
             "company": "Thamel Plaza Hotel & Suites Limited",
-            "units": "1 000 000.00",
+            "units": "1,000,000.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -519,7 +519,7 @@
         },
         {
             "company": "Kalinchowk Hydropower Limited",
-            "units": "750 000.00",
+            "units": "750,000.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -528,7 +528,7 @@
         },
         {
             "company": "Sanigad Hydro Limited",
-            "units": "8 550 000.00",
+            "units": "8,550,000.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -537,7 +537,7 @@
         },
         {
             "company": "Apex Makalu Hydropower Limited",
-            "units": "2 400 000.00",
+            "units": "2,400,000.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -546,7 +546,7 @@
         },
         {
             "company": "Appolo Hydropower Limited",
-            "units": "1 410 000.00",
+            "units": "1,410,000.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -555,7 +555,7 @@
         },
         {
             "company": "Gaurishankar Power Development Limited",
-            "units": "2 400 000.00",
+            "units": "2,400,000.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -564,7 +564,7 @@
         },
         {
             "company": "Shikhar Power Development Limited",
-            "units": "2 160 000.00",
+            "units": "2,160,000.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -573,7 +573,7 @@
         },
         {
             "company": "Siuri Nyadi Power Limited",
-            "units": "30 360 784.00",
+            "units": "30,360,784.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -582,7 +582,7 @@
         },
         {
             "company": "Super Khudi Hydropower Limited",
-            "units": "7 595 000.00",
+            "units": "7,595,000.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -591,7 +591,7 @@
         },
         {
             "company": "Mount Everest Power Development Limited",
-            "units": "2 580 000.00",
+            "units": "2,580,000.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -600,7 +600,7 @@
         },
         {
             "company": "Unique Hydel Company Limited",
-            "units": "2 200 000.00",
+            "units": "2,200,000.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -609,7 +609,7 @@
         },
         {
             "company": "Aashutosh Energy Limited",
-            "units": "1 200 000.00",
+            "units": "1,200,000.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -618,7 +618,7 @@
         },
         {
             "company": "Kalanga Hydro Limited",
-            "units": "4 900 000.00",
+            "units": "4,900,000.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -627,7 +627,7 @@
         },
         {
             "company": "Lower Erkhuwa Hydropower Company Limited",
-            "units": "2 805 750.00",
+            "units": "2,805,750.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -636,7 +636,7 @@
         },
         {
             "company": "Him River Power Limited",
-            "units": "1 330 000.00",
+            "units": "1,330,000.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -645,7 +645,7 @@
         },
         {
             "company": "Maruti Cements Limited",
-            "units": "11 600 000.00",
+            "units": "11,600,000.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -654,7 +654,7 @@
         },
         {
             "company": "Barun Investment Limited",
-            "units": "2 475 000.00",
+            "units": "2,475,000.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -663,7 +663,7 @@
         },
         {
             "company": "Annapurna Cable Car Limited",
-            "units": "3 100 000.00",
+            "units": "3,100,000.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -672,7 +672,7 @@
         },
         {
             "company": "Shaurya Cement Industries Limited",
-            "units": "15 981 500.00",
+            "units": "15,981,500.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -690,7 +690,7 @@
         },
         {
             "company": "Ridge Line Energy Nepal",
-            "units": "5 804 201.00",
+            "units": "5,804,201.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -699,7 +699,7 @@
         },
         {
             "company": "Laughing Buddha Power Nepal Limited",
-            "units": "6 577 000.00",
+            "units": "6,577,000.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -708,7 +708,7 @@
         },
         {
             "company": "Orchid Holdings Limited",
-            "units": "11 500 000.00",
+            "units": "11,500,000.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -717,7 +717,7 @@
         },
         {
             "company": "Hotel Forest Inn Limited",
-            "units": "9 800 000.00",
+            "units": "9,800,000.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -735,7 +735,7 @@
         },
         {
             "company": "Solu Hydropower Limited",
-            "units": "20 000 000.00",
+            "units": "20,000,000.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -744,7 +744,7 @@
         },
         {
             "company": "SY Panel Nepal Limited",
-            "units": "5 232 548.00",
+            "units": "5,232,548.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -753,7 +753,7 @@
         },
         {
             "company": "Jagdamba Steels Limited",
-            "units": "20 070 000.00",
+            "units": "20,070,000.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -762,7 +762,7 @@
         },
         {
             "company": "Apex Hospitality Limited",
-            "units": "2 400 000.00",
+            "units": "2,400,000.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -780,7 +780,7 @@
         },
         {
             "company": "Beni Hydropower Project Limited",
-            "units": "2 080 000.00",
+            "units": "2,080,000.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -789,7 +789,7 @@
         },
         {
             "company": "Richet Jalbidhyut Company Limited",
-            "units": "1 176 450.00",
+            "units": "1,176,450.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -798,7 +798,7 @@
         },
         {
             "company": "Bhujung Hydropower Limited",
-            "units": "1 455 000.00",
+            "units": "1,455,000.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -807,7 +807,7 @@
         },
         {
             "company": "IME Limited",
-            "units": "1 000 000.00",
+            "units": "1,000,000.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -817,7 +817,7 @@
         
         {
             "company": "Kantipur Television Network Limited",
-            "units": "750 000.00",
+            "units": "750,000.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -826,7 +826,7 @@
         },
         {
             "company": "Sanima Hydropower Limited",
-            "units": "1 470 000.00",
+            "units": "1,470,000.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -835,7 +835,7 @@
         },
         {
             "company": "Accord Pharmaceuticals Limited",
-            "units": "706 909.00",
+            "units": "706,909.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -844,7 +844,7 @@
         },
         {
             "company": "Upper Lohore Khola Hydropower Company Limited",
-            "units": "2 498 040.00",
+            "units": "2,498,040.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -853,7 +853,7 @@
         },
         {
             "company": "Bhairabkunda Hydropower Limited",
-            "units": "3 183 280.00",
+            "units": "3,183,280.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -862,7 +862,7 @@
         },
         {
             "company": "Shuvam Power Limited",
-            "units": "580 580.00",
+            "units": "580,580.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -871,7 +871,7 @@
         },
         {
             "company": "Citizens Capital Ltd. (Former CBIL Capital )",
-            "units": "300 000.00",
+            "units": "300,000.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -880,7 +880,7 @@
         },
         {
             "company": "Dish Media Network Limited",
-            "units": "2 385 929.00",
+            "units": "2,385,929.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -889,7 +889,7 @@
         },
         {
             "company": "Lower Mid Rawa Khola Hydropower Project Limited",
-            "units": "1,000,000",
+            "units": "1,000,000.00",
             "price": "100.00",
             "openingDate": "",
             "closingDate": "",
@@ -929,7 +929,7 @@
         },
 		{
             "company": "Supreme Health Care Limited",
-            "units": "1,250,000",
+            "units": "1,250,000.00",
             "price": "100.00",
             "openingDate": "",
             "closingDate": "",
@@ -1116,7 +1116,7 @@
 		{
             "company": "City Hotel Limited",
             "units": "133,92,000",
-            "price": "100",
+            "price": "100.00",
             "openingDate": "",
             "closingDate": "",
             "lastClosingDate": "",
@@ -1126,7 +1126,7 @@
 		{
             "company": "Shiva Shree Hydropower Limited",
             "units": "14,764,000",
-            "price": "100",
+            "price": "100.00",
             "openingDate": "",
             "closingDate": "",
             "lastClosingDate": "",
@@ -1164,11 +1164,20 @@
             "listingDate": "",
             "issueManager": "NMB Capital Limited"
         },
-		
 		{
-            "company": "",
+            "company": "Dolti Power Company Limited",
             "units": "",
-            "price": "",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": ""
+        },
+		{
+            "company": "Bhugol Energy Development Company Limited",
+            "units": "",
+            "price": "100.00",
             "openingDate": "",
             "closingDate": "",
             "lastClosingDate": "",
@@ -1257,8 +1266,8 @@
             "company": "Jhapa Energy Limited",
             "units": "950 47.50",
             "price": "100.00",
-            "openingDate": " ",
-            "closingDate": " ",
+            "openingDate": "2025-07-30",
+            "closingDate": "2025-08-03",
             "lastClosingDate": " ",
             "issueManager": "Himalayan Capital Limited"
         },
