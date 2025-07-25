@@ -168,22 +168,24 @@
       const opening = new Date(item.openingDate);
       const closing = new Date(item.closingDate);
 
-      const todayStr = now.toISOString().split('T')[0];
-      const openingStr = item.openingDate;
-      const closingStr = item.closingDate;
-
       const currentHour = now.getHours();
 
-      // Opening day logic
-      if (todayStr === openingStr && currentHour < 10) return 'Coming Soon';
-      if (todayStr === openingStr && currentHour >= 10 && now <= closing) return 'Open';
+      const isOpeningDay = now.toDateString() === opening.toDateString();
+      const isClosingDay = now.toDateString() === closing.toDateString();
 
-      // Closing day logic
-      if (todayStr === closingStr && currentHour >= 17) return 'Closed';
+      if (isOpeningDay && currentHour < 10) return 'Coming Soon';
+      if (now >= opening && now <= closing) return 'Open';
+
+      // Show "Open" until 5 PM on closing day
+      if (isClosingDay && currentHour < 17) return 'Open';
+
+      // Show "Closed" after 5 PM on closing day
+      if (isClosingDay && currentHour >= 17) return 'Closed';
+
+      // If current time is after the closing datetime
       if (now > closing) return 'Closed';
 
-      // Normal open period
-      if (now >= opening && now <= closing) return 'Open';
+      // Otherwise, it's not yet open
       if (now < opening) return 'Coming Soon';
 
       return 'Coming Soon';
