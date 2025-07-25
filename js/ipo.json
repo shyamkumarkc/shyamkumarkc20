@@ -32,7 +32,7 @@
         },
 		{
             "company": "Jhapa Energy Limited",
-            "units": "950 475.00",
+            "units": "950,475.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -1314,7 +1314,7 @@
         },
 		{
             "company": "Jhapa Energy Limited",
-            "units": "950 47.50",
+            "units": "57,029.00",
             "price": "100.00",
             "openingDate": "2025-07-30",
             "closingDate": "2025-08-03",
