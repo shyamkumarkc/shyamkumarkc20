@@ -71,7 +71,7 @@
         },
         {
             "company": "Mabilung Energy Limited",
-            "units": "1890530.00",
+            "units": "1,890,530.00",
             "price": "100.00",
             "openingDate": "",
             "closingDate": "",
@@ -1029,8 +1029,8 @@
         },
 		{
             "company": "Vision Energy & Power Limited",
-            "units": "83,00,000",
-            "price": "100",
+            "units": "8,300,000",
+            "price": "100.00",
             "openingDate": "",
             "closingDate": "",
             "lastClosingDate": "",
@@ -1039,8 +1039,8 @@
         },
 		{
             "company": "White Lotus Power Company",
-            "units": "12,19,000",
-            "price": "100",
+            "units": "1,219,000",
+            "price": "100.00",
             "openingDate": "",
             "closingDate": "",
             "lastClosingDate": "",
@@ -1069,7 +1069,7 @@
         },
 		{
             "company": "Nebico Limited",
-            "units": "",
+            "units": "2,000,000.00",
             "price": "",
             "openingDate": "",
             "closingDate": "",
@@ -1089,7 +1089,7 @@
         },
 		{
             "company": "Jhyamolongma Hydropower Company Limited",
-            "units": "51,00,000.00",
+            "units": "5,100,000.00",
             "price": "100.00",
             "openingDate": "",
             "closingDate": "",
@@ -1109,7 +1109,7 @@
         },
 		{
             "company": "North Summit Hydro Limited ",
-            "units": "38,40,000",
+            "units": "3,840,000",
             "price": "100.00",
             "openingDate": "",
             "closingDate": "",
@@ -1165,7 +1165,7 @@
         },
 		{
             "company": "City Hotel Limited",
-            "units": "133,92,000",
+            "units": "133,92,000.00",
             "price": "100.00",
             "openingDate": "",
             "closingDate": "",
@@ -1175,7 +1175,7 @@
         },
 		{
             "company": "Shiva Shree Hydropower Limited",
-            "units": "14,764,000",
+            "units": "14,764,000.00",
             "price": "100.00",
             "openingDate": "",
             "closingDate": "",
