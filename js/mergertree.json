@@ -2,7 +2,8 @@
   {
     "Name": "Global IME Bank + Janata Bank + Bank of Kathmandu",
     "Merger": "Global IME Bank",
-    "BFI": "a. Janata Bank<br>b. Bank of Kathmandu"
+    "BFI": "a. Janata Bank<br>b. Bank of Kathmandu",
+     "BFIjananta": "a. Triveni Bikas Bank"
   },
   {
     "Name": "Janata Bank + Triveni Bikas Bank",
