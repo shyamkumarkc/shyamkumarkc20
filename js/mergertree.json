@@ -1,13 +1,36 @@
 [
-  {
-    "Name": "Global IME Bank + Janata Bank + Bank of Kathmandu",
-    "Merger": "Global IME Bank",
-    "BFI": "a. Janata Bank<br>b. Bank of Kathmandu",
-     "BFIjananta": "a. Triveni Bikas Bank"
-  },
-  {
-    "Name": "Janata Bank + Triveni Bikas Bank",
-    "Merger": "Janata Bank",
-    "BFI": "a. Triveni Bikas Bank"
-  }
+    {
+        "name": "Parent Company",
+        "year": 1990,
+        "children": [
+            {
+                "name": "Acquired Company",
+                "year": 2005,
+                "children": [
+                    {
+                        "name": "Subsidiary",
+                        "year": 2010,
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Parent Company",
+        "year": 1990,
+        "children": [
+            {
+                "name": "Acquired Company",
+                "year": 2005,
+                "children": [
+                    {
+                        "name": "Subsidiary",
+                        "year": 2010,
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }
 ]
