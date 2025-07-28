@@ -78,12 +78,24 @@
 
     @media (max-width: 768px) {
       table, thead, tbody, th, td, tr { display: block; }
+
+      tr {
+        margin-bottom: 16px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 6px;
+        background: #fff;
+      }
+
       td {
         border: none;
         border-bottom: 1px solid #ddd;
         position: relative;
         padding-left: 50%;
+        padding-top: 8px;
+        padding-bottom: 8px;
       }
+
       td:before {
         position: absolute;
         left: 10px;
@@ -91,6 +103,7 @@
         white-space: nowrap;
         font-weight: bold;
       }
+
       td:nth-of-type(1):before { content: "S.N."; }
       td:nth-of-type(2):before { content: "Company"; }
       td:nth-of-type(3):before { content: "Units"; }
@@ -167,23 +180,16 @@
       const now = new Date();
       const opening = new Date(item.openingDate);
       const closing = new Date(item.closingDate);
-
-      const todayStr = now.toISOString().split('T')[0];
-      const openingStr = item.openingDate;
-      const closingStr = item.closingDate;
-
       const currentHour = now.getHours();
 
-      // Opening day logic
-      if (todayStr === openingStr && currentHour < 10) return 'Coming Soon';
-      if (todayStr === openingStr && currentHour >= 10 && now <= closing) return 'Open';
+      const isOpeningDay = now.toDateString() === opening.toDateString();
+      const isClosingDay = now.toDateString() === closing.toDateString();
 
-      // Closing day logic
-      if (todayStr === closingStr && currentHour >= 17) return 'Closed';
-      if (now > closing) return 'Closed';
-
-      // Normal open period
+      if (isOpeningDay && currentHour < 10) return 'Coming Soon';
       if (now >= opening && now <= closing) return 'Open';
+      if (isClosingDay && currentHour < 17) return 'Open';
+      if (isClosingDay && currentHour >= 17) return 'Closed';
+      if (now > closing) return 'Closed';
       if (now < opening) return 'Coming Soon';
 
       return 'Coming Soon';
