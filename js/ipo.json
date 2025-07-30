@@ -11,6 +11,16 @@
             "issueManager": "NIC Asia Capital Limited"
         },
 		{
+            "company": "Shreenagar Agritech Industries Limited",
+            "units": "3,262,500",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Nabil Investment Banking Limited"
+        },
+		{
             "company": "Sagar Distillery Limited",
             "units": "1,306,800.00",
             "price": "100.00",
@@ -968,16 +978,7 @@
             "listingDate": "",
             "issueManager": " Citizens Capital Limited "
         },
-		{
-            "company": "Shreenagar Agritech Industries Limited",
-            "units": "3,262,500",
-            "price": "100.00",
-            "openingDate": "",
-            "closingDate": "",
-            "lastClosingDate": "",
-            "listingDate": "",
-            "issueManager": "Nabil Investment Banking Limited"
-        },
+		
 		{
             "company": "HAMS Hospital",
             "units": "1,125,000",
@@ -1342,6 +1343,16 @@
             "lastClosingDate": "2025-06-27",
             "listingDate": "",
             "issueManager": "NIC Asia Capital Limited"
+        },
+		{
+            "company": "Shreenagar Agritech Industries Limited",
+            "units": "326,250",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Nabil Investment Banking Limited"
         },
 		{
             "company": "Sagar Distillery Limited",
