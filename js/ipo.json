@@ -1215,6 +1215,16 @@
             "listingDate": "",
             "issueManager": "Citizens Capital Limited"
         },
+		{
+            "company": "Narayani Development Bank",
+            "units": "2,624,677.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Global IME Capital Limited"
+        },
         {
             "symbol": "",
             "company": "Asian Life Insurance Company Limited",
@@ -1485,7 +1495,7 @@
             "units": "3,000,000.00",
             "price": "1000.00",
             "openingDate": "2025-07-22",
-            "closingDate": "2025-08-05",
+            "closingDate": "2025-07-26",
             "lastClosingDate": "2025-08-05",
             "listingDate": "",
             "issueManager": "Nepal SBI Merchant Banking Limited"
