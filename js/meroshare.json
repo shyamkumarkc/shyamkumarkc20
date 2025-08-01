@@ -19,7 +19,7 @@
         "Units": "113"
     },
     {
-        "SN": "16",
+        "SN": "3",
         "Name": "Butwal Power Company Limited",
         "Symbol": "BPCL",
         "Status": "Active",
@@ -30,7 +30,7 @@
         "Units": "15"
     },
     {
-        "SN": "62",
+        "SN": "4",
         "Name": "Citizens Bank International Limited",
         "Symbol": "CZBIL",
         "Status": "Active",
@@ -41,7 +41,7 @@
         "Units": "13"
     },
     {
-        "SN": "230",
+        "SN": "5",
         "Name": "Ghorahi Cement Industry Limited",
         "Symbol": "GCIL",
         "Status": "Active",
@@ -52,7 +52,7 @@
          "Units": "3"
     },
     {
-        "SN": "61",
+        "SN": "6",
         "Name": "Global IME Bank Limited",
         "Symbol": "GBIME",
         "Status": "Active",
@@ -63,7 +63,7 @@
          "Units": "550"
     },
     {
-        "SN": "141",
+        "SN": "7",
         "Name": "Ganapati Laghubitta Bittiya Sanstha Limited",
         "Symbol": "GMFBS",
         "Status": "Active",
@@ -74,7 +74,7 @@
          "Units": "14"
     },
     {
-        "SN": "184",
+        "SN": "8",
         "Name": "Green Ventures Limited",
         "Symbol": "GVL",
         "Status": "Active",
@@ -82,10 +82,10 @@
         "Instrument": "Equity",
         "Email": "frontdesk@trivenihydro.com",
         "Website": "www.greenventuresnepal.com",
-         "Units": "10"
+         "Units": "11"
     },
     {
-        "SN": "4",
+        "SN": "9",
         "Name": "Himalayan Bank Limited",
         "Symbol": "HBL",
         "Status": "Active",
@@ -96,7 +96,7 @@
          "Units": "104"
     },
     {
-        "SN": "249",
+        "SN": "10",
         "Name": "Himalayan Reinsurance Limited",
         "Symbol": "HRL",
         "Status": "Active",
@@ -107,7 +107,7 @@
          "Units": "41"
     },
     {
-        "SN": "228",
+        "SN": "11",
         "Name": "IME Life Insurance Company Limited",
         "Symbol": "ILI",
         "Status": "Active",
@@ -117,7 +117,7 @@
         "Website": "www.imelifeinsurance.com",
          "Units": "12"
     },{
-        "SN": "10",
+        "SN": "12",
         "Name": "Kumari Bank Limited",
         "Symbol": "KBL",
         "Status": "Active",
@@ -127,7 +127,7 @@
         "Website": "http://www.kumaribank.com",
          "Units": "1124"
     }, {
-        "SN": "225",
+        "SN": "13",
         "Name": "Modi Energy Limited",
         "Symbol": "MEL",
         "Status": "Active",
@@ -137,7 +137,7 @@
         "Website": "www.modihydro.com",
          "Units": "10"
     },{
-        "SN": "153",
+        "SN": "14",
         "Name": "NIC ASIA Laghubitta Bittiya Sanstha Limited",
         "Symbol": "NICLBSL",
         "Status": "Active",
@@ -147,7 +147,7 @@
         "Website": "www.nicasialaghubitta.com",
          "Units": "10"
     },{
-        "SN": "163",
+        "SN": "15",
         "Name": "Nepal Infrastructure Bank Limited",
         "Symbol": "NIFRA",
         "Status": "Active",
@@ -158,7 +158,7 @@
          "Units": "54"
     },
     {
-        "SN": "35",
+        "SN": "16",
         "Name": "Nepal Life Insurance Co. Ltd.",
         "Symbol": "NLIC",
         "Status": "Active",
@@ -168,7 +168,7 @@
          "Units": "80"
     },
     {
-        "SN": "49",
+        "SN": "17",
         "Name": "NMB Bank Limited",
         "Symbol": "NMB",
         "Status": "Active",
@@ -178,7 +178,7 @@
         "Website": "http://www.nmb.com.np",
          "Units": "38"
     },{
-        "SN": "152",
+        "SN": "18",
         "Name": "Nepal Reinsurance Company Limited",
         "Symbol": "NRIC",
         "Status": "Active",
@@ -188,7 +188,7 @@
         "Website": "www.nepalre.com.np",
          "Units": "53"
     },{
-        "SN": "248",
+        "SN": "19",
         "Name": "Nepal Warehousing Company Limited",
         "Symbol": "NWCL",
         "Status": "Active",
@@ -198,7 +198,7 @@
         "Website": "www.nwcl.com.np",
          "Units": "10"
     },{
-        "SN": "32",
+        "SN": "20",
         "Name": "Prabhu Insurance Ltd.",
         "Symbol": "PRIN",
         "Status": "Active",
@@ -209,7 +209,7 @@
          "Units": "98"
     },
     {
-        "SN": "53",
+        "SN": "21",
         "Name": "Prabhu Bank Limited",
         "Symbol": "PRVU",
         "Status": "Active",
@@ -219,7 +219,7 @@
          "Units": "701"
     },
     {
-        "SN": "125",
+        "SN": "22",
         "Name": "Radhi Bidyut Company Ltd",
         "Symbol": "RADHI",
         "Status": "Active",
@@ -229,7 +229,7 @@
          "Units": "45"
     },
     {
-        "SN": "147",
+        "SN": "23",
         "Name": "RASUWAGADHI HYDROPOWER COMPANY LIMITED",
         "Symbol": "RHPL",
         "Status": "Active",
@@ -240,7 +240,7 @@
          "Units": "40"
     },
     {
-        "SN": "148",
+        "SN": "24",
         "Name": "SANJEN JALAVIDHYUT COMPANY LIMITED",
         "Symbol": "SJCL",
         "Status": "Active",
@@ -251,7 +251,7 @@
          "Units": "10"
     },
     {
-        "SN": "172",
+        "SN": "25",
         "Name": "Sanima Reliance Life Insurance Limited",
         "Symbol": "SRLI",
         "Status": "Active",
@@ -262,7 +262,7 @@
          "Units": "11"
     },
     {
-        "SN": "23",
+        "SN": "26",
         "Name": "Sanima Bank Limited",
         "Symbol": "SANIMA",
         "Status": "Active",
@@ -273,7 +273,7 @@
          "Units": "30"
     },
     {
-        "SN": "158",
+        "SN": "27",
         "Name": "Sanima GIC Insurance Limited",
         "Symbol": "SGIC",
         "Status": "Active",
@@ -284,7 +284,7 @@
          "Units": "10"
     },
     {
-        "SN": "244",
+        "SN": "28",
         "Name": "Trishuli Jal Vidhyut Company Limited",
         "Symbol": "TVCL",
         "Status": "Active",
@@ -294,7 +294,7 @@
          "Units": "20"
     },
     {
-        "SN": "192",
+        "SN": "29",
         "Name": "Upper Hewakhola Hydropower Company Limited",
         "Symbol": "UHEWA",
         "Status": "Active",
@@ -305,7 +305,7 @@
          "Units": "10"
     },
     {
-        "SN": "124",
+        "SN": "30",
         "Name": "Unnati Sahakarya Laghubitta Bittiya Sanstha Limited",
         "Symbol": "USLB",
         "Status": "Active",
@@ -316,7 +316,7 @@
          "Units": "10"
     },
     {
-        "SN": "245",
+        "SN": "31",
         "Name": "Vision Lumbini Urja Company Limited",
         "Symbol": "VLUCL",
         "Status": "Active",
@@ -327,7 +327,7 @@
          "Units": "10"
     },
     {
-        "SN": "133",
+        "SN": "32",
         "Name": "Upper Tamakoshi Hydropower Ltd",
         "Symbol": "UPPER",
         "Status": "Active",
@@ -338,7 +338,7 @@
          "Units": "80"
     },
     {
-        "SN": "",
+        "SN": "33",
         "Name": "Himalayan Life Insurance Limited",
         "Symbol": "HLI",
         "Status": "Active",
@@ -349,7 +349,7 @@
          "Units": "57"
     },
     {
-        "SN": "",
+        "SN": "34",
         "Name": "Citizen Life Insurance Limited",
         "Symbol": "CLI",
         "Status": "Active",
