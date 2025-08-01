@@ -40,6 +40,7 @@ tr:nth-child(even) {
     <table id="companyTable">
         <thead>
             <tr>
+		    <th>S No</th>
                 <th>Symbol</th>
                 <th>Name</th>
                 <th>Sector</th>
@@ -65,6 +66,7 @@ tr:nth-child(even) {
                 data.forEach(company => {
                     const row = document.createElement('tr');
                     row.innerHTML = `
+		      <td>${company['SN']}</td>
                         <td>${company['Symbol']}</td>
                         <td>${company['Name']}</td>
                         <td>${company['Sector']}</td>
