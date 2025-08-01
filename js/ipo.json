@@ -1128,8 +1128,8 @@
             "company": "Khani Khola Hydropower Company Limited",
             "units": "4,657,143.00",
             "price": "100.00",
-            "openingDate": "",
-            "closingDate": "",
+            "openingDate": "2025-08-19",
+            "closingDate": "2025-09-08",
             "lastClosingDate": "",
             "listingDate": "",
             "issueManager": "Citizens Capital Limited"
@@ -1155,17 +1155,7 @@
             "listingDate": "",
             "issueManager": "Prabhu Capital Limited"
         },
-        {
-            "symbol": "",
-            "company": "Chhyangdi Hydropower Company Limited",
-            "units": "3,869,775.00",
-            "price": "100.00",
-            "openingDate": "2025-06-06",
-            "closingDate": "2025-07-11",
-            "lastClosingDate": "",
-            "listingDate": "",
-            "issueManager": "Global Ime Capital Limited"
-        },
+        
         {
             "symbol": "",
             "company": "Barun Hydropower Company Limited",
@@ -1207,17 +1197,7 @@
             "listingDate": "",
             "issueManager": "Global IME Capital Limited"
         },
-        {
-            "symbol": "",
-            "company": "Asian Life Insurance Company Limited",
-            "units": "14,279,312.48",
-            "price": "100.00",
-            "openingDate": "2025-07-09",
-            "closingDate": "2025-07-29",
-            "lastClosingDate": "",
-            "listingDate": "",
-            "issueManager": "Muktinath Capital Limited"
-        },
+        
         {
             "company": "Joshi Hydropower Development Company Limited",
             "units": "2,414,100.00",
@@ -1257,16 +1237,6 @@
             "lastClosingDate": "",
             "listingDate": "",
             "issueManager": ""
-        },
-        {
-            "company": "Terhathum Power Company Limited",
-            "units": "4,000,000.00",
-            "price": "100.00",
-            "openingDate": "2025-06-30",
-            "closingDate": "2025-07-27",
-            "lastClosingDate": "2025-07-27",
-            "listingDate": "",
-            "issueManager": "Nabil Investment Banking Limited"
         }
     ],
     "fpo": [
