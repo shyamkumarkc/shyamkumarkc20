@@ -30,6 +30,10 @@ th, td {
 tr:nth-child(even) {
     background-color: #f2f2f2
 }
+		canvas {
+      max-width: 700px;
+      margin: 20px auto;
+      display: block;
 </style>
 	
 <label for="sectorFilter">Select Sector:</label>
@@ -102,6 +106,69 @@ tr:nth-child(even) {
             });
         }
     </script>
+	<canvas id="sectorChart"></canvas>
+
+  <script>
+    const jsonURL = "https://shyamkumarkc20.com.np/js/meroshare.json"; // Change to your actual URL
+
+    fetch(jsonURL)
+      .then(response => response.json())
+      .then(data => {
+        const sectorData = {};
+
+        data.forEach(company => {
+          const sector = company.Sector;
+          const units = parseInt(company.Units) || 0;
+          if (!sectorData[sector]) {
+            sectorData[sector] = 0;
+          }
+          sectorData[sector] += units;
+        });
+
+        const sectorLabels = Object.keys(sectorData);
+        const sectorUnits = Object.values(sectorData);
+
+        const backgroundColors = [
+          '#4CAF50', '#FF9800', '#2196F3', '#9C27B0', '#00BCD4',
+          '#FF5722', '#607D8B', '#795548', '#E91E63', '#FFC107'
+        ];
+
+        new Chart(document.getElementById('sectorChart'), {
+          type: 'pie',
+          data: {
+            labels: sectorLabels,
+            datasets: [{
+              label: 'Units by Sector',
+              data: sectorUnits,
+              backgroundColor: backgroundColors,
+              borderColor: '#fff',
+              borderWidth: 2
+            }]
+          },
+          options: {
+            responsive: true,
+            plugins: {
+              legend: {
+                position: 'bottom'
+              },
+              tooltip: {
+                callbacks: {
+                  label: function(context) {
+                    const label = context.label || '';
+                    const value = context.parsed || 0;
+                    return `${label}: ${value} units`;
+                  }
+                }
+              }
+            }
+          }
+        });
+      })
+      .catch(error => {
+        console.error("Error loading JSON:", error);
+        document.body.innerHTML += "<p style='color:red;'>Failed to load data.</p>";
+      });
+  </script>
    <script>
 $(function(){
 $('#footer').load('/assets/footer.html');
