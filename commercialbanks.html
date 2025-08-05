@@ -35,6 +35,9 @@ $('#header').load('/assets/header.html');
     #branch { background-color: #90ee90; }
     #ext { background-color: #ffebcd; }
     #blb { background-color: #ffcccb; }
+    #cy { background-color: #ebbccd; }
+    #ly { background-color: #c1ebbc; }
+    #eps { background-color: #add8e6; }
     #shours { background-color: #edf511; }
     #whours { background-color: #ed075b; }
     #shour { background-color: #ebbccd; }
@@ -64,6 +67,11 @@ $('#header').load('/assets/header.html');
       <td id="branch" class="bank-container"></td>
       <td id="ext" class="bank-container"></td>
       <td id="blb" class="bank-container"></td>
+    </tr>
+     <td id="ly" class="bank-container"></td>
+      <td id="cy" class="bank-container"></td>
+      <td id="eps" class="bank-container"></td>
+    <tr>
     </tr>
   </table>
 
@@ -145,6 +153,9 @@ document.getElementById('bankInfo').innerHTML = `<p>${bank.Name || ''}</p>`;
     document.getElementById('branch').innerHTML = `<p>Branches: ${bank.branch || ''}</p>`;
     document.getElementById('ext').innerHTML = `<p>Extension Counters: ${bank.ext || ''}</p>`;
     document.getElementById('blb').innerHTML = `<p>Branchless Banking: ${bank.blb || ''}</p>`;
+    document.getElementById('ly').innerHTML = `<p>Last Year: ${bank.LY || ''}</p>`;
+    document.getElementById('cy').innerHTML = `<p> Current Year: ${bank.CY || ''}</p>`;
+    document.getElementById('eps').innerHTML = `<p> EPS: ${bank.EPS || ''}</p>`;
 
     document.getElementById('bankInfo').innerHTML = `
       ${bank.IMG ? `<img src="${bank.IMG}" alt="${bank.Name} Logo" class="bank-logo" width= "200" height="200">` : ''}
