@@ -74,9 +74,10 @@
 	"branch": "256",
 	"Customer": "4.7 M",
 	"ext": "98",
-	"blb": ""
+	"blb": "",
 	"LY": "",
 	"CY": "",
+	"EPS": ""
 	},
   {
     "SNO": 3,
@@ -623,8 +624,9 @@
 	"branch": "360",
 	"ext": "116",
 	"blb": "42",
-	"LY": "",
-	"CY": "",
+	"LY": "4.44 M",
+	"CY": "1.38 M",
+	"EPS": "9.26",
 	"app": "MoBank",
 	"fax": "",
 	"merger": "a. Bank of Asia Limited",
