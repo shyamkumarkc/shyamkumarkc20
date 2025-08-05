@@ -942,7 +942,7 @@
         },
 		{
             "company": "Nepal Tea Development Corporation Limited (NTDC)",
-            "units": "600,000",
+            "units": "600,000.00",
             "price": "100.00",
             "openingDate": "",
             "closingDate": "",
@@ -952,7 +952,7 @@
         },
 		{
             "company": "Hotel Sarathi Limited",
-            "units": "1,500,000",
+            "units": "1,500,000.00",
             "price": "100.00",
             "openingDate": "",
             "closingDate": "",
@@ -963,7 +963,7 @@
 		
 		{
             "company": "HAMS Hospital",
-            "units": "1,125,000",
+            "units": "1,125,000.00",
             "price": "288.00",
             "openingDate": "",
             "closingDate": "",
@@ -973,7 +973,7 @@
         },
 		{
             "company": "Riddhisiddhi Cement Limited",
-            "units": "12,171,500 ",
+            "units": "12,171,500.00",
             "price": "214.10",
             "openingDate": "",
             "closingDate": "",
@@ -983,7 +983,7 @@
         },
 		{
             "company": "Bhugarva Cement Limited",
-            "units": "1,262,500",
+            "units": "1,262,500.00",
             "price": "100.00",
             "openingDate": "",
             "closingDate": "",
@@ -993,7 +993,7 @@
         },
 		{
             "company": "Laxmi Technoplast Limited",
-            "units": "1,000,000",
+            "units": "1,000,000.00",
             "price": "100.00",
             "openingDate": "",
             "closingDate": "",
@@ -1013,7 +1013,7 @@
         },
 		{
             "company": "Vision Energy & Power Limited",
-            "units": "8,300,000",
+            "units": "8,300,000.00",
             "price": "100.00",
             "openingDate": "",
             "closingDate": "",
@@ -1023,7 +1023,7 @@
         },
 		{
             "company": "White Lotus Power Company",
-            "units": "1,219,000",
+            "units": "1,219,000.00",
             "price": "100.00",
             "openingDate": "",
             "closingDate": "",
@@ -1103,7 +1103,7 @@
         },
 		{
             "company": "North Summit Hydro Limited ",
-            "units": "3,840,000",
+            "units": "3,840,000.00",
             "price": "100.00",
             "openingDate": "",
             "closingDate": "",
@@ -1320,8 +1320,8 @@
             "company": "Sagar Distillery Limited",
             "units": "145,200.00",
             "price": "100.00",
-            "openingDate": " ",
-            "closingDate": " ",
+            "openingDate": "2025-08-13",
+            "closingDate": "2025-08-17",
             "lastClosingDate": " ",
             "issueManager": "Muktinath Capital Limited"
         },
