@@ -1162,8 +1162,8 @@
             "units": "5,358,150.00",
             "price": "100.00",
             "openingDate": "2025-07-15",
-            "closingDate": "2025-08-04",
-            "lastClosingDate": "",
+            "closingDate": "2025-08-15",
+            "lastClosingDate": "2025-08-15",
             "listingDate": "",
             "issueManager": "RBB Merchant Banking Limited"
         },
@@ -1292,6 +1292,26 @@
             "lastClosingDate": "2025-06-20",
             "listingDate": "",
             "issueManager": "Prabhu Capital Limited"
+        },
+		{
+            "company": "NI 31",
+            "units": "25,000,000.00",
+            "price": "10.00",
+            "openingDate": "2025-08-15",
+            "closingDate": "2025-08-29",
+            "lastClosingDate": "2025-08-29",
+            "listingDate": "",
+            "issueManager": "Nabil Investment Banking Limited"
+        },
+        {
+            "company": "NIC ASIA Equity Linked Investment Scheme",
+            "units": "100,000,000.00",
+            "price": "10.00",
+            "openingDate": "2025-08-14",
+            "closingDate": "2025-08-18",
+            "lastClosingDate": "2025-08-28",
+            "listingDate": "",
+            "issueManager": "NIC Asia Capital Limited"
         }
     ],
     "migrant": [
