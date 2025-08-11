@@ -12,7 +12,7 @@
         },
 		{
             "company": "Shreenagar Agritech Industries Limited",
-            "units": "3,262,500",
+            "units": "3,262,500.00",
             "price": "100.00",
             "openingDate": "",
             "closingDate": "",
@@ -22,7 +22,7 @@
         },
 		{
             "company": "Sagar Distillery Limited",
-            "units": "1,306,800.00",
+            "units": "1,452,000.00",
             "price": "100.00",
             "openingDate": " ",
             "closingDate": " ",
@@ -1119,8 +1119,8 @@
             "units": "6,576,967.76",
             "price": "100.00",
             "openingDate": "2025-07-22",
-            "closingDate": "2025-08-11",
-            "lastClosingDate": "",
+            "closingDate": "2025-08-18",
+            "lastClosingDate": "2025-08-18",
             "listingDate": "",
             "issueManager": "NIMB Ace Capital Limited"
         },
