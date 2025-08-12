@@ -12,8 +12,6 @@
     });
   </script>
   <style>
-    
-
     h1 {
       text-align: center;
       color: #1b5e20;
@@ -110,9 +108,22 @@
 
   <script>
     const icons = {
-      last: (color) => `<svg class="icon" style="fill:${color}" viewBox="0 0 24 24"><path d="M3 3v18h18v-2H5V3H3z"/></svg>`,
-      current: (color) => `<svg class="icon" style="fill:${color}" viewBox="0 0 24 24"><path d="M4 4v16h16V4H4zm14 14H6V6h12v12z"/><path d="M9 14l2.5-3.01L13 13l3.5-4.51L20 12v4h-2v-2.59l-1.5-1.5L13 15l-2.5-3L9 14z"/></svg>`,
-      eps: (color) => `<svg class="icon" style="fill:${color}" viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zM5 11V6.3l7-3.11 7 3.11V11c0 4.42-3.17 8.59-7 9.93C8.17 19.59 5 15.42 5 11z"/><path d="M12 6a5 5 0 100 10 5 5 0 000-10z"/></svg>`
+      last: (color) => `
+        <svg class="icon" style="fill:${color}" viewBox="0 0 24 24">
+          <path d="M12 2a10 10 0 100 20 10 10 0 000-20zM7 11h10v2H7v-2z"/>
+        </svg>`,
+      current: (color) => `
+        <svg class="icon" style="fill:${color}" viewBox="0 0 24 24">
+          <path d="M3 17l6-6 4 4 8-8 1.5 1.5L13 18l-4-4-6 6z"/>
+        </svg>`,
+      eps: (color) => `
+        <svg class="icon" style="fill:${color}" viewBox="0 0 24 24">
+          <path d="M12 2L2 7v7c0 5 3.6 9.27 8.5 10 4.9-.73 8.5-5 8.5-10V7l-10-5zM12 12a3 3 0 110-6 3 3 0 010 6z"/>
+        </svg>`,
+      networth: (color) => `
+        <svg class="icon" style="fill:${color}" viewBox="0 0 24 24">
+          <path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3zM3 13v5h6v-3h6v3h6v-5l-9 4.91L3 13z"/>
+        </svg>`
     };
 
     fetch("https://shyamkumarkc20.com.np/js/commercialbanks.json")
@@ -122,10 +133,9 @@
 
         data.forEach(bank => {
           if (bank.LY && bank.CY) {
-            // Determine profit change color
-            let profitColor = "#888"; // default gray
-            if (parseFloat(bank.CY) > parseFloat(bank.LY)) profitColor = "#2e7d32"; // green up
-            else if (parseFloat(bank.CY) < parseFloat(bank.LY)) profitColor = "#c62828"; // red down
+            let profitColor = "#888"; 
+            if (parseFloat(bank.CY) > parseFloat(bank.LY)) profitColor = "#2e7d32"; 
+            else if (parseFloat(bank.CY) < parseFloat(bank.LY)) profitColor = "#c62828"; 
 
             const card = document.createElement("div");
             card.className = "bank-card";
@@ -139,7 +149,7 @@
                 <div class="profit">${icons.last("#555")} Last Year Profit: ${bank.LY}</div>
                 <div class="profit">${icons.current(profitColor)} Current Year Profit: ${bank.CY}</div>
                 <div class="profit">${icons.eps("#f9a825")} Current Year EPS: Rs. ${bank.EPS}</div>
-                <div class="profit">${icons.eps("#f9a825")} Net Worth PS: Rs. ${bank.BV}</div>
+                <div class="profit">${icons.networth("#1976d2")} Net Worth PS: Rs. ${bank.BV}</div>
               </div>
             `;
 
