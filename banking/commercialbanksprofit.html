@@ -105,7 +105,6 @@
 </head>
 <body>
   <div id="header"></div>
-<body1>
   <h1>Profit of Commercial Banks</h1>
   <div id="banks" class="bank-container"></div>
 
@@ -140,6 +139,7 @@
                 <div class="profit">${icons.last("#555")} Last Year Profit: ${bank.LY}</div>
                 <div class="profit">${icons.current(profitColor)} Current Year Profit: ${bank.CY}</div>
                 <div class="profit">${icons.eps("#f9a825")} Current Year EPS: Rs. ${bank.EPS}</div>
+                <div class="profit">${icons.eps("#f9a825")} Net Worth: Rs. ${bank.BV}</div>
               </div>
             `;
 
@@ -152,12 +152,12 @@
         document.getElementById("banks").innerHTML = "<p style='color:red;'>Failed to load bank data.</p>";
       });
   </script>
-</body>
+
   <div id="footer"></div>
   <script>
     $(function () {
       $('#footer').load('/assets/footer.html');
     });
   </script>
-</body1>
+</body>
 </html>
