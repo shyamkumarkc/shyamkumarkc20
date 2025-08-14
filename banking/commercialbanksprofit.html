@@ -3,9 +3,7 @@
 <head>
   <title>Profit of Commercial Bank</title>
   <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
   <script>
     $(function () {
       $('#header').load('/assets/header.html');
@@ -15,17 +13,27 @@
     h1 {
       text-align: center;
       color: #1b5e20;
-      margin-bottom: 25px;
+      margin-bottom: 15px;
       font-size: 2rem;
       text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
     }
 
+    .view-selector {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .view-selector select {
+      padding: 6px 12px;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+
+    /* Card View */
     .bank-container {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
       gap: 20px;
     }
-
     .bank-card {
       background: white;
       border-radius: 15px;
@@ -34,12 +42,10 @@
       transition: transform 0.3s ease, box-shadow 0.3s ease;
       animation: fadeIn 0.6s ease forwards;
     }
-
     .bank-card:hover {
       transform: translateY(-8px);
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
     }
-
     .bank-header {
       background: linear-gradient(135deg, #43a047, #66bb6a);
       color: white;
@@ -52,18 +58,15 @@
       justify-content: center;
       gap: 8px;
     }
-
     .bank-logo {
       border-radius: 50%;
       background: white;
       padding: 2px;
     }
-
     .bank-body {
       padding: 15px;
       text-align: center;
     }
-
     .profit {
       font-size: 1rem;
       background: #e8f5e9;
@@ -76,7 +79,6 @@
       box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.05);
       animation: popIn 0.5s ease;
     }
-
     .icon {
       width: 18px;
       height: 18px;
@@ -84,17 +86,42 @@
       animation: bounce 2s infinite ease-in-out;
     }
 
+    /* Table View */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    th, td {
+      padding: 10px;
+      text-align: center;
+      border: 1px solid #ddd;
+    }
+    th {
+      background: #43a047;
+      color: white;
+      cursor: pointer;
+      user-select: none;
+    }
+    th.sort-asc::after {
+      content: " ▲";
+      font-size: 0.8rem;
+    }
+    th.sort-desc::after {
+      content: " ▼";
+      font-size: 0.8rem;
+    }
+
     /* Animations */
     @keyframes fadeIn {
       from { opacity: 0; transform: translateY(10px); }
       to { opacity: 1; transform: translateY(0); }
     }
-
     @keyframes bounce {
       0%, 100% { transform: translateY(0); }
       50% { transform: translateY(-3px); }
     }
-
     @keyframes popIn {
       from { transform: scale(0.9); opacity: 0; }
       to { transform: scale(1); opacity: 1; }
@@ -104,63 +131,146 @@
 <body>
   <div id="header"></div>
   <h1>Profit of Commercial Banks</h1>
+
+  <div class="view-selector">
+    <label for="view"> </label>
+    <select id="view">
+      <option value="cards" selected>Card View</option>
+      <option value="table">Table View</option>
+    </select>
+  </div>
+
   <div id="banks" class="bank-container"></div>
+  <div id="banks-table" style="display:none;"></div>
 
   <script>
     const icons = {
-      last: (color) => `
-        <svg class="icon" style="fill:${color}" viewBox="0 0 24 24">
-          <path d="M12 2a10 10 0 100 20 10 10 0 000-20zM7 11h10v2H7v-2z"/>
-        </svg>`,
-      current: (color) => `
-        <svg class="icon" style="fill:${color}" viewBox="0 0 24 24">
-          <path d="M3 17l6-6 4 4 8-8 1.5 1.5L13 18l-4-4-6 6z"/>
-        </svg>`,
-      eps: (color) => `
-        <svg class="icon" style="fill:${color}" viewBox="0 0 24 24">
-          <path d="M12 2L2 7v7c0 5 3.6 9.27 8.5 10 4.9-.73 8.5-5 8.5-10V7l-10-5zM12 12a3 3 0 110-6 3 3 0 010 6z"/>
-        </svg>`,
-      networth: (color) => `
-        <svg class="icon" style="fill:${color}" viewBox="0 0 24 24">
-          <path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3zM3 13v5h6v-3h6v3h6v-5l-9 4.91L3 13z"/>
-        </svg>`
+      last: (color) => `<svg class="icon" style="fill:${color}" viewBox="0 0 24 24">
+          <path d="M12 2a10 10 0 100 20 10 10 0 000-20zM7 11h10v2H7v-2z"/></svg>`,
+      current: (color) => `<svg class="icon" style="fill:${color}" viewBox="0 0 24 24">
+          <path d="M3 17l6-6 4 4 8-8 1.5 1.5L13 18l-4-4-6 6z"/></svg>`,
+      eps: (color) => `<svg class="icon" style="fill:${color}" viewBox="0 0 24 24">
+          <path d="M12 2L2 7v7c0 5 3.6 9.27 8.5 10 4.9-.73 8.5-5 8.5-10V7l-10-5zM12 12a3 3 0 110-6 3 3 0 010 6z"/></svg>`,
+      networth: (color) => `<svg class="icon" style="fill:${color}" viewBox="0 0 24 24">
+          <path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3zM3 13v5h6v-3h6v3h6v-5l-9 4.91L3 13z"/></svg>`
     };
+
+    let bankData = [];
 
     fetch("https://shyamkumarkc20.com.np/js/commercialbanks.json")
       .then(response => response.json())
       .then(data => {
-        const container = document.getElementById("banks");
-
-        data.forEach(bank => {
-          if (bank.LY && bank.CY) {
-            let profitColor = "#888"; 
-            if (parseFloat(bank.CY) > parseFloat(bank.LY)) profitColor = "#2e7d32"; 
-            else if (parseFloat(bank.CY) < parseFloat(bank.LY)) profitColor = "#c62828"; 
-
-            const card = document.createElement("div");
-            card.className = "bank-card";
-
-            card.innerHTML = `
-              <div class="bank-header">
-                ${bank.Name}  
-                <img src="${bank.IMG}" alt="${bank.Name} Logo" class="bank-logo" width="35" height="35">
-              </div>
-              <div class="bank-body">
-                <div class="profit">${icons.last("#555")} Last Year Profit: ${bank.LY}</div>
-                <div class="profit">${icons.current(profitColor)} Current Year Profit: ${bank.CY}</div>
-                <div class="profit">${icons.eps("#f9a825")} Current Year EPS: Rs. ${bank.EPS}</div>
-                <div class="profit">${icons.networth("#1976d2")} Net Worth PS: Rs. ${bank.BV}</div>
-              </div>
-            `;
-
-            container.appendChild(card);
-          }
-        });
+        bankData = data;
+        renderViews(data);
       })
       .catch(err => {
         console.error("Error fetching bank data:", err);
         document.getElementById("banks").innerHTML = "<p style='color:red;'>Failed to load bank data.</p>";
       });
+
+    function renderViews(data) {
+      const container = document.getElementById("banks");
+      const tableContainer = document.getElementById("banks-table");
+      container.innerHTML = "";
+
+      let tableHTML = `<table id="bankTable">
+        <thead>
+          <tr>
+            <th data-type="string">Bank Name</th>
+            <th data-type="number">Last Year Profit</th>
+            <th data-type="number">Current Year Profit</th>
+            <th data-type="number">EPS</th>
+            <th data-type="number">Book Value</th>
+          </tr>
+        </thead>
+        <tbody>`;
+
+      data.forEach(bank => {
+        if (bank.LY && bank.CY) {
+          let profitColor = "#888"; 
+          if (parseFloat(bank.CY) > parseFloat(bank.LY)) profitColor = "#2e7d32"; 
+          else if (parseFloat(bank.CY) < parseFloat(bank.LY)) profitColor = "#c62828"; 
+
+          // Card View
+          const card = document.createElement("div");
+          card.className = "bank-card";
+          card.innerHTML = `
+            <div class="bank-header">
+              ${bank.Name}  
+              <img src="${bank.IMG}" alt="${bank.Name} Logo" class="bank-logo" width="35" height="35">
+            </div>
+            <div class="bank-body">
+              <div class="profit">${icons.last("#555")} Last Year Profit: ${bank.LY}</div>
+              <div class="profit">${icons.current(profitColor)} Current Year Profit: ${bank.CY}</div>
+              <div class="profit">${icons.eps("#f9a825")} Current Year EPS: Rs. ${bank.EPS}</div>
+              <div class="profit">${icons.networth("#1976d2")} Net Worth PS: Rs. ${bank.BV}</div>
+            </div>`;
+          container.appendChild(card);
+
+          // Table View Row
+          tableHTML += `
+            <tr>
+              <td>${bank.Name}</td>
+              <td>${bank.LY}</td>
+              <td style="color:${profitColor};">${bank.CY}</td>
+              <td>${bank.EPS}</td>
+              <td>${bank.BV}</td>
+            </tr>`;
+        }
+      });
+
+      tableHTML += `</tbody></table>`;
+      tableContainer.innerHTML = tableHTML;
+
+      makeTableSortable();
+    }
+
+    // Sorting function
+    function makeTableSortable() {
+      const table = document.getElementById("bankTable");
+      const headers = table.querySelectorAll("th");
+
+      headers.forEach((header, index) => {
+        header.addEventListener("click", () => {
+          const tableBody = table.querySelector("tbody");
+          const rows = Array.from(tableBody.querySelectorAll("tr"));
+          const type = header.getAttribute("data-type");
+          const isAsc = !header.classList.contains("sort-asc");
+
+          headers.forEach(h => h.classList.remove("sort-asc", "sort-desc"));
+          header.classList.add(isAsc ? "sort-asc" : "sort-desc");
+
+          rows.sort((a, b) => {
+            let aText = a.children[index].innerText.replace(/[^\d.-]/g, "");
+            let bText = b.children[index].innerText.replace(/[^\d.-]/g, "");
+
+            if (type === "number") {
+              aText = parseFloat(aText) || 0;
+              bText = parseFloat(bText) || 0;
+            }
+
+            if (aText < bText) return isAsc ? -1 : 1;
+            if (aText > bText) return isAsc ? 1 : -1;
+            return 0;
+          });
+
+          rows.forEach(row => tableBody.appendChild(row));
+        });
+      });
+    }
+
+    // View Toggle
+    document.getElementById("view").addEventListener("change", function() {
+      const container = document.getElementById("banks");
+      const tableContainer = document.getElementById("banks-table");
+      if (this.value === "cards") {
+        container.style.display = "grid";
+        tableContainer.style.display = "none";
+      } else {
+        container.style.display = "none";
+        tableContainer.style.display = "block";
+      }
+    });
   </script>
 
   <div id="footer"></div>
