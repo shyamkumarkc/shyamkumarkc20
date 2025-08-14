@@ -279,7 +279,7 @@
 	"subsidiaries": "a. Garima Capital Limited",
 	"shours": "Sunday to Thursday 9:30 AM - 4:30 PM</br>Friday 9:30 AM - 2:30 PM",
 	"whours": "Sunday to Thursday 9:30 AM - 4:00 PM</br>Friday 9:30 AM - 2:30 PM",
-	"desc": "Garima Bikas Bank Limited, a National Level Development Bank previously headquartered at Waling, Syangja, commenced its commercial operations on the 18th of Kartik, 2064 and the formal inauguration took place on the 7th of Marg, 2064. The bank, which initially started its banking transactions with a paid-up capital of only NPR 26.5 million, had covered three districts i.e Syangja, Palpa, and Kaski as a Regional Level Development Bank. On the 20th of Chaitra, 2068, its business coverage area was expanded to 10 districts.<br/>Garima Bikas Bank, with a commitment to "Access to All," overcame limited business coverage and service distribution challenges by strategically becoming a National Level Development Bank. Through mergers with erstwhile Nilgiri Bikas Bank Limited on 29th of Asadh 2072 and erstwhile Subekshya Bikas Bank Limited on 4th of Ashwin 2073, the bank strengthened its capital base, expanded branch locations, and improved overall operations. The recent acquisition of Sahara Bikas Bank Limited on 28th of Kartik 2078 further enhances our presence in Province 2. As a result, Garima Bikas Bank has transformed into a robust financial institution, offering a wide range of banking services to a larger customer base and ensuring accessible and reliable banking services across Nepal."
+	"desc": "Garima Bikas Bank Limited, a National Level Development Bank previously headquartered at Waling, Syangja, commenced its commercial operations on the 18th of Kartik, 2064 and the formal inauguration took place on the 7th of Marg, 2064. The bank, which initially started its banking transactions with a paid-up capital of only NPR 26.5 million, had covered three districts i.e Syangja, Palpa, and Kaski as a Regional Level Development Bank. On the 20th of Chaitra, 2068, its business coverage area was expanded to 10 districts.<br/>Garima Bikas Bank, with a commitment to 'Access to All,' overcame limited business coverage and service distribution challenges by strategically becoming a National Level Development Bank. Through mergers with erstwhile Nilgiri Bikas Bank Limited on 29th of Asadh 2072 and erstwhile Subekshya Bikas Bank Limited on 4th of Ashwin 2073, the bank strengthened its capital base, expanded branch locations, and improved overall operations. The recent acquisition of Sahara Bikas Bank Limited on 28th of Kartik 2078 further enhances our presence in Province 2. As a result, Garima Bikas Bank has transformed into a robust financial institution, offering a wide range of banking services to a larger customer base and ensuring accessible and reliable banking services across Nepal."
 	
   },
 	{
@@ -304,15 +304,19 @@
 	"email": "customercare@kamanasewabank.com",
 	"pobox": "0",
 	"ceo": "Dinesh Thakali",
-	"chairman": "",
+	"ceoimg": "https://kamanasewabank.com/_next/image/?url=https%3A%2F%2Fbackend.kamanasewabank.com%2Fstorage%2Fteam%2F2023%2F05%2Funtitled-design-7_1685252174.jpg&w=640&q=75",
+	"chairman": "Sudeep Acharya",
+	"chairmanimg": "https://kamanasewabank.com/_next/image/?url=https%3A%2F%2Fbackend.kamanasewabank.com%2Fstorage%2Fteam%2F2023%2F05%2Funtitled-design-15_1684667917.png&w=640&q=75",
 	"merger": "a. Kaski Finance<br/>b. Sewa Bikas Bank",
-	"ATM": "",
+	"ATM": "72",
 	"branch": "131",
 	"ext": "",
-	"blb": "8",
+	"blb": "4",
 	"LY": "63.52",
 	"subsidiaries": "",
-	"desc": ""
+	"shours": "Sunday to Thursday 9:45 AM - 4:30 PM</br>Friday 9:45 AM - 2:00 PM",
+	"whours": "Sunday to Thursday 9:45 AM - 3:30 PM</br>Friday 9:45 AM - 2:00 PM",
+	"desc": "Kamana Sewa Bikas Bank Limited is a National level development bank promoted by highly prominent business personalities/ groups and reputed individuals of the region who have excelled in their field of business/profession with very good integrity and social standings. Under the guidance of reputed Board of Directors and professional and dynamic management team having extensive experience with proven track-record in the banking industry, Kamana Sewa Bank is committed to offer a wide range of banking products and services tailored with the state-of-the-art technology to meet the unique requirements of all the customer/clients and thereby delight them by exceeding their expectations."
 	
   },
 	{
