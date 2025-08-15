@@ -75,14 +75,14 @@
 	"desc": "Rastriya Banijya Bank Limited (RBBL) has a history of serving its customers far and wide across the nation for more than half a century. The bank then fully owned by Government of Nepal, was established on 10 Magh 2022 (23 January 1966) under the special statute 'Rastriya Banijya Bank Act, 2021' and had operated under 'Commercial Bank Act,2031' until it was re-registered as public limited company on 6 Baishak 2063 (19 May 2006). At present, the Bank operates as 'A' class financial institution licensed by Nepal Rastra Bank and carries out commercial banking activities as per the provisions of the Bank and Financial Institutions Act 2073 (2017).<br/> <br/>RBBL stands as one of the most preferred bank with the highest number of customers all 77 districts and 7 provinces of the country. The Bank has been able to imprint its presence in national economy through efficient allocation of resources in all sectors of economy thereby enhancing production and generating employment opportunities within the country. The unflinching faith and goodwill bestowed by our customers continued support from the Government, well wishers and general public has been the reason for us to stand as the most trusted bank in the country.",
 	"ATM": "250",
 	"branch": "256",
-	"profit": {"2076/077": 0, "2077/078": 0, "2078/079": 0, "2079/080": 1.77, "2080/081": 3.81  },
+	"profit": {"2076/077": 0, "2077/078": 0, "2078/079": 0, "2079/080": 4.18, "2080/081": 5.45  },
 	"Customer": "4.7 M",
 	"ext": "98",
 	"blb": "",
-	"LY": "1.77 B",
-	"CY": "3.81 B",
-	"EPS": "",
-	"BV": ""
+	"LY": "4.18 B",
+	"CY": "5.45 B",
+	"EPS": "34.87",
+	"BV": "341.59"
 	},
   {
     "SNO": 3,
