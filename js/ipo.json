@@ -958,7 +958,7 @@
             "closingDate": "",
             "lastClosingDate": "",
             "listingDate": "",
-            "issueManager": " Citizens Capital Limited "
+            "issueManager": "Citizens Capital Limited "
         },
 		
 		{
@@ -989,7 +989,7 @@
             "closingDate": "",
             "lastClosingDate": "",
             "listingDate": "",
-            "issueManager": " Nabil Investment Banking Limited"
+            "issueManager": "Nabil Investment Banking Limited"
         },
 		{
             "company": "Laxmi Technoplast Limited",
@@ -1282,6 +1282,26 @@
             "lastClosingDate": "2025-07-11",
             "listingDate": "",
             "issueManager": "Citizens Capital Limited"
+        },
+		{
+            "company": "RBB Focus 40",
+            "units": "100,000,000.00",
+            "price": "10.00",
+            "openingDate": "2025-09-03",
+            "closingDate": "2025-09-07",
+            "lastClosingDate": "2025-09-17",
+            "listingDate": "",
+            "issueManager": "RBB Merchant Banking Limited"
+        },
+		{
+            "company": "HLI Large Cap Fund",
+            "units": "400,000,000.00",
+            "price": "10.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Himalayan Investment Banker Limited"
         },
         {
             "company": "Global IME Samunnat Yojana -II",
