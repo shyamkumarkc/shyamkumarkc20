@@ -455,15 +455,7 @@
             "lastClosingDate": " ",
             "issueManager": "Muktinath Capital Limited"
         },
-        {
-            "company": "Shivam Holdings Limited",
-            "units": "11,600,000.00",
-            "price": "100.00",
-            "openingDate": " ",
-            "closingDate": " ",
-            "lastClosingDate": " ",
-            "issueManager": "Siddhartha Capital Limited"
-        },
+        
         {
             "company": "Business Interest Group of Industries Limited",
             "units": "4,500,000.00",
@@ -1191,9 +1183,9 @@
             "company": "Shiva Shree Hydropower Limited",
             "units": "14,764,000.00",
             "price": "100.00",
-            "openingDate": "",
-            "closingDate": "",
-            "lastClosingDate": "",
+            "openingDate": "2025-09-04",
+            "closingDate": "2025-09-24",
+            "lastClosingDate": "2025-09-24",
             "listingDate": "",
             "issueManager": "Citizens Capital Limited"
         },
