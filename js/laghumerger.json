@@ -55,8 +55,20 @@
     },
   {
         "SNo": "",
-        "Name": "",
-        "BFI": "",
+        "Name": "Nerude Mirmire Laghubitta Bittiya Sanstha Limited",
+        "BFI": "Nerude Laghubitta Bittiya Sanstha Limited and Mirmire Laghubitta Bittiya Sanstha Limited",
+        "Merger": ""
+    },
+  {
+        "SNo": "",
+        "Name": "Samudayik Laghubitta Bittiya Sanstha Limited",
+        "BFI": "Samudayik Laghubitta Bittiya Sanstha Limited and BPW Laghubitta Bittiya Sanstha Limited",
+        "Merger": ""
+    },
+  {
+        "SNo": "",
+        "Name": "Vijaya Laghubitta Bittiya Sanstha Limited",
+        "BFI": "Naya Sarathi Laghubitta Bittiya Sanstha Limited and Vijaya Laghubitta Bittiya Sanstha Limited",
         "Merger": ""
     },
   {
@@ -84,6 +96,17 @@
         "Merger": ""
     },
   {
+        "SNo": "",
+        "Name": "",
+        "BFI": "",
+        "Merger": ""
+    },
+  {
+        "SNo": "",
+        "Name": "",
+        "BFI": "",
+        "Merger": ""
+    },{
         "SNo": "",
         "Name": "",
         "BFI": "",
