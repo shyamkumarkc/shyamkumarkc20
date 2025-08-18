@@ -3,204 +3,117 @@
 <head>
   <title>Commercial Banks In Nepal</title>
   <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
   <script>
     $(function () {
       $('#header').load('/assets/header.html');
     });
   </script>
-
   <style>
     body1 {
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      margin: 0;
-      background: #f5f7fa;
-      color: #333;
+      padding-left: 20px;
     }
-
-    /* Header + Footer */
-    #header, #footer {
-      background: linear-gradient(90deg, #0f62fe, #42a5f5);
-      color: #fff;
-      text-align: center;
-      padding: 15px;
-      font-size: 20px;
-      font-weight: bold;
-      letter-spacing: 1px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-    }
-
-    .container {
-      max-width: 1100px;
-      margin: auto;
-      padding: 20px;
-    }
-
-    /* Dropdown */
-    #nameDropdown {
-      padding: 10px 15px;
-      border-radius: 6px;
-      border: 1px solid #ccc;
-      font-size: 16px;
-      margin-bottom: 20px;
-      background: #fff;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    }
-
-    /* Overview Cards */
-    .stats-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-      gap: 15px;
-      margin: 20px 0;
-    }
-
-    .stat-card {
-      background: #fff;
-      padding: 15px;
-      border-radius: 12px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-      text-align: center;
-      transition: 0.3s ease;
-    }
-
-    .stat-card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    }
-
-    .stat-card h3 {
-      margin: 5px 0;
-      font-size: 16px;
-      font-weight: 600;
-      color: #555;
-    }
-
-    .stat-card p {
-      font-size: 18px;
-      font-weight: bold;
-      color: #0f62fe;
-    }
-
-    /* Bank Info Section */
-    .bank-info {
-      background: #fff;
-      border-radius: 12px;
-      padding: 20px;
-      margin: 20px 0;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    }
-
-    .bank-logo {
-      display: block;
-      margin: 10px auto;
-      max-height: 120px;
-      object-fit: contain;
-    }
-
-    .bank-info p {
-      margin: 6px 0;
-      font-size: 15px;
-    }
-
-    .bank-info a {
-      color: #0f62fe;
-      text-decoration: none;
-    }
-    .bank-info a:hover {
-      text-decoration: underline;
-    }
-
-    /* Section Titles */
-    h2 {
-      margin-top: 30px;
-      font-size: 20px;
-      color: #0f62fe;
-      border-left: 5px solid #42a5f5;
-      padding-left: 10px;
-    }
-
-    /* Chart */
-    #profitChart {
-      background: #fff;
-      border-radius: 12px;
-      padding: 15px;
-      margin-top: 15px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    }
-
-    /* Hours Table */
-    .hours-table {
-      width: 100%;
-      margin-top: 10px;
+    table {
+      padding-left: 20px;
       border-collapse: collapse;
     }
-    .hours-table td {
-      padding: 10px;
-      border: 1px solid #ddd;
+    td {
+      padding: 12px;
+      border: 1px solid #ccc;
       text-align: center;
+      font-size: 14px;
       font-weight: bold;
     }
-    .hours-table tr:first-child td {
-      background: #f0f0f0;
-      color: #333;
+    td i {
+      display: block;
+      margin-bottom: 5px;
+      font-size: 20px;
+    }
+    #paidup { background-color: #d958db; }
+    #customer { background-color: #11aee5; }
+    #atm { background-color: #add8e6; }
+    #branch { background-color: #90ee90; }
+    #ext { background-color: #ffebcd; }
+    #blb { background-color: #ffcccb; }
+    #cy { background-color: #ebbccd; }
+    #ly { background-color: #c1ebbc; }
+    #eps { background-color: #add8e6; }
+    #shours { background-color: #edf511; }
+    #whours { background-color: #ed075b; }
+    #shour { background-color: #ebbccd; }
+    #whour { background-color: #c1ebbc; }
+    section {
+      width: 100%;
+      max-width: 600px;
+      padding-left: 20px;
     }
   </style>
 </head>
 
 <body>
-  
-<body1>
-  <div class="container">
+  <div id="header"></div>
+
+  <body1>
     <select id="nameDropdown" onchange="showDetails()"></select>
 
-    <div id="bankInfo2"></div>
-    <div id="bankInfo1" class="bank-info"></div>
+    <div id="bankInfo2" class="bank-container" style="margin-top: 20px;"></div>
+    <div id="bankInfo1" class="bank-container" style="margin-top: 20px;"></div>
 
-    <div class="stats-grid">
-      <div id="paidup" class="stat-card"></div>
-      <div id="customer" class="stat-card"></div>
-      <div id="atm" class="stat-card"></div>
-      <div id="branch" class="stat-card"></div>
-      <div id="ext" class="stat-card"></div>
-      <div id="blb" class="stat-card"></div>
-      <div id="ly" class="stat-card"></div>
-      <div id="cy" class="stat-card"></div>
-      <div id="eps" class="stat-card"></div>
-    </div>
-
-    <h2 id="detail"></h2>
-    <div id="bankInfo" class="bank-info"></div>
-
-    <h2>Merged BFIs</h2>
-    <div id="subInfo1" class="bank-info"></div>
-
-    <h2>First In Nepal</h2>
-    <div id="first" class="bank-info"></div>
-
-    <h2>Awards</h2>
-    <div id="subInfo2" class="bank-info"></div>
-
-    <h2>Subsidiary Companies</h2>
-    <div id="subInfo" class="bank-info"></div>
-
-    <h2>Profit Chart</h2>
-    <canvas id="profitChart"></canvas>
-
-    <h2>Business Hours</h2>
-    <table class="hours-table">
+    <table>
+      <tr><td id="over" colspan="3" style="background-color: #ffca33;"></td></tr>
       <tr>
-        <td colspan="3">Summer Hour</td>
-        <td colspan="3">Winter Hour</td>
+        <td id="paidup" class="bank-container"><i class="fa-solid fa-piggy-bank"></i></td>
+        <td id="customer" class="bank-container"><i class="fa-solid fa-users"></i></td>
+        <td id="atm" class="bank-container"><i class="fa-solid fa-credit-card"></i></td>
       </tr>
       <tr>
-        <td id="shours" colspan="3"></td>
-        <td id="whours" colspan="3"></td>
+        <td id="branch" class="bank-container"><i class="fa-solid fa-building"></i></td>
+        <td id="ext" class="bank-container"><i class="fa-solid fa-house-flag"></i></td>
+        <td id="blb" class="bank-container"><i class="fa-solid fa-wifi"></i></td>
+      </tr>
+      <tr>
+        <td id="ly" class="bank-container"><i class="fa-solid fa-chart-line"></i></td>
+        <td id="cy" class="bank-container"><i class="fa-solid fa-chart-column"></i></td>
+        <td id="eps" class="bank-container"><i class="fa-solid fa-coins"></i></td>
       </tr>
     </table>
-  </div>
+
+    <br>
+    <section>
+      <h2 id="detail"></h2>
+      <div id="bankInfo" class="bank-container"></div>
+
+      <h2>Merged BFIs</h2>
+      <div id="subInfo1" class="bank-container"></div>
+
+      <h2>First In Nepal</h2>
+      <div id="first" class="bank-container"></div>
+
+      <h2>Awards</h2>
+      <div id="subInfo2" class="bank-container"></div>
+
+      <h2>Subsidiary Companies</h2>
+      <div id="subInfo" class="bank-container"></div>
+
+      <h2>Profit Chart</h2>
+      <canvas id="profitChart" width="600" height="400"></canvas>
+
+      <h2>Business Hours</h2>
+      <table>
+        <tr>
+          <td id="shour" colspan="3"><b>Summer Hour</b></td>
+          <td id="whour" colspan="3">Winter Hour</td>
+        </tr>
+        <tr>
+          <td id="shours" colspan="3"></td>
+          <td id="whours" colspan="3"></td>
+        </tr>
+      </table>
+    </section>
+  </body1>
 
   <script>
     const apiUrl = 'https://shyamkumarkc20.com.np/js/commercialbanks.json';
@@ -249,8 +162,8 @@
           datasets: [{
             label: 'Profit (in Billion NPR)',
             data: profits,
-            backgroundColor: ['#42a5f5', '#66bb6a', '#ffa726', '#ab47bc', '#ef5350'],
-            borderRadius: 8
+            backgroundColor: ['#4caf50', '#2196f3', '#ff9800', '#9c27b0', '#f44336'],
+            borderRadius: 6
           }]
         },
         options: {
@@ -266,7 +179,10 @@
           scales: {
             y: {
               beginAtZero: true,
-              title: { display: true, text: 'Profit (Billion NPR)' }
+              title: {
+                display: true,
+                text: 'Profit (Billion NPR)'
+              }
             }
           }
         }
@@ -279,21 +195,22 @@
       if (!bank) return;
 
       document.getElementById('bankInfo2').innerHTML = `<h2>${bank.Name || ''}</h2>`;
-      document.getElementById('detail').innerHTML = `${bank.Name || ''} Details`;
+      document.getElementById('over').innerHTML = `<p>Small Overview of ${bank.Name || ''}</p>`;
+      document.getElementById('detail').innerHTML = `<p>${bank.Name || ''} Details</p>`;
       document.getElementById('bankInfo1').innerHTML = `<p>${bank.desc || ''}</p>`;
 
-      document.getElementById('paidup').innerHTML = `<h3>Paid-up</h3><p>${bank.paidup || ''} B</p>`;
-      document.getElementById('customer').innerHTML = `<h3>Customer</h3><p>${bank.Customer || ''}</p>`;
-      document.getElementById('atm').innerHTML = `<h3>ATM</h3><p>${bank.ATM || ''}</p>`;
-      document.getElementById('branch').innerHTML = `<h3>Branches</h3><p>${bank.branch || ''}</p>`;
-      document.getElementById('ext').innerHTML = `<h3>Extension Counters</h3><p>${bank.ext || ''}</p>`;
-      document.getElementById('blb').innerHTML = `<h3>Branchless Banking</h3><p>${bank.blb || ''}</p>`;
-      document.getElementById('ly').innerHTML = `<h3>Last Year</h3><p>${bank.LY || ''}</p>`;
-      document.getElementById('cy').innerHTML = `<h3>Current Year</h3><p>${bank.CY || ''}</p>`;
-      document.getElementById('eps').innerHTML = `<h3>EPS</h3><p>${bank.EPS || ''}</p>`;
+      document.getElementById('paidup').innerHTML = `<i class="fa-solid fa-piggy-bank"></i><p>Paid-up: ${bank.paidup || ''} B</p>`;
+      document.getElementById('customer').innerHTML = `<i class="fa-solid fa-users"></i><p>Customer: ${bank.Customer || ''}</p>`;
+      document.getElementById('atm').innerHTML = `<i class="fa-solid fa-credit-card"></i><p>ATM: ${bank.ATM || ''}</p>`;
+      document.getElementById('branch').innerHTML = `<i class="fa-solid fa-building"></i><p>Branches: ${bank.branch || ''}</p>`;
+      document.getElementById('ext').innerHTML = `<i class="fa-solid fa-house-flag"></i><p>Extension Counters: ${bank.ext || ''}</p>`;
+      document.getElementById('blb').innerHTML = `<i class="fa-solid fa-wifi"></i><p>Branchless Banking: ${bank.blb || ''}</p>`;
+      document.getElementById('ly').innerHTML = `<i class="fa-solid fa-chart-line"></i><p>Last Year: ${bank.LY || ''}</p>`;
+      document.getElementById('cy').innerHTML = `<i class="fa-solid fa-chart-column"></i><p>Current Year: ${bank.CY || ''}</p>`;
+      document.getElementById('eps').innerHTML = `<i class="fa-solid fa-coins"></i><p>EPS: ${bank.EPS || ''}</p>`;
 
       document.getElementById('bankInfo').innerHTML = `
-        ${bank.IMG ? `<img src="${bank.IMG}" alt="${bank.Name} Logo" class="bank-logo">` : ''}
+        ${bank.IMG ? `<img src="${bank.IMG}" alt="${bank.Name} Logo" class="bank-logo" width="200" height="200">` : ''}
         <p><strong>Name:</strong> ${bank.Name}</p>
         <p><strong>Established:</strong> ${bank.ODAD || ''} [ ${bank.ODBS || ''} ]</p>
         <p><strong>Head Office:</strong> ${bank.HO || ''}</p>
@@ -322,7 +239,13 @@
 
     fetchData();
   </script>
-</body1>
-  <div id="footer">© 2025 Banking Portal Nepal</div>
-    </body>
+
+  <script>
+    $(function () {
+      $('#footer').load('/assets/footer.html');
+    });
+  </script>
+
+  <div id="footer"></div>
+</body>
 </html>
