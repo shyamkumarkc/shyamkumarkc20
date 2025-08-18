@@ -1116,7 +1116,7 @@
     ],
     "rightShare": [
         {
-            "symbol": "",
+            
             "company": "Nepal Insurance Company Limited",
             "units": "6,576,967.76",
             "price": "100.00",
@@ -1136,17 +1136,7 @@
             "listingDate": "",
             "issueManager": "Citizens Capital Limited"
         },
-        {
-            "symbol": "",
-            "company": "People's Power Limited",
-            "units": "3,163,000.00",
-            "price": "100.00",
-            "openingDate": "2025-07-06",
-            "closingDate": "2025-08-11",
-            "lastClosingDate": "2025-08-11",
-            "listingDate": "",
-            "issueManager": "Prabhu Capital Limited"
-        },
+        
 		 {
             "company": "River Falls Power Limited",
             "units": "7,000,000.00",
@@ -1158,17 +1148,7 @@
             "issueManager": "Prabhu Capital Limited"
         },
         
-        {
-            "symbol": "",
-            "company": "Barun Hydropower Company Limited",
-            "units": "5,358,150.00",
-            "price": "100.00",
-            "openingDate": "2025-07-15",
-            "closingDate": "2025-08-15",
-            "lastClosingDate": "2025-08-15",
-            "listingDate": "",
-            "issueManager": "RBB Merchant Banking Limited"
-        },
+       
 		{
             "company": "City Hotel Limited",
             "units": "133,92,000.00",
@@ -1330,7 +1310,7 @@
             "units": "100,000,000.00",
             "price": "10.00",
             "openingDate": "2025-08-14",
-            "closingDate": "2025-08-18",
+            "closingDate": "2025-08-28",
             "lastClosingDate": "2025-08-28",
             "listingDate": "",
             "issueManager": "NIC Asia Capital Limited"
