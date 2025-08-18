@@ -1,273 +1,326 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Upcoming Issue</title>
+  <title>Commercial Banks In Nepal</title>
   <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
   <script>
     $(function () {
       $('#header').load('/assets/header.html');
     });
   </script>
+
   <style>
-    body { font-family: Arial, sans-serif; margin: 20px; }
-    h1 { text-align: center; }
-
-    .tabs {
-      margin-bottom: 20px;
-      display: flex;
-      flex-wrap: wrap;
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background: #f5f7fa;
+      color: #333;
     }
 
-    .tab-button {
-      padding: 8px 16px;
-      border: 1px solid #ccc;
-      background-color: #f0f0f0;
-      cursor: pointer;
-      margin-right: 4px;
-    }
-
-    .tab-button.active {
-      background-color: #333;
+    /* Header + Footer */
+    #header, #footer {
+      background: linear-gradient(90deg, #0f62fe, #42a5f5);
       color: #fff;
+      text-align: center;
+      padding: 15px;
+      font-size: 20px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
     }
 
-    table {
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    /* Dropdown */
+    #nameDropdown {
+      padding: 10px 15px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+      margin-bottom: 20px;
+      background: #fff;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    /* Overview Cards */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 15px;
+      margin: 20px 0;
+    }
+
+    .stat-card {
+      background: #fff;
+      padding: 15px;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+      text-align: center;
+      transition: 0.3s ease;
+    }
+
+    .stat-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    .stat-card h3 {
+      margin: 5px 0;
+      font-size: 16px;
+      font-weight: 600;
+      color: #555;
+    }
+
+    .stat-card p {
+      font-size: 18px;
+      font-weight: bold;
+      color: #0f62fe;
+    }
+
+    /* Bank Info Section */
+    .bank-info {
+      background: #fff;
+      border-radius: 12px;
+      padding: 20px;
+      margin: 20px 0;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .bank-logo {
+      display: block;
+      margin: 10px auto;
+      max-height: 120px;
+      object-fit: contain;
+    }
+
+    .bank-info p {
+      margin: 6px 0;
+      font-size: 15px;
+    }
+
+    .bank-info a {
+      color: #0f62fe;
+      text-decoration: none;
+    }
+    .bank-info a:hover {
+      text-decoration: underline;
+    }
+
+    /* Section Titles */
+    h2 {
+      margin-top: 30px;
+      font-size: 20px;
+      color: #0f62fe;
+      border-left: 5px solid #42a5f5;
+      padding-left: 10px;
+    }
+
+    /* Chart */
+    #profitChart {
+      background: #fff;
+      border-radius: 12px;
+      padding: 15px;
+      margin-top: 15px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    /* Hours Table */
+    .hours-table {
       width: 100%;
+      margin-top: 10px;
       border-collapse: collapse;
-      overflow-x: auto;
     }
-
-    th, td {
+    .hours-table td {
+      padding: 10px;
       border: 1px solid #ddd;
-      padding: 8px;
-      text-align: left;
+      text-align: center;
+      font-weight: bold;
     }
-
-    th { background-color: #f4f4f4; }
-
-    .status-open {
-      background-color: #4CAF50;
-      color: white;
-      padding: 4px 8px;
-      border-radius: 4px;
-    }
-
-    .status-closed {
-      background-color: #f44336;
-      color: white;
-      padding: 4px 8px;
-      border-radius: 4px;
-    }
-
-    .status-coming {
-      background-color: #2196F3;
-      color: white;
-      padding: 4px 8px;
-      border-radius: 4px;
-    }
-
-    .view-btn {
-      background-color: #555;
-      color: white;
-      padding: 4px 8px;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-    }
-
-    @media (max-width: 768px) {
-      table, thead, tbody, th, td, tr { display: block; }
-
-      tr {
-        margin-bottom: 16px;
-        border: 1px solid #ccc;
-        padding: 10px;
-        border-radius: 6px;
-        background: #fff;
-      }
-
-      td {
-        border: none;
-        border-bottom: 1px solid #ddd;
-        position: relative;
-        padding-left: 50%;
-        padding-top: 8px;
-        padding-bottom: 8px;
-      }
-
-      td:before {
-        position: absolute;
-        left: 10px;
-        width: 45%;
-        white-space: nowrap;
-        font-weight: bold;
-      }
-
-      td:nth-of-type(1):before { content: "S.N."; }
-      td:nth-of-type(2):before { content: "Company"; }
-      td:nth-of-type(3):before { content: "Units"; }
-      td:nth-of-type(4):before { content: "Price"; }
-      td:nth-of-type(5):before { content: "Opening Date"; }
-      td:nth-of-type(6):before { content: "Closing Date"; }
-      td:nth-of-type(7):before { content: "Last Closing Date"; }
-      td:nth-of-type(8):before { content: "Issue Manager"; }
-      td:nth-of-type(9):before { content: "Status"; }
+    .hours-table tr:first-child td {
+      background: #f0f0f0;
+      color: #333;
     }
   </style>
 </head>
-<body>
-  <div id="header"></div>
-  <h1>Upcoming Issue</h1>
 
-  <div class="tabs">
-    <button class="tab-button active" data-type="ipo">IPO</button>
-    <button class="tab-button" data-type="rightShare">Right Share</button>
-    <button class="tab-button" data-type="fpo">FPO</button>
-    <button class="tab-button" data-type="mutual">Mutual Fund</button>
-    <button class="tab-button" data-type="migrant">Foreign Employment</button>
-    <button class="tab-button" data-type="debenture">Debentures</button>
-    <button class="tab-button" data-type="future">Pipeline IPO</button>
+<body>
+  <div id="header">Commercial Banks in Nepal</div>
+
+  <div class="container">
+    <select id="nameDropdown" onchange="showDetails()"></select>
+
+    <div id="bankInfo2"></div>
+    <div id="bankInfo1" class="bank-info"></div>
+
+    <div class="stats-grid">
+      <div id="paidup" class="stat-card"></div>
+      <div id="customer" class="stat-card"></div>
+      <div id="atm" class="stat-card"></div>
+      <div id="branch" class="stat-card"></div>
+      <div id="ext" class="stat-card"></div>
+      <div id="blb" class="stat-card"></div>
+      <div id="ly" class="stat-card"></div>
+      <div id="cy" class="stat-card"></div>
+      <div id="eps" class="stat-card"></div>
+    </div>
+
+    <h2 id="detail"></h2>
+    <div id="bankInfo" class="bank-info"></div>
+
+    <h2>Merged BFIs</h2>
+    <div id="subInfo1" class="bank-info"></div>
+
+    <h2>First In Nepal</h2>
+    <div id="first" class="bank-info"></div>
+
+    <h2>Awards</h2>
+    <div id="subInfo2" class="bank-info"></div>
+
+    <h2>Subsidiary Companies</h2>
+    <div id="subInfo" class="bank-info"></div>
+
+    <h2>Profit Chart</h2>
+    <canvas id="profitChart"></canvas>
+
+    <h2>Business Hours</h2>
+    <table class="hours-table">
+      <tr>
+        <td colspan="3">Summer Hour</td>
+        <td colspan="3">Winter Hour</td>
+      </tr>
+      <tr>
+        <td id="shours" colspan="3"></td>
+        <td id="whours" colspan="3"></td>
+      </tr>
+    </table>
   </div>
 
-  <table id="dataTable">
-    <thead>
-      <tr>
-        <th class="gfgpp">S.N.</th>
-        <th class="gfgpp">Company</th>
-        <th class="gfgpp">Units</th>
-        <th class="gfgpp">Price</th>
-        <th class="gfgpp">Opening Date</th>
-        <th class="gfgpp">Closing Date</th>
-        <th class="gfgpp">Last Closing Date</th>
-        <th class="gfgpp">Issue Manager</th>
-        <th class="gfgpp">Status</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr><td colspan="12">Loading...</td></tr>
-    </tbody>
-  </table>
-
   <script>
-    if (window.navigator.userAgent.indexOf("Mobile") > -1) {
-      $(".gfgpp").hide();
-    }
-  </script>
+    const apiUrl = 'https://shyamkumarkc20.com.np/js/commercialbanks.json';
+    let data = [];
+    let chart;
 
-  <script>
-    let allData = {};
-
-    function statusClass(status) {
-      const s = (status || '').toLowerCase();
-      if (s === 'open') return 'status-open';
-      if (s === 'closed') return 'status-closed';
-      if (s.includes('coming')) return 'status-coming';
-      return '';
-    }
-
-    function statusPriority(status) {
-      const s = (status || '').toLowerCase();
-      if (s === 'open') return 1;
-      if (s.includes('coming')) return 2;
-      if (s === 'closed') return 3;
-      return 4;
-    }
-
-    function computeStatus(item) {
-      if (!item.openingDate || !item.closingDate) return 'Coming Soon';
-
-      const now = new Date();
-      const opening = new Date(item.openingDate);
-      const closing = new Date(item.closingDate);
-      const currentHour = now.getHours();
-
-      const isOpeningDay = now.toDateString() === opening.toDateString();
-      const isClosingDay = now.toDateString() === closing.toDateString();
-
-      if (isOpeningDay && currentHour < 10) return 'Coming Soon';
-      if (now >= opening && now <= closing) return 'Open';
-      if (isClosingDay && currentHour < 17) return 'Open';
-      if (isClosingDay && currentHour >= 17) return 'Closed';
-      if (now > closing) return 'Closed';
-      if (now < opening) return 'Coming Soon';
-
-      return 'Coming Soon';
-    }
-
-    function renderTable(items) {
-      const tbody = document.querySelector('#dataTable tbody');
-      tbody.innerHTML = '';
-
-      if (!items || items.length === 0) {
-        tbody.innerHTML = `<tr><td colspan="12">No data available.</td></tr>`;
-        return;
-      }
-
-      items.forEach(item => {
-        item.status = computeStatus(item);
-      });
-
-      items.sort((a, b) => statusPriority(a.status) - statusPriority(b.status));
-
-      items.forEach((item, index) => {
-        const tr = document.createElement('tr');
-        tr.innerHTML = `
-          <td>${index + 1}</td>
-          <td>${item.company || ''}</td>
-          <td>${item.units || ''}</td>
-          <td>${item.price || ''}</td>
-          <td>${item.openingDate || ''}</td>
-          <td>${item.closingDate || ''}</td>
-          <td>${item.lastClosingDate || ''}</td>
-          <td>${item.issueManager || ''}</td>
-          <td><span class="${statusClass(item.status)}">${item.status}</span></td>
-        `;
-        tbody.appendChild(tr);
-      });
-    }
-
-    function loadAndShow(type) {
-      const tbody = document.querySelector('#dataTable tbody');
-      tbody.innerHTML = `<tr><td colspan="12">Loading...</td></tr>`;
-
-      if (Object.keys(allData).length > 0) {
-        renderTable(allData[type] || []);
-      } else {
-        fetch('https://shyamkumarkc20.com.np/js/ipo.json')
-          .then(res => {
-            if (!res.ok) throw new Error('Network error');
-            return res.json();
-          })
-          .then(json => {
-            allData = json;
-            renderTable(allData[type] || []);
-          })
-          .catch(err => {
-            console.error(err);
-            tbody.innerHTML = `<tr><td colspan="12">Error loading data: ${err.message}</td></tr>`;
-          });
+    async function fetchData() {
+      try {
+        const response = await fetch(apiUrl);
+        if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
+        data = await response.json();
+        populateDropdown();
+      } catch (error) {
+        console.error('Error fetching data:', error);
       }
     }
 
-    document.querySelectorAll('.tab-button').forEach(btn => {
-      btn.addEventListener('click', () => {
-        document.querySelectorAll('.tab-button').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        const type = btn.getAttribute('data-type');
-        loadAndShow(type);
+    function populateDropdown() {
+      const dropdown = document.getElementById('nameDropdown');
+      data.forEach(item => {
+        const option = document.createElement('option');
+        option.value = item.Name;
+        option.text = item.Name;
+        if (item.Name === "Nepal Bank Limited") {
+          option.selected = true;
+        }
+        dropdown.appendChild(option);
       });
-    });
+      showDetails();
+    }
 
-    loadAndShow('ipo');
+    function renderProfitChart(bank) {
+      const ctx = document.getElementById('profitChart').getContext('2d');
+      const profitData = bank.profit || {};
+      const labels = Object.keys(profitData);
+      const profits = Object.values(profitData).map(v => parseFloat(v) || 0);
+
+      if (chart) {
+        chart.destroy();
+      }
+
+      chart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: labels,
+          datasets: [{
+            label: 'Profit (in Billion NPR)',
+            data: profits,
+            backgroundColor: ['#42a5f5', '#66bb6a', '#ffa726', '#ab47bc', '#ef5350'],
+            borderRadius: 8
+          }]
+        },
+        options: {
+          responsive: true,
+          plugins: {
+            legend: { display: false },
+            title: {
+              display: true,
+              text: `${bank.Name} - Last 5 Years Profit`,
+              font: { size: 16 }
+            }
+          },
+          scales: {
+            y: {
+              beginAtZero: true,
+              title: { display: true, text: 'Profit (Billion NPR)' }
+            }
+          }
+        }
+      });
+    }
+
+    function showDetails() {
+      const selectedName = document.getElementById('nameDropdown').value;
+      const bank = data.find(item => item.Name === selectedName);
+      if (!bank) return;
+
+      document.getElementById('bankInfo2').innerHTML = `<h2>${bank.Name || ''}</h2>`;
+      document.getElementById('detail').innerHTML = `${bank.Name || ''} Details`;
+      document.getElementById('bankInfo1').innerHTML = `<p>${bank.desc || ''}</p>`;
+
+      document.getElementById('paidup').innerHTML = `<h3>Paid-up</h3><p>${bank.paidup || ''} B</p>`;
+      document.getElementById('customer').innerHTML = `<h3>Customer</h3><p>${bank.Customer || ''}</p>`;
+      document.getElementById('atm').innerHTML = `<h3>ATM</h3><p>${bank.ATM || ''}</p>`;
+      document.getElementById('branch').innerHTML = `<h3>Branches</h3><p>${bank.branch || ''}</p>`;
+      document.getElementById('ext').innerHTML = `<h3>Extension Counters</h3><p>${bank.ext || ''}</p>`;
+      document.getElementById('blb').innerHTML = `<h3>Branchless Banking</h3><p>${bank.blb || ''}</p>`;
+      document.getElementById('ly').innerHTML = `<h3>Last Year</h3><p>${bank.LY || ''}</p>`;
+      document.getElementById('cy').innerHTML = `<h3>Current Year</h3><p>${bank.CY || ''}</p>`;
+      document.getElementById('eps').innerHTML = `<h3>EPS</h3><p>${bank.EPS || ''}</p>`;
+
+      document.getElementById('bankInfo').innerHTML = `
+        ${bank.IMG ? `<img src="${bank.IMG}" alt="${bank.Name} Logo" class="bank-logo">` : ''}
+        <p><strong>Name:</strong> ${bank.Name}</p>
+        <p><strong>Established:</strong> ${bank.ODAD || ''} [ ${bank.ODBS || ''} ]</p>
+        <p><strong>Head Office:</strong> ${bank.HO || ''}</p>
+        <p><strong>CEO:</strong> ${bank.ceo || ''} ${bank.ceoimg ? `<img src="${bank.ceoimg}" width="30" height="30">` : ''}</p>
+        <p><strong>Chairman:</strong> ${bank.chairman || ''}</p>
+        <p><strong>NEPSE Code:</strong> ${bank.NEPSE || ''}</p>
+        <p><strong>Swift Code:</strong> ${bank.Swift || ''}</p>
+        <p><strong>Phone:</strong>
+          ${bank.phone1 ? `<a href="tel:${bank.phone1}">${bank.phone1}</a>` : ''}
+          ${bank.phone2 ? ` | <a href="tel:${bank.phone2}">${bank.phone2}</a>` : ''}
+        </p>
+        <p><strong>Toll Free:</strong> ${bank.TOLL ? `<a href="tel:${bank.TOLL}">${bank.TOLL}</a>` : ''}</p>
+        <p><strong>Email:</strong> ${bank.email ? `<a href="mailto:${bank.email}">${bank.email}</a>` : ''}</p>
+        <p><strong>Website:</strong> ${bank.Website ? `<a href="https://${bank.Website}" target="_blank">${bank.Website}</a>` : ''}</p>
+      `;
+
+      document.getElementById('first').innerHTML = `<p>${bank.first || ''}</p>`;
+      document.getElementById('subInfo1').innerHTML = `<p>${bank.merger || ''}</p>`;
+      document.getElementById('subInfo2').innerHTML = `<p>${bank.awards || ''}</p>`;
+      document.getElementById('subInfo').innerHTML = `<p>${bank.subsidiaries || ''}</p>`;
+      document.getElementById('shours').innerHTML = `<p>${bank.shours || ''}</p>`;
+      document.getElementById('whours').innerHTML = `<p>${bank.whours || ''}</p>`;
+
+      renderProfitChart(bank);
+    }
+
+    fetchData();
   </script>
 
-  <script>
-    $(function () {
-      $('#footer').load('/assets/footer.html');
-    });
-  </script>
-
-  <div id="footer"></div>
-</body>
-</html>
+  <div id="footer">© 2025 Banking Portal Nepa
