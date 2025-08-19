@@ -71,10 +71,10 @@
         },
         {
             "company": "Bandipur Cable Car and Tourism Limited",
-            "units": "5,860,000.00",
+            "units": "4,341,080.00",
             "price": "100.00",
-            "openingDate": "",
-            "closingDate": "",
+            "openingDate": "2025-08-27",
+            "closingDate": "2025-08-31",
             "lastClosingDate": "",
             "listingDate": "",
             "issueManager": "Nepal SBI Merchant Banking Limited"
@@ -1332,9 +1332,9 @@
             "company": "Shreenagar Agritech Industries Limited",
             "units": "326,250",
             "price": "100.00",
-            "openingDate": "",
-            "closingDate": "",
-            "lastClosingDate": "",
+            "openingDate": "2025-08-27",
+            "closingDate": "2025-08-31",
+            "lastClosingDate": "2025-09-10",
             "listingDate": "",
             "issueManager": "Nabil Investment Banking Limited"
         },
