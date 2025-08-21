@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Top 5 Development Banks</title>
+  <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+    $(function () {
+      $('#header').load('/assets/header.html');
+    });
+  </script>
+ 
+ 
+  <style>
+    body1 {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      margin: 0;
+      padding: 0 10px;
+    }
+    h1 {
+      text-align: center;
+      color: #1b5e20;
+      margin: 25px 0 15px;
+      font-size: 2rem;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+      text-align: center;
+      color: #1565c0;
+      margin: 30px 0 15px;
+      font-size: 1.5rem;
+    }
+    .bank-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+    .bank-card {
+      background: white;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      padding-top: 10px;
+    }
+    .bank-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    }
+    .bank-header {
+      background: linear-gradient(135deg, #43a047, #66bb6a);
+      color: white;
+      padding: 10px;
+      font-size: 1.1rem;
+      font-weight: bold;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+    .bank-logo {
+      border-radius: 50%;
+      background: white;
+      padding: 2px;
+    }
+    .bank-body {
+      padding: 15px;
+      text-align: center;
+    }
+    .profit {
+      font-size: 1rem;
+      background: #e8f5e9;
+      padding: 6px 12px;
+      border-radius: 20px;
+      display: inline-block;
+      margin: 5px 0;
+      box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.05);
+    }
+    .eps {
+      font-size: 1rem;
+      background: #e3f2fd;
+      padding: 6px 12px;
+      border-radius: 20px;
+      display: inline-block;
+      margin: 5px 0;
+      box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.05);
+    }
+    .bookvalue {
+      font-size: 1rem;
+      background: #fff3e0;
+      padding: 6px 12px;
+      border-radius: 20px;
+      display: inline-block;
+      margin: 5px 0;
+      box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.05);
+    }
+  </style>
+<body>
+  <div id="header"></div>
+<body1>
+  <h1>🏦 Top 5 Development Banks</h1>
+
+  <h2>🏆 Top 5 Highest Profit Banks</h2>
+  <div id="top-profit" class="bank-container"></div>
+
+  <h2>💹 Top 5 Highest EPS Banks</h2>
+  <div id="top-eps" class="bank-container"></div>
+
+  <h2>📘 Top 5 Highest Book Value Banks</h2>
+  <div id="top-bookvalue" class="bank-container"></div>
+
+  <script>
+    let bankData = [];
+
+    fetch("https://shyamkumarkc20.com.np/js/developmentbanks.json")
+      .then(response => response.json())
+      .then(data => {
+        bankData = data;
+        renderTop5(data);
+      })
+      .catch(err => {
+        console.error("Error fetching bank data:", err);
+        document.getElementById("top-profit").innerHTML = "<p style='color:red;'>Failed to load bank data.</p>";
+      });
+
+    function renderTop5(data) {
+      const topProfit = [...data].sort((a,b)=>parseFloat(b.CY||0)-parseFloat(a.CY||0)).slice(0,5);
+      const topEPS = [...data].sort((a,b)=>parseFloat(b.EPS||0)-parseFloat(a.EPS||0)).slice(0,5);
+      const topBookValue = [...data].sort((a,b)=>parseFloat(b.BookValue||0)-parseFloat(a.BookValue||0)).slice(0,5);
+
+      renderTopCards(topProfit, "top-profit", "profit");
+      renderTopCards(topEPS, "top-eps", "eps");
+      renderTopCards(topBookValue, "top-bookvalue", "bookvalue");
+    }
+
+    function renderTopCards(list, containerId, type) {
+      const container = document.getElementById(containerId);
+      container.innerHTML = "";
+      list.forEach(bank => {
+        const card = document.createElement("div");
+        card.className = "bank-card";
+        let valueHTML = "";
+        if (type === "profit") {
+          valueHTML = `<div class="profit">Profit: ${bank.CY || "N/A"}</div>`;
+        } else if (type === "eps") {
+          valueHTML = `<div class="eps">EPS: Rs. ${bank.EPS || "N/A"}</div>`;
+        } else if (type === "bookvalue") {
+          valueHTML = `<div class="bookvalue">Book Value: Rs. ${bank.BV || "N/A"}</div>`;
+        }
+        card.innerHTML = `
+          <div class="bank-header">
+            ${bank.Name}
+            <img src="${bank.IMG}" alt="${bank.Name} Logo" class="bank-logo" width="35" height="35">
+          </div>
+          <div class="bank-body">
+            ${valueHTML}
+          </div>`;
+        container.appendChild(card);
+      });
+    }
+  </script>
+  </body1>
+<script>
+    $(function () {
+      $('#footer').load('/assets/footer.html');
+    });
+  </script>
+
+  <div id="footer"></div>
+</body>
+</html>
