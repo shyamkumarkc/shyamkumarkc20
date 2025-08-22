@@ -132,11 +132,11 @@
     function renderTop5(data) {
       const topProfit = [...data].sort((a,b)=>parseFloat(b.CY||0)-parseFloat(a.CY||0)).slice(0,5);
       const topEPS = [...data].sort((a,b)=>parseFloat(b.EPS||0)-parseFloat(a.EPS||0)).slice(0,5);
-      const topBookValue = [...data].sort((a,b)=>parseFloat(b.BookValue||0)-parseFloat(a.BookValue||0)).slice(0,5);
+      const topBV = [...data].sort((a,b)=>parseFloat(b.BV||0)-parseFloat(a.BV||0)).slice(0,5);
 
       renderTopCards(topProfit, "top-profit", "profit");
       renderTopCards(topEPS, "top-eps", "eps");
-      renderTopCards(topBookValue, "top-bookvalue", "bookvalue");
+      renderTopCards(topBV, "top-BV", "BV");
     }
 
     function renderTopCards(list, containerId, type) {
