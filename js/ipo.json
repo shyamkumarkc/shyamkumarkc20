@@ -1141,8 +1141,8 @@
             "company": "River Falls Power Limited",
             "units": "7,000,000.00",
             "price": "100.00",
-            "openingDate": "",
-            "closingDate": "",
+            "openingDate": "2025-09-08",
+            "closingDate": "2025-09-28",
             "lastClosingDate": "",
             "listingDate": "",
             "issueManager": "Prabhu Capital Limited"
@@ -1153,8 +1153,8 @@
             "company": "City Hotel Limited",
             "units": "133,92,000.00",
             "price": "100.00",
-            "openingDate": "",
-            "closingDate": "",
+            "openingDate": "2025-09-08",
+            "closingDate": "2025-09-28",
             "lastClosingDate": "",
             "listingDate": "",
             "issueManager": "Prabhu Capital Limited"
@@ -1185,8 +1185,8 @@
             "units": "2,414,100.00",
             "price": "100.00",
             "openingDate": "2025-07-31",
-            "closingDate": "2025-08-20",
-            "lastClosingDate": "",
+            "closingDate": "2025-09-04",
+            "lastClosingDate": "2025-09-04",
             "listingDate": "",
             "issueManager": "Laxmi Sunrise Capital Limited"
         },
