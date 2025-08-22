@@ -113,7 +113,7 @@
   <div id="top-eps" class="bank-container"></div>
 
   <h2>📘 Top 5 Highest Book Value Banks</h2>
-  <div id="top-bookvalue" class="bank-container"></div>
+  <div id="top-BV" class="bank-container"></div>
 
   <script>
     let bankData = [];
@@ -132,11 +132,11 @@
     function renderTop5(data) {
       const topProfit = [...data].sort((a,b)=>parseFloat(b.CY||0)-parseFloat(a.CY||0)).slice(0,5);
       const topEPS = [...data].sort((a,b)=>parseFloat(b.EPS||0)-parseFloat(a.EPS||0)).slice(0,5);
-      const topBookValue = [...data].sort((a,b)=>parseFloat(b.BookValue||0)-parseFloat(a.BookValue||0)).slice(0,5);
+      const topBV = [...data].sort((a,b)=>parseFloat(b.BV||0)-parseFloat(a.BV||0)).slice(0,5);
 
       renderTopCards(topProfit, "top-profit", "profit");
       renderTopCards(topEPS, "top-eps", "eps");
-      renderTopCards(topBookValue, "top-bookvalue", "bookvalue");
+      renderTopCards(topBV, "top-BV", "BV");
     }
 
     function renderTopCards(list, containerId, type) {
@@ -150,8 +150,8 @@
           valueHTML = `<div class="profit">Profit: ${bank.CY || "N/A"}</div>`;
         } else if (type === "eps") {
           valueHTML = `<div class="eps">EPS: Rs. ${bank.EPS || "N/A"}</div>`;
-        } else if (type === "bookvalue") {
-          valueHTML = `<div class="bookvalue">Book Value: Rs. ${bank.BV || "N/A"}</div>`;
+        } else if (type === "BV") {
+          valueHTML = `<div class="BV">Book Value: Rs. ${bank.BV || "N/A"}</div>`;
         }
         card.innerHTML = `
           <div class="bank-header">
