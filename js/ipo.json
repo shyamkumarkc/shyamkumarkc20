@@ -33,8 +33,8 @@
             "company": "Bungal Hydro Limited",
             "units": "2,905,000.00",
             "price": "100.00",
-            "openingDate": "",
-            "closingDate": "",
+            "openingDate": "2025-09-01",
+            "closingDate": "2025-09-04",
             "lastClosingDate": "",
             "listingDate": "",
             "issueManager": "Himalayan Capital Limited"
@@ -1269,9 +1269,9 @@
             "company": "HLI Large Cap Fund",
             "units": "400,000,000.00",
             "price": "10.00",
-            "openingDate": "",
-            "closingDate": "",
-            "lastClosingDate": "",
+            "openingDate": "2025-08-31",
+            "closingDate": "2025-09-03",
+            "lastClosingDate": "2025-09-14",
             "listingDate": "",
             "issueManager": "Himalayan Investment Banker Limited"
         },
