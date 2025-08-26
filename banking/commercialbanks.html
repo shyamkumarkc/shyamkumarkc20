@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>SHYAM KUMAR K.C.</title>
+<title>Commercial Banks</title>
 <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
 </script>
@@ -10,26 +10,23 @@ $(function(){
 $('#header').load('/assets/header.html');
 });
 </script>
-
 </head>
 <body>
 <div id ="header"></div>
-
-
 <h1>Commercial Banks </h1>
  <p>Commercial Banks are those institutions which are involved in accepting deposits and advancing loans. Generally, the term 'bank' is understood as a commercial bank. Commercial Banks are established to boost commerce, trade and industrial sectors.</p>
-<p>The main functions of commercial banks are accepting deposit from public advancing them loans. However, besides these functions which these banks perform. The major functions of commercial banks are as following:</p> 
-<ol>
-<li>Accepting Deposits (Deposit collection)
+<p>The main functions of commercial banks are accepting deposit from public advancing them loans. The major functions of commercial banks are as following:</p> 
+<ol style="list-style-type: upper-alpha;">
+<b><li>Accepting Deposits (Deposit Collection)</b>
 <p>The most important function of commercial bank is to accept deposits from public. Various sections of the society according to their needs and economic conditions deposit their money in the bank, keeping the needs and interest of the society, bank formulate various deposit schemes. i.e.</p>
 <ol style="list-style-type: lower-alpha;">
-<li>Current Deposit</li>
-<li>Saving Deposit</li>
+<li>Current Deposit:</li> <p>A current deposit, also known as a current account, is a non-interest-bearing bank account designed for frequent transactions, offering unlimited deposit and withdrawal facilities for individuals, businesses, and institutions. It provides convenient access to funds through cheques, internet, and mobile banking, facilitating daily business operations and personal financial management. </p>
+<li>Saving Deposit: <p>A savings deposit, also known as a savings account, is a basic financial product that allows individuals to store money safely and earn interest on it. Unlike checking accounts, savings accounts are designed for accumulating funds rather than frequent spending, often with limits on withdrawals and other transaction features. They provide accessibility to your funds when needed for saving goals or emergencies while offering a secure, interest-bearing alternative to simply keeping money at home. </p></li>
 <li>Term Deposit</li>
 <li>Call Deposit</li>
 <li>Margin Deposit</li>
-</ol>
-<li>Loan and Advances
+</ol><br/>
+<b><li>Loan and Advances</b>
 <p>The second main function of commercial bank is to advance loan to its customers. Banks charge interest from the borrowers which is the main source of their income. The banks advance loans on the basis of deposit collection. The loan provided by banks are generally secured by proper collateral which valuation is higher than loan amount.</p>
 <ol style="list-style-type: lower-alpha;">
 <li>Cash Credit</li>
@@ -37,25 +34,24 @@ $('#header').load('/assets/header.html');
 <li>Term Loans</li>
 <li>Mortgaged Loan</li>
 </ol>
-</li>
+
+</li><br/>
+<b><li>Investment of Funds</b>
+<p>The banks invest their surplus funds in three types of securities - Government securities, other approved securities and other securities. Government securities include both, central and state government such as treasury bills, national savings certificate, etc.</p></li>
 </ol>
-<h2>List of Commercial Bank in Nepal</h2>
+<h2>List of Commercial Banks in Nepal</h2>
 
 <table border="black" >
 <thead>
 <tr>
 <th>S.No.</th>
 <th>Name</th>
-	
-
 </tr>
 </thead>
-
       <tbody id="data-output">
          <!-- Prodcuts from javascript file in here. -->
       </tbody>
-   </table>
- 
+   </table> 
    <script>
    fetch("https://shyamkumarkc20.com.np/js/commercialbanks.json")
 .then(function(response){
@@ -69,20 +65,14 @@ $('#header').load('/assets/header.html');
          <tr>
             
             <td>${product.SNO}</td>
-             <td><a href ="${product.links}">${product.Name}</a></td>
-	    
-			
-           
-            
-         </tr>
+             <td><a href ="${product.links}">${product.Name}</a></td> </tr>
       `;
    }
  
    placeholder.innerHTML = out;
 });
-
    </script>
-<h3>Permitted Financial Transactions for Class A Licensed institution</h3>
+<h3>Permitted Financial Transactions for Class A Licensed Institution</h3>
 <ol style="list-style-type: lower-alpha;">
 <li>Accepting deposits with or without interest and repaying the deposits through various financial instruments
 </li><li>Accepting deposits, making payments, having transactions, providing intermediary services and transfer funds through various electronic medium (devices & instruments)
