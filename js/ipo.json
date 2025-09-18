@@ -22,11 +22,11 @@
         },
 		{
             "company": "Sagar Distillery Limited",
-            "units": "1,452,000.00",
+            "units": "1,190,640.00",
             "price": "100.00",
-            "openingDate": " ",
-            "closingDate": " ",
-            "lastClosingDate": " ",
+            "openingDate": "2025-09-15",
+            "closingDate": "2025-09-21",
+            "lastClosingDate": "2025-09-29",
             "issueManager": "Muktinath Capital Limited"
         },
         {
@@ -53,9 +53,9 @@
             "company": "Jhapa Energy Limited",
             "units": "950,475.00",
             "price": "100.00",
-            "openingDate": " ",
-            "closingDate": " ",
-            "lastClosingDate": " ",
+            "openingDate": "2025-09-05",
+            "closingDate": "2025-09-15",
+            "lastClosingDate": "2025-09-19",
             "issueManager": "Himalayan Capital Limited"
         },
         
