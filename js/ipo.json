@@ -97,17 +97,6 @@
             "lastClosingDate": "",
             "listingDate": "",
             "issueManager": "Laxmi Sunrise Capital Limited"
-        },
-        
-        {
-            "company": "Daramkhola Hydro Energy Limited",
-            "units": "2,423,185.00",
-            "price": "100.00",
-            "openingDate": "2025-07-31",
-            "closingDate": "2025-08-04",
-            "lastClosingDate": "",
-            "listingDate": "",
-            "issueManager": "Laxmi Sunrise Capital Limited"
         }
     ],
     "future": [
@@ -1388,17 +1377,7 @@
             "listingDate": "",
             "issueManager": "Nabil Investment Banking Limited"
         },
-        {
-            "symbol": "HSUCL",
-            "company": "Bikash Hydropower Company Limited",
-            "units": "354,550.00",
-            "price": "100.00",
-            "openingDate": "2025-05-20",
-            "closingDate": "2025-06-03",
-            "lastClosingDate": "2025-06-03",
-            "listingDate": "",
-            "issueManager": "Prabhu Capital Limited"
-        },
+        
         {
             
             "company": "Reliance Spinning Mills",
