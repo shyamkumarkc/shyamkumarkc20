@@ -1,5 +1,14 @@
 {
     "ipo": [
+		{
+            "company": "SY Panel Nepal Limited",
+            "units": "5,232,548.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Prabhu Capital Limited"
+        },
         {
             "company": "Him Star Urja Company Limited",
             "units": "773,975.00",
@@ -727,15 +736,7 @@
             "lastClosingDate": " ",
             "issueManager": "Nabil Investment Banking Limited"
         },
-        {
-            "company": "SY Panel Nepal Limited",
-            "units": "5,232,548.00",
-            "price": "100.00",
-            "openingDate": " ",
-            "closingDate": " ",
-            "lastClosingDate": " ",
-            "issueManager": "Prabhu Capital Limited"
-        },
+        
         {
             "company": "Jagdamba Steels Limited",
             "units": "20,070,000.00",
@@ -1317,6 +1318,15 @@
         }
     ],
     "migrant": [
+		{
+            "company": "SY Panel Nepal Limited",
+            "units": "497,092.00",
+            "price": "100.00",
+            "openingDate": "2025-09-23",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Prabhu Capital Limited"
+        },
         {
             "symbol": "HSUCL",
             "company": "Him Star Urja Company Limited",
