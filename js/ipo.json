@@ -1131,7 +1131,7 @@
             "units": "4,657,143.00",
             "price": "100.00",
             "openingDate": "2025-08-19",
-            "closingDate": "2025-09-08",
+            "closingDate": "2025-09-21",
             "lastClosingDate": "",
             "listingDate": "",
             "issueManager": "Citizens Capital Limited"
@@ -1170,11 +1170,11 @@
             "issueManager": "Citizens Capital Limited"
         },
 		{
-            "company": "Narayani Development Bank",
-            "units": "2,624,677.00",
+            "company": "Narayani Development Bank Limited",
+            "units": "2,624,676.00",
             "price": "100.00",
-            "openingDate": "",
-            "closingDate": "",
+            "openingDate": "2025-09-18",
+            "closingDate": "2025-10-08",
             "lastClosingDate": "",
             "listingDate": "",
             "issueManager": "Global IME Capital Limited"
@@ -1390,7 +1390,7 @@
             "issueManager": "Prabhu Capital Limited"
         },
         {
-            "symbol": "",
+            
             "company": "Reliance Spinning Mills",
             "units": "1,155,960.00",
             "price": "100.00",
@@ -1401,7 +1401,7 @@
             "issueManager": "Global IME Capital Limited"
         },
         {
-            "symbol": "",
+            
             "company": "Bandipur Cable Car and Tourism Limited",
             "units": "529,400.00",
             "price": "100.00",
