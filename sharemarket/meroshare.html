@@ -1,180 +1,116 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<title>SHYAM KUMAR K.C.</title>
-<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
-</script>
-<script>
-$(function(){
-$('#header').load('/assets/header.html');
-});
-</script>
-
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bar Chart from JSON (External Link)</title>
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body{font-family:Arial, sans-serif; margin:0; padding:20px; background:#f9fafb}
+    .card{background:#fff; border-radius:12px; box-shadow:0 6px 20px rgba(0,0,0,0.08); padding:20px; max-width:1000px; margin:auto}
+    h1{margin-top:0; font-size:20px}
+    canvas{width:100% !important; height:auto !important}
+    .controls{margin-bottom:15px; display:flex; gap:10px; align-items:center}
+    select, button{padding:6px 10px; border-radius:6px; border:1px solid #ddd; background:#fff; cursor:pointer}
+  </style>
 </head>
 <body>
-<div id ="header"></div>
-	<style>
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-
-    border: 1px solid #ddd;
-}
-
-th, td {
-    text-align: left;
-    padding: 16px;
-}
-
-tr:nth-child(even) {
-    background-color: #f2f2f2
-}
-		canvas {
-      max-width: 700px;
-      margin: 20px auto;
-      display: block;
-</style>
-	
-<label for="sectorFilter">Select Sector:</label>
-    <select id="sectorFilter" onchange="filterBySector()">
-        <option value="">Sectors</option>
-    </select>
-
-    <table id="companyTable">
-        <thead>
-            <tr>
-		    <th>S No</th>
-                <th>Symbol</th>
-                <th>Name</th>
-                <th>Sector</th>
-<th>Units</th>
-				
-            </tr>
-        </thead>
-        <tbody id="companyTableBody">
-            <!-- Table content will be populated dynamically -->
-        </tbody>
-    </table>
-
-    <script>
-        // Fetch JSON data
-        fetch('https://shyamkumarkc20.com.np/js/meroshare.json')
-            .then(response => response.json())
-            .then(data => {
-                const sectorFilter = document.getElementById('sectorFilter');
-                const companyTableBody = document.getElementById('companyTableBody');
-                const sectors = new Set();
-
-                // Populate table and gather unique sectors
-                data.forEach(company => {
-                    const row = document.createElement('tr');
-                    row.innerHTML = `
-		      <td>${company['SN']}</td>
-                        <td>${company['Symbol']}</td>
-                        <td>${company['Name']}</td>
-                        <td>${company['Sector']}</td>
-<td>${company['Units']}</td>
-						
-                    `;
-                    companyTableBody.appendChild(row);
-                    sectors.add(company['Sector']);
-                });
-
-                // Populate sector filter options
-                sectors.forEach(sector => {
-                    const option = document.createElement('option');
-                    option.value = sector;
-                    option.textContent = sector;
-                    sectorFilter.appendChild(option);
-                });
-            })
-            .catch(error => console.error('Error fetching data:', error));
-
-        // Function to filter companies by sector
-        function filterBySector() {
-            const sectorFilter = document.getElementById('sectorFilter').value;
-            const rows = document.querySelectorAll('#companyTableBody tr');
-
-            rows.forEach(row => {
-                const sector = row.children[2].textContent;
-                if (sectorFilter === '' || sector === sectorFilter) {
-                    row.style.display = '';
-                } else {
-                    row.style.display = 'none';
-                }
-            });
-        }
-    </script>
-	<canvas id="sectorChart"></canvas>
+  <div class="card">
+    <h1>Units Distribution (Bar Chart with Filter & Sort)</h1>
+    <div class="controls">
+      <label for="sectorFilter">Filter by Sector: </label>
+      <select id="sectorFilter">
+        <option value="All">All</option>
+      </select>
+      <button id="sortDescBtn">Sort: Highest → Lowest</button>
+      <button id="sortAscBtn">Sort: Lowest → Highest</button>
+      <button id="sortResetBtn">Reset Order</button>
+    </div>
+    <canvas id="barChart"></canvas>
+  </div>
 
   <script>
-    const jsonURL = "https://shyamkumarkc20.com.np/js/meroshare.json"; // Change to your actual URL
+    const ctx = document.getElementById('barChart').getContext('2d');
+    let chart;
+    let globalData = [];
 
-    fetch(jsonURL)
-      .then(response => response.json())
-      .then(data => {
-        const sectorData = {};
+    function generateColors(n){
+      const colors = [];
+      for(let i=0;i<n;i++){
+        const hue = Math.round((360/n)*i);
+        colors.push(`hsl(${hue},70%,55%)`);
+      }
+      return colors;
+    }
 
-        data.forEach(company => {
-          const sector = company.Sector;
-          const units = parseInt(company.Units) || 0;
-          if (!sectorData[sector]) {
-            sectorData[sector] = 0;
-          }
-          sectorData[sector] += units;
-        });
+    function renderFromArray(arr){
+      const labels = arr.map(x => x.Symbol);
+      const data = arr.map(x => Number(x.Units));
+      const colors = generateColors(labels.length);
 
-        const sectorLabels = Object.keys(sectorData);
-        const sectorUnits = Object.values(sectorData);
-
-        const backgroundColors = [
-          '#4CAF50', '#FF9800', '#2196F3', '#9C27B0', '#00BCD4',
-          '#FF5722', '#607D8B', '#795548', '#E91E63', '#FFC107'
-        ];
-
-        new Chart(document.getElementById('sectorChart'), {
-          type: 'pie',
-          data: {
-            labels: sectorLabels,
-            datasets: [{
-              label: 'Units by Sector',
-              data: sectorUnits,
-              backgroundColor: backgroundColors,
-              borderColor: '#fff',
-              borderWidth: 2
-            }]
+      if(chart){ chart.destroy(); }
+      chart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: labels,
+          datasets: [{
+            label: 'Units',
+            data: data,
+            backgroundColor: colors
+          }]
+        },
+        options: {
+          responsive: true,
+          plugins: {
+            legend: { display: false },
+            tooltip: { callbacks: { label: ctx => `${ctx.label}: ${ctx.parsed.y} Units` } }
           },
-          options: {
-            responsive: true,
-            plugins: {
-              legend: {
-                position: 'bottom'
-              },
-              tooltip: {
-                callbacks: {
-                  label: function(context) {
-                    const label = context.label || '';
-                    const value = context.parsed || 0;
-                    return `${label}: ${value} units`;
-                  }
-                }
-              }
-            }
+          scales: {
+            y: { beginAtZero: true }
           }
-        });
-      })
-      .catch(error => {
-        console.error("Error loading JSON:", error);
-        document.body.innerHTML += "<p style='color:red;'>Failed to load data.</p>";
+        }
       });
-  </script>
-   <script>
-$(function(){
-$('#footer').load('/assets/footer.html');
-});
-</script>
+    }
 
+    function populateFilter(data){
+      const sectors = [...new Set(data.map(x => x.Sector || 'Unknown'))];
+      const filter = document.getElementById('sectorFilter');
+      sectors.forEach(sec => {
+        const opt = document.createElement('option');
+        opt.value = sec;
+        opt.textContent = sec;
+        filter.appendChild(opt);
+      });
+    }
+
+    function applyFilterAndSort(sortType){
+      const val = document.getElementById('sectorFilter').value;
+      let filtered = (val === 'All') ? [...globalData] : globalData.filter(x => (x.Sector || 'Unknown') === val);
+      if(sortType === 'desc'){
+        filtered.sort((a,b) => Number(b.Units) - Number(a.Units));
+      } else if(sortType === 'asc'){
+        filtered.sort((a,b) => Number(a.Units) - Number(b.Units));
+      }
+      renderFromArray(filtered);
+    }
+
+    document.getElementById('sectorFilter').addEventListener('change', () => applyFilterAndSort());
+
+    document.getElementById('sortDescBtn').addEventListener('click', () => applyFilterAndSort('desc'));
+    document.getElementById('sortAscBtn').addEventListener('click', () => applyFilterAndSort('asc'));
+    document.getElementById('sortResetBtn').addEventListener('click', () => applyFilterAndSort());
+
+    // Fetch from external link (replace with your actual link)
+    const dataUrl = "https://shyamkumarkc20.com.np/js/meroshare.json"; // <-- your JSON link here
+    fetch(dataUrl)
+      .then(res => res.json())
+      .then(json => {
+        globalData = json;
+        populateFilter(json);
+        renderFromArray(json);
+      })
+      .catch(err => alert("Failed to load JSON: " + err.message));
+  </script>
 </body>
-  <div id ="footer"></div>
 </html>
