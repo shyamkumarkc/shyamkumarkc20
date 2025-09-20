@@ -159,7 +159,7 @@
     },
     {
         "SN": "16",
-        "Name": "Nepal Life Insurance Co. Ltd.",
+        "Name": "Nepal Life Insurance Co. Limited.",
         "Symbol": "NLIC",
         "Status": "Active",
         "Sector": "Life Insurance",
@@ -199,7 +199,7 @@
          "Units": "10"
     },{
         "SN": "20",
-        "Name": "Prabhu Insurance Ltd.",
+        "Name": "Prabhu Insurance Limited.",
         "Symbol": "PRIN",
         "Status": "Active",
         "Sector": "Non Life Insurance",
@@ -220,7 +220,7 @@
     },
     {
         "SN": "22",
-        "Name": "Radhi Bidyut Company Ltd",
+        "Name": "Radhi Bidyut Company Limited",
         "Symbol": "RADHI",
         "Status": "Active",
         "Sector": "Hydro Power",
@@ -328,7 +328,7 @@
     },
     {
         "SN": "32",
-        "Name": "Upper Tamakoshi Hydropower Ltd",
+        "Name": "Upper Tamakoshi Hydropower Limited",
         "Symbol": "UPPER",
         "Status": "Active",
         "Sector": "Hydro Power",
@@ -362,7 +362,7 @@
     ,
     {
         "SN": "35",
-        "Name": "Bandipur Cable Car and Tourism Ltd",
+        "Name": "Bandipur Cable Car and Tourism Limited",
         "Symbol": "BCTL",
         "Status": "Active",
         "Sector": "",
