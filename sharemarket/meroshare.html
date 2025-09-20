@@ -7,17 +7,19 @@
   <!-- Chart.js CDN -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <style>
-    body{font-family:Arial, sans-serif; margin:0; padding:20px; background:#f9fafb}
-    .card{background:#fff; border-radius:12px; box-shadow:0 6px 20px rgba(0,0,0,0.08); padding:20px; max-width:1000px; margin:auto}
-    h1{margin-top:0; font-size:20px}
-    canvas{width:100% !important; height:auto !important}
-    .controls{margin-bottom:15px; display:flex; gap:10px; align-items:center}
-    select, button{padding:6px 10px; border-radius:6px; border:1px solid #ddd; background:#fff; cursor:pointer}
+    body{font-family:Arial, sans-serif; margin:0; padding:20px; background:#0f172a; color:#f1f5f9}
+    .card{background:#1e293b; border-radius:12px; box-shadow:0 6px 20px rgba(0,0,0,0.4); padding:20px; max-width:1000px; margin:auto}
+    h1{margin-top:0; font-size:22px; color:#38bdf8; text-align:center}
+    canvas{width:100% !important; height:auto !important; margin-top:20px}
+    .controls{margin-bottom:15px; display:flex; flex-wrap:wrap; gap:10px; align-items:center; justify-content:center}
+    select, button{padding:8px 14px; border-radius:6px; border:1px solid #334155; background:#0f172a; color:#f1f5f9; cursor:pointer; transition:all 0.2s}
+    select:hover, button:hover{background:#1e293b; border-color:#38bdf8}
+    button.active{background:#38bdf8; color:#0f172a; font-weight:bold}
   </style>
 </head>
 <body>
   <div class="card">
-    <h1>Units Distribution (Bar Chart with Filter & Sort)</h1>
+    <h1>📊 Units Distribution Dashboard</h1>
     <div class="controls">
       <label for="sectorFilter">Filter by Sector: </label>
       <select id="sectorFilter">
@@ -34,12 +36,13 @@
     const ctx = document.getElementById('barChart').getContext('2d');
     let chart;
     let globalData = [];
+    let currentSort = null;
 
     function generateColors(n){
       const colors = [];
       for(let i=0;i<n;i++){
         const hue = Math.round((360/n)*i);
-        colors.push(`hsl(${hue},70%,55%)`);
+        colors.push(`hsl(${hue},70%,50%)`);
       }
       return colors;
     }
@@ -84,18 +87,30 @@
       });
     }
 
+    function setActiveButton(btnId){
+      document.querySelectorAll('.controls button').forEach(btn => btn.classList.remove('active'));
+      if(btnId) document.getElementById(btnId).classList.add('active');
+    }
+
     function applyFilterAndSort(sortType){
       const val = document.getElementById('sectorFilter').value;
       let filtered = (val === 'All') ? [...globalData] : globalData.filter(x => (x.Sector || 'Unknown') === val);
       if(sortType === 'desc'){
         filtered.sort((a,b) => Number(b.Units) - Number(a.Units));
+        currentSort = 'desc';
+        setActiveButton('sortDescBtn');
       } else if(sortType === 'asc'){
         filtered.sort((a,b) => Number(a.Units) - Number(b.Units));
+        currentSort = 'asc';
+        setActiveButton('sortAscBtn');
+      } else {
+        currentSort = null;
+        setActiveButton('sortResetBtn');
       }
       renderFromArray(filtered);
     }
 
-    document.getElementById('sectorFilter').addEventListener('change', () => applyFilterAndSort());
+    document.getElementById('sectorFilter').addEventListener('change', () => applyFilterAndSort(currentSort));
 
     document.getElementById('sortDescBtn').addEventListener('click', () => applyFilterAndSort('desc'));
     document.getElementById('sortAscBtn').addEventListener('click', () => applyFilterAndSort('asc'));
