@@ -453,5 +453,45 @@
          "Units": "20",
          "WACC": "100",
         "Value": ""
+    },
+    {
+        "SN": "37",
+        "Name": "Siddhartha Systematic Investment Scheme",
+        "Symbol": "SSIS",
+        "Status": "Active",
+        "Sector": "Mutual Fund",
+        "Instrument": "Equity",
+        "Email": "",
+        "Website": "",
+         "Units": "86.6",
+         "WACC": "100",
+        "Value": ""
+    },
+    {
+        "SN": "38",
+        "Name": "NIBL Sahabhagita Fund",
+        "Symbol": "NIBLSF",
+        "Status": "Active",
+        "Sector": "Mutual Fund",
+        "Instrument": "Equity",
+        "Email": "",
+        "Website": "",
+         "Units": "191.1",
+         "WACC": "100",
+        "Value": ""
+    },
+    {
+        "SN": "39",
+        "Name": "NIC Asia Dynamic Debt Fund",
+        "Symbol": "NICADF",
+        "Status": "Active",
+        "Sector": "Mutual Fund",
+        "Instrument": "Equity",
+        "Email": "",
+        "Website": "",
+         "Units": "11.8",
+         "WACC": "100",
+        "Value": ""
     }
+
 ]
