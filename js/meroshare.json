@@ -505,6 +505,32 @@
          "Units": "20",
          "WACC": "100",
         "Value": ""
+    },
+    {
+        "SN": "41",
+        "Name": "HLI Large Cap Fund",
+        "Symbol": "HLCF",
+        "Status": "Active",
+        "Sector": "Mutual Fund",
+        "Instrument": "Equity",
+        "Email": "",
+        "Website": "",
+         "Units": "10",
+         "WACC": "100",
+        "Value": ""
+    },
+    {
+        "SN": "42",
+        "Name": "RBB Focus 40",
+        "Symbol": "RBBF40",
+        "Status": "Active",
+        "Sector": "Mutual Fund",
+        "Instrument": "Equity",
+        "Email": "",
+        "Website": "",
+         "Units": "10",
+         "WACC": "100",
+        "Value": ""
     }
 
 ]
