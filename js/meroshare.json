@@ -427,8 +427,7 @@
          "Units": "43",
          "WACC": "",
         "Value": ""
-    }
-    ,
+    },
     {
         "SN": "35",
         "Name": "Bandipur Cable Car and Tourism Limited",
@@ -439,6 +438,19 @@
         "Email": "",
         "Website": "",
          "Units": "10",
+         "WACC": "100",
+        "Value": ""
+    },
+    {
+        "SN": "36",
+        "Name": "Prabhu Select Fund",
+        "Symbol": "PSF",
+        "Status": "Active",
+        "Sector": "Mutual Fund",
+        "Instrument": "Equity",
+        "Email": "",
+        "Website": "",
+         "Units": "20",
          "WACC": "100",
         "Value": ""
     }
