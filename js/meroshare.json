@@ -492,6 +492,19 @@
          "Units": "11.8",
          "WACC": "100",
         "Value": ""
+    },
+    {
+        "SN": "40",
+        "Name": "NIC Asia Select 30",
+        "Symbol": "NICSF",
+        "Status": "Active",
+        "Sector": "Mutual Fund",
+        "Instrument": "Equity",
+        "Email": "",
+        "Website": "",
+         "Units": "20",
+         "WACC": "100",
+        "Value": ""
     }
 
 ]
