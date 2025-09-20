@@ -3,129 +3,205 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Bar Chart from JSON (External Link)</title>
-  <!-- Chart.js CDN -->
+  <title>Portfolio Dashboard</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <style>
-    body{font-family:Arial, sans-serif; margin:0; padding:20px; background:#0f172a; color:#f1f5f9}
-    .card{background:#1e293b; border-radius:12px; box-shadow:0 6px 20px rgba(0,0,0,0.4); padding:20px; max-width:1000px; margin:auto}
-    h1{margin-top:0; font-size:22px; color:#38bdf8; text-align:center}
-    canvas{width:100% !important; height:auto !important; margin-top:20px}
-    .controls{margin-bottom:15px; display:flex; flex-wrap:wrap; gap:10px; align-items:center; justify-content:center}
-    select, button{padding:8px 14px; border-radius:6px; border:1px solid #334155; background:#0f172a; color:#f1f5f9; cursor:pointer; transition:all 0.2s}
-    select:hover, button:hover{background:#1e293b; border-color:#38bdf8}
-    button.active{background:#38bdf8; color:#0f172a; font-weight:bold}
+    body {
+      font-family: Arial, sans-serif; 
+      margin:0; padding:0; 
+      background:#f9fafb; color:#111827;
+    }
+    .navbar {
+      display:flex; background:#e5e7eb; padding:10px 20px; gap:20px;
+      border-bottom:2px solid #d1d5db;
+    }
+    .navbar button {
+      background:none; border:none; color:#111827;
+      font-size:16px; cursor:pointer; padding:8px 12px;
+      border-radius:6px; transition:all 0.2s;
+    }
+    .navbar button.active {
+      background:#3b82f6; color:#fff; font-weight:bold;
+    }
+    .container { padding:20px; max-width:1200px; margin:auto; }
+    .card {
+      background:#fff; border-radius:12px;
+      box-shadow:0 6px 20px rgba(0,0,0,0.1);
+      padding:20px; margin-bottom:20px;
+    }
+    h2 { margin-top:0; color:#2563eb; text-align:center; }
+    .controls {
+      margin-bottom:15px; display:flex; flex-wrap:wrap; gap:10px;
+      align-items:center; justify-content:center;
+    }
+    select, button.sortBtn {
+      padding:8px 14px; border-radius:6px; border:1px solid #d1d5db;
+      background:#f9fafb; color:#111827; cursor:pointer;
+      transition:all 0.2s;
+    }
+    select:hover, button.sortBtn:hover {
+      background:#e5e7eb; border-color:#3b82f6;
+    }
+    button.sortBtn.active { background:#3b82f6; color:#fff; font-weight:bold; }
+    .tab-content { display:none; }
+    .tab-content.active { display:block; }
+    canvas { width:100% !important; height:auto !important; }
+    .summary-list { list-style:none; padding:0; margin:0; }
+    .summary-list li { padding:6px 0; border-bottom:1px solid #e5e7eb; }
+    .summary-flex {
+      display:flex; flex-wrap:wrap; gap:20px;
+      justify-content:space-around; align-items:center;
+    }
+    .summary-flex > div { flex:1; min-width:250px; }
   </style>
 </head>
 <body>
-  <div class="card">
-    <h1>📊 Units Distribution Dashboard</h1>
-    <div class="controls">
-      <label for="sectorFilter">Filter by Sector: </label>
-      <select id="sectorFilter">
-        <option value="All">All</option>
-      </select>
-      <button id="sortDescBtn">Sort: Highest → Lowest</button>
-      <button id="sortAscBtn">Sort: Lowest → Highest</button>
-      <button id="sortResetBtn">Reset Order</button>
+  <div class="navbar">
+    <button id="tabPie" class="active">📊 Sector Allocation</button>
+    <button id="tabBar">📈 Units Distribution</button>
+    <button id="tabSummary">📑 Summary</button>
+  </div>
+
+  <div class="container">
+    <!-- Pie Chart -->
+    <div id="pieTab" class="tab-content active">
+      <div class="card">
+        <h2>Sector Allocation</h2>
+        <canvas id="pieChart"></canvas>
+      </div>
     </div>
-    <canvas id="barChart"></canvas>
+
+    <!-- Bar Chart -->
+    <div id="barTab" class="tab-content">
+      <div class="card">
+        <h2>Units Distribution</h2>
+        <div class="controls">
+          <label for="sectorFilter">Filter by Sector: </label>
+          <select id="sectorFilter"><option value="All">All</option></select>
+          <button id="sortDescBtn" class="sortBtn">Sort: Highest → Lowest</button>
+          <button id="sortAscBtn" class="sortBtn">Sort: Lowest → Highest</button>
+          <button id="sortResetBtn" class="sortBtn">Reset Order</button>
+        </div>
+        <canvas id="barChart"></canvas>
+      </div>
+    </div>
+
+    <!-- Summary -->
+    <div id="summaryTab" class="tab-content">
+      <div class="card">
+        <h2>Portfolio Summary</h2>
+        <div class="summary-flex">
+          <div>
+            <ul class="summary-list" id="summaryList"></ul>
+          </div>
+          <div>
+            <canvas id="miniPieChart"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <script>
-    const ctx = document.getElementById('barChart').getContext('2d');
-    let chart;
+    const pieCtx = document.getElementById('pieChart').getContext('2d');
+    const barCtx = document.getElementById('barChart').getContext('2d');
+    const miniPieCtx = document.getElementById('miniPieChart').getContext('2d');
+    let pieChart, barChart, miniPieChart;
     let globalData = [];
     let currentSort = null;
 
+    // Tabs
+    function switchTab(tab){
+      document.querySelectorAll('.navbar button').forEach(b=>b.classList.remove('active'));
+      document.querySelectorAll('.tab-content').forEach(c=>c.classList.remove('active'));
+      if(tab==='pie'){ tabPie.classList.add('active'); pieTab.classList.add('active'); }
+      else if(tab==='bar'){ tabBar.classList.add('active'); barTab.classList.add('active'); }
+      else { tabSummary.classList.add('active'); summaryTab.classList.add('active'); }
+    }
+    tabPie.addEventListener('click',()=>switchTab('pie'));
+    tabBar.addEventListener('click',()=>switchTab('bar'));
+    tabSummary.addEventListener('click',()=>switchTab('summary'));
+
     function generateColors(n){
-      const colors = [];
-      for(let i=0;i<n;i++){
-        const hue = Math.round((360/n)*i);
-        colors.push(`hsl(${hue},70%,50%)`);
-      }
+      const colors=[]; 
+      for(let i=0;i<n;i++){ const hue=Math.round((360/n)*i); colors.push(`hsl(${hue},70%,50%)`); }
       return colors;
     }
 
-    function renderFromArray(arr){
-      const labels = arr.map(x => x.Symbol);
-      const data = arr.map(x => Number(x.Units));
-      const colors = generateColors(labels.length);
+    function renderPieChart(ctx, chartRef, data){
+      const sectors={};
+      data.forEach(d=>{const sec=d.Sector||'Unknown'; sectors[sec]=(sectors[sec]||0)+Number(d.Units);});
+      const labels=Object.keys(sectors), values=Object.values(sectors), colors=generateColors(labels.length);
+      if(chartRef) chartRef.destroy();
+      return new Chart(ctx,{type:'pie',data:{labels,datasets:[{data:values,backgroundColor:colors}]},
+        options:{plugins:{legend:{position:'bottom'},tooltip:{callbacks:{label:ctx=>`${ctx.label}: ${ctx.parsed} Units`}}}}});
+    }
 
-      if(chart){ chart.destroy(); }
-      chart = new Chart(ctx, {
-        type: 'bar',
-        data: {
-          labels: labels,
-          datasets: [{
-            label: 'Units',
-            data: data,
-            backgroundColor: colors
-          }]
-        },
-        options: {
-          responsive: true,
-          plugins: {
-            legend: { display: false },
-            tooltip: { callbacks: { label: ctx => `${ctx.label}: ${ctx.parsed.y} Units` } }
-          },
-          scales: {
-            y: { beginAtZero: true }
-          }
-        }
-      });
+    function renderBar(data){
+      const labels=data.map(x=>x.Symbol), values=data.map(x=>Number(x.Units)), colors=generateColors(labels.length);
+      if(barChart){ barChart.destroy(); }
+      barChart=new Chart(barCtx,{type:'bar',data:{labels,datasets:[{label:'Units',data:values,backgroundColor:colors}]},
+        options:{responsive:true,plugins:{legend:{display:false},tooltip:{callbacks:{label:ctx=>`${ctx.label}: ${ctx.parsed.y} Units`}}},
+          scales:{y:{beginAtZero:true}},animation:{duration:800,easing:'easeOutQuart'}}});
     }
 
     function populateFilter(data){
-      const sectors = [...new Set(data.map(x => x.Sector || 'Unknown'))];
-      const filter = document.getElementById('sectorFilter');
-      sectors.forEach(sec => {
-        const opt = document.createElement('option');
-        opt.value = sec;
-        opt.textContent = sec;
-        filter.appendChild(opt);
-      });
+      const sectors=[...new Set(data.map(x=>x.Sector||'Unknown'))], filter=document.getElementById('sectorFilter');
+      sectors.forEach(sec=>{const opt=document.createElement('option'); opt.value=sec; opt.textContent=sec; filter.appendChild(opt);});
     }
 
     function setActiveButton(btnId){
-      document.querySelectorAll('.controls button').forEach(btn => btn.classList.remove('active'));
+      document.querySelectorAll('.sortBtn').forEach(btn=>btn.classList.remove('active'));
       if(btnId) document.getElementById(btnId).classList.add('active');
     }
 
     function applyFilterAndSort(sortType){
-      const val = document.getElementById('sectorFilter').value;
-      let filtered = (val === 'All') ? [...globalData] : globalData.filter(x => (x.Sector || 'Unknown') === val);
-      if(sortType === 'desc'){
-        filtered.sort((a,b) => Number(b.Units) - Number(a.Units));
-        currentSort = 'desc';
-        setActiveButton('sortDescBtn');
-      } else if(sortType === 'asc'){
-        filtered.sort((a,b) => Number(a.Units) - Number(b.Units));
-        currentSort = 'asc';
-        setActiveButton('sortAscBtn');
-      } else {
-        currentSort = null;
-        setActiveButton('sortResetBtn');
-      }
-      renderFromArray(filtered);
+      const val=document.getElementById('sectorFilter').value;
+      let filtered=(val==='All')?[...globalData]:globalData.filter(x=>(x.Sector||'Unknown')===val);
+      if(sortType==='desc'){filtered.sort((a,b)=>Number(b.Units)-Number(a.Units)); currentSort='desc'; setActiveButton('sortDescBtn');}
+      else if(sortType==='asc'){filtered.sort((a,b)=>Number(a.Units)-Number(b.Units)); currentSort='asc'; setActiveButton('sortAscBtn');}
+      else{currentSort=null; setActiveButton('sortResetBtn');}
+      renderBar(filtered);
     }
 
-    document.getElementById('sectorFilter').addEventListener('change', () => applyFilterAndSort(currentSort));
+    function renderSummary(data){
+      let totalUnits=data.reduce((sum,d)=>sum+Number(d.Units),0);
+      let top=data.reduce((max,d)=>Number(d.Units)>Number(max.Units)?d:max,data[0]);
+      const sectors={};
+      data.forEach(d=>{const sec=d.Sector||'Unknown'; sectors[sec]=(sectors[sec]||0)+Number(d.Units);});
+      const list=document.getElementById('summaryList');
+      list.innerHTML=`
+        <li><strong>Total Units:</strong> ${totalUnits}</li>
+        <li><strong>Top Holding:</strong> ${top.Symbol} (${top.Units} Units)</li>
+        <li><strong>Sector Breakdown:</strong></li>
+      `;
+      Object.entries(sectors).forEach(([sec,val])=>{
+        const pct=((val/totalUnits)*100).toFixed(2);
+        list.innerHTML+=`<li>• ${sec}: ${val} Units (${pct}%)</li>`;
+      });
 
-    document.getElementById('sortDescBtn').addEventListener('click', () => applyFilterAndSort('desc'));
-    document.getElementById('sortAscBtn').addEventListener('click', () => applyFilterAndSort('asc'));
-    document.getElementById('sortResetBtn').addEventListener('click', () => applyFilterAndSort());
+      // Mini Pie Chart
+      miniPieChart = renderPieChart(miniPieCtx, miniPieChart, data);
+    }
 
-    // Fetch from external link (replace with your actual link)
-    const dataUrl = "https://shyamkumarkc20.com.np/js/meroshare.json"; // <-- your JSON link here
+    // Event listeners
+    sectorFilter.addEventListener('change',()=>applyFilterAndSort(currentSort));
+    sortDescBtn.addEventListener('click',()=>applyFilterAndSort('desc'));
+    sortAscBtn.addEventListener('click',()=>applyFilterAndSort('asc'));
+    sortResetBtn.addEventListener('click',()=>applyFilterAndSort());
+
+    // Fetch JSON
+    const dataUrl="https://shyamkumarkc20.com.np/js/meroshare.json";
     fetch(dataUrl)
-      .then(res => res.json())
-      .then(json => {
-        globalData = json;
+      .then(res=>res.json())
+      .then(json=>{
+        globalData=json;
         populateFilter(json);
-        renderFromArray(json);
+        pieChart = renderPieChart(pieCtx, pieChart, json);
+        renderBar(json);
+        renderSummary(json);
       })
-      .catch(err => alert("Failed to load JSON: " + err.message));
+      .catch(err=>alert("Failed to load JSON: "+err.message));
   </script>
 </body>
 </html>
