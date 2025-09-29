@@ -100,10 +100,10 @@
           <p class="description">${bank.desc || ""}</p>
           
           <div class="stats">
-            <div class="stat-box atm">ATM: ${bank.ATM || 0}</div>
-            <div class="stat-box branches">Branches: ${bank.Branches || 0}</div>
-            <div class="stat-box ext">Extension Counters: ${bank.ExtensionCounters || 0}</div>
-            <div class="stat-box branchless">Branchless Banking: ${bank.Branchless || 0}</div>
+            <div class="stat-box atm">ATM: ${bank.ATM || NA}</div>
+            <div class="stat-box branches">Branches: ${bank.branch || 0}</div>
+            <div class="stat-box ext">Extension Counters: ${bank.ext || 0}</div>
+            <div class="stat-box branchless">Branchless Banking: ${bank.blb || 0}</div>
           </div>
 
           <div class="bank-card">
