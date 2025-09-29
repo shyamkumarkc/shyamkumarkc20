@@ -984,14 +984,14 @@
             "issueManager": "Nepal SBI Merchant Banking Limited"
         },
 		{
-            "company": "Shreenagar Agritech Industries Limited",
-            "units": "  3,262,500.00",
+            "company": "Shiva Shankar Hydro Investment Limited",
+            "units": "2,100,000.00",
             "price": "100.00",
             "openingDate": "",
             "closingDate": "",
             "lastClosingDate": "",
             "listingDate": "",
-            "issueManager": "Nabil Investment Banking Limited"
+            "issueManager": "Laxmi Sunrise Capital Limited"
         },
 		{
             "company": "Vision Energy & Power Limited",
@@ -1082,6 +1082,16 @@
             "lastClosingDate": "",
             "listingDate": "",
             "issueManager": "Global IME Capital Limited"
+        },
+		{
+            "company": "Kantipur Pharmaceuticals Lab Limited",
+            "units": "1,700,000.00",
+            "price": "100",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Muktinath Capital Limited"
         },
         {
             "company": "",
