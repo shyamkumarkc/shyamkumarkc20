@@ -23,8 +23,8 @@
             "company": "Shreenagar Agritech Industries Limited",
             "units": "3,262,500.00",
             "price": "100.00",
-            "openingDate": "",
-            "closingDate": "",
+            "openingDate": "2025-10-12",
+            "closingDate": "2025-10-15",
             "lastClosingDate": "",
             "listingDate": "",
             "issueManager": "Nabil Investment Banking Limited"
@@ -1132,7 +1132,7 @@
             "units": "7,000,000.00",
             "price": "100.00",
             "openingDate": "2025-09-08",
-            "closingDate": "2025-09-28",
+            "closingDate": "2025-10-12",
             "lastClosingDate": "",
             "listingDate": "",
             "issueManager": "Prabhu Capital Limited"
@@ -1144,7 +1144,7 @@
             "units": "133,92,000.00",
             "price": "100.00",
             "openingDate": "2025-09-08",
-            "closingDate": "2025-09-28",
+            "closingDate": "2025-10-12",
             "lastClosingDate": "",
             "listingDate": "",
             "issueManager": "Prabhu Capital Limited"
@@ -1154,8 +1154,8 @@
             "units": "14,764,000.00",
             "price": "100.00",
             "openingDate": "2025-09-04",
-            "closingDate": "2025-09-24",
-            "lastClosingDate": "2025-09-24",
+            "closingDate": "2025-10-09",
+            "lastClosingDate": "2025-10-09",
             "listingDate": "",
             "issueManager": "Citizens Capital Limited"
         },
