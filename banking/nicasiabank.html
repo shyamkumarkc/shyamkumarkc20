@@ -1,159 +1,127 @@
-
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>NIC Asia Bank Limited</title>
+  <title>Commercial Bank Information</title>
   <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-    crossorigin="anonymous"></script>
-  <script>
-    $(document).ready(function(){
-      $('#header').load('/assets/header.html');
-      $('#footer').load('/assets/footer.html');
-    });
-  </script>
   <style>
     body {
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      background: #f9fafc;
+      background: #f5f7fa;
       margin: 0;
-      padding: 0;
-      color: #333;
+      padding-top: 70px; /* offset for sticky header */
     }
-    .content {
-      padding: 20px;
-      max-width: 1100px;
+
+    /* Sticky Top Bar */
+    .top-bar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 60px;
+      background: #0077b6;
+      display: flex;
+      align-items: center;
+      padding: 0 20px;
+      color: #fff;
+      font-size: 18px;
+      font-weight: bold;
+      z-index: 1000;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+
+    .top-bar img {
+      height: 40px;
+      width: auto;
+      margin-right: 12px;
+      border-radius: 6px;
+      background: #fff;
+      padding: 3px;
+    }
+
+    .container {
+      max-width: 500px;
       margin: auto;
     }
-    h1 {
-      color: #222;
-      margin-bottom: 10px;
-    }
-    .description {
-      margin: 10px 0 20px;
-      line-height: 1.6;
-    }
-    .stats {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin-bottom: 30px;
-    }
-    .stat-box {
-      flex: 1 1 200px;
-      padding: 12px;
-      border-radius: 8px;
-      color: #fff;
-      text-align: center;
-      font-weight: 600;
-    }
-    .atm { background: #4cc9f0; }
-    .branches { background: #80ed99; }
-    .ext { background: #ffbe0b; }
-    .branchless { background: #ff6b6b; }
 
-    .bank-card,
-    .bank-card1 {
+    .card {
       background: #fff;
       border-radius: 12px;
       padding: 20px;
-      margin-bottom: 20px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
-    .bank-logo {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-    .bank-logo img {
-      max-width: 200px;
-      height: auto;
-    }
-    .info {
-      margin: 8px 0;
-      font-size: 15px;
-      word-wrap: break-word;
-    }
-    .info strong {
-      color: #000;
+
+    .bank-name {
+      font-size: 22px;
+      font-weight: bold;
+      color: #0077b6;
+      margin-bottom: 8px;
     }
 
-    @media (max-width: 600px) {
-      .stats {
-        flex-direction: column;
-      }
-      .stat-box {
-        flex: 1 1 auto;
-      }
+    .bank-code {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 12px;
+    }
+
+    .info {
+      font-size: 14px;
+      margin: 6px 0;
+      color: #333;
+    }
+
+    .highlight {
+      color: #e63946;
+      font-weight: 600;
     }
   </style>
 </head>
 <body>
-  <div id="header"></div>
-  <div class="content" id="bankContainer"></div>
-  <div id="footer"></div>
+  <!-- Sticky Top Bar -->
+  <div class="top-bar" id="topBar">
+    <img src="" alt="Logo" id="bankLogo">
+    <span id="bankTitle">Loading...</span>
+  </div>
+
+  <div class="container" id="bankContainer"></div>
 
   <script>
+    // Fetch external JSON
     fetch("https://shyamkumarkc20.com.np/js/commercialbanks.json")
-      .then(res => res.json())
+      .then(response => response.json())
       .then(data => {
-        const bank = data.find(b => b.Name.includes("NIC Asia")) || data[0];
         const container = document.getElementById("bankContainer");
+        const topBarTitle = document.getElementById("bankTitle");
+        const topBarLogo = document.getElementById("bankLogo");
 
-        container.innerHTML = `
-          <h1>${bank.Name}</h1>
-          <p class="description">${bank.desc || ""}</p>
+        // Select the first bank (you can filter by Code or NEPSE here)
+        const bank = data[0];
 
-          <div class="stats">
-            <div class="stat-box atm">ATM: ${bank.ATM || "N/A"}</div>
-            <div class="stat-box branches">Branches: ${bank.branch || "N/A"}</div>
-            <div class="stat-box ext">Extension Counters: ${bank.ext || "N/A"}</div>
-            <div class="stat-box branchless">Branchless Banking: ${bank.blb || "N/A"}</div>
-          </div>
+        // Update sticky top bar
+        topBarTitle.textContent = bank.Name;
+        topBarLogo.src = bank.logo || "https://via.placeholder.com/80x40?text=Logo";
 
-          <div class="bank-card">
-            <h2>${bank.Name}</h2>
-            <div class="bank-logo">
-              <img src="${bank.IMG || 'https://via.placeholder.com/200x80?text=Bank+Logo'}" alt="${bank.Name} Logo">
-            </div>
-            <div class="info"><strong>Name:</strong> ${bank.Name}</div>
-            <div class="info"><strong>Established:</strong> ${bank.ODAD || "N/A"} (${bank.ODBS || "N/A"})</div>
-            <div class="info"><strong>Paid-up Capital:</strong> ${bank.paidup || "N/A"} Billion</div>
-            <div class="info"><strong>Head Office:</strong> ${bank.HO || "N/A"}</div>
-            <div class="info"><strong>SWIFT Code:</strong> ${bank.Swift || "N/A"}</div>
-            <div class="info"><strong>NEPSE:</strong> ${bank.NEPSE || "N/A"}</div>
-            <div class="info"><strong>CEO:</strong> ${bank.ceo || "N/A"}</div>
-            <div class="info"><strong>Chairman:</strong> ${bank.chairman || "N/A"}</div>
-            <div class="info"><strong>Phone:</strong> 
-              ${bank.phone1 ? `<a href="tel:${bank.phone1}">${bank.phone1}</a>` : ""}
-              ${bank.phone2 ? ` | <a href="tel:${bank.phone2}">${bank.phone2}</a>` : ""}
-            </div>
-            <div class="info"><strong>Toll Free:</strong> 
-              ${bank.TOLL ? `<a href="tel:${bank.TOLL}">${bank.TOLL}</a>` : ""}
-              ${bank.TOLL1 ? ` | <a href="tel:${bank.TOLL1}">${bank.TOLL1}</a>` : ""}
-            </div>
-            <div class="info"><strong>Email:</strong> 
-              ${bank.email ? `<a href="mailto:${bank.email}">${bank.email}</a>` : "N/A"}
-            </div>
-            <div class="info"><strong>Website:</strong> 
-              ${bank.Website ? `<a href="https://${bank.Website}" target="_blank">${bank.Website}</a>` : "N/A"}
-            </div>
-          </div>
-
-          <div class="bank-card1">
-            <h2>Merger</h2>
-            <div class="info">${bank.merger || "N/A"}</div>
-          </div>
-
-          <div class="bank-card1">
-            <h2>Subsidiary Company</h2>
-            <div class="info">${bank.subsidiaries || "N/A"}</div>
-          </div>
+        // Bank info card
+        const card = document.createElement("div");
+        card.className = "card";
+        card.innerHTML = `
+          <div class="bank-name">${bank.Name}</div>
+          <div class="bank-code">Code: <span class="highlight">${bank.Code}</span></div>
+          <div class="info"><strong>NEPSE:</strong> ${bank.NEPSE}</div>
+          <div class="info"><strong>Class:</strong> ${bank.class}</div>
+          <div class="info"><strong>Head Office:</strong> ${bank.HO}</div>
+          <div class="info"><strong>CEO:</strong> ${bank.ceo || "N/A"}</div>
+          <div class="info"><strong>Established (AD):</strong> ${bank.ODAD}</div>
+          <div class="info"><strong>Established (BS):</strong> ${bank.ODBS}</div>
+          <div class="info"><strong>Paid-up Capital:</strong> ${bank.paidup || "N/A"} Billion</div>
         `;
+        container.appendChild(card);
       })
-      .catch(err => console.error("Error loading JSON:", err));
+      .catch(error => {
+        console.error("Error loading JSON:", error);
+      });
   </script>
 </body>
 </html>
-
+```
