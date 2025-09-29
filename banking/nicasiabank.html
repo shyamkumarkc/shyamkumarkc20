@@ -1,26 +1,35 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>NIC Asia Bank Limited</title>
-    <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script>
-        $(document).ready(function(){
-            $('#header').load('/assets/header.html');
-            $('#footer').load('/assets/footer.html');
-            fetchBankData();
-        });
-    </script>
-     <style>
-    body1 {
+  <meta charset="UTF-8">
+  <title>NIC Asia Bank Limited</title>
+  <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function(){
+      $('#header').load('/assets/header.html');
+      $('#footer').load('/assets/footer.html');
+    });
+  </script>
+  <style>
+    body {
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       background: #f9fafc;
       margin: 0;
-      padding: 20px;
+      padding: 0;
       color: #333;
+    }
+    .content {
+      padding: 20px;
+      max-width: 1100px;
+      margin: auto;
     }
     h1 {
       color: #222;
+      margin-bottom: 10px;
     }
     .description {
       margin: 10px 0 20px;
@@ -45,20 +54,12 @@
     .ext { background: #ffbe0b; }
     .branchless { background: #ff6b6b; }
 
-    .bank-card {
-      background: #fff;
-      border-radius: 12px;
-      padding: 20px;
-      
-      margin: auto;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    }
+    .bank-card,
     .bank-card1 {
       background: #fff;
       border-radius: 12px;
       padding: 20px;
-     
-      margin: auto;
+      margin-bottom: 20px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
     .bank-logo {
@@ -67,10 +68,12 @@
     }
     .bank-logo img {
       max-width: 200px;
+      height: auto;
     }
     .info {
       margin: 8px 0;
       font-size: 15px;
+      word-wrap: break-word;
     }
     .info strong {
       color: #000;
@@ -80,31 +83,33 @@
       .stats {
         flex-direction: column;
       }
+      .stat-box {
+        flex: 1 1 auto;
+      }
     }
   </style>
 </head>
 <body>
-    <div id="header"></div>
-    <body1>
-   <div id="bankContainer"></div>
+  <div id="header"></div>
+  <div class="content" id="bankContainer"></div>
+  <div id="footer"></div>
 
   <script>
     fetch("https://shyamkumarkc20.com.np/js/commercialbanks.json")
       .then(res => res.json())
       .then(data => {
-        // Example: find NIC Asia Bank
         const bank = data.find(b => b.Name.includes("NIC Asia")) || data[0];
         const container = document.getElementById("bankContainer");
 
         container.innerHTML = `
           <h1>${bank.Name}</h1>
           <p class="description">${bank.desc || ""}</p>
-          
+
           <div class="stats">
-            <div class="stat-box atm">ATM: ${bank.ATM || NA}</div>
-            <div class="stat-box branches">Branches: ${bank.branch || 0}</div>
-            <div class="stat-box ext">Extension Counters: ${bank.ext || 0}</div>
-            <div class="stat-box branchless">Branchless Banking: ${bank.blb || 0}</div>
+            <div class="stat-box atm">ATM: ${bank.ATM || "N/A"}</div>
+            <div class="stat-box branches">Branches: ${bank.branch || "N/A"}</div>
+            <div class="stat-box ext">Extension Counters: ${bank.ext || "N/A"}</div>
+            <div class="stat-box branchless">Branchless Banking: ${bank.blb || "N/A"}</div>
           </div>
 
           <div class="bank-card">
@@ -113,37 +118,42 @@
               <img src="${bank.IMG || 'https://via.placeholder.com/200x80?text=Bank+Logo'}" alt="${bank.Name} Logo">
             </div>
             <div class="info"><strong>Name:</strong> ${bank.Name}</div>
-            <div class="info"><strong>Established:</strong> ${bank.ODAD || "N/A"}
-           (${bank.ODBS || "N/A"}) </div>
+            <div class="info"><strong>Established:</strong> ${bank.ODAD || "N/A"} (${bank.ODBS || "N/A"})</div>
             <div class="info"><strong>Paid-up Capital:</strong> ${bank.paidup || "N/A"} Billion</div>
-            <div class="info"><strong>Head Office:</strong> ${bank.HO || "N/A"}</div>            
-            <div class="info"><strong>SWIFT Code:</strong> ${bank.Swift}</div>
-            <div class="info"><strong>NEPSE:</strong> ${bank.NEPSE}</div>
+            <div class="info"><strong>Head Office:</strong> ${bank.HO || "N/A"}</div>
+            <div class="info"><strong>SWIFT Code:</strong> ${bank.Swift || "N/A"}</div>
+            <div class="info"><strong>NEPSE:</strong> ${bank.NEPSE || "N/A"}</div>
             <div class="info"><strong>CEO:</strong> ${bank.ceo || "N/A"}</div>
-            <div class="info"><strong>Chairman:</strong> ${bank.chairman}</div>
-            
-             <div class="info"><strong>Phone:</strong> <a href="tel:${bank.phone1}">${bank.phone1}</a> <a href="tel:${bank.phone2}">${bank.phone2}</a></div>
-             <div class="info"><strong>Toll Free:</strong> <a href="tel:${bank.TOLL}">${bank.TOLL}</a> <a href="tel:${bank.TOLL1}">${bank.TOLL1}</a></div>
-            <div class="info"><strong>Email:</strong>  <a href="mailto:${bank.email}">${bank.email}</a></div>
-            <div class="info"><strong>Website:</strong> <a href="https://${bank.Website}">${bank.Website}</a></div>
-             
-          </div><br/>
-           <div class="bank-card1">
-           <h2>Merger</h2>
-           <div class="info"> ${bank.merger}</div>
-           </div>
-           <br/>
-           <div class="bank-card1">
-           <h2>Subsidiary Company</h2>
-           <div class="info"> ${bank.subsidiaries}</div>
-           </div>
+            <div class="info"><strong>Chairman:</strong> ${bank.chairman || "N/A"}</div>
+            <div class="info"><strong>Phone:</strong> 
+              ${bank.phone1 ? `<a href="tel:${bank.phone1}">${bank.phone1}</a>` : ""}
+              ${bank.phone2 ? ` | <a href="tel:${bank.phone2}">${bank.phone2}</a>` : ""}
+            </div>
+            <div class="info"><strong>Toll Free:</strong> 
+              ${bank.TOLL ? `<a href="tel:${bank.TOLL}">${bank.TOLL}</a>` : ""}
+              ${bank.TOLL1 ? ` | <a href="tel:${bank.TOLL1}">${bank.TOLL1}</a>` : ""}
+            </div>
+            <div class="info"><strong>Email:</strong> 
+              ${bank.email ? `<a href="mailto:${bank.email}">${bank.email}</a>` : "N/A"}
+            </div>
+            <div class="info"><strong>Website:</strong> 
+              ${bank.Website ? `<a href="https://${bank.Website}" target="_blank">${bank.Website}</a>` : "N/A"}
+            </div>
+          </div>
+
+          <div class="bank-card1">
+            <h2>Merger</h2>
+            <div class="info">${bank.merger || "N/A"}</div>
+          </div>
+
+          <div class="bank-card1">
+            <h2>Subsidiary Company</h2>
+            <div class="info">${bank.subsidiaries || "N/A"}</div>
+          </div>
         `;
       })
       .catch(err => console.error("Error loading JSON:", err));
   </script>
-   </div>
-    </body>
-    
-    <div id="footer"></div>
 </body>
 </html>
+
