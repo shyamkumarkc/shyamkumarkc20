@@ -361,10 +361,10 @@
     "Name": "Nepal Share Markets and Finance Limited",
 	"ODAD": "1993",
 	  "ODBS": "",
-	"HO": "Ramshahapath, Kathmandu",
+	"HO": "Ramshahpath, Kathmandu",
 	"NEPSE": "",
 	"Swift": "",
-	"Website": "",
+	"Website": "nsm.com.np",
 	"links": "https://shyamkumarkc20.com.np/0",
 	"IMG": "https://shyamkumarkc20.com.np/logo/nsm.jpg",
 	"TOLL": "",
@@ -376,10 +376,11 @@
 	  "blb": "",
 	  "subsidiaries": "",
 	  "merger": "",
-	"phone1": "",	  
-	  "phone2": "",
-	"email": "0",
-	"pobox": "0"
+	"phone1": "015367597",	  
+	  "phone2": "015367606",
+	"email": "info@nsm.com.np",
+	"pobox": "0",
+	"desc": "Nepal Share Markets & Finance Limited, hereinafter referred to as NSM, was incorporated under the Companies Act, 2063 as a public limited company with Registration No. 25/049/50 on Ashadh 15, 2050 (June 29, 1993). On Baishakk 5, 2063 (April 14, 2006), NSM obtained a license from Nepal Rastra Bank to carry out banking functions. It was registered in the Inland Revenue Department on Jestha 32, 2057 (June 14, 2000), with permanent account number 500058088. The company’s head office is located at Ramshahpath Putalisadak, Ward No. 28, Kathmandu, Nepal. On Poush 28, 2068 (January 28, 2012), it was declared a problematic financial institution by Nepal Rastra Bank. NSM has been restricted from carrying out banking transactions since the date it was declared a problematic financial institution. From Jesth 11, 2072, all branches of NSM has been closed."
 	
   },{
     "SNO": 13,
@@ -542,7 +543,7 @@
 	"pobox": "10717",
 	"shours": "Sunday to Thursday 10:00 AM - 4:00 PM</br>Friday 10:00 AM - 01:00 PM",
 	"whours": "Sunday to Thursday 10:00 AM - 4:00 PM</br>Friday 10:00 AM - 01:00 PM",
-	"desc": "Shree Investment & Finance Co Ltd.(SIFCO) was incorporated in the year 1994 (2051 BS) by a group of eminent businessmen from Kathmandu , as a Financial Services Company and a Merchant Bank under the Nepal Finance Company Act, 1985 and the Nepal Company Act, 1964. The Company has been licensed by the Nepal Rastra Bank as 'C' class Financial Institution to undertake finance services and merchant banking activities in the country."
+	"desc": "Shree Investment & Finance Co Ltd.(SIFCO) was incorporated in the year 1994 (2051 BS) by a group of eminent businessmen from Kathmandu, as a Financial Services Company and a Merchant Bank under the Nepal Finance Company Act, 1985 and the Nepal Company Act, 1964. The Company has been licensed by the Nepal Rastra Bank as 'C' class Financial Institution to undertake finance services and merchant banking activities in the country."
 	
   }
   ]
