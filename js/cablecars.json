@@ -29,7 +29,7 @@
 		"sp": "Thankot",		
 		"ep": "Chandragiri Hills",
 		"Year": "2016",
-		"nepse": "",
+		"nepse": "CGH",
 		"phone1": "01-5970796",
 		"phone2": "",
 		"tower": "20",
@@ -49,7 +49,7 @@
 		"Website": "www.kalinchowkdarshan.com.np",
 		"ep": "Kalinchowk Temple",
 		"Year": "2018",
-		"nepse": "",
+		"nepse": "KDL",
 		"phone1": "01-5913710",
 		"phone2": "",
 		"tower": "",
@@ -80,13 +80,13 @@
 	},
 	{
 		"SNo": "5",
-		"Name": "Maula Kali Cable Car",
+		"Name": "Maula Kalika Cable Car",
 		"IMG": "https://shyamkumarkc20.com.np/logo/maulakalika.jpg",
 		"dis": "Nawalparasi",
 		"Length": "1200m",
 		"Height": "560m",
 		"sp": "Gaidakot",
-		"ep": "Maula Kali Temple",
+		"ep": "Maula Kalika Temple",
 		"Website": "",
 		"Year": "2023",
 		"nepse": "",
@@ -95,7 +95,7 @@
 		"tower": "6",
 		
 		"gondola": "12",
-		"desc": "The Maulakali Cable Car, located at Gaidakot, Nawalpur, provides easy access to the Maula Kalika Temple, a Hindu temple situated at an elevation of 561 meters, replacing a challenging 1800-step climb with a comfortable 1200-meter ride.<br/>The cable car, equipped with 12 gondolas, can transport up to 6,000 devotees daily to the holy shrine, enhancing the spiritual experience for both domestic and international visitors. Complementing to this, the project also features a luxury hotel, Ila Hotel and Resort (IHR) offering sophisticated accommodation that embodies a connection to nature and culture. Strategically located, IHR offers elegant accommodations that allow devotees to seamlessly integrate their pilgrimage with a comfortable and enriching stay, elevating both the spiritual and tourism experience in the region."
+		"desc": "The Maulakalika Cable Car, located at Gaidakot, Nawalpur, provides easy access to the Maula Kalika Temple, a Hindu temple situated at an elevation of 561 meters, replacing a challenging 1800-step climb with a comfortable 1200-meter ride.<br/>The cable car, equipped with 12 gondolas, can transport up to 6,000 devotees daily to the holy shrine, enhancing the spiritual experience for both domestic and international visitors. Complementing to this, the project also features a luxury hotel, Ila Hotel and Resort (IHR) offering sophisticated accommodation that embodies a connection to nature and culture. Strategically located, IHR offers elegant accommodations that allow devotees to seamlessly integrate their pilgrimage with a comfortable and enriching stay, elevating both the spiritual and tourism experience in the region."
 	},
 	{
 		"SNo": "6",
