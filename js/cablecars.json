@@ -9,8 +9,11 @@
 		"ep": "ManakamanaTemple",
 		"Website": "manakamanacablecar.com/cable-car/",
 		"Year": "1998",
+		"nepse": "",
 		"phone1": "01-4534825",
 		"phone2": "01-4534648",
+		"tower": "20",
+		"gondola": "31",
 		"company": "Manakamana Darshan Private Limited",
 		"email": "info@manakamanacablecar.com",
 		"desc": "The cable car has helped in covering the distance to the Temple in just 10 minutes, which would otherwise be a five-hour uphill climb. The ride begins from across the Trishuli River bank (258 meter) and as you ascend the hill the view of surrounding hills and dense forest is mesmerizing.<br/>Safety and keeping it green are the top most priorities of the company. The cable car is maintained every day before and after normal operation hours. As per the Doppelmayr protocol, the cable car takes a break for 2-3 days in four month intervals.<br/>The top station is situated close to the temple in 1302 meter. Manakamana Cable Car station is 2 1⁄2 Hrs drive from Kathmandu, 2 Hrs from Pokhara and, 1 Hour from Narayanghat."
@@ -26,8 +29,11 @@
 		"sp": "Thankot",		
 		"ep": "Chandragiri Hills",
 		"Year": "2016",
+		"nepse": "",
 		"phone1": "01-5970796",
 		"phone2": "",
+		"tower": "20",
+		"gondola": "38",
 		"company": "Chandragiri Hills",
 		"email": "sales@chandragirihills.com",
 		"desc": "Chandragiri Hills cable car gently carries you above the verdant pine forests, opening awe-inspiring panoramic views of the valley below, the lush hills surrounding it, and the majestic Himalayan range. The picturesque ride sets the tone for a truly unforgettable experience that awaits you. At approx. 10 mins, it is the quickest way to get from the base to the hilltop. It offers an untainted, uninterrupted view of the valley and the Himalayas. It is a safe and secure ride, backed up with generators in case of temporary power cuts. Emergency rescue drives are arranged for customers to reach the Bottom Station when required."
@@ -43,8 +49,11 @@
 		"Website": "www.kalinchowkdarshan.com.np",
 		"ep": "Kalinchowk Temple",
 		"Year": "2018",
+		"nepse": "",
 		"phone1": "01-5913710",
 		"phone2": "",
+		"tower": "",
+		"gondola": "4",
 		"company": "Kalinchowk Darshan",
 		"email" : "darshankalinchowk@gmail.com",
 		"desc": "A cable car trip is the shortest means to reach Kalinchow Darshan top station. The 2.5 km long cable car ensures a smooth and safe journey, all the while giving you an up-close view of the untainted wilderness. Cable Car: The 2.5 km cable car ride takes around 6 minutes to reach the Kalinchowwk Darshan top station. A cabin accommodates 8 passengers. A child above 3 feet of height requires a ticket."
@@ -59,9 +68,12 @@
 		"Height": "1600m",
 		"sp": "Fewa Lake",
 		"ep": "Sarangkot",
-		"Year": "2020",		
+		"Year": "2020",	
+		"nepse": "",
 		"phone1": "061-590671",
 		"phone2": "061-590672",
+		"tower": "",
+		"gondola": "18",
 		"company": "Annapurna Cable Car Limited",
 		"email": "info@annapurnacablecar.com.np",
 		"desc": "With a panoramic view of Himalayan peaks from Dhaulagiri (8167m) in the west to Machhapucharre (6997m), Annapurna II (7937m) to Lamjung(6983m) in the east, Sarangkot lets one experience a spiritual bliss with nature in its purest form. Experience the beauty with Annapurna Cable Car. You can witness sunset and sunrise. Annapurna Cable Car takes you to Sarangkot in just 10 minutes."
@@ -77,8 +89,12 @@
 		"ep": "Maula Kali Temple",
 		"Website": "",
 		"Year": "2023",
-		"phone1": "",
+		"nepse": "",
+		"phone1": "078-597000",
 		"phone2": "",
+		"tower": "6",
+		
+		"gondola": "12",
 		"desc": "The Maulakali Cable Car, located at Gaidakot, Nawalpur, provides easy access to the Maula Kalika Temple, a Hindu temple situated at an elevation of 561 meters, replacing a challenging 1800-step climb with a comfortable 1200-meter ride.<br/>The cable car, equipped with 12 gondolas, can transport up to 6,000 devotees daily to the holy shrine, enhancing the spiritual experience for both domestic and international visitors. Complementing to this, the project also features a luxury hotel, Ila Hotel and Resort (IHR) offering sophisticated accommodation that embodies a connection to nature and culture. Strategically located, IHR offers elegant accommodations that allow devotees to seamlessly integrate their pilgrimage with a comfortable and enriching stay, elevating both the spiritual and tourism experience in the region."
 	},
 	{
@@ -92,8 +108,13 @@
 		"Website": "",
 		"ep": "Basantapur Palpa",
 		"Year": "2023",
+		"nepse": "",
 		"phone1": "",
 		"phone2": "",
+		"tower": "9",
+		
+		"gondola": "24",
+		"company": "Lumbini Cable Car Limited",
 		"desc": "Lumbini Cable Car Ltd., located in Butwal-03, Rupandehi district, operates a 2.65-kilometer cable car system with 24 gondolas. The scenic 10-15 minute ride ascends over 960 meters in altitude from base station (Butwal) to the top station (Basantapur) connecting the two historically important districts of Nepal, namely Rupandehi and Palpa. The cable car facilitates daily travel for up to 6,000 devotees to the revered shrines of Maa Kamakhaya and Maa Durga at the top station."
 	},
 	{
@@ -105,11 +126,14 @@
 		"Height": " ",
 		"sp": "Dumre Bazzar",
 		"Website": "www.bandipurcablecar.com.np/",
-		"ep": " ",
+		"ep": "Bandipur",
 		"Year": "2024",
+		"nepse": "",
 		"phone1": "065-580457",
 		"phone2": "",
-		"company": "Bandipur Cable Car Limited",
+		"tower": "",
+		"gondola": "",
+		"company": "Bandipur Cable Car & Tourism Limited",
 		"email": "info@bandipurcablecar.com.np",
 		"desc": "Bandipur Cable Car & Tourism Ltd. is a limited company registered with Government of Nepal, Ministry of Industry, Company Registrar Office, Kathmandu on 2078.05.17 BS under registration No. 270364/078/079 and PAN-600918925 having its corporate office at Kalimati, Kathmandu and field office at Bandipur Rural Muncipality, Bandipur - 4, Tanahun formerly Bandipur VDC Ward no.3, Tanahun."
 	},
@@ -123,10 +147,13 @@
 		"sp": "Butwal",
 		"Website": "siddharthacablecar.com.np/",
 		"ep": "Nuwakot, Palpa",
-
 		"Year": "2024",
+		"nepse": "",
 		"phone1": "065-580457",
 		"phone2": "",
+		"tower": "",
+		"gondola": "",
+		"company": "Siddhartha Cable Car",
 		"desc": "Siddhartha Cable Car, named after Siddhartha, the Little Buddha before enlightenment. Reflecting his first seven steps after birth, we have constructed seven lotus structures: six at the lower station and one at the upper station, where the tallest Siddhartha statue is enshrined. This journey is not just a ride but an immersion into a spiritual and historical odyssey, offering a unique blend of comfort, history, and spirituality."
 	}
 ]
