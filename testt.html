@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Cable Cars In Nepal</title>
+<title>Commercial Banks In Nepal</title>
 <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script>
@@ -79,7 +79,7 @@ $(function(){
   <div class="container" id="cableCars"></div>
 
   <script>
-    fetch("https://shyamkumarkc20.com.np/js/cablecars.json")
+    fetch("https://shyamkumarkc20.com.np/js/commercialbanks.json")
       .then(response => response.json())
       .then(data => {
         const container = document.getElementById("cableCars");
@@ -88,21 +88,16 @@ $(function(){
           const block = document.createElement("div");
           block.className = "cablecar";
           block.innerHTML = `
-            <h2>${item.SNo}. ${item.Name}</h2>
-            <p class="meta"><strong>Year:</strong> ${item.Year || "N/A"} | 
-              <strong>Length:</strong> ${item.Length || "-"} | 
-              <strong>Height:</strong> ${item.Height || "-"}</p>
-            <img src="${item.IMG}" alt="${item.Name}">
+            <h2>${item.SNO}. ${item.Name}</h2>
+            <p class="meta"><strong>Year:</strong> ${item.ODAD || "N/A"} [${item.ODBS || "N/A"}] | 
+              <strong>Branch:</strong> ${item.branch || "-"} | 
+              <strong>ATM:</strong> ${item.ATM || "-"}</p>
+            <img src="${item.IMG}" alt="${item.Name}" width="200" height="200">
             <p class="desc">${item.desc || ""}</p>
-            <div class="details">
-              ${item.sp ? `<p><strong>Start:</strong> ${item.sp}</p>` : ""}
-              ${item.ep ? `<p><strong>End:</strong> ${item.ep}</p>` : ""}
-              ${item.company ? `<p><strong>Company:</strong> ${item.company}</p>` : ""}
-              ${item.phone1 ? `<p><strong>Phone:</strong> ${item.phone1}${item.phone2 ? ", " + item.phone2 : ""}</p>` : ""}
-              ${item.email ? `<p><strong>Email:</strong> ${item.email}</p>` : ""}
-            </div>
+            <p class="ceo">Current CEO of ${item.Name || ""} is ${item.ceo || ""} and the current chairman of the bank is ${item.chairman || ""}. The bank has been serving its ${item.Customer || ""} customers through ${item.branch || ""} branches, ${item.ATM || ""} ATMs, ${item.ext || ""} extention & revenue counter and ${item.blb || ""} branchless banking. </p>
+           
             <div class="links">
-              ${item.Website ? `<a href="https://${item.Website}" target="_blank">🌐 Website</a>` : ""}
+              ${item.links ? `<a href="https://shyamkumarkc20.com.np${item.links}">>>> Read More>>></a>` : ""}
             </div>
           `;
           container.appendChild(block);
