@@ -448,14 +448,14 @@
 	
   },{
     "SNO": 15,
-	  "Code": "9939",
+	"Code": "9939",
 	"Casba": "",
 	"class": "C",
 	"paidup": "1.12",
 	"level": "National Level",
     "Name": "Reliance Finance Limited",
 	"ODAD": "2009",
-	  "ODBS": "",
+	"ODBS": "",
 	"HO": "Pradarsani Marg, Kathmandu",
 	"NEPSE": "RLFL",
 	"Swift": "",
@@ -463,8 +463,8 @@
 	"links": "https://shyamkumarkc20.com.np/0",
 	"IMG": "https://shyamkumarkc20.com.np/logo/rlfl.png",
 	"TOLL": "",
-	"ceo": "",
-	"chairman": "",
+	"ceo": "Samaj Prakash Shrestha",
+	"chairman": "Kush Prasad Mally",
 	  "ATM": "",
 	  "branch": "22",
 	  "ext": "",
@@ -472,9 +472,10 @@
 	  "subsidiaries": "",
 	  "merger": "",
 	"phone1": "015361104",
-	  "phone2": "",
+	  "phone2": "015903698",
 	"email": "info@reliancenepal.com.np",
-	"pobox": "20136"
+	"pobox": "20136",
+	"desc": "Reliance Finance Limited, a “C” class financial institution, incorporated in the year 2066 B.S and licensed by Nepal Rastra Bank to undertake financial services, has established itself as one of the leading finance company of Nepal. "
 	
   },
 	{
@@ -494,8 +495,8 @@
 	"links": "https://shyamkumarkc20.com.np/0",
 	"IMG": "https://shyamkumarkc20.com.np/logo/sfcl.png",
 	"TOLL": "",
-	"ceo": "",
-	"chairman": "",
+	"ceo": "Santosh Kumar Ghimire",
+	"chairman": "Ajay Kumar Mishra",
 	  "ATM": "",
 	  "branch": "13",
 	  "ext": "",
@@ -503,9 +504,10 @@
 	  "subsidiaries": "",
 	  "merger": "",
 	"phone1": "057525100",
-	  "phone2": "",
+	"phone2": "057523229",
 	"email": "info@sfcl.com.np",
-	"pobox": "0"
+	"pobox": "0",
+	"desc": "Samriddhi Finance Company Limited (SFCL) was established as the 49th financial institution of the country in 2057 BS. It is public limited company incorporated under company act 2063, and licensed by Nepal Rastra Bank to conduct the banking transactions as C class financial Institution under the Bank and Financial Institution Act 2073 (BAFIA 2073). It is one of the National level Finance Companies, having its Head Office in Hetauda, Makawanpur. The company was promoted by reputed businessmen, industrialists and professionals with high experience and qualifications in their respective fields."
 	
   },
   {
@@ -517,7 +519,7 @@
 	"level": "National Level",
     "Name": "Shree Investment & Finance Limited",
 	"ODAD": "1994",
-	  "ODBS": "",
+	  "ODBS": "2051/03/22",
 	"HO": "Dillibazar, Kathmandu",
 	"NEPSE": "SIFC",
 	"Swift": " ",
@@ -525,8 +527,8 @@
 	"links": "https://shyamkumarkc20.com.np/0",
 	"IMG": "https://shyamkumarkc20.com.np/logo/sifc.jpg",
 	"TOLL": "",
-	"ceo": "",
-	"chairman": "",
+	"ceo": "Lilamani Neupane",
+	"chairman": "Dinesh Raj Joshi",
 	  "ATM": "",
 	  "branch": "13",
 	  "ext": "",
@@ -534,10 +536,13 @@
 	  "subsidiaries": "",
 	  "merger": "",
 	"phone1": "014521779",
-	  "phone2": "",
+	"phone2": "014526146",
 	"fax": "014521779",
 	"email": "info@shreefinance.com.np",
-	"pobox": "10717"
+	"pobox": "10717",
+	"shours": "Sunday to Thursday 10:00 AM - 4:00 PM</br>Friday 10:00 AM - 01:00 PM",
+	"whours": "Sunday to Thursday 10:00 AM - 4:00 PM</br>Friday 10:00 AM - 01:00 PM",
+	"desc": "Shree Investment & Finance Co Ltd.(SIFCO) was incorporated in the year 1994 (2051 BS) by a group of eminent businessmen from Kathmandu , as a Financial Services Company and a Merchant Bank under the Nepal Finance Company Act, 1985 and the Nepal Company Act, 1964. The Company has been licensed by the Nepal Rastra Bank as 'C' class Financial Institution to undertake finance services and merchant banking activities in the country."
 	
   }
   ]
