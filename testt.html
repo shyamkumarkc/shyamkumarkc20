@@ -3,74 +3,81 @@
 <head>
 <title>Cable Cars In Nepal</title>
 <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
-</script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script>
 $(function(){
-$('#header').load('/assets/header.html');
+  $('#header').load('/assets/header.html');
 });
 </script>
-  <style>
-    body {
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      background: #f9fafb;    
-      line-height: 1.6;
-      color: #222;
-    }
-    
-    .container {
-      padding: 2rem;
-      max-width: 1000px;
-      margin: auto;
-    }
-    .cablecar {
-      margin-bottom: 3rem;
-      padding-bottom: 2rem;
-      border-bottom: 1px solid #ddd;
-    }
-    .cablecar h2 {
-      font-size: 1.6rem;
-      margin: 0;
-      color: #1e3a8a;
-    }
-    .meta {
-      margin: 0.4rem 0 0.8rem;
-      font-size: 0.95rem;
-      color: #444;
-    }
-    .cablecar img {
-      display: block;
-      margin: 1rem auto;
-      max-width: 100%;
-      height: auto;
-      border-radius: 6px;
-    }
-    .desc {
-      margin: 1rem 0;
-      font-size: 1rem;
-    }
-    .details {
-      margin-top: 0.8rem;
-      font-size: 0.9rem;
-    }
-    .details strong {
-      color: #1e40af;
-    }
-    .links {
-      margin-top: 0.6rem;
-    }
-    .links a {
-      color: #2563eb;
-      text-decoration: none;
-      font-size: 0.9rem;
-    }
-    .links a:hover {
-      text-decoration: underline;
-    }
-  </style>
+<style>
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #f9fafb;    
+    line-height: 1.6;
+    color: #222;
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    margin: 0;
+    padding: 1rem 10px;  /* top-bottom: 1rem, left-right: 10px */
+    background: #fff;
+    color: #1e3a8a;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+  }
+  .container {
+    padding: 0 10px;   /* only small left-right padding */
+    max-width: 1000px;
+    margin: auto;
+  }
+  .cablecar {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #ddd;
+  }
+  .cablecar h2 {
+    font-size: 1.6rem;
+    margin: 0;
+    color: #1e3a8a;
+  }
+  .meta {
+    margin: 0.4rem 0 0.8rem;
+    font-size: 0.95rem;
+    color: #444;
+  }
+  .cablecar img {
+    display: block;
+    margin: 1rem auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+  }
+  .desc {
+    margin: 1rem 0;
+    font-size: 1rem;
+  }
+  .details {
+    margin-top: 0.8rem;
+    font-size: 0.9rem;
+  }
+  .details strong {
+    color: #1e40af;
+  }
+  .links {
+    margin-top: 0.6rem;
+  }
+  .links a {
+    color: #2563eb;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  .links a:hover {
+    text-decoration: underline;
+  }
+</style>
 </head>
 <body>
-<div id ="header"></div>
+  <div id="header"></div>
 
   <h1>Cable Cars In Nepal</h1>
   <div class="container" id="cableCars"></div>
@@ -107,12 +114,12 @@ $('#header').load('/assets/header.html');
       })
       .catch(error => console.error("Error loading JSON:", error));
   </script>
-	  <script>
-$(function(){
-$('#footer').load('/assets/footer.html');
-});
-</script>
 
+  <script>
+    $(function(){
+      $('#footer').load('/assets/footer.html');
+    });
+  </script>
+  <div id="footer"></div>
 </body>
-  <div id ="footer"></div>
 </html>
