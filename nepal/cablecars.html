@@ -3,93 +3,119 @@
 <head>
 <title>Cable Cars In Nepal</title>
 <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
-</script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script>
 $(function(){
-$('#header').load('/assets/header.html');
+  $('#header').load('/assets/header.html');
 });
 </script>
-
+<style>
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #f9fafb;    
+    line-height: 1.6;
+    color: #222;
+    margin: 20px;
+    padding: 0;   /* remove all padding */
+  }
+  h1 {
+    margin: 20px;
+    padding: 0;   /* no padding */
+  }
+  .container {
+    padding: 0;   /* no padding */
+    
+    margin: 20px;
+  }
+  .cablecar {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #ddd;
+  }
+  .cablecar h2 {
+    font-size: 1.6rem;
+    margin: 0;
+    color: #1e3a8a;
+  }
+  .meta {
+    margin: 0.4rem 0 0.8rem;
+    font-size: 0.95rem;
+    color: #444;
+  }
+  .cablecar img {
+    display: block;
+    margin: 1rem auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+  }
+  .desc {
+    margin: 1rem 0;
+    font-size: 1rem;
+  }
+  .details {
+    margin-top: 0.8rem;
+    font-size: 0.9rem;
+  }
+  .details strong {
+    color: #1e40af;
+  }
+  .links {
+    margin-top: 0.6rem;
+  }
+  .links a {
+    color: #2563eb;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  .links a:hover {
+    text-decoration: underline;
+  }
+</style>
 </head>
 <body>
-<div id ="header"></div>
+  <div id="header"></div>
 
+  <h1>Cable Cars In Nepal</h1>
+  <div class="container" id="cableCars"></div>
 
-<h2>
-List of Cable Cars in Nepal</h2>
+  <script>
+    fetch("https://shyamkumarkc20.com.np/js/cablecars.json")
+      .then(response => response.json())
+      .then(data => {
+        const container = document.getElementById("cableCars");
 
+        data.forEach(item => {
+          const block = document.createElement("div");
+          block.className = "cablecar";
+          block.innerHTML = `
+            <h2>${item.SNo}. ${item.Name}</h2>
+            <p class="meta"><strong>Year:</strong> ${item.Year || "N/A"} | 
+              <strong>Length:</strong> ${item.Length || "-"} | 
+              <strong>Height:</strong> ${item.Height || "-"}</p>
+            <img src="${item.IMG}" alt="${item.Name}">
+            <p class="desc">${item.desc || ""}</p>
+            <div class="details">
+              ${item.sp ? `<p><strong>Start:</strong> ${item.sp}</p>` : ""}
+              ${item.ep ? `<p><strong>End:</strong> ${item.ep}</p>` : ""}
+              ${item.company ? `<p><strong>Company:</strong> ${item.company}</p>` : ""}
+              ${item.phone1 ? `<p><strong>Phone:</strong> <a href="tel:${item.phone1}"> ${item.phone1}</a>, <a href="tel:${item.phone2}"> ${item.phone2}</a></p>` : ""}
+              ${item.email ? `<p><strong>Email:</strong> <a href="mailto:${item.email}">${item.email}</a></p>` : ""}
+            </div>
+            <div class="links">
+              ${item.Website ? `<a href="https://${item.Website}" target="_blank">🌐 Website</a>` : ""}
+            </div>
+          `;
+          container.appendChild(block);
+        });
+      })
+      .catch(error => console.error("Error loading JSON:", error));
+  </script>
 
-<br />
-	<style>
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-   
-    border: 1px solid #ddd;
-}
-
-th, td {
-    text-align: left;
-    padding: 16px;
-}
-
-tr:nth-child(even) {
-    background-color: #f2f2f2
-}
-</style>
-<table border="black" >
-<thead>
-<tr>
-<th>S.No.</th>
-<th>Name</th>
-	<th>Logo</th>
-<th>Length</th>
-<th>Starting Point</th>
-<th>Ending Point</th>
-	
-
-
-</tr>
-</thead>
-
-      <tbody id="data-output">
-         <!-- Prodcuts from javascript file in here. -->
-      </tbody>
-   </table>
- 
-   <script>
-   fetch("https://shyamkumarkc20.com.np/js/cablecars.json")
-.then(function(response){
-   return response.json();
-})
-.then(function(products){
-   let placeholder = document.querySelector("#data-output");
-   let out = "";
-   for(let product of products){
-      out += `
-         <tr>
-            
-            <td>${product.SNo}</td>
-             <td><a href ="https://${product.Website}"target="blank">${product.Name}</a></td>
-	     <td><img src="${product.IMG}" width="120" height="100" ></td>
-	    <td>${product.Length}</td>
-     <td>${product.sp}</td>
-     <td>${product.ep}</td>
-     
-            
-         </tr>
-      `;
-   }
- 
-   placeholder.innerHTML = out;
-});
-
-$(function(){
-$('#footer').load('/assets/footer.html');
-});
-</script>
-
+  <script>
+    $(function(){
+      $('#footer').load('/assets/footer.html');
+    });
+  </script>
+  <div id="footer"></div>
 </body>
-  <div id ="footer"></div>
 </html>
