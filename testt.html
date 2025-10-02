@@ -91,7 +91,9 @@ $(function(){
             <h2>${item.SNO}. ${item.Name}</h2>
             <p class="meta"><strong>Year:</strong> ${item.ODAD || "N/A"} [${item.ODBS || "N/A"}] | 
               <strong>Branch:</strong> ${item.branch || "-"} | 
-              <strong>ATM:</strong> ${item.ATM || "-"}</p>
+              <strong>ATM:</strong> ${item.ATM || "-"}
+              <strong>Extension Counter:</strong> ${item.ext || "-"}
+              <strong>BLB:</strong> ${item.blb || "-"}</p>
             <img src="${item.IMG}" alt="${item.Name}" width="200" height="200">
             <p class="desc">${item.desc || ""}</p>
             <p class="ceo">Current CEO of ${item.Name || ""} is ${item.ceo || ""} and the current chairman of the bank is ${item.chairman || ""}. The bank has been serving its ${item.Customer || ""} customers through ${item.branch || ""} branches, ${item.ATM || ""} ATMs, ${item.ext || ""} extention & revenue counters, ${item.blb || ""} branchless banking and via digital services like mobile banking
