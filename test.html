@@ -1,251 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Commercial Banks In Nepal</title>
-  <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <script>
-    $(function () {
-      $('#header').load('/assets/header.html');
-    });
-  </script>
-  <style>
-    body1 {
-      padding-left: 20px;
-    }
-    table {
-      padding-left: 20px;
-      border-collapse: collapse;
-    }
-    td {
-      padding: 12px;
-      border: 1px solid #ccc;
-      text-align: center;
-      font-size: 14px;
-      font-weight: bold;
-    }
-    td i {
-      display: block;
-      margin-bottom: 5px;
-      font-size: 20px;
-    }
-    #paidup { background-color: #d958db; }
-    #customer { background-color: #11aee5; }
-    #atm { background-color: #add8e6; }
-    #branch { background-color: #90ee90; }
-    #ext { background-color: #ffebcd; }
-    #blb { background-color: #ffcccb; }
-    #cy { background-color: #ebbccd; }
-    #ly { background-color: #c1ebbc; }
-    #eps { background-color: #add8e6; }
-    #shours { background-color: #edf511; }
-    #whours { background-color: #ed075b; }
-    #shour { background-color: #ebbccd; }
-    #whour { background-color: #c1ebbc; }
-    section {
-      width: 100%;
-      max-width: 600px;
-      padding-left: 20px;
-    }
-  </style>
+<title>Development Banks In Nepal</title>
+<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script>
+$(function(){
+  $('#header').load('/assets/header.html');
+});
+</script>
+<style>
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #f9fafb;    
+    line-height: 1.6;
+    color: #222;
+    margin: 20px;
+    padding: 0;   /* remove all padding */
+  }
+  h1 {
+    margin: 20px;
+    padding: 0;   /* no padding */
+  }
+  .container {
+    padding: 0;   /* no padding */
+    
+    margin: 20px;
+  }
+  .cablecar {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #ddd;
+  }
+  .cablecar h2 {
+    font-size: 1.6rem;
+    margin: 0;
+    color: #1e3a8a;
+  }
+  .meta {
+    margin: 0.4rem 0 0.8rem;
+    font-size: 0.95rem;
+    color: #444;
+  }
+  .cablecar img {
+    display: block;
+    margin: 1rem auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+  }
+  .desc {
+    margin: 1rem 0;
+    font-size: 1rem;
+  }
+  .details {
+    margin-top: 0.8rem;
+    font-size: 0.9rem;
+  }
+  .details strong {
+    color: #1e40af;
+  }
+  .links {
+    margin-top: 0.6rem;
+  }
+  .links a {
+    color: #2563eb;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  .links a:hover {
+    text-decoration: underline;
+  }
+</style>
 </head>
-
 <body>
   <div id="header"></div>
 
-  <body1>
-    <select id="nameDropdown" onchange="showDetails()"></select>
-
-    <div id="bankInfo2" class="bank-container" style="margin-top: 20px;"></div>
-    <div id="bankInfo1" class="bank-container" style="margin-top: 20px;"></div>
-
-    <table>
-      <tr><td id="over" colspan="3" style="background-color: #ffca33;"></td></tr>
-      <tr>
-        <td id="paidup" class="bank-container"><i class="fa-solid fa-piggy-bank"></i></td>
-        <td id="customer" class="bank-container"><i class="fa-solid fa-users"></i></td>
-        <td id="atm" class="bank-container"><i class="fa-solid fa-credit-card"></i></td>
-      </tr>
-      <tr>
-        <td id="branch" class="bank-container"><i class="fa-solid fa-building"></i></td>
-        <td id="ext" class="bank-container"><i class="fa-solid fa-house-flag"></i></td>
-        <td id="blb" class="bank-container"><i class="fa-solid fa-wifi"></i></td>
-      </tr>
-      <tr>
-        <td id="ly" class="bank-container"><i class="fa-solid fa-chart-line"></i></td>
-        <td id="cy" class="bank-container"><i class="fa-solid fa-chart-column"></i></td>
-        <td id="eps" class="bank-container"><i class="fa-solid fa-coins"></i></td>
-      </tr>
-    </table>
-
-    <br>
-    <section>
-      <h2 id="detail"></h2>
-      <div id="bankInfo" class="bank-container"></div>
-
-      <h2>Merged BFIs</h2>
-      <div id="subInfo1" class="bank-container"></div>
-
-      <h2>First In Nepal</h2>
-      <div id="first" class="bank-container"></div>
-
-      <h2>Awards</h2>
-      <div id="subInfo2" class="bank-container"></div>
-
-      <h2>Subsidiary Companies</h2>
-      <div id="subInfo" class="bank-container"></div>
-
-      <h2>Profit Chart</h2>
-      <canvas id="profitChart" width="600" height="400"></canvas>
-
-      <h2>Business Hours</h2>
-      <table>
-        <tr>
-          <td id="shour" colspan="3"><b>Summer Hour</b></td>
-          <td id="whour" colspan="3">Winter Hour</td>
-        </tr>
-        <tr>
-          <td id="shours" colspan="3"></td>
-          <td id="whours" colspan="3"></td>
-        </tr>
-      </table>
-    </section>
-  </body1>
+  <h1>Commercial Banks In Nepal</h1>
+  <div class="container" id="cableCars"></div>
 
   <script>
-    const apiUrl = 'https://shyamkumarkc20.com.np/js/commercialbanks.json';
-    let data = [];
-    let chart;
+    fetch("https://shyamkumarkc20.com.np/js/developmentbanks.json")
+      .then(response => response.json())
+      .then(data => {
+        const container = document.getElementById("cableCars");
 
-    async function fetchData() {
-      try {
-        const response = await fetch(apiUrl);
-        if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
-        data = await response.json();
-        populateDropdown();
-      } catch (error) {
-        console.error('Error fetching data:', error);
-      }
-    }
-
-    function populateDropdown() {
-      const dropdown = document.getElementById('nameDropdown');
-      data.forEach(item => {
-        const option = document.createElement('option');
-        option.value = item.Name;
-        option.text = item.Name;
-        if (item.Name === "Nepal Bank Limited") {
-          option.selected = true;
-        }
-        dropdown.appendChild(option);
-      });
-      showDetails();
-    }
-
-    function renderProfitChart(bank) {
-      const ctx = document.getElementById('profitChart').getContext('2d');
-      const profitData = bank.profit || {};
-      const labels = Object.keys(profitData);
-      const profits = Object.values(profitData).map(v => parseFloat(v) || 0);
-
-      if (chart) {
-        chart.destroy();
-      }
-
-      chart = new Chart(ctx, {
-        type: 'bar',
-        data: {
-          labels: labels,
-          datasets: [{
-            label: 'Profit (in Billion NPR)',
-            data: profits,
-            backgroundColor: ['#4caf50', '#2196f3', '#ff9800', '#9c27b0', '#f44336'],
-            borderRadius: 6
-          }]
-        },
-        options: {
-          responsive: true,
-          plugins: {
-            legend: { display: false },
-            title: {
-              display: true,
-              text: `${bank.Name} - Last 5 Years Profit`,
-              font: { size: 16 }
-            }
-          },
-          scales: {
-            y: {
-              beginAtZero: true,
-              title: {
-                display: true,
-                text: 'Profit (Billion NPR)'
-              }
-            }
-          }
-        }
-      });
-    }
-
-    function showDetails() {
-      const selectedName = document.getElementById('nameDropdown').value;
-      const bank = data.find(item => item.Name === selectedName);
-      if (!bank) return;
-
-      document.getElementById('bankInfo2').innerHTML = `<h2>${bank.Name || ''}</h2>`;
-      document.getElementById('over').innerHTML = `<p>Small Overview of ${bank.Name || ''}</p>`;
-      document.getElementById('detail').innerHTML = `<p>${bank.Name || ''} Details</p>`;
-      document.getElementById('bankInfo1').innerHTML = `<p>${bank.desc || ''}</p>`;
-
-      document.getElementById('paidup').innerHTML = `<i class="fa-solid fa-piggy-bank"></i><p>Paid-up: ${bank.paidup || ''} B</p>`;
-      document.getElementById('customer').innerHTML = `<i class="fa-solid fa-users"></i><p>Customer: ${bank.Customer || ''}</p>`;
-      document.getElementById('atm').innerHTML = `<i class="fa-solid fa-credit-card"></i><p>ATM: ${bank.ATM || ''}</p>`;
-      document.getElementById('branch').innerHTML = `<i class="fa-solid fa-building"></i><p>Branches: ${bank.branch || ''}</p>`;
-      document.getElementById('ext').innerHTML = `<i class="fa-solid fa-house-flag"></i><p>Extension Counters: ${bank.ext || ''}</p>`;
-      document.getElementById('blb').innerHTML = `<i class="fa-solid fa-wifi"></i><p>Branchless Banking: ${bank.blb || ''}</p>`;
-      document.getElementById('ly').innerHTML = `<i class="fa-solid fa-chart-line"></i><p>Last Year: ${bank.LY || ''}</p>`;
-      document.getElementById('cy').innerHTML = `<i class="fa-solid fa-chart-column"></i><p>Current Year: ${bank.CY || ''}</p>`;
-      document.getElementById('eps').innerHTML = `<i class="fa-solid fa-coins"></i><p>EPS: ${bank.EPS || ''}</p>`;
-
-      document.getElementById('bankInfo').innerHTML = `
-        ${bank.IMG ? `<img src="${bank.IMG}" alt="${bank.Name} Logo" class="bank-logo" width="200" height="200">` : ''}
-        <p><strong>Name:</strong> ${bank.Name}</p>
-        <p><strong>Established:</strong> ${bank.ODAD || ''} [ ${bank.ODBS || ''} ]</p>
-        <p><strong>Head Office:</strong> ${bank.HO || ''}</p>
-        <p><strong>CEO:</strong> ${bank.ceo || ''} ${bank.ceoimg ? `<img src="${bank.ceoimg}" width="30" height="30">` : ''}</p>
-        <p><strong>Chairman:</strong> ${bank.chairman || ''}</p>
-        <p><strong>NEPSE Code:</strong> ${bank.NEPSE || ''}</p>
-        <p><strong>Swift Code:</strong> ${bank.Swift || ''}</p>
-        <p><strong>Phone:</strong>
-          ${bank.phone1 ? `<a href="tel:${bank.phone1}">${bank.phone1}</a>` : ''}
-          ${bank.phone2 ? ` | <a href="tel:${bank.phone2}">${bank.phone2}</a>` : ''}
-        </p>
-        <p><strong>Toll Free:</strong> ${bank.TOLL ? `<a href="tel:${bank.TOLL}">${bank.TOLL}</a>` : ''}</p>
-        <p><strong>Email:</strong> ${bank.email ? `<a href="mailto:${bank.email}">${bank.email}</a>` : ''}</p>
-        <p><strong>Website:</strong> ${bank.Website ? `<a href="https://${bank.Website}" target="_blank">${bank.Website}</a>` : ''}</p>
-      `;
-
-      document.getElementById('first').innerHTML = `<p>${bank.first || ''}</p>`;
-      document.getElementById('subInfo1').innerHTML = `<p>${bank.merger || ''}</p>`;
-      document.getElementById('subInfo2').innerHTML = `<p>${bank.awards || ''}</p>`;
-      document.getElementById('subInfo').innerHTML = `<p>${bank.subsidiaries || ''}</p>`;
-      document.getElementById('shours').innerHTML = `<p>${bank.shours || ''}</p>`;
-      document.getElementById('whours').innerHTML = `<p>${bank.whours || ''}</p>`;
-
-      renderProfitChart(bank);
-    }
-
-    fetchData();
+        data.forEach(item => {
+          const block = document.createElement("div");
+          block.className = "cablecar";
+          block.innerHTML = `
+            <h2>${item.SNO}. ${item.Name} (${item.Name1})</h2>
+            <p class="meta"><strong>Year:</strong> ${item.ODAD || "N/A"} [${item.ODBS || "N/A"}] | 
+              <strong>Branch:</strong> ${item.branch || "-"} | 
+              <strong>ATM:</strong> ${item.ATM || "-"}
+              <strong>Extension Counter:</strong> ${item.ext || "-"}
+              <strong>BLB:</strong> ${item.blb || "-"}</p>
+            <img src="${item.IMG}" alt="${item.Name}" width="200" height="200">
+            <p class="desc">${item.desc || ""}</p>
+            <p class="ceo">Current CEO of ${item.Name || ""} is ${item.ceo || ""} and the current chairman of the bank is ${item.chairman || ""}. The bank has been serving its ${item.Customer || ""} customers through ${item.branch || ""} branches, ${item.ATM || ""} ATMs, ${item.ext || ""} extention & revenue counters, ${item.blb || ""} branchless banking and via digital services like mobile banking
+            application <b>${item.app || ""}</b> and internet banking.
+             The Bank has paid-up capital of NPR ${item.paidup || ""} Billion.</p>
+           
+            <div class="links">
+              ${item.links ? `<a href="https://shyamkumarkc20.com.np${item.links}">>>> Read More>>></a>` : ""}
+            </div>
+          `;
+          container.appendChild(block);
+        });
+      })
+      .catch(error => console.error("Error loading JSON:", error));
   </script>
 
   <script>
-    $(function () {
+    $(function(){
       $('#footer').load('/assets/footer.html');
     });
   </script>
-
   <div id="footer"></div>
 </body>
 </html>
