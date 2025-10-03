@@ -1,106 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <title>GFG User Details</title>
+  <title>Commercial Banks In Nepal</title>
+  <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-    <!-- jQuery PLUGIN-->
-    <script src="https://code.jquery.com/jquery-3.5.1.js"
-        integrity=
-"sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" 
-        crossorigin="anonymous">
-    </script>
-
-    <!-- CSS properties to style the page-->
-    <style>
-        table {
-            margin: 0 auto;
-            font-size: large;
-            border: 1px solid black;
-        }
-
-        h1 {
-            text-align: center;
-            color: #006600;
-            font-size: xx-large;
-            font-family: 'Gill Sans', 'Gill Sans MT',
-                ' Calibri', 'Trebuchet MS', 'sans-serif';
-        }
-
-        td {
-            background-color: #E4F5D4;
-            border: 1px solid black;
-        }
-
-        th,
-        td {
-            font-weight: bold;
-            border: 1px solid black;
-            padding: 10px;
-            text-align: center;
-        }
-
-        td {
-            font-weight: lighter;
-        }
-    </style>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+    $(function () {
+      $('#header').load('/assets/header.html');
+    });
+  </script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+     
+      
+      justify-content: center;
+      align-items: flex-start;
+      padding: 40px;
+    }
+    .container {
+      background: #fff;
+      padding: 20px 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      max-width: 900px;
+      width: 100%;
+     
+      gap: 30px;
+    }
+    .form-section {
+      flex: 1;
+    }
+    .chart-section {
+      flex: 1;
+    }
+    h2 {
+      margin-top: 0;
+      color: #333;
+    }
+    h2 span {
+      color: #f36b1c;
+    }
+    label {
+      font-weight: bold;
+      display: block;
+      margin-top: 15px;
+      margin-bottom: 5px;
+    }
+    input {
+      width: 100%;
+      padding: 8px;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    select {
+      width: 100%;
+      padding: 8px;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .buttons {
+      margin-top: 20px;
+    }
+    .buttons button {
+      background: #f36b1c;
+      border: none;
+      color: #fff;
+      padding: 10px 15px;
+      margin-right: 10px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    .buttons button.clear {
+      background: #777;
+    }
+    .result {
+      margin-top: 15px;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    canvas {
+      width: 100% !important;
+      height: 300px !important;
+    }
+  </style>
 </head>
 
 <body>
-    <section>
-        <h1>GeeksForGeeks</h1>
+  <div id="header"></div>
 
-        <!-- TABLE CONSTRUCTION-->
-        <table id="GFGtable">
-            <tr>
-                <!-- TABLE HEADING -->
-                <th class="gfgusername">GFG UserHandle</th>
-                <th class="gfgpp">Practice Problems</th>
-                <th class="gfgscores">Coding Score</th>
-                <th class="gfgarticles">GFG Articles</th>
-            </tr>
-            <!-- TABLE DATA -->
-            <tr>
-                <td class="gfgusername">User-1</td>
-                <td class="gfgpp">150</td>
-                <td class="gfgscores">100</td>
-                <td class="gfgarticles">30</td>
-            </tr>
-            <tr>
-                <td class="gfgusername">User-2</td>
-                <td class="gfgpp">100</td>
-                <td class="gfgscores">75</td>
-                <td class="gfgarticles">30</td>
-            </tr>
-            <tr>
-                <td class="gfgusername">User-3</td>
-                <td class="gfgpp">200</td>
-                <td class="gfgscores">50</td>
-                <td class="gfgarticles">10</td>
-            </tr>
-            <tr>
-                <td class="gfgusername">User-4</td>
-                <td class="gfgpp">50</td>
-                <td class="gfgscores">5</td>
-                <td class="gfgarticles">2</td>
-            </tr>
-            <tr>
-                <td class="gfgusername">User-5</td>
-                <td class="gfgpp">0</td>
-                <td class="gfgscores">0</td>
-                <td class="gfgarticles">0</td>
-            </tr>
-        </table>
-    </section>
-    
-    <script>
-        // CONDITION TO DETECT SYSTEM
-        if (window.navigator.userAgent.indexOf("Mobile") > -1) {
-            // HIDING ELEMENTS
-            $(".gfgpp").hide();
-        }                                          
-    </script>
+  <div class="container">
+    <div class="form-section">
+      <h2>CAGR <span>Calculator</span></h2>
+      <label>Initial Investment</label>
+      <input type="number" id="initial" placeholder="e.g. 1000" />
+
+      <label>Final Investment</label>
+      <input type="number" id="final" placeholder="e.g. 5000" />
+
+      <label>Duration of Investment (in years)</label>
+      <input type="number" id="years" placeholder="e.g. 10" />
+
+      <div class="buttons">
+        <button onclick="calculateCAGR()">Calculate</button>
+        <button class="clear" onclick="clearForm()">Clear</button>
+      </div>
+
+      <div class="result" id="result"></div>
+    </div>
+<br/>
+    <div class="chart-section">
+      <canvas id="growthChart"></canvas>
+    </div>
+  </div>
+
+  <script>
+    let chart;
+
+    function calculateCAGR() {
+      const initial = parseFloat(document.getElementById('initial').value);
+      const finalVal = parseFloat(document.getElementById('final').value);
+      const years = parseFloat(document.getElementById('years').value);
+
+      if (isNaN(initial) || isNaN(finalVal) || isNaN(years) || initial <= 0 || finalVal <= 0 || years <= 0) {
+        alert("Please enter valid values.");
+        return;
+      }
+
+      // CAGR formula
+      const cagr = (Math.pow(finalVal / initial, 1 / years) - 1) * 100;
+      document.getElementById('result').textContent = `CAGR: ${cagr.toFixed(2)}% per year`;
+
+      // Generate data for diagram
+      const labels = [];
+      const data = [];
+      for (let i = 0; i <= years; i++) {
+        labels.push(`Year ${i}`);
+        data.push(initial * Math.pow(1 + cagr / 100, i));
+      }
+
+      drawChart(labels, data);
+    }
+
+    function drawChart(labels, data) {
+      const ctx = document.getElementById('growthChart').getContext('2d');
+      if (chart) {
+        chart.destroy();
+      }
+      chart = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: labels,
+          datasets: [{
+            label: 'Investment Value Over Time',
+            data: data,
+            borderColor: '#f36b1c',
+            backgroundColor: 'rgba(243, 107, 28, 0.1)',
+            fill: true,
+            tension: 0.3,
+            pointRadius: 3,
+            pointBackgroundColor: '#f36b1c'
+          }]
+        },
+        options: {
+          responsive: true,
+          plugins: {
+            legend: { display: true },
+            tooltip: { mode: 'index', intersect: false }
+          },
+          scales: {
+            x: { title: { display: true, text: 'Year' } },
+            y: { title: { display: true, text: 'Investment Value' } }
+          }
+        }
+      });
+    }
+
+    function clearForm() {
+      document.getElementById('initial').value = '';
+      document.getElementById('final').value = '';
+      document.getElementById('years').value = '';
+      document.getElementById('result').textContent = '';
+      if (chart) {
+        chart.destroy();
+      }
+    }
+  </script>
+
+<script>
+    $(function () {
+      $('#footer').load('/assets/footer.html');
+    });
+  </script>
+
+  <div id="footer"></div>
 </body>
-
 </html>
