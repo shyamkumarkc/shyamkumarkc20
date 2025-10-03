@@ -14,7 +14,10 @@
   </script>
 
   <style>
-   
+   .para{
+     padding:10px 10px;
+     margin:0
+   }
     .container {
       display: flex;                 /* ✅ Add this */
       justify-content: space-between;
@@ -188,7 +191,8 @@
       }
     }
   </script>
-<p>
+<div class="container">
+  <p>
   <strong>CAGR</strong> stands for <b>Compound Annual Growth Rate</b>. It shows the average annual growth rate of an investment over a specific period of time — as if the investment had grown at a steady rate every year, even if the actual yearly growth was uneven.
 </p>
 <p><b>Why CAGR?</b></p><ol>
@@ -219,7 +223,7 @@ Should be used alongside other metrics (like volatility, standard deviation, etc
 
 In Summary
 CAGR is a simple yet powerful metric to measure and compare the long-term growth rate of investments or business performance. It is effective for smoothing out short-term fluctuations and understanding the compounding effect over time.
-</p>
+</p></div>
   <script>
     $(function () {
       $('#footer').load('/assets/footer.html');
