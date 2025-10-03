@@ -504,19 +504,19 @@
 	"NEPSE": "LBBL",
 	"Swift": "",
 	"Website": "www.lumbinibikasbank.com",
-	"links": "/banking/lumbinibikasbank.html",
-	
+	"links": "/banking/lumbinibikasbank.html",	
 	"IMG": "https://shyamkumarkc20.com.np/logo/lbbl.jpg",
 	"TOLL": "",
-	"phone1": "01-4513232",
+	"phone1": "014513232",
 	"phone2": "014521696",
 	"email": "info@lumbinibikasbank.com",
 	"pobox": "20700",
-	"fax": "01-4513526",
+	"fax": "014513526",
 	"ceo": "Naresh Singh Bohra",
-	"chairman": "",
+	"chairman": "Chintamani Bhattarai",
 	"ATM": "20",
 	"branch": "89",
+	"ext": "",
 	"blb": "1",
 	"LY": "",
 	"CY": "",
@@ -525,7 +525,7 @@
 	"NPL": "",
 	"merger": "a. Bhajuratna Finance Ltd.<br/>b. Birgunj Finance Ltd.<br/>c. Himichuli Bikas Bank Ltd.<br/>d. Lumbini Finance and Leasing Co. Ltd.<br/>e. Vibor Society Development Bank <br/>f. Lumbini Finance and Leasing",
 	"subsidiaries": "",
-	"desc": ""
+	"desc": "Lumbini Bikas Bank has been an emerging name in the field of banking and financial sector of Nepal. It is an entity established with the merger of five Banks and Financial Institutions namely Bhajuratna Finance Ltd., Birgunj Finance Ltd., Himichuli Bikas Bank Ltd., Lumbini Finance and Leasing Co. Ltd. and Vibor Bikas Bank Ltd. The last merger of Vibor Society Development Bank and Lumbini Finance and Leasing took place on 25th Ashad 2074."
 	
   },
 	{
@@ -583,16 +583,16 @@
 	"Website": "salapabikasbank.com.np/",
 	"links": "/banking/salapabikasbank.html",
 	"IMG": "https://shyamkumarkc20.com.np/logo/salapa.png",
-	"TOLL": "",
+	"TOLL": "18105000457",
 	"phone1": "036420457",
 	"phone2": "036420638",
 	"email": "info@salapabikasbank.com.np",
 	"pobox": "0",
 	"ceo": "Yogendra Pun",
-	"chairman": "",
+	"chairman": "Tanka Rai",
 	"merger": "",	
 	"ATM": "",
-	"branch": "",
+	"branch": "7",
 	"ext": "",
 	"blb": "",
 	"LY": "",
@@ -602,7 +602,7 @@
 	"NPL": "",
 	"area": "Khotang",
 	"subsidiaries": "",
-	"desc": ""
+	"desc": "SalapaBikas Bank was incorporated in 2069/04/01 under the Bank and Financial Institutions Act, 2063 (Amended 2073).The bank was licensed as a regional bank covering geographical area of Khotang district.The name of the bank has been derived from SalapaPokhari, the famous lake for its sacred and spiritual value among the local communities. The promoters of the bank are from different walks of life."
 	
   },
 	{
@@ -615,7 +615,7 @@
     "Name": "Saptakoshi Development Bank Limited",
 	"Name1": "विकास बैंक लिमिटेड ",
 	"ODAD": "2019-07-07",
-	  "ODBS": "",
+	"ODBS": "",
 	"HO": "Biratnagar, Morang",
 	"NEPSE": "SAPDBL",
 	"Swift": "",
@@ -628,10 +628,10 @@
 	"email": "info@skdbl.com.np",
 	"pobox": "0",
 	"ceo": "Dinesh Kumar Pokhrel",
-	"chairman": "",
+	"chairman": "Laxman Limbu Subba",
 	"merger": "Kabeli Bikas Bank",
-	"ATM": "",
-	"branch": "",
+	"ATM": "1",
+	"branch": "35",
 	"ext": "",
 	"blb": "",
 	"LY": "",
@@ -641,7 +641,7 @@
 	"NPL": "",
 	"area": "Morang, Ilam, Panchthar, Jhapa, Sunsari, Dhankuta, Terhathum",
 	"subsidiaries": "",
-	"desc": ""
+	"desc": "Saptakoshi Development Bank Limited is established under Bank and Financial Institution Act 2063, and licensed by Nepal Rastra Bank as a Regional “Kha” level financial institution (Development Bank) with Operating area of Morang, Ilam, Panchthar, Jhapa, Sunsari, Dhankuta and Terhathum Districts. The Bank has its Head Office at Dhankuta – 7, Dhankuta and its Corporate office is located at Mainroad Biratnagar-7, Morang. The promoters of Saptakoshi Development Bank include successful businessman, traders, social workers and professionals having long experience in banking sectors. Saptakoshi Development Bank is equipped with modern technologies and it is providing fast and quality service to the valued customers. Due to the immense support, belief and help, Saptakoshi Development Bank is rapidly extending its services."
 	
   },
   {
@@ -663,7 +663,7 @@
 	"IMG": "https://shyamkumarkc20.com.np/logo/grdbl.png",
 	"TOLL": "",
 	"phone1": "061-533590",
-	 "phone2": "",
+	"phone2": "",
 	"email": "info@greenbank.com.np",
 	"pobox": "0",
 	"fax": "061-533634",
@@ -681,7 +681,7 @@
 	"NPL": "3.33",
 	"area": "Baglung, Myagdi, Kaski, Tanahu, Nawalparasi East",
 	"subsidiaries": "",
-	"desc": ""
+	"desc": "Green development bank limited with the slogan 'PARTNERING FOR PROSPERITY' is established under the Bank and Financial Institution Act, 2063 in Baglung Municipality of Baglung district as a 5 districts level development bank. The working area of the bank as per the guidelines of the Central Bank will be covering 5 districts (Baglung, Myagdi, Kaski, Tanahun and Nawalpur). It is the 1st local development bank of Baglung."
 	
   }
   ]
