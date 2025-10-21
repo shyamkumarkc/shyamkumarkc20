@@ -121,7 +121,8 @@
   <div class="controls">
     <label for="yearSelect">Fiscal Year:</label>
     <select id="yearSelect">
-      <option value="81/82" selected>2081/82</option>
+    <option value="82/83" selected>2082/83</option>
+      <option value="81/82">2081/82</option>
       <option value="80/81">2080/81</option>
       <option value="79/80">2079/80</option>
       <option value="78/79">2078/79</option>
@@ -154,8 +155,8 @@
         jsonData = data;
         document.querySelector('.loading').style.display = 'none';
         document.getElementById('revExpChart').style.display = 'block';
-        initChart('81/82');
-        renderTable('81/82');
+        initChart('82/83');
+        renderTable('82/83');
         document.getElementById('yearSelect').addEventListener('change', (e) => {
           updateChart(e.target.value);
           renderTable(e.target.value);
