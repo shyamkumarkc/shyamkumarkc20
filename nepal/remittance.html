@@ -32,7 +32,7 @@
 
   <label for="yearSelect"><strong>Fiscal Year:</strong></label>
   <select id="yearSelect">
-   
+   <option value="remittance82/83">2082/2083</option>
     <option value="remittance81/82">2081/2082</option>
 	<option value="remittance80/81">2080/2081</option>
 	<option value="remittance79/80">2079/2080</option>
@@ -40,9 +40,9 @@
    
   </select>
 
-  <canvas id="InflationChart" style="width:100%;max-width:600px;height:500px"></canvas>
+  <canvas id="remittanceChart" style="width:100%;max-width:600px;height:500px"></canvas>
 
-  <h3 id="dataTitle">Remittance in Nepal: Fiscal Year 2081/2082</h3>
+  <h3 id="dataTitle">remittance in Nepal: Fiscal Year 2081/2082</h3>
 
   <table id="data-table">
     <thead>
@@ -80,7 +80,7 @@
       const sno = fullData.sno;
 
       // Create or update Chart
-      const ctx = document.getElementById("InflationChart").getContext('2d');
+      const ctx = document.getElementById("remittanceChart").getContext('2d');
       if (chart) chart.destroy();
       chart = new Chart(ctx, {
         type: "bar",
@@ -111,6 +111,7 @@
 
       // Update year title
       const yearMap = {
+     	"remittance82/83": "2082/2083",
         "remittance81/82": "2081/2082",
         "remittance80/81": "2080/2081",
 		"remittance79/80": "2079/2080",
@@ -122,7 +123,7 @@
 
     // Initial load and event binding
     document.addEventListener("DOMContentLoaded", () => {
-      loadData("remittance81/82");
+      loadData("remittance82/83");
 
       document.getElementById("yearSelect").addEventListener("change", function () {
         updateChartAndTable(this.value);
@@ -134,3 +135,4 @@
   </script>
 </body>
 </html>
+
