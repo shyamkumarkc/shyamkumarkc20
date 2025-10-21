@@ -100,14 +100,14 @@
     },
     {
         "SNo": "10",
-        "Name": "Prabhu Technology Private Limited ",
-        "Wallet": "PrabhuPay",
-        "HO": "Gairidhara, Kathmandu",
-        "OD": "2074/03/04",
-        "Capital": "100,000",
-        "Website": "prabhupay.com",
-        "Links": "www.shyamkumarkc20.com.np/tech/prabhupay",
-        "IMG": "https://shyamkumarkc20.com.np/logo/prabhupay.png"
+        "Name": "Nepal Digital Payments Company Limited ",
+        "Wallet": "Namaste Pay",
+        "HO": "Tripureshwor, Kathmandu",
+        "OD": "2077/12/03",
+        "Capital": "400,000",
+        "Website": "www.namastepay.com/",
+        "Links": "www.shyamkumarkc20.com.np/tech/ ",
+        "IMG": "https://shyamkumarkc20.com.np/logo/namastepay.png"
     },
     {
         "SNo": "11",
@@ -229,17 +229,6 @@
         "Website": "www.merchant.icash.com.np/login",
         "Links": "www.shyamkumarkc20.com.np/tech/ ",
         "IMG": "https://shyamkumarkc20.com.np/logo/icash.jpeg "
-    },
-    {
-        "SNo": "22",
-        "Name": "Nepal Digital Payments Company Limited ",
-        "Wallet": "Namaste Pay",
-        "HO": "Tripureshwor, Kathmandu",
-        "OD": "2077/12/03",
-        "Capital": "400,000",
-        "Website": "www.namastepay.com/",
-        "Links": "www.shyamkumarkc20.com.np/tech/ ",
-        "IMG": "https://shyamkumarkc20.com.np/logo/namastepay.png"
     }
     
 ]
