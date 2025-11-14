@@ -2,11 +2,11 @@
     "ipo": [
 		{
             "company": "SY Panel Nepal Limited",
-            "units": "5,232,548.00",
+            "units": "4,076,156.00",
             "price": "100.00",
-            "openingDate": " ",
-            "closingDate": " ",
-            "lastClosingDate": " ",
+            "openingDate": "2025-11-05",
+            "closingDate": "2025-11-09",
+            "lastClosingDate": "2025-11-09",
             "issueManager": "Prabhu Capital Limited"
         },
         {
@@ -89,14 +89,14 @@
             "issueManager": "Nepal SBI Merchant Banking Limited"
         },
         {
-            "company": "Mabilung Energy Limited",
-            "units": "1,248,904.00",
+            "company": "Solu Hydropower Limited",
+            "units": "20,000,000.00",
             "price": "100.00",
-            "openingDate": "2025-08-11",
-            "closingDate": "2025-08-14",
+            "openingDate": "",
+            "closingDate": "",
             "lastClosingDate": "",
             "listingDate": "",
-            "issueManager": "Laxmi Sunrise Capital Limited"
+            "issueManager": "Nabil Investment Banking Limited"
         }
     ],
     "future": [
@@ -1317,6 +1317,16 @@
         }
     ],
     "migrant": [
+	{
+            "company": "Solu Hydropower Limited",
+            "units": "10,000,000.00",
+            "price": "100.00",
+            "openingDate": "2025-11-23",
+            "closingDate": "2025-12-03",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Nabil Investment Banking Limited"
+        },
 		{
             "company": "SY Panel Nepal Limited",
             "units": "497,092.00",
@@ -1409,17 +1419,6 @@
             "lastClosingDate": "2025-07-25",
             "listingDate": "",
             "issueManager": "Nepal SBI Merchant Banking Limited"
-        },
-        {
-            "symbol": "",
-            "company": "Mabilung Energy Limited",
-            "units": "150,471.00",
-            "price": "100.00",
-            "openingDate": "2025-07-06",
-            "closingDate": "2025-07-20",
-            "lastClosingDate": "2025-07-20",
-            "listingDate": "2025-07-06",
-            "issueManager": "Laxmi Sunrise Capital Limited"
         }
     ],
     "debenture": [
