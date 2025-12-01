@@ -122,7 +122,7 @@
         "Instrument": "Equity",
         "Email": "contactus@himalayanre.com",
         "Website": "www.himalayanre.com",
-         "Units": "42",
+         "Units": "43",
          "WACC": "",
         "Value": ""
     },
@@ -196,7 +196,7 @@
         "Sector": "Life Insurance",
         "Instrument": "Equity",
         "Email": "cs@nepallife.com.np",
-         "Units": "80",
+         "Units": "88",
          "WACC": "",
         "Value": ""
     },
@@ -525,6 +525,19 @@
         "Symbol": "RBBF40",
         "Status": "Active",
         "Sector": "Mutual Fund",
+        "Instrument": "Equity",
+        "Email": "",
+        "Website": "",
+         "Units": "10",
+         "WACC": "100",
+        "Value": ""
+    },
+    {
+        "SN": "43",
+        "Name": "Shreenagar Agritech Industries Limited",
+        "Symbol": "SAIL",
+        "Status": "Active",
+        "Sector": "Manufacturing And Processing",
         "Instrument": "Equity",
         "Email": "",
         "Website": "",
