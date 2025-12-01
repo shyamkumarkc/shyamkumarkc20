@@ -850,6 +850,16 @@
             "issueManager": "Muktinath Capital Limited"
         },
 		{
+            "company": "Jasmine Paints Limited",
+            "units": "1,000,000.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Sanima Capital Limited"
+        },
+		{
             "company": "Simrik Air Limited",
             "units": "",
             "price": "",
@@ -858,6 +868,16 @@
             "lastClosingDate": "",
             "listingDate": "",
             "issueManager": ""
+        },
+		{
+            "company": "NC Agro Tech Industries Limited",
+            "units": "1,875,000.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Global IME Capital Limited"
         },
 		{
             "company": "Hotel Garima Limited",
