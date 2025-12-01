@@ -10,14 +10,14 @@
             "issueManager": "Prabhu Capital Limited"
         },
         {
-            "company": "Him Star Urja Company Limited",
-            "units": "773,975.00",
+            "company": "Bhujung Hydropower Limited",
+            "units": "2,000,000.00",
             "price": "100.00",
-            "openingDate": "2025-07-08",
-            "closingDate": "2025-07-11",
-            "lastClosingDate": "2025-07-22",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
             "listingDate": "",
-            "issueManager": "NIC Asia Capital Limited"
+            "issueManager": "Kumari Capital Limited"
         },
 		{
             "company": "Shreenagar Agritech Industries Limited",
@@ -39,24 +39,24 @@
             "issueManager": "Muktinath Capital Limited"
         },
         {
-            "company": "Bungal Hydro Limited",
-            "units": "2,905,000.00",
+            "company": "Solu Hydropower Limited",
+            "units": "20,000,000.00",
             "price": "100.00",
-            "openingDate": "2025-09-01",
-            "closingDate": "2025-09-04",
-            "lastClosingDate": "",
-            "listingDate": "",
-            "issueManager": "Himalayan Capital Limited"
-        },
-        {
-            "company": "Swastik Laghubitta Bittiya Sanstha Limited",
-            "units": "194,115.00",
-            "price": "100.00",
-            "openingDate": "2025-08-15",
-            "closingDate": "2025-08-19",
+            "openingDate": "",
+            "closingDate": "",
             "lastClosingDate": "",
             "listingDate": "",
             "issueManager": "Nabil Investment Banking Limited"
+        },
+        {
+            "company": "Salapa Bikas Bank Limited",
+            "units": "1,723,880.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Muktinath Capital Limited"
         },
 		{
             "company": "Jhapa Energy Limited",
