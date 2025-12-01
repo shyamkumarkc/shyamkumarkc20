@@ -38,16 +38,7 @@
             "lastClosingDate": "2025-09-29",
             "issueManager": "Muktinath Capital Limited"
         },
-        {
-            "company": "Solu Hydropower Limited",
-            "units": "20,000,000.00",
-            "price": "100.00",
-            "openingDate": "",
-            "closingDate": "",
-            "lastClosingDate": "",
-            "listingDate": "",
-            "issueManager": "Nabil Investment Banking Limited"
-        },
+        
         {
             "company": "Salapa Bikas Bank Limited",
             "units": "1,723,880.00",
@@ -1232,6 +1223,16 @@
             "lastClosingDate": "2025-07-30",
             "listingDate": "",
             "issueManager": "Citizens Capital Limited"
+        },
+		{
+            "company": "Vijaya Laghubitta Bittiya Sanstha Limited",
+            "units": "466,817.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "NMB Capital Limited"
         },
         {
             "company": "Matribhumi Laghubitta Bittiya Sanstha Limited",
