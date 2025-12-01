@@ -1323,6 +1323,62 @@
             "issueManager": "NIC Asia Capital Limited"
         }
     ],
+	"fpo": [
+        {
+           
+            "company": "Himalayan Bank Limited",
+            "units": "9,250,469.00",
+            "price": "157.00",
+            "openingDate": "2025-07-16",
+            "closingDate": "2025-07-20",
+            "lastClosingDate": "2025-07-30",
+            "listingDate": "",
+            "issueManager": "Citizens Capital Limited"
+        },
+		{
+            "company": "Vijaya Laghubitta Bittiya Sanstha Limited",
+            "units": "466,817.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "NMB Capital Limited"
+        },
+        {
+            "company": "Matribhumi Laghubitta Bittiya Sanstha Limited",
+            "units": "1,149,982.598",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Muktinath Capital Limited"
+        }
+    ],
+    "pshare": [
+        {
+            "company": "",
+            "units": "",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": ""
+        },
+		{
+            "company": "",
+            "units": "",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": ""
+        }
+		
+    ],
     "migrant": [
 	{
             "company": "Solu Hydropower Limited",
