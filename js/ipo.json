@@ -1358,18 +1358,18 @@
     ],
     "pshare": [
         {
-            "company": "",
-            "units": "",
+            "company": "Nabil 8% Perpetual Non-cumulative Preference Share",
+            "units": "50,000,000.00",
             "price": "100.00",
             "openingDate": "",
             "closingDate": "",
             "lastClosingDate": "",
             "listingDate": "",
-            "issueManager": ""
+            "issueManager": "NIC Asia Capital Limited"
         },
 		{
-            "company": "",
-            "units": "",
+            "company": "Kamana Sewa 9% Perpetual Non-cumulative Preference Share",
+            "units": "3,500,000.00",
             "price": "100.00",
             "openingDate": "",
             "closingDate": "",
