@@ -1282,6 +1282,16 @@
             "listingDate": "",
             "issueManager": "Nabil Investment Banking Limited"
         },
+		{
+            "company": "Machhapuchchhre SIP Yojana",
+            "units": "50,000,000.00",
+            "price": "10.00",
+            "openingDate": "2025-11-30",
+            "closingDate": "2025-12-03",
+            "lastClosingDate": "2025-12-14",
+            "listingDate": "",
+            "issueManager": "Machhapuchchhre Capital Limited"
+        },
         {
             "company": "NIC ASIA Equity Linked Investment Scheme",
             "units": "100,000,000.00",
