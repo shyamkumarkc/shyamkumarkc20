@@ -1,788 +1,1549 @@
-[
-    {
-        "SNO": "1",
-        "Name": "WorldLink Communications",
-        "IMG": "https://shyamkumarkc20.com.np/logo/worldlink.png",
-        "OD": "1995",
-        "Location": "Jawalakhel, Lalitpur",
-        "Contact": "01-5970050",
-        "Email": "support@worldlink.com.np",
-        "Website": "worldlink.com.np/"
-    },
-    {
-        "SNO": "2",
-        "Name": "Nepal Telecom",
-        "IMG": "https://shyamkumarkc20.com.np/logo/nepaltelecom.png",
-        "OD": "2005 BS",
-        "Location": "Bhadrakali Plaza, Kathmandu",
-        "Contact": " ",
-        "Email": " ",
-        "Website": "www.ntc.net.np/"
-    },
-    {
-        "SNO": "3",
-        "Name": "Classic Tech",
-        "IMG": "https://shyamkumarkc20.com.np/logo/classictech.png",
-        "OD": "",
-        "Location": "New Baneshwor, Kathmandu",
-        "Contact": "9801006633",
-        "Email": "info@classic.com.np",
-        "Website": "www.classic.com.np/"
-    },
-    {
-        "SNO": "4",
-        "Name": "Vianet Communications",
-        "IMG": "https://shyamkumarkc20.com.np/logo/vianet.png",
-        "OD": "1999",
-        "Location": "Jawalakhel, Lalitpur",
-        "Contact": "01-5970444",
-        "Email": "customercare@vianet.com.np",
-        "Website": "www.vianet.com.np/"
-    },
-    {
-        "SNO": "5",
-        "Name": "Subisu",
-       "IMG": "https://shyamkumarkc20.com.np/logo/subisu.jpg",
-        "OD": "2018",
-        "Location": "Baluwatar, Kathmandu",
-        "Contact": "01-4429616",
-        "Email": "info@subisu.net.np",
-        "Website": "subisu.net.np/"
-    },
-    {
-        "SNO": "6",
-        "Name": "DishHome",
-        "IMG": "https://shyamkumarkc20.com.np/logo/dishhome.png",
-        "OD": "2020",
-        "Location": "Chyasikot, Karyabinayak ",
-        "Contact": "01-4217666",
-        "Email": "support@dishhome.com.np",
-        "Website": "www.dishhome.com.np/"
-    },
-    {
-        "SNO": "7",
-        "Name": "Websurfer Nepal Communications",
-        "IMG": "https://shyamkumarkc20.com.np/logo/websurfer.jpg",
-        "OD": "2001",
-        "Location": "Dhumbarahi Height, Kathmandu",
-        "Contact": "01-5970222",
-        "Toll": "16600170222",
-        "Email": "",
-        "Website": "websurfer.com.np/"
-    },
-    {
-        "SNO": "8",
-        "Name": "Techminds Network",
-        "IMG": "https://shyamkumarkc20.com.np/logo/techminds.jpg",
-        "OD": "",
-        "Location": "Bharatpur, Chitwan",
-        "Contact": "056597002",
-        "Email": "sales@techminds.com.np",
-        "Website": "techminds.com.np/"
-    },
-    {
-        "SNO": "9",
-        "Name": "Broadlink Communications",
-        "IMG": "https://shyamkumarkc20.com.np/logo/broadlink.png",
-        "OD": "",
-        "Location": "Sanepa Lalitpur",
-        "Contact": "9801453020",
-        "Email": "info@broadlink.com.np",
-        "Website": "broadlink.com.np/"
-    },
-    {
-        "SNO": "10",
-        "Name": "CG communications",
-        "IMG": "https://shyamkumarkc20.com.np/logo/cgnet.png",
-        "OD": "",
-        "Location": "Thapathali, Kathmandu",
-        "Contact": "01-5970113",
-        "Email": "customercare@cgnet.com.np",
-        "Website": "cgnet.com.np/"
-    },
+{
+    "ipo": [
+		{
+            "company": "SY Panel Nepal Limited",
+            "units": "4,076,156.00",
+            "price": "100.00",
+            "openingDate": "2025-11-05",
+            "closingDate": "2025-11-09",
+            "lastClosingDate": "2025-11-09",
+            "issueManager": "Prabhu Capital Limited"
+        },
+        {
+            "company": "Bhujung Hydropower Limited",
+            "units": "2,000,000.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Kumari Capital Limited"
+        },
+		{
+            "company": "Shreenagar Agritech Industries Limited",
+            "units": "2,510,493.00",
+            "price": "100.00",
+            "openingDate": "2025-10-12",
+            "closingDate": "2025-10-15",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Nabil Investment Banking Limited"
+        },
+		{
+            "company": "Sagar Distillery Limited",
+            "units": "1,190,640.00",
+            "price": "100.00",
+            "openingDate": "2025-09-15",
+            "closingDate": "2025-09-21",
+            "lastClosingDate": "2025-09-29",
+            "issueManager": "Muktinath Capital Limited"
+        },
+        
+        {
+            "company": "Salapa Bikas Bank Limited",
+            "units": "1,723,880.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Muktinath Capital Limited"
+        },
+		{
+            "company": "Jhapa Energy Limited",
+            "units": "950,475.00",
+            "price": "100.00",
+            "openingDate": "2025-09-05",
+            "closingDate": "2025-09-15",
+            "lastClosingDate": "2025-09-19",
+            "issueManager": "Himalayan Capital Limited"
+        },
+        
+        {
+            "company": "Reliance Spinning Mills",
+            "units": "1,155,960.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Global IME Capital Limited"
+        },
+        {
+            "company": "Bandipur Cable Car and Tourism Limited",
+            "units": "4,341,080.00",
+            "price": "100.00",
+            "openingDate": "2025-08-27",
+            "closingDate": "2025-08-31",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Nepal SBI Merchant Banking Limited"
+        },
+        {
+            "company": "Solu Hydropower Limited",
+            "units": "20,000,000.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Nabil Investment Banking Limited"
+        }
+    ],
+    "future": [
+        {
+            "company": "Shubhashree Agni Cement Udhyog Limited",
+            "units": "20,210,000.00",
+             "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Machhapuchchhre Capital Limited"
+        },
+        
+        {
+            "company": "Orbit Energy Limited",
+            "units": "5,000,000.00",
+             "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Kumari Capital Limited"
+        },
+        {
+            "company": "Solar Farm Limited",
+            "units": "1,928,572.00",
+             "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Kumari Capital Limited"
+        },
+        {
+            "company": "Varnabas Museum Hotel Limited",
+            "units": "3,960,000.00",
+             "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Himalayan Capital Limited"
+        },
+        {
+            "company": "Mountain Glory Limited",
+            "units": "4,000,000.00",
+             "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Laxmi Sunrise Capital Limited"
+        },
+        {
+            "company": "Myagdi Hydropower Limited",
+            "units": "4,745,000.00",
+             "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "NMB Capital Limited"
+        },
+        {
+            "company": "Sarvottam Paints Industries Limited",
+            "units": "850,000.00",
+             "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": " "
+        },
+        {
+            "company": "Mahashakti Cement Limited",
+            "units": "17,850,857.00",
+             "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Laxmi Sunrise Capital Limited"
+        },
+        {
+            "company": "Prabhu Helicopter Limited",
+            "units": "6,125,000.00",
+             "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Muktinath Capital Limited"
+        },
+        {
+            "company": "Mewa Developers Limited",
+            "units": "11,200,000.00",
+             "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Himalayan Capital Limited"
+        },
+        {
+            "company": "Aarati Power Company Limited",
+            "units": "3,600,000.00",
+             "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Global IME Capital Limited"
+        },
+        {
+            "company": "G.I. Solar Limited",
+            "units": "1,363,360.00",
+             "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "RBB Merchant Limited"
+        },
+        {
+            "company": "Everest Colour Limited",
+            "units": "780,000.00",
+             "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Muktinath Capital Limited"
+        },
+        {
+            "company": "United Mewa Khola Hydropower Limited",
+            "units": "12,300,000.00",
+             "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Citizens Capital Limited"
+        },
+        {
+            "company": "Numbur Himalaya Hydropower Limited",
+            "units": "3,006,202.00",
+             "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "LS Capital Limited"
+        },
+        {
+            "company": "Liberty Micro Life Insurance Limited",
+            "units": "2,250,000.00",
+             "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "NIMB Ace Capital Limited"
+        },
+        {
+            "company": "Him Parbat Hydropower Limited",
+            "units": "5,915,000.00",
+             "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Citizens Capital Limited"
+        },
+        {
+            "company": "Century Energy Limited",
+            "units": "300,000.00",
+             "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "NIMB Ace Capital Limited"
+        },
+        {
+            "company": "Protective Micro Insurance Company Limited",
+            "units": "2,250,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "NIMB Ace Capital Limited"
+        },
+        {
+            "company": "Star Micro Insurance Company Limited",
+            "units": "2,250,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "NIMB Ace Capital Limited"
+        },
+        {
+            "company": "Ambe Steels Limited",
+            "units": "11,192,727.00",
+            "price": "303.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Nabil Investment Banking Limited"
+        },
+        {
+            "company": "Seed Energy Limited",
+            "units": "1,598,500.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "NMB Capital Limited"
+        },
+        {
+            "company": "Peoples Energy Limited",
+            "units": "6,600,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Sanima Capital Limited"
+        },
+        {
+            "company": "Chhaya Devi Complex Limited",
+            "units": "1,437,500.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Prabhu Capital Limited"
+        },
+        {
+            "company": "Nepal Broadcasting Channel Limited",
+            "units": "1,000,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "NIMB Ace Capital Limited"
+        },
+        {
+            "company": "Shivam Holdings Limited",
+            "units": "11,600,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Siddhartha Capital Limited"
+        },
+        {
+            "company": "Kailash Helicopter Services Limited",
+            "units": "350,000.00",
+            "price": "327.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Muktinath Capital Limited"
+        },
+        
+        {
+            "company": "Shree Distillery Limited",
+            "units": "960 000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Prabhu Capital Limited"
+        },
+        {
+            "company": "Laxmi Techno Plast Limited",
+            "units": "1 000 000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Nepal SBI Merchant Banking Limited"
+        },
+        {
+            "company": "Palpa Cements Industries Limited",
+            "units": "7,500,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Nabil Investment Banking Limited"
+        },
+        {
+            "company": "Smart Doors Limited",
+            "units": "306,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Muktinath Capital Limited"
+        },
+        {
+            "company": "Champawati Hydropower Limited",
+            "units": "1,600,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "RBB Merchant Banking Limited"
+        },
+        {
+            "company": "Nilgiri Khola Hydropower Company Limited",
+            "units": "4,320,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Prabhu Capital Limited"
+        },
+        {
+            "company": "Madame Khola Hydropower Limited",
+            "units": "3,250,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Muktinath Capital Limited"
+        },
+        {
+            "company": "Puwakhola 1 Hydropower Limited",
+            "units": "1,946,660.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Laxmi Sunrise Capital Market Limited"
+        },
+        {
+            "company": "Suryakunda Hydro Electric Limited",
+            "units": "1,379,350.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Kumari Capital Limited"
+        },
+        {
+            "company": "Snow Rivers Limited",
+            "units": "1,625,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Sanima Capital Limited"
+        },
+        
+        {
+            "company": "Kailash Helicopter Services Limited",
+            "units": "350,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Muktinath Capital Limited"
+        },
+        
+        {
+            "company": "Business Interest Group of Industries Limited",
+            "units": "4,500,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Kumari Capital Limited"
+        },
+        {
+            "company": "Chhaya Devi Complex Limited",
+            "units": "1,437,500.00",
+            "price": "400.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Prabhu Capital Limited"
+        },
+        {
+            "company": "Peoples Energy Limited",
+            "units": "6,600,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Sanima Capital Limited"
+        },
+        {
+            "company": "Hilton Hydro Energy Limited",
+            "units": "1,375,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Sanima Capital Limited"
+        },
+        {
+            "company": "Akama Hotel Limited",
+            "units": "4,500,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Sanima Capital Limited"
+        },
+        {
+            "company": "Thamel Plaza Hotel & Suites Limited",
+            "units": "1,000,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Nepal SBI Merchant Banking Limited"
+        },
+        {
+            "company": "Kalinchowk Hydropower Limited",
+            "units": "750,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "RBB Merchant Banking Limited"
+        },
+        {
+            "company": "Sanigad Hydro Limited",
+            "units": "8,550,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "LS Capital Limited"
+        },
+        {
+            "company": "Apex Makalu Hydropower Limited",
+            "units": "2,400,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Sanima Capital Limited"
+        },
+        {
+            "company": "Appolo Hydropower Limited",
+            "units": "1,410,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Himalayan Capital Limited"
+        },
+        {
+            "company": "Gaurishankar Power Development Limited",
+            "units": "2,400,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Nabil Investment Banking Limited"
+        },
+        {
+            "company": "Shikhar Power Development Limited",
+            "units": "2,160,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Global IME Capital Limited"
+        },
+        {
+            "company": "Siuri Nyadi Power Limited",
+            "units": "30,360,784.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "NMB Capital Limited"
+        },
+        {
+            "company": "Super Khudi Hydropower Limited",
+            "units": "7,595,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Global IME Capital Limited"
+        },
+        {
+            "company": "Mount Everest Power Development Limited",
+            "units": "2,580,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "NIMB Ace Capital Limited"
+        },
+        {
+            "company": "Unique Hydel Company Limited",
+            "units": "2,200,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Global IME Capital Limited"
+        },
+        {
+            "company": "Aashutosh Energy Limited",
+            "units": "1,200,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "NMB Capital Limited"
+        },
+        {
+            "company": "Kalanga Hydro Limited",
+            "units": "4,900,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Sanima Capital Limited"
+        },
+        {
+            "company": "Lower Erkhuwa Hydropower Company Limited",
+            "units": "2,805,750.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Muktinath Capital Limited"
+        },
+        {
+            "company": "Him River Power Limited",
+            "units": "1,330,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Siddhartha Capital Limited"
+        },
+        {
+            "company": "Maruti Cements Limited",
+            "units": "11,600,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Nabil Investment Banking Limited"
+        },
+        {
+            "company": "Barun Investment Limited",
+            "units": "2,475,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Global IME Capital Limited"
+        },
+        {
+            "company": "Annapurna Cable Car Limited",
+            "units": "3,100,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Muktinath Capital Limited"
+        },
+        {
+            "company": "Shaurya Cement Industries Limited",
+            "units": "15,981,500.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Nabil Investment Banking Limited"
+        },
+        
+        {
+            "company": "Ridge Line Energy Nepal",
+            "units": "5,804,201.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Prabhu Capital Limited"
+        },
+        {
+            "company": "Laughing Buddha Power Nepal Limited",
+            "units": "6,577,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Nabil Investment Banking Limited"
+        },
+        {
+            "company": "Orchid Holdings Limited",
+            "units": "11,500,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Laxmi Capital Market Limited"
+        },
+        {
+            "company": "Hotel Forest Inn Limited",
+            "units": "9,800,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "NIC Asia Capital Limited"
+        },
+        {
+            "company": "Taksar Pikhuwa Khola Hydropower Limited",
+            "units": "4 230 668.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Prabhu Capital Limited"
+        },
+        
+        
+        {
+            "company": "Jagdamba Steels Limited",
+            "units": "20,070,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Siddhartha Capital Limited"
+        },
+        {
+            "company": "Apex Hospitality Limited",
+            "units": "2,400,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Himalayan Capital Limited"
+        },
+        {
+            "company": "Yambaling Hydropower Limited",
+            "units": "2 800 000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Muktinath Capital Limited"
+        },
+        {
+            "company": "Beni Hydropower Project Limited",
+            "units": "2,080,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "NMB Capital Limited"
+        },
+        {
+            "company": "Richet Jalbidhyut Company Limited",
+            "units": "1,176,450.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "NIMB Ace Capital Limited"
+        },
+        
+        {
+            "company": "IME Limited",
+            "units": "1,000,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Prabhu Capital Limited"
+        },
+        
+        {
+            "company": "Kantipur Television Network Limited",
+            "units": "750,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Sanima Capital Limited"
+        },
+        {
+            "company": "Sanima Hydropower Limited",
+            "units": "1,470,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Sanima Capital Limited"
+        },
+        {
+            "company": "Accord Pharmaceuticals Limited",
+            "units": "706,909.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Global IME Capital Limited"
+        },
+        {
+            "company": "Upper Lohore Khola Hydropower Company Limited",
+            "units": "2,498,040.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Nic Asia Capital Limited"
+        },
+        {
+            "company": "Bhairabkunda Hydropower Limited",
+            "units": "3,183,280.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Global IME Capital Limited"
+        },
+        {
+            "company": "Shuvam Power Limited",
+            "units": "580,580.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "CBIL Capital Limited"
+        },
+        {
+            "company": "Citizens Capital Ltd. (Former CBIL Capital )",
+            "units": "300,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Nepal SBI Merchant Banking Limited"
+        },
+        {
+            "company": "Dish Media Network Limited",
+            "units": "2,385,929.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Global IME Capital Limited"
+        },
+        {
+            "company": "Lower Mid Rawa Khola Hydropower Project Limited",
+            "units": "1,000,000.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "RBB Merchant Banking Limited"
+        },
+        {
+            "company": "Tenax Hydro Holdings Limited,",
+            "units": "",
+            "price": "",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Muktinath Capital Limited"
+        },
+		{
+            "company": "Jasmine Paints Limited",
+            "units": "1,000,000.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Sanima Capital Limited"
+        },
+		{
+            "company": "Simrik Air Limited",
+            "units": "",
+            "price": "",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": ""
+        },
+		{
+            "company": "NC Agro Tech Industries Limited",
+            "units": "1,875,000.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Global IME Capital Limited"
+        },
+		{
+            "company": "Hotel Garima Limited",
+            "units": "",
+            "price": "",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "NIMB Ace Capital Limited"
+        },
+		{
+            "company": "Supreme Health Care Limited",
+            "units": "1,250,000.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Global IME Capital Limited"
+        },
+		{
+            "company": " Paicho Pasal Limited",
+            "units": "",
+            "price": "",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "NIC ASIA Capital Limited"
+        },
+		{
+            "company": "Nepal Tea Development Corporation Limited (NTDC)",
+            "units": "600,000.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "NMB Capital Limited"
+        },
+		{
+            "company": "Hotel Sarathi Limited",
+            "units": "1,500,000.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Citizens Capital Limited "
+        },
+		
+		{
+            "company": "HAMS Hospital",
+            "units": "1,125,000.00",
+            "price": "288.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Muktinath Capital Limited"
+        },
+		{
+            "company": "Riddhisiddhi Cement Limited",
+            "units": "12,171,500.00",
+            "price": "214.10",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "NIMB Ace Capital Limited"
+        },
+		{
+            "company": "Bhugarva Cement Limited",
+            "units": "1,262,500.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Nabil Investment Banking Limited"
+        },
+		{
+            "company": "Laxmi Technoplast Limited",
+            "units": "1,000,000.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Nepal SBI Merchant Banking Limited"
+        },
+		{
+            "company": "Shiva Shankar Hydro Investment Limited",
+            "units": "2,100,000.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Laxmi Sunrise Capital Limited"
+        },
+		{
+            "company": "Vision Energy & Power Limited",
+            "units": "8,300,000.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "NIMB Ace Capital Limited"
+        },
+		{
+            "company": "White Lotus Power Company",
+            "units": "1,219,000.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Nepal SBI Merchant Banking Limited"
+        },
+		{
+            "company": "Sarathi Cable Industries Limited",
+            "units": "",
+            "price": "",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Citizens Capital Limited"
+        },
+		{
+            "company": "Janaki Cable Industries Limited",
+            "units": "",
+            "price": "",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Nic Asia Capital Limited"
+        },
+		{
+            "company": "Nebico Limited",
+            "units": "2,000,000.00",
+            "price": "",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Siddhartha Capital Limited"
+        },
+		{
+            "company": "Hulas Infra Limited",
+            "units": "35,47,188.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Nabil Investment Banking Limited"
+        },
+		{
+            "company": "Jhyamolongma Hydropower Company Limited",
+            "units": "5,100,000.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": ""
+        },
+		{
+            "company": "Fonepay Nepal Service Limited",
+            "units": "",
+            "price": "",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": ""
+        },
+		{
+            "company": "Amudi Foods Limited ",
+            "units": "2,000,000.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Global IME Capital Limited"
+        },
+		{
+            "company": "Kantipur Pharmaceuticals Lab Limited",
+            "units": "1,700,000.00",
+            "price": "100",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Muktinath Capital Limited"
+        },
+        {
+            "company": "",
+            "units": "",
+            "price": "",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": ""
+        },
+		{
+            "company": "North Summit Hydro Limited ",
+            "units": "3,840,000.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Machhapuchchhre Capital Limited"
+        }
+    ],
+    "rightShare": [
+        {
+            
+            "company": "Nepal Insurance Company Limited",
+            "units": "6,576,967.76",
+            "price": "100.00",
+            "openingDate": "2025-07-22",
+            "closingDate": "2025-08-18",
+            "lastClosingDate": "2025-08-18",
+            "listingDate": "",
+            "issueManager": "NIMB Ace Capital Limited"
+        },
+		{
+            "company": "Khani Khola Hydropower Company Limited",
+            "units": "4,657,143.00",
+            "price": "100.00",
+            "openingDate": "2025-08-19",
+            "closingDate": "2025-09-21",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Citizens Capital Limited"
+        },
+        
+		 {
+            "company": "River Falls Power Limited",
+            "units": "7,000,000.00",
+            "price": "100.00",
+            "openingDate": "2025-09-08",
+            "closingDate": "2025-10-12",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Prabhu Capital Limited"
+        },
+        
+       
+		{
+            "company": "City Hotel Limited",
+            "units": "133,92,000.00",
+            "price": "100.00",
+            "openingDate": "2025-09-08",
+            "closingDate": "2025-10-12",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Prabhu Capital Limited"
+        },
+		{
+            "company": "Shiva Shree Hydropower Limited",
+            "units": "14,764,000.00",
+            "price": "100.00",
+            "openingDate": "2025-09-04",
+            "closingDate": "2025-10-09",
+            "lastClosingDate": "2025-10-09",
+            "listingDate": "",
+            "issueManager": "Citizens Capital Limited"
+        },
+		{
+            "company": "Narayani Development Bank Limited",
+            "units": "2,624,676.00",
+            "price": "100.00",
+            "openingDate": "2025-09-18",
+            "closingDate": "2025-10-26",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Global IME Capital Limited"
+        },
+        
+        {
+            "company": "Joshi Hydropower Development Company Limited",
+            "units": "2,414,100.00",
+            "price": "100.00",
+            "openingDate": "2025-07-31",
+            "closingDate": "2025-09-04",
+            "lastClosingDate": "2025-09-04",
+            "listingDate": "",
+            "issueManager": "Laxmi Sunrise Capital Limited"
+        },
+		{
+            "company": "Sagarmatha Jalbidhyut Company Limited (SMJC)",
+            "units": "11,732,000.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "NMB Capital Limited"
+        },
+		{
+            "company": "Dolti Power Company Limited",
+            "units": "",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": ""
+        },
+		{
+            "company": "Bhugol Energy Development Company Limited",
+            "units": "",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": ""
+        }
+    ],
+    "fpo": [
+        {
+           
+            "company": "Himalayan Bank Limited",
+            "units": "9,250,469.00",
+            "price": "157.00",
+            "openingDate": "2025-07-16",
+            "closingDate": "2025-07-20",
+            "lastClosingDate": "2025-07-30",
+            "listingDate": "",
+            "issueManager": "Citizens Capital Limited"
+        },
+		{
+            "company": "Vijaya Laghubitta Bittiya Sanstha Limited",
+            "units": "466,817.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "NMB Capital Limited"
+        },
+        {
+            "company": "Matribhumi Laghubitta Bittiya Sanstha Limited",
+            "units": "1,149,982.598",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Muktinath Capital Limited"
+        }
+    ],
+    "mutual": [
+        {
+            "company": "Citizens Sadabahar Yojana",
+            "units": "50,000,000.00",
+            "price": "10.00",
+            "openingDate": "2025-06-27",
+            "closingDate": "2025-07-11",
+            "lastClosingDate": "2025-07-11",
+            "listingDate": "",
+            "issueManager": "Citizens Capital Limited"
+        },
+		{
+            "company": "RBB Focus 40",
+            "units": "100,000,000.00",
+            "price": "10.00",
+            "openingDate": "2025-09-03",
+            "closingDate": "2025-09-07",
+            "lastClosingDate": "2025-09-17",
+            "listingDate": "",
+            "issueManager": "RBB Merchant Banking Limited"
+        },
+		{
+            "company": "HLI Large Cap Fund",
+            "units": "400,000,000.00",
+            "price": "10.00",
+            "openingDate": "2025-08-31",
+            "closingDate": "2025-09-03",
+            "lastClosingDate": "2025-09-14",
+            "listingDate": "",
+            "issueManager": "Himalayan Investment Banker Limited"
+        },
+        {
+            "company": "Global IME Samunnat Yojana -II",
+            "units": "120,000,000.00",
+            "price": "10.00",
+            "openingDate": "2025-07-06",
+            "closingDate": "2025-07-11",
+            "lastClosingDate": "2025-07-20",
+            "listingDate": "",
+            "issueManager": "Global IME Capital Limited"
+        },
+        {
+            "company": "Prabhu Systematic Investment Scheme",
+            "units": "25,000,000.00",
+            "price": "10.00",
+            "openingDate": "2025-06-06",
+            "closingDate": "2025-06-20",
+            "lastClosingDate": "2025-06-20",
+            "listingDate": "",
+            "issueManager": "Prabhu Capital Limited"
+        },
+		{
+            "company": "NI 31",
+            "units": "25,000,000.00",
+            "price": "10.00",
+            "openingDate": "2025-08-15",
+            "closingDate": "2025-08-19",
+            "lastClosingDate": "2025-08-29",
+            "listingDate": "",
+            "issueManager": "Nabil Investment Banking Limited"
+        },
+		{
+            "company": "Machhapuchchhre SIP Yojana",
+            "units": "50,000,000.00",
+            "price": "10.00",
+            "openingDate": "2025-11-30",
+            "closingDate": "2025-12-03",
+            "lastClosingDate": "2025-12-14",
+            "listingDate": "",
+            "issueManager": "Machhapuchchhre Capital Limited"
+        },
+        {
+            "company": "NIC ASIA Equity Linked Investment Scheme",
+            "units": "100,000,000.00",
+            "price": "10.00",
+            "openingDate": "2025-08-14",
+            "closingDate": "2025-08-28",
+            "lastClosingDate": "2025-08-28",
+            "listingDate": "",
+            "issueManager": "NIC Asia Capital Limited"
+        }
+    ],
+	"fpo": [
+        {
+           
+            "company": "Himalayan Bank Limited",
+            "units": "9,250,469.00",
+            "price": "157.00",
+            "openingDate": "2025-07-16",
+            "closingDate": "2025-07-20",
+            "lastClosingDate": "2025-07-30",
+            "listingDate": "",
+            "issueManager": "Citizens Capital Limited"
+        },
+		{
+            "company": "Vijaya Laghubitta Bittiya Sanstha Limited",
+            "units": "466,817.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "NMB Capital Limited"
+        },
+        {
+            "company": "Matribhumi Laghubitta Bittiya Sanstha Limited",
+            "units": "1,149,982.598",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Muktinath Capital Limited"
+        }
+    ],
+    "pshare": [
+        {
+            "company": "Nabil 8% Perpetual Non-cumulative Preference Share",
+            "units": "50,000,000.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "NIC Asia Capital Limited"
+        },
+		{
+            "company": "Kamana Sewa 9% Perpetual Non-cumulative Preference Share",
+            "units": "3,500,000.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": ""
+        }
+		
+    ],
+    "migrant": [
 	{
-		"SNO": "11",
-		"Name": "Airson Internet Pvt. Ltd.",
-		"IMG": "https://shyamkumarkc20.com.np/logo/airson.jpg",
-		"OD": "",
-		"Location": "Pokhara, Kaski",
-		"Contact": "061501230",
-		"Email": "contact@airson.com.np",
-		"Website": "airson.com.np/"
-  },
-  {
-    "SNO": "12",
-    "Name": "Alisha Communication Link Pvt. Ltd.",
-    "IMG": "https://shyamkumarkc20.com.np/logo/alishalink.png",
-    "OD": " ",
-    "Location": "Chitwan, Nepal",
-    "Contact": "056580054",
-    "Email": "info@alishalink.com.np",
-    "Website": "alishalink.com.np/"
-  },
-  {
-    "SNO": "13",
-    "Name": "Arrownet Pvt. Ltd.",
-    "IMG": "https://shyamkumarkc20.com.np/logo/arrownet.jpg",
-    "OD": "2008",
-    "Location": "Kathmandu, Nepal",
-    "Contact": "015971333",
-    "Email": "info@arrownet.com.np",
-    "Website": "www.arrownet.com.np/"
-  },
-  {
-    "SNO": "14",
-    "Name": "Beni Communications Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": "Myagdi Nepal",
-    "Contact": "069521281",
-    "Email": "benicommunication81@gmail.com",
-    "Website": "#"
-  },
-  {
-    "SNO": " ",
-    "Name": "Big Marshyandi Net Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Broad Band Nepal Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  
-  {
-    "SNO": " ",
-    "Name": "Broadband Solutions Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  
-  {
-    "SNO": " ",
-    "Name": "Clean Network Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Communications & Communicate Nepal Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Cosmic Net Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Direct Media Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  
-  {
-    "SNO": " ",
-    "Name": "Divine Stream Network Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Chitrawan Unique Net Pvt. Ltd. (Doen)",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "EastLink Technology Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "E-link Net Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Everest Link Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Everest Wireless Network Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Fiberworld Communication Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Firstlink Communications Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "G.R.S.Link Internet Service Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Gandaki Communication Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Goreto Communication Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Himalayan Online Services Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "I. Zone Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Infonet Communications Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Internet Harbor Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Itel Networks Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Janaki Net Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Japan Nepal Inf. Commun. Technology Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Kalika Net Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Khaptad Net Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Konnect Nepal Networks Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Kriti Darshan Media Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Kshireshwar Network Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Lumbini Max Digital Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Made Info Tech Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Mercantile Communications Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Metrolink Business Group Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Neolink Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Nepal Air Link Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Nepal Net Sanchar",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Net Max Technologies Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Next Geekers Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Nimble Network Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Numbur Network Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Oasis Broadband Internet Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "P.D.S Server Network Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Pals Network Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Prime Network Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Shangrila Informatics Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Shikhar Net Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Simple Media Network Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Sinko I.T. Engineering Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Smart Link Network Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "SmartLink Telecommunications Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Super Sitapaila Cable Net Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Supereight Networks Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  
-  {
-    "SNO": " ",
-    "Name": "Udaya Cable Network Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Ultranet Communication Pvt. Ltd.",
-    "IMG": "https://shyamkumarkc20.com.np/logo/ultranet.jpg",
-    "OD": " ",
-    "Location": "Banepa Kavrepalanchowk",
-    "Contact": "011-662377",
-    "Email": "info@ultranet.com.np",
-    "Website": "www.ultranet.com.np/"
-  },
-  {
-    "SNO": " ",
-    "Name": "Unified Communication Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Unite Networks Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Virtual Network Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Web Networks Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  
-  {
-    "SNO": " ",
-    "Name": "Wi Fi H.D. Nepal Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Wifi Nepal Pvt. Ltd.",
-    "IMG": "https://shyamkumarkc20.com.np/logo/wifinepal.png",
-    "OD": "2021",
-    "Location": "Lagankhel, Lalitpur",
-    "Contact": "015970789",
-    "Email": "info@wifinepal.com.np",
-    "Website": "wifinepal.com.np/"
-  },
-  {
-    "SNO": " ",
-    "Name": "Wifi Tech Nepal Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "World Fiber Net Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
-  },
-  {
-    "SNO": " ",
-    "Name": "Zishan Network Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": ""
-  }
-]
+            "company": "Solu Hydropower Limited",
+            "units": "10,000,000.00",
+            "price": "100.00",
+            "openingDate": "2025-11-23",
+            "closingDate": "2025-12-03",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Nabil Investment Banking Limited"
+        },
+		{
+            "company": "SY Panel Nepal Limited",
+            "units": "497,092.00",
+            "price": "100.00",
+            "openingDate": "2025-09-23",
+            "closingDate": "2025-09-26",
+            "lastClosingDate": " ",
+            "issueManager": "Prabhu Capital Limited"
+        },
+        {
+            "symbol": "HSUCL",
+            "company": "Him Star Urja Company Limited",
+            "units": "93,250.00",
+            "price": "100.00",
+            "openingDate": "2025-06-13",
+            "closingDate": "2025-06-27",
+            "lastClosingDate": "2025-06-27",
+            "listingDate": "",
+            "issueManager": "NIC Asia Capital Limited"
+        },
+		{
+            "company": "Shreenagar Agritech Industries Limited",
+            "units": "326,250",
+            "price": "100.00",
+            "openingDate": "2025-08-27",
+            "closingDate": "2025-08-31",
+            "lastClosingDate": "2025-09-10",
+            "listingDate": "",
+            "issueManager": "Nabil Investment Banking Limited"
+        },
+		{
+            "company": "Sagar Distillery Limited",
+            "units": "145,200.00",
+            "price": "100.00",
+            "openingDate": "2025-08-13",
+            "closingDate": "2025-08-17",
+            "lastClosingDate": " ",
+            "issueManager": "Muktinath Capital Limited"
+        },
+		{
+            "company": "Jhapa Energy Limited",
+            "units": "57,029.00",
+            "price": "100.00",
+            "openingDate": "2025-07-30",
+            "closingDate": "2025-08-03",
+            "lastClosingDate": " ",
+            "issueManager": "Himalayan Capital Limited"
+        },
+        {
+            "symbol": "BLHL",
+            "company": "Bungal Hydro Limited",
+            "units": "207,500.00",
+            "price": "100.00",
+            "openingDate": "2025-07-13",
+            "closingDate": "2025-07-27",
+            "lastClosingDate": "2025-07-27",
+            "listingDate": "",
+            "issueManager": "Himalayan Capital Limited"
+        },
+        {
+            "symbol": "",
+            "company": "Swastik Laghubitta Bittiya Sanstha Limited",
+            "units": "23,100.00",
+            "price": "100.00",
+            "openingDate": "2025-07-11",
+            "closingDate": "2025-07-25",
+            "lastClosingDate": "2025-07-25",
+            "listingDate": "",
+            "issueManager": "Nabil Investment Banking Limited"
+        },
+        
+        {
+            
+            "company": "Reliance Spinning Mills",
+            "units": "1,155,960.00",
+            "price": "100.00",
+            "openingDate": "Coming Soon",
+            "closingDate": "Coming Soon",
+            "lastClosingDate": "Coming Soon",
+            "listingDate": "Coming Soon",
+            "issueManager": "Global IME Capital Limited"
+        },
+        {
+            
+            "company": "Bandipur Cable Car and Tourism Limited",
+            "units": "529,400.00",
+            "price": "100.00",
+            "openingDate": "2025-07-22",
+            "closingDate": "2025-07-25",
+            "lastClosingDate": "2025-07-25",
+            "listingDate": "",
+            "issueManager": "Nepal SBI Merchant Banking Limited"
+        }
+    ],
+    "debenture": [
+        {
+            "company": "8% Shine Resunga Debenture",
+            "units": "1,000,000.00",
+            "price": "1000.00",
+            "openingDate": "2025-07-16",
+            "closingDate": "2025-07-20",
+            "lastClosingDate": "2025-07-30",
+            "listingDate": "",
+            "issueManager": "NIMB Ace Capital Limited"
+        },
+        {
+            "company": "7% Nepal SBI Bank Debenture 2090",
+            "units": "3,000,000.00",
+            "price": "1000.00",
+            "openingDate": "2025-07-14",
+            "closingDate": "2025-07-20",
+            "lastClosingDate": "2025-07-28",
+            "listingDate": "",
+            "issueManager": "Nabil Investment Banking Limited"
+        },
+        {
+            "company": "7.25% SBL Debenture 2091",
+            "units": "2,500,000.00",
+            "price": "1000.00",
+            "openingDate": "2025-07-13",
+            "closingDate": "2025-07-16",
+            "lastClosingDate": "2025-07-27",
+            "listingDate": "",
+            "issueManager": "NMB Capital Limited"
+        },
+		{
+            "company": "4% Agricultural Bond",
+            "units": "1,20,00,000.00",
+            "price": "1000.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": ""
+        },
+        {
+            "company": "7% Nabil Debenture 2089",
+            "units": "3,000,000.00",
+            "price": "1000.00",
+            "openingDate": "2025-07-22",
+            "closingDate": "2025-07-26",
+            "lastClosingDate": "2025-08-05",
+            "listingDate": "",
+            "issueManager": "Nepal SBI Merchant Banking Limited"
+        },
+		{
+            "company": "7% Laxmi Sunrise Debenture 2092",
+            "units": "3,000,000.00",
+            "price": "1000.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "listingDate": "",
+            "issueManager": "Machhapuchchhre Capital Limited"
+        }
+    ]
+}
