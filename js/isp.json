@@ -101,19 +101,19 @@
         "Website": "cgnet.com.np/"
     },
 	{
-    "SNO": "11",
-    "Name": "Airson Internet Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": "Pokhara, Kaski",
-    "Contact": "061501230",
-    "Email": "contact@airson.com.np",
-    "Website": "airson.com.np/"
+		"SNO": "11",
+		"Name": "Airson Internet Pvt. Ltd.",
+		"IMG": "https://shyamkumarkc20.com.np/logo/airson.jpg",
+		"OD": "",
+		"Location": "Pokhara, Kaski",
+		"Contact": "061501230",
+		"Email": "contact@airson.com.np",
+		"Website": "airson.com.np/"
   },
   {
-    "SNO": " ",
+    "SNO": "12",
     "Name": "Alisha Communication Link Pvt. Ltd.",
-    "IMG": " ",
+    "IMG": "https://shyamkumarkc20.com.np/logo/alishalink.png",
     "OD": " ",
     "Location": "Chitwan, Nepal",
     "Contact": "056580054",
@@ -121,24 +121,24 @@
     "Website": "alishalink.com.np/"
   },
   {
-    "SNO": " ",
+    "SNO": "13",
     "Name": "Arrownet Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
+    "IMG": "https://shyamkumarkc20.com.np/logo/arrownet.jpg",
+    "OD": "2008",
     "Location": "Kathmandu, Nepal",
     "Contact": "015971333",
     "Email": "info@arrownet.com.np",
     "Website": "www.arrownet.com.np/"
   },
   {
-    "SNO": " ",
+    "SNO": "14",
     "Name": "Beni Communications Pvt. Ltd.",
     "IMG": " ",
     "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
+    "Location": "Myagdi Nepal",
+    "Contact": "069521281",
+    "Email": "benicommunication81@gmail.com",
+    "Website": "#"
   },
   {
     "SNO": " ",
@@ -687,12 +687,12 @@
   {
     "SNO": " ",
     "Name": "Ultranet Communication Pvt. Ltd.",
-    "IMG": " ",
+    "IMG": "https://shyamkumarkc20.com.np/logo/ultranet.jpg",
     "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
+    "Location": "Banepa Kavrepalanchowk",
+    "Contact": "011-662377",
+    "Email": "info@ultranet.com.np",
+    "Website": "www.ultranet.com.np/"
   },
   {
     "SNO": " ",
@@ -748,12 +748,12 @@
   {
     "SNO": " ",
     "Name": "Wifi Nepal Pvt. Ltd.",
-    "IMG": " ",
-    "OD": " ",
-    "Location": " ",
-    "Contact": " ",
-    "Email": " ",
-    "Website": " "
+    "IMG": "https://shyamkumarkc20.com.np/logo/wifinepal.png",
+    "OD": "2021",
+    "Location": "Lagankhel, Lalitpur",
+    "Contact": "015970789",
+    "Email": "info@wifinepal.com.np",
+    "Website": "wifinepal.com.np/"
   },
   {
     "SNO": " ",
