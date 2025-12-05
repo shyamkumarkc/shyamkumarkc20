@@ -101,14 +101,14 @@
         "Website": "cgnet.com.np/"
     },
 	{
-    "SNO": "11",
-    "Name": "Airson Internet Pvt. Ltd.",
-    "IMG": " ",
-    "OD": "https://shyamkumarkc20.com.np/logo/airson.jpg",
-    "Location": "Pokhara, Kaski",
-    "Contact": "061501230",
-    "Email": "contact@airson.com.np",
-    "Website": "airson.com.np/"
+		"SNO": "11",
+		"Name": "Airson Internet Pvt. Ltd.",
+		"IMG": "https://shyamkumarkc20.com.np/logo/airson.jpg",
+		"OD": "",
+		"Location": "Pokhara, Kaski",
+		"Contact": "061501230",
+		"Email": "contact@airson.com.np",
+		"Website": "airson.com.np/"
   },
   {
     "SNO": "12",
