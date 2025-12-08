@@ -2,206 +2,646 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Portfolio Dashboard</title>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MeroShare — Portfolio (Advanced)</title>
+
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js" defer></script>
+
   <style>
-    body {
-      font-family: Arial, sans-serif; 
-      margin:0; padding:0; 
-      background:#f9fafb; color:#111827;
+    :root{
+      --bg:#f5f7fa;
+      --card:#ffffff;
+      --muted:#6b7280;
+      --accent:#0ea5a4;
+      --accent-2:#2563eb;
+      --glass: rgba(255,255,255,0.6);
+      --radius:12px;
+      --shadow: 0 6px 18px rgba(16,24,40,0.06);
+      --dark:#0f172a;
     }
-    .navbar {
-      display:flex; background:#e5e7eb; padding:10px 20px; gap:20px;
-      border-bottom:2px solid #d1d5db;
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      background: linear-gradient(180deg,var(--bg), #eef2f7);
+      color:var(--dark);
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      padding:18px;
     }
-    .navbar button {
-      background:none; border:none; color:#111827;
-      font-size:16px; cursor:pointer; padding:8px 12px;
-      border-radius:6px; transition:all 0.2s;
+
+    .wrap{
+      max-width:1200px;
+      margin:0 auto;
+      display:grid;
+      grid-template-columns: 1fr 380px;
+      gap:18px;
     }
-    .navbar button.active {
-      background:#3b82f6; color:#fff; font-weight:bold;
+
+    header{
+      grid-column:1 / -1;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:12px;
+      margin-bottom:6px;
     }
-    .container { padding:20px; max-width:700px; margin:auto; }
+    header h1{
+      font-size:20px;
+      margin:0;
+      letter-spacing:-0.2px;
+    }
+    header .sub{color:var(--muted); font-size:0.95rem}
+
+    /* Controls row (search, page size, export) */
+    .controls{
+      display:flex;
+      gap:8px;
+      align-items:center;
+      flex-wrap:wrap;
+    }
+    .search {
+      display:flex;
+      align-items:center;
+      gap:8px;
+      background:var(--card);
+      padding:8px;
+      border-radius:10px;
+      box-shadow:var(--shadow);
+    }
+    .search input{
+      border:0;
+      outline:0;
+      min-width:220px;
+      font-size:0.95rem;
+      background:transparent;
+    }
+    .select, .btn {
+      background:var(--card);
+      border-radius:10px;
+      padding:8px 10px;
+      box-shadow:var(--shadow);
+      border:1px solid rgba(15,23,42,0.04);
+      font-size:0.95rem;
+      cursor:pointer;
+    }
+    .btn { display:inline-flex; gap:8px; align-items:center; }
+
+    /* Main table card */
     .card {
-      background:#fff; border-radius:12px;
-      box-shadow:0 6px 20px rgba(0,0,0,0.1);
-      padding:20px; margin-bottom:20px;
+      background:var(--card);
+      padding:16px;
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
     }
-    h2 { margin-top:0; color:#2563eb; text-align:center; }
-    .controls {
-      margin-bottom:15px; display:flex; flex-wrap:wrap; gap:10px;
-      align-items:center; justify-content:center;
+
+    /* Table container */
+    .table-area{
+      overflow:auto;
+      margin-top:12px;
+      border-radius:10px;
+      border:1px solid rgba(15,23,42,0.04);
     }
-    select, button.sortBtn {
-      padding:8px 14px; border-radius:6px; border:1px solid #d1d5db;
-      background:#f9fafb; color:#111827; cursor:pointer;
-      transition:all 0.2s;
+    table{
+      width:100%;
+      border-collapse:collapse;
+      min-width:720px;
     }
-    select:hover, button.sortBtn:hover {
-      background:#e5e7eb; border-color:#3b82f6;
+    thead th{
+      position:sticky;
+      top:0;
+      background:linear-gradient(180deg,#ffffff,#fbfdff);
+      text-align:left;
+      font-weight:600;
+      font-size:0.95rem;
+      padding:12px 14px;
+      border-bottom:1px solid rgba(15,23,42,0.06);
+      user-select:none;
+      cursor:pointer;
     }
-    button.sortBtn.active { background:#3b82f6; color:#fff; font-weight:bold; }
-    .tab-content { display:none; }
-    .tab-content.active { display:block; }
-    canvas { width:100% !important; height:auto !important; }
-    .summary-list { list-style:none; padding:0; margin:0; }
-    .summary-list li { padding:6px 0; border-bottom:1px solid #e5e7eb; }
-    .summary-flex {
-      display:flex; flex-wrap:wrap; gap:20px;
-      justify-content:space-around; align-items:center;
+    thead th .sort-ind{ opacity:0.6; margin-left:8px; font-size:0.8rem }
+    tbody td{
+      padding:12px 14px;
+      border-bottom:1px dashed rgba(15,23,42,0.04);
+      font-size:0.95rem;
+      vertical-align:middle;
     }
-    .summary-flex > div { flex:1; min-width:250px; }
+    tbody tr:hover { background: linear-gradient(90deg, rgba(14,165,164,0.02), transparent); }
+
+    /* Small helpers: badges, numbers */
+    .muted { color:var(--muted); font-size:0.9rem }
+    .badge {
+      display:inline-block;
+      padding:6px 8px;
+      border-radius:999px;
+      font-size:0.8rem;
+      background:rgba(37,99,235,0.06);
+      color:var(--accent-2);
+      border:1px solid rgba(37,99,235,0.08)
+    }
+    .num { font-variant-numeric: tabular-nums; }
+
+    /* Right column (summary + chart) */
+    .right-col{
+      display:flex;
+      flex-direction:column;
+      gap:12px;
+    }
+    .summary {
+      padding:12px;
+      border-radius:12px;
+      background:linear-gradient(180deg,var(--card), #fbfeff);
+      box-shadow:var(--shadow);
+      border:1px solid rgba(15,23,42,0.04);
+    }
+    .summary h2{ margin:0 0 8px 0; font-size:1.05rem }
+    .stat-grid{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:8px;
+    }
+    .stat{
+      background:linear-gradient(180deg,#fff,#fbfdff);
+      padding:10px;
+      border-radius:8px;
+      border:1px solid rgba(15,23,42,0.03);
+    }
+    .stat .label{ color:var(--muted); font-size:0.85rem }
+    .stat .value{ font-weight:700; margin-top:6px; font-size:1.05rem }
+
+    /* Chart card */
+    .chart-card{
+      padding:12px;
+      border-radius:12px;
+      background:var(--card);
+      box-shadow:var(--shadow);
+      border:1px solid rgba(15,23,42,0.04);
+    }
+    .chart-title{ font-size:0.95rem; color:var(--muted); margin-bottom:8px }
+
+    /* Pagination */
+    .pagination{
+      display:flex;
+      gap:6px;
+      align-items:center;
+      margin-top:12px;
+      flex-wrap:wrap;
+    }
+    .page-btn{
+      padding:6px 10px;
+      border-radius:8px;
+      background:var(--card);
+      border:1px solid rgba(15,23,42,0.04);
+      cursor:pointer;
+      min-width:38px;
+      text-align:center;
+    }
+    .page-btn.active{
+      background:linear-gradient(90deg,var(--accent),var(--accent-2));
+      color:white;
+      border:0;
+    }
+
+    /* Responsive */
+    @media (max-width: 1000px){
+      .wrap{ grid-template-columns: 1fr; padding-bottom:30px }
+      .right-col{ order:2 }
+      header{ flex-direction:column; align-items:flex-start; gap:8px }
+      .search input{ min-width:140px }
+    }
   </style>
 </head>
 <body>
-  <div class="navbar">
-    <button id="tabPie" class="active">📊 Sector Allocation</button>
-    <button id="tabBar">📈 Units Distribution</button>
-    <button id="tabSummary">📑 Summary</button>
-  </div>
+  <div class="wrap">
 
-  <div class="container">
-    <!-- Pie Chart -->
-    <div id="pieTab" class="tab-content active">
-      <div class="card">
-        <h2>Sector Allocation</h2>
-        <canvas id="pieChart"></canvas>
+    <header>
+      <div>
+        <h1>MeroShare — Portfolio Dashboard</h1>
+        <div class="sub">Live view of holdings from <code>/js/meroshare.json</code></div>
       </div>
-    </div>
 
-    <!-- Bar Chart -->
-    <div id="barTab" class="tab-content">
-      <div class="card">
-        <h2>Units Distribution</h2>
-        <div class="controls">
-          <label for="sectorFilter">Filter by Sector: </label>
-          <select id="sectorFilter"><option value="All">All</option></select>
-          <button id="sortDescBtn" class="sortBtn">Sort: Highest → Lowest</button>
-          <button id="sortAscBtn" class="sortBtn">Sort: Lowest → Highest</button>
-          <button id="sortResetBtn" class="sortBtn">Reset Order</button>
+      <div class="controls" aria-hidden="false">
+        <div class="search" title="Search">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M21 21l-4.35-4.35" stroke="#6b7280" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="11" cy="11" r="5" stroke="#6b7280" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <input id="search" placeholder="Search company / sector / symbol..." aria-label="Search portfolio">
         </div>
-        <canvas id="barChart"></canvas>
+
+        <select id="page-size" class="select" title="Rows per page" aria-label="Rows per page">
+          <option value="8">8 / page</option>
+          <option value="12">12 / page</option>
+          <option value="20" selected>20 / page</option>
+          <option value="50">50 / page</option>
+        </select>
+
+        <button id="export-csv" class="btn" title="Export visible rows to CSV">Export CSV</button>
+      </div>
+    </header>
+
+    <!-- Left: table -->
+    <div class="card" style="min-height:320px;">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:12px">
+        <div style="display:flex;flex-direction:column">
+          <div style="font-weight:700">Holdings</div>
+          <div class="muted" id="table-sub">Loading…</div>
+        </div>
+        <div class="muted" id="last-updated"></div>
+      </div>
+
+      <div class="table-area" role="region" aria-label="Portfolio table" style="margin-top:12px">
+        <table id="portfolio-table" role="table" aria-describedby="table-sub">
+          <thead><tr id="table-head-row"></tr></thead>
+          <tbody id="table-body"></tbody>
+        </table>
+      </div>
+
+      <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;margin-top:12px">
+        <div class="muted" id="showing-info"></div>
+        <div class="pagination" id="pagination"></div>
       </div>
     </div>
 
-    <!-- Summary -->
-    <div id="summaryTab" class="tab-content">
-      <div class="card">
+    <!-- Right column: summary + chart -->
+    <aside class="right-col">
+      <div class="summary">
         <h2>Portfolio Summary</h2>
-        <div class="summary-flex">
-          <div>
-            <ul class="summary-list" id="summaryList"></ul>
-          </div>
-          <div>
-            <canvas id="miniPieChart"></canvas>
-          </div>
+        <div class="stat-grid" id="stat-grid">
+          <!-- Stats inserted by JS -->
         </div>
       </div>
-    </div>
+
+      <div class="chart-card">
+        <div class="chart-title">Top Holdings (by value)</div>
+        <canvas id="topChart" height="240" aria-label="Top holdings chart"></canvas>
+      </div>
+
+      <div class="chart-card">
+        <div class="chart-title">Sector Allocation</div>
+        <canvas id="sectorChart" height="220" aria-label="Sector allocation chart"></canvas>
+      </div>
+    </aside>
   </div>
 
   <script>
-    const pieCtx = document.getElementById('pieChart').getContext('2d');
-    const barCtx = document.getElementById('barChart').getContext('2d');
-    const miniPieCtx = document.getElementById('miniPieChart').getContext('2d');
-    let pieChart, barChart, miniPieChart;
-    let globalData = [];
-    let currentSort = null;
+  (function(){
+    // ====== CONFIG ======
+    const DATA_URL = 'https://shyamkumarkc20.com.np/js/meroshare.json'; // <-- adjust path if needed
+    const PREFERRED_LABEL_KEYS = ['company','name','symbol','stock','scrip','issue_name'];
+    const PREFERRED_SECTOR_KEYS = ['sector','industry','group'];
+    const PREFERRED_VALUE_KEYS = ['market_value','marketvalue','value','market_cap','marketcap','amount','investment','total_value','totalvalue','current_value','currentvalue'];
+    const PREFERRED_UNITS_KEYS = ['units','quantity','shares','no_of_units','no_of_shares'];
+    // =====================
 
-    // Tabs
-    function switchTab(tab){
-      document.querySelectorAll('.navbar button').forEach(b=>b.classList.remove('active'));
-      document.querySelectorAll('.tab-content').forEach(c=>c.classList.remove('active'));
-      if(tab==='pie'){ tabPie.classList.add('active'); pieTab.classList.add('active'); }
-      else if(tab==='bar'){ tabBar.classList.add('active'); barTab.classList.add('active'); }
-      else { tabSummary.classList.add('active'); summaryTab.classList.add('active'); }
-    }
-    tabPie.addEventListener('click',()=>switchTab('pie'));
-    tabBar.addEventListener('click',()=>switchTab('bar'));
-    tabSummary.addEventListener('click',()=>switchTab('summary'));
+    // State
+    let rawData = [];
+    let filtered = [];
+    let columns = [];
+    let numericKeys = new Set();
+    let page = 1;
+    let pageSize = parseInt(document.getElementById('page-size').value,10) || 20;
+    let sortKey = null;
+    let sortDir = 1; // 1 asc, -1 desc
 
-    function generateColors(n){
-      const colors=[]; 
-      for(let i=0;i<n;i++){ const hue=Math.round((360/n)*i); colors.push(`hsl(${hue},70%,50%)`); }
-      return colors;
-    }
+    // DOM
+    const tableHeadRow = document.getElementById('table-head-row');
+    const tableBody = document.getElementById('table-body');
+    const searchInput = document.getElementById('search');
+    const pageSizeSelect = document.getElementById('page-size');
+    const paginationWrap = document.getElementById('pagination');
+    const showingInfo = document.getElementById('showing-info');
+    const tableSub = document.getElementById('table-sub');
+    const lastUpdatedEl = document.getElementById('last-updated');
+    const statGrid = document.getElementById('stat-grid');
+    const exportCsvBtn = document.getElementById('export-csv');
+    let topChart = null, sectorChart = null;
 
-    function renderPieChart(ctx, chartRef, data){
-      const sectors={};
-      data.forEach(d=>{const sec=d.Sector||'Unknown'; sectors[sec]=(sectors[sec]||0)+Number(d.Units);});
-      const labels=Object.keys(sectors), values=Object.values(sectors), colors=generateColors(labels.length);
-      if(chartRef) chartRef.destroy();
-      return new Chart(ctx,{type:'pie',data:{labels,datasets:[{data:values,backgroundColor:colors}]},
-        options:{plugins:{legend:{position:'bottom'},tooltip:{callbacks:{label:ctx=>`${ctx.label}: ${ctx.parsed} Units`}}}}});
-    }
-
-    function renderBar(data){
-      const labels=data.map(x=>x.Symbol), values=data.map(x=>Number(x.Units)), colors=generateColors(labels.length);
-      if(barChart){ barChart.destroy(); }
-      barChart=new Chart(barCtx,{type:'bar',data:{labels,datasets:[{label:'Units',data:values,backgroundColor:colors}]},
-        options:{responsive:true,plugins:{legend:{display:false},tooltip:{callbacks:{label:ctx=>`${ctx.label}: ${ctx.parsed.y} Units`}}},
-          scales:{y:{beginAtZero:true}},animation:{duration:800,easing:'easeOutQuart'}}});
-    }
-
-    function populateFilter(data){
-      const sectors=[...new Set(data.map(x=>x.Sector||'Unknown'))], filter=document.getElementById('sectorFilter');
-      sectors.forEach(sec=>{const opt=document.createElement('option'); opt.value=sec; opt.textContent=sec; filter.appendChild(opt);});
+    // util: safe number test
+    function isNumeric(n){ return n !== null && n !== '' && !isNaN(Number(String(n).replace(/,/g,''))) && isFinite(Number(String(n).replace(/,/g,''))); }
+    function toNum(n){ return Number(String(n).replace(/,/g,'')) || 0; }
+    function formatNumber(n){
+      if (typeof Intl !== 'undefined' && Intl.NumberFormat) {
+        return new Intl.NumberFormat().format(Math.round(n*100)/100);
+      }
+      return n.toLocaleString?.() ?? n;
     }
 
-    function setActiveButton(btnId){
-      document.querySelectorAll('.sortBtn').forEach(btn=>btn.classList.remove('active'));
-      if(btnId) document.getElementById(btnId).classList.add('active');
+    // Fetch data
+    async function load() {
+      try {
+        const res = await fetch(DATA_URL, {cache:'no-cache'});
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        const json = await res.json();
+        rawData = Array.isArray(json) ? json : (json.data && Array.isArray(json.data) ? json.data : []);
+        if (!rawData.length) {
+          tableSub.textContent = 'No items found in JSON.';
+          tableBody.innerHTML = '<tr><td colspan="99">No data available</td></tr>';
+          return;
+        }
+        detectSchema();
+        filtered = rawData.slice();
+        page = 1;
+        render();
+        lastUpdatedEl.textContent = `Loaded ${rawData.length} rows`;
+      } catch (err) {
+        console.error(err);
+        tableSub.textContent = 'Failed to load JSON: ' + err.message;
+      }
     }
 
-    function applyFilterAndSort(sortType){
-      const val=document.getElementById('sectorFilter').value;
-      let filtered=(val==='All')?[...globalData]:globalData.filter(x=>(x.Sector||'Unknown')===val);
-      if(sortType==='desc'){filtered.sort((a,b)=>Number(b.Units)-Number(a.Units)); currentSort='desc'; setActiveButton('sortDescBtn');}
-      else if(sortType==='asc'){filtered.sort((a,b)=>Number(a.Units)-Number(b.Units)); currentSort='asc'; setActiveButton('sortAscBtn');}
-      else{currentSort=null; setActiveButton('sortResetBtn');}
-      renderBar(filtered);
+    // Determine columns & numeric keys
+    function detectSchema(){
+      const keySet = new Set();
+      rawData.forEach(obj => {
+        Object.keys(obj).forEach(k => keySet.add(k));
+      });
+      columns = Array.from(keySet);
+
+      // Prefer consistent column ordering: preferred label first, then preferred sector, then value, then rest
+      const reorder = [];
+      for (const pk of PREFERRED_LABEL_KEYS) if (columns.includes(pk)) { reorder.push(pk); columns = columns.filter(c=>c!==pk); }
+      for (const sk of PREFERRED_SECTOR_KEYS) if (columns.includes(sk)) { reorder.push(sk); columns = columns.filter(c=>c!==sk); }
+      for (const vk of PREFERRED_VALUE_KEYS) if (columns.includes(vk)) { reorder.push(vk); columns = columns.filter(c=>c!==vk); }
+      for (const uk of PREFERRED_UNITS_KEYS) if (columns.includes(uk)) { reorder.push(uk); columns = columns.filter(c=>c!==uk); }
+      columns = reorder.concat(columns);
+
+      numericKeys.clear();
+      rawData.forEach(obj => {
+        columns.forEach(k => {
+          if (isNumeric(obj[k])) numericKeys.add(k);
+        });
+      });
     }
 
-    function renderSummary(data){
-      let totalUnits=data.reduce((sum,d)=>sum+Number(d.Units),0);
-      let top=data.reduce((max,d)=>Number(d.Units)>Number(max.Units)?d:max,data[0]);
-      const sectors={};
-      data.forEach(d=>{const sec=d.Sector||'Unknown'; sectors[sec]=(sectors[sec]||0)+Number(d.Units);});
-      const list=document.getElementById('summaryList');
-      list.innerHTML=`
-        <li><strong>Total Units:</strong> ${totalUnits}</li>
-        <li><strong>Top Holding:</strong> ${top.Symbol} (${top.Units} Units)</li>
-        <li><strong>Sector Breakdown:</strong></li>
-      `;
-      Object.entries(sectors).forEach(([sec,val])=>{
-        const pct=((val/totalUnits)*100).toFixed(2);
-        list.innerHTML+=`<li>• ${sec}: ${val} Units (${pct}%)</li>`;
+    // Render table header
+    function renderHeader(){
+      tableHeadRow.innerHTML = '';
+      columns.forEach(col => {
+        const th = document.createElement('th');
+        const label = col.replace(/[_-]/g,' ').replace(/\b\w/g, c=>c.toUpperCase());
+        th.innerHTML = `<span>${label}</span> <span class="sort-ind" aria-hidden="true">${sortKey===col ? (sortDir>0 ? '▲' : '▼') : '↕'}</span>`;
+        th.addEventListener('click', () => {
+          if (sortKey === col) sortDir = -sortDir; else { sortKey = col; sortDir = 1; }
+          page = 1;
+          render();
+        });
+        tableHeadRow.appendChild(th);
+      });
+    }
+
+    // Apply filter & sort
+    function applyFilters(){
+      const q = (searchInput.value || '').trim().toLowerCase();
+      filtered = rawData.filter(item => {
+        if (!q) return true;
+        // search across string fields and numeric stringified fields
+        return Object.values(item).some(v => String(v || '').toLowerCase().includes(q));
       });
 
-      // Mini Pie Chart
-      miniPieChart = renderPieChart(miniPieCtx, miniPieChart, data);
+      if (sortKey) {
+        filtered.sort((a,b)=>{
+          const A = a[sortKey], B = b[sortKey];
+          const An = isNumeric(A), Bn = isNumeric(B);
+          if (An && Bn) return (toNum(A) - toNum(B)) * sortDir;
+          const sa = String(A || '').toLowerCase(), sb = String(B || '').toLowerCase();
+          return sa < sb ? -1*sortDir : (sa > sb ? 1*sortDir : 0);
+        });
+      }
     }
 
-    // Event listeners
-    sectorFilter.addEventListener('change',()=>applyFilterAndSort(currentSort));
-    sortDescBtn.addEventListener('click',()=>applyFilterAndSort('desc'));
-    sortAscBtn.addEventListener('click',()=>applyFilterAndSort('asc'));
-    sortResetBtn.addEventListener('click',()=>applyFilterAndSort());
+    // Render table rows w/ pagination
+    function renderTable(){
+      const total = filtered.length;
+      const pages = Math.max(1, Math.ceil(total / pageSize));
+      if (page > pages) page = pages;
+      const start = (page - 1) * pageSize;
+      const end = Math.min(total, start + pageSize);
+      tableBody.innerHTML = '';
 
-    // Fetch JSON
-    const dataUrl="https://shyamkumarkc20.com.np/js/meroshare.json";
-    fetch(dataUrl)
-      .then(res=>res.json())
-      .then(json=>{
-        globalData=json;
-        populateFilter(json);
-        pieChart = renderPieChart(pieCtx, pieChart, json);
-        renderBar(json);
-        renderSummary(json);
-      })
-      .catch(err=>alert("Failed to load JSON: "+err.message));
+      const pageSlice = filtered.slice(start, end);
+      pageSlice.forEach(row => {
+        const tr = document.createElement('tr');
+        columns.forEach(col => {
+          const td = document.createElement('td');
+          const val = row[col] ?? '';
+          if (numericKeys.has(col) && isNumeric(val)) {
+            td.innerHTML = `<span class="num">${formatNumber(toNum(val))}</span>`;
+          } else {
+            td.textContent = String(val);
+          }
+          tr.appendChild(td);
+        });
+        tableBody.appendChild(tr);
+      });
+
+      showingInfo.textContent = `Showing ${total===0?0:(start+1)}–${end} of ${total}`;
+      renderPagination(pages);
+    }
+
+    function renderPagination(totalPages){
+      paginationWrap.innerHTML = '';
+      const createBtn = (label, cls, disabled=false) => {
+        const b = document.createElement('button');
+        b.className = 'page-btn' + (cls?(' '+cls):'');
+        b.textContent = label;
+        if (disabled) { b.disabled = true; b.style.opacity = '0.5'; }
+        return b;
+      };
+      // prev
+      const prev = createBtn('‹ Prev');
+      prev.addEventListener('click', ()=> { page = Math.max(1, page-1); renderTable(); });
+      paginationWrap.appendChild(prev);
+
+      // pages (show window)
+      const maxButtons = 7;
+      let start = Math.max(1, page - Math.floor(maxButtons/2));
+      let end = Math.min(totalPages, start + maxButtons - 1);
+      if (end - start < maxButtons - 1) start = Math.max(1, end - maxButtons + 1);
+
+      if (start > 1) {
+        const b1 = createBtn('1'); b1.addEventListener('click', ()=> { page=1; renderTable(); }); paginationWrap.appendChild(b1);
+        if (start > 2) paginationWrap.appendChild(createBtn('...', 'page-dot', true));
+      }
+
+      for (let i = start; i<=end; i++){
+        const btn = createBtn(i, i===page ? 'active' : '');
+        if (i===page) btn.classList.add('active');
+        btn.addEventListener('click', ()=> { page = i; renderTable(); });
+        paginationWrap.appendChild(btn);
+      }
+
+      if (end < totalPages) {
+        if (end < totalPages - 1) paginationWrap.appendChild(createBtn('...', 'page-dot', true));
+        const bl = createBtn(totalPages); bl.addEventListener('click', ()=> { page = totalPages; renderTable(); }); paginationWrap.appendChild(bl);
+      }
+
+      const next = createBtn('Next ›');
+      next.addEventListener('click', ()=> { page = Math.min(totalPages, page+1); renderTable(); });
+      paginationWrap.appendChild(next);
+    }
+
+    // Build summary and charts
+    function buildSummaryAndCharts(){
+      // Stats: total rows, numeric sums, top value field sums, top sectors
+      const totalRows = rawData.length;
+      const sums = {};
+      numericKeys.forEach(k => sums[k] = rawData.reduce((s,r)=> s + (isNumeric(r[k])? toNum(r[k]) : 0), 0));
+
+      // Determine label field and value field for charts
+      const labelKey = columns.find(c=> PREFERRED_LABEL_KEYS.includes(c)) || columns.find(c => typeof rawData[0][c] === 'string') || columns[0];
+      let valueKey = columns.find(c=> PREFERRED_VALUE_KEYS.includes(c)) || columns.find(c => numericKeys.has(c));
+      // If we have units & market_price, compute value from units * price
+      const unitsKey = columns.find(c=> PREFERRED_UNITS_KEYS.includes(c));
+      const priceKeyGuess = columns.find(c => /price|rate|nav|per_share|market_price/i.test(c));
+      if (!valueKey && unitsKey && priceKeyGuess) {
+        valueKey = null; // we'll compute composite values
+      }
+
+      // Sector allocation
+      const sectorKey = columns.find(c=> PREFERRED_SECTOR_KEYS.includes(c)) || columns.find(c => /sector|industry|group/i.test(c));
+      const sectorMap = new Map();
+      const labelMap = new Map(); // label -> aggregated value
+      rawData.forEach(r=>{
+        const label = (r[labelKey] ?? 'Unknown') + '';
+        let val = 0;
+        if (valueKey && isNumeric(r[valueKey])) val = toNum(r[valueKey]);
+        else if (unitsKey && priceKeyGuess && isNumeric(r[unitsKey]) && isNumeric(r[priceKeyGuess])) val = toNum(r[unitsKey]) * toNum(r[priceKeyGuess]);
+        else {
+          // fallback: try to find any numeric field
+          for (const nk of numericKeys) { if (isNumeric(r[nk])) { val = toNum(r[nk]); break; } }
+        }
+        labelMap.set(label, (labelMap.get(label) || 0) + val);
+
+        const sector = (sectorKey ? (r[sectorKey] ?? 'Unknown') : 'Unknown') + '';
+        sectorMap.set(sector, (sectorMap.get(sector) || 0) + val);
+      });
+
+      // Top holdings
+      const topHoldings = Array.from(labelMap.entries()).sort((a,b)=>b[1]-a[1]).slice(0,8);
+
+      // Render stat grid
+      statGrid.innerHTML = '';
+      const createStat = (label, value) => {
+        const div = document.createElement('div');
+        div.className = 'stat';
+        div.innerHTML = `<div class="label">${label}</div><div class="value">${value}</div>`;
+        return div;
+      };
+      statGrid.appendChild(createStat('Total Rows', totalRows));
+      // Show up to 3 of the largest numeric sums (e.g. market_value)
+      const numericSumsSorted = Object.entries(sums).sort((a,b)=>Math.abs(b[1]) - Math.abs(a[1]));
+      for (let i=0;i<3;i++){
+        if (numericSumsSorted[i]) {
+          const [k,v] = numericSumsSorted[i];
+          statGrid.appendChild(createStat(k.replace(/[_-]/g,' ').toUpperCase(), formatNumber(v)));
+        }
+      }
+
+      // Chart: top holdings bar chart
+      const topLabels = topHoldings.map(t=>t[0]);
+      const topValues = topHoldings.map(t=>t[1]);
+
+      // Destroy previous if exist
+      if (topChart) topChart.destroy();
+      if (sectorChart) sectorChart.destroy();
+
+      const ctxTop = document.getElementById('topChart').getContext('2d');
+      topChart = new Chart(ctxTop, {
+        type: 'bar',
+        data: {
+          labels: topLabels,
+          datasets: [{
+            label: 'Value',
+            data: topValues,
+            tension: 0.3,
+            borderRadius: 6,
+            barThickness: 24
+          }]
+        },
+        options: {
+          plugins: {
+            legend: { display:false },
+            tooltip: { callbacks: { label: (ctx)=> formatNumber(ctx.parsed.y) } }
+          },
+          scales: {
+            x: { ticks: { maxRotation:45, minRotation:0 }},
+            y: { ticks: { callback: v => formatNumber(v) } }
+          },
+          maintainAspectRatio:false
+        }
+      });
+
+      // Sector allocation pie/doughnut
+      const sectors = Array.from(sectorMap.entries()).sort((a,b)=>b[1]-a[1]);
+      const sectorLabels = sectors.map(s=>s[0]);
+      const sectorValues = sectors.map(s=>s[1]);
+      const ctxSec = document.getElementById('sectorChart').getContext('2d');
+      sectorChart = new Chart(ctxSec, {
+        type:'doughnut',
+        data:{
+          labels: sectorLabels,
+          datasets:[{
+            data: sectorValues,
+            cutout: '50%',
+          }]
+        },
+        options:{
+          plugins:{
+            legend:{ position:'right', labels:{ boxWidth:12, boxHeight:8 } },
+            tooltip:{ callbacks:{ label: ctx => `${ctx.label}: ${formatNumber(ctx.parsed)}` } }
+          },
+          maintainAspectRatio:false
+        }
+      });
+    }
+
+    // Render everything
+    function render(){
+      renderHeader();
+      applyFilters();
+      renderTable();
+      buildSummaryAndCharts();
+    }
+
+    // Event handlers
+    searchInput.addEventListener('input', ()=> { page = 1; render(); });
+    pageSizeSelect.addEventListener('change', ()=> { pageSize = parseInt(pageSizeSelect.value,10); page=1; renderTable(); });
+    exportCsvBtn.addEventListener('click', ()=> {
+      // Export visible filtered rows (current page) to CSV
+      const total = filtered.length; const start = (page-1)*pageSize; const end = Math.min(total, start+pageSize);
+      const slice = filtered.slice(start, end);
+      if (!slice.length) { alert('No rows to export'); return; }
+      const csvRows = [];
+      csvRows.push(columns.map(c => `"${c.replace(/"/g,'""')}"`).join(','));
+      slice.forEach(r=>{
+        const row = columns.map(c => `"${String(r[c] ?? '').replace(/"/g,'""')}"`).join(',');
+        csvRows.push(row);
+      });
+      const csv = csvRows.join('\n');
+      const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'meroshare_export.csv';
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+    });
+
+    // Initial load
+    load();
+
+    // Expose for debug (optional)
+    window._meroshare = {
+      reload: load,
+      getRaw: ()=>rawData
+    };
+
+  })();
   </script>
 </body>
 </html>
