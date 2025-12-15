@@ -37,6 +37,15 @@
             "lastClosingDate": "",
             "listingDate": "",
             "issueManager": "Nabil Investment Banking Limited"
+        },		
+        {
+            "company": "Ridge Line Energy Nepal",
+            "units": "5,804,201.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Prabhu Capital Limited"
         },
 		{
             "company": "Sagar Distillery Limited",
@@ -646,15 +655,6 @@
         },
         
         {
-            "company": "Ridge Line Energy Nepal",
-            "units": "5,804,201.00",
-            "price": "100.00",
-            "openingDate": " ",
-            "closingDate": " ",
-            "lastClosingDate": " ",
-            "issueManager": "Prabhu Capital Limited"
-        },
-        {
             "company": "Laughing Buddha Power Nepal Limited",
             "units": "6,577,000.00",
             "price": "100.00",
@@ -1091,6 +1091,26 @@
             "listingDate": "",
             "issueManager": "Nepal Life Capital Limited"
         },
+		{
+            "company": "Maulakali Cable Car Limited",
+            "units": "1,879,130.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "NIC Asia Capital Limited"
+        },
+		{
+            "company": "Nivix Pharmaceuticals Limited",
+            "units": "1,375,000.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Nepal SBI Merchant Banking Limited"
+        },
         {
             "company": "",
             "units": "",
@@ -1416,17 +1436,7 @@
             "lastClosingDate": " ",
             "issueManager": "Himalayan Capital Limited"
         },
-        {
-            "symbol": "BLHL",
-            "company": "Bungal Hydro Limited",
-            "units": "207,500.00",
-            "price": "100.00",
-            "openingDate": "2025-07-13",
-            "closingDate": "2025-07-27",
-            "lastClosingDate": "2025-07-27",
-            "listingDate": "",
-            "issueManager": "Himalayan Capital Limited"
-        },
+        
         {
             "company": "Suryakunda Hydro Electric Limited",
             "units": "137,935.00",
@@ -1435,8 +1445,16 @@
             "closingDate": " ",
             "lastClosingDate": " ",
             "issueManager": "Kumari Capital Limited"
+        },        
+        {
+            "company": "Ridge Line Energy Nepal",
+            "units": "5,804,201.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Prabhu Capital Limited"
         },
-        
         {
             
             "company": "Reliance Spinning Mills",
