@@ -3,7 +3,7 @@
         "SN": "1",
         "Name": "Nabil Bank Limited",
         "Symbol": "NABIL",
-        "Status": "Active",
+        
         "Sector": "Commercial Banks",
         "Instrument": "Equity",
         "Units": "43",
@@ -14,7 +14,7 @@
         "SN": "2",
         "Name": "Nepal Investment Mega Bank Limited",
         "Symbol": "NIMB",
-        "Status": "Active",
+       
         "Sector": "Commercial Banks",
         "Instrument": "Equity",
         "Email": "NIBL.Nepse@nibl.com.np",
@@ -26,7 +26,7 @@
         "SN": "3",
         "Name": "Butwal Power Company Limited",
         "Symbol": "BPCL",
-        "Status": "Active",
+        
         "Sector": "Hydro Power",
         "Instrument": "Equity",
         "Email": "hari.budhathoki@bpc.com.np",
@@ -39,7 +39,7 @@
         "SN": "4",
         "Name": "Citizens Bank International Limited",
         "Symbol": "CZBIL",
-        "Status": "Active",
+        
         "Sector": "Commercial Banks",
         "Instrument": "Equity",
         "Email": "rajendra.shrestha@ctznbank.com",
@@ -52,7 +52,7 @@
         "SN": "5",
         "Name": "Ghorahi Cement Industry Limited",
         "Symbol": "GCIL",
-        "Status": "Active",
+        
         "Sector": "Manufacturing And Processing",
         "Instrument": "Equity",
         "Email": "enquiry@ghorahicement.com",
@@ -65,7 +65,7 @@
         "SN": "6",
         "Name": "Global IME Bank Limited",
         "Symbol": "GBIME",
-        "Status": "Active",
+        
         "Sector": "Commercial Banks",
         "Instrument": "Equity",
         "Email": "nlisting@gibl.com.np",
@@ -78,7 +78,7 @@
         "SN": "7",
         "Name": "Ganapati Laghubitta Bittiya Sanstha Limited",
         "Symbol": "GMFBS",
-        "Status": "Active",
+        
         "Sector": "Microfinance",
         "Instrument": "Equity",
         "Email": "ganapati.micro@gmail.com",
