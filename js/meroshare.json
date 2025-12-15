@@ -17,7 +17,7 @@
        
         "Sector": "Commercial Banks",
         "Instrument": "Equity",
-        "Email": "NIBL.Nepse@nibl.com.np",
+        
         "Units": "113",
          "WACC": "148.56",
         "Value": "16687"
@@ -29,8 +29,7 @@
         
         "Sector": "Hydro Power",
         "Instrument": "Equity",
-        "Email": "hari.budhathoki@bpc.com.np",
-        "Website": "http://www.bpc.com.np",
+        
         "Units": "15",
         "WACC": "367.33",
         "Value": "5010"
@@ -42,8 +41,7 @@
         
         "Sector": "Commercial Banks",
         "Instrument": "Equity",
-        "Email": "rajendra.shrestha@ctznbank.com",
-        "Website": "www.ctznbank.com",
+        
         "Units": "13",
          "WACC": "176.92",
         "Value": "200"
@@ -55,8 +53,7 @@
         
         "Sector": "Manufacturing And Processing",
         "Instrument": "Equity",
-        "Email": "enquiry@ghorahicement.com",
-        "Website": "www.ghorahicement.com.np",
+       
          "Units": "3",
          "WACC": "100",
         "Value": "300"
@@ -68,8 +65,7 @@
         
         "Sector": "Commercial Banks",
         "Instrument": "Equity",
-        "Email": "nlisting@gibl.com.np",
-        "Website": "http://www.globalimebank.com",
+        
          "Units": "550",
          "WACC": "329.04",
         "Value": "125950"
@@ -81,8 +77,7 @@
         
         "Sector": "Microfinance",
         "Instrument": "Equity",
-        "Email": "ganapati.micro@gmail.com",
-        "Website": "www.ganapatimicro.com.np",
+        
          "Units": "14",
          "WACC": "100",
         "Value": "1400"
@@ -94,8 +89,7 @@
         "Status": "Active",
         "Sector": "Hydro Power",
         "Instrument": "Equity",
-        "Email": "frontdesk@trivenihydro.com",
-        "Website": "www.greenventuresnepal.com",
+        
          "Units": "11",
          "WACC": "100",
         "Value": ""
@@ -104,11 +98,10 @@
         "SN": "9",
         "Name": "Himalayan Bank Limited",
         "Symbol": "HBL",
-        "Status": "Active",
+       
         "Sector": "Commercial Banks",
         "Instrument": "Equity",
-        "Email": "legal@himalayanbank.com",
-        "Website": "https://www.himalayanbank.com",
+        
          "Units": "104",
          "WACC": "",
         "Value": ""
@@ -117,11 +110,10 @@
         "SN": "10",
         "Name": "Himalayan Reinsurance Limited",
         "Symbol": "HRL",
-        "Status": "Active",
+        
         "Sector": "Others",
         "Instrument": "Equity",
-        "Email": "contactus@himalayanre.com",
-        "Website": "www.himalayanre.com",
+        
          "Units": "43",
          "WACC": "",
         "Value": ""
@@ -130,11 +122,10 @@
         "SN": "11",
         "Name": "IME Life Insurance Company Limited",
         "Symbol": "ILI",
-        "Status": "Active",
+        "
         "Sector": "Life Insurance",
         "Instrument": "Equity",
-        "Email": "info@imelifeinsurance.com",
-        "Website": "www.imelifeinsurance.com",
+        
          "Units": "12",
          "WACC": "",
         "Value": ""
@@ -143,11 +134,10 @@
         "SN": "12",
         "Name": "Kumari Bank Limited",
         "Symbol": "KBL",
-        "Status": "Active",
+        
         "Sector": "Commercial Banks",
         "Instrument": "Equity",
-        "Email": "info@kumaribank.com",
-        "Website": "http://www.kumaribank.com",
+       
          "Units": "1124",
          "WACC": "",
         "Value": ""
