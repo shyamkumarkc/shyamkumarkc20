@@ -1,6 +1,15 @@
 {
     "ipo": [
 		{
+            "company": "Suryakunda Hydro Electric Limited",
+            "units": "1,379,350.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Kumari Capital Limited"
+        },
+		{
             "company": "SY Panel Nepal Limited",
             "units": "4,076,156.00",
             "price": "100.00",
@@ -62,22 +71,13 @@
             "company": "Reliance Spinning Mills",
             "units": "1,155,960.00",
             "price": "820.80",
-            "openingDate": "",
-            "closingDate": "",
-            "lastClosingDate": "",
+            "openingDate": "2025-12-22",
+            "closingDate": "2025-12-26",
+            "lastClosingDate": "2026-01-05",
             "listingDate": "",
             "issueManager": "Global IME Capital Limited"
         },
-        {
-            "company": "Bandipur Cable Car and Tourism Limited",
-            "units": "4,341,080.00",
-            "price": "100.00",
-            "openingDate": "2025-08-27",
-            "closingDate": "2025-08-31",
-            "lastClosingDate": "",
-            "listingDate": "",
-            "issueManager": "Nepal SBI Merchant Banking Limited"
-        },
+        
         {
             "company": "Solu Hydropower Limited",
             "units": "20,000,000.00",
@@ -407,15 +407,7 @@
             "lastClosingDate": " ",
             "issueManager": "Laxmi Sunrise Capital Market Limited"
         },
-        {
-            "company": "Suryakunda Hydro Electric Limited",
-            "units": "1,379,350.00",
-            "price": "100.00",
-            "openingDate": " ",
-            "closingDate": " ",
-            "lastClosingDate": " ",
-            "issueManager": "Kumari Capital Limited"
-        },
+        
         {
             "company": "Snow Rivers Limited",
             "units": "1,625,000.00",
@@ -1079,6 +1071,26 @@
             "listingDate": "",
             "issueManager": "Muktinath Capital Limited"
         },
+		{
+            "company": "Hotel Sabrina Limited",
+            "units": "4,704,000.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "NIC Asia Capital Limited"
+        },
+		{
+            "company": "Bhagwati Composite Industries Limited",
+            "units": "6,44,000.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Nepal Life Capital Limited"
+        },
         {
             "company": "",
             "units": "",
@@ -1322,39 +1334,7 @@
             "issueManager": "NIC Asia Capital Limited"
         }
     ],
-	"fpo": [
-        {
-           
-            "company": "Himalayan Bank Limited",
-            "units": "9,250,469.00",
-            "price": "157.00",
-            "openingDate": "2025-07-16",
-            "closingDate": "2025-07-20",
-            "lastClosingDate": "2025-07-30",
-            "listingDate": "",
-            "issueManager": "Citizens Capital Limited"
-        },
-		{
-            "company": "Vijaya Laghubitta Bittiya Sanstha Limited",
-            "units": "466,817.00",
-            "price": "100.00",
-            "openingDate": "",
-            "closingDate": "",
-            "lastClosingDate": "",
-            "listingDate": "",
-            "issueManager": "NMB Capital Limited"
-        },
-        {
-            "company": "Matribhumi Laghubitta Bittiya Sanstha Limited",
-            "units": "1,149,982.598",
-            "price": "100.00",
-            "openingDate": "",
-            "closingDate": "",
-            "lastClosingDate": "",
-            "listingDate": "",
-            "issueManager": "Muktinath Capital Limited"
-        }
-    ],
+	
     "pshare": [
         {
             "company": "Nabil 8% Perpetual Non-cumulative Preference Share",
@@ -1379,7 +1359,7 @@
 		
     ],
     "migrant": [
-	{
+		{
             "company": "Solu Hydropower Limited",
             "units": "10,000,000.00",
             "price": "100.00",
@@ -1448,15 +1428,13 @@
             "issueManager": "Himalayan Capital Limited"
         },
         {
-            "symbol": "",
-            "company": "Swastik Laghubitta Bittiya Sanstha Limited",
-            "units": "23,100.00",
+            "company": "Suryakunda Hydro Electric Limited",
+            "units": "137,935.00",
             "price": "100.00",
-            "openingDate": "2025-07-11",
-            "closingDate": "2025-07-25",
-            "lastClosingDate": "2025-07-25",
-            "listingDate": "",
-            "issueManager": "Nabil Investment Banking Limited"
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Kumari Capital Limited"
         },
         
         {
@@ -1471,15 +1449,14 @@
             "issueManager": "Global IME Capital Limited"
         },
         {
-            
-            "company": "Bandipur Cable Car and Tourism Limited",
-            "units": "529,400.00",
+            "company": "Bhujung Hydropower Limited",
+            "units": "100,000.00",
             "price": "100.00",
-            "openingDate": "2025-07-22",
-            "closingDate": "2025-07-25",
-            "lastClosingDate": "2025-07-25",
+            "openingDate": "2025-12-18",
+            "closingDate": "2025-12-22",
+            "lastClosingDate": "",
             "listingDate": "",
-            "issueManager": "Nepal SBI Merchant Banking Limited"
+            "issueManager": "Kumari Capital Limited"
         }
     ],
     "debenture": [
