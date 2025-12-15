@@ -145,11 +145,10 @@
         "SN": "13",
         "Name": "Modi Energy Limited",
         "Symbol": "MEL",
-        "Status": "Active",
+        
         "Sector": "Hydro Power",
         "Instrument": "Equity",
-        "Email": "info@modihydro.com",
-        "Website": "www.modihydro.com",
+        
          "Units": "10",
          "WACC": "",
         "Value": ""
@@ -157,11 +156,10 @@
         "SN": "14",
         "Name": "NIC ASIA Laghubitta Bittiya Sanstha Limited",
         "Symbol": "NICLBSL",
-        "Status": "Active",
+        
         "Sector": "Microfinance",
         "Instrument": "Equity",
-        "Email": "compliance@nicasialaghubitta.com",
-        "Website": "www.nicasialaghubitta.com",
+       
          "Units": "10",
          "WACC": "",
         "Value": ""
@@ -169,11 +167,10 @@
         "SN": "15",
         "Name": "Nepal Infrastructure Bank Limited",
         "Symbol": "NIFRA",
-        "Status": "Active",
+       
         "Sector": "Investment",
         "Instrument": "Equity",
-        "Email": "iswor.gautam@nifrabank.com",
-        "Website": "https://www.nifrabank.com",
+        
          "Units": "54",
          "WACC": "",
         "Value": ""
@@ -182,10 +179,10 @@
         "SN": "16",
         "Name": "Nepal Life Insurance Co. Limited.",
         "Symbol": "NLIC",
-        "Status": "Active",
+        
         "Sector": "Life Insurance",
         "Instrument": "Equity",
-        "Email": "cs@nepallife.com.np",
+        
          "Units": "88",
          "WACC": "",
         "Value": ""
@@ -194,11 +191,10 @@
         "SN": "17",
         "Name": "NMB Bank Limited",
         "Symbol": "NMB",
-        "Status": "Active",
+       
         "Sector": "Commercial Banks",
         "Instrument": "Equity",
-        "Email": "pramod.dahal@nmb.com.np",
-        "Website": "http://www.nmb.com.np",
+        
          "Units": "38",
          "WACC": "",
         "Value": ""
@@ -206,11 +202,10 @@
         "SN": "18",
         "Name": "Nepal Reinsurance Company Limited",
         "Symbol": "NRIC",
-        "Status": "Active",
+       
         "Sector": "Others",
         "Instrument": "Equity",
-        "Email": "nepalre@ntc.net.np",
-        "Website": "www.nepalre.com.np",
+        
          "Units": "53",
          "WACC": "",
         "Value": ""
@@ -218,11 +213,10 @@
         "SN": "19",
         "Name": "Nepal Warehousing Company Limited",
         "Symbol": "NWCL",
-        "Status": "Active",
+        
         "Sector": "Others",
         "Instrument": "Equity",
-        "Email": "info@nwcl.com.np",
-        "Website": "www.nwcl.com.np",
+        
          "Units": "10",
          "WACC": "",
         "Value": ""
@@ -230,11 +224,10 @@
         "SN": "20",
         "Name": "Prabhu Insurance Limited.",
         "Symbol": "PRIN",
-        "Status": "Active",
+      
         "Sector": "Non Life Insurance",
         "Instrument": "Equity",
-        "Email": "info@prabhuinsurance.com",
-        "Website": "http://www.prabhuinsurance.com",
+       
          "Units": "98",
          "WACC": "",
         "Value": ""
@@ -243,10 +236,10 @@
         "SN": "21",
         "Name": "Prabhu Bank Limited",
         "Symbol": "PRVU",
-        "Status": "Active",
+       
         "Sector": "Commercial Banks",
         "Instrument": "Equity",
-        "Email": "amit.bhandari@prabhubank.com",
+        
          "Units": "701",
          "WACC": "",
         "Value": ""
@@ -255,10 +248,10 @@
         "SN": "22",
         "Name": "Radhi Bidyut Company Limited",
         "Symbol": "RADHI",
-        "Status": "Active",
+        
         "Sector": "Hydro Power",
         "Instrument": "Equity",
-        "Email": "info@radhibidyut.com.np",
+        
          "Units": "47",
          "WACC": "",
         "Value": ""
@@ -267,11 +260,10 @@
         "SN": "23",
         "Name": "Rasuwagadhi Hydropower Company Limited",
         "Symbol": "RHPL",
-        "Status": "Active",
+       
         "Sector": "Hydro Power",
         "Instrument": "Equity",
-        "Email": "neupane.nar@gmail.com",
-        "Website": "www.rghpcl.com.np",
+       
          "Units": "40",
          "WACC": "",
         "Value": ""
@@ -280,11 +272,10 @@
         "SN": "24",
         "Name": "Sanjen Jalavidhyut Company Limited",
         "Symbol": "SJCL",
-        "Status": "Active",
+        
         "Sector": "Hydro Power",
         "Instrument": "Equity",
-        "Email": "sanjenhcl@gmail.com",
-        "Website": "www.sjcl.com.np",
+        
          "Units": "10",
          "WACC": "",
         "Value": ""
@@ -293,11 +284,10 @@
         "SN": "25",
         "Name": "Sanima Reliance Life Insurance Limited",
         "Symbol": "SRLI",
-        "Status": "Active",
+        
         "Sector": "Life Insurance",
         "Instrument": "Equity",
-        "Email": "sanima@sanimalife.com",
-        "Website": "www.sanimalife.com",
+        
          "Units": "11",
          "WACC": "",
         "Value": ""
@@ -306,11 +296,10 @@
         "SN": "26",
         "Name": "Sanima Bank Limited",
         "Symbol": "SANIMA",
-        "Status": "Active",
+        
         "Sector": "Commercial Banks",
         "Instrument": "Equity",
-        "Email": "RUDRA@sanimabank.com",
-        "Website": "www.sanimabank.com",
+        
          "Units": "30",
          "WACC": "",
         "Value": ""
@@ -319,11 +308,10 @@
         "SN": "27",
         "Name": "Sanima GIC Insurance Limited",
         "Symbol": "SGIC",
-        "Status": "Active",
+      
         "Sector": "Non Life Insurance",
         "Instrument": "Equity",
-        "Email": "sanima@sanimageneral.com",
-        "Website": "www.sanimageneral.com",
+        
          "Units": "10",
          "WACC": "",
         "Value": ""
