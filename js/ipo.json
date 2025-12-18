@@ -1283,6 +1283,16 @@
             "listingDate": "",
             "issueManager": "Citizens Capital Limited"
         },
+			{
+            "company": "Citizens Santulit Yojana",
+            "units": "100,000,000.00",
+            "price": "10.00",
+            "openingDate": "2025-12-19",
+            "closingDate": "2025-12-23",
+            "lastClosingDate": "2026-01-02",
+            "listingDate": "",
+            "issueManager": "Citizens Capital Limited"
+        },
 		{
             "company": "RBB Focus 40",
             "units": "100,000,000.00",
