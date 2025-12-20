@@ -3,7 +3,6 @@
         "SN": "1",
         "Name": "Nabil Bank Limited",
         "Symbol": "NABIL",
-        
         "Sector": "Commercial Banks",
         "Instrument": "Equity",
         "Units": "43",
@@ -14,22 +13,18 @@
         "SN": "2",
         "Name": "Nepal Investment Mega Bank Limited",
         "Symbol": "NIMB",
-       
         "Sector": "Commercial Banks",
         "Instrument": "Equity",
-        
         "Units": "113",
-         "WACC": "148.56",
+        "WACC": "148.56",
         "Value": "16687"
     },
     {
         "SN": "3",
         "Name": "Butwal Power Company Limited",
         "Symbol": "BPCL",
-        
         "Sector": "Hydro Power",
         "Instrument": "Equity",
-        
         "Units": "15",
         "WACC": "367.33",
         "Value": "5010"
@@ -38,48 +33,40 @@
         "SN": "4",
         "Name": "Citizens Bank International Limited",
         "Symbol": "CZBIL",
-        
         "Sector": "Commercial Banks",
         "Instrument": "Equity",
-        
         "Units": "13",
-         "WACC": "176.92",
+        "WACC": "176.92",
         "Value": "200"
     },
     {
         "SN": "5",
         "Name": "Ghorahi Cement Industry Limited",
         "Symbol": "GCIL",
-        
         "Sector": "Manufacturing And Processing",
         "Instrument": "Equity",
-       
-         "Units": "3",
-         "WACC": "100",
+        "Units": "3",
+        "WACC": "100",
         "Value": "300"
     },
     {
         "SN": "6",
         "Name": "Global IME Bank Limited",
         "Symbol": "GBIME",
-        
         "Sector": "Commercial Banks",
         "Instrument": "Equity",
-        
-         "Units": "550",
-         "WACC": "329.04",
+        "Units": "550",
+        "WACC": "329.04",
         "Value": "125950"
     },
     {
         "SN": "7",
         "Name": "Ganapati Laghubitta Bittiya Sanstha Limited",
         "Symbol": "GMFBS",
-        
         "Sector": "Microfinance",
         "Instrument": "Equity",
-        
-         "Units": "14",
-         "WACC": "100",
+        "Units": "14",
+        "WACC": "100",
         "Value": "1400"
     },
     {
@@ -89,363 +76,308 @@
         "Status": "Active",
         "Sector": "Hydro Power",
         "Instrument": "Equity",
-        
-         "Units": "11",
-         "WACC": "100",
+        "Units": "11",
+        "WACC": "100",
         "Value": ""
     },
     {
         "SN": "9",
         "Name": "Himalayan Bank Limited",
         "Symbol": "HBL",
-       
         "Sector": "Commercial Banks",
         "Instrument": "Equity",
-        
-         "Units": "104",
-         "WACC": "",
+        "Units": "104",
+        "WACC": "",
         "Value": ""
     },
     {
         "SN": "10",
         "Name": "Himalayan Reinsurance Limited",
         "Symbol": "HRL",
-        
         "Sector": "Others",
         "Instrument": "Equity",
-        
-         "Units": "43",
-         "WACC": "",
+        "Units": "43",
+        "WACC": "",
         "Value": ""
     },
     {
         "SN": "11",
         "Name": "IME Life Insurance Company Limited",
         "Symbol": "ILI",
-     
         "Sector": "Life Insurance",
         "Instrument": "Equity",
-        
-         "Units": "12",
-         "WACC": "",
+        "Units": "12",
+        "WACC": "",
         "Value": ""
     },
     {
         "SN": "12",
         "Name": "Kumari Bank Limited",
         "Symbol": "KBL",
-        
         "Sector": "Commercial Banks",
         "Instrument": "Equity",
-       
-         "Units": "1124",
-         "WACC": "",
+        "Units": "1124",
+        "WACC": "",
         "Value": ""
-    }, {
+    },
+    {
         "SN": "13",
         "Name": "Modi Energy Limited",
         "Symbol": "MEL",
-        
         "Sector": "Hydro Power",
         "Instrument": "Equity",
-        
-         "Units": "10",
-         "WACC": "",
+        "Units": "10",
+        "WACC": "",
         "Value": ""
-    },{
+    },
+    {
         "SN": "14",
         "Name": "NIC ASIA Laghubitta Bittiya Sanstha Limited",
         "Symbol": "NICLBSL",
-        
         "Sector": "Microfinance",
         "Instrument": "Equity",
-       
-         "Units": "10",
-         "WACC": "",
+        "Units": "10",
+        "WACC": "",
         "Value": ""
-    },{
+    },
+    {
         "SN": "15",
         "Name": "Nepal Infrastructure Bank Limited",
         "Symbol": "NIFRA",
-       
         "Sector": "Investment",
         "Instrument": "Equity",
-        
-         "Units": "54",
-         "WACC": "",
+        "Units": "54",
+        "WACC": "",
         "Value": ""
     },
     {
         "SN": "16",
         "Name": "Nepal Life Insurance Co. Limited.",
         "Symbol": "NLIC",
-        
         "Sector": "Life Insurance",
         "Instrument": "Equity",
-        
-         "Units": "88",
-         "WACC": "",
+        "Units": "88",
+        "WACC": "",
         "Value": ""
     },
     {
         "SN": "17",
         "Name": "NMB Bank Limited",
         "Symbol": "NMB",
-       
         "Sector": "Commercial Banks",
         "Instrument": "Equity",
-        
-         "Units": "38",
-         "WACC": "",
+        "Units": "38",
+        "WACC": "",
         "Value": ""
-    },{
+    },
+    {
         "SN": "18",
         "Name": "Nepal Reinsurance Company Limited",
         "Symbol": "NRIC",
-       
         "Sector": "Others",
         "Instrument": "Equity",
-        
-         "Units": "53",
-         "WACC": "",
+        "Units": "53",
+        "WACC": "",
         "Value": ""
-    },{
+    },
+    {
         "SN": "19",
         "Name": "Nepal Warehousing Company Limited",
         "Symbol": "NWCL",
-        
         "Sector": "Others",
         "Instrument": "Equity",
-        
-         "Units": "10",
-         "WACC": "",
+        "Units": "10",
+        "WACC": "",
         "Value": ""
-    },{
+    },
+    {
         "SN": "20",
         "Name": "Prabhu Insurance Limited.",
         "Symbol": "PRIN",
-      
         "Sector": "Non Life Insurance",
         "Instrument": "Equity",
-       
-         "Units": "98",
-         "WACC": "",
+        "Units": "98",
+        "WACC": "",
         "Value": ""
     },
     {
         "SN": "21",
         "Name": "Prabhu Bank Limited",
         "Symbol": "PRVU",
-       
         "Sector": "Commercial Banks",
         "Instrument": "Equity",
-        
-         "Units": "701",
-         "WACC": "",
+        "Units": "701",
+        "WACC": "",
         "Value": ""
     },
     {
         "SN": "22",
         "Name": "Radhi Bidyut Company Limited",
         "Symbol": "RADHI",
-        
         "Sector": "Hydro Power",
         "Instrument": "Equity",
-        
-         "Units": "47",
-         "WACC": "",
+        "Units": "47",
+        "WACC": "",
         "Value": ""
     },
     {
         "SN": "23",
         "Name": "Rasuwagadhi Hydropower Company Limited",
         "Symbol": "RHPL",
-       
         "Sector": "Hydro Power",
         "Instrument": "Equity",
-       
-         "Units": "40",
-         "WACC": "",
+        "Units": "40",
+        "WACC": "",
         "Value": ""
     },
     {
         "SN": "24",
         "Name": "Sanjen Jalavidhyut Company Limited",
         "Symbol": "SJCL",
-        
         "Sector": "Hydro Power",
         "Instrument": "Equity",
-        
-         "Units": "10",
-         "WACC": "",
+        "Units": "10",
+        "WACC": "",
         "Value": ""
     },
     {
         "SN": "25",
         "Name": "Sanima Reliance Life Insurance Limited",
         "Symbol": "SRLI",
-        
         "Sector": "Life Insurance",
         "Instrument": "Equity",
-        
-         "Units": "11",
-         "WACC": "",
+        "Units": "11",
+        "WACC": "",
         "Value": ""
     },
     {
         "SN": "26",
         "Name": "Sanima Bank Limited",
         "Symbol": "SANIMA",
-        
         "Sector": "Commercial Banks",
         "Instrument": "Equity",
-        
-         "Units": "30",
-         "WACC": "",
+        "Units": "30",
+        "WACC": "",
         "Value": ""
     },
     {
         "SN": "27",
         "Name": "Sanima GIC Insurance Limited",
         "Symbol": "SGIC",
-      
         "Sector": "Non Life Insurance",
         "Instrument": "Equity",
-        
-         "Units": "10",
-         "WACC": "",
+        "Units": "10",
+        "WACC": "",
         "Value": ""
     },
     {
         "SN": "28",
         "Name": "Trishuli Jal Vidhyut Company Limited",
         "Symbol": "TVCL",
-       
         "Sector": "Hydro Power",
         "Instrument": "Equity",
-        
-         "Units": "20",
-         "WACC": "",
+        "Units": "20",
+        "WACC": "",
         "Value": ""
     },
     {
         "SN": "29",
         "Name": "Upper Hewakhola Hydropower Company Limited",
         "Symbol": "UHEWA",
-       
         "Sector": "Hydro Power",
         "Instrument": "Equity",
-        
-         "Units": "10",
-         "WACC": "",
+        "Units": "10",
+        "WACC": "",
         "Value": ""
     },
     {
         "SN": "30",
         "Name": "Unnati Sahakarya Laghubitta Bittiya Sanstha Limited",
         "Symbol": "USLB",
-        
         "Sector": "Microfinance",
         "Instrument": "Equity",
-        
-         "Units": "10",
-         "WACC": "",
+        "Units": "10",
+        "WACC": "",
         "Value": ""
     },
     {
         "SN": "31",
         "Name": "Vision Lumbini Urja Company Limited",
         "Symbol": "VLUCL",
-        
         "Sector": "Hydro Power",
         "Instrument": "Equity",
-        
-         "Units": "10",
-         "WACC": "",
+        "Units": "10",
+        "WACC": "",
         "Value": ""
     },
     {
         "SN": "32",
         "Name": "Upper Tamakoshi Hydropower Limited",
         "Symbol": "UPPER",
-       
         "Sector": "Hydro Power",
         "Instrument": "Equity",
-       
-         "Units": "80",
-         "WACC": "",
+        "Units": "80",
+        "WACC": "",
         "Value": ""
     },
     {
         "SN": "33",
         "Name": "Himalayan Life Insurance Limited",
         "Symbol": "HLI",
-        
         "Sector": "Life Insurance",
         "Instrument": "Equity",
-       
-         "Units": "57",
-         "WACC": "",
+        "Units": "57",
+        "WACC": "",
         "Value": ""
     },
     {
         "SN": "34",
         "Name": "Citizen Life Insurance Limited",
         "Symbol": "CLI",
-        
         "Sector": "Life Insurance",
         "Instrument": "Equity",
-       
-         "Units": "43",
-         "WACC": "",
+        "Units": "43",
+        "WACC": "",
         "Value": ""
     },
     {
         "SN": "35",
         "Name": "Bandipur Cable Car and Tourism Limited",
         "Symbol": "BCTL",
-       
         "Sector": "Hotels And Tourism",
         "Instrument": "Equity",
-        
-         "Units": "10",
-         "WACC": "100",
+        "Units": "10",
+        "WACC": "100",
         "Value": ""
     },
     {
         "SN": "36",
         "Name": "Prabhu Select Fund",
         "Symbol": "PSF",
-        
         "Sector": "Mutual Fund",
         "Instrument": "Equity",
-        
-         "Units": "20",
-         "WACC": "100",
+        "Units": "20",
+        "WACC": "100",
         "Value": ""
     },
     {
         "SN": "37",
         "Name": "Siddhartha Systematic Investment Scheme",
         "Symbol": "SSIS",
-        
         "Sector": "Mutual Fund",
         "Instrument": "Equity",
-       
-         "Units": "86.6",
-         "WACC": "100",
+        "Units": "86.6",
+        "WACC": "100",
         "Value": ""
     },
     {
         "SN": "38",
         "Name": "NIBL Sahabhagita Fund",
         "Symbol": "NIBLSF",
-       
         "Sector": "Mutual Fund",
         "Instrument": "Equity",
-       
-         "Units": "191.1",
-         "WACC": "100",
+        "Units": "191.1",
+        "WACC": "100",
         "Value": ""
     },
     {
@@ -457,8 +389,8 @@
         "Instrument": "Equity",
         "Email": "",
         "Website": "",
-         "Units": "11.8",
-         "WACC": "100",
+        "Units": "11.8",
+        "WACC": "100",
         "Value": ""
     },
     {
@@ -470,57 +402,48 @@
         "Instrument": "Equity",
         "Email": "",
         "Website": "",
-         "Units": "20",
-         "WACC": "100",
+        "Units": "20",
+        "WACC": "100",
         "Value": ""
     },
     {
         "SN": "41",
         "Name": "HLI Large Cap Fund",
         "Symbol": "HLCF",
-        
         "Sector": "Mutual Fund",
         "Instrument": "Equity",
-        
-         "Units": "10",
-         "WACC": "100",
+        "Units": "10",
+        "WACC": "100",
         "Value": ""
     },
     {
         "SN": "42",
         "Name": "RBB Focus 40",
         "Symbol": "RBBF40",
-       
         "Sector": "Mutual Fund",
         "Instrument": "Equity",
-        
-         "Units": "10",
-         "WACC": "100",
+        "Units": "10",
+        "WACC": "100",
         "Value": ""
     },
     {
         "SN": "43",
         "Name": "Shreenagar Agritech Industries Limited",
         "Symbol": "SAIL",
-       
         "Sector": "Manufacturing And Processing",
         "Instrument": "Equity",
-        
-         "Units": "10",
-         "WACC": "100",
+        "Units": "10",
+        "WACC": "100",
         "Value": ""
     },
     {
         "SN": "44",
         "Name": "Machhapuchchhre SIP Yojana",
         "Symbol": "MSIPY",
-        
         "Sector": "Mutual Fund",
         "Instrument": "Equity",
-       
-         "Units": "10",
-         "WACC": "100",
+        "Units": "10",
+        "WACC": "100",
         "Value": ""
     }
-
 ]
