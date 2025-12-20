@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>My Portfolio</title>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+<style>
+:root{
+  --bg:#f2f4f8;
+  --card:#ffffff;
+  --primary:#2563eb;
+  --muted:#6b7280;
+  --radius:18px;
+  --shadow:0 12px 28px rgba(0,0,0,.08);
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:system-ui,-apple-system,Segoe UI,Roboto;
+  background:var(--bg);
+  color:#0f172a;
+}
+
+.app{
+  max-width:420px;
+  margin:auto;
+  padding:14px;
+}
+
+/* Header */
+.header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:16px;
+}
+.header h1{
+  font-size:22px;
+  margin:0;
+}
+
+/* Cards */
+.card{
+  background:var(--card);
+  border-radius:var(--radius);
+  box-shadow:var(--shadow);
+  padding:14px;
+  margin-bottom:14px;
+}
+
+/* Stats */
+.stats{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:12px;
+}
+.stat{
+  padding:14px;
+  border-radius:14px;
+  background:linear-gradient(180deg,#fff,#f9fbff);
+}
+.stat label{
+  font-size:12px;
+  color:var(--muted);
+}
+.stat .value{
+  font-size:20px;
+  font-weight:700;
+  margin-top:6px;
+}
+
+/* Chart titles */
+.card h3{
+  margin:0 0 10px 0;
+  font-size:16px;
+}
+
+/* Holdings list */
+table{
+  width:100%;
+  border-collapse:collapse;
+}
+td{
+  padding:10px 4px;
+  font-size:14px;
+}
+tr:not(:last-child) td{
+  border-bottom:1px solid #eee;
+}
+.symbol{
+  background:rgba(37,99,235,.1);
+  color:var(--primary);
+  padding:4px 8px;
+  border-radius:999px;
+  font-size:12px;
+  font-weight:600;
+}
+.num{
+  text-align:right;
+  font-variant-numeric:tabular-nums;
+}
+</style>
+</head>
+
+<body>
+<div class="app">
+
+<!-- HEADER -->
+<div class="header">
+  <h1>My Portfolio</h1>
+</div>
+
+<!-- SUMMARY -->
+<div class="card stats" id="stats"></div>
+
+<!-- PIE CHART -->
+<div class="card">
+  <h3>Sector Allocation (Shares)</h3>
+  <canvas id="sectorPie" height="220"></canvas>
+</div>
+
+<!-- STACKED BAR -->
+<div class="card">
+  <h3>Sector vs Holdings (Shares)</h3>
+  <canvas id="sectorStack" height="240"></canvas>
+</div>
+
+<!-- TOP HOLDINGS -->
+<div class="card">
+  <h3>Top Holdings (Shares)</h3>
+  <canvas id="topHoldings" height="220"></canvas>
+</div>
+
+<!-- HOLDINGS LIST -->
+<div class="card">
+  <h3>My Holdings</h3>
+  <table id="table"></table>
+</div>
+
+</div>
+
+<script>
+const URL = 'https://shyamkumarkc20.com.np/js/meroshare.json';
+
+fetch(URL).then(r=>r.json()).then(data=>{
+  buildStats(data);
+  buildSectorCharts(data);
+  buildTopHoldings(data);
+  buildTable(data);
+});
+
+/* SUMMARY */
+function buildStats(rows){
+  const totalUnits = rows.reduce((s,r)=>s+Number(r.Units||0),0);
+  const sectors = new Set(rows.map(r=>r.Sector));
+
+  document.getElementById('stats').innerHTML=`
+    <div class="stat"><label>Total Shares</label><div class="value">${totalUnits.toLocaleString()}</div></div>
+    <div class="stat"><label>Total Holdings</label><div class="value">${rows.length}</div></div>
+    <div class="stat"><label>Sectors</label><div class="value">${sectors.size}</div></div>
+    <div class="stat"><label>Instruments</label><div class="value">Equity</div></div>
+  `;
+}
+
+/* SECTOR PIE + STACKED BAR (SHARES) */
+function buildSectorCharts(rows){
+  const sectorMap = {};
+  rows.forEach(r=>{
+    sectorMap[r.Sector]=(sectorMap[r.Sector]||0)+Number(r.Units||0);
+  });
+
+  // Pie
+  new Chart(document.getElementById('sectorPie'),{
+    type:'pie',
+    data:{
+      labels:Object.keys(sectorMap),
+      datasets:[{data:Object.values(sectorMap)}]
+    }
+  });
+
+  // Stacked bar
+  const sectors = Object.keys(sectorMap);
+  const datasets = rows.map(r=>({
+    label:r.Symbol,
+    data:sectors.map(s=>s===r.Sector?Number(r.Units):0),
+    stack:'stack1'
+  }));
+
+  new Chart(document.getElementById('sectorStack'),{
+    type:'bar',
+    data:{labels:sectors,datasets},
+    options:{
+      responsive:true,
+      plugins:{legend:{display:false}},
+      scales:{
+        x:{stacked:true},
+        y:{stacked:true,ticks:{callback:v=>v.toLocaleString()}}
+      }
+    }
+  });
+}
+
+/* TOP HOLDINGS */
+function buildTopHoldings(rows){
+  const top=[...rows].sort((a,b)=>b.Units-a.Units).slice(0,6);
+  new Chart(document.getElementById('topHoldings'),{
+    type:'bar',
+    data:{
+      labels:top.map(r=>r.Symbol),
+      datasets:[{data:top.map(r=>r.Units)}]
+    },
+    options:{
+      plugins:{legend:{display:false}},
+      scales:{y:{ticks:{callback:v=>v.toLocaleString()}}}
+    }
+  });
+}
+
+/* HOLDINGS TABLE */
+function buildTable(rows){
+  const table=document.getElementById('table');
+  table.innerHTML='';
+  rows.forEach(r=>{
+    table.innerHTML+=`
+      <tr>
+        <td>
+          <b>${r.Name}</b><br>
+          <span class="symbol">${r.Symbol}</span>
+        </td>
+        <td class="num">${Number(r.Units).toLocaleString()}</td>
+      </tr>
+    `;
+  });
+}
+</script>
+</body>
+</html>
