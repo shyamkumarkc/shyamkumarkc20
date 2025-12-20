@@ -122,7 +122,7 @@
         "SN": "11",
         "Name": "IME Life Insurance Company Limited",
         "Symbol": "ILI",
-        "
+     
         "Sector": "Life Insurance",
         "Instrument": "Equity",
         
@@ -320,10 +320,10 @@
         "SN": "28",
         "Name": "Trishuli Jal Vidhyut Company Limited",
         "Symbol": "TVCL",
-        "Status": "Active",
+       
         "Sector": "Hydro Power",
         "Instrument": "Equity",
-        "Email": "tjvclshare2080@gmail.com",
+        
          "Units": "20",
          "WACC": "",
         "Value": ""
@@ -332,11 +332,10 @@
         "SN": "29",
         "Name": "Upper Hewakhola Hydropower Company Limited",
         "Symbol": "UHEWA",
-        "Status": "Active",
+       
         "Sector": "Hydro Power",
         "Instrument": "Equity",
-        "Email": "upperhewahpc@gmail.com",
-        "Website": "upperhewahpc.com.np",
+        
          "Units": "10",
          "WACC": "",
         "Value": ""
@@ -345,11 +344,10 @@
         "SN": "30",
         "Name": "Unnati Sahakarya Laghubitta Bittiya Sanstha Limited",
         "Symbol": "USLB",
-        "Status": "Active",
+        
         "Sector": "Microfinance",
         "Instrument": "Equity",
-        "Email": "prempathak021@gmail.com",
-        "Website": "http://www.unnatimfi.com.np",
+        
          "Units": "10",
          "WACC": "",
         "Value": ""
@@ -358,11 +356,10 @@
         "SN": "31",
         "Name": "Vision Lumbini Urja Company Limited",
         "Symbol": "VLUCL",
-        "Status": "Active",
+        
         "Sector": "Hydro Power",
         "Instrument": "Equity",
-        "Email": "urja@visionlumbini.com.np",
-        "Website": "www.urja.visionlumbini.com.np",
+        
          "Units": "10",
          "WACC": "",
         "Value": ""
@@ -371,11 +368,10 @@
         "SN": "32",
         "Name": "Upper Tamakoshi Hydropower Limited",
         "Symbol": "UPPER",
-        "Status": "Active",
+       
         "Sector": "Hydro Power",
         "Instrument": "Equity",
-        "Email": "office@utkhpl.org.np",
-        "Website": "www.tamakhosihydro.org.np",
+       
          "Units": "80",
          "WACC": "",
         "Value": ""
@@ -384,11 +380,10 @@
         "SN": "33",
         "Name": "Himalayan Life Insurance Limited",
         "Symbol": "HLI",
-        "Status": "Active",
+        
         "Sector": "Life Insurance",
         "Instrument": "Equity",
-        "Email": "",
-        "Website": "",
+       
          "Units": "57",
          "WACC": "",
         "Value": ""
@@ -397,11 +392,10 @@
         "SN": "34",
         "Name": "Citizen Life Insurance Limited",
         "Symbol": "CLI",
-        "Status": "Active",
+        
         "Sector": "Life Insurance",
         "Instrument": "Equity",
-        "Email": "",
-        "Website": "",
+       
          "Units": "43",
          "WACC": "",
         "Value": ""
@@ -410,11 +404,10 @@
         "SN": "35",
         "Name": "Bandipur Cable Car and Tourism Limited",
         "Symbol": "BCTL",
-        "Status": "Active",
+       
         "Sector": "Hotels And Tourism",
         "Instrument": "Equity",
-        "Email": "",
-        "Website": "",
+        
          "Units": "10",
          "WACC": "100",
         "Value": ""
@@ -423,11 +416,10 @@
         "SN": "36",
         "Name": "Prabhu Select Fund",
         "Symbol": "PSF",
-        "Status": "Active",
+        
         "Sector": "Mutual Fund",
         "Instrument": "Equity",
-        "Email": "",
-        "Website": "",
+        
          "Units": "20",
          "WACC": "100",
         "Value": ""
@@ -436,11 +428,10 @@
         "SN": "37",
         "Name": "Siddhartha Systematic Investment Scheme",
         "Symbol": "SSIS",
-        "Status": "Active",
+        
         "Sector": "Mutual Fund",
         "Instrument": "Equity",
-        "Email": "",
-        "Website": "",
+       
          "Units": "86.6",
          "WACC": "100",
         "Value": ""
@@ -449,11 +440,10 @@
         "SN": "38",
         "Name": "NIBL Sahabhagita Fund",
         "Symbol": "NIBLSF",
-        "Status": "Active",
+       
         "Sector": "Mutual Fund",
         "Instrument": "Equity",
-        "Email": "",
-        "Website": "",
+       
          "Units": "191.1",
          "WACC": "100",
         "Value": ""
@@ -488,11 +478,10 @@
         "SN": "41",
         "Name": "HLI Large Cap Fund",
         "Symbol": "HLCF",
-        "Status": "Active",
+        
         "Sector": "Mutual Fund",
         "Instrument": "Equity",
-        "Email": "",
-        "Website": "",
+        
          "Units": "10",
          "WACC": "100",
         "Value": ""
@@ -501,11 +490,10 @@
         "SN": "42",
         "Name": "RBB Focus 40",
         "Symbol": "RBBF40",
-        "Status": "Active",
+       
         "Sector": "Mutual Fund",
         "Instrument": "Equity",
-        "Email": "",
-        "Website": "",
+        
          "Units": "10",
          "WACC": "100",
         "Value": ""
@@ -514,11 +502,10 @@
         "SN": "43",
         "Name": "Shreenagar Agritech Industries Limited",
         "Symbol": "SAIL",
-        "Status": "Active",
+       
         "Sector": "Manufacturing And Processing",
         "Instrument": "Equity",
-        "Email": "",
-        "Website": "",
+        
          "Units": "10",
          "WACC": "100",
         "Value": ""
@@ -527,11 +514,10 @@
         "SN": "44",
         "Name": "Machhapuchchhre SIP Yojana",
         "Symbol": "MSIPY",
-        "Status": "Active",
+        
         "Sector": "Mutual Fund",
         "Instrument": "Equity",
-        "Email": "",
-        "Website": "",
+       
          "Units": "10",
          "WACC": "100",
         "Value": ""
