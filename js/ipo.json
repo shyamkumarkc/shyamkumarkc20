@@ -1114,6 +1114,16 @@
             "issueManager": ""
         },
 		{
+            "company": "NPI Narayani Community Hospital Limited",
+            "units": "",
+            "price": "",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Nabil Investment Banking Limited"
+        },
+		{
             "company": "North Summit Hydro Limited ",
             "units": "3,840,000.00",
             "price": "100.00",
@@ -1280,7 +1290,7 @@
             "units": "100,000,000.00",
             "price": "10.00",
             "openingDate": "2025-12-19",
-            "closingDate": "2025-12-23",
+            "closingDate": "2026-01-02",
             "lastClosingDate": "2026-01-02",
             "listingDate": "",
             "issueManager": "Citizens Capital Limited"
