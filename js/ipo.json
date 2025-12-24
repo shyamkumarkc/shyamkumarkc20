@@ -985,8 +985,8 @@
         },
 		{
             "company": "Sarathi Cable Industries Limited",
-            "units": "",
-            "price": "",
+            "units": "1,145,000.00",
+            "price": "100.00",
             "openingDate": "",
             "closingDate": "",
             "lastClosingDate": "",
@@ -1102,6 +1102,46 @@
             "lastClosingDate": "",
             "listingDate": "",
             "issueManager": "Nepal SBI Merchant Banking Limited"
+        },
+		{
+            "company": "Nepal Infratures Investment Limited",
+            "units": "3,000,000.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Laxmi Sunrise Capital Limited"
+        },
+		{
+            "company": "Kalinchowk Investment",
+            "units": "2,400,000.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Nabil Investment Banking Limited"
+        },
+		{
+            "company": "Nagarkot Resort Limited",
+            "units": "1,500,000.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "NMB Capital Limited"
+        },
+		{
+            "company": "Himal Water Park & Village Hotel",
+            "units": "4,165,000.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Kumari Capital Limited"
         },
         {
             "company": "",
@@ -1257,8 +1297,8 @@
             "company": "Vijaya Laghubitta Bittiya Sanstha Limited",
             "units": "466,817.00",
             "price": "100.00",
-            "openingDate": "",
-            "closingDate": "",
+            "openingDate": "2026-01-05",
+            "closingDate": "2026-01-08",
             "lastClosingDate": "",
             "listingDate": "",
             "issueManager": "NMB Capital Limited"
