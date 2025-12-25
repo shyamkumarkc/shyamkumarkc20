@@ -48,13 +48,13 @@
             "issueManager": "Prabhu Capital Limited"
         },
 		{
-            "company": "Sagar Distillery Limited",
-            "units": "1,190,640.00",
+            "company": "Palpa Cements Industries Limited",
+            "units": "7,500,000.00",
             "price": "100.00",
-            "openingDate": "2025-09-15",
-            "closingDate": "2025-09-21",
-            "lastClosingDate": "2025-09-29",
-            "issueManager": "Muktinath Capital Limited"
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Nabil Investment Banking Limited"
         },
         {
             "company": "Salapa Bikas Bank Limited",
@@ -362,15 +362,7 @@
             "lastClosingDate": " ",
             "issueManager": "Nepal SBI Merchant Banking Limited"
         },
-        {
-            "company": "Palpa Cements Industries Limited",
-            "units": "7,500,000.00",
-            "price": "100.00",
-            "openingDate": " ",
-            "closingDate": " ",
-            "lastClosingDate": " ",
-            "issueManager": "Nabil Investment Banking Limited"
-        },
+        
         {
             "company": "Smart Doors Limited",
             "units": "306,000.00",
@@ -1471,13 +1463,13 @@
             "issueManager": "Nabil Investment Banking Limited"
         },
 		{
-            "company": "Sagar Distillery Limited",
-            "units": "145,200.00",
+            "company": "Palpa Cements Industries Limited",
+            "units": "750,000.00",
             "price": "100.00",
-            "openingDate": "2025-08-13",
-            "closingDate": "2025-08-17",
+            "openingDate": " ",
+            "closingDate": " ",
             "lastClosingDate": " ",
-            "issueManager": "Muktinath Capital Limited"
+            "issueManager": "Nabil Investment Banking Limited"
         },
 		{
             "company": "Super Khudi Hydropower Limited",
