@@ -1,0 +1,34 @@
+[
+  {
+    "SNo": "1",
+    "Name": "The Soaltee Kathmandu",
+    "Location": "Kathmandu (Tahachal)",
+    "Promoter": "Soaltee Hotel Limited ",
+    "Established": "1966",
+    "null": null
+  },
+  {
+    "SNo": "2",
+    "Name": "Hotel Yak & Yeti",
+    "Location": "Kathmandu (Durbar Marg)",
+    "Promoter": "Yak & Yeti Group ",
+    "Established": "1977",
+    "null": null
+  },
+  {
+    "SNo": "3",
+    "Name": "Hyatt Regency Kathmandu",
+    "Location": "Kathmandu (Boudhanath)",
+    "Promoter": "Taragaon Regency Hotels Ltd. ",
+    "Established": "2000",
+    "null": null
+  },
+  {
+    "SNo": "4",
+    "Name": "Hyatt Centric Soalteemode",
+    "Location": "Kathmandu (Soalteemode)",
+    "Promoter": "City Hotel Ltd. (Golyan Group) ",
+    "Established": "1965",
+    "null": null
+  }
+]
