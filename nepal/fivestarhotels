@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Five Stars Hotel</title>
+<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+</script>
+<script>
+$(function(){
+$('#header').load('/assets/header.html');
+});
+</script>
+
+</head>
+<body>
+<div id ="header"></div>
+<style>
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+</style>
+<h1>
+5 Stars Hotel in Nepal</h1>
+
+<h3>
+</h3>
+<table border="black" >
+<tbody>
+<tr>
+<th>S No</th>
+	<th>Hotel Name</th>
+<th>Hotel Logo</th>
+<th>Website</th>
+
+</tr>
+<tbody id="data-output">
+         <!-- Prodcuts from javascript file in here. -->
+      </tbody>
+   </table>
+ 
+ 
+   <script>
+   fetch("https://shyamkumarkc20.com.np/js/fivestarhotel.json")
+.then(function(response){
+   return response.json();
+})
+.then(function(products){
+   let placeholder = document.querySelector("#data-output");
+   let out = "";
+   for(let product of products){
+      out += `
+         <tr>
+            
+            <td>${product.SNo}</td>
+            <td>${product.Name}</td>
+		 <td><img src="${product.IMG}" width="100" height="80" ></td>
+   <td><a href ="https://${product.Website}"target="blank">${product.Name}</a></td>
+            
+			
+         </tr>
+      `;
+   }
+ 
+   placeholder.innerHTML = out;
+});
+   
+$(function(){
+$('#footer').load('/assets/footer.html');
+});
+</script>
+
+</body>
+  <div id ="footer"></div>
+</html>
