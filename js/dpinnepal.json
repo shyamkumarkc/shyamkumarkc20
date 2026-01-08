@@ -42,8 +42,16 @@
 	  "IMG": "https://shyamkumarkc20.com.np/logo/adbl.jpg",
         "Email": "asba@adbl.gov.np"
     },
-    {
+	{
         "SNo": "6",
+        "id": "22300",
+        "Name": "Apple Securities Pvt. Ltd.",
+        "Location": "Naxal Kathmandu",
+        "Contact1": "01-5900205","Contact2":"",
+        "Email": "info@applesecurities.com.np"
+    },
+    {
+        "SNo": "7",
         "id": "21800",
         "Name": "ARUN SECURITIES Private Limited",
         "Location": "Gaushala Kathmandu",
@@ -51,7 +59,7 @@
         "Email": "arunsecurities@gmail.com"
     },
     {
-        "SNo": "7",
+        "SNo": "8",
         "id": "11900",
         "Name": "ARYATARA INVESTMENT AND SECURITIES Private Limited",
         "Location": "ANAMNAGAR,Kathmandu",
@@ -59,7 +67,7 @@
         "Email": "aryatara57@yahoo.com"
     },
     {
-        "SNo": "8",
+        "SNo": "*",
         "id": "15600",
         "Name": "ASHUTOSH BROKERAGE AND SECURITIES Private Limited",
         "Location": "KHICHAPOKHARI",
@@ -67,7 +75,7 @@
         "Email": "broker8ash@gmail.com"
     },
     {
-        "SNo": "9",
+        "SNo": "10",
         "id": "17500",
         "Name": "ASIAN CAPITAL LIMITED",
         "Location": "MAITIDEVI COMPLEX, Kathmandu",
@@ -75,15 +83,23 @@
         "Email": "asiancapitalltd@gmail.com"
     },
     {
-        "SNo": "10",
+        "SNo": "11",
         "id": "14700",
         "Name": "ASIAN SECURITIES Private Limited",
         "Location": "PUTALISADAK,Kathmandu",
         "Contact1": "014424351","Contact2":"014424485",
         "Email": "asiansecurities26@gmail.com"
     },
+	{
+        "SNo": "12",
+        "id": "23200",
+        "Name": "Beni Securities Pvt Ltd",
+        "Location": "New Baneshwor, Kathmandu",
+        "Contact1": "01-5917369","Contact2":"01-5917469",
+        "Email": "benisecurities2079@gmail.com"
+    },
     {
-        "SNo": "11",
+        "SNo": "13",
         "id": "19100",
         "Name": "BHOLE GANESH SECURITIES LIMITED.",
         "Location": "ANAMNAGAR",
@@ -91,7 +107,7 @@
         "Email": "info@bholeganesh.com"
     },
     {
-        "SNo": "12",
+        "SNo": "14",
         "id": "15000",
         "Name": "BHRIKUTI STOCK BROKING COMPANY Private Limited",
         "Location": "NEWROAD,Kathmandu",
@@ -99,7 +115,7 @@
         "Email": "rajibnepal@gmail.com"
     },
     {
-        "SNo": "13",
+        "SNo": "15",
         "id": "20700",
         "Name": "BLUE CHIP SECURITIES LTD",
         "Location": "Maharajganj, Kathmandu",
@@ -107,7 +123,7 @@
         "Email": "contact@bluechip88.com"
     },
     {
-        "SNo": "14",
+        "SNo": "16",
         "id": "20900",
         "Name": "CAPITAL HUB Private Limited",
         "Location": "Anamnagar, Kathmandu",
@@ -115,7 +131,7 @@
         "Email": "capitalhub2080@gmail.com"
     },
     {
-        "SNo": "15",
+        "SNo": "17",
         "id": "19500",
         "Name": "CAPITAL MAX SECURITIES LIMITED",
         "Location": "GYANESHWOR, Kathmandu",
@@ -123,7 +139,7 @@
         "Email": "info@capitalmax.com.np"
     },
     {
-        "SNo": "16",
+        "SNo": "18",
         "id": "11700",
         "Name": "CITIZENS BANK INTERNATIONAL LIMITED",
         "Location": "NARAYANHITY PATH",
@@ -132,16 +148,9 @@
 	  "IMG": "https://shyamkumarkc20.com.np/logo/czbil.jpeg",
         "Email": "info@ctznbank.com"
     },
+    
     {
-        "SNo": "17",
-         "id": "13500",
-        "Name": "VISION SECURITIES Private Limited",
-        "Location": "ANAMNAGAR",
-        "Contact1": "014770452", "Contact2": "014770425",
-        "Email": "visionsecurities@hotmail.com"
-    },
-    {
-        "SNo": "18",
+        "SNo": "19",
         "id": "13300",
         "Name": "CREATIVE SECURITIES Private Limited",
         "Location": "KAMALPOKHARI,Kathmandu",
@@ -149,7 +158,7 @@
         "Email": "creativesec2011@gmail.com"
     },
     {
-        "SNo": "19",
+        "SNo": "20",
         "id": "13400",
         "Name": "CRYSTAL KANCHANJUNGHA SECURITIES Private Limited",
         "Location": "NEW PLAZA,Kathmandu",
@@ -157,7 +166,7 @@
         "Email": "crystalkanchanjungha@gmail.com"
     },
     {
-        "SNo": "20",
+        "SNo": "21",
         "id": "12000",
         "Name": "DAKSHINKALI INVESTMENT AND SECURITIES Private Limited",
         "Location": "KAMALADI,Kathmandu",
@@ -165,7 +174,7 @@
         "Email": "displtd@gmail.com"
     },
     {
-        "SNo": "21",
+        "SNo": "22",
         "id": "14500",
         "Name": "DEEVYAA SECURITIES &amp; STOCK HOUSE Private Limited",
         "Location": "PUTALISADAK,Kathmandu",
@@ -173,7 +182,7 @@
         "Email": "deevya59@gmail.com"
     },
     {
-        "SNo": "22",
+        "SNo": "23",
         "id": "11300",
         "Name": "DIPSHIKHA DHITOPATRA KAROBAR COMPANY Private Limited",
         "Location": "ANAMNAGAR",
@@ -181,7 +190,7 @@
         "Email": "info@ddkc.com.np"
     },
     {
-        "SNo": "23",
+        "SNo": "24",
         "id": "14900",
         "Name": "DYNAMIC MONEY MANAGERS SECURITIES Private Limited",
         "Location": "KAMALPOKHARI, Kathmandu",
@@ -189,7 +198,7 @@
         "Email": "admin@dynamic44.com"
     },
     {
-        "SNo": "24",
+        "SNo": "25",
         "id": "20300",
         "Name": "ELITE MERCHANT CAPITAL LTD",
         "Location": "Lazimpat, Kathmandu",
@@ -197,7 +206,7 @@
         "Email": "elitecapitalnepal@gmail.com"
     },
     {
-        "SNo": "25",
+        "SNo": "26",
         "id": "19800",
         "Name": "ELITE STOCK HOUSE LTD",
         "Location": "Lazimpat, Kathmandu",
@@ -205,7 +214,7 @@
         "Email": "info@elitestockhouse.com.np"
     },
     {
-        "SNo": "26",
+        "SNo": "27",
         "id": "10800",
         "Name": "EVEREST BANK Limited",
         "Location": "Lazimpat, Kathmandu",
@@ -216,7 +225,7 @@
         "Email": "ebl@mos.com.np"
     },
     {
-        "SNo": "27",
+        "SNo": "28",
         "id": "17600",
         "Name": "GARIMA CAPITAL LIMITED",
         "Location": "HATTISAR, Kathmandu",
@@ -224,7 +233,7 @@
         "Email": "info@garimacapital.com"
     },
     {
-        "SNo": "28",
+        "SNo": "29",
         "id": "21900",
         "Name": "GARIMA SECURITIES LTD.",
         "Location": "Kamalpokhari, Kathmandu",
@@ -232,7 +241,7 @@
         "Email": "garimasecurities345@gmail.com"
     },
     {
-        "SNo": "29",
+        "SNo": "30",
         "id": "12200, 11100",
         "Name": "GLOBAL IME BANK LIMITED",
         "Location": "KAMALADI, Kathmandu",
@@ -243,7 +252,7 @@
         "Email": "info@gibl.com.np"
     },
     {
-        "SNo": "30",
+        "SNo": "31",
         "id": "11200",
         "Name": "GLOBAL IME CAPITAL LIMITED",
         "Location": "Naxal, Kathmandu",
@@ -251,7 +260,7 @@
         "Email": "info@gicl.com.np"
     },
     {
-        "SNo": "31",
+        "SNo": "32",
         "id": "16200",
         "Name": "GUHESWORI MERCHANT BANKING &amp; FINANCE LIMITED",
         "Location": "PULCHOK, Lalitpur",
@@ -259,7 +268,7 @@
         "Email": "archana.pradhan@gmbf.com.np"
     },
     {
-        "SNo": "32",
+        "SNo": "33",
         "id": "18000",
         "Name": "GURKHAS FINANCE LIMITED",
         "Location": "Dillibazar, Kathmandu",
@@ -267,15 +276,23 @@
         "Email": "info@gurkhasfinance.com.np"
     },
     {
-        "SNo": "33",
+        "SNo": "34",
         "id": "20500",
         "Name": "HATEMALO FINANCIAL SERVICES Private Limited",
         "Location": "Naxal, Kathmandu",
         "Contact1": "01-4443770","Contact2":"",
         "Email": "info@hatemalo.com.np"
     },
+	{
+        "SNo": "35",
+        "id": "22900",
+        "Name": "Himalaya Securities Banker Ltd.",
+        "Location": "New Baneshwor, Kathmandu",
+        "Contact1": "01-5920356","Contact2":"01-5920357",
+        "Email": "hsbl@hsbl.com.np"
+    },
     {
-        "SNo": "34",
+        "SNo": "36",
         "id": "19600",
         "Name": "HIMALAYAN BROKERAGE COMPANY LIMITED",
         "Location": "DILLIBAZAR, Kathmandu",
@@ -283,23 +300,31 @@
         "Email": "info@himalayanbrokerage.com"
     },
     {
-        "SNo": "35",
+        "SNo": "37",
         "id": "17700, 10100",
         "Name": "HIMALAYAN CAPITAL LIMITED",
         "Location": "THAMEL,Kathmandu",
         "Contact1": "014258345","Contact2":"014263147",
         "Email": "info@himalayancapital.com"
     },
+	{
+        "SNo": "38",
+        "id": "22800",
+        "Name": "Himalayan Investment Banker Ltd.",
+        "Location": "Baneshwor, Kathmandu",
+        "Contact1": "01-5920341","Contact2":"01-5920342",
+        "Email": "himalayaninvestment.banker@gmail.com"
+    },
     {
-        "SNo": "36",
+        "SNo": "39",
         "id": "17400",
         "Name": "ICFC FINANCE LIMITED",
         "Location": "BHATBHATENI, NAXAL",
-        "Contact1": "014425292","Contact2":"014425292",
+        "Contact1": "014425292","Contact2":"",
         "Email": "info@icfcbank.com"
     },
     {
-        "SNo": "37",
+        "SNo": "40",
         "id": "13100",
         "Name": "IMPERIAL SECURITIES COMPANY Private Limited",
         "Location": "ANAMNAGAR,HANUMANSTHAN,",
@@ -307,7 +332,7 @@
         "Email": "45.imperial@gmail.com"
     },
     {
-        "SNo": "38",
+        "SNo": "41",
         "id": "20000",
         "Name": "INDEX SECURITIES LTD",
         "Location": "Dillibazar, Kathmandu",
@@ -315,7 +340,7 @@
         "Email": "indexsecuritiesnepal@gmail.com"
     },
     {
-        "SNo": "39",
+        "SNo": "42",
         "id": "20800",
         "Name": "INDIRA SECURITIES Private Limited",
         "Location": "Sundhara, Kathmandu",
@@ -323,15 +348,31 @@
         "Email": "info@indirasecurities.com.np"
     },
     {
-        "SNo": "40",
+        "SNo": "43",
         "id": "19900",
         "Name": "INFINITY SECURITIES LTD",
         "Location": "Sundhara, Kathmandu",
         "Contact1": "01-5915306","Contact2":" 01-5915307",
         "Email": "info@infinitysecurities.com.np"
     },
+	{
+        "SNo": "44",
+        "id": "23100",
+        "Name": "Investment Management Nepal Pvt. Ltd.",
+        "Location": "Tripureshwor, Kathmandu",
+        "Contact1": "01-5356589", "Contact2":"01-5356590",
+        "Email": "imnpltd@gmail.com"
+    },
+	{
+        "SNo": "45",
+        "id": "23300",
+        "Name": "JF Securities Company Pvt. Ltd.",
+        "Location": "Newroad, Kathmandu",
+        "Contact1": "01-5348202", "Contact2":"01-5312072",
+        "Email": "info@jfsecutities.com"
+    },
     {
-        "SNo": "41",
+        "SNo": "46",
         "id": "17900",
         "Name": "JYOTI BIKASH BANK LIMITED",
         "Location": "Kamlpokhari 1, Kathmandu",
@@ -339,7 +380,7 @@
         "Email": "info@jbbl.com.np"
     },
     {
-        "SNo": "42",
+        "SNo": "47",
         "id": "22000",
         "Name": "K.B.L. SECURITIES LTD.",
         "Location": "Gairidhara, Kathmandu",
@@ -347,7 +388,7 @@
         "Email": "info@kblsecurities.com"
     },
     {
-        "SNo": "43",
+        "SNo": "48",
         "id": "20100",
         "Name": "KALASH STOCK MARKET Private Limited",
         "Location": "Buddhanagar, Kathmandu",
@@ -355,7 +396,7 @@
         "Email": "sharekalash@gmail.com"
     },
     {
-        "SNo": "44",
+        "SNo": "49",
         "id": "18700",
         "Name": "KALIKA SECURITIES Private Limited.",
         "Location": "Anamnagar, Kathmandu",
@@ -363,7 +404,7 @@
         "Email": "kalikasecurities@gmail.com"
     },
     {
-        "SNo": "45",
+        "SNo": "50",
         "id": "18200",
         "Name": "KAMANA SEWA BIKAS BANK LTD",
         "Location": "Gyaneshwor,Kathmandu",
@@ -371,7 +412,7 @@
         "Email": "info@kamanasewabank.com"
     },
     {
-        "SNo": "46",
+        "SNo": "51",
         "id": "14300",
         "Name": "KOHINOOR INVESTMENT &amp; SECURITIES Private Limited",
         "Location": "HATTISAR,Kathmandu",
@@ -379,7 +420,7 @@
         "Email": "kohinoorinvest@gmail.com"
     },
     {
-        "SNo": "47",
+        "SNo": "52",
         "id": "15200,16300",
         "Name": "KUMARI BANK LIMITED",
         "Location": "NAXAL,Kathmandu",
@@ -390,7 +431,7 @@
         "Email": "dp@kumaricapital.com"
     },
     {
-        "SNo": "48",
+        "SNo": "53",
         "id": "10700,12400",
         "Name": "LAXMI SUNRISE CAPITAL LIMITED",
         "Location": "KAMALPOKHARI,NAYABANESHWOR",
@@ -398,7 +439,7 @@
         "Email": "info@sunrisecapital.com.np"
     },
     {
-        "SNo": "49",
+        "SNo": "54",
         "id": "13800",
         "Name": "LINCH STOCK MARKET LIMITED",
         "Location": "NEW BANESHWOR,Kathmandu",
@@ -406,7 +447,7 @@
         "Email": "linchstockmarket@gmail.com"
     },
     {
-        "SNo": "50",
+        "SNo": "55",
         "id": "16100",
         "Name": "MACHHAPUCHCHHRE BANK LIMITED",
         "Location": "LAZIMPAT",
@@ -417,7 +458,7 @@
         "Email": "machbank@mbl.com.np"
     },
     {
-        "SNo": "51",
+        "SNo": "56",
         "id": "14100",
         "Name": "MACHHAPUCHCHHRE CAPITAL LIMITED",
         "Location": "SUNDHARA, Kathmandu",
@@ -425,15 +466,23 @@
         "Email": "mcl@mcl.com.np"
     },
     {
-        "SNo": "52",
+        "SNo": "57",
         "id": "21400",
         "Name": "MACHHAPUCHCHHRE SECURITIES LTD",
         "Location": "Jamal, Kathmandu",
         "Contact1": "01-5366285","Contact2":"",
         "Email": "info@msl.com.np;"
     },
+	{
+        "SNo": "58",
+        "id": "22200",
+        "Name": "Magnet Securities and Investment Company Pvt. Ltd.",
+        "Location": "Baneshwor, Kathmandu",
+        "Contact1": "01-5917729","Contact2":"01-5917731",
+        "Email": "magnetsecurities@gmail.com"
+    },
     {
-        "SNo": "53",
+        "SNo": "59",
         "id": "16700",
         "Name": "MAHALAXMI BIKAS BANK LIMITED",
         "Location": "DURBARMARG, Kathmandu",
@@ -441,7 +490,7 @@
         "Email": "info@mahalaxmi.com.np"
     },
     {
-        "SNo": "54",
+        "SNo": "60",
         "id": "18900",
         "Name": "MANJUSHREE FINANCE LTD.",
         "Location": "New Baneshwor, Kathmandu",
@@ -449,7 +498,7 @@
         "Email": "info@manjushreefinance.com.np"
     },
     {
-        "SNo": "55",
+        "SNo": "61",
         "id": "13600",
         "Name": "MARKET SECURITIES EXCHANGE COMPANY Private Limited",
         "Location": "KHICHAPOKHARI",
@@ -457,7 +506,7 @@
         "Email": "mkt.securities@gmail.com"
     },
     {
-        "SNo": "56",
+        "SNo": "62",
         "id": "21600",
         "Name": "MILKY WAY SHARE BROKER COMPANY LTD",
         "Location": "Maharajgunj, Kathmandu",
@@ -465,7 +514,7 @@
         "Email": "info@milkywaysharebroker.com.np;"
     },
     {
-        "SNo": "57",
+        "SNo": "63",
         "id": "19700",
         "Name": "MIYO SECURITIES Private Limited",
         "Location": "HATTISAR, Kathmandu",
@@ -473,7 +522,7 @@
         "Email": "miyo.securities@gmail.com"
     },
     {
-        "SNo": "58",
+        "SNo": "64",
         "id": "21100",
         "Name": "MONEY WORLD SHARE EXCHANGE Private Limited",
         "Location": "Putalisadak, Kathmandu",
@@ -481,7 +530,7 @@
         "Email": "moneyworld.nepal@gmail.com"
     },
     {
-        "SNo": "59",
+        "SNo": "65",
         "id": "12500",
         "Name": "MUKTINATH CAPITAL LIMITED",
         "Location": "Naxal, Kathmandu",
@@ -489,7 +538,7 @@
         "Email": "info@muktinathcapital.com dpsupport@muktinathcapital.com"
     },
     {
-        "SNo": "60",
+        "SNo": "66",
         "id": "15900",
         "Name": "NAASA SECURITIES COMPANY LTD",
         "Location": "NAXAL",
@@ -497,7 +546,7 @@
         "Email": "naasasecurities58@gmail.com"
     },
     {
-        "SNo": "61",
+        "SNo": "67",
         "id": "15100 , 16800",
         "Name": "NABIL BANK LIMITED",
         "Location": "DURBARMARG, Kathmandu",
@@ -508,7 +557,7 @@
         "Email": "info@nabilbank.com"
     },
     {
-        "SNo": "62",
+        "SNo": "68",
         "id": "10400",
         "Name": "NABIL INVESTMENT BANKING LTD.",
         "Location": "NARAYANCHOUR,NAXAL",
@@ -516,15 +565,23 @@
         "Email": "info@nabilinvest.com.np"
     },
     {
-        "SNo": "63",
+        "SNo": "69",
         "id": "20400",
         "Name": "NAGARIK STOCK DEALER COMPANY LTD",
         "Location": "New Baneshwor, Kathmandu",
         "Contact1": "01-4790331","Contact2":"",
         "Email": "nagariksd@gmail.com"
     },
+	{
+        "SNo": "70",
+        "id": "23400",
+        "Name": "National Capital Ltd",
+        "Location": "Panipokhari, Kathmandu",
+        "Contact1": "01- 4530266","Contact2":"",
+        "Email": "operation@nationalcapital.com.np"
+    },
     {
-        "SNo": "64",
+        "SNo": "71",
         "id": "15700",
         "Name": "NEPAL BANK LIMITED",
         "Location": "DHARMAPATH",
@@ -536,7 +593,7 @@
         "Email": "nblshareunit@nbl.com.np"
     },
     {
-        "SNo": "65",
+        "SNo": "72",
         "id": "15500",
         "Name": "NEPAL DP LIMITED",
         "Location": "Naxal,Kathmandu",
@@ -544,7 +601,7 @@
         "Email": "nepaldpltd@gmail.com"
     },
     {
-        "SNo": "66",
+        "SNo": "73",
         "id": "16400",
         "Name": "NEPAL LIFE CAPITAL LIMITED",
         "Location": "City Center, Kathmandu",
@@ -552,7 +609,7 @@
         "Email": "info@nepallifecapital.com.np"
     },
     {
-        "SNo": "67",
+        "SNo": "74",
         "id": "15300",
         "Name": "NEPAL SBI BANK LIMITED",
         "Location": "HATTISAR",
@@ -563,7 +620,7 @@
         "Email": "sharedpt@nsbl.com.np"
     },
     {
-        "SNo": "68",
+        "SNo": "75",
         "id": "11500",
         "Name": "NEPAL STOCK HOUSE Private Limited",
         "Location": "KALIKASTHAN",
@@ -571,7 +628,7 @@
         "Email": "nshplktm@gmail.com"
     },
     {
-        "SNo": "69",
+        "SNo": "76",
         "id": "13700",
         "Name": "NIC ASIA BANK LIMITED",
         "Location": "THAPATHALI,Kathmandu",
@@ -581,7 +638,7 @@
         "Email": "info@nicasiabank.com"
     },
     {
-        "SNo": "70",
+        "SNo": "77",
         "id": "10200, 10600, 17300",
         "Name": "NIMB ACE CAPITAL LIMITED",
         "Location": "TRIPURESHWOR, Kathmandu",
@@ -589,7 +646,7 @@
         "Email": "info@megacapitalmarkets.com"
     },
     {
-        "SNo": "71",
+        "SNo": "78",
         "id": "11000",
         "Name": "NMB CAPITAL LIMITED",
         "Location": "Baluwatar, Kathmandu",
@@ -597,7 +654,7 @@
         "Email": "info@nmbcl.com.np"
     },
     {
-        "SNo": "72",
+        "SNo": "79",
         "id": "11800",
         "Name": "ONLINE SECURITIES LIMITED",
         "Location": "PUTALISADAK,Kathmandu",
@@ -605,7 +662,7 @@
         "Email": "onlinesecurities_49@yahoo.com"
     },
     {
-        "SNo": "73",
+        "SNo": "80",
         "id": "21200",
         "Name": "OPAL SECURITIES INVESTMENT Private Limited",
         "Location": "Uttardhoka, Kathmandu",
@@ -613,7 +670,7 @@
         "Email": "info@opalsecurities.com.np"
     },
     {
-        "SNo": "74",
+        "SNo": "81",
         "id": "17000",
         "Name": "OXFORD SECURITIES Private Limited.",
         "Location": "KALIMATI, Kathmandu",
@@ -621,7 +678,7 @@
         "Email": "broker_51@yahoo.com"
     },
     {
-        "SNo": "75",
+        "SNo": "82",
         "id": "21300",
         "Name": "PAHI INVESTMENT Private Limited",
         "Location": "Gokarneshwor, Kathmandu",
@@ -629,7 +686,7 @@
         "Email": "pahilinvestment@gmail.com"
     },
     {
-        "SNo": "76",
+        "SNo": "83",
         "id": "13900,16000",
         "Name": "PRABHU BANK LIMITED",
         "Location": "Babarmahal, Kathmandu",
@@ -640,15 +697,23 @@
         "Email": "info@prabhubank.com"
     },
     {
-        "SNo": "77",
+        "SNo": "84",
         "id": "12600",
         "Name": "PRABHU CAPITAL LIMITED",
         "Location": "KAMALADI,Kathmandu",
         "Contact1": "01-5970200", "Contact2": " 01-4169100",
         "Email": "info@prabhucapital.com"
     },
+	{
+        "SNo": "85",
+        "id": "22600",
+        "Name": "Pragyan Securities Pvt. Ltd.",
+        "Location": "Nagpokhari,Kathmandu",
+        "Contact1": "01-5902332", "Contact2": "01-4515958",
+        "Email": "pragyansecurities10@gmail.com"
+    },
     {
-        "SNo": "78",
+        "SNo": "86",
         "id": "14800",
         "Name": "PREMIER SECURITIES COMPANY LIMITED",
         "Location": "PUTALISADAK,Kathmandu",
@@ -656,7 +721,7 @@
         "Email": "premiersecurities@hotmail.com"
     },
     {
-        "SNo": "79",
+        "SNo": "87",
         "id": "15400,16900",
         "Name": "PRIME COMMERCIAL BANK LIMITED",
         "Location": "Kamalpokhari, Kathmandu",
@@ -664,7 +729,7 @@
         "Email": "info@pcbl.com.np"
     },
     {
-        "SNo": "80",
+        "SNo": "88",
         "id": "12800",
         "Name": "PRIMO SECURITIES Private Limited",
         "Location": "SHANKER DEV MARG,PUTALISADAK",
@@ -672,7 +737,7 @@
         "Email": "primo.securities@gmail.com"
     },
     {
-        "SNo": "81",
+        "SNo": "89",
         "id": "18600",
         "Name": "PROGRESSIVE FINANCE LTD",
         "Location": "Tinkune, Kathmandu",
@@ -680,7 +745,7 @@
         "Email": "info@pfltd.com.np"
     },
     {
-        "SNo": "82",
+        "SNo": "90",
         "id": "19400",
         "Name": "PROPERTY WIZARD LIMITED",
         "Location": "NAXAL,Kathmandu",
@@ -688,15 +753,23 @@
         "Email": "propertywizardcompany@gmail.com"
     },
     {
-        "SNo": "83",
+        "SNo": "91",
         "id": "16600",
         "Name": "PROVIDENT MERCHANT BANKING LIMITED",
         "Location": "Kathmandu, BALKUMARI,BRIDGE",
         "Contact1": "015147097","Contact2": "015147192",
         "Email": "provident mbl@gmail.com"
     },
+	{
+        "SNo": "92",
+        "id": "23000",
+        "Name": "R.B.B. Securities Company Ltd.",
+        "Location": "Durbarmarg, Kathmandu",
+        "Contact1": "01-5921896,", "Contact2": "01-5921895",
+        "Email": "info@rbbsecurities.com.np"
+    },
     {
-        "SNo": "84",
+        "SNo": "93",
         "id": "16500",
         "Name": "RBB MERCHANT BANKING LIMITED",
         "Location": "TEKU, Kathmandu",
@@ -704,7 +777,7 @@
         "Email": "rbbmbl@rbbmbl.com.np"
     },
     {
-        "SNo": "85",
+        "SNo": "94",
         "id": "22100",
         "Name": "ROADSHOW SECURITIES LTD.",
         "Location": "Sundhara, Kathmandu",
@@ -712,7 +785,7 @@
         "Email": "roadshow.securities@gmail.com"
     },
     {
-        "SNo": "86",
+        "SNo": "95",
         "id": "21500",
         "Name": "S.P.S.A. SECURITIES LTD",
         "Location": "New Baneshwor, Kathmandu",
@@ -720,7 +793,7 @@
         "Email": "info@spsasecurities.com.np;"
     },
     {
-        "SNo": "87",
+        "SNo": "96",
         "id": "21700",
         "Name": "SAJILO BROKER LTD.",
         "Location": "Jhamsikhel, Lalitpur",
@@ -728,7 +801,7 @@
         "Email": "sajilobroker@gmail.com"
     },
     {
-        "SNo": "88",
+        "SNo": "97",
         "id": "18100",
         "Name": "SAMPANNA CAPITAL &amp; ADVISORY NEPAL LIMITED",
         "Location": "New Baneshwor, Kathmandu",
@@ -736,7 +809,7 @@
         "Email": "infosampanna.capital.com"
     },
     {
-        "SNo": "89",
+        "SNo": "98",
         "id": "14400",
         "Name": "SANI SECURITIES COMPANY LIMITED",
         "Location": "Naxal, Kathmandu",
@@ -744,15 +817,23 @@
         "Email": "sani.securities@gmail.com"
     },
     {
-        "SNo": "90",
+        "SNo": "99",
         "id": "15800",
         "Name": "SANIMA BANK LTD",
         "Location": "Naxal, Kathmandu",
         "Contact1": "01-4540508", "Contact2": " 9840269336",
         "Email": "sanimacapital@sanimabank.com;"
     },
+	{
+        "SNo": "100",
+        "id": "22400",
+        "Name": "Sanima Securities Ltd",
+        "Location": "Putalisadak, Kathmandu",
+        "Contact1": "01-5915341", "Contact2": "",
+        "Email": "info@sanimasecurities.com.np"
+    },
     {
-        "SNo": "91",
+        "SNo": "101",
         "id": "11600",
         "Name": "SECURED SECURITIES LIMITED",
         "Location": "PRADARSHANI MARG,Kathmandu",
@@ -760,7 +841,7 @@
         "Email": "ss36nepal@gmail.com"
     },
     {
-        "SNo": "92",
+        "SNo": "102",
         "id": "12700",
         "Name": "SEWA SECURITIES Private Limited",
         "Location": "TRIPURESWOR,Kathmandu",
@@ -768,7 +849,7 @@
         "Email": "sewasecurities@gmail.com"
     },
     {
-        "SNo": "93",
+        "SNo": "103",
         "id": "18400",
         "Name": "SHANGRI-LA DEVELOPMENT BANK LTD.",
         "Location": "Baluwatar, Kathmandu",
@@ -776,7 +857,7 @@
         "Email": "info@shangrilabank.com"
     },
     {
-        "SNo": "94",
+        "SNo": "104",
         "id": "19200",
         "Name": "SHAREPRO SECURITIES PVT.LTD.",
         "Location": "PUSHPA LAL PATH, KTM",
@@ -784,7 +865,7 @@
         "Email": "shareprosecurities@gmail.com"
     },
     {
-        "SNo": "95",
+        "SNo": "105",
         "id": "18500",
         "Name": "SHINE RESUNGA DEVELOPMENT BANK LTD.",
         "Location": "Butwal, Rupandehi",
@@ -792,7 +873,7 @@
         "Email": "info@srdb.com.np;"
     },
     {
-        "SNo": "96",
+        "SNo": "106",
         "id": "18800",
         "Name": "SHREE INVESTMENT AND FINANCE CO. LTD.",
         "Location": "Dilli Bazar Kathmandu",
@@ -800,7 +881,7 @@
         "Email": "info@shreefinance.com.np"
     },
     {
-        "SNo": "97",
+        "SNo": "107",
         "id": "12900",
         "Name": "SHREE KRISHNA SECURITIES LIMITED",
         "Location": "CHARKHAL ROAD,DILLIBAZAR",
@@ -808,7 +889,7 @@
         "Email": "mundara@wlink.com.np"
     },
     {
-        "SNo": "98",
+        "SNo": "108",
         "id": "20200",
         "Name": "SHUBHAKAMANA SECURITIES Private Limited",
         "Location": "Naxal, Kathmandu",
@@ -816,7 +897,7 @@
         "Email": "shuvakamanasecurities@gmail.com"
     },
     {
-        "SNo": "99",
+        "SNo": "109",
         "id": "10900",
         "Name": "SIDDHARTHA CAPITAL LIMITED",
         "Location": "Narayan Chour, Naxal",
@@ -824,7 +905,7 @@
         "Email": "&nbsp;"
     },
     {
-        "SNo": "100",
+        "SNo": "110",
         "id": "14600",
         "Name": "SIPLA SECURITIES Private Limited",
         "Location": "KHICHAPOKHARI,Kathmandu",
@@ -832,7 +913,7 @@
         "Email": "sipla20@gmail.com"
     },
     {
-        "SNo": "101",
+        "SNo": "111",
         "id": "13000",
         "Name": "SOUTH ASIAN BULLS Private Limited",
         "Location": "TULSI KRISHNA PLAZA,KULESWOR",
@@ -840,7 +921,7 @@
         "Email": "sabullsp@gmail.com"
     },
     {
-        "SNo": "102",
+        "SNo": "112",
         "id": "14000",
         "Name": "SRI HARI SECURITIES Private Limited",
         "Location": "KAMALADI, Kathmandu",
@@ -848,7 +929,7 @@
         "Email": "info@srihari.com.np"
     },
     {
-        "SNo": "103",
+        "SNo": "113",
         "id": "21000",
         "Name": "STOXKARTS SECURITIES Private Limited",
         "Location": "Dillibazzar, Kathmandu",
@@ -856,7 +937,7 @@
         "Email": "stoxkartssecuritiesltd@gmail.com"
     },
     {
-        "SNo": "104",
+        "SNo": "114",
         "id": "14200",
         "Name": "SUMERU SECURITIES Private Limited",
         "Location": "Gyaneshwor, Kathmandu",
@@ -864,7 +945,7 @@
         "Email": "admin@sumerusecurities.com"
     },
     {
-        "SNo": "105",
+        "SNo": "115",
         "id": "19300",
         "Name": "SUN SECURITIES Private Limited",
         "Location": "NAXAL,Kathmandu",
@@ -872,23 +953,39 @@
         "Email": "info@sunsecurities.com"
     },
     {
-        "SNo": "106",
+        "SNo": "116",
         "id": "17800",
         "Name": "SUNDHARA SECURITIES LIMITED",
         "Location": "Sundhara, Kathmandu",
         "Contact1": "01 4212215","Contact2": "014263583",
         "Email": "sundharasecurities52@hotmail.com"
     },
+	{
+        "SNo": "117",
+        "id": "22500",
+        "Name": "Sunlife Capital Ltd.",
+        "Location": "Putalisadak, Kathmandu",
+        "Contact1": "01-4536129","Contact2": "",
+        "Email": "info@sunlifecapital.com.np"
+    },
     {
-        "SNo": "107",
+        "SNo": "118",
         "id": "18300",
         "Name": "SWARNALAXMI SECURITIES PVT.LTD.",
         "Location": "Putalisadak, Kathmandu",
         "Contact1": "01-4168219", "Contact2": " 01-4168291",
         "Email": "swarnalaxmisecurities@gmail.com"
     },
+	{
+        "SNo": "119",
+        "id": "22700",
+        "Name": "Trademow Securities Pvt. Ltd.",
+        "Location": "Dhumbarahi, Kathmandu",
+        "Contact1": "01-4547711", "Contact2": "",
+        "Email": "trademowsecurities@gmail.com"
+    },
     {
-        "SNo": "108",
+        "SNo": "120",
         "id": "11400",
         "Name": "TRISHAKTI SECURITIES PUBLIC LIMITED",
         "Location": "PUTALISADAK",
@@ -896,11 +993,19 @@
         "Email": "info@trishakti.com.np"
     },
     {
-        "SNo": "109",
+        "SNo": "121",
         "id": "17100",
         "Name": "TRISHUL SECURITIES &amp; INVESTMENT LIMITED",
         "Location": "NEWPLAZA, Kathmandu",
         "Contact1": "014440709", "Contact2": "014440709",
         "Email": "broker.trisul@gmail.com"
+    },
+	{
+        "SNo": "122",
+         "id": "13500",
+        "Name": "VISION SECURITIES Private Limited",
+        "Location": "ANAMNAGAR",
+        "Contact1": "014770452", "Contact2": "014770425",
+        "Email": "visionsecurities@hotmail.com"
     }
 ]
