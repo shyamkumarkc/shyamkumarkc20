@@ -19,7 +19,7 @@
         "SNo": "3",
         "id": "13200",
         "Name": "ABC SECURITIES Private Limited",
-        "Location": "INDRACHOWK,Kathmandu,",
+        "Location": "Indrachowk,Kathmandu",
         "Contact1": "01 5905499","Contact2":"015905490",
         "Email": "abcsecurities17@gmail.com"
     },
@@ -27,7 +27,7 @@
         "SNo": "4",
         "id": "12300",
         "Name": "AGRAWAL SECURITIES Private Limited",
-        "Location": "RADHE MARG,DILLIBAZAR",
+        "Location": "Dillibazar, Kathmandu",
         "Contact1": "014424406","Contact2":"014431597",
         "Email": "&nbsp;"
     },
@@ -588,7 +588,7 @@
         "Contact1": "01-5971222", 
 		"Contact2":" 01-5971183",
 		"Website": "www.nepalbank.com.np",
-	"links": "https://shyamkumarkc20.com.np/nepalbank.html",
+	"links": "/banking/nepalbank.html",
 	"IMG": "https://shyamkumarkc20.com.np/logo/nbl.jpg", 
         "Email": "nblshareunit@nbl.com.np"
     },
@@ -612,10 +612,11 @@
         "SNo": "74",
         "id": "15300",
         "Name": "NEPAL SBI BANK LIMITED",
-        "Location": "HATTISAR",
+        "Location": "Kesharmahal Kathmandu",
         "Contact1": "014412743",
 		"Contact2":"014441780",
 		"Website": "nsbl.statebank",
+		"links": "/banking/nepalsbibank.html",
 	  "IMG": "https://shyamkumarkc20.com.np/logo/sbi.png",
         "Email": "sharedpt@nsbl.com.np"
     },
@@ -1002,10 +1003,13 @@
     },
 	{
         "SNo": "122",
-         "id": "13500",
-        "Name": "VISION SECURITIES Private Limited",
-        "Location": "ANAMNAGAR",
+        "id": "13500",
+		"ODBS":"2064-09-13 B.S.",
+        "Name": "Vision Securities Private Limited",
+        "Location": "Anamnagar, Kathmandu",
+		"IMG": "https://visionsecurities.com.np/frontend/images/logo.png",
         "Contact1": "014770452", "Contact2": "014770425",
-        "Email": "visionsecurities@hotmail.com"
+		"links": "visionsecurities.com.np",
+        "Email": "info@visionsecurities.com.np"
     }
 ]
