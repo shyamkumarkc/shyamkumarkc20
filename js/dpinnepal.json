@@ -985,17 +985,21 @@
     {
         "SNo": "118",
         "id": "18300",
-        "Name": "SWARNALAXMI SECURITIES PVT.LTD.",
+        "Name": "Swarnalaxmi Securities Private Limited",
+		"IMG": "https://swarnalaxmisecurities.com.np/src/assets/logo.jpeg",
         "Location": "Putalisadak, Kathmandu",
-        "Contact1": "01-4168219", "Contact2": " 01-4168291",
+        "Contact1": "01-4168219", "Contact2": "01-4168291",
+		"links": "swarnalaxmisecurities.com.np/",
         "Email": "swarnalaxmisecurities@gmail.com"
     },
 	{
         "SNo": "119",
         "id": "22700",
-        "Name": "Trademow Securities Pvt. Ltd.",
+        "Name": "Trademow Securities Private Limited",		
+		"IMG": "https://www.trademow.com/trademow_logo.png",
         "Location": "Dhumbarahi, Kathmandu",
         "Contact1": "01-4547711", "Contact2": "",
+		"links": "www.trademow.com/",
         "Email": "trademowsecurities@gmail.com"
     },
     {
@@ -1011,7 +1015,7 @@
     {
         "SNo": "121",
         "id": "17100",
-        "Name": "TRISHUL SECURITIES &amp; INVESTMENT LIMITED",
+        "Name": "Trishul Securities &amp; Investment Limited",
 		"IMG": "https://trishulsecurities.com.np/wp-content/uploads/2022/06/logo.jpg",
         "Location": "NEWPLAZA, Kathmandu",
         "Contact1": "014440709", "Contact2": "014440709",
