@@ -378,8 +378,10 @@
     {
         "SNo": "46",
         "id": "17900",
-        "Name": "JYOTI BIKASH BANK LIMITED",
+        "Name": "Jyoti Bikas Bank Limited",
         "Location": "Kamlpokhari 1, Kathmandu",
+		"links": "/banking/jyotibikasbank.html",
+		"IMG": "https://shyamkumarkc20.com.np/logo/jbbl.jpg",
         "Contact1": "015970301", "Contact2":"015970303",
         "Email": "info@jbbl.com.np"
     },
@@ -410,7 +412,9 @@
     {
         "SNo": "50",
         "id": "18200",
-        "Name": "KAMANA SEWA BIKAS BANK LTD",
+        "Name": "Kamana Sewa Bikas Bank Limited",
+		"links": "/banking/kamanasewabikasbank.html",
+	"IMG": "https://shyamkumarkc20.com.np/logo/ksbbl.jpg",
         "Location": "Gyaneshwor,Kathmandu",
         "Contact1": "01-4440115","Contact2":" 01-4440116",
         "Email": "info@kamanasewabank.com"
