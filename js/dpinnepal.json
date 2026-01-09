@@ -145,6 +145,7 @@
         "Location": "NARAYANHITY PATH",
         "Contact1": "014427842","Contact2":"014427843",
 		"Website": "www.ctznbank.com",
+		"links": "/banking/citizenbank.html",
 	  "IMG": "https://shyamkumarkc20.com.np/logo/czbil.jpeg",
         "Email": "info@ctznbank.com"
     },
@@ -220,6 +221,7 @@
         "Location": "Lazimpat, Kathmandu",
         "Contact1": "014443377",
 		"Contact2":"",
+		"links": "/banking/everestbank.html",
 		"Website": "www.everestbankltd.com",
 	  "IMG": "https://shyamkumarkc20.com.np/logo/ebl.png",
         "Email": "ebl@mos.com.np"
@@ -248,6 +250,7 @@
         "Contact1": "014228671",
 		"Contact2":" 014226247",
 		"Website": "www.globalimebank.com",
+		"links": "/banking/globalimebank.html",
 	  "IMG": "https://shyamkumarkc20.com.np/logo/gbime.png",
         "Email": "info@gibl.com.np"
     },
@@ -1017,7 +1020,7 @@
         "id": "17100",
         "Name": "Trishul Securities &amp; Investment Limited",
 		"IMG": "https://trishulsecurities.com.np/wp-content/uploads/2022/06/logo.jpg",
-        "Location": "NEWPLAZA, Kathmandu",
+        "Location": "Newplaza, Kathmandu",
         "Contact1": "014440709", "Contact2": "014440709",
 		"links": "trishulsecurities.com.np/",
         "Email": "broker.trisul@gmail.com"
