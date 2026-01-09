@@ -494,6 +494,8 @@
         "id": "16700",
         "Name": "MAHALAXMI BIKAS BANK LIMITED",
         "Location": "DURBARMARG, Kathmandu",
+		"links": "/banking/mahalaxmibikasbank.html",
+	"IMG": "https://shyamkumarkc20.com.np/logo/mlbl.png",
         "Contact1": "014268162","Contact2":"014268208",
         "Email": "info@mahalaxmi.com.np"
     },
@@ -502,6 +504,7 @@
         "id": "18900",
         "Name": "MANJUSHREE FINANCE LTD.",
         "Location": "New Baneshwor, Kathmandu",
+		"IMG": "https://shyamkumarkc20.com.np/logo/mfil.png",
         "Contact1": "01-4792517","Contact2":"",
         "Email": "info@manjushreefinance.com.np"
     },
@@ -998,17 +1001,21 @@
     {
         "SNo": "120",
         "id": "11400",
-        "Name": "TRISHAKTI SECURITIES PUBLIC LIMITED",
-        "Location": "PUTALISADAK",
+        "Name": "Trishakti Securities Limited",
+		"IMG": "https://trishakti.com.np/img/logo1.png",
+        "Location": "Putalisadak, Kathmandu",
         "Contact1": "014232132", "Contact2": "",
+		"links": "trishakti.com.np/",
         "Email": "info@trishakti.com.np"
     },
     {
         "SNo": "121",
         "id": "17100",
         "Name": "TRISHUL SECURITIES &amp; INVESTMENT LIMITED",
+		"IMG": "https://trishulsecurities.com.np/wp-content/uploads/2022/06/logo.jpg",
         "Location": "NEWPLAZA, Kathmandu",
         "Contact1": "014440709", "Contact2": "014440709",
+		"links": "trishulsecurities.com.np/",
         "Email": "broker.trisul@gmail.com"
     },
 	{
