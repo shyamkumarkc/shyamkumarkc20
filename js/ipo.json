@@ -1308,6 +1308,16 @@
             "listingDate": "",
             "issueManager": "Citizens Capital Limited"
         },
+		{
+            "company": "Nepal Life Samriddhi Lagani Yojana",
+            "units": "160,000,000.00",
+            "price": "10.00",
+            "openingDate": "2026-01-18",
+            "closingDate": "2026-01-22",
+            "lastClosingDate": "2026-02-01",
+            "listingDate": "",
+            "issueManager": "Nepal Life Capital Limited"
+        },
 			{
             "company": "Citizens Santulit Yojana",
             "units": "100,000,000.00",
@@ -1425,13 +1435,13 @@
             "issueManager": "Nabil Investment Banking Limited"
         },
 		{
-            "company": "SY Panel Nepal Limited",
-            "units": "497,092.00",
+            "company": "Shikhar Power Development Limited",
+            "units": "222,000.00",
             "price": "100.00",
-            "openingDate": "2025-09-23",
-            "closingDate": "2025-09-26",
-            "lastClosingDate": " ",
-            "issueManager": "Prabhu Capital Limited"
+            "openingDate": "2026-01-20",
+            "closingDate": "2026-01-23",
+            "lastClosingDate": "2026-02-03",
+            "issueManager": "Global IME Capital Limited"
         },
        {
             "company": "Salapa Bikas Bank Limited",
@@ -1445,11 +1455,11 @@
         },
 		{
             "company": "Hotel Forest Inn Limited",
-            "units": "9,800,000.00",
+            "units": "400,000.00",
             "price": "100.00",
-            "openingDate": " ",
-            "closingDate": " ",
-            "lastClosingDate": " ",
+            "openingDate": "2026-01-18",
+            "closingDate": "2026-01-22",
+            "lastClosingDate": "2026-02-01",
             "issueManager": "NIC Asia Capital Limited"
         },
 		{
