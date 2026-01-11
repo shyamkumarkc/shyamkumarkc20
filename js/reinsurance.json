@@ -24,7 +24,7 @@
 	"neps": "https://nepalstock.com.np/company/detail/2881",
 	"AuthorizedCapital": "NPR 15 Billions",
 	"IssuedCapital": "NPR 10 Billions",
-	"PaidupCapital": "NPR 10 Billions"
+	"paidup": "NPR 10 Billions"
 	
 	
   },
@@ -53,6 +53,6 @@
 	"neps": "https://nepalstock.com.np/company/detail/9234",
 	"AuthorizedCapital": "NPR 21 Billions (USD 175 Millions approx",
 	"IssuedCapital" : "NPR 10 Billions (USD 85 Millions approx)",
-	"PaidupCapital" : "NPR 7 Billions (USD 60 Millions approx)"
+	"paidup" : "NPR 7 Billions (USD 60 Millions approx)"
   }
 ]
