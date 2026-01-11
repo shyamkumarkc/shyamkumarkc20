@@ -1,6 +1,6 @@
 [
   {
-    "Sno": "1",
+    "SNO": "1",
 	"class": "reinsurance",
     "Name": "Nepal Reinsurance Company Limited",
     "ODAD": "2014/11/07 A.D ",
@@ -27,7 +27,7 @@
 	
   },
    {
-    "Sno": "2",
+    "SNO": "2",
 	  "class": "reinsurance",
     "Name": "Himalayan Reinsurance Company Limited",
     "ODAD": "2021 A.D ",
@@ -52,3 +52,4 @@
 	"PaidupCapital" : "NPR 7 Billions (USD 60 Millions approx)"
   }
 ]
+
