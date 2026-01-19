@@ -10,21 +10,21 @@
             "issueManager": "Kumari Capital Limited"
         },
 		{
-            "company": "SY Panel Nepal Limited",
-            "units": "4,076,156.00",
+            "company": "Shikhar Power Development Limited",
+            "units": "2160,000.00",
             "price": "100.00",
-            "openingDate": "2025-11-05",
-            "closingDate": "2025-11-09",
-            "lastClosingDate": "2025-11-09",
-            "issueManager": "Prabhu Capital Limited"
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "issueManager": "Global IME Capital Limited"
         },
         {
             "company": "Bhujung Hydropower Limited",
             "units": "2,000,000.00",
             "price": "100.00",
-            "openingDate": "",
-            "closingDate": "",
-            "lastClosingDate": "",
+            "openingDate": "2026-01-26",
+            "closingDate": "2026-01-29",
+            "lastClosingDate": "2026-02-09",
             "listingDate": "",
             "issueManager": "Kumari Capital Limited"
         },
@@ -527,15 +527,7 @@
             "lastClosingDate": " ",
             "issueManager": "Nabil Investment Banking Limited"
         },
-        {
-            "company": "Shikhar Power Development Limited",
-            "units": "2,160,000.00",
-            "price": "100.00",
-            "openingDate": " ",
-            "closingDate": " ",
-            "lastClosingDate": " ",
-            "issueManager": "Global IME Capital Limited"
-        },
+        
         {
             "company": "Siuri Nyadi Power Limited",
             "units": "30,360,784.00",
