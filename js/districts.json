@@ -1,36 +1,43 @@
 [
     {
         "ProvinceName": "Koshi Pradesh",
+		"Smallest": "Terhathum",
 		"NoDis": "14",
         "Districts": "Bhojpur, Dhankuta, Illam, Jhapa, Khotang, Morang, Okhaldhunga, Panchthar, Sankhuwasabha, Solukhumbu, Sunsari, Taplejung, Terhathum, Udayapur"
     },
     {
-        "ProvinceName": "Madhesh Pradesh",	
+        "ProvinceName": "Madhesh Pradesh",
+		"Smallest": "Saptari",
 	    "NoDis": "8",
         "Districts": "Saptari, Parsa, Sarlahi, Bara, Siraha, Dhanusa, Rautahat, Mahottari"
     },
     {
         "ProvinceName": "Bagamati Pradesh",	
+		"Smallest": "",
 	    "NoDis": "13",
         "Districts": "Rasuwa, Nuwakot, Dhading, Chitwan, Makawanpur, Bhaktapur, Dolakha, Kathmandu, Kavrepalanchok, Lalitpur, Ramechhap, Sindhuli, Sindhupalchok"
     },
     {
-        "ProvinceName": "Gandaki Pradesh",	
+        "ProvinceName": "Gandaki Pradesh",
+		"Smallest": "",
 	    "NoDis": "11",
         "Districts": "Baglung, Gorkha, Kaski, Lamjung, Manang, Mustang, Myagdi, Nawalpur, Parbat, Syangja, Tanahun"
     },
     {
-        "ProvinceName": "Lumbini Pradesh",	
+        "ProvinceName": "Lumbini Pradesh",
+		"Smallest": "",
 	    "NoDis": "12",
         "Districts": "Arghakhanchi, Banke, Bardiya, Dang, Eastern Rukum, Gulmi, Kapilvastu, Parasi, Palpa, Pyuthan, Rolpa, Rupandehi"
     },
     {
-        "ProvinceName": "Karnali Pradesh",	
+        "ProvinceName": "Karnali Pradesh",
+		"Smallest": "",
 	    "NoDis": "10",
         "Districts": "Dailekh, Dolpa, Humla, Jajarkot, Jumla, Kalikot, Mugu, Salyan, Surkhet, Western Rukum"
     },
     {
-        "ProvinceName": "SudurPaschim Pradesh",	
+        "ProvinceName": "SudurPaschim Pradesh",
+		"Smallest": "",
 	    "NoDis": "9",
         "Districts": "Achham, Baitadi, Bajhang, Bajura, Dadeldhura, Darchula, Doti, Kailali, Kanchanpur"
     }
