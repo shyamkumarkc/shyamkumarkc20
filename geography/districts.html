@@ -10,11 +10,196 @@ $(function(){
 $('#header').load('/assets/header.html');
 });
 </script>
+<style>
 
+
+.app{
+    width:360px;
+    background:#fff;
+    border-radius:18px;
+    padding:20px;
+   
+}
+
+h2{
+    text-align:center;
+    margin-bottom:15px;
+}
+
+/* Input & buttons */
+.input-group{
+    display:flex;
+    gap:8px;
+}
+
+input{
+    flex:1;
+    padding:12px;
+    border-radius:10px;
+    border:1px solid #ccc;
+    font-size:15px;
+    outline:none;
+}
+
+button{
+    padding:12px 14px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:14px;
+}
+
+.clear-btn{
+    background:#dc3545;
+    color:#fff;
+}
+
+.clear-btn:hover{
+    background:#bb2d3b;
+}
+
+/* Suggestions */
+.suggestions{
+    margin-top:6px;
+    max-height:180px;
+    overflow-y:auto;
+    display:none;
+    background:#fff;
+    border-radius:10px;
+    box-shadow:0 8px 22px rgba(0,0,0,.12);
+}
+
+.suggestions div{
+    padding:10px 14px;
+    cursor:pointer;
+}
+
+.suggestions div:hover{
+    background:#f0faff;
+}
+
+/* Result */
+.result{
+    margin-top:18px;
+    padding:12px;
+    border-radius:12px;
+    background:#f9fafc;
+    display:none;
+}
+
+.badge{
+    padding:6px 12px;
+    border-radius:20px;
+    color:#fff;
+    font-size:13px;
+    display:inline-block;
+}
+
+/* Province colors */
+.Koshi{background:#2ecc71}
+.Madhesh{background:#e67e22}
+.Bagamati{background:#3498db}
+.Gandaki{background:#9b59b6}
+.Lumbini{background:#e84393}
+.Karnali{background:#16a085}
+.SudurPaschim{background:#34495e}
+</style>
+</head>
 </head>
 <body>
 <div id ="header"></div>
-<h2>List of districts and province of Nepal</h2>
+<div class="app">
+    <h2>Province Finder</h2>
+
+    <div class="input-group">
+        <input id="search" placeholder="Search district...">
+        <button class="clear-btn" onclick="clearAll()">Clear</button>
+    </div>
+
+    <div class="suggestions" id="suggestions"></div>
+
+    <div class="result" id="result">
+        <p><strong>District:</strong> <span id="district"></span></p>
+        <p><strong>Province:</strong>
+            <span id="province" class="badge"></span>
+        </p>
+    </div>
+</div>
+
+<script>
+const DATA_URL = "https://shyamkumarkc20.com.np/js/districts.json";
+
+let districtList = [];
+
+/* Fetch JSON */
+fetch(DATA_URL)
+  .then(res => res.json())
+  .then(data => {
+    data.forEach(item => {
+      const province = item.ProvinceName.replace(/ Pradesh$/i,"").trim();
+      item.Districts.split(",").forEach(d => {
+        const name = d.trim();
+        if(name){
+            districtList.push({ district:name, province });
+        }
+      });
+    });
+  });
+
+const search = document.getElementById("search");
+const suggestions = document.getElementById("suggestions");
+const result = document.getElementById("result");
+const districtEl = document.getElementById("district");
+const provinceEl = document.getElementById("province");
+
+/* Search */
+search.addEventListener("input", () => {
+    const value = search.value.toLowerCase().trim();
+    suggestions.innerHTML = "";
+
+    if(!value){
+        suggestions.style.display = "none";
+        return;
+    }
+
+    districtList
+      .filter(d => d.district.toLowerCase().includes(value))
+      .forEach(d => {
+          const div = document.createElement("div");
+          div.textContent = d.district;
+          div.onclick = () => selectDistrict(d);
+          suggestions.appendChild(div);
+      });
+
+    suggestions.style.display = suggestions.children.length ? "block" : "none";
+});
+
+/* Select district */
+function selectDistrict(item){
+    districtEl.textContent = item.district;
+
+    provinceEl.textContent = item.province;
+    provinceEl.className = "badge";
+    provinceEl.classList.add(item.province.replace(/\s/g,""));
+
+    result.style.display = "block";
+    suggestions.style.display = "none";
+    search.value = item.district;
+}
+
+/* Clear / Reset */
+function clearAll(){
+    search.value = "";
+    suggestions.innerHTML = "";
+    suggestions.style.display = "none";
+    result.style.display = "none";
+    districtEl.textContent = "";
+    provinceEl.textContent = "";
+    provinceEl.className = "badge";
+}
+</script>
+
+<h2>List of Districts and Province of Nepal</h2>
 <style>
 table {
     border-collapse: collapse;
