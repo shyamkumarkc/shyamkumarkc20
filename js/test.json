@@ -1,9 +1,9 @@
 [
   {
     "Province": "Province1",
-    "Province Name": "Koshi Pradesh",
-    "Capital City": "Biratnagar",
-    "Chief Minister": "Sher Dhan Rai",
+    "ProvinceName": "Koshi Pradesh",
+    "CapitalCity": "Biratnagar",
+    "ChiefMinister": "Sher Dhan Rai",
     "Governor": "Prof. Dr. Govinda Bahadur Tumbahang",
     "No. of Metropolitan City": "1",
     "Metropolitan City": "Biratnagar",
