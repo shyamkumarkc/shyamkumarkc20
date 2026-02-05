@@ -92,6 +92,24 @@
             "lastClosingDate": "",
             "listingDate": "",
             "issueManager": "Nabil Investment Banking Limited"
+        },
+		{
+            "company": "Appolo Hydropower Limited",
+            "units": "1,410,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Himalayan Capital Limited"
+        },
+		{
+            "company": "Kalinchowk Hydropower Limited",
+            "units": "1375,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "RBB Merchant Banking Limited"
         }
     ],
     "future": [
@@ -403,9 +421,7 @@
             "closingDate": " ",
             "lastClosingDate": " ",
             "issueManager": "Laxmi Sunrise Capital Market Limited"
-        },
-        
-        
+        },    
         
         {
             "company": "Kailash Helicopter Services Limited",
@@ -471,15 +487,7 @@
             "lastClosingDate": " ",
             "issueManager": "Nepal SBI Merchant Banking Limited"
         },
-        {
-            "company": "Kalinchowk Hydropower Limited",
-            "units": "750,000.00",
-            "price": "100.00",
-            "openingDate": " ",
-            "closingDate": " ",
-            "lastClosingDate": " ",
-            "issueManager": "RBB Merchant Banking Limited"
-        },
+        
         {
             "company": "Sanigad Hydro Limited",
             "units": "8,550,000.00",
@@ -498,15 +506,7 @@
             "lastClosingDate": " ",
             "issueManager": "Sanima Capital Limited"
         },
-        {
-            "company": "Appolo Hydropower Limited",
-            "units": "1,410,000.00",
-            "price": "100.00",
-            "openingDate": " ",
-            "closingDate": " ",
-            "lastClosingDate": " ",
-            "issueManager": "Himalayan Capital Limited"
-        },
+        
         {
             "company": "Gaurishankar Power Development Limited",
             "units": "2,400,000.00",
@@ -847,7 +847,7 @@
             "issueManager": "Global IME Capital Limited"
         },
 		{
-            "company": " Paicho Pasal Limited",
+            "company": "Paicho Pasal Limited",
             "units": "",
             "price": "",
             "openingDate": "",
@@ -1141,14 +1141,14 @@
     "rightShare": [
         {
             
-            "company": "Nepal Insurance Company Limited",
-            "units": "6,576,967.76",
+            "company": "Buddha Bhumi Nepal Hydropower Company Limited",
+            "units": "4,000,000.00",
             "price": "100.00",
-            "openingDate": "2025-07-22",
-            "closingDate": "2025-08-18",
-            "lastClosingDate": "2025-08-18",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
             "listingDate": "",
-            "issueManager": "NIMB Ace Capital Limited"
+            "issueManager": "NIC Asia Capital Limited"
         },
 		{
             "company": "Khani Khola Hydropower Company Limited",
@@ -1340,14 +1340,14 @@
             "issueManager": "Global IME Capital Limited"
         },
         {
-            "company": "Prabhu Systematic Investment Scheme",
-            "units": "25,000,000.00",
+            "company": "Garima Subarna Yojana",
+            "units": "10,000,000.00",
             "price": "10.00",
-            "openingDate": "2025-06-06",
-            "closingDate": "2025-06-20",
-            "lastClosingDate": "2025-06-20",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
             "listingDate": "",
-            "issueManager": "Prabhu Capital Limited"
+            "issueManager": "Garima Capital Limited"
         },
 		{
             "company": "NI 31",
@@ -1401,6 +1401,16 @@
             "lastClosingDate": "",
             "listingDate": "",
             "issueManager": ""
+        },
+		{
+            "company": "8.25% Sanima Perpetual Non-cumulative Preference Share",
+            "units": "20,000,000.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Muktinath Capital Limited"
         }
 		
     ],
@@ -1498,7 +1508,25 @@
             "lastClosingDate": "",
             "listingDate": "",
             "issueManager": "Kumari Capital Limited"
-        }
+        },
+		{
+            "company": "Appolo Hydropower Limited",
+            "units": "141,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Himalayan Capital Limited"
+        },
+		{
+            "company": "Kalinchowk Hydropower Limited",
+            "units": "137,500.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "RBB Merchant Banking Limited"
+        },
     ],
     "debenture": [
         {
@@ -1560,6 +1588,16 @@
             "lastClosingDate": " ",
             "listingDate": "",
             "issueManager": "Machhapuchchhre Capital Limited"
+        },
+		{
+            "company": "8% ICFC Finance Limited Debenture 2089",
+            "units": "300,000.00",
+            "price": "1000.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "listingDate": "",
+            "issueManager": "Kumari Capital Limited"
         }
     ]
 }
