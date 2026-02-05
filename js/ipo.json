@@ -1107,6 +1107,36 @@
             "listingDate": "",
             "issueManager": "Kumari Capital Limited"
         },
+		{
+            "company": "Hotel Ichchha Limited",
+            "units": "3,500,000.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Himalayan Capital Limited"
+        },
+		{
+            "company": "Hulas Iron Industries Limited",
+            "units": "9,750,000.00",
+            "price": "255.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Kumari Capital Limited"
+        },
+		{
+            "company": "O.N. Biotech & Research Public Limited",
+            "units": "3,000,000.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Global IME Capital Limited"
+        },
         {
             "company": "",
             "units": "",
@@ -1526,7 +1556,8 @@
             "closingDate": " ",
             "lastClosingDate": " ",
             "issueManager": "RBB Merchant Banking Limited"
-        },
+        }
+		
     ],
     "debenture": [
         {
