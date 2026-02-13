@@ -1,117 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>SHYAM KUMAR K.C.</title>
-<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
-</script>
+<meta charset="UTF-8">
+<title>Loan EMI Calculator Nepal | Monthly EMI Tool</title>
+<meta name="description" content="Free EMI calculator for loans in Nepal. Calculate monthly EMI, total interest, and total payment instantly.">
 <script>
 $(function(){
 $('#header').load('/assets/header.html');
 });
 </script>
+<style>
+body{
+font-family:Arial;
+background:#f4f7fb;
 
+
+
+height:100vh;
+margin:0;
+}
+
+.container{
+
+padding:30px;
+width:320px;
+border-radius:12px;
+box-shadow:0 8px 25px rgba(0,0,0,0.1);
+}
+
+h1{
+text-align:center;
+margin-bottom:20px;
+font-size:22px;
+}
+h{
+
+margin-bottom:20px;
+font-size:22px;
+}
+
+label{
+font-weight:bold;
+display:block;
+margin-top:12px;
+}
+
+input{
+width:100%;
+padding:10px;
+margin-top:5px;
+border-radius:6px;
+border:1px solid #ccc;
+}
+
+button{
+margin-top:20px;
+width:100%;
+padding:12px;
+border:none;
+background:#007bff;
+color:white;
+font-size:16px;
+border-radius:8px;
+cursor:pointer;
+}
+
+button:hover{
+background:#0056b3;
+}
+
+.result{
+margin-top:20px;
+padding:15px;
+background:#eef3ff;
+border-radius:10px;
+display:none;
+}
+
+.result p{
+margin:6px 0;
+font-weight:bold;
+}
+</style>
 </head>
 <body>
-<div id ="header"></div>
-<style>
-body {
-  background: #ffffff;
-  font-family: sans-serif;
-}
 
-#loancal {
-  width: 345px;
-  height: 420px;
-  background-color: white;
-  color: #fff;
-  padding: 10px;
-  margin: 100px auto;
-  border-radius: 3px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-h1 {
-  font-size: 30px;
-  text-align: center;
-  color: #f3558e;
-  margin-bottom: 35px;
-}
+<div class="container">
 
-.input {
-  margin-left: 40px;
-  margin-right: 40px;
-}
-p {
-  color: #581b98;
-  font-size: 17px;
-  font-weight: 600;
-}
-input {
-  width: 100%;
-  height: 33px;
-}
+<h1>Loan EMI Calculator</h1>
 
-h2 {
-  text-align: center;
-  color: rgb(6, 111, 139);
-  margin-top: 35px;
-}
+<label>Loan Amount (Rs)</label>
+<input type="number" id="amount" placeholder="Enter loan amount">
 
-.btn {
-  margin: 20px auto;
-  display: flex;
-  justify-content: center;
-}
-button {
-  width: 100%;
-  max-width: 200px;
-  height: 35px;
-  border-radius: 5px;
-  outline: none;
-  border: none;
-  background-color: #303a52;
-  color: #ffffff;
-  font-size: 14px;
-  font-weight: 600;
-  cursor: pointer;
-}
+<label>Interest Rate (%)</label>
+<input type="number" id="rate" placeholder="Annual interest">
 
+<label>Months to Pay</label>
+<input type="number" id="months" placeholder="Loan duration">
 
-</style>
-   
-  </head>
-  <body>
-<div id="loancal">
-  <h1>Loan EMI Calculator</h1>
-  <div class="input">
-    <p>Loan Amount: Rs</p>
-    <input id="amount" type="number" min="1" max="5000000">
-    <p>Interest Rate: %</p>
-    <input id="interest_rate" min="0" max="100" value="" step=".1">
-    <p>Months to Pay: </p>
-    <input id="months" type="number" min="1" max="300" value="" step="1">
-  </div>
-  <div class="btn">
-    <button id="btn" onclick="computeLoan()">Calculate</button>
-  </div>
-  <h2 id="payment"></h2>
+<button onclick="calculateEMI()">Calculate EMI</button>
+
+<div class="result" id="result">
+<p id="emi"></p>
+<p id="interest"></p>
+<p id="total"></p>
 </div>
-    <script>
-function computeLoan() {
-  const calculete_btn = document.querySelector("#btn");
-  const amount = document.querySelector("#amount").value;
-  const interest_rate = document.querySelector("#interest_rate").value;
-  const months = document.querySelector("#months").value;
-  const interest = (amount * (interest_rate * 0.01)) / months;
-  let payment = (amount / months + interest).toFixed(2);
-  payment = payment.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-  document.querySelector(
-    "#payment"
-  ).innerHTML = `Monthly Payment = Rs${payment}`;
+
+</div>
+<div>
+<h2>About EMI Calculator</h2>
+<p>
+This loan EMI calculator helps you estimate monthly installments for personal loans, home loans, or business loans. Enter loan amount, interest rate, and duration to instantly calculate EMI, total interest, and total repayment.
+</p></div>
+
+<script>
+function calculateEMI(){
+
+let P=document.getElementById("amount").value;
+let annualRate=document.getElementById("rate").value;
+let N=document.getElementById("months").value;
+
+if(P==""||annualRate==""||N==""){
+alert("Please fill all fields");
+return;
 }
 
-    </script> <br/>
-  <script>
+let r=(annualRate/12)/100;
+
+let emi=(P*r*Math.pow(1+r,N))/(Math.pow(1+r,N)-1);
+
+let totalPayment=emi*N;
+let totalInterest=totalPayment-P;
+
+document.getElementById("result").style.display="block";
+
+document.getElementById("emi").innerHTML=
+"Monthly EMI: Rs "+emi.toFixed(2);
+
+document.getElementById("interest").innerHTML=
+"Total Interest: Rs "+totalInterest.toFixed(2);
+
+document.getElementById("total").innerHTML=
+"Total Payment: Rs "+totalPayment.toFixed(2);
+}
+</script>
+
+ <script>
 $(function(){
 $('#footer').load('/assets/footer.html');
 });
