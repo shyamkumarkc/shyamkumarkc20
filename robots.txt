@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shyamkumarkc20.com.np/sitemap.xml
