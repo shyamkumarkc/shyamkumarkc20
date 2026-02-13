@@ -1,120 +1,318 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Development Banks In Nepal</title>
-<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<script>
-$(function(){
-  $('#header').load('/assets/header.html');
-});
-</script>
-<style>
-  body {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    background: #f9fafb;    
-    line-height: 1.6;
-    color: #222;
-    margin: 20px;
-    padding: 0;   /* remove all padding */
-  }
-  h1 {
-    margin: 20px;
-    padding: 0;   /* no padding */
-  }
-  .container {
-    padding: 0;   /* no padding */
-    
-    margin: 20px;
-  }
-  .cablecar {
-    padding-bottom: 2rem;
-    border-bottom: 1px solid #ddd;
-  }
-  .cablecar h2 {
-    font-size: 1.6rem;
-    margin: 0;
-    color: #1e3a8a;
-  }
-  .meta {
-    margin: 0.4rem 0 0.8rem;
-    font-size: 0.95rem;
-    color: #444;
-  }
-  .cablecar img {
-    display: block;
-    margin: 1rem auto;
-    max-width: 100%;
-    height: auto;
-    border-radius: 6px;
-  }
-  .desc {
-    margin: 1rem 0;
-    font-size: 1rem;
-  }
-  .details {
-    margin-top: 0.8rem;
-    font-size: 0.9rem;
-  }
-  .details strong {
-    color: #1e40af;
-  }
-  .links {
-    margin-top: 0.6rem;
-  }
-  .links a {
-    color: #2563eb;
-    text-decoration: none;
-    font-size: 0.9rem;
-  }
-  .links a:hover {
-    text-decoration: underline;
-  }
-</style>
-</head>
-<body>
-  <div id="header"></div>
+  <meta charset="UTF-8">
+  <title>Commercial Banks in Nepal – Financial Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Interactive dashboard of commercial banks in Nepal with financial statistics, CEO details, branches, ATMs and profit charts.">
 
-  <h1>Development Banks In Nepal</h1>
-  <div class="container" id="cableCars"></div>
+  <link rel="shortcut icon" href="/brp.jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Header Load -->
   <script>
-    fetch("https://shyamkumarkc20.com.np/js/developmentbanks.json")
-      .then(response => response.json())
-      .then(data => {
-        const container = document.getElementById("cableCars");
-
-        data.forEach(item => {
-          const block = document.createElement("div");
-          block.className = "cablecar";
-          block.innerHTML = `
-            <h2>${item.SNO}. ${item.Name} (${item.Name1})</h2>
-            <p class="meta"><strong>Year:</strong> ${item.ODAD || "N/A"} [${item.ODBS || "N/A"}] | 
-              <strong>Branch:</strong> ${item.branch || "-"} | 
-              <strong>ATM:</strong> ${item.ATM || "-"}
-              <strong>Extension Counter:</strong> ${item.ext || "-"}
-              <strong>BLB:</strong> ${item.blb || "-"}</p>
-            <img src="${item.IMG}" alt="${item.Name}" width="200" height="200">
-            <p class="desc">${item.desc || ""}</p>
-            <p class="ceo">Current CEO of ${item.Name || ""} is ${item.ceo || ""} and the current chairman of the bank is ${item.chairman || ""}. The bank has been serving its ${item.Customer || ""} customers through ${item.branch || ""} branches, ${item.ATM || ""} ATMs, ${item.ext || ""} extention & revenue counters, ${item.blb || ""} branchless banking and via digital services like mobile banking
-            application <b>${item.app || ""}</b> and internet banking.
-             The Bank has paid-up capital of NPR ${item.paidup || ""} Billion.</p>
-           
-            <div class="links">
-              ${item.links ? `<a href="https://shyamkumarkc20.com.np${item.links}">>>> Read More>>></a>` : ""}
-            </div>
-          `;
-          container.appendChild(block);
-        });
-      })
-      .catch(error => console.error("Error loading JSON:", error));
-  </script>
-
-  <script>
-    $(function(){
+    $(function () {
+      $('#header').load('/assets/header.html');
       $('#footer').load('/assets/footer.html');
     });
   </script>
-  <div id="footer"></div>
+
+<style>
+body{
+font-family:Arial;
+margin:0;
+background:#f4f7fb;
+}
+
+.wrapper{
+padding:20px;
+max-width:1000px;
+margin:auto;
+}
+
+h1{
+text-align:center;
+margin-bottom:5px;
+}
+
+.subtitle{
+text-align:center;
+margin-bottom:20px;
+color:#555;
+}
+
+select{
+width:100%;
+padding:12px;
+border-radius:8px;
+border:1px solid #ccc;
+margin-bottom:15px;
+font-size:16px;
+}
+
+.loading{
+text-align:center;
+font-weight:bold;
+margin:15px 0;
+color:#1e88e5;
+}
+
+/* dashboard table */
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:15px;
+}
+
+td{
+padding:12px;
+border:1px solid #ccc;
+text-align:center;
+font-size:14px;
+font-weight:bold;
+}
+
+td i{
+display:block;
+margin-bottom:5px;
+font-size:20px;
+}
+
+/* theme colors */
+.stat{background:#e3f2fd;}
+.stat2{background:#e8f5e9;}
+.stat3{background:#fff3e0;}
+.stat4{background:#f3e5f5;}
+
+.section{
+margin-top:25px;
+}
+
+/* animations */
+.pulse{animation:pulse 2s infinite;}
+.spin{animation:spin 3s linear infinite;}
+.bounce{animation:bounce 2s infinite;}
+.glow{animation:glow 1.5s infinite alternate;}
+
+@keyframes pulse{0%,100%{transform:scale(1);}50%{transform:scale(1.15);}}
+@keyframes spin{0%{transform:rotate(0);}100%{transform:rotate(360deg);}}
+@keyframes bounce{0%,100%{transform:translateY(0);}50%{transform:translateY(-5px);}}
+@keyframes glow{from{color:#2196f3;}to{color:#e91e63;}}
+
+/* responsive */
+@media(max-width:600px){
+td{font-size:12px;padding:8px;}
+}
+</style>
+
+<!-- Schema markup -->
+<script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@type":"Dataset",
+"name":"Commercial Banks in Nepal",
+"description":"Interactive financial dataset of commercial banks in Nepal with statistics and details."
+}
+</script>
+
+</head>
+
+<body>
+
+<div id="header"></div>
+
+<div class="wrapper">
+
+<h1>Commercial Banks in Nepal</h1>
+<p class="subtitle">Select a bank to view financial statistics, branches, ATM count and performance chart.</p>
+
+<div class="loading" id="loading">Loading bank database...</div>
+
+<select id="nameDropdown" onchange="showDetails()">
+<option disabled selected>Select Bank</option>
+</select>
+
+<div id="bankInfo2"></div>
+<div id="bankInfo1"></div>
+
+<!-- Dashboard -->
+<table>
+<tr><td colspan="3" id="over" style="background:#ffe082;"></td></tr>
+<tr>
+<td class="stat" id="paidup"><i class="fa-solid fa-piggy-bank pulse"></i></td>
+<td class="stat2" id="customer"><i class="fa-solid fa-users bounce"></i></td>
+<td class="stat3" id="atm"><i class="fa-solid fa-credit-card spin"></i></td>
+</tr>
+<tr>
+<td class="stat4" id="branch"><i class="fa-solid fa-building"></i></td>
+<td class="stat" id="ext"><i class="fa-solid fa-house-flag"></i></td>
+<td class="stat2" id="blb"><i class="fa-solid fa-wifi"></i></td>
+</tr>
+<tr>
+<td class="stat3" id="ly"><i class="fa-solid fa-chart-line glow"></i></td>
+<td class="stat4" id="cy"><i class="fa-solid fa-chart-column pulse"></i></td>
+<td class="stat" id="eps"><i class="fa-solid fa-coins bounce"></i></td>
+</tr>
+</table>
+
+<div class="section">
+<h2 id="detail"></h2>
+<div id="bankInfo"></div>
+</div>
+
+<div class="section">
+<h2>Merged BFIs</h2>
+<div id="subInfo1"></div>
+
+<h2>First In Nepal</h2>
+<div id="first"></div>
+
+<h2>Awards</h2>
+<div id="subInfo2"></div>
+
+<h2>Subsidiary Companies</h2>
+<div id="subInfo"></div>
+
+<h2>Profit Chart</h2>
+<canvas id="profitChart"></canvas>
+
+<h2>Business Hours</h2>
+<table>
+<tr>
+<td colspan="3"><b>Summer Hour</b></td>
+<td colspan="3"><b>Winter Hour</b></td>
+</tr>
+<tr>
+<td colspan="3" id="shours"></td>
+<td colspan="3" id="whours"></td>
+</tr>
+</table>
+</div>
+
+<!-- Hidden SEO text -->
+<div style="display:none">
+List of commercial banks in Nepal including Nepal Bank Limited, Nabil Bank, Global IME Bank and other licensed Class A banks.
+</div>
+
+</div>
+
+<div id="footer"></div>
+
+<!-- ChartJS load only when needed -->
+<script>
+function loadChartScript(callback){
+if(window.Chart){callback();return;}
+let script=document.createElement("script");
+script.src="https://cdn.jsdelivr.net/npm/chart.js";
+script.onload=callback;
+document.body.appendChild(script);
+}
+</script>
+
+<script>
+const apiUrl='https://shyamkumarkc20.com.np/js/commercialbanks.json';
+let data=[];
+let chart=null;
+
+async function fetchData(){
+try{
+const res=await fetch(apiUrl);
+data=await res.json();
+
+if(!Array.isArray(data)||data.length===0){
+document.getElementById("loading").innerText="No data available";
+return;
+}
+
+document.getElementById("loading").style.display="none";
+populateDropdown();
+
+}catch(e){
+document.getElementById("loading").innerText="Failed to load data";
+}
+}
+
+function populateDropdown(){
+const dropdown=document.getElementById('nameDropdown');
+data.forEach(bank=>{
+let opt=document.createElement('option');
+opt.value=bank.Name;
+opt.textContent=bank.Name;
+dropdown.appendChild(opt);
+});
+}
+
+function renderChart(bank){
+loadChartScript(()=>{
+
+const ctx=document.getElementById('profitChart').getContext('2d');
+if(chart)chart.destroy();
+
+let profit=bank.profit||{};
+chart=new Chart(ctx,{
+type:'bar',
+data:{
+labels:Object.keys(profit),
+datasets:[{
+data:Object.values(profit).map(v=>parseFloat(v)||0),
+backgroundColor:"#42a5f5",
+borderRadius:6
+}]
+},
+options:{
+plugins:{legend:{display:false}},
+responsive:true,
+scales:{y:{beginAtZero:true}}
+}
+});
+});
+}
+
+function showDetails(){
+let name=document.getElementById('nameDropdown').value;
+let bank=data.find(b=>b.Name===name);
+if(!bank)return;
+
+document.getElementById('bankInfo2').innerHTML=`<h2>${bank.Name}</h2>`;
+document.getElementById('over').innerHTML=`Overview of ${bank.Name}`;
+document.getElementById('detail').innerHTML=`${bank.Name} Details`;
+document.getElementById('bankInfo1').innerHTML=bank.desc||"";
+
+paidup.innerHTML=`<i class="fa-solid fa-piggy-bank pulse"></i>Paid-up: ${bank.paidup||''} B`;
+customer.innerHTML=`<i class="fa-solid fa-users bounce"></i>Customers: ${bank.Customer||''}`;
+atm.innerHTML=`<i class="fa-solid fa-credit-card spin"></i>ATM: ${bank.ATM||''}`;
+branch.innerHTML=`<i class="fa-solid fa-building"></i>Branches: ${bank.branch||''}`;
+ext.innerHTML=`<i class="fa-solid fa-house-flag"></i>Ext: ${bank.ext||''}`;
+blb.innerHTML=`<i class="fa-solid fa-wifi"></i>BLB: ${bank.blb||''}`;
+ly.innerHTML=`<i class="fa-solid fa-chart-line glow"></i>LY: ${bank.LY||''}`;
+cy.innerHTML=`<i class="fa-solid fa-chart-column pulse"></i>CY: ${bank.CY||''}`;
+eps.innerHTML=`<i class="fa-solid fa-coins bounce"></i>EPS: ${bank.EPS||''}`;
+
+document.getElementById('bankInfo').innerHTML=`
+${bank.IMG?`<img src="${bank.IMG}" width="200">`:''}
+<p><b>Head Office:</b> ${bank.HO||''}</p>
+<p><b>CEO:</b> ${bank.ceo||''}</p>
+<p><b>Chairman:</b> ${bank.chairman||''}</p>
+<p><b>SWIFT:</b> ${bank.Swift||''}</p>
+<p><b>Phone:</b> ${bank.phone1||''}</p>
+<p><b>Email:</b> ${bank.email||''}</p>
+<p><b>Website:</b> <a href="https://${bank.Website}" target="_blank">${bank.Website||''}</a></p>
+`;
+
+first.innerHTML=bank.first||"";
+subInfo1.innerHTML=bank.merger||"";
+subInfo2.innerHTML=bank.awards||"";
+subInfo.innerHTML=bank.subsidiaries||"";
+shours.innerHTML=bank.shours||"";
+whours.innerHTML=bank.whours||"";
+
+renderChart(bank);
+}
+
+fetchData();
+</script>
+
 </body>
 </html>
