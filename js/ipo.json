@@ -10,6 +10,15 @@
             "issueManager": "Sanima Capital Limited"
         },
 		{
+            "company": "Beni Hydropower Project Limited",
+            "units": "2,080,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "NMB Capital Limited"
+        },
+		{
             "company": "Suryakunda Hydro Electric Limited",
             "units": "572,431.00",
             "price": "100.00",
@@ -57,11 +66,11 @@
         },
 		{
             "company": "Palpa Cements Industries Limited",
-            "units": "7,500,000.00",
+            "units": "4,500,000.00",
             "price": "100.00",
-            "openingDate": " ",
-            "closingDate": " ",
-            "lastClosingDate": " ",
+            "openingDate": "2026-02-24",
+            "closingDate": "2026-02-27",
+            "lastClosingDate": "2026-03-10",
             "issueManager": "Nabil Investment Banking Limited"
         },
         {
@@ -76,11 +85,11 @@
         },
 		{
             "company": "Super Khudi Hydropower Limited",
-            "units": "3,100,000.00",
+            "units": "1,286,500.00",
             "price": "100.00",
-            "openingDate": " ",
-            "closingDate": " ",
-            "lastClosingDate": " ",
+            "openingDate": "2026-02-16",
+            "closingDate": "2026-02-22",
+            "lastClosingDate": "2026-03-03",
             "issueManager": "Global IME Capital Limited"
         },        
         {
@@ -675,15 +684,7 @@
             "lastClosingDate": " ",
             "issueManager": "Muktinath Capital Limited"
         },
-        {
-            "company": "Beni Hydropower Project Limited",
-            "units": "2,080,000.00",
-            "price": "100.00",
-            "openingDate": " ",
-            "closingDate": " ",
-            "lastClosingDate": " ",
-            "issueManager": "NMB Capital Limited"
-        },
+        
         {
             "company": "Richet Jalbidhyut Company Limited",
             "units": "1,176,450.00",
@@ -1454,6 +1455,15 @@
             "lastClosingDate": "",
             "listingDate": "",
             "issueManager": "Nabil Investment Banking Limited"
+        },
+		{
+            "company": "Beni Hydropower Project Limited",
+            "units": "280,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "NMB Capital Limited"
         },
 		{
             "company": "Shikhar Power Development Limited",
