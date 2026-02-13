@@ -1274,6 +1274,16 @@
             "lastClosingDate": "",
             "listingDate": "",
             "issueManager": ""
+        },
+		{
+            "company": "United Ajod Insurance Limited",
+            "units": "2,310,000.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Laxmi Sunrise Capital Limited"
         }
     ],
     "fpo": [
@@ -1632,11 +1642,11 @@
         },
 		{
             "company": "8% ICFC Finance Limited Debenture 2089",
-            "units": "300,000.00",
+            "units": "500,000.00",
             "price": "1000.00",
-            "openingDate": " ",
-            "closingDate": " ",
-            "lastClosingDate": " ",
+            "openingDate": "2026-02-23",
+            "closingDate": "2026-02-26",
+            "lastClosingDate": "2026-03-09",
             "listingDate": "",
             "issueManager": "Kumari Capital Limited"
         }
