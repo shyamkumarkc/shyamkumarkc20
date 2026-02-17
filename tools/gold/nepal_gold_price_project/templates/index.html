@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Nepal Gold Price</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="wrap">
+
+<div class="date">
+<div id="d">--</div>
+<div id="m">---</div>
+<div id="y">----</div>
+</div>
+
+<div class="card">
+<h3>FINE GOLD (9999)</h3>
+<p>per 10 gram</p>
+<div class="price" id="fine">Loading</div>
+</div>
+
+<div class="card">
+<h3>TEJABI GOLD</h3>
+<p>per 10 gram</p>
+<div class="price" id="tejabi">Loading</div>
+</div>
+
+<div class="card">
+<h3>SILVER</h3>
+<p>per 10 gram</p>
+<div class="price" id="silver">Loading</div>
+</div>
+
+</div>
+
+<div class="time">Updated: <span id="t">--</span></div>
+
+<script>
+function load(){
+fetch("/api")
+.then(r=>r.json())
+.then(d=>{
+document.getElementById("fine").innerHTML="Nrs "+d.fine;
+document.getElementById("tejabi").innerHTML="Nrs "+d.tejabi;
+document.getElementById("silver").innerHTML="Nrs "+d.silver;
+document.getElementById("t").innerText=d.time;
+
+let now=new Date();
+d1.innerText=now.getDate();
+m.innerText=now.toLocaleString('default',{month:'short'});
+y.innerText=now.getFullYear();
+});
+}
+load();
+setInterval(load,180000);
+</script>
+
+</body>
+</html>
