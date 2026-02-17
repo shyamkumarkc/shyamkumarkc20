@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Nepal Gold Price</title>
+<style>
+  body{
+font-family:Arial;
+background:#eee;
+margin:0;
+text-align:center;
+}
+
+.container{
+display:flex;
+justify-content:center;
+margin-top:50px;
+}
+
+.datebox{
+background:#9c1c1c;
+color:white;
+padding:15px;
+width:120px;
+}
+
+#day{font-size:40px;font-weight:bold}
+#month{background:#083a80;margin:10px 0;padding:5px}
+#year{background:#f3c200;color:black;padding:5px}
+
+.card{
+background:#f3b400;
+margin-left:10px;
+padding:20px;
+width:260px;
+box-shadow:0 0 10px rgba(0,0,0,.2);
+}
+
+.card h1{
+font-size:32px;
+margin:10px 0;
+}
+
+.update{
+margin-top:20px;
+font-weight:bold;
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<div class="datebox">
+<div id="day">--</div>
+<div id="month">---</div>
+<div id="year">----</div>
+</div>
+
+<div class="card">
+<h3>FINE GOLD (9999)</h3>
+<p>per 10 gram</p>
+<h1 id="fine">Loading...</h1>
+</div>
+
+<div class="card">
+<h3>TEJABI GOLD</h3>
+<p>per 10 gram</p>
+<h1 id="tejabi">Loading...</h1>
+</div>
+
+<div class="card">
+<h3>SILVER</h3>
+<p>per 10 gram</p>
+<h1 id="silver">Loading...</h1>
+</div>
+
+</div>
+
+<div class="update">
+Last updated: <span id="time">--</span>
+</div>
+
+<script>
+function loadData(){
+fetch("/api")
+.then(res=>res.json())
+.then(data=>{
+document.getElementById("fine").innerHTML="Nrs "+data.fine_gold;
+document.getElementById("tejabi").innerHTML="Nrs "+data.tejabi_gold;
+document.getElementById("silver").innerHTML="Nrs "+data.silver;
+document.getElementById("time").innerText=data.updated;
+
+let d=new Date();
+document.getElementById("day").innerText=d.getDate();
+document.getElementById("month").innerText=d.toLocaleString('default',{month:'short'});
+document.getElementById("year").innerText=d.getFullYear();
+});
+}
+loadData();
+setInterval(loadData,180000);
+</script>
+
+</body>
+</html>
