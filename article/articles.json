@@ -11,5 +11,11 @@
 "desc":"Depository system Nepal",
 "url":"/sharemarket/cdsc",
 "date":"2026-02-01"
+},
+  {
+"title":"NEPSE",
+"desc":"Nepal Stock Exchange",
+"url":"/sharemarket/nepse",
+"date":"2026-02-01"
 }
 ]
