@@ -1,266 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Commercial Banks In Nepal</title>
-  <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<meta charset="UTF-8">
+<title>Smart Article Hub</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <script>
-    $(function () {
-      $('#header').load('/assets/header.html');
-    });
-  </script>
+<style>
+body{
+margin:0;
+font-family:system-ui;
+background:#f5f7fb;
+}
 
-  <style>
-    body1 { padding-left: 20px; }
+/* SECTION */
+.smartHub{
+max-width:1200px;
+margin:60px auto;
+padding:0 15px;
+}
 
-    table {
-      padding-left: 20px;
-      border-collapse: collapse;
-    }
-    td {
-      padding: 12px;
-      border: 1px solid #ccc;
-      text-align: center;
-      font-size: 14px;
-      font-weight: bold;
-    }
-    td i {
-      display: block;
-      margin-bottom: 5px;
-      font-size: 20px;
-    }
+.hub-title{
+text-align:center;
+font-size:32px;
+margin-bottom:30px;
+}
 
-    /* Backgrounds */
-    #paidup { background-color: #d958db; }
-    #customer { background-color: #11aee5; }
-    #atm { background-color: #add8e6; }
-    #branch { background-color: #90ee90; }
-    #ext { background-color: #ffebcd; }
-    #blb { background-color: #ffcccb; }
-    #cy { background-color: #ebbccd; }
-    #ly { background-color: #c1ebbc; }
-    #eps { background-color: #add8e6; }
-    #shours { background-color: #edf511; }
-    #whours { background-color: #ed075b; }
-    #shour { background-color: #ebbccd; }
-    #whour { background-color: #c1ebbc; }
+/* GRID */
+.hub-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:22px;
+}
 
-    section { width: 100%; max-width: 600px; padding-left: 20px; }
+/* CARD */
+.card{
+background:#fff;
+border-radius:18px;
+padding:22px;
+box-shadow:0 8px 24px rgba(0,0,0,.08);
+transition:.35s;
+position:relative;
+}
 
-    /* Animations */
-    .pulse { animation: pulse 2s infinite; }
-    .spin { animation: spin 3s linear infinite; }
-    .bounce { animation: bounce 2s infinite; }
-    .glow { animation: glow 1.5s infinite alternate; }
+.card:hover{
+transform:translateY(-8px);
+box-shadow:0 18px 40px rgba(0,0,0,.18);
+}
 
-    @keyframes pulse {
-      0%, 100% { transform: scale(1); }
-      50% { transform: scale(1.2); }
-    }
-    @keyframes spin {
-      0% { transform: rotate(0); }
-      100% { transform: rotate(360deg); }
-    }
-    @keyframes bounce {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-5px); }
-    }
-    @keyframes glow {
-      from { color: #2196f3; text-shadow: 0 0 5px #2196f3; }
-      to { color: #f44336; text-shadow: 0 0 10px #f44336; }
-    }
-  </style>
+.card h3{
+margin:0 0 12px;
+font-size:20px;
+color:#111;
+}
+
+.card p{
+font-size:14px;
+color:#555;
+margin:0;
+}
+
+.read{
+margin-top:18px;
+display:inline-block;
+background:linear-gradient(45deg,#0a66ff,#0044cc);
+color:#fff;
+padding:9px 18px;
+border-radius:10px;
+font-size:13px;
+text-decoration:none;
+}
+
+.views{
+font-size:12px;
+color:#777;
+margin-top:12px;
+}
+
+/* BADGES */
+.badge{
+position:absolute;
+top:14px;
+right:14px;
+font-size:11px;
+padding:5px 11px;
+border-radius:20px;
+color:#fff;
+font-weight:600;
+}
+
+.trending{background:#ff3b3b}
+.new{background:#00b894}
+.pick{background:#6c5ce7}
+.ai{background:#ff9f43}
+
+/* MOBILE */
+@media(max-width:600px){
+.hub-title{font-size:24px}
+}
+</style>
 </head>
 
 <body>
-  <div id="header"></div>
+
+<section class="smartHub">
+<h2 class="hub-title">📊 Explore Articles</h2>
+<div id="hubGrid" class="hub-grid"></div>
+</section>
+
 <script>
-    $(function () {
-      $('#ipowidget').load('/assets/ipowidget.html');
-    });
-  </script>
 
-  <div id="ipowidget"></div>
-  <body1>
-    <select id="nameDropdown" onchange="showDetails()"></select>
+// ===== YOUR JSON FILE =====
+const DATA_URL="https://shyamkumarkc20.com.np/article/articles.json";
 
-    <div id="bankInfo2" class="bank-container" style="margin-top: 20px;"></div>
-    <div id="bankInfo1" class="bank-container" style="margin-top: 20px;"></div>
+// fallback demo if JSON missing
 
-    <!-- Dashboard -->
-    <table>
-      <tr><td id="over" colspan="3" style="background-color: #ffca33;"></td></tr>
-      <tr>
-        <td id="paidup" class="bank-container"><i class="fa-solid fa-piggy-bank pulse"></i></td>
-        <td id="customer" class="bank-container"><i class="fa-solid fa-users bounce"></i></td>
-        <td id="atm" class="bank-container"><i class="fa-solid fa-credit-card spin"></i></td>
-      </tr>
-      <tr>
-        <td id="branch" class="bank-container"><i class="fa-solid fa-building"></i></td>
-        <td id="ext" class="bank-container"><i class="fa-solid fa-house-flag"></i></td>
-        <td id="blb" class="bank-container"><i class="fa-solid fa-wifi"></i></td>
-      </tr>
-      <tr>
-        <td id="ly" class="bank-container"><i class="fa-solid fa-chart-line glow"></i></td>
-        <td id="cy" class="bank-container"><i class="fa-solid fa-chart-column pulse"></i></td>
-        <td id="eps" class="bank-container"><i class="fa-solid fa-coins bounce"></i></td>
-      </tr>
-    </table>
 
-    <br>
-    <section>
-      <h2 id="detail"></h2>
-      <div id="bankInfo" class="bank-container"></div>
+fetch(DATA_URL)
+.then(r=>r.json())
+.then(data=>initWidget(data))
+.catch(()=>initWidget(fallback));
 
-      <h2>Merged BFIs</h2>
-      <div id="subInfo1" class="bank-container"></div>
 
-      <h2>First In Nepal</h2>
-      <div id="first" class="bank-container"></div>
+// ===== MAIN ENGINE =====
+function initWidget(articles){
 
-      <h2>Awards</h2>
-      <div id="subInfo2" class="bank-container"></div>
+// attach view count
+articles.forEach(a=>{
+a.views=Number(localStorage.getItem("views_"+a.url))||0;
+});
 
-      <h2>Subsidiary Companies</h2>
-      <div id="subInfo" class="bank-container"></div>
+// trending
+let trending=[...articles].sort((a,b)=>b.views-a.views).slice(0,2);
 
-      <h2>Profit Chart</h2>
-      <canvas id="profitChart" width="600" height="400"></canvas>
+// newest
+let newest=[...articles]
+.sort((a,b)=>new Date(b.date)-new Date(a.date))
+.slice(0,2);
 
-      <h2>Business Hours</h2>
-      <table>
-        <tr>
-          <td id="shour" colspan="3"><b>Summer Hour</b></td>
-          <td id="whour" colspan="3">Winter Hour</td>
-        </tr>
-        <tr>
-          <td id="shours" colspan="3"></td>
-          <td id="whours" colspan="3"></td>
-        </tr>
-      </table>
-    </section>
-  </body1>
+// AI random
+let ai=[...articles].sort(()=>0.5-Math.random()).slice(0,2);
 
-  <script>
-    const apiUrl = 'https://shyamkumarkc20.com.np/js/commercialbanks.json';
-    let data = [];
-    let chart;
+// merge + unique
+let display=[...newest,...trending,...ai];
+display=[...new Map(display.map(i=>[i.url,i])).values()].slice(0,6);
 
-    async function fetchData() {
-      try {
-        const response = await fetch(apiUrl);
-        if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
-        data = await response.json();
-        populateDropdown();
-      } catch (error) {
-        console.error('Error fetching data:', error);
-      }
-    }
+render(display);
+}
 
-    function populateDropdown() {
-      const dropdown = document.getElementById('nameDropdown');
-      data.forEach(item => {
-        const option = document.createElement('option');
-        option.value = item.Name;
-        option.text = item.Name;
-        if (item.Name === "Nepal Bank Limited") option.selected = true;
-        dropdown.appendChild(option);
-      });
-      showDetails();
-    }
 
-    function renderProfitChart(bank) {
-      const ctx = document.getElementById('profitChart').getContext('2d');
-      const profitData = bank.profit || {};
-      const labels = Object.keys(profitData);
-      const profits = Object.values(profitData).map(v => parseFloat(v) || 0);
+// ===== RENDER CARDS =====
+function render(list){
 
-      if (chart) chart.destroy();
+let html="";
 
-      chart = new Chart(ctx, {
-        type: 'bar',
-        data: {
-          labels: labels,
-          datasets: [{
-            label: 'Profit (in Billion NPR)',
-            data: profits,
-            backgroundColor: ['#4caf50', '#2196f3', '#ff9800', '#9c27b0', '#f44336'],
-            borderRadius: 6
-          }]
-        },
-        options: {
-          responsive: true,
-          plugins: {
-            legend: { display: false },
-            title: { display: true, text: `${bank.Name} - Last 5 Years Profit`, font: { size: 16 } }
-          },
-          scales: { y: { beginAtZero: true, title: { display: true, text: 'Profit (Billion NPR)' } } }
-        }
-      });
-    }
+list.forEach(a=>{
 
-    function showDetails() {
-      const selectedName = document.getElementById('nameDropdown').value;
-      const bank = data.find(item => item.Name === selectedName);
-      if (!bank) return;
+let badge="";
+let days=(Date.now()-new Date(a.date))/86400000;
 
-      document.getElementById('bankInfo2').innerHTML = `<h2>${bank.Name || ''}</h2>`;
-      document.getElementById('over').innerHTML = `<p>Small Overview of ${bank.Name || ''}</p>`;
-      document.getElementById('detail').innerHTML = `<p>${bank.Name || ''} Details</p>`;
-      document.getElementById('bankInfo1').innerHTML = `<p>${bank.desc || ''}</p>`;
+if(a.editor)
+badge=`<div class="badge pick">Editor Pick</div>`;
+else if(days<7)
+badge=`<div class="badge new">New</div>`;
+else if(a.views>5)
+badge=`<div class="badge trending">Trending</div>`;
+else
+badge=`<div class="badge ai">Recommended</div>`;
 
-      // Dashboard stats
-      document.getElementById('paidup').innerHTML = `<i class="fa-solid fa-piggy-bank pulse"></i><p>Paid-up: ${bank.paidup || ''} B</p>`;
-      document.getElementById('customer').innerHTML = `<i class="fa-solid fa-users bounce"></i><p>Customer: ${bank.Customer || ''}</p>`;
-      document.getElementById('atm').innerHTML = `<i class="fa-solid fa-credit-card spin"></i><p>ATM: ${bank.ATM || ''}</p>`;
-      document.getElementById('branch').innerHTML = `<i class="fa-solid fa-building"></i><p>Branches: ${bank.branch || ''}</p>`;
-      document.getElementById('ext').innerHTML = `<i class="fa-solid fa-house-flag"></i><p>Extension Counters: ${bank.ext || ''}</p>`;
-      document.getElementById('blb').innerHTML = `<i class="fa-solid fa-wifi"></i><p>Branchless Banking: ${bank.blb || ''}</p>`;
-      document.getElementById('ly').innerHTML = `<i class="fa-solid fa-chart-line glow"></i><p>Last Year: ${bank.LY || ''}</p>`;
-      document.getElementById('cy').innerHTML = `<i class="fa-solid fa-chart-column pulse"></i><p>Current Year: ${bank.CY || ''}</p>`;
-      document.getElementById('eps').innerHTML = `<i class="fa-solid fa-coins bounce"></i><p>EPS: ${bank.EPS || ''}</p>`;
+html+=`
+<div class="card">
+${badge}
+<h3>${a.title}</h3>
+<p>${a.desc}</p>
+<a href="${a.url}" class="read" onclick="countView('${a.url}')">Read →</a>
+<div class="views">👁 ${a.views} views</div>
+</div>
+`;
+});
 
-      // Info section with icons
-      document.getElementById('bankInfo').innerHTML = `
-        ${bank.IMG ? `<img src="${bank.IMG}" alt="${bank.Name} Logo" class="bank-logo" width="200" height="200">` : ''}
-        <p><strong><i class="fa-solid fa-building-columns"></i> Name:</strong> ${bank.Name}</p>
-        <p><strong><i class="fa-solid fa-calendar"></i> Established:</strong> ${bank.ODAD || ''} [ ${bank.ODBS || ''} ]</p>
-        <p><strong><i class="fa-solid fa-map-marker-alt"></i> Head Office:</strong> ${bank.HO || ''}</p>
-        <p><strong><i class="fa-solid fa-user-tie"></i> CEO:</strong> ${bank.ceo || ''} ${bank.ceoimg ? `<img src="${bank.ceoimg}" width="30" height="30">` : ''}</p>
-        <p><strong><i class="fa-solid fa-user"></i> Chairman:</strong> ${bank.chairman || ''}</p>
-        <p><strong><i class="fa-solid fa-chart-line"></i> NEPSE Code:</strong> ${bank.NEPSE || ''}</p>
-        <p><strong><i class="fa-solid fa-globe"></i> Swift Code:</strong> ${bank.Swift || ''}</p>
-        <p><strong><i class="fa-solid fa-phone pulse"></i> Phone:</strong>
-          ${bank.phone1 ? `<a href="tel:${bank.phone1}">${bank.phone1}</a>` : ''}
-          ${bank.phone2 ? ` | <a href="tel:${bank.phone2}">${bank.phone2}</a>` : ''}
-        </p>
-        <p><strong><i class="fa-solid fa-headset"></i> Toll Free:</strong> ${bank.TOLL ? `<a href="tel:${bank.TOLL}">${bank.TOLL}</a>` : ''}</p>
-        <p><strong><i class="fa-solid fa-envelope bounce"></i> Email:</strong> ${bank.email ? `<a href="mailto:${bank.email}">${bank.email}</a>` : ''}</p>
-        <p><strong><i class="fa-solid fa-link glow"></i> Website:</strong> ${bank.Website ? `<a href="https://${bank.Website}" target="_blank">${bank.Website}</a>` : ''}</p>
-      `;
+document.getElementById("hubGrid").innerHTML=html;
+}
 
-      document.getElementById('first').innerHTML = `<p>${bank.first || ''}</p>`;
-      document.getElementById('subInfo1').innerHTML = `<p>${bank.merger || ''}</p>`;
-      document.getElementById('subInfo2').innerHTML = `<p>${bank.awards || ''}</p>`;
-      document.getElementById('subInfo').innerHTML = `<p>${bank.subsidiaries || ''}</p>`;
-      document.getElementById('shours').innerHTML = `<p>${bank.shours || ''}</p>`;
-      document.getElementById('whours').innerHTML = `<p>${bank.whours || ''}</p>`;
 
-      renderProfitChart(bank);
-    }
+// ===== VIEW COUNTER =====
+function countView(url){
+let v=Number(localStorage.getItem("views_"+url))||0;
+localStorage.setItem("views_"+url,v+1);
+}
 
-    fetchData();
-  </script>
+</script>
 
-  <script>
-    $(function () {
-      $('#footer').load('/assets/footer.html');
-    });
-  </script>
-
-  <div id="footer"></div>
 </body>
 </html>
