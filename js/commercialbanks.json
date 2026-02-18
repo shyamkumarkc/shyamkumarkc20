@@ -50,7 +50,7 @@
   {
     "SNO": 2,
 	"Code": "201",
-	"Casba": "Free",
+	"Casba": "Rs. 5",
 	"class": "A",
 	"paidup": "15.63",
     "Name": "Rastriya Banijya Bank Limited",
@@ -139,7 +139,7 @@
   {
     "SNO": 4,
 	"Code": "401",
-	"Casba": "Free",
+	"Casba": "Rs. 5",
 	"class": "A",
 	"paidup": "27.06",
     "Name": "Nabil Bank Limited",
