@@ -8,13 +8,7 @@
 		"Website": "kumarisecurities.com/",
 		"Email" : "kumaribroker1@gmail.com"
     },
-    {
-        "BrokerNo": "1_RWS",
-        "BrokerName": "Kumari Securities Pvt. Limited",
-        "Address": "New Road, Pokhara",
-        "Phone": "061-537511",
-		"Email" : "kumaripkr1@gmail.com"
-    },
+    
     {
         "BrokerNo": "3",
         "BrokerName": "Arun Securities Pvt. Limited",
@@ -115,12 +109,7 @@
 		"Website":"thrivebrokerage.com/",
 		"Email" :""
     },
-    {
-        "BrokerNo": "13_RWS",
-        "BrokerName": "Thrive Brokerage House Pvt. Limited *",
-        "Address": "Gairipatan, Pokhara",
-        "Phone": "061-522935"
-    },
+    
     {
         "BrokerNo": "14",
         "BrokerName": "Nepal Stock House Pvt. Limited",
@@ -145,14 +134,7 @@
 		"Website":"primosecurities.com.np/",
 		"Email" :""
     },
-    {
-        "BrokerNo": "16_RWS",
-        "BrokerName": "Primo Securities Pvt. Limited",
-        "Address": "Adarsha Nagar, Birgunj",
-        "Phone": "051-529683", 
-		"Website":"",
-		"Email" :""
-    },
+    
     {
         "BrokerNo": "17",
         "BrokerName": "ABC Securities Pvt. Limited",
@@ -162,12 +144,7 @@
 		"Website":"abcsecurities.com.np/index.html",
 		"Email" :""
     },
-    {
-        "BrokerNo": "17_RWS",
-        "BrokerName": "ABC Securities Pvt. Limited",
-        "Address": "Prithvi Marg, Dharan",
-        "Phone": "025-524083"
-    },
+    
     {
         "BrokerNo": "18",
         "BrokerName": "Sagarmatha Securities Pvt. Limited",
@@ -186,12 +163,7 @@
 		"Website":"http://nist19.com/",
 		"Email" :""
     },
-    {
-        "BrokerNo": "19_RWS",
-        "BrokerName": "Nepal Investment &amp; Securities Trading Pvt. Limited",
-        "Address": "Main Road, Biratnagar",
-        "Phone": "021-440127"
-    },
+    
     {
         "BrokerNo": "20",
         "BrokerName": "Sipla Securities Pvt. Limited",
@@ -210,12 +182,7 @@
 		"Website":"",
 		"Email" :""
     },
-    {
-        "BrokerNo": "21_RWS",
-        "BrokerName": "Midas Stock Broking Company Pvt. Limited",
-        "Address": "Chauraha, Butwal",
-        "Phone": "071-438332, 071-438336"
-    },
+    
     {
         "BrokerNo": "22",
         "BrokerName": "Siprabi Securities Pvt. Limited",
@@ -225,12 +192,7 @@
 		"Website":"",
 		"Email" :""
     },
-    {
-        "BrokerNo": "22_RWS",
-        "BrokerName": "Siprabi Securities Pvt. Limited",
-        "Address": "Resham Kothi, Birgunj",
-        "Phone": "051-523818"
-    },
+  
     {
         "BrokerNo": "25",
         "BrokerName": "Sweta Securities Pvt. Limited",
@@ -240,11 +202,7 @@
 		"Website":"",
 		"Email" :""
     },
-    {
-        "BrokerNo": "25_RWS",
-        "BrokerName": "Sweta Securities Pvt. Limited",
-        "Address": "Ghantaghar, Birgunj"
-    },
+   
     {
         "BrokerNo": "26",
         "BrokerName": "Asian Securities Pvt. Limited",
@@ -254,12 +212,7 @@
 		"Website":"",
 		"Email" :""
     },
-    {
-        "BrokerNo": "26_RWS",
-        "BrokerName": "Asian Securities Pvt. Limited",
-        "Address": "Near to Global IME Bank, Butwal",
-        "Phone": "071-547279"
-    },
+    
     {
         "BrokerNo": "28",
         "BrokerName": "Shree Krishna Securities Limited",
@@ -269,14 +222,7 @@
 		"Website":"",
 		"Email" :""
     },
-    {
-        "BrokerNo": "28_RWS",
-        "BrokerName": "Shree Krishna Securities Limited",
-        "Address": "Municipality Office, Biratnagar",
-        "Phone": "021521699", 
-		"Website":"",
-		"Email" :""
-    },
+   
     {
         "BrokerNo": "29",
         "BrokerName": "Trishul Securities And Investment Limited",
@@ -892,3 +838,4 @@
         "Address": "Kathmandu"
     }
 ]
+
