@@ -29,5 +29,11 @@
 "desc":"C-ASBA charge",
 "url":"/sharemarket/CASBAcharge",
 "date":"2026-02-01"
+},
+  {
+"title":"Mutual Funds",
+"desc":"Mutual Funds",
+"url":"/sharemarket/mutualfund",
+"date":"2025-02-01"
 }
 ]
