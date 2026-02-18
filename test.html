@@ -1,457 +1,266 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Nepal Rastra Bank: Functions, Roles, Objectives & NRB Act 2058</title>
+  <title>Commercial Banks In Nepal</title>
+  <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+    $(function () {
+      $('#header').load('/assets/header.html');
+    });
+  </script>
 
-<meta name="description" content="Complete guide to Nepal Rastra Bank (NRB) – functions, objectives, roles, powers, NRB Act 2058, governors list, and importance in Nepalese economy.">
+  <style>
+    body1 { padding-left: 20px; }
 
-<meta name="keywords" content="Nepal Rastra Bank, NRB functions, central bank of Nepal, NRB Act 2058, monetary policy Nepal, banking exam notes">
+    table {
+      padding-left: 20px;
+      border-collapse: collapse;
+    }
+    td {
+      padding: 12px;
+      border: 1px solid #ccc;
+      text-align: center;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    td i {
+      display: block;
+      margin-bottom: 5px;
+      font-size: 20px;
+    }
 
-<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+    /* Backgrounds */
+    #paidup { background-color: #d958db; }
+    #customer { background-color: #11aee5; }
+    #atm { background-color: #add8e6; }
+    #branch { background-color: #90ee90; }
+    #ext { background-color: #ffebcd; }
+    #blb { background-color: #ffcccb; }
+    #cy { background-color: #ebbccd; }
+    #ly { background-color: #c1ebbc; }
+    #eps { background-color: #add8e6; }
+    #shours { background-color: #edf511; }
+    #whours { background-color: #ed075b; }
+    #shour { background-color: #ebbccd; }
+    #whour { background-color: #c1ebbc; }
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-$(function(){
-$('#header').load('/assets/header.html');
-$('#footer').load('/assets/footer.html');
-});
-</script>
+    section { width: 100%; max-width: 600px; padding-left: 20px; }
 
-<style>
-body{
-font-family: Arial, sans-serif;
-line-height:1.6;
-margin:0;
-background:#f9fbfd;
-}
+    /* Animations */
+    .pulse { animation: pulse 2s infinite; }
+    .spin { animation: spin 3s linear infinite; }
+    .bounce { animation: bounce 2s infinite; }
+    .glow { animation: glow 1.5s infinite alternate; }
 
-.container{
-
-margin:auto;
-
-padding:20px;
-
-}
-
-h1,h2,h3{
-color:#0b3d91;
-}
-
-img{
-display:block;
-margin:auto;
-}
-
-table{
-border-collapse:collapse;
-width:100%;
-margin-top:15px;
-}
-
-th,td{
-border:1px solid #ddd;
-padding:12px;
-}
-
-tr:nth-child(even){
-background:#f2f2f2;
-}
-
-.faq{
-background:#eef5ff;
-padding:15px;
-border-radius:10px;
-margin-top:20px;
-}
-</style>
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+    }
+    @keyframes spin {
+      0% { transform: rotate(0); }
+      100% { transform: rotate(360deg); }
+    }
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+    }
+    @keyframes glow {
+      from { color: #2196f3; text-shadow: 0 0 5px #2196f3; }
+      to { color: #f44336; text-shadow: 0 0 10px #f44336; }
+    }
+  </style>
 </head>
 
 <body>
-
-<div id="header"></div>
-<div class="ipo-widgets">
-
-  <!-- Current IPO Widget -->
-  <div class="ipo-widget" id="currentIPOWidget">
-    <div id="currentIPOBox">Loading...</div>
-    <div id="currentCountdown" class="ipo-countdown"></div>
-  </div>
-
-  <!-- Upcoming IPO Widget -->
-  <div class="ipo-widget" id="upcomingIPOWidget">
-    <div id="upcomingIPOBox">Loading...</div>
-    <div id="upcomingCountdown" class="ipo-countdown"></div>
-  </div>
-
-</div>
-
-<style>
-.ipo-widgets{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-  gap:20px;
-  margin-bottom:25px;
-}
-
-.ipo-widget{
-  background:#fff;
-  padding:20px;
-  border-radius:14px;
-  box-shadow:0 3px 12px rgba(0,0,0,.08);
-  min-height:80px;
-  transition: background 0.3s;
-  
-}
-
-.ipo-badge{
-  display:inline-block;
-  padding:6px 14px;
-  border-radius:20px;
-  font-size:13px;
-  font-weight:600;
-  margin-bottom:10px;
-}
-
-.current-badge{background:#e7f7ee;color:#0c7a43;}
-.upcoming-badge{background:#eef3ff;color:#1a4fd8;}
-.none-badge{background:#222;color:#fff;}
-
-.current-widget{background:#1abc9c;color:#fff;} /* green */
-.upcoming-widget{background:#3498db;color:#fff;} /* blue */
-.none-widget{background:#222;color:#fff;} /* black */
-
-.ipo-name{
-  font-size:18px;
-  font-weight:700;
-  margin:8px 0;
-}
-
-.ipo-date{
-  color:#fff;
-  font-size:14px;
-}
-
-.ipo-countdown{
-  margin-top:12px;
-  font-weight:600;
-  font-size:14px;
-  color:#fff;
-}
-</style>
-
+  <div id="header"></div>
 <script>
-const IPO_API="https://shyamkumarkc20.com.np/js/ipo.json";
+    $(function () {
+      $('#ipowidget').load('/assets/ipowidget.html');
+    });
+  </script>
 
-function padZero(n){ return n<10?"0"+n:n; }
+  <div id="ipowidget"></div>
+  <body1>
+    <select id="nameDropdown" onchange="showDetails()"></select>
 
-fetch(IPO_API)
-.then(res=>res.json())
-.then(result=>{
+    <div id="bankInfo2" class="bank-container" style="margin-top: 20px;"></div>
+    <div id="bankInfo1" class="bank-container" style="margin-top: 20px;"></div>
 
-let data=result.ipo;
-let today=new Date();
-today.setHours(0,0,0,0);
+    <!-- Dashboard -->
+    <table>
+      <tr><td id="over" colspan="3" style="background-color: #ffca33;"></td></tr>
+      <tr>
+        <td id="paidup" class="bank-container"><i class="fa-solid fa-piggy-bank pulse"></i></td>
+        <td id="customer" class="bank-container"><i class="fa-solid fa-users bounce"></i></td>
+        <td id="atm" class="bank-container"><i class="fa-solid fa-credit-card spin"></i></td>
+      </tr>
+      <tr>
+        <td id="branch" class="bank-container"><i class="fa-solid fa-building"></i></td>
+        <td id="ext" class="bank-container"><i class="fa-solid fa-house-flag"></i></td>
+        <td id="blb" class="bank-container"><i class="fa-solid fa-wifi"></i></td>
+      </tr>
+      <tr>
+        <td id="ly" class="bank-container"><i class="fa-solid fa-chart-line glow"></i></td>
+        <td id="cy" class="bank-container"><i class="fa-solid fa-chart-column pulse"></i></td>
+        <td id="eps" class="bank-container"><i class="fa-solid fa-coins bounce"></i></td>
+      </tr>
+    </table>
 
-let currentIPO=null;
-let upcomingIPO=null;
-let nearestDiff=Infinity;
+    <br>
+    <section>
+      <h2 id="detail"></h2>
+      <div id="bankInfo" class="bank-container"></div>
 
-// Loop through IPOs
-data.forEach(ipo=>{
-  if(!ipo.openingDate || ipo.openingDate.trim()==="") return;
+      <h2>Merged BFIs</h2>
+      <div id="subInfo1" class="bank-container"></div>
 
-  let open=new Date(ipo.openingDate);
-  let close=new Date(ipo.closingDate);
+      <h2>First In Nepal</h2>
+      <div id="first" class="bank-container"></div>
 
-  open.setHours(0,0,0,0);
-  close.setHours(0,0,0,0);
+      <h2>Awards</h2>
+      <div id="subInfo2" class="bank-container"></div>
 
-  // Current IPO
-  if(today>=open && today<=close){
-    currentIPO=ipo;
-  }
+      <h2>Subsidiary Companies</h2>
+      <div id="subInfo" class="bank-container"></div>
 
-  // Upcoming IPO
-  if(today<open){
-    let diff=open-today;
-    if(diff<nearestDiff){
-      nearestDiff=diff;
-      upcomingIPO=ipo;
-    }
-  }
-});
+      <h2>Profit Chart</h2>
+      <canvas id="profitChart" width="600" height="400"></canvas>
 
-// Render Current IPO
-if(currentIPO){
-  renderIPO(currentIPO,"Current IPO","current-badge","currentIPOBox","currentIPOWidget","current-widget");
-  startCountdown(currentIPO,"currentCountdown","close");
-}else{
-  renderPlaceholder("No Current IPO","currentIPOBox","currentIPOWidget","none-widget");
-  document.getElementById("currentCountdown").innerText="";
-}
+      <h2>Business Hours</h2>
+      <table>
+        <tr>
+          <td id="shour" colspan="3"><b>Summer Hour</b></td>
+          <td id="whour" colspan="3">Winter Hour</td>
+        </tr>
+        <tr>
+          <td id="shours" colspan="3"></td>
+          <td id="whours" colspan="3"></td>
+        </tr>
+      </table>
+    </section>
+  </body1>
 
-// Render Upcoming IPO
-if(upcomingIPO){
-  renderIPO(upcomingIPO,"Upcoming IPO","upcoming-badge","upcomingIPOBox","upcomingIPOWidget","upcoming-widget");
-  startCountdown(upcomingIPO,"upcomingCountdown","open");
-}else{
-  renderPlaceholder("No Upcoming IPO","upcomingIPOBox","upcomingIPOWidget","none-widget");
-  document.getElementById("upcomingCountdown").innerText="";
-}
+  <script>
+    const apiUrl = 'https://shyamkumarkc20.com.np/js/commercialbanks.json';
+    let data = [];
+    let chart;
 
-// ---------- RENDER FUNCTION ----------
-function renderIPO(ipo,title,badgeCls,boxId,widgetId,widgetCls){
-  document.getElementById(widgetId).className = "ipo-widget "+widgetCls;
-  document.getElementById(boxId).innerHTML=`
-    <div class="ipo-badge ${badgeCls}">${title}</div>
-    <div class="ipo-name">${ipo.company}</div>
-       <div>Units: ${ipo.units}    Price: Rs ${ipo.price}</div>
-        
-    
-  `;
-}
-
-// ---------- BLACK PLACEHOLDER ----------
-function renderPlaceholder(text,boxId,widgetId,widgetCls){
-  document.getElementById(widgetId).className = "ipo-widget "+widgetCls;
-  document.getElementById(boxId).innerHTML=`
-    <div class="ipo-badge none-badge">${text}</div>
-  `;
-}
-
-// ---------- COUNTDOWN ----------
-function startCountdown(ipo,elementId,type){
-  function updateCountdown(){
-    let now=new Date();
-    let targetDate= type==="open"? new Date(ipo.openingDate): new Date(ipo.closingDate);
-    targetDate.setHours(0,0,0,0);
-
-    let diff=Math.floor((targetDate-now)/86400000); // days diff
-    let text="";
-    if(diff>0){
-      text=type==="open" ? `Opens in ${diff} day${diff>1?'s':''}` : `Closes in ${diff} day${diff>1?'s':''}`;
-    }else if(diff===0){
-      text=type==="open" ? "Opens Today" : "Closes Today";
-    }else{
-      text="";
+    async function fetchData() {
+      try {
+        const response = await fetch(apiUrl);
+        if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
+        data = await response.json();
+        populateDropdown();
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
     }
 
-    document.getElementById(elementId).innerText=text;
-  }
+    function populateDropdown() {
+      const dropdown = document.getElementById('nameDropdown');
+      data.forEach(item => {
+        const option = document.createElement('option');
+        option.value = item.Name;
+        option.text = item.Name;
+        if (item.Name === "Nepal Bank Limited") option.selected = true;
+        dropdown.appendChild(option);
+      });
+      showDetails();
+    }
 
-  updateCountdown(); // first call
-  setInterval(updateCountdown,3600000); // update every hour
-}
+    function renderProfitChart(bank) {
+      const ctx = document.getElementById('profitChart').getContext('2d');
+      const profitData = bank.profit || {};
+      const labels = Object.keys(profitData);
+      const profits = Object.values(profitData).map(v => parseFloat(v) || 0);
 
-})
-.catch(()=>{
-document.getElementById("currentIPOBox").innerText="Failed to load";
-document.getElementById("upcomingIPOBox").innerText="Failed to load";
-});
-</script>
-<div class="container">
+      if (chart) chart.destroy();
 
-<h1>Nepal Rastra Bank (NRB)</h1>
+      chart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: labels,
+          datasets: [{
+            label: 'Profit (in Billion NPR)',
+            data: profits,
+            backgroundColor: ['#4caf50', '#2196f3', '#ff9800', '#9c27b0', '#f44336'],
+            borderRadius: 6
+          }]
+        },
+        options: {
+          responsive: true,
+          plugins: {
+            legend: { display: false },
+            title: { display: true, text: `${bank.Name} - Last 5 Years Profit`, font: { size: 16 } }
+          },
+          scales: { y: { beginAtZero: true, title: { display: true, text: 'Profit (Billion NPR)' } } }
+        }
+      });
+    }
 
-<img src="https://shyamkumarkc20.com.np/logo/nrb.jpg" alt="Nepal Rastra Bank Logo" width="140">
+    function showDetails() {
+      const selectedName = document.getElementById('nameDropdown').value;
+      const bank = data.find(item => item.Name === selectedName);
+      if (!bank) return;
 
-<h2>Introduction</h2>
-<p>
-Nepal Rastra Bank (NRB) is the <strong>central bank of Nepal</strong>, established on April 26, 1956 (2013 Baisakh 14) under the Nepal Rastra Bank Act, 1955. It is the supreme monetary authority responsible for regulating the country’s financial system, issuing currency, maintaining price stability, and promoting sustainable economic growth.
-</p>
+      document.getElementById('bankInfo2').innerHTML = `<h2>${bank.Name || ''}</h2>`;
+      document.getElementById('over').innerHTML = `<p>Small Overview of ${bank.Name || ''}</p>`;
+      document.getElementById('detail').innerHTML = `<p>${bank.Name || ''} Details</p>`;
+      document.getElementById('bankInfo1').innerHTML = `<p>${bank.desc || ''}</p>`;
 
-<p>
-The modern legal framework governing NRB is the <strong>Nepal Rastra Bank Act, 2058 (2002)</strong>, which defines its powers, functions, and objectives to ensure financial stability and public confidence in the banking sector.
-</p>
+      // Dashboard stats
+      document.getElementById('paidup').innerHTML = `<i class="fa-solid fa-piggy-bank pulse"></i><p>Paid-up: ${bank.paidup || ''} B</p>`;
+      document.getElementById('customer').innerHTML = `<i class="fa-solid fa-users bounce"></i><p>Customer: ${bank.Customer || ''}</p>`;
+      document.getElementById('atm').innerHTML = `<i class="fa-solid fa-credit-card spin"></i><p>ATM: ${bank.ATM || ''}</p>`;
+      document.getElementById('branch').innerHTML = `<i class="fa-solid fa-building"></i><p>Branches: ${bank.branch || ''}</p>`;
+      document.getElementById('ext').innerHTML = `<i class="fa-solid fa-house-flag"></i><p>Extension Counters: ${bank.ext || ''}</p>`;
+      document.getElementById('blb').innerHTML = `<i class="fa-solid fa-wifi"></i><p>Branchless Banking: ${bank.blb || ''}</p>`;
+      document.getElementById('ly').innerHTML = `<i class="fa-solid fa-chart-line glow"></i><p>Last Year: ${bank.LY || ''}</p>`;
+      document.getElementById('cy').innerHTML = `<i class="fa-solid fa-chart-column pulse"></i><p>Current Year: ${bank.CY || ''}</p>`;
+      document.getElementById('eps').innerHTML = `<i class="fa-solid fa-coins bounce"></i><p>EPS: ${bank.EPS || ''}</p>`;
 
----
+      // Info section with icons
+      document.getElementById('bankInfo').innerHTML = `
+        ${bank.IMG ? `<img src="${bank.IMG}" alt="${bank.Name} Logo" class="bank-logo" width="200" height="200">` : ''}
+        <p><strong><i class="fa-solid fa-building-columns"></i> Name:</strong> ${bank.Name}</p>
+        <p><strong><i class="fa-solid fa-calendar"></i> Established:</strong> ${bank.ODAD || ''} [ ${bank.ODBS || ''} ]</p>
+        <p><strong><i class="fa-solid fa-map-marker-alt"></i> Head Office:</strong> ${bank.HO || ''}</p>
+        <p><strong><i class="fa-solid fa-user-tie"></i> CEO:</strong> ${bank.ceo || ''} ${bank.ceoimg ? `<img src="${bank.ceoimg}" width="30" height="30">` : ''}</p>
+        <p><strong><i class="fa-solid fa-user"></i> Chairman:</strong> ${bank.chairman || ''}</p>
+        <p><strong><i class="fa-solid fa-chart-line"></i> NEPSE Code:</strong> ${bank.NEPSE || ''}</p>
+        <p><strong><i class="fa-solid fa-globe"></i> Swift Code:</strong> ${bank.Swift || ''}</p>
+        <p><strong><i class="fa-solid fa-phone pulse"></i> Phone:</strong>
+          ${bank.phone1 ? `<a href="tel:${bank.phone1}">${bank.phone1}</a>` : ''}
+          ${bank.phone2 ? ` | <a href="tel:${bank.phone2}">${bank.phone2}</a>` : ''}
+        </p>
+        <p><strong><i class="fa-solid fa-headset"></i> Toll Free:</strong> ${bank.TOLL ? `<a href="tel:${bank.TOLL}">${bank.TOLL}</a>` : ''}</p>
+        <p><strong><i class="fa-solid fa-envelope bounce"></i> Email:</strong> ${bank.email ? `<a href="mailto:${bank.email}">${bank.email}</a>` : ''}</p>
+        <p><strong><i class="fa-solid fa-link glow"></i> Website:</strong> ${bank.Website ? `<a href="https://${bank.Website}" target="_blank">${bank.Website}</a>` : ''}</p>
+      `;
 
-<h2>Main Objectives of Nepal Rastra Bank</h2>
-<ul>
-<li>Maintain price stability through effective monetary policy</li>
-<li>Ensure balance of payments stability</li>
-<li>Promote financial sector stability</li>
-<li>Increase access to financial services</li>
-<li>Develop a secure payment and settlement system</li>
-</ul>
+      document.getElementById('first').innerHTML = `<p>${bank.first || ''}</p>`;
+      document.getElementById('subInfo1').innerHTML = `<p>${bank.merger || ''}</p>`;
+      document.getElementById('subInfo2').innerHTML = `<p>${bank.awards || ''}</p>`;
+      document.getElementById('subInfo').innerHTML = `<p>${bank.subsidiaries || ''}</p>`;
+      document.getElementById('shours').innerHTML = `<p>${bank.shours || ''}</p>`;
+      document.getElementById('whours').innerHTML = `<p>${bank.whours || ''}</p>`;
 
----
+      renderProfitChart(bank);
+    }
 
-<h2>Core Functions of NRB</h2>
+    fetchData();
+  </script>
 
-<h3>1. Currency Issuance</h3>
-<p>NRB has sole authority to issue and circulate Nepalese currency notes and coins.</p>
+  <script>
+    $(function () {
+      $('#footer').load('/assets/footer.html');
+    });
+  </script>
 
-<h3>2. Banker to Government</h3>
-<p>Acts as banker, advisor, and financial agent of the Government of Nepal.</p>
-
-<h3>3. Bankers’ Bank</h3>
-<p>Provides services to commercial banks and financial institutions.</p>
-
-<h3>4. Lender of Last Resort</h3>
-<p>Provides emergency liquidity support to banks facing financial crisis.</p>
-
-<h3>5. Clearing and Settlement Agent</h3>
-<p>Facilitates payment, clearing, and settlement systems nationwide.</p>
-
----
-
-<h2>Roles of Nepal Rastra Bank in the Economy</h2>
-<ul>
-<li>Regulates money supply and credit creation</li>
-<li>Manages foreign exchange reserves</li>
-<li>Supervises banks and financial institutions</li>
-<li>Manages public debt</li>
-<li>Maintains relations with international financial institutions</li>
-<li>Formulates monetary and credit policies</li>
-</ul>
-
----
-
-<h2>NRB Concept Definitions</h2>
-<ul>
-<li>Bankers’ Bank</li>
-<li>Government Bank</li>
-<li>Lender of Last Resort</li>
-<li>Foreign Exchange Controller</li>
-<li>Clearing Agent</li>
-</ul>
-
----
-
-<h2>Vision</h2>
-<p><em>To become a modern, dynamic, credible, and effective central bank.</em></p>
-
-<h2>Mission</h2>
-<p>Maintain macroeconomic stability through sound monetary, foreign exchange, and financial sector policies.</p>
-
----
-
-<h2>Governors of Nepal Rastra Bank</h2>
-<ol id="data-output"></ol>
-
-<script>
-fetch("https://shyamkumarkc20.com.np/js/governor.json")
-.then(res=>res.json())
-.then(data=>{
-let out="";
-data.forEach(g=>{
-out+=`<li>${g.Name}</li>`;
-});
-document.getElementById("data-output").innerHTML=out;
-});
-</script>
-
-<p><strong>Also Read:</strong> 
-<a href="/banking/nrbgovernor" target="_blank">Full List of NRB Governors</a>
-</p>
-
----
-
-<h2>Functions, Rights and Duties Under NRB Act 2058</h2>
-<ol type="a">
-<li>Issue banknotes and coins</li>
-<li>Formulate and implement monetary policy</li>
-<li>Formulate foreign exchange policy</li>
-<li>Determine exchange rate system</li>
-<li>Manage foreign reserves</li>
-<li>License and regulate banks and financial institutions</li>
-<li>Act as government banker and advisor</li>
-<li>Act as banker of banks</li>
-<li>Develop payment and settlement systems</li>
-<li>Perform necessary functions to achieve objectives</li>
-</ol>
-
----
-
-<h2>Priority Rights of NRB</h2>
-<p>
-For recovery of loans, NRB holds priority rights over borrower assets including deposits and property. It may seize and sell such assets as per law.
-</p>
-
----
-
-<h2>Privileges of Nepal Rastra Bank</h2>
-<ul>
-<li>Exemption from taxes and fees</li>
-<li>No registration fee for loan documents</li>
-<li>No revenue stamps required</li>
-<li>No duties on import/export of currency materials</li>
-</ul>
-
----
-
-<h2>Amendments to NRB Act</h2>
-<ul>
-<li>First Amendment Act 2063 (2006)</li>
-<li>Republic Strengthening Amendment 2066 (2010)</li>
-<li>Second Amendment Act 2073 (2016)</li>
-</ul>
-
----
-
-<h2>Head Office Contact Details</h2>
-<p>
-<strong>Address:</strong> Baluwatar, Kathmandu, Nepal<br>
-<strong>PO Box:</strong> 73<br>
-<strong>Phone:</strong> 
-<a href="tel:015719641">015719641</a>,
-<a href="tel:015719642">015719642</a>,
-<a href="tel:015719643">015719643</a><br>
-<strong>Fax:</strong> <a href="fax:015719601">015719601</a>
-</p>
-
----
-
-<div class="faq">
-<h2>Frequently Asked Questions (FAQ)</h2>
-
-<h3>What is Nepal Rastra Bank?</h3>
-<p>Nepal Rastra Bank is the central bank of Nepal responsible for monetary policy, currency issuance, and financial regulation.</p>
-
-<h3>When was NRB established?</h3>
-<p>It was established on April 26, 1956.</p>
-
-<h3>What is the main objective of NRB?</h3>
-<p>The main objective is to maintain price stability and ensure financial system stability.</p>
-
-<h3>Who regulates banks in Nepal?</h3>
-<p>Nepal Rastra Bank regulates all banks and financial institutions in Nepal.</p>
-
-</div>
-
-</div>
-
-<div id="footer"></div>
-
-<!-- FAQ Schema for SEO -->
-<script type="application/ld+json">
-{
-"@context":"https://schema.org",
-"@type":"FAQPage",
-"mainEntity":[
-{
-"@type":"Question",
-"name":"What is Nepal Rastra Bank?",
-"acceptedAnswer":{"@type":"Answer","text":"Nepal Rastra Bank is the central bank of Nepal responsible for monetary policy and financial regulation."}
-},
-{
-"@type":"Question",
-"name":"When was NRB established?",
-"acceptedAnswer":{"@type":"Answer","text":"Nepal Rastra Bank was established on April 26, 1956."}
-},
-{
-"@type":"Question",
-"name":"What does NRB do?",
-"acceptedAnswer":{"@type":"Answer","text":"NRB regulates banks, controls money supply, manages foreign reserves, and maintains price stability."}
-}
-]
-}
-</script>
-
-
+  <div id="footer"></div>
 </body>
 </html>
