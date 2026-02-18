@@ -1,0 +1,125 @@
+<div class="ipo-widgets">
+
+  <!-- Current IPO Widget -->
+  <div class="ipo-widget" id="currentIPOWidget">
+    <div id="currentIPOBox">Loading...</div>
+  </div>
+
+  <!-- Upcoming IPO Widget -->
+  <div class="ipo-widget" id="upcomingIPOWidget">
+    <div id="upcomingIPOBox">Loading...</div>
+  </div>
+
+</div>
+
+<style>
+.ipo-widgets{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:20px;
+  margin-bottom:25px;
+}
+
+.ipo-widget{
+  background:#fff;
+  padding:20px;
+  border-radius:14px;
+  box-shadow:0 3px 12px rgba(0,0,0,.08);
+ 
+  
+}
+
+.ipo-badge{
+  display:inline-block;
+  padding:6px 14px;
+  border-radius:20px;
+  font-weight:600;
+  margin-bottom:10px;
+}
+
+.current-badge{background:#e7f7ee;color:#0c7a43;}
+.upcoming-badge{background:#eef3ff;color:#1a4fd8;}
+.none-badge{background:#222;color:#fff;}
+
+.current-widget{background:#1abc9c;color:#fff;} /* green */
+.upcoming-widget{background:#3498db;color:#fff;} /* blue */
+.none-widget{background:#222;color:#fff;} /* black */
+
+.ipo-name{
+  font-size:18px;
+  font-weight:700;
+  margin:8px 0;
+}
+</style>
+
+<script>
+const IPO_API="https://shyamkumarkc20.com.np/js/ipo.json";
+
+fetch(IPO_API)
+.then(res=>res.json())
+.then(result=>{
+
+let data=result.ipo;
+let now = new Date();
+let currentIPO=null;
+let upcomingIPO=null;
+let nearestDiff=Infinity;
+
+// ---------- LOOP THROUGH IPOs ----------
+data.forEach(ipo=>{
+  if(!ipo.openingDate || ipo.openingDate.trim()==="") return;
+
+  let open = new Date(ipo.openingDate + "T10:00:00"); // Open at 10 AM
+  let close = new Date(ipo.closingDate + "T17:00:00"); // Close at 5 PM
+
+  // Current IPO
+  if(now >= open && now <= close){
+    currentIPO=ipo;
+  }
+
+  // Upcoming IPO
+  if(now < open){
+    let diff = open - now;
+    if(diff < nearestDiff){
+      nearestDiff = diff;
+      upcomingIPO=ipo;
+    }
+  }
+});
+
+// ---------- RENDER ----------
+if(currentIPO){
+  renderIPO(currentIPO,"Current IPO","current-badge","currentIPOBox","currentIPOWidget","current-widget");
+}else{
+  renderPlaceholder("No Current IPO","currentIPOBox","currentIPOWidget","none-widget");
+}
+
+if(upcomingIPO){
+  renderIPO(upcomingIPO,"Upcoming IPO","upcoming-badge","upcomingIPOBox","upcomingIPOWidget","upcoming-widget");
+}else{
+  renderPlaceholder("No Upcoming IPO","upcomingIPOBox","upcomingIPOWidget","none-widget");
+}
+
+// ---------- RENDER FUNCTIONS ----------
+function renderIPO(ipo,title,badgeCls,boxId,widgetId,widgetCls){
+  document.getElementById(widgetId).className = "ipo-widget "+widgetCls;
+  document.getElementById(boxId).innerHTML=`
+    <div class="ipo-badge ${badgeCls}">${title}</div>
+    <div class="ipo-name">${ipo.company}</div>
+    
+  `;
+}
+
+function renderPlaceholder(text,boxId,widgetId,widgetCls){
+  document.getElementById(widgetId).className = "ipo-widget "+widgetCls;
+  document.getElementById(boxId).innerHTML=`
+    <div class="ipo-badge none-badge">${text}</div>
+  `;
+}
+
+})
+.catch(()=>{
+document.getElementById("currentIPOBox").innerText="Failed to load";
+document.getElementById("upcomingIPOBox").innerText="Failed to load";
+});
+</script>
