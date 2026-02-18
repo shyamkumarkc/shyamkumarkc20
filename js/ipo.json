@@ -31,9 +31,9 @@
             "company": "Shikhar Power Development Limited",
             "units": "2160,000.00",
             "price": "100.00",
-            "openingDate": "",
-            "closingDate": "",
-            "lastClosingDate": "",
+            "openingDate": "2026-03-01",
+            "closingDate": "2026-03-06",
+            "lastClosingDate": "2026-03-15",
             "issueManager": "Global IME Capital Limited"
         },
         {
@@ -1561,10 +1561,10 @@
         },
 		{
             "company": "Appolo Hydropower Limited",
-            "units": "141,000.00",
+            "units": "94,000.00",
             "price": "100.00",
-            "openingDate": " ",
-            "closingDate": " ",
+            "openingDate": "2026-02-23",
+            "closingDate": "2026-02-26",
             "lastClosingDate": " ",
             "issueManager": "Himalayan Capital Limited"
         },
