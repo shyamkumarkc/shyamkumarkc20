@@ -17,5 +17,11 @@
 "desc":"Nepal Stock Exchange",
 "url":"/sharemarket/nepse",
 "date":"2026-02-01"
+},
+  {
+"title":"TMS Registration",
+"desc":"TMS Registration",
+"url":"/sharemarket/tmsregistration",
+"date":"2026-02-01"
 }
 ]
