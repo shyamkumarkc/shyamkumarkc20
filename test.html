@@ -208,8 +208,7 @@ function renderIPO(ipo,title,badgeCls,boxId,widgetId,widgetCls){
   document.getElementById(boxId).innerHTML=`
     <div class="ipo-badge ${badgeCls}">${title}</div>
     <div class="ipo-name">${ipo.company}</div>
-       <div>Units: ${ipo.units}</div>
-     <div>Price: Rs ${ipo.price}</div>
+       <div>Units: ${ipo.units}    Price: Rs ${ipo.price}</div>
         <div class="ipo-date">
       Open: ${ipo.openingDate}      
       Close: ${ipo.closingDate}
