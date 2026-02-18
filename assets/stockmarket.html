@@ -2,7 +2,7 @@
 
 <style>
 body{
-margin:0;
+
 font-family:system-ui;
 background:#f5f7fb;
 }
@@ -10,28 +10,27 @@ background:#f5f7fb;
 /* SECTION */
 .smartHub{
 max-width:1200px;
-margin:60px auto;
-padding:0 15px;
+
 }
 
 .hub-title{
 text-align:center;
 font-size:32px;
-margin-bottom:30px;
+
 }
 
 /* GRID */
 .hub-grid{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-gap:22px;
+grid-template-columns:repeat(auto-fit,minmax(60px,1fr));
+gap:5px;
 }
 
 /* CARD */
 .card{
 background:#fff;
 border-radius:18px;
-padding:22px;
+padding:5px;
 box-shadow:0 8px 24px rgba(0,0,0,.08);
 transition:.35s;
 position:relative;
@@ -43,7 +42,7 @@ box-shadow:0 18px 40px rgba(0,0,0,.18);
 }
 
 .card h3{
-margin:0 0 12px;
+margin:0 0 5px;
 font-size:20px;
 color:#111;
 }
@@ -59,7 +58,7 @@ margin-top:18px;
 display:inline-block;
 background:linear-gradient(45deg,#0a66ff,#0044cc);
 color:#fff;
-padding:9px 18px;
+padding:9px 5px;
 border-radius:10px;
 font-size:13px;
 text-decoration:none;
@@ -71,7 +70,7 @@ position:absolute;
 top:14px;
 right:14px;
 font-size:11px;
-padding:5px 11px;
+padding:5px 5px;
 border-radius:20px;
 color:#fff;
 font-weight:600;
@@ -87,8 +86,6 @@ font-weight:600;
 .hub-title{font-size:24px}
 }
 </style>
-
-
 
 
 <section class="smartHub">
@@ -112,22 +109,13 @@ fetch(DATA_URL)
 // ===== MAIN ENGINE =====
 function initWidget(articles){
 
-// newest
-let newest=[...articles]
-.sort((a,b)=>new Date(b.date)-new Date(a.date))
-.slice(0,3);
+// shuffle articles randomly
+let shuffled=[...articles].sort(()=>Math.random()-0.5);
 
-// editor picks
-let picks=articles.filter(a=>a.editor).slice(0,2);
+// pick max 5 only
+let selected=shuffled.slice(0,5);
 
-// AI random
-let ai=[...articles].sort(()=>0.5-Math.random()).slice(0,2);
-
-// merge + unique
-let display=[...picks,...newest,...ai];
-display=[...new Map(display.map(i=>[i.url,i])).values()].slice(0,6);
-
-render(display);
+render(selected);
 }
 
 
@@ -164,5 +152,6 @@ document.getElementById("hubGrid").innerHTML=html;
 }
 
 </script>
+
 
 
