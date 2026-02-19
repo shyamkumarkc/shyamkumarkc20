@@ -1,186 +1,193 @@
 <!-- GLOBAL HEADER START -->
 <header>
-
 <style>
-/* NAVBAR */
+:root{
+  --bg:#1f2937;
+  --hover:#2563eb;
+  --text:#fff;
+  --accent:#0ea5e9;
+}
+
+/* HEADER */
 .main-nav{
-display:flex;
-align-items:center;
-background:#1f2937;
-padding:0 18px;
-font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;
+  display:flex;
+  align-items:center;
+  background:var(--bg);
+  padding:0 16px;
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;
+  position:sticky;
+  top:0;
+  z-index:1000;
 }
 
 /* LOGO */
 .logo{
-color:#fff;
-font-weight:700;
-font-size:20px;
-text-decoration:none;
-margin-right:auto;
-padding:14px 0;
+  color:var(--text);
+  font-weight:700;
+  font-size:22px;
+  text-decoration:none;
+  margin-right:30px;
+  padding:14px 0;
 }
 
 /* MENU */
 .menu{
-display:flex;
-list-style:none;
-margin:0;
-padding:0;
+  display:flex;
+  list-style:none;
+  margin:0;
+  padding:0;
+  flex-wrap:wrap;
 }
 
-.menu li{position:relative;}
+.menu li{
+  position:relative;
+}
 
+/* MENU ITEMS */
 .menu a,
 .menu button{
-color:#fff;
-text-decoration:none;
-background:none;
-border:none;
-padding:16px 18px;
-display:block;
-font-size:15px;
-cursor:pointer;
+  color:var(--text);
+  text-decoration:none;
+  background:none;
+  border:none;
+  padding:16px 18px;
+  display:block;
+  font-size:15px;
+  cursor:pointer;
+  white-space:nowrap;
 }
 
+/* HOVER */
 .menu a:hover,
 .menu button:hover{
-background:#2563eb;
+  background:var(--hover);
 }
 
 /* DROPDOWN */
 .dropdown-menu{
-display:none;
-position:absolute;
-top:100%;
-left:0;
-background:#1f2937;
-min-width:220px;
-flex-direction:column;
-box-shadow:0 10px 25px rgba(0,0,0,.2);
-z-index:999;
+  display:none;
+  position:absolute;
+  top:100%;
+  left:0;
+  background:var(--bg);
+  min-width:220px;
+  flex-direction:column;
+  box-shadow:0 10px 25px rgba(0,0,0,.2);
+  z-index:999;
 }
 
 .dropdown-menu a{
-padding:14px 18px;
+  padding:14px 18px;
 }
 
 .dropdown:hover .dropdown-menu{
-display:flex;
+  display:flex;
 }
 
-/* MOBILE BUTTON */
+/* INDICATOR */
+.dropdown button::after{
+  content:"▾";
+  float:right;
+  margin-left:10px;
+}
+
+/* MOBILE TOGGLE */
 .menu-toggle{
-display:none;
-background:none;
-border:none;
-color:#fff;
-font-size:24px;
-cursor:pointer;
-padding:12px;
+  display:none;
+  background:none;
+  border:none;
+  color:var(--text);
+  font-size:26px;
+  cursor:pointer;
+  padding:14px;
 }
 
-/* MOBILE */
+/* RESPONSIVE */
 @media(max-width:768px){
-
-.menu-toggle{display:block;}
-
-.menu{
-display:none;
-flex-direction:column;
-width:100%;
-background:#1f2937;
-}
-
-.menu.show{
-display:flex;
-}
-
-.menu a,
-.menu button{
-padding:14px 16px;
-border-top:1px solid rgba(255,255,255,.08);
-}
-
-.dropdown-menu{
-position:static;
-box-shadow:none;
-}
-
-.dropdown:hover .dropdown-menu{
-display:none;
-}
-
-.dropdown.open .dropdown-menu{
-display:flex;
-}
-
+  .menu{
+    display:none;
+    flex-direction:column;
+    width:100%;
+    background:var(--bg);
+  }
+  .menu.show{
+    display:flex;
+  }
+  .menu a,
+  .menu button{
+    border-top:1px solid rgba(255,255,255,.08);
+    padding:14px 16px;
+  }
+  .dropdown-menu{
+    position:static;
+    box-shadow:none;
+  }
+  .dropdown.open .dropdown-menu{
+    display:flex;
+  }
+  .dropdown:hover .dropdown-menu{
+    display:none;
+  }
+  .menu-toggle{
+    display:block;
+    margin-left:auto;
+  }
 }
 </style>
 
-
 <nav class="main-nav">
+  <a href="/" class="logo">SK</a>
+  <button class="menu-toggle" aria-label="Toggle Menu">☰</button>
 
-<a href="/" class="logo">SK</a>
+  <ul class="menu">
+    <li><a href="/">Home</a></li>
 
-<button class="menu-toggle" aria-label="Toggle Menu">☰</button>
+    <li class="dropdown">
+      <button type="button">Banking</button>
+      <ul class="dropdown-menu">
+        <li><a href="/nepalrastrabank">Nepal Rastra Bank</a></li>
+        <li><a href="/banking/commercialbanks">Commercial Banks</a></li>
+        <li><a href="/banking/developmentbanks">Development Banks</a></li>
+        <li><a href="/microfinancecompanies">Microfinance</a></li>
+      </ul>
+    </li>
 
-<ul class="menu">
+    <li class="dropdown">
+      <button type="button">Tools</button>
+      <ul class="dropdown-menu">
+        <li><a href="/tools/calculator">Calculator</a></li>
+        <li><a href="/tools/exchangerate">Exchange Rate</a></li>
+        <li><a href="/tools/goldsilver">Gold Price</a></li>
+      </ul>
+    </li>
 
-<li><a href="/">Home</a></li>
+    <li class="dropdown">
+      <button type="button">Share Market</button>
+      <ul class="dropdown-menu">
+        <li><a href="/sharemarket/nepse">NEPSE</a></li>
+        <li><a href="/sharemarket/cdsc">CDSC</a></li>
+        <li><a href="/sharemarket/sharebrokers">Share Brokers</a></li>
+      </ul>
+    </li>
 
-<li class="dropdown">
-<button type="button">Banking ▾</button>
-<ul class="dropdown-menu">
-<li><a href="/nepalrastrabank">Nepal Rastra Bank</a></li>
-<li><a href="/banking/commercialbanks">Commercial Banks</a></li>
-<li><a href="/banking/developmentbanks">Development Banks</a></li>
-<li><a href="/microfinancecompanies">Microfinance</a></li>
-</ul>
-</li>
-
-<li class="dropdown">
-<button type="button">Tools ▾</button>
-<ul class="dropdown-menu">
-<li><a href="/tools/calculator">Calculator</a></li>
-<li><a href="/tools/exchangerate">Exchange Rate</a></li>
-<li><a href="/tools/goldsilver">Gold Price</a></li>
-</ul>
-</li>
-
-<li class="dropdown">
-<button type="button">Share Market ▾</button>
-<ul class="dropdown-menu">
-<li><a href="/sharemarket/nepse">NEPSE</a></li>
-<li><a href="/sharemarket/cdsc">CDSC</a></li>
-<li><a href="/sharemarket/sharebrokers">Share Brokers</a></li>
-</ul>
-</li>
-
-<li><a href="/contact">Contact</a></li>
-
-</ul>
-
+    <li><a href="/contact">Contact</a></li>
+  </ul>
 </nav>
 
-
 <script>
-/* MOBILE MENU TOGGLE */
-document.querySelector(".menu-toggle")
-.addEventListener("click",()=>{
-document.querySelector(".menu").classList.toggle("show");
+// MOBILE MENU TOGGLE
+document.querySelector(".menu-toggle").addEventListener("click", ()=>{
+  document.querySelector(".menu").classList.toggle("show");
 });
 
-/* MOBILE DROPDOWN */
-document.querySelectorAll(".dropdown > button")
-.forEach(btn=>{
-btn.addEventListener("click",()=>{
-if(window.innerWidth < 768){
-btn.parentElement.classList.toggle("open");
-}
-});
+// MOBILE DROPDOWN OPEN/CLOSE
+document.querySelectorAll(".dropdown > button").forEach(btn=>{
+  btn.addEventListener("click", ()=>{
+    if(window.innerWidth < 768){
+      btn.parentElement.classList.toggle("open");
+    }
+  });
 });
 </script>
-
 </header>
 <!-- GLOBAL HEADER END -->
