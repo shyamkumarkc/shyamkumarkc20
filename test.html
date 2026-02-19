@@ -47,11 +47,19 @@ li{margin:6px 0}
 }
 </style>
 </head>
+<script>
+$(function(){
+  $('#header').load('/assets/header.html');
+  $('#header').load('/assets/ipowidget.html');
+  $('#header').load('/assets/stockmarket.html');
+$('#header').load('/assets/footer.html');
+});
+</script>
 
+</head>
 <body>
-
-<!-- HEADER -->
-<div id="header"></div>
+<div id ="header"></div>
+  <div id ="ipowidget"></div>
 
 <!-- MAIN CONTENT -->
 <div class="container">
@@ -87,27 +95,7 @@ li{margin:6px 0}
 <div id="stockmarket"></div>
 
 
-<!-- LOAD HEADER, STOCKMARKET, FOOTER -->
-<script>
-document.addEventListener("DOMContentLoaded", async () => {
 
-  async function loadHTML(id, url){
-    try{
-      let r = await fetch(url);
-      if(!r.ok) throw new Error("HTTP " + r.status);
-      document.getElementById(id).innerHTML = await r.text();
-    } catch(e){
-      console.error("Failed to load", url, e);
-    }
-  }
-
-  // Adjust the paths if your files are in a different folder
-  await loadHTML("header","/assets/header.html");
-  await loadHTML("stockmarket","/assets/stockmarket.html");
-  await loadHTML("footer","/assets/footer.html");
-
-});
-</script>
 
 </body>
   <!-- FOOTER -->
