@@ -1,5 +1,4 @@
 
-
 <style>
 body{
 margin:0;
@@ -9,38 +8,44 @@ background:#f5f7fb;
 
 /* SECTION */
 .smartHub{
-
-margin:10px auto;
+margin:15px auto;
 padding:0 14px;
+max-width:1200px;
+overflow:hidden;
 }
 
 .hub-title{
 text-align:center;
-font-size:32px;
-margin-bottom:10px;
+font-size:30px;
+margin-bottom:15px;
 font-weight:700;
-color:#111;
 }
 
-/* GRID */
+/* GRID DESKTOP */
 .hub-grid{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
 gap:20px;
+transition:.4s;
+}
+
+/* CARD LINK */
+.card-link{
+text-decoration:none;
+color:inherit;
+display:block;
 }
 
 /* CARD */
 .card{
 background:#fff;
 border-radius:16px;
-padding:10px;
+padding:18px;
 box-shadow:0 6px 18px rgba(0,0,0,.08);
 transition:.25s;
 position:relative;
-display:flex;
-flex-direction:column;
-justify-content:space-between;
-min-height:80px;
+cursor:pointer;
+min-height:30px;
 }
 
 .card:hover{
@@ -49,30 +54,14 @@ box-shadow:0 14px 34px rgba(0,0,0,.15);
 }
 
 .card h3{
-margin:0 0 10px;
-font-size:20px;
-line-height:1.3;
-color:#111;
-}
-
-.card p{
-font-size:14px;
-color:#555;
 margin:0;
-flex-grow:1;
+font-size:19px;
+line-height:1.3;
+transition:.2s;
 }
 
-/* BUTTON */
-.read{
-margin-top:16px;
-display:inline-block;
-background:linear-gradient(45deg,#0a66ff,#0044cc);
-color:#fff;
-padding:10px 10px;
-border-radius:10px;
-font-size:14px;
-text-decoration:none;
-
+.card:hover h3{
+color:#0a66ff;
 }
 
 /* BADGES */
@@ -85,7 +74,6 @@ padding:5px 12px;
 border-radius:20px;
 color:#fff;
 font-weight:600;
-letter-spacing:.4px;
 }
 
 .trending{background:#ff3b3b}
@@ -94,101 +82,66 @@ letter-spacing:.4px;
 .ai{background:#ff9f43}
 
 
-/* ---------- MOBILE FIX ---------- */
+/* ---------- MOBILE CAROUSEL ---------- */
 @media(max-width:768px){
 
-.smartHub{
-margin:25px auto;
+.hub-grid{
+display:flex;
+overflow:hidden;
+gap:14px;
+}
+
+.card-link{
+min-width:85%;
+flex-shrink:0;
 }
 
 .hub-title{
 font-size:24px;
 }
 
-.hub-grid{
-grid-template-columns:1fr;
-gap:16px;
-}
-
-.card{
-padding:18px;
-border-radius:14px;
-min-height:auto;
-}
-
 .card h3{
 font-size:18px;
 }
-
-.card p{
-font-size:13px;
 }
-
-.read{
-font-size:13px;
-padding:9px 14px;
-}
-
-.badge{
-font-size:10px;
-padding:4px 10px;
-}
-}
-
-
-/* EXTRA SMALL PHONE */
-@media(max-width:420px){
-
-.card{
-padding:16px;
-}
-
-.hub-title{
-font-size:21px;
-}
-
-.card h3{
-font-size:17px;
-}
-}
-
 </style>
-
-
+</head>
+<body>
 
 <section class="smartHub">
-<h2 class="hub-title"> Also Read</h2>
+<h2 class="hub-title">Also Read</h2>
 <div id="hubGrid" class="hub-grid"></div>
 </section>
 
-<script>
 
-// ===== YOUR JSON FILE =====
+<script>
 const DATA_URL="https://shyamkumarkc20.com.np/article/articles.json";
 
-
+let ALL_ARTICLES=[];
+let loaded=0;
+const LOAD_COUNT=5;
 
 fetch(DATA_URL)
 .then(r=>r.json())
-.then(data=>initWidget(data))
-.catch(()=>initWidget(fallback));
+.then(data=>{
+ALL_ARTICLES=[...data].sort(()=>Math.random()-0.5);
+loadMore();
+autoSlide();
+});
 
 
-// ===== MAIN ENGINE =====
-function initWidget(articles){
+// LOAD MORE ARTICLES
+function loadMore(){
 
-// shuffle articles randomly
-let shuffled=[...articles].sort(()=>Math.random()-0.5);
+let next=ALL_ARTICLES.slice(loaded,loaded+LOAD_COUNT);
+loaded+=LOAD_COUNT;
 
-// pick max 5 only
-let selected=shuffled.slice(0,4);
-
-render(selected);
+render(next,true);
 }
 
 
-// ===== RENDER CARDS =====
-function render(list){
+// RENDER
+function render(list,append=false){
 
 let html="";
 
@@ -207,19 +160,67 @@ else
 badge=`<div class="badge ai">Recommended</div>`;
 
 html+=`
+<a href="${a.url}" class="card-link">
 <div class="card">
 ${badge}
 <h3>${a.title}</h3>
-
-<a href="${a.url}" class="read">Read →</a>
 </div>
+</a>
 `;
 });
 
-document.getElementById("hubGrid").innerHTML=html;
+if(append)
+hubGrid.innerHTML+=html;
+else
+hubGrid.innerHTML=html;
 }
 
+
+// LAZY LOAD ON SCROLL
+window.addEventListener("scroll",()=>{
+if(window.innerHeight + window.scrollY >= document.body.offsetHeight-200){
+if(loaded<ALL_ARTICLES.length)
+loadMore();
+}
+});
+
+
+// AUTO SLIDE (MOBILE ONLY)
+function autoSlide(){
+
+if(window.innerWidth>768) return;
+
+let container=document.querySelector(".hub-grid");
+
+setInterval(()=>{
+container.scrollBy({
+left:container.clientWidth*0.9,
+behavior:"smooth"
+});
+
+if(container.scrollLeft + container.clientWidth >= container.scrollWidth-5){
+container.scrollTo({left:0,behavior:"smooth"});
+}
+
+},3000);
+}
+
+
+// SWIPE SUPPORT
+let startX=0;
+let scrollLeft=0;
+
+const slider=document.querySelector(".hub-grid");
+
+slider.addEventListener("touchstart",e=>{
+startX=e.touches[0].pageX;
+scrollLeft=slider.scrollLeft;
+});
+
+slider.addEventListener("touchmove",e=>{
+let x=e.touches[0].pageX;
+let walk=startX-x;
+slider.scrollLeft=scrollLeft+walk;
+});
 </script>
-
-
 
