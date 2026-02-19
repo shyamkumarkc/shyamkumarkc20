@@ -102,10 +102,17 @@ li{margin:6px 0}
 h1{font-size:26px}
 }
 </style>
+  <script>
+$(function(){
+$('#header').load('/assets/header.html');
+$('#stockmarket').load('/assets/stockmarket.html');
+$('#footer').load('/assets/footer.html');
+});
+</script>
 </head>
 
 <body>
-
+<div id ="header"></div>
 <div class="container">
 <div class="card">
 
@@ -138,7 +145,7 @@ would not be possible.
 <h3>What is CDSC?</h3>
 <p>It is Nepal’s official securities depository responsible for settlement and record keeping.</p>
 
-<h3>Is CDSC government owned?</h3>
+<h3>Is CDSC Government owned?</h3>
 <p>It is a subsidiary company promoted by NEPSE, Nepal’s national stock exchange.</p>
 
 <h3>Why is CDSC required?</h3>
@@ -146,6 +153,8 @@ would not be possible.
 
 </div>
 </div>
-
+<div id="stockmarket"></div>
 </body>
+  <div id ="footer"></div>
 </html>
+
