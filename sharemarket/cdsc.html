@@ -103,12 +103,16 @@ h1{font-size:26px}
 }
 </style>
   <script>
-$(function(){
-$('#header').load('/assets/header.html');
-$('#stockmarket').load('/assets/stockmarket.html');
-$('#footer').load('/assets/footer.html');
-});
+async function load(id,url){
+let r = await fetch(url);
+document.getElementById(id).innerHTML = await r.text();
+}
+
+load("header","/assets/header.html");
+load("stockmarket","/assets/stockmarket.html");
+load("footer","/assets/footer.html");
 </script>
+
 </head>
 
 <body>
@@ -157,5 +161,6 @@ would not be possible.
 </body>
   <div id ="footer"></div>
 </html>
+
 
 
