@@ -5,7 +5,6 @@
   --bg:#1f2937;
   --hover:#2563eb;
   --text:#fff;
-  --accent:#0ea5e9;
 }
 
 /* HEADER */
@@ -39,11 +38,8 @@
   flex-wrap:wrap;
 }
 
-.menu li{
-  position:relative;
-}
-
 /* MENU ITEMS */
+.menu li{position:relative;}
 .menu a,
 .menu button{
   color:var(--text);
@@ -59,9 +55,7 @@
 
 /* HOVER */
 .menu a:hover,
-.menu button:hover{
-  background:var(--hover);
-}
+.menu button:hover{background:var(--hover);}
 
 /* DROPDOWN */
 .dropdown-menu{
@@ -76,20 +70,9 @@
   z-index:999;
 }
 
-.dropdown-menu a{
-  padding:14px 18px;
-}
-
-.dropdown:hover .dropdown-menu{
-  display:flex;
-}
-
-/* INDICATOR */
-.dropdown button::after{
-  content:"▾";
-  float:right;
-  margin-left:10px;
-}
+.dropdown-menu a{padding:14px 18px;}
+.dropdown:hover .dropdown-menu{display:flex;}
+.dropdown button::after{content:"▾"; float:right; margin-left:10px;}
 
 /* MOBILE TOGGLE */
 .menu-toggle{
@@ -100,38 +83,34 @@
   font-size:26px;
   cursor:pointer;
   padding:14px;
+  margin-left:auto;
 }
 
 /* RESPONSIVE */
 @media(max-width:768px){
+  .menu-toggle{display:block;}
+
   .menu{
     display:none;
     flex-direction:column;
     width:100%;
     background:var(--bg);
   }
-  .menu.show{
-    display:flex;
-  }
+
+  .menu.show{display:flex;}
   .menu a,
   .menu button{
     border-top:1px solid rgba(255,255,255,.08);
     padding:14px 16px;
   }
+
   .dropdown-menu{
     position:static;
     box-shadow:none;
   }
-  .dropdown.open .dropdown-menu{
-    display:flex;
-  }
-  .dropdown:hover .dropdown-menu{
-    display:none;
-  }
-  .menu-toggle{
-    display:block;
-    margin-left:auto;
-  }
+
+  .dropdown.open .dropdown-menu{display:flex;}
+  .dropdown:hover .dropdown-menu{display:none;}
 }
 </style>
 
@@ -145,36 +124,10 @@
     <li class="dropdown">
       <button type="button">Banking</button>
       <ul class="dropdown-menu">
-        <a href='/nepalrastrabank'>Nepal Rastra Bank</a>
-	<a href="/banking/minimumpaidup">Minimum Paid-up Capital</a>
-	<a href='/banking/CRRSLRofBFIs'>CRR, SLR of BFIs</a>
-<a href='/M&A'>Merger and Acquisition</a>
-<a href="/banking/bankoftheyear">Bank of The Year</a>
-<a href="/banking/bankingterminology">Banking Terminology</a>
-<a href="/bankingabbreviations">Banking Abbreviations</a>
-<a href='/banking/CAR'>Capital Adequacy Ratio</a>
-<a href="/article/cib">Credit Information Bureau</a>
-<a href="/cpp">Client Protection Principle</a>
-<a href="/CountriesandTheirCurrency">Countries and Their Currency </a>
- <a href='/banking/commercialbanks'>Commercial Banks</a>
- <a href='/banking/ceocommercialbanks'>CEO of Commercial Banks</a>
-<a href='/banking/ceodevelopmentbanks'>CEO of Development Banks</a>
-<a href='/banking/swiftcodecommercialbanks'>Commercial Banks Swift Code</a>
-<a href="/banking/commercialbanksubsidiaries">Commercial Banks and Their Subsidiaries</a>
-<a href='/banking/commercialbanksprofit.html'>Commercial Banks Profit</a>
-<a href="/article/dcgf">Deposit and Credit Guarantee Fund</a>
-<a href='/banking/developmentbanks'>Development Banks</a>
-<a href='/banking/financecompanies'>Finance Companies</a>
-<a href='/microfinancecompanies'>Microfinance Companies</a>
-<a href='/banking/NIFRA'>NIFRA</a>
-<a href='/banking/goldsilverloan'>Gold Silver Loan</a>
-<a href="/loanclassification">Loan Classification</a>
-<a href="/banking/nrbgovernor">Governors of NRB</a>
-
-<a href="/article/letterofcredit">Letter of Credit</a>
-<a href="/article/nepalicurrency">Nepali Currency</a>
-<a href="/Credit">Credit</a>
-<a href="/banking/rastriyabanijyabank">Rastriya Banijya Bank</a>
+        <li><a href="/nepalrastrabank">Nepal Rastra Bank</a></li>
+        <li><a href="/banking/commercialbanks">Commercial Banks</a></li>
+        <li><a href="/banking/developmentbanks">Development Banks</a></li>
+        <li><a href="/microfinancecompanies">Microfinance</a></li>
       </ul>
     </li>
 
