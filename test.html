@@ -57,21 +57,14 @@ h1{font-size:26px}
 
 <!-- HEADER FOOTER LOADER -->
 <script>
-async function include(id,url){
-try{
+async function load(id,url){
 let r = await fetch(url);
-if(!r.ok) throw new Error(url);
 document.getElementById(id).innerHTML = await r.text();
-}catch(e){
-console.warn("Include failed:",url);
-}
 }
 
-document.addEventListener("DOMContentLoaded",()=>{
-include("header","/assets/head.html");
-include("footer","/assets/footer.html");
-include("stockmarket","/assets/stockmarket.html");
-});
+load("header","/assets/head.html");
+load("stockmarket","/assets/stockmarket.html");
+load("footer","/assets/footer.html");
 </script>
 
 </head>
