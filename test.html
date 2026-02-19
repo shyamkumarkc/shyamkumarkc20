@@ -1,48 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>CDS & Clearing Limited (CDSC) Nepal</title>
-<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
-</script>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>Page Title</title>
+<meta name="description" content="Page description here">
+
+<link rel="icon" href="/brp.jpg">
+<link rel="canonical" href="https://yourdomain.com/page-url">
+
+<!-- PRELOAD HEADER + FONT (Performance Boost) -->
+<link rel="preload" href="/assets/header.html" as="fetch" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<style>
+/* ===== BASE ===== */
+body{
+margin:0;
+font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;
+background:#f5f7fb;
+color:#222;
+line-height:1.6;
+}
+
+/* ===== CONTAINER ===== */
+.container{
+max-width:1000px;
+margin:auto;
+padding:20px;
+}
+
+/* ===== CARD ===== */
+.card{
+background:#fff;
+padding:28px;
+border-radius:18px;
+box-shadow:0 8px 28px rgba(0,0,0,.08);
+animation:fade .4s ease;
+}
+
+@keyframes fade{
+from{opacity:0; transform:translateY(15px)}
+to{opacity:1}
+}
+
+h1{margin-top:0;font-size:32px}
+h2{color:#0a66ff;margin-top:30px}
+
+@media(max-width:600px){
+.card{padding:22px}
+h1{font-size:26px}
+}
+</style>
+
+<!-- HEADER FOOTER LOADER -->
 <script>
-$(function(){
-$('#header').load('/assets/header.html');
+async function include(id,url){
+try{
+let r = await fetch(url);
+if(!r.ok) throw new Error(url);
+document.getElementById(id).innerHTML = await r.text();
+}catch(e){
+console.warn("Include failed:",url);
+}
+}
+
+document.addEventListener("DOMContentLoaded",()=>{
+include("header","/assets/header.html");
+include("footer","/assets/footer.html");
+include("stockmarket","/assets/stockmarket.html");
 });
 </script>
 
 </head>
-<body>
-<div id ="header"></div>
-   <script>
-    $(function () {
-      $('#stockmarket').load('/assets/stockmarket.html');
-    });
-  </script>
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<body>
- 
-  
-<h1>CDS & Clearing Limited (CDSC)</h1>
-<h2>Introduction</h2>
-<p>CDS and Clearing Limited, a company established under the Company Act, is a company promoted by Nepal Stock Exchange Limited (NEPSE) in 2010 to provide centralized depository, clearing and settlement services in Nepal. The company is inaugurated on 31st March 2011. The main objective of the company is to act as a central depository for various instruments (Equity, Bonds, and Warrants etc) especially to handle securities in dematerialized form. This organization is entrusted with the safekeeping, deposit, and withdrawal of securities certificates and transfer of ownership/rights of the said instruments. The depository functions will be performed by the company under the securities regulations of Securities Board of Nepal (SEBON).CDSC is a wholly owned subsidiary company of Nepal Stock Exchange Ltd. (NEPSE) which was established on 7th Poush 2067.</p>
-<h2>Global Partners</h2>
-<h4>Centralized Depository Services( India )Limited(Mumbai)</h4>
-<p>CDSIL India is the consultant company of CDSC. The depository and settlement services was established in Nepal under the guidance of CDSIL India.</p>
-<h4>Tata Consultancy Services (Mumbai)</h4>
-<p>The application used for depository and settlement services is developed and maintained by TCS India.</p>
-<h4>Association of National Numbering Agencies (ANNA)</h4>
-<p>CDSC is a member of ANNA. CDSC provides ISIN (International Securities Identification Number) to all the securities listed in depository.</p>
 
-<h4>Asia Pacific Central Securities Depository Group (Regional)</h4>
-<p>CDSC is a member of Asia pacific CSD Group.</p>
-<script>
-$(function(){
-$('#footer').load('/assets/footer.html');
-});
-</script>
-<div id="stockmarket"></div>
+<body>
+
+<!-- HEADER -->
+<header id="header"></header>
+
+<!-- MAIN -->
+<main class="container">
+<div class="card">
+
+<h1>Page Heading</h1>
+
+<p>Your page content here...</p>
+
+<h2>Section Title</h2>
+<p>Content text here.</p>
+
+</div>
+</main>
+
+<!-- STOCK WIDGET -->
+<section id="stockmarket"></section>
+
+<!-- FOOTER -->
+<footer id="footer"></footer>
+
 </body>
-  <div id ="footer"></div>
-
 </html>
