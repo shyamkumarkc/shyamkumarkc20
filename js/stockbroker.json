@@ -138,7 +138,8 @@
     
     {
         "BrokerNo": "17",
-        "BrokerName": "ABC Securities Pvt. Limited",
+        "BrokerName": "ABC Securities Private Limited",
+		"IMG": "https://shyamkumarkc20.com.np/logo/broker17.jpg",
         "Address": "Indrachowk, Kathmandu",
         "Phone": "01-4230787",
         "Tms": "tms17.nepsetms.com.np", 
@@ -844,6 +845,7 @@
         "Address": "Kathmandu"
     }
 ]
+
 
 
 
