@@ -651,7 +651,8 @@
     },
     {
         "BrokerNo": "64",
-        "BrokerName": "SUN SECURITIES PVT LTD",
+        "BrokerName": "Sun Securities Private Limited",
+		"IMG": "https://shyamkumarkc20.com.np/logo/broke64.jpg",
         "Address": "4 Square Complex B-Block, 2nd Floor, Narayan Chaur, Naxal, Kathmandu",
         "Phone": "9851333777"
     },
@@ -842,6 +843,7 @@
         "Address": "Kathmandu"
     }
 ]
+
 
 
 
