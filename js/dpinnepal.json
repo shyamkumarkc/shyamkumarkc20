@@ -834,7 +834,7 @@
     {
         "SNo": "99",
         "id": "15800",
-        "Name": "SANIMA BANK LTD",
+        "Name": "Sanima Bank Limited",
         "Location": "Naxal, Kathmandu",
 		"links": "/banking/sanimabank.html",
 	"IMG": "https://shyamkumarkc20.com.np/logo/sanima.png",
@@ -844,7 +844,8 @@
 	{
         "SNo": "100",
         "id": "22400",
-        "Name": "Sanima Securities Ltd",
+        "Name": "Sanima Securities Limited",
+		"IMG": "https://shyamkumarkc20.com.np/logo/broker83.jpg",
         "Location": "Putalisadak, Kathmandu",
         "Contact1": "01-5915341", "Contact2": "",
         "Email": "info@sanimasecurities.com.np"
@@ -1037,4 +1038,5 @@
         "Email": "info@visionsecurities.com.np"
     }
 ]
+
 
