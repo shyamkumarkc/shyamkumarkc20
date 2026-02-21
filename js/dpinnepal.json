@@ -740,7 +740,8 @@
     {
         "SNo": "87",
         "id": "15400,16900",
-        "Name": "PRIME COMMERCIAL BANK LIMITED",
+        "Name": "Prime Commercial Bank Limited",
+		"IMG": "https://shyamkumarkc20.com.np/logo/prime.jpeg",
         "Location": "Kamalpokhari, Kathmandu",
         "Contact1": "014423433", "Contact2": "014423215",
         "Email": "info@pcbl.com.np"
@@ -1049,6 +1050,7 @@
         "Email": "info@visionsecurities.com.np"
     }
 ]
+
 
 
 
