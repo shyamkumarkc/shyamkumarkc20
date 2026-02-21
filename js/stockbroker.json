@@ -474,7 +474,8 @@
     },
     {
         "BrokerNo": "48",
-        "BrokerName": "Trishakti Securities Public Limited",
+        "BrokerName": "Trishakti Securities Limited",
+		"IMG": "https://shyamkumarkc20.com.np/logo/broker48.jpg",
         "Address": "Putalisadak, Kathmandu",
         "Phone": "01-4232132",
         "Tms": "tms48.nepsetms.com.np"
@@ -763,6 +764,7 @@
     {
         "BrokerNo": "83",
         "BrokerName": "Sanima Securities Limited",
+		"IMG": "https://shyamkumarkc20.com.np/logo/broker83.jpg",
         "Address": "Kathmandu",
         "Phone": "9851128311"
     },
@@ -838,4 +840,5 @@
         "Address": "Kathmandu"
     }
 ]
+
 
