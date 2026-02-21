@@ -22,7 +22,8 @@
     {
         "SNo": "3",
         "id": "13200",
-        "Name": "ABC SECURITIES Private Limited",
+        "Name": "ABC Securities Private Limited",
+		"IMG": "https://shyamkumarkc20.com.np/logo/broker17.jpg",
         "Location": "Indrachowk,Kathmandu",
         "Contact1": "01 5905499","Contact2":"015905490",
         "Email": "abcsecurities17@gmail.com"
@@ -1052,6 +1053,7 @@
         "Email": "info@visionsecurities.com.np"
     }
 ]
+
 
 
 
