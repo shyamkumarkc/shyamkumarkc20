@@ -12,9 +12,11 @@
     {
         "SNo": "2",
         "id": "19000",
-        "Name": "AAKASH CAPITAL LTD.",
+        "Name": "Aakash Capital Limited",
+		"IMG": "https://shyamkumarkc20.com.np/logo/19000.png",
         "Location": "Pulchowk, Lalitpur",
-        "Contact1": "01-5421787","Contact2":"",
+        "Contact1": "01-5421787",
+		"Contact2":"",
         "Email": "info@aakashcapital.com;"
     },
     {
@@ -1050,6 +1052,7 @@
         "Email": "info@visionsecurities.com.np"
     }
 ]
+
 
 
 
