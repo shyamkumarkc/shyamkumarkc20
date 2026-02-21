@@ -756,7 +756,8 @@
     {
         "SNo": "89",
         "id": "18600",
-        "Name": "PROGRESSIVE FINANCE LTD",
+        "Name": "Progressive Finance Limited",
+		"IMG": "https://shyamkumarkc20.com.np/logo/profl.png",
         "Location": "Tinkune, Kathmandu",
         "Contact1": "01-5199664", "Contact2": "01-5199665",
         "Email": "info@pfltd.com.np"
@@ -1048,6 +1049,7 @@
         "Email": "info@visionsecurities.com.np"
     }
 ]
+
 
 
 
