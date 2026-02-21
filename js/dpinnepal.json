@@ -983,10 +983,11 @@
 	{
         "SNo": "117",
         "id": "22500",
-        "Name": "Sunlife Capital Ltd.",
+        "Name": "Sunlife Capital Limited",
 		"IMG": "https://shyamkumarkc20.com.np/logo/22500.png",
         "Location": "Putalisadak, Kathmandu",
-        "Contact1": "01-4536129","Contact2": "",
+        "Contact1": "01-4536129",
+		"Contact2": "",
         "Email": "info@sunlifecapital.com.np"
     },
     {
@@ -1041,6 +1042,7 @@
         "Email": "info@visionsecurities.com.np"
     }
 ]
+
 
 
 
