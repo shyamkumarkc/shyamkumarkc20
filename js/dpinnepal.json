@@ -965,8 +965,9 @@
     {
         "SNo": "115",
         "id": "19300",
-        "Name": "SUN SECURITIES Private Limited",
-        "Location": "NAXAL,Kathmandu",
+        "Name": "Sun Securities Private Limited",
+		"IMG": "https://shyamkumarkc20.com.np/logo/broke64.jpg",
+        "Location": "Naxal, Kathmandu",
         "Contact1": "015902303", "Contact2": " ",
         "Email": "info@sunsecurities.com"
     },
@@ -1040,6 +1041,7 @@
         "Email": "info@visionsecurities.com.np"
     }
 ]
+
 
 
 
