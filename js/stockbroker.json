@@ -523,6 +523,7 @@
     {
         "BrokerNo": "52",
         "BrokerName": "Sundhara Securities Limited",
+		"IMG": "https://shyamkumarkc20.com.np/logo/broker52.jpg",
         "Address": "Sundhara, Kathmandu",
         "Phone": "01-4263583",
         "Tms": "tms52.nepsetms.com.np"
@@ -841,6 +842,7 @@
         "Address": "Kathmandu"
     }
 ]
+
 
 
 
