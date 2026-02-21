@@ -2,9 +2,11 @@
     {
         "SNo": "1",
         "id": "20600",
-        "Name": "AAKASH BHAIRAB SECURITIES LTD",
+        "Name": "Aakash Bhairab Securities Limited",
+		"IMG": "https://shyamkumarkc20.com.np/logo/broker81.png",
         "Location": "Jawalakhel, Lalitpur",
-        "Contact1": "01-5917830","Contact2":"",
+        "Contact1": "01-5917830",
+		"Contact2":"",
         "Email": "info@akbsl.com"
     },
     {
@@ -1045,6 +1047,7 @@
         "Email": "info@visionsecurities.com.np"
     }
 ]
+
 
 
 
