@@ -897,7 +897,8 @@
     {
         "SNo": "106",
         "id": "18800",
-        "Name": "SHREE INVESTMENT AND FINANCE CO. LTD.",
+        "Name": "Shree Investment & Finance Limited",
+		"IMG": "https://shyamkumarkc20.com.np/logo/sifc.jpg",
         "Location": "Dilli Bazar Kathmandu",
         "Contact1": "01-4422038", "Contact2": " 01-4426146",
         "Email": "info@shreefinance.com.np"
@@ -1047,6 +1048,7 @@
         "Email": "info@visionsecurities.com.np"
     }
 ]
+
 
 
 
