@@ -1,12 +1,13 @@
 [
     {
         "BrokerNo": "1",
-        "BrokerName": "Kumari Securities Pvt. Limited",
+        "BrokerName": "Kumari Securities Private Limited",
+		"IMG": "https://shyamkumarkc20.com.np/logo/broker1.png",
         "Address": "Dillibazar, Kathmandu",
         "Phone": "01-4418036",
         "Tms": "tms01.nepsetms.com.np",
 		"Website": "kumarisecurities.com/",
-		"Email" : "kumaribroker1@gmail.com"
+		"Email": "kumaribroker1@gmail.com"
     },
     
     {
@@ -840,5 +841,6 @@
         "Address": "Kathmandu"
     }
 ]
+
 
 
