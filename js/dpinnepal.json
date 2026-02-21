@@ -885,9 +885,11 @@
     {
         "SNo": "105",
         "id": "18500",
-        "Name": "SHINE RESUNGA DEVELOPMENT BANK LTD.",
+        "Name": "Shine Resunga Development Bank Limited",
+		"IMG": "https://shyamkumarkc20.com.np/logo/shine.png",
         "Location": "Butwal, Rupandehi",
-        "Contact1": "071-415502","Contact2": " 071-415503",
+        "Contact1": "071-415502",
+		"Contact2": " 071-415503",
         "Email": "info@srdb.com.np;"
     },
     {
@@ -1043,6 +1045,7 @@
         "Email": "info@visionsecurities.com.np"
     }
 ]
+
 
 
 
