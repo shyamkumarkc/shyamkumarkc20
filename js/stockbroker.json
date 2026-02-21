@@ -754,8 +754,9 @@
     },
     {
         "BrokerNo": "81",
-        "BrokerName": "Aakashbhairab Securities Ltd.",
-        "Address": "Lalitpur-4, Jawalakhel, Bhanimandal",
+        "BrokerName": "Aakash Bhairab Securities Limited",
+		"IMG": "https://shyamkumarkc20.com.np/logo/broker81.png",
+        "Address": "Lalitpur, Nepal",
         "Phone": "01-5917930, 01-5917830"
     },
     {
@@ -843,6 +844,7 @@
         "Address": "Kathmandu"
     }
 ]
+
 
 
 
