@@ -876,7 +876,8 @@
     {
         "SNo": "103",
         "id": "18400",
-        "Name": "SHANGRI-LA DEVELOPMENT BANK LTD.",
+         "Name": "Sangrila Development Bank Limited",
+		"IMG": "https://shyamkumarkc20.com.np/logo/sadbl.png",
         "Location": "Baluwatar, Kathmandu",
         "Contact1": "01-4421861", "Contact2": " 01-4421862",
         "Email": "info@shangrilabank.com"
@@ -1053,6 +1054,7 @@
         "Email": "info@visionsecurities.com.np"
     }
 ]
+
 
 
 
