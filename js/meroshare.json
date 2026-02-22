@@ -462,5 +462,15 @@
         "Units": "20",
         "WACC": "100",
         "Value": ""
+    },
+    {
+        "SN": "47",
+        "Name": "United Ajod Insurance",
+        "Symbol": "CSY",
+        "Sector": "Non Life Insurance",
+        "Instrument": "Equity",
+        "Units": "50",
+        "WACC": "465",
+        "Value": ""
     }
 ]
