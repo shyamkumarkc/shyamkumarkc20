@@ -442,5 +442,15 @@
         "Units": "10",
         "WACC": "100",
         "Value": ""
+    },
+    {
+        "SN": "45",
+        "Name": "Salapa Bikas Bank Limited",
+        "Symbol": "SABBL",
+        "Sector": "Development Banks",
+        "Instrument": "Equity",
+        "Units": "10",
+        "WACC": "100",
+        "Value": ""
     }
 ]
