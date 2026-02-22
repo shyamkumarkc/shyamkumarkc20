@@ -1,7 +1,44 @@
+# ------------------------------
+# Custom 404 Page
+# ------------------------------
 ErrorDocument 404 /index.html
-RewriteEngine On 
 
-RewriteEngine on 
+# ------------------------------
+# Enable Rewrite Engine
+# ------------------------------
+RewriteEngine On
+
+# ------------------------------
+# HTML Rewrite: serve .html if file exists
+# ------------------------------
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html [NC,L]
+
+# ------------------------------
+# PHP Support
+# ------------------------------
+<IfModule mod_php.c>
+    AddHandler application/x-httpd-php .php
+</IfModule>
+
+# For servers using CGI/FastCGI (common on shared hosting)
+# Replace php81 with your PHP version if different
+AddHandler application/x-httpd-php81 .php
+
+# ------------------------------
+# Python CGI Support
+# ------------------------------
+# Enable CGI scripts
+Options +ExecCGI
+
+# Treat .py files as CGI scripts
+AddHandler cgi-script .py
+
+# Optional: allow running .py scripts from /cgi-bin/
+#RewriteRule ^cgi-bin/(.*)$ /cgi-bin/$1.py [L]
+
+# ------------------------------
+# Default Directory Index
+# ------------------------------
+DirectoryIndex index.php index.html index.py
