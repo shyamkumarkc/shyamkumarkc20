@@ -39,7 +39,8 @@
     },
     {
         "BrokerNo": "6",
-        "BrokerName": "Agrawal Securities Pvt. Limited",
+        "BrokerName": "Agrawal Securities Private Limited",
+		"IMG": "https://shyamkumarkc20.com.np/logo/broker6.jpg",
         "Address": "Dillibazar, Kathmandu",
         "Phone": "01-4424406",
         "Tms": "tms06.nepsetms.com.np", 
@@ -845,6 +846,7 @@
         "Address": "Kathmandu"
     }
 ]
+
 
 
 
