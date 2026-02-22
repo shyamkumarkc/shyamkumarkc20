@@ -266,8 +266,10 @@
         "SNo": "31",
         "id": "11200",
         "Name": "GLOBAL IME CAPITAL LIMITED",
+		"IMG": "https://shyamkumarkc20.com.np/logo/11200.jpg",
         "Location": "Naxal, Kathmandu",
-        "Contact1": "01-5970138","Contact2":"",
+        "Contact1": "01-5970138",
+		"Contact2":"",
         "Email": "info@gicl.com.np"
     },
     {
@@ -282,8 +284,7 @@
         "SNo": "33",
         "id": "18000",
         "Name": "GURKHAS FINANCE LIMITED",
-        "Location": "Dillibazar, Kathmandu",
-	
+        "Location": "Dillibazar, Kathmandu",	
 	"links": "www.gurkhasfinance.com.np/",
 	"IMG": "https://shyamkumarkc20.com.np/logo/gufl.png",
         "Contact1": "01-4437401","Contact2":" 01-4437403",
@@ -342,8 +343,8 @@
         "SNo": "40",
         "id": "13100",
         "Name": "IMPERIAL SECURITIES COMPANY Private Limited",
-        "Location": "ANAMNAGAR,HANUMANSTHAN,",
-        "Contact1": "015706004", "Contact2":"015705187",
+        "Location": "ANAMNAGAR, Kathmandu",
+        "Contact1": "015706004", "Contact2": "015705187",
         "Email": "45.imperial@gmail.com"
     },
     {
@@ -351,7 +352,7 @@
         "id": "20000",
         "Name": "INDEX SECURITIES LTD",
         "Location": "Dillibazar, Kathmandu",
-        "Contact1": "01-5916136","Contact2":"",
+        "Contact1": "01-5916136", "Contact2":"",
         "Email": "indexsecuritiesnepal@gmail.com"
     },
     {
@@ -557,7 +558,7 @@
         "Name": "MUKTINATH CAPITAL LIMITED",
         "Location": "Naxal, Kathmandu",
         "Contact1": "01-4546108", "Contact2":"01-4546109", 
-        "Email": "info@muktinathcapital.com dpsupport@muktinathcapital.com"
+        "Email": "info@muktinathcapital.com"
     },
     {
         "SNo": "66",
@@ -597,9 +598,11 @@
 	{
         "SNo": "70",
         "id": "23400",
-        "Name": "National Capital Ltd",
+        "Name": "National Capital Limited",
+		"IMG": "https://shyamkumarkc20.com.np/logo/23400.png",
         "Location": "Panipokhari, Kathmandu",
-        "Contact1": "01- 4530266","Contact2":"",
+        "Contact1": "01- 4530266",
+		"Contact2":"",
         "Email": "operation@nationalcapital.com.np"
     },
     {
@@ -626,6 +629,7 @@
         "SNo": "73",
         "id": "16400",
         "Name": "NEPAL LIFE CAPITAL LIMITED",
+		"IMG": "https://shyamkumarkc20.com.np/logo/16400.png",
         "Location": "City Center, Kathmandu",
         "Contact1": "01-4430746","Contact2":"01-4430746",
         "Email": "info@nepallifecapital.com.np"
@@ -654,7 +658,7 @@
         "SNo": "76",
         "id": "13700",
         "Name": "NIC ASIA BANK LIMITED",
-        "Location": "THAPATHALI,Kathmandu",
+        "Location": "THAPATHALI, Kathmandu",
         "Contact1": "015111179", "Contact2": "015111178",
 		"Website": "www.nicasiabank.com",
 	  "IMG": "https://shyamkumarkc20.com.np/logo/nica.png",
@@ -672,6 +676,7 @@
         "SNo": "78",
         "id": "11000",
         "Name": "NMB CAPITAL LIMITED",
+		"IMG": "https://shyamkumarkc20.com.np/logo/11000.png",
         "Location": "Baluwatar, Kathmandu",
         "Contact1": "01-5914396", "Contact2": "01-4537963", 
         "Email": "info@nmbcl.com.np"
@@ -722,8 +727,9 @@
     {
         "SNo": "84",
         "id": "12600",
-        "Name": "PRABHU CAPITAL LIMITED",
-        "Location": "KAMALADI,Kathmandu",
+        "Name": "Prabhu Capital Limited",
+		"IMG": "https://shyamkumarkc20.com.np/logo/12600.png",
+        "Location": "KAMALADI, Kathmandu",
         "Contact1": "01-5970200", "Contact2": " 01-4169100",
         "Email": "info@prabhucapital.com"
     },
@@ -731,7 +737,7 @@
         "SNo": "85",
         "id": "22600",
         "Name": "Pragyan Securities Pvt. Ltd.",
-        "Location": "Nagpokhari,Kathmandu",
+        "Location": "Nagpokhari, Kathmandu",
         "Contact1": "01-5902332", "Contact2": "01-4515958",
         "Email": "pragyansecurities10@gmail.com"
     },
@@ -739,8 +745,8 @@
         "SNo": "86",
         "id": "14800",
         "Name": "PREMIER SECURITIES COMPANY LIMITED",
-        "Location": "PUTALISADAK,Kathmandu",
-        "Contact1": "01 4532832","Contact2": " 014532704",
+        "Location": "PUTALISADAK, Kathmandu",
+        "Contact1": "01 4532832", "Contact2": " 014532704",
         "Email": "premiersecurities@hotmail.com"
     },
     {
@@ -756,7 +762,7 @@
         "SNo": "88",
         "id": "12800",
         "Name": "PRIMO SECURITIES Private Limited",
-        "Location": "SHANKER DEV MARG,PUTALISADAK",
+        "Location": "PUTALISADAK, Kathmandu",
         "Contact1": "014168175","Contact2": "014168164",
         "Email": "primo.securities@gmail.com"
     },
@@ -864,7 +870,7 @@
         "SNo": "101",
         "id": "11600",
         "Name": "SECURED SECURITIES LIMITED",
-        "Location": "PRADARSHANI MARG,Kathmandu",
+        "Location": "PRADARSHANI MARG, Kathmandu",
         "Contact1": "014262861", "Contact2": "014224523",
         "Email": "ss36nepal@gmail.com"
     },
@@ -872,7 +878,7 @@
         "SNo": "102",
         "id": "12700",
         "Name": "SEWA SECURITIES Private Limited",
-        "Location": "TRIPURESWOR,Kathmandu",
+        "Location": "TRIPURESWOR, Kathmandu",
         "Contact1": "014256642","Contact2": "014256644",
         "Email": "sewasecurities@gmail.com"
     },
@@ -931,7 +937,8 @@
     {
         "SNo": "109",
         "id": "10900",
-        "Name": "SIDDHARTHA CAPITAL LIMITED",
+        "Name": "Siddhartha Capital Limited",
+		"IMG": "https://shyamkumarkc20.com.np/logo/10900.png",
         "Location": "Narayan Chour, Naxal",
         "Contact1": "014420924", "Contact2": "014420925",
         "Email": "&nbsp;"
@@ -940,7 +947,7 @@
         "SNo": "110",
         "id": "14600",
         "Name": "SIPLA SECURITIES Private Limited",
-        "Location": "KHICHAPOKHARI,Kathmandu",
+        "Location": "KHICHAPOKHARI, Kathmandu",
         "Contact1": "014255782", "Contact2": "014255078",
         "Email": "sipla20@gmail.com"
     },
@@ -1057,6 +1064,7 @@
         "Email": "info@visionsecurities.com.np"
     }
 ]
+
 
 
 
