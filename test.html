@@ -1,116 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CDSC Nepal | CDS & Clearing Limited</title>
-<meta name="description" content="Complete guide about CDSC Nepal — depository, clearing, settlement system, ISIN services, global partners and role in Nepal stock market.">
-<link rel="canonical" href="https://shyamkumarkc20.com.np/cdsc">
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"> </script>
-<meta name="robots" content="index, follow">
-<link rel="icon" href="/brp.jpg">
+
+<title>CEO of Commercial Banks in Nepal | Updated List</title>
+
+<meta name="description" content="Updated list of CEOs of commercial banks in Nepal with bank names, logos, and leadership details. View latest executive information of Nepali banks.">
+
+<meta name="keywords" content="CEO of banks in Nepal, commercial banks Nepal CEO list, Nepal banking executives, bank CEOs Nepal">
+
+<meta name="author" content="Shyam Kumar KC">
+<link rel="canonical" href="https://yourdomain.com/ceo-commercial-banks-nepal">
+
+<!-- Open Graph -->
+<meta property="og:title" content="CEO of Commercial Banks in Nepal">
+<meta property="og:description" content="Updated CEO list of all commercial banks operating in Nepal.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://yourdomain.com/ceo-commercial-banks-nepal">
+<meta property="og:image" content="/brp.jpg">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="CEO of Commercial Banks in Nepal">
+<meta name="twitter:description" content="View updated CEO list of commercial banks in Nepal.">
+<meta name="twitter:image" content="/brp.jpg">
+
+<link rel="shortcut icon" href="/brp.jpg" type="image/jpg">
+
+<!-- Performance -->
+<link rel="preconnect" href="https://code.jquery.com">
+<link rel="preconnect" href="https://shyamkumarkc20.com.np">
+
+<!-- jQuery -->
+<script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Header Loader -->
+<script defer>
+$(function(){
+$('#header').load('/assets/header.html');
+});
+</script>
 
 <style>
 body{
-  margin:1;
-  font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;
-  background:#f4f7fb;
-  color:#222;
-}
-/* LAYOUT */
-.container{
-  max-width:1900px;
-  margin:auto;
-  padding:20px;
+font-family: Arial, sans-serif;
+margin:0;
+background:#fafafa;
+color:#222;
 }
 
-/* CARD BODY */
-.card{
- 
-  
-  padding:30px;
-  
-  animation:fade .5s ease;
+main{
+max-width:1200px;
+margin:auto;
+padding:20px;
 }
 
-
-
-
-
-@keyframes fade{
-  from{opacity:0; transform:translateY(15px)}
-  to{opacity:1; transform:none}
+h1{
+text-align:center;
+margin-bottom:20px;
 }
 
-h1{font-size:34px;margin-top:0}
-h2{color:#0a66ff;margin-top:30px}
-h3{margin-top:25px}
+table{
+width:100%;
+border-collapse:collapse;
+background:#fff;
+box-shadow:0 2px 10px rgba(0,0,0,0.05);
+}
 
-p{line-height:1.7}
+th, td{
+padding:14px;
+border-bottom:1px solid #ddd;
+text-align:left;
+}
 
-ul{padding-left:18px}
-li{margin:6px 0}
+th{
+background:#222;
+color:#fff;
+}
 
-/* MOBILE */
-@media(max-width:600px){
-  .card{padding:22px}
-  h1{font-size:26px}
+tr:nth-child(even){
+background:#f7f7f7;
+}
+
+img{
+border-radius:6px;
+}
+
+a{
+color:#0073e6;
+text-decoration:none;
+font-weight:600;
+}
+
+a:hover{
+text-decoration:underline;
+}
+
+@media(max-width:768px){
+table, thead, tbody, th, td, tr{
+display:block;
+}
+
+thead{
+display:none;
+}
+
+tr{
+margin-bottom:15px;
+border:1px solid #ddd;
+padding:10px;
+background:#fff;
+}
+
+td{
+display:flex;
+justify-content:space-between;
+}
 }
 </style>
+
+<!-- Schema Structured Data -->
+<script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@type":"Dataset",
+"name":"CEO of Commercial Banks in Nepal",
+"description":"Updated dataset showing CEOs of commercial banks in Nepal",
+"creator":{
+"@type":"Person",
+"name":"Shyam Kumar KC"
+}
+}
+</script>
+
 </head>
-<script>
+
+<body>
+
+<div id="header"></div>
+
+<main>
+
+<h1>CEO of Commercial Banks in Nepal</h1>
+
+<table aria-label="List of CEOs of Commercial Banks in Nepal">
+<thead>
+<tr>
+<th>S.No.</th>
+<th>Bank Name</th>
+<th>Logo</th>
+<th>CEO</th>
+<th>CEO Photo</th>
+</tr>
+</thead>
+
+<tbody id="data-output">
+<tr><td colspan="5">Loading data...</td></tr>
+</tbody>
+
+</table>
+
+</main>
+
+<script defer>
+fetch("https://shyamkumarkc20.com.np/js/commercialbanks.json")
+.then(res => res.json())
+.then(data => {
+
+let out = "";
+
+data.forEach(bank=>{
+out += `
+<tr>
+<td>${bank.SNO}</td>
+
+<td>
+<a href="${bank.links}" title="Visit ${bank.Name}" target="_blank" rel="noopener">
+${bank.Name}
+</a>
+</td>
+
+<td>
+<img loading="lazy" src="${bank.IMG}" width="100" height="80"
+alt="${bank.Name} Logo">
+</td>
+
+<td>${bank.ceo}</td>
+
+<td>
+<img loading="lazy" src="${bank.ceoimg}" width="100" height="80"
+alt="${bank.ceo} CEO Photo">
+</td>
+
+</tr>
+`;
+});
+
+document.getElementById("data-output").innerHTML = out;
+
+})
+.catch(()=>{
+document.getElementById("data-output").innerHTML =
+"<tr><td colspan='5'>Failed to load data.</td></tr>";
+});
+</script>
+
+<script defer>
 $(function(){
-  $('#header').load('/assets/header.html');
-  $('#ipowidget').load('/assets/ipowidget.html');
-  $('#stockmarket').load('/assets/stockmarket.html');
 $('#footer').load('/assets/footer.html');
 });
 </script>
 
-</head>
-<body>
-<div id ="header"></div>
-  <div id ="ipowidget"></div>
-
-<!-- MAIN CONTENT -->
-<div class="container">
-  <div class="card">
-    <h1>CDS & Clearing Limited (CDSC) Nepal</h1>
-
-    <h2>Introduction</h2>
-    <p>CDS and Clearing Limited, a company established under the Company Act, is a company promoted by Nepal Stock Exchange Limited (NEPSE) in 2010 to provide centralized depository, clearing and settlement services in Nepal. The company is inaugurated on 31st March 2011. The main objective of the company is to act as a central depository for various instruments (Equity, Bonds, and Warrants etc) especially to handle securities in dematerialized form. This organization is entrusted with the safekeeping, deposit, and withdrawal of securities certificates and transfer of ownership/rights of the said instruments. The depository functions will be performed by the company under the securities regulations of Securities Board of Nepal (SEBON).CDSC is a wholly owned subsidiary company of Nepal Stock Exchange Ltd. (NEPSE) which was established on 7th Poush 2067.</p>
-
-    <h2>Core Functions of CDSC</h2>
-    <ul>
-      <li>Electronic settlement of stock trades</li>
-      <li>Demat conversion of physical shares</li>
-      <li>Ownership transfer processing</li>
-      <li>Safe custody of securities</li>
-      <li>ISIN generation for listed securities</li>
-    </ul>
-
-    <h2>Why CDSC Is Important</h2>
-    <p>CDSC plays a critical role in Nepal’s capital market infrastructure by ensuring secure, transparent and efficient settlement of trades. Without CDSC, modern stock exchange operations and dematerialized share ownership would not be possible.</p>
-
-    <h2>FAQ</h2>
-    <h3>What is CDSC?</h3>
-    <p>It is Nepal’s official securities depository responsible for settlement and record keeping.</p>
-    <h3>Is CDSC Government owned?</h3>
-    <p>It is a subsidiary company promoted by NEPSE, Nepal’s national stock exchange.</p>
-    <h3>Why is CDSC required?</h3>
-    <p>It eliminates paper certificates and enables secure digital share ownership.</p>
-  </div>
-</div>
-
-<!-- STOCK MARKET SECTION -->
-
-
-
-
-
-</body>
-  <!-- FOOTER -->
-  <div id="stockmarket"></div>
 <div id="footer"></div>
 
+</body>
 </html>
