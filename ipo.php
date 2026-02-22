@@ -6,8 +6,8 @@ $html = file_get_contents($url);
 libxml_use_internal_errors(true);
 $dom = new DOMDocument();
 $dom->loadHTML($html);
-$xpath = new DOMXPath($dom);
 
+$xpath = new DOMXPath($dom);
 $rows = $xpath->query("//table//tr");
 
 $data = [];
@@ -17,14 +17,14 @@ foreach($rows as $i=>$row){
 
     $cols = $row->getElementsByTagName("td");
 
-    if($cols->length>5){
+    if($cols->length > 8){
         $data[] = [
-            "company"=>$cols->item(1)->nodeValue,
-            "manager"=>$cols->item(2)->nodeValue,
-            "units"=>$cols->item(3)->nodeValue,
-            "open"=>$cols->item(7)->nodeValue,
-            "close"=>$cols->item(8)->nodeValue,
-            "update"=>$cols->item(9)->nodeValue
+            "company" => trim($cols->item(1)->nodeValue),
+            "manager" => trim($cols->item(2)->nodeValue),
+            "units"   => trim($cols->item(3)->nodeValue),
+            "open"    => trim($cols->item(7)->nodeValue),
+            "close"   => trim($cols->item(8)->nodeValue),
+            "update"  => trim($cols->item(9)->nodeValue)
         ];
     }
 }
@@ -33,18 +33,16 @@ foreach($rows as $i=>$row){
 <!DOCTYPE html>
 <html>
 <head>
-<title>IPO Updates</title>
+<title>IPO Update</title>
 <style>
-body{font-family:Arial;background:#f4f7fb;padding:25px}
+body{font-family:Arial;background:#f4f7fb;padding:20px}
 table{width:100%;border-collapse:collapse;background:white}
-th,td{padding:10px;border:1px solid #ddd;text-align:left}
-th{background:#0a66ff;color:white}
-.card{background:white;padding:20px;border-radius:12px;box-shadow:0 10px 25px rgba(0,0,0,.1)}
+th,td{padding:10px;border:1px solid #ddd}
+th{background:#1e63d6;color:white}
 </style>
 </head>
 <body>
 
-<div class="card">
 <h2>Current Issue Update</h2>
 
 <table>
@@ -57,20 +55,18 @@ th{background:#0a66ff;color:white}
 <th>Last Update</th>
 </tr>
 
-<?php foreach($data as $d){ ?>
+<?php foreach($data as $row){ ?>
 <tr>
-<td><?= $d["company"] ?></td>
-<td><?= $d["manager"] ?></td>
-<td><?= $d["units"] ?></td>
-<td><?= $d["open"] ?></td>
-<td><?= $d["close"] ?></td>
-<td><?= $d["update"] ?></td>
+<td><?= $row["company"] ?></td>
+<td><?= $row["manager"] ?></td>
+<td><?= $row["units"] ?></td>
+<td><?= $row["open"] ?></td>
+<td><?= $row["close"] ?></td>
+<td><?= $row["update"] ?></td>
 </tr>
 <?php } ?>
 
 </table>
-
-</div>
 
 </body>
 </html>
