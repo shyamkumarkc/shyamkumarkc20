@@ -452,5 +452,15 @@
         "Units": "10",
         "WACC": "100",
         "Value": ""
+    },
+    {
+        "SN": "46",
+        "Name": "Citizen Santulit Yojana",
+        "Symbol": "CSY",
+        "Sector": "Mutual Fund",
+        "Instrument": "Equity",
+        "Units": "20",
+        "WACC": "100",
+        "Value": ""
     }
 ]
