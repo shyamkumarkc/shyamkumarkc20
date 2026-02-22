@@ -24,17 +24,20 @@
         "id": "13200",
         "Name": "ABC Securities Private Limited",
 		"IMG": "https://shyamkumarkc20.com.np/logo/broker17.jpg",
-        "Location": "Indrachowk,Kathmandu",
+        "Location": "Indrachowk, Kathmandu",
         "Contact1": "01 5905499","Contact2":"015905490",
         "Email": "abcsecurities17@gmail.com"
     },
     {
         "SNo": "4",
         "id": "12300",
-        "Name": "AGRAWAL SECURITIES Private Limited",
+        "Name": "Agrawal Securities Private Limited",
+		"IMG": "https://shyamkumarkc20.com.np/logo/broker6.jpg",
         "Location": "Dillibazar, Kathmandu",
-        "Contact1": "014424406","Contact2":"014431597",
-        "Email": "&nbsp;"
+		"Website":"www.agrawalsecurities.com.np/",
+        "Contact1": "014424406","
+		Contact2":"014431597",
+        "Email": ""
     },
     {
         "SNo": "5",
@@ -1054,6 +1057,7 @@
         "Email": "info@visionsecurities.com.np"
     }
 ]
+
 
 
 
