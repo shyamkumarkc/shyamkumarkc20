@@ -453,8 +453,9 @@
     {
         "SNo": "53",
         "id": "10700,12400",
-        "Name": "LAXMI SUNRISE CAPITAL LIMITED",
-        "Location": "KAMALPOKHARI,NAYABANESHWOR",
+        "Name": "Laxmi Sunrise Capital Limited",
+		"IMG": "https://shyamkumarkc20.com.np/logo/10700.png",
+        "Location": "Kathmandu, Nepal",
         "Contact1": "014780222","Contact2":"014781582",
         "Email": "info@sunrisecapital.com.np"
     },
@@ -480,9 +481,11 @@
     {
         "SNo": "56",
         "id": "14100",
-        "Name": "MACHHAPUCHCHHRE CAPITAL LIMITED",
+        "Name": "Machhapuchhre Capital Limited",
+		"IMG": "https://shyamkumarkc20.com.np/logo/14100.png",
         "Location": "SUNDHARA, Kathmandu",
-        "Contact1": "014266325","Contact2":"014249453",
+        "Contact1": "014266325",
+		"Contact2":"014249453",
         "Email": "mcl@mcl.com.np"
     },
     {
@@ -1064,6 +1067,7 @@
         "Email": "info@visionsecurities.com.np"
     }
 ]
+
 
 
 
