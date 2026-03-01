@@ -74,14 +74,14 @@
             "issueManager": "Nabil Investment Banking Limited"
         },
         {
-            "company": "Salapa Bikas Bank Limited",
-            "units": "1,723,880.00",
+            "company": "Taksar Pikhuwa Khola Hydropower Limited",
+            "units": "303,067.00",
             "price": "100.00",
-            "openingDate": "2025-12-31",
-            "closingDate": "2026-01-04",
+            "openingDate": "",
+            "closingDate": "",
             "lastClosingDate": "",
             "listingDate": "",
-            "issueManager": "Muktinath Capital Limited"
+            "issueManager": "Nabil Investment Banking Limited"
         },
 		{
             "company": "Super Khudi Hydropower Limited",
@@ -1384,9 +1384,9 @@
             "company": "Garima Subarna Yojana",
             "units": "10,000,000.00",
             "price": "10.00",
-            "openingDate": "",
-            "closingDate": "",
-            "lastClosingDate": "",
+            "openingDate": "2026-03-12",
+            "closingDate": "2026-03-16",
+            "lastClosingDate": "2026-03-26",
             "listingDate": "",
             "issueManager": "Garima Capital Limited"
         },
@@ -1457,22 +1457,22 @@
     ],
     "migrant": [
 		{
-            "company": "Solu Hydropower Limited",
-            "units": "10,000,000.00",
+            "company": "Taksar Pikhuwa Khola Hydropower Limited",
+            "units": "303,067.00",
             "price": "100.00",
-            "openingDate": "2025-11-23",
-            "closingDate": "2025-12-03",
-            "lastClosingDate": "",
+            "openingDate": "2026-03-11",
+            "closingDate": "2026-03-15",
+            "lastClosingDate": "2026-03-25",
             "listingDate": "",
             "issueManager": "Nabil Investment Banking Limited"
         },
 		{
             "company": "Beni Hydropower Project Limited",
-            "units": "280,000.00",
+            "units": "104,000.00",
             "price": "100.00",
-            "openingDate": " ",
-            "closingDate": " ",
-            "lastClosingDate": " ",
+            "openingDate": "2026-03-15",
+            "closingDate": "2026-03-19",
+            "lastClosingDate": "2026-03-29",
             "issueManager": "NMB Capital Limited"
         },
 		{
@@ -1572,9 +1572,9 @@
             "company": "Kalinchowk Hydropower Limited",
             "units": "137,500.00",
             "price": "100.00",
-            "openingDate": " ",
-            "closingDate": " ",
-            "lastClosingDate": " ",
+            "openingDate": "2026-02-25",
+            "closingDate": "2026-03-01",
+            "lastClosingDate": "2026-03-11",
             "issueManager": "RBB Merchant Banking Limited"
         }
 		
