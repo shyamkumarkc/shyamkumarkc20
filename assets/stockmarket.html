@@ -1,6 +1,4 @@
-
 <style>
-
 
 /* SECTION */
 .smartHub{
@@ -78,29 +76,38 @@ font-weight:600;
 .ai{background:#ff9f43}
 
 
-/* ---------- MOBILE CAROUSEL ---------- */
+/* MOBILE SLIDER */
 @media(max-width:768px){
 
 .hub-grid{
 display:flex;
-overflow:hidden;
-gap:14px;
+overflow-x:auto;
+overflow-y:hidden;
+scroll-behavior:smooth;
+scroll-snap-type:x mandatory;
+
+/* hide scrollbar */
+-ms-overflow-style:none;
+scrollbar-width:none;
+}
+
+.hub-grid::-webkit-scrollbar{
+display:none;
 }
 
 .card-link{
 min-width:85%;
 flex-shrink:0;
+scroll-snap-align:start;
 }
 
-.hub-title{
-font-size:24px;
+.hub-title{font-size:24px;}
+.card h3{font-size:18px;}
+
 }
 
-.card h3{
-font-size:18px;
-}
-}
 </style>
+
 
 <section class="smartHub">
 <h2 class="hub-title">Also Read</h2>
@@ -111,20 +118,27 @@ font-size:18px;
 <script>
 const DATA_URL="https://shyamkumarkc20.com.np/js/stockmarket.json";
 
+const hubGrid=document.getElementById("hubGrid");
+
 let ALL_ARTICLES=[];
 let loaded=0;
 const LOAD_COUNT=5;
 
+
+// FETCH DATA
 fetch(DATA_URL)
 .then(r=>r.json())
 .then(data=>{
 ALL_ARTICLES=[...data].sort(()=>Math.random()-0.5);
 loadMore();
-autoSlide();
+startSlider();
+})
+.catch(()=>{
+hubGrid.innerHTML="<p style='text-align:center'>Failed to load articles</p>";
 });
 
 
-// LOAD MORE ARTICLES
+// LOAD MORE
 function loadMore(){
 
 let next=ALL_ARTICLES.slice(loaded,loaded+LOAD_COUNT);
@@ -179,42 +193,38 @@ loadMore();
 });
 
 
-// AUTO SLIDE (MOBILE ONLY)
-function autoSlide(){
+// AUTO SLIDE MOBILE
+function startSlider(){
 
 if(window.innerWidth>768) return;
 
-let container=document.querySelector(".hub-grid");
-
 setInterval(()=>{
-container.scrollBy({
-left:container.clientWidth*0.9,
+
+hubGrid.scrollBy({
+left:hubGrid.clientWidth*0.9,
 behavior:"smooth"
 });
 
-if(container.scrollLeft + container.clientWidth >= container.scrollWidth-5){
-container.scrollTo({left:0,behavior:"smooth"});
+if(hubGrid.scrollLeft + hubGrid.clientWidth >= hubGrid.scrollWidth-5){
+hubGrid.scrollTo({left:0,behavior:"smooth"});
 }
 
 },3000);
 }
 
 
-// SWIPE SUPPORT
+// TOUCH SWIPE SUPPORT
 let startX=0;
 let scrollLeft=0;
 
-const slider=document.querySelector(".hub-grid");
-
-slider.addEventListener("touchstart",e=>{
+hubGrid.addEventListener("touchstart",e=>{
 startX=e.touches[0].pageX;
-scrollLeft=slider.scrollLeft;
+scrollLeft=hubGrid.scrollLeft;
 });
 
-slider.addEventListener("touchmove",e=>{
+hubGrid.addEventListener("touchmove",e=>{
 let x=e.touches[0].pageX;
 let walk=startX-x;
-slider.scrollLeft=scrollLeft+walk;
+hubGrid.scrollLeft=scrollLeft+walk;
 });
 </script>
-
