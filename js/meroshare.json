@@ -156,8 +156,8 @@
         "Sector": "Life Insurance",
         "Instrument": "Equity",
         "Units": "88",
-        "WACC": "",
-        "Value": ""
+        "WACC": "1680",
+        "Value": "147840"
     },
     {
         "SN": "17",
@@ -166,8 +166,8 @@
         "Sector": "Commercial Banks",
         "Instrument": "Equity",
         "Units": "38",
-        "WACC": "",
-        "Value": ""
+        "WACC": "223",
+        "Value": "8474"
     },
     {
         "SN": "18",
@@ -196,8 +196,8 @@
         "Sector": "Non Life Insurance",
         "Instrument": "Equity",
         "Units": "98",
-        "WACC": "",
-        "Value": ""
+        "WACC": "468",
+        "Value": "45864"
     },
     {
         "SN": "21",
@@ -206,8 +206,8 @@
         "Sector": "Commercial Banks",
         "Instrument": "Equity",
         "Units": "701",
-        "WACC": "",
-        "Value": ""
+        "WACC": "164",
+        "Value": "114964"
     },
     {
         "SN": "22",
