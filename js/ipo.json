@@ -10,6 +10,15 @@
             "issueManager": "Sanima Capital Limited"
         },
 		{
+            "company": "Yambaling Hydropower Limited",
+            "units": "2,800,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Muktinath Capital Limited"
+        },
+		{
             "company": "Beni Hydropower Project Limited",
             "units": "2,080,000.00",
             "price": "100.00",
@@ -18,15 +27,7 @@
             "lastClosingDate": " ",
             "issueManager": "NMB Capital Limited"
         },
-		{
-            "company": "Suryakunda Hydro Electric Limited",
-            "units": "572,431.00",
-            "price": "100.00",
-            "openingDate": "2026-02-01",
-            "closingDate": "2026-02-04",
-            "lastClosingDate": "2026-02-15",
-            "issueManager": "Kumari Capital Limited"
-        },
+		X
 		{
             "company": "Shikhar Power Development Limited",
             "units": "2160,000.00",
@@ -36,16 +37,7 @@
             "lastClosingDate": "2026-03-15",
             "issueManager": "Global IME Capital Limited"
         },
-        {
-            "company": "Bhujung Hydropower Limited",
-            "units": "2,000,000.00",
-            "price": "100.00",
-            "openingDate": "2026-01-26",
-            "closingDate": "2026-01-29",
-            "lastClosingDate": "2026-02-09",
-            "listingDate": "",
-            "issueManager": "Kumari Capital Limited"
-        },
+        
 			
         {
             "company": "Ridge Line Energy Nepal",
@@ -658,15 +650,7 @@
             "lastClosingDate": " ",
             "issueManager": "Himalayan Capital Limited"
         },
-        {
-            "company": "Yambaling Hydropower Limited",
-            "units": "2 800 000.00",
-            "price": "100.00",
-            "openingDate": " ",
-            "closingDate": " ",
-            "lastClosingDate": " ",
-            "issueManager": "Muktinath Capital Limited"
-        },
+        
         
         {
             "company": "Richet Jalbidhyut Company Limited",
@@ -1480,6 +1464,15 @@
             "issueManager": "Nabil Investment Banking Limited"
         },
 		{
+            "company": "Yambaling Hydropower Limited",
+            "units": "280,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Muktinath Capital Limited"
+        },
+		{
             "company": "Beni Hydropower Project Limited",
             "units": "104,000.00",
             "price": "100.00",
@@ -1525,16 +1518,7 @@
             "lastClosingDate": "2026-01-20",
             "issueManager": "Global IME Capital Limited"
         },
-                
-        {
-            "company": "Ridge Line Energy Nepal",
-            "units": "580,420.00",
-            "price": "100.00",
-            "openingDate": "2025-12-28",
-            "closingDate": "2026-01-01",
-            "lastClosingDate": " ",
-            "issueManager": "Prabhu Capital Limited"
-        },
+         
         {
             "company": "Snow Rivers Limited",
             "units": "162,500.00",
