@@ -1,241 +1,272 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>My Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Share Portfolio Dashboard</title>
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<!-- Google Fonts for NEPSE-style -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
 <style>
-:root{
-  --bg:#f2f4f8;
-  --card:#ffffff;
-  --primary:#2563eb;
-  --muted:#6b7280;
-  --radius:18px;
-  --shadow:0 12px 28px rgba(0,0,0,.08);
-}
+  body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background: #f4f7fa;
+    color: #333;
+  }
 
-*{box-sizing:border-box}
-body{
-  margin:0;
-  font-family:system-ui,-apple-system,Segoe UI,Roboto;
-  background:var(--bg);
-  color:#0f172a;
-}
+  .container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
 
-.app{
-  max-width:420px;
-  margin:auto;
-  padding:14px;
-}
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0b3d91;
+  }
 
-/* Header */
-.header{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  margin-bottom:16px;
-}
-.header h1{
-  font-size:22px;
-  margin:0;
-}
+  /* Summary Cards */
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
 
-/* Cards */
-.card{
-  background:var(--card);
-  border-radius:var(--radius);
-  box-shadow:var(--shadow);
-  padding:14px;
-  margin-bottom:14px;
-}
+  .card {
+    flex: 1 1 220px;
+    background: linear-gradient(135deg, #007bff, #00c6ff);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+  }
 
-/* Stats */
-.stats{
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  gap:12px;
-}
-.stat{
-  padding:14px;
-  border-radius:14px;
-  background:linear-gradient(180deg,#fff,#f9fbff);
-}
-.stat label{
-  font-size:12px;
-  color:var(--muted);
-}
-.stat .value{
-  font-size:20px;
-  font-weight:700;
-  margin-top:6px;
-}
+  .card h2 {
+    margin: 0;
+    font-size: 24px;
+  }
 
-/* Chart titles */
-.card h3{
-  margin:0 0 10px 0;
-  font-size:16px;
-}
+  .card p {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+  }
 
-/* Holdings list */
-table{
-  width:100%;
-  border-collapse:collapse;
-}
-td{
-  padding:10px 4px;
-  font-size:14px;
-}
-tr:not(:last-child) td{
-  border-bottom:1px solid #eee;
-}
-.symbol{
-  background:rgba(37,99,235,.1);
-  color:var(--primary);
-  padding:4px 8px;
-  border-radius:999px;
-  font-size:12px;
-  font-weight:600;
-}
-.num{
-  text-align:right;
-  font-variant-numeric:tabular-nums;
-}
+  /* Table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 40px;
+  }
+
+  th, td {
+    padding: 12px 10px;
+    text-align: center;
+  }
+
+  th {
+    background: #007bff;
+    color: #fff;
+    font-weight: 500;
+  }
+
+  tr:nth-child(even) {
+    background: #f7f9fc;
+  }
+
+  tr:hover {
+    background: #e0f0ff;
+  }
+
+  /* Chart */
+  #chartContainer {
+    margin-bottom: 40px;
+  }
+
+  #legend {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+  }
+
+  .legend-color {
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
+    border-radius: 3px;
+  }
+
+  @media (max-width: 768px) {
+    .cards { flex-direction: column; align-items: center; }
+    table, th, td { font-size: 12px; }
+  }
 </style>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
-
 <body>
-<div class="app">
 
-<!-- HEADER -->
-<div class="header">
-  <h1>My Portfolio</h1>
-</div>
+<div class="container">
+  <h1>My Share Portfolio Dashboard</h1>
 
-<!-- SUMMARY -->
-<div class="card stats" id="stats"></div>
+  <!-- Portfolio Summary Cards -->
+  <div class="cards">
+    <div class="card">
+      <h2 id="totalCompanies">0</h2>
+      <p>Total Companies</p>
+    </div>
+    <div class="card">
+      <h2 id="totalUnits">0</h2>
+      <p>Total Shares</p>
+    </div>
+    <div class="card">
+      <h2 id="totalValue">0</h2>
+      <p>Total Portfolio Value (NPR)</p>
+    </div>
+  </div>
 
-<!-- PIE CHART -->
-<div class="card">
-  <h3>Sector Allocation (Shares)</h3>
-  <canvas id="sectorPie" height="220"></canvas>
-</div>
+  <!-- Portfolio Table -->
+  <table id="portfolio-table">
+    <thead>
+      <tr>
+        <th>Company</th>
+        <th>Shares</th>
+        <th>Price (NPR)</th>
+        <th>Total Value (NPR)</th>
+        <th>Sector</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
 
-<!-- STACKED BAR -->
-<div class="card">
-  <h3>Sector vs Holdings (Shares)</h3>
-  <canvas id="sectorStack" height="240"></canvas>
-</div>
-
-<!-- TOP HOLDINGS -->
-<div class="card">
-  <h3>Top Holdings (Shares)</h3>
-  <canvas id="topHoldings" height="220"></canvas>
-</div>
-
-<!-- HOLDINGS LIST -->
-<div class="card">
-  <h3>My Holdings</h3>
-  <table id="table"></table>
-</div>
-
+  <!-- Sector Bar Chart -->
+  <div id="chartContainer">
+    <canvas id="portfolioChart"></canvas>
+    <div id="legend"></div>
+  </div>
 </div>
 
 <script>
-const URL = 'https://shyamkumarkc20.com.np/js/meroshare.json';
+const sectorColors = {
+  "Commercial Banks": "rgba(0,123,255,0.7)",
+  "Hydro Power": "rgba(40,167,69,0.7)",
+  "Mutual Fund": "rgba(102,51,153,0.7)",
+  "Life Insurance": "rgba(255,159,64,0.7)",
+  "Non Life Insurance": "rgba(220,53,69,0.7)",
+  "Microfinance": "rgba(0,128,128,0.7)",
+  "Manufacturing And Processing": "rgba(165,42,42,0.7)",
+  "Development Banks": "rgba(108,117,125,0.7)",
+  "Others": "rgba(108,117,125,0.7)"
+};
 
-fetch(URL).then(r=>r.json()).then(data=>{
-  buildStats(data);
-  buildSectorCharts(data);
-  buildTopHoldings(data);
-  buildTable(data);
-});
+async function loadPortfolio() {
+  try {
+    const res = await fetch('https://shyamkumarkc20.com.np/js/meroshare.json');
+    const data = await res.json();
 
-/* SUMMARY */
-function buildStats(rows){
-  const totalUnits = rows.reduce((s,r)=>s+Number(r.Units||0),0);
-  const sectors = new Set(rows.map(r=>r.Sector));
+    const tbody = document.querySelector('#portfolio-table tbody');
+    tbody.innerHTML = '';
 
-  document.getElementById('stats').innerHTML=`
-    <div class="stat"><label>Total Shares</label><div class="value">${totalUnits.toLocaleString()}</div></div>
-    <div class="stat"><label>Total Holdings</label><div class="value">${rows.length}</div></div>
-    <div class="stat"><label>Sectors</label><div class="value">${sectors.size}</div></div>
-    <div class="stat"><label>Instruments</label><div class="value">Equity</div></div>
-  `;
-}
+    let labels = [], values = [], colors = [];
+    let totalCompanies = 0, totalUnits = 0, totalPortfolioValue = 0;
+    let usedSectors = new Set();
 
-/* SECTOR PIE + STACKED BAR (SHARES) */
-function buildSectorCharts(rows){
-  const sectorMap = {};
-  rows.forEach(r=>{
-    sectorMap[r.Sector]=(sectorMap[r.Sector]||0)+Number(r.Units||0);
-  });
+    data.forEach(item => {
+      const units = parseFloat(item.Units) || 0;
+      const price = parseFloat(item.WACC) || 0;
+      let total = parseFloat(item.Value);
+      if (isNaN(total)) total = units * price || 0;
 
-  // Pie
-  new Chart(document.getElementById('sectorPie'),{
-    type:'pie',
-    data:{
-      labels:Object.keys(sectorMap),
-      datasets:[{data:Object.values(sectorMap)}]
-    }
-  });
+      // Add table row for all shares
+      const row = document.createElement('tr');
+      row.innerHTML = `
+        <td>${item.Name}</td>
+        <td>${units}</td>
+        <td>${price.toLocaleString()}</td>
+        <td>${total.toLocaleString()}</td>
+        <td>${item.Sector}</td>
+      `;
+      tbody.appendChild(row);
 
-  // Stacked bar
-  const sectors = Object.keys(sectorMap);
-  const datasets = rows.map(r=>({
-    label:r.Symbol,
-    data:sectors.map(s=>s===r.Sector?Number(r.Units):0),
-    stack:'stack1'
-  }));
+      // Add chart data only if total > 0
+      if (total > 0) {
+        labels.push(item.Name);
+        values.push(total);
+        const sectorColor = sectorColors[item.Sector] || 'rgba(200,200,200,0.7)';
+        colors.push(sectorColor);
+        usedSectors.add(item.Sector);
 
-  new Chart(document.getElementById('sectorStack'),{
-    type:'bar',
-    data:{labels:sectors,datasets},
-    options:{
-      responsive:true,
-      plugins:{legend:{display:false}},
-      scales:{
-        x:{stacked:true},
-        y:{stacked:true,ticks:{callback:v=>v.toLocaleString()}}
+        totalCompanies++;
+        totalUnits += units;
+        totalPortfolioValue += total;
       }
-    }
-  });
+    });
+
+    // Update summary cards
+    document.getElementById('totalCompanies').innerText = totalCompanies;
+    document.getElementById('totalUnits').innerText = totalUnits.toLocaleString();
+    document.getElementById('totalValue').innerText = totalPortfolioValue.toLocaleString();
+
+    drawChart(labels, values, colors);
+    drawLegend(usedSectors);
+
+  } catch (err) {
+    console.error('Error loading portfolio:', err);
+  }
 }
 
-/* TOP HOLDINGS */
-function buildTopHoldings(rows){
-  const top=[...rows].sort((a,b)=>b.Units-a.Units).slice(0,6);
-  new Chart(document.getElementById('topHoldings'),{
-    type:'bar',
-    data:{
-      labels:top.map(r=>r.Symbol),
-      datasets:[{data:top.map(r=>r.Units)}]
+function drawChart(labels, values, colors) {
+  const ctx = document.getElementById('portfolioChart').getContext('2d');
+  new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: labels,
+      datasets: [{
+        label: 'Total Value (NPR)',
+        data: values,
+        backgroundColor: colors,
+        borderColor: colors.map(c => c.replace('0.7','1')),
+        borderWidth: 1
+      }]
     },
-    options:{
-      plugins:{legend:{display:false}},
-      scales:{y:{ticks:{callback:v=>v.toLocaleString()}}}
+    options: {
+      responsive: true,
+      plugins: { legend: { display: false }, tooltip: { mode: 'index', intersect: false } },
+      scales: { x: { ticks: { autoSkip: false } }, y: { beginAtZero: true } }
     }
   });
 }
 
-/* HOLDINGS TABLE */
-function buildTable(rows){
-  const table=document.getElementById('table');
-  table.innerHTML='';
-  rows.forEach(r=>{
-    table.innerHTML+=`
-      <tr>
-        <td>
-          <b>${r.Name}</b><br>
-          <span class="symbol">${r.Symbol}</span>
-        </td>
-        <td class="num">${Number(r.Units).toLocaleString()}</td>
-      </tr>
-    `;
+function drawLegend(sectors) {
+  const legendContainer = document.getElementById('legend');
+  legendContainer.innerHTML = '';
+  sectors.forEach(sector => {
+    const color = sectorColors[sector] || 'rgba(200,200,200,0.7)';
+    const item = document.createElement('div');
+    item.className = 'legend-item';
+    item.innerHTML = `<div class="legend-color" style="background:${color}"></div>${sector}`;
+    legendContainer.appendChild(item);
   });
 }
+
+loadPortfolio();
 </script>
+
 </body>
 </html>
