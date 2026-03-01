@@ -286,8 +286,8 @@
         "Sector": "Hydro Power",
         "Instrument": "Equity",
         "Units": "10",
-        "WACC": "",
-        "Value": ""
+        "WACC": "100",
+        "Value": "1000"
     },
     {
         "SN": "30",
@@ -296,8 +296,8 @@
         "Sector": "Microfinance",
         "Instrument": "Equity",
         "Units": "10",
-        "WACC": "",
-        "Value": ""
+        "WACC": "100",
+        "Value": "1000"
     },
     {
         "SN": "31",
@@ -306,8 +306,8 @@
         "Sector": "Hydro Power",
         "Instrument": "Equity",
         "Units": "10",
-        "WACC": "",
-        "Value": ""
+        "WACC": "100",
+        "Value": "1000"
     },
     {
         "SN": "32",
@@ -316,8 +316,8 @@
         "Sector": "Hydro Power",
         "Instrument": "Equity",
         "Units": "80",
-        "WACC": "",
-        "Value": ""
+        "WACC": "100",
+        "Value": "1000"
     },
     {
         "SN": "33",
@@ -347,7 +347,7 @@
         "Instrument": "Equity",
         "Units": "10",
         "WACC": "100",
-        "Value": ""
+        "Value": "1000"
     },
     {
         "SN": "36",
@@ -357,7 +357,7 @@
         "Instrument": "Equity",
         "Units": "20",
         "WACC": "100",
-        "Value": ""
+        "Value": "2000"
     },
     {
         "SN": "37",
@@ -367,7 +367,7 @@
         "Instrument": "Equity",
         "Units": "86.6",
         "WACC": "100",
-        "Value": ""
+        "Value": "8660"
     },
     {
         "SN": "38",
@@ -377,7 +377,7 @@
         "Instrument": "Equity",
         "Units": "191.1",
         "WACC": "100",
-        "Value": ""
+        "Value": "1911"
     },
     {
         "SN": "39",
@@ -389,7 +389,7 @@
         "Website": "",
         "Units": "11.8",
         "WACC": "100",
-        "Value": ""
+        "Value": "1180"
     },
     {
         "SN": "40",
@@ -401,7 +401,7 @@
         "Website": "",
         "Units": "20",
         "WACC": "100",
-        "Value": ""
+        "Value": "200"
     },
     {
         "SN": "41",
@@ -411,7 +411,7 @@
         "Instrument": "Equity",
         "Units": "10",
         "WACC": "100",
-        "Value": ""
+        "Value": "1000"
     },
     {
         "SN": "42",
@@ -421,7 +421,7 @@
         "Instrument": "Equity",
         "Units": "10",
         "WACC": "100",
-        "Value": ""
+        "Value": "1000"
     },
     {
         "SN": "43",
@@ -431,7 +431,7 @@
         "Instrument": "Equity",
         "Units": "10",
         "WACC": "100",
-        "Value": ""
+        "Value": "1000"
     },
     {
         "SN": "44",
@@ -441,7 +441,7 @@
         "Instrument": "Equity",
         "Units": "10",
         "WACC": "100",
-        "Value": ""
+        "Value": "1000"
     },
     {
         "SN": "45",
@@ -451,7 +451,7 @@
         "Instrument": "Equity",
         "Units": "10",
         "WACC": "100",
-        "Value": ""
+        "Value": "1000"
     },
     {
         "SN": "46",
@@ -461,16 +461,26 @@
         "Instrument": "Equity",
         "Units": "20",
         "WACC": "100",
-        "Value": ""
+        "Value": "2000"
     },
     {
         "SN": "47",
-        "Name": "United Ajod Insurance",
+        "Name": "United Ajod Insurance Limited",
         "Symbol": "UAIL",
         "Sector": "Non Life Insurance",
         "Instrument": "Equity",
         "Units": "50",
-        "WACC": "465",
+        "WACC": "467",
         "Value": ""
+    },
+     {
+        "SN": "48",
+        "Name": "Super Khudi Hydropower Limited",
+        "Symbol": "Khudi",
+        "Sector": "Hydro Power",
+        "Instrument": "Equity",
+        "Units": "10",
+        "WACC": "100",
+        "Value": "1000"
     }
 ]
