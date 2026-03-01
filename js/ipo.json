@@ -46,15 +46,7 @@
             "listingDate": "",
             "issueManager": "Kumari Capital Limited"
         },
-		{
-            "company": "Hotel Forest Inn Limited",
-            "units": "3,320,000.00",
-            "price": "100.00",
-            "openingDate": "2026-02-05",
-            "closingDate": "2026-02-09",
-            "lastClosingDate": "2026-02-20",
-            "issueManager": "NIC Asia Capital Limited"
-        },		
+			
         {
             "company": "Ridge Line Energy Nepal",
             "units": "1,180,260.00",
@@ -92,16 +84,7 @@
             "lastClosingDate": "2026-03-03",
             "issueManager": "Global IME Capital Limited"
         },        
-        {
-            "company": "Solu Hydropower Limited",
-            "units": "82,00,000.00",
-            "price": "100.00",
-            "openingDate": "2026-01-13",
-            "closingDate": "2026-01-18",
-            "lastClosingDate": "",
-            "listingDate": "",
-            "issueManager": "Nabil Investment Banking Limited"
-        },
+        
 		{
             "company": "Appolo Hydropower Limited",
             "units": "1,410,000.00",
@@ -1139,6 +1122,46 @@
             "issueManager": "Global IME Capital Limited"
         },
         {
+            "company": "Hulas Finserv Hire Purchase Limited ",
+            "units": "2,075,000.00",
+            "price": "358.85",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "NMB Capital Limited"
+        },
+		{
+            "company": "Samyukta Urja Limited",
+            "units": "4,160,000.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Laxmi Sunrise Capital Limited"
+        },
+		{
+            "company": "Hotel Park Land Limted",
+            "units": "1,500,000.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Citizens Capital Limited"
+        },
+		{
+            "company": "Asian Batteries Limited",
+            "units": "1,300,000.00	",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Himalayan Capital Limited"
+        },
+		{
             "company": "",
             "units": "",
             "price": "",
@@ -1484,16 +1507,7 @@
             "lastClosingDate": "2026-02-03",
             "issueManager": "Global IME Capital Limited"
         },
-       {
-            "company": "Salapa Bikas Bank Limited",
-            "units": "172,388.00",
-            "price": "100.00",
-            "openingDate": "2025-12-11",
-            "closingDate": "2025-12-15",
-            "lastClosingDate": "",
-            "listingDate": "",
-            "issueManager": "Muktinath Capital Limited"
-        },
+       
 		{
             "company": "Hotel Forest Inn Limited",
             "units": "400,000.00",
@@ -1521,16 +1535,7 @@
             "lastClosingDate": "2026-01-20",
             "issueManager": "Global IME Capital Limited"
         },
-        
-        {
-            "company": "Suryakunda Hydro Electric Limited",
-            "units": "137,935.00",
-            "price": "100.00",
-            "openingDate": "2025-12-24",
-            "closingDate": "2025-12-29",
-            "lastClosingDate": " ",
-            "issueManager": "Kumari Capital Limited"
-        },        
+                
         {
             "company": "Ridge Line Energy Nepal",
             "units": "580,420.00",
@@ -1549,16 +1554,7 @@
             "lastClosingDate": " ",
             "issueManager": "Sanima Capital Limited"
         },
-        {
-            "company": "Bhujung Hydropower Limited",
-            "units": "100,000.00",
-            "price": "100.00",
-            "openingDate": "2025-12-18",
-            "closingDate": "2025-12-22",
-            "lastClosingDate": "",
-            "listingDate": "",
-            "issueManager": "Kumari Capital Limited"
-        },
+        
 		{
             "company": "Appolo Hydropower Limited",
             "units": "94,000.00",
