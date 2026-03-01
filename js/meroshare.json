@@ -136,8 +136,8 @@
         "Sector": "Microfinance",
         "Instrument": "Equity",
         "Units": "10",
-        "WACC": "",
-        "Value": ""
+        "WACC": "100",
+        "Value": "1000"
     },
     {
         "SN": "15",
@@ -146,8 +146,8 @@
         "Sector": "Investment",
         "Instrument": "Equity",
         "Units": "54",
-        "WACC": "",
-        "Value": ""
+        "WACC": "100",
+        "Value": "5400"
     },
     {
         "SN": "16",
@@ -176,8 +176,8 @@
         "Sector": "Others",
         "Instrument": "Equity",
         "Units": "53",
-        "WACC": "",
-        "Value": ""
+        "WACC": "100",
+        "Value": "5300"
     },
     {
         "SN": "19",
@@ -186,8 +186,8 @@
         "Sector": "Others",
         "Instrument": "Equity",
         "Units": "10",
-        "WACC": "",
-        "Value": ""
+        "WACC": "100",
+        "Value": "1000"
     },
     {
         "SN": "20",
@@ -216,8 +216,8 @@
         "Sector": "Hydro Power",
         "Instrument": "Equity",
         "Units": "47",
-        "WACC": "",
-        "Value": ""
+        "WACC": "100",
+        "Value": "4700"
     },
     {
         "SN": "23",
@@ -226,8 +226,8 @@
         "Sector": "Hydro Power",
         "Instrument": "Equity",
         "Units": "40",
-        "WACC": "",
-        "Value": ""
+        "WACC": "100",
+        "Value": "1000"
     },
     {
         "SN": "24",
@@ -236,8 +236,8 @@
         "Sector": "Hydro Power",
         "Instrument": "Equity",
         "Units": "10",
-        "WACC": "",
-        "Value": ""
+        "WACC": "100",
+        "Value": "1000"
     },
     {
         "SN": "25",
@@ -266,8 +266,8 @@
         "Sector": "Non Life Insurance",
         "Instrument": "Equity",
         "Units": "10",
-        "WACC": "",
-        "Value": ""
+        "WACC": "100",
+        "Value": "1000"
     },
     {
         "SN": "28",
@@ -276,8 +276,8 @@
         "Sector": "Hydro Power",
         "Instrument": "Equity",
         "Units": "20",
-        "WACC": "",
-        "Value": ""
+        "WACC": "100",
+        "Value": "2000"
     },
     {
         "SN": "29",
