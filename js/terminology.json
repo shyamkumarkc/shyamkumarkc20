@@ -36,6 +36,11 @@
         "desc": "It refers to the unsuccessful processing of the cheque. A situation where the account of the person does not have enough balance in his/her bank account to cash the amount written in cheque."
     },
     {
+        "Name": "Call Deposit",
+        "link": "",
+        "desc": "A call deposit is a type of bank deposit that can be withdrawn anytime without prior notice. It usually earns lower interest than fixed or term deposits but offers high liquidity. Businesses use it to keep funds safe while still having instant access for daily transactions or emergencies."
+    },
+    {
         "Name": "Capital Market",
         "link": "",
         "desc": "Capital market is the financial market where the long-term financial instruments like stocks, bonds and others are traded. These instruments generally have maturity period of more than a year."
