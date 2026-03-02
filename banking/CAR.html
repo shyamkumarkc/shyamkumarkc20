@@ -25,6 +25,15 @@
 <link rel="icon" href="/brp.jpg">
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
 </script>
+ <style>
+  main{
+max-width:1200px;
+margin:auto;
+background:#fff;
+padding:30px;
+box-shadow:0 3px 12px rgba(0,0,0,0.08);
+}
+ </style>
 <script>
 $(function(){
 $('#header').load('/assets/header.html');
@@ -34,6 +43,7 @@ $('#header').load('/assets/header.html');
 </head>
 <body>
 <div id ="header"></div>
+ <main>
 <h1>Capital Adequacy Ratio (CAR)</h1>
 <p>The capital adequacy ratio (CAR) is a measure of a bank's financial strength and stability. It represents the proportion of a bank's capital (shareholders' funds) to its risk-weighted assets. The formula for calculating the CAR is:</p>
 <p>Capital Adequacy Ratio = (Tier 1 Capital + Tier 2 Capital) / (Risk-Weighted Assets)</p>
@@ -49,7 +59,7 @@ $(function(){
 $('#footer').load('/assets/footer.html');
 });
 </script>
-
+</main>
 </body>
   <div id ="footer"></div>
 </html>
