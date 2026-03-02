@@ -187,7 +187,12 @@
     {
         "Name": "SWIFT",
         "link": "",
-        "desc": "SWIFT stands for Society for Worldwide Interbank Financial Telecommunication. SWIFT is an electronic system that connects financial institutions all over the world to through a network and allows to perform the financial transaction (receive and payment) internationally."
+        "desc": "SWIFT stands for Society for Worldwide Interbank Financial Telecommunication. SWIFT is an electronic system that connects financial institutions all over the world to through a network and allows to perform the financial transactions (receive and payment) internationally."
+    },
+    {
+        "Name": "Term deposit/Fixed Deposit",
+        "link": "",
+        "desc": "Term deposit is a fixed-term investment offered by banks where money is locked for a specific period at a predetermined interest rate. It provides safe, predictable returns, is low risk, and usually cannot be withdrawn early without penalty, making it suitable for conservative savers seeking stable income over time securely."
     },
     {
         "Name": "Teller",
