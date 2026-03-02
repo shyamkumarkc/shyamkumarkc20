@@ -36,6 +36,12 @@ box-shadow:0 3px 12px rgba(0,0,0,0.08);
   h1{font-size:32px;margin-top:0}
 h2{margin-top:40px;color:#0a3d62}
 h3{margin-top:25px}
+  .note{
+background:#eaf3ff;
+padding:15px;
+border-left:5px solid #0a3d62;
+margin:25px 0;
+}
  </style>
 <script>
 $(function(){
@@ -49,7 +55,12 @@ $('#header').load('/assets/header.html');
  <main>
 <h1>Capital Adequacy Ratio (CAR)</h1>
 <p>The capital adequacy ratio (CAR) is a measure of a bank's financial strength and stability. It represents the proportion of a bank's capital (shareholders' funds) to its risk-weighted assets. The formula for calculating the CAR is:</p>
-<p>Capital Adequacy Ratio = (Tier 1 Capital + Tier 2 Capital) / (Risk-Weighted Assets)</p>
+<section>
+<h2>CAR Formula</h2>
+<div class="note">
+<strong>CAR = (Tier 1 Capital + Tier 2 Capital) ÷ Risk-Weighted Assets</strong>
+</div>
+</section>
 <p><strong>Tier 1 Capital</strong></p>
 <p>Tier 1 capital refers to the core capital of a bank, which includes shareholders' equity, disclosed reserves, and non-redeemable non-cumulative preference shares. It represents the bank's primary source of strength to absorb potential losses. In other words, Tier 1 Capital includes shareholders' funds such as common stock, disclosed reserves, and non-redeemable non-cumulative preference shares. Tier 1 capital refers to the core capital of a bank, which includes shareholders' equity, retained earnings, and certain types of intangible assets like goodwill. It represents the bank's primary source of strength and its ability to absorb losses without becoming insolvent.</p>
 <p><strong>Tier 2 capital</strong></p>
