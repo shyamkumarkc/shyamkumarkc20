@@ -1,7 +1,7 @@
 [
     {
         "SNO": "1 ",
-        "Name": "Omni Pvt.Ltd.",
+        "Name": "Omni Private Limited",
         "HO": "Adarshnagar, Birgunj",
         "CO": "Adarshanagar, Birgunj",
 		"Website" :"www.omnipl.com/",
@@ -11,7 +11,7 @@
     },
     {
         "SNO": "2 ",
-        "Name": "Hulas Fin Serve Ltd.",
+        "Name": "Hulas Fin Serve Limited",
         "HO": "Teku, Kathmandu",
         "CO": "Teku, Kathmandu",
 		"Website" :"hulasfinserve.com.np/ ",
@@ -21,7 +21,7 @@
     },
     {
         "SNO": "3",
-        "Name": " Sipradi Hire Purchase Pvt. Ltd.",
+        "Name": " Sipradi Hire Purchase Private Limited",
         "HO": " Gairidhara, Kathmandu ",
         "CO": "Thapathali, Kathmandu",
 		"Website" :"hirepurchase.sipradi.com.np/ ",
@@ -31,7 +31,7 @@
     },
     {
         "SNO": "4",
-        "Name": " MAW Investment Pvt. Ltd.",
+        "Name": " MAW Investment Private Limited",
         "HO": " Biratnagar, Morang ",
         "CO": "Teku, Kathmandu",
 		"Website": "www.mawinvest.com.np/ ",
@@ -41,7 +41,7 @@
     },
     {
         "SNO": "5 ",
-        "Name": "Batas Investment Co. Pvt. Ltd.",
+        "Name": "Batas Investment Co. Private Limited",
         "HO": " Pokhara,Kaski ",
         "CO": "Gairidhara, Kathmandu",
 		"Website":" ",
@@ -51,7 +51,7 @@
     },
     {
         "SNO": "6 ",
-        "Name": "Syakar Investment Pvt. Ltd. ",
+        "Name": "Syakar Investment Private Limited ",
         "HO": "Kantipath, Kathmandu",
         "CO": " Kantipath, Kathmandu",
 		"Website" :"syakarhp.com/ ",
@@ -71,7 +71,7 @@
     },
     {
         "SNO": "8 ",
-        "Name": "Venture Hire Purchase Pvt. Ltd.",
+        "Name": "Venture Hire Purchase Private Limited",
         "HO": " Panipokhari, Kathmandu",
         "CO": " Panipokhari, Kathmandu",
 		"Website": "www.venturehirepurchase.com.np",
@@ -81,7 +81,7 @@
     },
     {
         "SNO": "9",
-        "Name": " Manokamana Hire Purchase Pvt. Ltd.",
+        "Name": " Manokamana Hire Purchase Private Limited",
         "HO": " Kantipath, Kathmandu",
         "CO": " Kantipath, Kathmandu",
 		"Website" :" ",
@@ -91,7 +91,7 @@
     },
     {
         "SNO": "10 ",
-        "Name": "Agni Hire Purchase Pvt. Ltd. ",
+        "Name": "Agni Hire Purchase Private Limited ",
         "HO": "Panipokhari, Kathmandu",
         "CO": " Panipokhari, Kathmandu",
 		"Website" :" ",
@@ -100,3 +100,4 @@
 		"Fax": " "
     }
 ]
+
