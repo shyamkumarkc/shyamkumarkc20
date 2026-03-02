@@ -42,6 +42,25 @@ padding:15px;
 border-left:5px solid #0a3d62;
 margin:25px 0;
 }
+  table{
+border-collapse:collapse;
+width:100%;
+margin:20px 0;
+}
+
+table,th,td{
+border:1px solid #ddd;
+}
+
+th{
+background:#0a3d62;
+color:white;
+}
+
+th,td{
+padding:12px;
+text-align:left;
+}
  </style>
 <script>
 $(function(){
@@ -67,7 +86,13 @@ $('#header').load('/assets/header.html');
 <p>Tier 2 capital is a secondary source of capital for banks and includes items like subordinated debt, undisclosed reserves, general provisions, and revaluation reserves. Tier 2 capital is generally considered to be less secure than Tier 1 capital, but it still provides additional cushion for the bank in case of losses. Tier 2 Capital includes items like undisclosed reserves, revaluation reserves, and subordinated term deposits.</p>
 <p><strong>Risk-weighted assets (RWAs)</strong></p>
 <p>Risk-weighted assets (RWAs) are the bank's assets multiplied by risk weights assigned to each asset class. The risk weight reflects the likelihood of default and the potential loss associated with each asset. Common risk weights include 0% for risk-free assets like central bank reserves, 20% for residential mortgages, and 100% for corporate bonds and equities. By multiplying the assets by their risk weights, banks can calculate their total risk-weighted assets, which serve as the denominator in the capital adequacy ratio formula. Risk-weighted assets are calculated by multiplying the bank's assets by their respective risk weights, which are determined based on the type of asset and the credit risk associated with it.</p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The effect of a higher CAR is that it demonstrates the bank's financial stability and resilience to withstand economic downturns and potential losses. A higher CAR indicates that the bank has a stronger capital base to support its operations and can absorb potential losses without jeopardizing its solvency. This can lead to increased investor confidence, lower funding costs, and better access to capital markets. Additionally, a higher CAR can enable the bank to expand its lending activities and support economic growth. A higher capital adequacy ratio indicates that a bank has a stronger financial position to absorb potential losses and maintain its operations during economic downturns. Regulatory authorities typically set minimum capital adequacy ratio requirements for banks to ensure their stability and protect depositors' interests.</p>
+<table>
+<tr><th>Asset Type</th><th>Typical Risk Weight</th></tr>
+<tr><td>Government Securities</td><td>0%</td></tr>
+<tr><td>Residential Loans</td><td>20%</td></tr>
+<tr><td>Corporate Loans</td><td>100%</td></tr>
+</table>
+  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The effect of a higher CAR is that it demonstrates the bank's financial stability and resilience to withstand economic downturns and potential losses. A higher CAR indicates that the bank has a stronger capital base to support its operations and can absorb potential losses without jeopardizing its solvency. This can lead to increased investor confidence, lower funding costs, and better access to capital markets. Additionally, a higher CAR can enable the bank to expand its lending activities and support economic growth. A higher capital adequacy ratio indicates that a bank has a stronger financial position to absorb potential losses and maintain its operations during economic downturns. Regulatory authorities typically set minimum capital adequacy ratio requirements for banks to ensure their stability and protect depositors' interests.</p>
  <script>
 $(function(){
 $('#footer').load('/assets/footer.html');
