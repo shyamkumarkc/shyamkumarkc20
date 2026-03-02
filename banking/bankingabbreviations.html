@@ -1,8 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>SHYAM KUMAR K.C.</title>
-<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+<meta charset="UTF-8">
+<title>Banking & Financial Abbreviations Glossary | Complete List</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Complete glossary of banking and financial abbreviations including BFIs, CAR, ROE, IMF, NRB and more. Searchable A–Z list.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://yourdomain.com/banking-abbreviations">
+
+<style>
+body{
+margin:0;
+font-family:Segoe UI,Arial;
+background:#f4f7fb;
+color:#222;
+}
+
+
+
+main{
+max-width:1400px;
+margin:auto;
+background:#fff;
+padding:10px;
+box-shadow:0 4px 15px rgba(0,0,0,.08);
+}
+
+h1{margin-top:0}
+
+
+
+.alphabet{
+display:flex;
+flex-wrap:wrap;
+gap:6px;
+margin-bottom:20px;
+}
+
+.alphabet button{
+border:none;
+padding:8px 12px;
+background:#e3eaf3;
+cursor:pointer;
+border-radius:4px;
+}
+
+.alphabet button.active{
+background:#0b3d6b;
+color:#fff;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+th,td{
+padding:12px;
+border:1px solid #ddd;
+}
+
+th{
+background:#0b3d6b;
+color:#fff;
+}
+
+tr:nth-child(even){
+background:#f1f6fc;
+}
+
+
+</style>
+
+<!-- Schema -->
+<script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@type":"DefinedTermSet",
+"name":"Banking and Financial Abbreviations Glossary",
+"description":"Glossary of common banking and finance abbreviations used internationally and in Nepal."
+}
+</script>
+
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
 </script>
 <script>
@@ -11,32 +91,24 @@ $('#header').load('/assets/header.html');
 });
 </script>
 
-</head><style>
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-    width: 100%;
-    border: 1px solid #ddd;
-}
-
-th, td {
-    text-align: left;
-    padding: 16px;
-}
-
-tr:nth-child(even) {
-    background-color: #f2f2f2
-}
-</style>
+</head>
 <body>
 <div id ="header"></div>
 
-<table border="black">
-<tbody>
+<main>
+<h1>Banking & Financial Abbreviations Glossary</h1>
+<p>Complete A–Z List of Financial Terms</p>
+ class="alphabet" id="alphabet"></div>
+
+<table id="glossaryTable">
+<thead>
 <tr>
-<td>Abbreviation</td>
-<td>Full Forms</td>
+<th>Abbreviation</th>
+<th>Full Form</th>
 </tr>
+</thead>
+<tbody>
+
 <tr>
 <td>ABBS</td>
 <td>Any Branch Banking System</td>
@@ -573,8 +645,40 @@ tr:nth-child(even) {
 <td>ECC</td>
 <td>Electronic Cheque Clearing</td>
 </tr>
+
 </tbody>
 </table>
+
+</main>
+
+
+<script>
+/* Alphabet Filter */
+const alphaDiv=document.getElementById("alphabet");
+"ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("").forEach(l=>{
+let b=document.createElement("button");
+b.textContent=l;
+b.onclick=()=>filterLetter(l,b);
+alphaDiv.appendChild(b);
+});
+
+function filterLetter(letter,btn){
+document.querySelectorAll(".alphabet button").forEach(x=>x.classList.remove("active"));
+btn.classList.add("active");
+
+document.querySelectorAll("#glossaryTable tbody tr").forEach(row=>{
+row.style.display=row.cells[0].innerText.startsWith(letter)?"":"none";
+});
+}
+
+/* Search Filter */
+document.getElementById("search").addEventListener("keyup",function(){
+let val=this.value.toLowerCase();
+document.querySelectorAll("#glossaryTable tbody tr").forEach(row=>{
+row.style.display=row.innerText.toLowerCase().includes(val)?"":"none";
+});
+});
+</script>
 
 
 <script>
@@ -586,4 +690,5 @@ $('#footer').load('/assets/footer.html');
 </body>
   <div id ="footer"></div>
 </html>
+
 
