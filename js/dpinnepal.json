@@ -53,7 +53,8 @@
 	{
         "SNo": "6",
         "id": "22300",
-        "Name": "Apple Securities Pvt. Ltd.",
+        "Name": "Apple Securities Private Limited",
+		"IMG": "https://shyamkumarkc20.com.np/logo/broker101.jpg",
         "Location": "Naxal Kathmandu",
         "Contact1": "01-5900205","Contact2":"",
         "Email": "info@applesecurities.com.np"
@@ -1076,6 +1077,7 @@
         "Email": "info@visionsecurities.com.np"
     }
 ]
+
 
 
 
