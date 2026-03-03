@@ -630,7 +630,8 @@
     {
         "SNo": "72",
         "id": "15500",
-        "Name": "NEPAL DP LIMITED",
+        "Name": "Nepal DP Limited",
+		"IMG": "https://shyamkumarkc20.com.np/logo/15500.png",
         "Location": "Naxal,Kathmandu",
         "Contact1": "01-5327086","Contact2":" 01-5333591",
         "Email": "nepaldpltd@gmail.com"
@@ -1075,6 +1076,7 @@
         "Email": "info@visionsecurities.com.np"
     }
 ]
+
 
 
 
