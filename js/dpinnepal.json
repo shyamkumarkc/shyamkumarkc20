@@ -883,7 +883,8 @@
     {
         "SNo": "101",
         "id": "11600",
-        "Name": "SECURED SECURITIES LIMITED",
+        "Name": "Secured Securities Limited",
+		"IMG": "https://shyamkumarkc20.com.np/logo/broker36.png",
         "Location": "PRADARSHANI MARG, Kathmandu",
         "Contact1": "014262861", "Contact2": "014224523",
         "Email": "ss36nepal@gmail.com"
@@ -1078,6 +1079,7 @@
         "Email": "info@visionsecurities.com.np"
     }
 ]
+
 
 
 
