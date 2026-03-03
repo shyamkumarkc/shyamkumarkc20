@@ -85,9 +85,11 @@
     {
         "SNo": "10",
         "id": "17500",
-        "Name": "ASIAN CAPITAL LIMITED",
+        "Name": "Asian Capital Limited",
+		"IMG": "https://shyamkumarkc20.com.np/logo/17500.png",
         "Location": "MAITIDEVI COMPLEX, Kathmandu",
-        "Contact1": "014418664","Contact2":"014418664",
+        "Contact1": "014418664",
+		"Contact2": "014418664",
         "Email": "asiancapitalltd@gmail.com"
     },
     {
@@ -209,7 +211,8 @@
     {
         "SNo": "25",
         "id": "20300",
-        "Name": "ELITE MERCHANT CAPITAL LTD",
+        "Name": "Elite Merchant Capital Limited",
+		"IMG": "https://shyamkumarkc20.com.np/logo/20300.png",
         "Location": "Lazimpat, Kathmandu",
         "Contact1": "01-4525190","Contact2":"",
         "Email": "elitecapitalnepal@gmail.com"
@@ -1067,6 +1070,7 @@
         "Email": "info@visionsecurities.com.np"
     }
 ]
+
 
 
 
