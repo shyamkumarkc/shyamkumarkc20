@@ -320,8 +320,9 @@
     {
         "SNo": "37",
         "id": "17700, 10100",
-        "Name": "HIMALAYAN CAPITAL LIMITED",
-        "Location": "THAMEL,Kathmandu",
+        "Name": "Himalayan Capital Limited",
+		"IMG": "https://shyamkumarkc20.com.np/logo/17700.png",
+        "Location": "Thamek, Kathmandu",
         "Contact1": "014258345","Contact2":"014263147",
         "Email": "info@himalayancapital.com"
     },
@@ -446,7 +447,7 @@
         "SNo": "52",
         "id": "15200,16300",
         "Name": "KUMARI BANK LIMITED",
-        "Location": "NAXAL,Kathmandu",
+        "Location": "Naxal, Kathmandu",
         "Contact1": "01-59970082",
 		"Contact2":"",
 		"Website": "www.kumaribank.com",
@@ -561,7 +562,8 @@
     {
         "SNo": "65",
         "id": "12500",
-        "Name": "MUKTINATH CAPITAL LIMITED",
+        "Name": "Muktinath Capital Limited",
+		"IMG": "https://shyamkumarkc20.com.np/logo/12500.png",
         "Location": "Naxal, Kathmandu",
         "Contact1": "01-4546108", "Contact2":"01-4546109", 
         "Email": "info@muktinathcapital.com"
@@ -1070,6 +1072,7 @@
         "Email": "info@visionsecurities.com.np"
     }
 ]
+
 
 
 
