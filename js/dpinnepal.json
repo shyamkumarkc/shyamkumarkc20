@@ -42,7 +42,7 @@
     {
         "SNo": "5",
         "id": "17200",
-        "Name": "AGRICULTURAL DEVELOPMENT BANK LIMITED",
+        "Name": "Agricultural Development Bank Limited",
         "Location": "RAMSHAHPATH, Kathmandu",
         "Contact1": "014251537","Contact2":"01-4263387",
 		"Website": "www.adbl.gov.np",
@@ -62,7 +62,8 @@
     {
         "SNo": "7",
         "id": "21800",
-        "Name": "ARUN SECURITIES Private Limited",
+        "Name": "Arun Securities Private Limited",
+		"IMG": "https://shyamkumarkc20.com.np/logo/broker3.jpg",
         "Location": "Gaushala Kathmandu",
         "Contact1": "01-5913750","Contact2":"",
         "Email": "arunsecurities@gmail.com"
@@ -1077,6 +1078,7 @@
         "Email": "info@visionsecurities.com.np"
     }
 ]
+
 
 
 
