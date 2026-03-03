@@ -575,14 +575,15 @@
     {
         "SNo": "66",
         "id": "15900",
-        "Name": "NAASA SECURITIES COMPANY LTD",
-        "Location": "NAXAL",
+        "Name": "Naasa Securities Company Limited",
+		"IMG": "https://shyamkumarkc20.com.np/logo/broker58.png",
+        "Location": "Naxal, Kathmandu",
         "Contact1": "014440384","Contact2":"014440386",
         "Email": "naasasecurities58@gmail.com"
     },
     {
         "SNo": "67",
-        "id": "15100 , 16800",
+        "id": "15100, 16800",
         "Name": "NABIL BANK LIMITED",
         "Location": "DURBARMARG, Kathmandu",
         "Contact1": "014233780",
@@ -594,15 +595,17 @@
     {
         "SNo": "68",
         "id": "10400",
-        "Name": "NABIL INVESTMENT BANKING LTD.",
-        "Location": "NARAYANCHOUR,NAXAL",
+        "Name": "Nabil Investment Banking Limited",
+		"IMG": "https://shyamkumarkc20.com.np/logo/10400.png",
+        "Location": "Naxal, Kathmandu",
         "Contact1": "014411604","Contact2":"014411733",
         "Email": "info@nabilinvest.com.np"
     },
     {
         "SNo": "69",
         "id": "20400",
-        "Name": "NAGARIK STOCK DEALER COMPANY LTD",
+        "Name": "Nagarik Stock Dealer Company Limited",
+		"IMG": "https://shyamkumarkc20.com.np/logo/20400.jpg",
         "Location": "New Baneshwor, Kathmandu",
         "Contact1": "01-4790331","Contact2":"",
         "Email": "nagariksd@gmail.com"
@@ -1079,6 +1082,7 @@
         "Email": "info@visionsecurities.com.np"
     }
 ]
+
 
 
 
