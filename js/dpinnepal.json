@@ -279,8 +279,9 @@
     {
         "SNo": "32",
         "id": "16200",
-        "Name": "GUHESWORI MERCHANT BANKING &amp; FINANCE LIMITED",
-        "Location": "PULCHOK, Lalitpur",
+        "Name": "Guheshwori Merchant Banking & Finance Limited",
+		"IMG": "https://shyamkumarkc20.com.np/logo/gmfil.jpg",
+        "Location": "Pulchowk, Lalitpur",
         "Contact1": "015550406","Contact2":"015537407",
         "Email": "archana.pradhan@gmbf.com.np"
     },
@@ -1074,6 +1075,7 @@
         "Email": "info@visionsecurities.com.np"
     }
 ]
+
 
 
 
