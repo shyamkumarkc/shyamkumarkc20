@@ -6,10 +6,10 @@
     "stream": "http://stream.zenolive.com/wtuvp08xq1duv"
   },
   {
-    "name": "",
-    "frequency": "",
+    "name": "Hits FM",
+    "frequency": "91.2 Mhz",
     "logo": "",
-    "stream": ""
+    "stream": "https://usa15.fastcast4u.com/proxy/hitsfm912?mp=/1"
   },
   {
     "name": "",
@@ -46,6 +46,12 @@
     "frequency": "96.1 MHz",
     "logo": "https://example.com/logos/kantipur.png",
     "stream": "https://radio-broadcast.ekantipur.com/stream"
+  },
+  {
+    "name": "Classic FM",
+    "frequency": "101.2 Mhz",
+    "logo": "",
+    "stream": "https://radio-streaming-serv-1.hamropatro.com/radio/8060/radio.mp3"
   },
   {
     "name": "Radio Janasanchar",
