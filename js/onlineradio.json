@@ -18,6 +18,12 @@
     "stream": "https://usa15.fastcast4u.com/proxy/hitsfm912?mp=/1"
   },
   {
+    "name": "Radio Annapurna Nepal",
+    "frequency": "94 MHz",
+    "logo": "https://images.hamro-files.com/UAA0hdqsfhWEdTsXT9-tu3Dzwpg=/500x500/https://image.hamropatro.com/imgs/g:ce/plain/http://storage.googleapis.com/hamropatro-storage/assets/5769928858664960/images/4338c5c9-32c9-49be-881d-c4da5820f59d.jpg",
+    "stream": "https://shoutcast.prixa.live/annapurna"
+  },
+  {
     "name": "Kalika FM",
     "frequency": "95.2 MHz",
     "logo": "https://images.hamro-files.com/UO1TlXvc1gRlAYFA-3CJXF89DKI=/500x500/https://image.hamropatro.com/imgs/g:ce/plain/http://storage.googleapis.com/hamropatro-storage/assets/5769928858664960/images/eb94cd8c-1b5d-4bd2-b449-eed924413edd.jpg",
