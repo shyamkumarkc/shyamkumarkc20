@@ -68,6 +68,12 @@
     "stream": "https://radio-streaming-serv-1.hamropatro.com/radio/8280/radio.mp3"
   },
   {
+    "name": "Radio Sathi",
+    "frequency": "98.6 MHz",
+    "logo": "",
+    "stream": "https://streaming.softnep.net:10863/;stream.nsv&type=mp3&volume=50"
+  },
+  {
     "name": "Nepali Radio Network",
     "frequency": "99.1 MHz",
     "logo": "https://images.hamro-files.com/ixJ8_av_fEtAkcvczKr5zET2Qcs=/500x500/https://image.hamropatro.com/imgs/g:ce/plain/http://storage.googleapis.com/hamropatro-storage/assets/5769928858664960/images/6dc642d7-3fcd-4166-912d-286458f2e72b.jpg",
@@ -84,6 +90,12 @@
     "frequency": "101.2 Mhz",
     "logo": "",
     "stream": "https://radio-streaming-serv-1.hamropatro.com/radio/8060/radio.mp3"
+  },
+  {
+    "name": "Radio Sagarmatha",
+    "frequency": "102.4 MHz",
+    "logo": "",
+    "stream": "http://194.233.67.236:9300/;&autostart=true"
   },
   {
     "name": "Radio King",
