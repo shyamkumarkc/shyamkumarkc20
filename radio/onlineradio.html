@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>Nepal Online Radio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+body{
+font-family:Arial,Helvetica,sans-serif;
+background:#f5f5f5;
+margin:0;
+}
+
+.topbar{
+background:#d93a3a;
+padding:12px 20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+color:white;
+}
+
+.searchbox input{
+padding:7px 10px;
+border-radius:4px;
+border:none;
+}
+
+.container{
+max-width:1200px;
+margin:auto;
+padding:20px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:40px;
+}
+
+.radio{
+display:flex;
+gap:15px;
+align-items:center;
+cursor:pointer;
+padding-bottom:15px;
+border-bottom:1px solid #ddd;
+transition:0.2s;
+}
+
+.radio:hover{
+background:#fafafa;
+}
+
+.logo{
+width:60px;
+height:60px;
+object-fit:contain;
+background:#eee;
+padding:5px;
+border-radius:6px;
+}
+
+.name{
+font-size:18px;
+font-weight:600;
+}
+
+.freq{
+font-size:13px;
+color:#666;
+margin-top:3px;
+}
+
+.player{
+position:fixed;
+bottom:0;
+left:0;
+right:0;
+background:#111;
+color:white;
+padding:12px 20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+button{
+background:#e53935;
+color:white;
+border:none;
+padding:8px 14px;
+border-radius:4px;
+cursor:pointer;
+}
+
+button:hover{
+background:#c62828;
+}
+
+@media(max-width:900px){
+
+.grid{
+grid-template-columns:1fr;
+}
+
+}
+
+</style>
+</head>
+
+
+<body>
+
+
+<div class="topbar">
+
+<div class="searchbox">
+Search <input type="text" id="search" placeholder="Radio name">
+</div>
+
+<div>
+Sort By
+<select id="sort">
+<option value="name">Popular</option>
+<option value="name">Name</option>
+</select>
+</div>
+
+</div>
+
+
+
+<div class="container">
+
+<div class="grid" id="radioGrid"></div>
+
+</div>
+
+
+<div class="player">
+
+<div id="nowPlaying">Select a Radio</div>
+
+<button onclick="toggle()">Play / Pause</button>
+
+</div>
+
+
+<audio id="radioPlayer"></audio>
+
+
+<script>
+
+const grid=document.getElementById("radioGrid")
+const player=document.getElementById("radioPlayer")
+const now=document.getElementById("nowPlaying")
+
+let radios=[]
+
+fetch("https://shyamkumarkc20.com.np/js/onlineradio.json")
+.then(r=>r.json())
+.then(data=>{
+
+radios=data
+render(radios)
+
+})
+
+function render(data){
+
+grid.innerHTML=""
+
+data.forEach(r=>{
+
+let div=document.createElement("div")
+div.className="radio"
+
+div.innerHTML=`
+
+<img class="logo" src="${r.logo || 'https://cdn-icons-png.flaticon.com/512/727/727245.png'}">
+
+<div>
+<div class="name">${r.name}</div>
+<div class="freq">${r.frequency || ''}</div>
+</div>
+
+`
+
+div.onclick=()=>{
+
+player.src=r.stream
+player.play()
+
+now.innerText="Now Playing: "+r.name
+
+}
+
+grid.appendChild(div)
+
+})
+
+}
+
+
+document.getElementById("search").addEventListener("input",e=>{
+
+let q=e.target.value.toLowerCase()
+
+let filtered=radios.filter(r=>r.name.toLowerCase().includes(q))
+
+render(filtered)
+
+})
+
+
+function toggle(){
+
+if(player.paused)
+player.play()
+else
+player.pause()
+
+}
+
+</script>
+
+</body>
+</html>
