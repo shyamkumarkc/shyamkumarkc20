@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Ujyaalo Radio Network",
+    "frequency": "90.0 MHz",
+    "logo": "https://example.com/logos/ujyaalo.png",
+    "stream": "https://stream.example.com/ujyaalo"
+  },
+  {
+    "name": "Radio Kantipur",
+    "frequency": "96.1 MHz",
+    "logo": "https://example.com/logos/kantipur.png",
+    "stream": "https://stream.example.com/kantipur"
+  },
+  {
+    "name": "Radio Janasanchar",
+    "frequency": "107.9 Mhz",
+    "logo": "https://example.com/logos/kalika.png",
+    "stream": "https://online.net.np/8116/stream"
+  }
+]
