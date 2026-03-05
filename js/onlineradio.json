@@ -2,19 +2,19 @@
   {
     "name": "Ujyaalo Radio Network",
     "frequency": "90.0 MHz",
-    "logo": "https://example.com/logos/ujyaalo.png",
+    "logo": "https://images.hamro-files.com/WKAyguvXkrOm4c5oGOm6p4SsS4g=/500x500/https://image.hamropatro.com/imgs/g:ce/plain/http://storage.googleapis.com/hamropatro-storage/assets/5769928858664960/images/b917082b-b006-47b5-8b20-fa0a94e7fc40.jpg",
     "stream": "http://stream.zenolive.com/wtuvp08xq1duv"
   },
   {
     "name": "Hits FM",
-    "frequency": "91.2 Mhz",
+    "frequency": "91.2 MHz",
     "logo": "",
     "stream": "https://usa15.fastcast4u.com/proxy/hitsfm912?mp=/1"
   },
   {
     "name": "Kalika FM",
-    "frequency": "",
-    "logo": "",
+    "frequency": "95.2 MHz",
+    "logo": "https://images.hamro-files.com/UO1TlXvc1gRlAYFA-3CJXF89DKI=/500x500/https://image.hamropatro.com/imgs/g:ce/plain/http://storage.googleapis.com/hamropatro-storage/assets/5769928858664960/images/eb94cd8c-1b5d-4bd2-b449-eed924413edd.jpg",
     "stream": "https://streaming.softnep.net:10828/;stream.nsv&type=mp3&volume=70"
   },
   {
@@ -62,7 +62,7 @@
   {
     "name": "Radio Kantipur",
     "frequency": "96.1 MHz",
-    "logo": "https://example.com/logos/kantipur.png",
+    "logo": "https://images.hamro-files.com/t0npd8S-lKE5Ggfe9IMIEqqYc0k=/500x500/https://image.hamropatro.com/imgs/g:ce/plain/http://storage.googleapis.com/hamropatro-storage/assets/5769928858664960/images/da9591dd-308b-46e5-8b7a-40e13b3edd99.jpg",
     "stream": "https://radio-broadcast.ekantipur.com/stream"
   },
   {
