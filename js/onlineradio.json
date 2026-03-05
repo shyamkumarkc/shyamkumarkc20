@@ -1,5 +1,11 @@
 [
   {
+    "name": "Shepherd FM",
+    "frequency": "89.2 MHz",
+    "logo": "",
+    "stream": "https://betelgeuse.dribbcast.com/proxy/shepherdfmc?mp=/stream"
+  },
+  {
     "name": "Ujyaalo Radio Network",
     "frequency": "90.0 MHz",
     "logo": "https://images.hamro-files.com/WKAyguvXkrOm4c5oGOm6p4SsS4g=/500x500/https://image.hamropatro.com/imgs/g:ce/plain/http://storage.googleapis.com/hamropatro-storage/assets/5769928858664960/images/b917082b-b006-47b5-8b20-fa0a94e7fc40.jpg",
@@ -86,6 +92,12 @@
     "stream": "https://radionepal.news/live"
   },
   {
+    "name": "Radio Sanfebagar",
+    "frequency": "101 MHz",
+    "logo": "",
+    "stream": "https://streaming.softnep.net:10988/;stream.nsv"
+  },
+  {
     "name": "Classic FM",
     "frequency": "101.2 Mhz",
     "logo": "",
@@ -102,6 +114,12 @@
     "frequency": "104.3 MHz",
     "logo": "",
     "stream": "https://stream.zeno.fm/mef816srgy8uv"
+  },
+  {
+    "name": "Radio Sunkoshi",
+    "frequency": "105.6 MHz",
+    "logo": "",
+    "stream": "https://live.itech.host:8743/stream"
   },
   {
     "name": "Radio Audio",
