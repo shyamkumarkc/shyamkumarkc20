@@ -48,6 +48,12 @@
     "stream": "https://radio-broadcast.ekantipur.com/stream"
   },
   {
+    "name": "Image FM",
+    "frequency": "97.9 Mhz",
+    "logo": "",
+    "stream": "https://radio-streaming-serv-1.hamropatro.com/radio/8040/radio.mp3"
+  },
+  {
     "name": "Classic FM",
     "frequency": "101.2 Mhz",
     "logo": "",
