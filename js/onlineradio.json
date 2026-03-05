@@ -74,6 +74,12 @@
     "stream": "https://streaming.softnep.net:10863/;stream.nsv&type=mp3&volume=50"
   },
   {
+    "name": "Asal Sathi Radio",
+    "frequency": "98.9MHz",
+    "logo": "https://images.hamro-files.com/2Myn9KR0nwjnWOPH4knWDhX7vbQ=/500x500/https://image.hamropatro.com/imgs/g:ce/plain/http://storage.googleapis.com/hamropatro-storage/assets/5769928858664960/images/25b4cfcd-60af-4f3b-928d-b57758d5b6a3.png",
+    "stream": "https://stream-26.zeno.fm/0whuy4nsfa1uv"
+  },
+  {
     "name": "Nepali Radio Network",
     "frequency": "99.1 MHz",
     "logo": "https://images.hamro-files.com/ixJ8_av_fEtAkcvczKr5zET2Qcs=/500x500/https://image.hamropatro.com/imgs/g:ce/plain/http://storage.googleapis.com/hamropatro-storage/assets/5769928858664960/images/6dc642d7-3fcd-4166-912d-286458f2e72b.jpg",
