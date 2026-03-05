@@ -79,6 +79,12 @@
     "logo": "https://images.hamro-files.com/zyfb3CMNnBdvTWHrYfJwR-ABhcA=/500x500/https://image.hamropatro.com/imgs/g:ce/plain/https://file-r2.hamropatro.com/hamropatro-backend/hp-cards/1ef55eb7-5ace-4ac1-bd24-f62ffc705395",
     "stream": "https://streaming.softnep.net:10863/;stream.nsv&type=mp3&volume=50"
   },
+   {
+    "name": "Radio City",
+    "frequency": "98.8 MHz",
+    "logo": "https://images.hamro-files.com/D1S5dONJALu45iUyIJYKHY5JFCA=/500x500/https://image.hamropatro.com/imgs/g:ce/plain/http://storage.googleapis.com/hamropatro-storage/assets/5769928858664960/images/2c03d914-188e-4441-bc42-9e69fc077879.jpg",
+    "stream": "https://onlineradio.websoftitnepal.com/8036/stream;"
+  },
   {
     "name": "Asal Sathi Radio",
     "frequency": "98.9MHz",
