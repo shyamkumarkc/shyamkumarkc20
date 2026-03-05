@@ -8,7 +8,7 @@
   {
     "name": "Hits FM",
     "frequency": "91.2 MHz",
-    "logo": "",
+    "logo": "https://images.hamro-files.com/Z_iEkh16L9Hoi0X4yZdS-bw_p_Q=/500x500/https://image.hamropatro.com/imgs/g:ce/plain/http://storage.googleapis.com/hamropatro_image/radio/logo/Hits_FM.jpg",
     "stream": "https://usa15.fastcast4u.com/proxy/hitsfm912?mp=/1"
   },
   {
@@ -17,12 +17,7 @@
     "logo": "https://images.hamro-files.com/UO1TlXvc1gRlAYFA-3CJXF89DKI=/500x500/https://image.hamropatro.com/imgs/g:ce/plain/http://storage.googleapis.com/hamropatro-storage/assets/5769928858664960/images/eb94cd8c-1b5d-4bd2-b449-eed924413edd.jpg",
     "stream": "https://streaming.softnep.net:10828/;stream.nsv&type=mp3&volume=70"
   },
-  {
-    "name": "Nepali Radio Network",
-    "frequency": "",
-    "logo": "",
-    "stream": "https://node-23.zeno.fm/mpm1q3wmms8uv?rj-ttl=5&rj-tok=AAABgL1cp0QAX0n2LQu-NfG3dg"
-  },
+  
   {
     "name": "Radio Audio",
     "frequency": "",
@@ -76,6 +71,12 @@
     "frequency": "98.3 Mhz",
     "logo": "",
     "stream": "https://radio-streaming-serv-1.hamropatro.com/radio/8280/radio.mp3"
+  },
+  {
+    "name": "Nepali Radio Network",
+    "frequency": "99.1 MHz",
+    "logo": "https://images.hamro-files.com/ixJ8_av_fEtAkcvczKr5zET2Qcs=/500x500/https://image.hamropatro.com/imgs/g:ce/plain/http://storage.googleapis.com/hamropatro-storage/assets/5769928858664960/images/6dc642d7-3fcd-4166-912d-286458f2e72b.jpg",
+    "stream": "https://node-23.zeno.fm/mpm1q3wmms8uv?rj-ttl=5&rj-tok=AAABgL1cp0QAX0n2LQu-NfG3dg"
   },
   {
     "name": "Classic FM",
