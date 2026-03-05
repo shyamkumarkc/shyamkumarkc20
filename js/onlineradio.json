@@ -83,7 +83,7 @@
     "name": "Radio Nepal",
     "frequency": "100 MHz",
     "logo": "",
-    "stream": https://stream1.radionepal.gov.np/live/"
+    "stream": "https://stream1.radionepal.gov.np/live/"
   },
   {
     "name": "Radio Sanfebagar",
