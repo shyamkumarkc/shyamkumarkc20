@@ -26,12 +26,6 @@
   
   
   {
-    "name": "Radio Roshi",
-    "frequency": "",
-    "logo": "",
-    "stream": "https://betelgeuse.dribbcast.com/proxy/radioroshi?mp=/stream"
-  },
-  {
     "name": "",
     "frequency": "",
     "logo": "",
@@ -89,7 +83,7 @@
     "name": "Radio Nepal",
     "frequency": "100 MHz",
     "logo": "",
-    "stream": "https://radionepal.news/live"
+    "stream": https://stream1.radionepal.gov.np/live/"
   },
   {
     "name": "Radio Sanfebagar",
@@ -102,6 +96,12 @@
     "frequency": "101.2 Mhz",
     "logo": "",
     "stream": "https://radio-streaming-serv-1.hamropatro.com/radio/8060/radio.mp3"
+  },  
+  {
+    "name": "Radio Roshi",
+    "frequency": "101.6 MHz",
+    "logo": "",
+    "stream": "https://betelgeuse.dribbcast.com/proxy/radioroshi?mp=/stream"
   },
   {
     "name": "Radio Sagarmatha",
