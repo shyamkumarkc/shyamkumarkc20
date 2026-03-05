@@ -136,8 +136,8 @@
   {
     "name": "Nagarik FM",
     "frequency": "107.5 Mhz",
-    "logo": "",
-    "stream": "https://live.itech.host:3030/stream"
+    "logo": "https://images.hamro-files.com/9r-YW00AaumrjmC2SEQKd898ZLY=/500x500/https://image.hamropatro.com/imgs/g:ce/plain/https://file-r2.hamropatro.com/parewa/image-proxy-conversion/4bd9a98e-2e42-464c-b12c-c965d2565a0c",
+    "stream": "https://live.itech.host:4675/stream?type=.mp3"
   },
   {
     "name": "Radio Janasanchar",
