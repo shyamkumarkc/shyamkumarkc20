@@ -18,6 +18,24 @@
     "stream": "https://streaming.softnep.net:10828/;stream.nsv&type=mp3&volume=70"
   },
   {
+    "name": "Nepali Radio Network",
+    "frequency": "",
+    "logo": "",
+    "stream": "https://node-23.zeno.fm/mpm1q3wmms8uv?rj-ttl=5&rj-tok=AAABgL1cp0QAX0n2LQu-NfG3dg"
+  },
+  {
+    "name": "Radio Audio",
+    "frequency": "",
+    "logo": "",
+    "stream": "https://node-26.zeno.fm/fvrx47wpg0quv?zs=ZNsB1GpOR8KfSrDnnxXHsA&rj-tok=AAABgL4A1YIASY9m49NoW58lrQ&rj-ttl=5"
+  },
+  {
+    "name": "",
+    "frequency": "",
+    "logo": "",
+    "stream": ""
+  },
+  {
     "name": "",
     "frequency": "",
     "logo": "",
@@ -64,6 +82,12 @@
     "frequency": "101.2 Mhz",
     "logo": "",
     "stream": "https://radio-streaming-serv-1.hamropatro.com/radio/8060/radio.mp3"
+  },
+  {
+    "name": "Radio King",
+    "frequency": "104.3 MHz",
+    "logo": "",
+    "stream": "https://stream.zeno.fm/mef816srgy8uv"
   },
   {
     "name": "Nagarik FM",
