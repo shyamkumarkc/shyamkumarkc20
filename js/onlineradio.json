@@ -54,6 +54,12 @@
     "stream": "https://radio-streaming-serv-1.hamropatro.com/radio/8040/radio.mp3"
   },
   {
+    "name": "KeepsFM",
+    "frequency": "98.3 Mhz",
+    "logo": "",
+    "stream": "https://radio-streaming-serv-1.hamropatro.com/radio/8280/radio.mp3"
+  },
+  {
     "name": "Classic FM",
     "frequency": "101.2 Mhz",
     "logo": "",
