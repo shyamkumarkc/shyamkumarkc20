@@ -18,17 +18,12 @@
     "stream": "https://streaming.softnep.net:10828/;stream.nsv&type=mp3&volume=70"
   },
   
+  
   {
-    "name": "Radio Audio",
+    "name": "Radio Roshi",
     "frequency": "",
     "logo": "",
-    "stream": "https://node-26.zeno.fm/fvrx47wpg0quv?zs=ZNsB1GpOR8KfSrDnnxXHsA&rj-tok=AAABgL4A1YIASY9m49NoW58lrQ&rj-ttl=5"
-  },
-  {
-    "name": "",
-    "frequency": "",
-    "logo": "",
-    "stream": ""
+    "stream": "https://betelgeuse.dribbcast.com/proxy/radioroshi?mp=/stream"
   },
   {
     "name": "",
@@ -79,6 +74,12 @@
     "stream": "https://node-23.zeno.fm/mpm1q3wmms8uv?rj-ttl=5&rj-tok=AAABgL1cp0QAX0n2LQu-NfG3dg"
   },
   {
+    "name": "Radio Nepal",
+    "frequency": "100 MHz",
+    "logo": "",
+    "stream": "https://radionepal.news/live"
+  },
+  {
     "name": "Classic FM",
     "frequency": "101.2 Mhz",
     "logo": "",
@@ -89,6 +90,12 @@
     "frequency": "104.3 MHz",
     "logo": "",
     "stream": "https://stream.zeno.fm/mef816srgy8uv"
+  },
+  {
+    "name": "Radio Audio",
+    "frequency": "106.3 MHz",
+    "logo": "https://images.hamro-files.com/Z6tjsSJSNLg11VPaOnpTOdnuO04=/500x500/https://image.hamropatro.com/imgs/g:ce/plain/https://file-r2.hamropatro.com/hamropatro/hp-cards/-Obg8C9Q22Ybc8kEH5ZB-97024bd.jpeg",
+    "stream": "https://node-26.zeno.fm/fvrx47wpg0quv?zs=ZNsB1GpOR8KfSrDnnxXHsA&rj-tok=AAABgL4A1YIASY9m49NoW58lrQ&rj-ttl=5"
   },
   {
     "name": "Radio Namobuddha",
@@ -105,7 +112,7 @@
   {
     "name": "Radio Janasanchar",
     "frequency": "107.9 Mhz",
-    "logo": "https://example.com/logos/kalika.png",
+    "logo": "https://images.hamro-files.com/bFm-0nnb4g3KWPpDJGgoGt1ipAc=/500x500/https://image.hamropatro.com/imgs/g:ce/plain/https://file-r2.hamropatro.com/hamropatro-backend/hp-cards/6affcb89-7906-437c-b566-6057b47ed006-8947823.jpeg",
     "stream": "https://online.net.np/8116/stream"
   }
 ]
