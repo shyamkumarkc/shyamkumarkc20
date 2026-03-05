@@ -36,10 +36,10 @@
     "stream": ""
   },
   {
-    "name": "",
-    "frequency": "",
+    "name": "Mero FM",
+    "frequency": "93.3 MHz",
     "logo": "",
-    "stream": ""
+    "stream": "http://streaming.hamropatro.com:8078/;"
   },
   {
     "name": "Radio Kantipur",
@@ -64,6 +64,12 @@
     "frequency": "101.2 Mhz",
     "logo": "",
     "stream": "https://radio-streaming-serv-1.hamropatro.com/radio/8060/radio.mp3"
+  },
+  {
+    "name": "Nagarik FM",
+    "frequency": "107.5 Mhz",
+    "logo": "",
+    "stream": "https://live.itech.host:3030/stream"
   },
   {
     "name": "Radio Janasanchar",
