@@ -91,6 +91,12 @@
     "stream": "https://stream.zeno.fm/mef816srgy8uv"
   },
   {
+    "name": "Radio Namobuddha",
+    "frequency": "106.7 MHz",
+    "logo": "",
+    "stream": "https://live.itech.host:8465/stream"
+  },
+  {
     "name": "Nagarik FM",
     "frequency": "107.5 Mhz",
     "logo": "",
