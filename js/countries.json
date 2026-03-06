@@ -1,5 +1,47 @@
 [
   {
+    "country": "",
+    "capital": "",
+    "currency": " ",
+    "bank": "  ",
+    "flag": ""
+  },
+  {
+    "country": "Afghanistan",
+    "capital": "Kabul",
+    "currency": "Afghani",
+    "bank": "Da Afghanistan Bank",
+    "flag": "https://flagcdn.com/af.svg"
+  },
+  {
+    "country": "",
+    "capital": "",
+    "currency": " ",
+    "bank": "  ",
+    "flag": ""
+  },
+  {
+    "country": "",
+    "capital": "",
+    "currency": " ",
+    "bank": "  ",
+    "flag": ""
+  },
+  {
+    "country": "",
+    "capital": "",
+    "currency": " ",
+    "bank": "  ",
+    "flag": ""
+  },
+  {
+    "country": "",
+    "capital": "",
+    "currency": " ",
+    "bank": "  ",
+    "flag": ""
+  },
+  {
     "country": "Nepal",
     "capital": "Kathmandu",
     "currency": "Nepalese Rupee",
