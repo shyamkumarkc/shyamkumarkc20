@@ -1,239 +1,292 @@
 <script>
 (function(){
 
-const API = "https://shyamkumarkc20.com.np/js/ipo.json";
-const containerID = "nepal-ipo-dashboard";
-const refreshTime = 300000; // 5 minutes
+const IPO_API="https://shyamkumarkc20.com.np/js/ipo.json";
 
-function init(){
+/* ---------- CREATE HTML STRUCTURE ---------- */
 
-let container = document.getElementById(containerID);
+const container=document.createElement("div");
 
-if(!container){
-container = document.createElement("div");
-container.id = containerID;
-document.body.appendChild(container);
-}
+container.innerHTML=`
 
-container.innerHTML = `
-<div class="ipo-box">
-<div class="ipo-header">Nepal IPO Dashboard</div>
-<div class="ipo-loading">Loading IPO data...</div>
-</div>
-`;
+<div class="container">
+  <div class="ipo-widgets">
 
-fetchData();
+    <div class="ipo-widget" id="currentIPOWidget">
+      <div id="currentIPOBox">Loading...</div>
+    </div>
 
-}
+    <div class="ipo-widget" id="upcomingIPOWidget">
+      <div id="upcomingIPOBox">Loading...</div>
+    </div>
 
-function fetchData(){
-
-fetch(API)
-.then(res=>res.json())
-.then(data=>{
-render(data);
-})
-.catch(()=>{
-document.getElementById(containerID).innerHTML = `
-<div class="ipo-box">
-<div class="ipo-header">Nepal IPO Dashboard</div>
-<div class="ipo-error">IPO data unavailable</div>
-</div>`;
-});
-
-}
-
-function render(data){
-
-let html = `
-<div class="ipo-box">
-<div class="ipo-header">Nepal IPO Dashboard</div>
-`;
-
-if(data.ipo && data.ipo.length){
-
-data.ipo.forEach(i=>{
-
-let units = Number(i.units || 0);
-let applied = Number(i.applied || 0);
-
-let progress = 0;
-
-if(units > 0){
-progress = Math.min(100,(applied/units)*100);
-}
-
-let statusClass = "ipo-upcoming";
-
-if(i.status === "Open") statusClass = "ipo-open";
-if(i.status === "Closed") statusClass = "ipo-closed";
-
-html += `
-
-<div class="ipo-card">
-
-<div class="ipo-company">
-${i.company}
-
-<span class="ipo-status ${statusClass}">
-${i.status}
-</span>
-
-</div>
-
-<div class="ipo-meta">
-
-Units: ${units.toLocaleString()} <br>
-Price: Rs ${i.price} <br>
-Open: ${i.open} <br>
-Close: ${i.close}
-
-</div>
-
-<div class="ipo-progress">
-<div class="ipo-bar" style="width:${progress}%"></div>
-</div>
-
-<div class="ipo-progress-text">
-${progress.toFixed(0)}% Applied
-</div>
-
+  </div>
 </div>
 
 `;
 
-});
+document.currentScript.parentNode.insertBefore(container,document.currentScript);
 
-}else{
 
-html += `<div class="ipo-empty">No active IPO currently</div>`;
+/* ---------- ADD STYLES ---------- */
 
+const style=document.createElement("style");
+
+style.innerHTML=`
+
+.container{
+max-width:900px;
+margin:auto;
+padding:20px;
 }
 
-html += `
-
-<div class="ipo-credit">
-Powered by
-<a href="https://shyamkumarkc20.com.np" target="_blank">
-shyamkumarkc20.com.np
-</a>
-</div>
-
-</div>
-`;
-
-document.getElementById(containerID).innerHTML = html;
-
+.ipo-widgets{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
+margin-bottom:25px;
 }
 
-function loadStyle(){
-
-const css = `
-
-.ipo-box{
-font-family:Segoe UI,Arial;
-background:#ffffff;
-border:1px solid #ddd;
-border-radius:12px;
-padding:15px;
-max-width:420px;
-box-shadow:0 4px 15px rgba(0,0,0,0.05);
+.ipo-widget{
+background:#fff;
+padding:20px;
+border-radius:14px;
+box-shadow:0 3px 12px rgba(0,0,0,.08);
+transition:background .3s;
 }
 
-.ipo-header{
-font-size:18px;
+.ipo-badge{
+display:inline-block;
+padding:6px 12px;
+border-radius:20px;
 font-weight:600;
-margin-bottom:10px;
+margin-bottom:5px;
 }
 
-.ipo-card{
-border-top:1px solid #eee;
-padding:10px 0;
+.current-badge{
+background:#e7f7ee;
+color:#0c7a43;
 }
 
-.ipo-company{
-font-weight:600;
-font-size:15px;
-display:flex;
-justify-content:space-between;
-align-items:center;
+.upcoming-badge{
+background:#eef3ff;
+color:#1a4fd8;
 }
 
-.ipo-status{
-font-size:11px;
-padding:3px 7px;
-border-radius:4px;
+.none-badge{
+background:#222;
 color:#fff;
 }
 
-.ipo-open{
-background:#16a34a;
+.current-widget{
+background:#1abc9c;
+color:#fff;
 }
 
-.ipo-closed{
-background:#dc2626;
+.upcoming-widget{
+background:#3498db;
+color:#fff;
 }
 
-.ipo-upcoming{
-background:#2563eb;
+.none-widget{
+background:#222;
+color:#fff;
 }
 
-.ipo-meta{
-font-size:13px;
-color:#555;
-margin-top:5px;
+.ipo-name{
+font-size:18px;
+font-weight:700;
+margin:8px 0;
 }
 
-.ipo-progress{
-height:6px;
-background:#eee;
-border-radius:5px;
-margin-top:8px;
-overflow:hidden;
+@media(max-width:600px){
+
+.ipo-name{
+font-size:16px;
 }
 
-.ipo-bar{
-height:100%;
-background:#2563eb;
-}
-
-.ipo-progress-text{
+.ipo-badge{
 font-size:12px;
-margin-top:4px;
-color:#666;
+padding:5px 10px;
 }
 
-.ipo-credit{
-font-size:11px;
-margin-top:10px;
-color:#777;
+.ipo-widget{
+padding:15px;
 }
 
-.ipo-credit a{
-text-decoration:none;
-color:#2563eb;
-}
-
-.ipo-loading{
-font-size:13px;
-color:#666;
-}
-
-.ipo-error{
-font-size:13px;
-color:red;
 }
 
 `;
 
-const style = document.createElement("style");
-style.innerHTML = css;
 document.head.appendChild(style);
 
+
+/* ---------- FETCH IPO DATA ---------- */
+
+fetch(IPO_API)
+
+.then(res=>res.json())
+
+.then(result=>{
+
+let data=result.ipo;
+
+let now=new Date();
+
+let currentIPO=null;
+
+let upcomingIPO=null;
+
+let nearestDiff=Infinity;
+
+
+/* ---------- FIND CURRENT & UPCOMING IPO ---------- */
+
+data.forEach(ipo=>{
+
+if(!ipo.openingDate || ipo.openingDate.trim()==="") return;
+
+let open=new Date(ipo.openingDate+"T10:00:00");
+
+let close=new Date(ipo.closingDate+"T17:00:00");
+
+
+if(now>=open && now<=close){
+
+currentIPO=ipo;
+
 }
-  </script>
-loadStyle();
-init();
-setInterval(fetchData, refreshTime);
+
+
+if(now<open){
+
+let diff=open-now;
+
+if(diff<nearestDiff){
+
+nearestDiff=diff;
+
+upcomingIPO=ipo;
+
+}
+
+}
+
+});
+
+
+/* ---------- RENDER CURRENT IPO ---------- */
+
+if(currentIPO){
+
+renderIPO(
+
+currentIPO,
+
+"Current IPO",
+
+"current-badge",
+
+"currentIPOBox",
+
+"currentIPOWidget",
+
+"current-widget"
+
+);
+
+}else{
+
+renderPlaceholder(
+
+"No Current IPO",
+
+"currentIPOBox",
+
+"currentIPOWidget",
+
+"none-widget"
+
+);
+
+}
+
+
+/* ---------- RENDER UPCOMING IPO ---------- */
+
+if(upcomingIPO){
+
+renderIPO(
+
+upcomingIPO,
+
+"Upcoming IPO",
+
+"upcoming-badge",
+
+"upcomingIPOBox",
+
+"upcomingIPOWidget",
+
+"upcoming-widget"
+
+);
+
+}else{
+
+renderPlaceholder(
+
+"No Upcoming IPO",
+
+"upcomingIPOBox",
+
+"upcomingIPOWidget",
+
+"none-widget"
+
+);
+
+}
+
+
+/* ---------- FUNCTIONS ---------- */
+
+function renderIPO(ipo,title,badgeCls,boxId,widgetId,widgetCls){
+
+document.getElementById(widgetId).className="ipo-widget "+widgetCls;
+
+document.getElementById(boxId).innerHTML=`
+
+<div class="ipo-badge ${badgeCls}">${title}</div>
+
+<div class="ipo-name">${ipo.company}</div>
+
+`;
+
+}
+
+
+function renderPlaceholder(text,boxId,widgetId,widgetCls){
+
+document.getElementById(widgetId).className="ipo-widget "+widgetCls;
+
+document.getElementById(boxId).innerHTML=`
+
+<div class="ipo-badge none-badge">${text}</div>
+
+`;
+
+}
+
+})
+
+.catch(()=>{
+
+document.getElementById("currentIPOBox").innerText="Failed to load";
+
+document.getElementById("upcomingIPOBox").innerText="Failed to load";
+
+});
 
 })();
+</script>
