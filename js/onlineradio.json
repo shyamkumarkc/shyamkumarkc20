@@ -254,7 +254,7 @@
     "name": "Classic FM",
     "frequency": "101.2 Mhz",
     "logo": "",
-    "stream": "https://streaming.softnep.com:8032/stream"
+    "stream": "http://streaming.hamropatro.com:8783"
   },  
   {
         "name": "Vijaya FM",
