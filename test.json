@@ -1,30 +1,52 @@
 [
-    {
-        "ProvinceName": "Koshi Pradesh",
-        "Districts": "Bhojpur, Dhankuta, IIlam, Jhapa, Khotang, Morang, Okhaldhunga, Panchthar, Sankhuwasabha, Solukhumbu, Sunsari, Taplejung, Terhathum, Udayapur"
-    },
-    {
-        "ProvinceName": "Madhesh Pradesh",
-        "Districts": "Saptari, Parsa, Sarlahi, Bara, Siraha, Dhanusa, Rautahat, Mahottari"
-    },
-    {
-        "ProvinceName": "Bagamati Pradesh",
-        "Districts": "Rasuwa, Nuwakot, Dhading, Chitwan, Makawanpur, Bhaktapur, Dolakha, Kathmandu, Kavrepalanchok, Lalitpur, Ramechhap, Sindhuli, Sindhupalchok"
-    },
-    {
-        "ProvinceName": "Gandaki Pradesh",
-        "Districts": "Baglung, Gorkha, Kaski, Lamjung, Manang, Mustang, Myagdi, Nawalpur, Parbat, Syangja, Tanahun"
-    },
-    {
-        "ProvinceName": "Lumbini Pradesh",
-        "Districts": "Arghakhanchi, Banke, Bardiya, Dang, Eastern Rukum, Gulmi, Kapilvastu, Parasi, Palpa, Pyuthan, Rolpa, Rupandehi"
-    },
-    {
-        "ProvinceName": "Karnali Pradesh",
-        "Districts": "Dailekh, Dolpa, Humla, Jajarkot, Jumla, Kalikot, Mugu, Salyan, Surkhet, Western Rukum"
-    },
-    {
-        "ProvinceName": "SudurPaschim Pradesh",
-        "Districts": "Achham, Baitadi, Bajhang, Bajura, Dadeldhura, Darchula, Doti, Kailali, Kanchanpur"
-    }
+{"name":"Radio Kantipur","stream":"https://radio-broadcast.ekantipur.com/stream"},
+{"name":"Ujyaalo Radio Network","stream":"https://streaming.ujyaaloonline.com/ujyaalo.mp3"},
+{"name":"Radio Nepal","stream":"https://radionepal.gov.np/radio-stream"},
+{"name":"Hits FM 91.2","stream":"https://streaming.softnep.com:8035/stream"},
+{"name":"Image FM 97.9","stream":"https://streaming.softnep.com:8025/stream"},
+{"name":"Radio Sagarmatha","stream":"https://streaming.softnep.com:8037/stream"},
+{"name":"Radio Candid","stream":"https://streaming.softnep.com:8040/stream"},
+{"name":"Classic FM","stream":"https://streaming.softnep.com:8032/stream"},
+{"name":"Radio Annapurna","stream":"https://streaming.softnep.com:8050/stream"},
+{"name":"Nepali Radio Network","stream":"https://streaming.softnep.com:8070/stream"},
+{"name":"Swadesh FM","stream":"https://streaming.softnep.com:8060/stream"},
+{"name":"Radio Audio","stream":"https://streaming.softnep.com:8065/stream"},
+{"name":"BBC Nepali","stream":"https://stream.live.vc.bbcmedia.co.uk/bbc_nepali_radio"},
+{"name":"BBC World Service","stream":"https://stream.live.vc.bbcmedia.co.uk/bbc_world_service"},
+{"name":"Metro Traffic FM","stream":"https://streaming.softnep.com:8055/stream"},
+{"name":"Radio Thaha Sanchar","stream":"https://streaming.softnep.com:8090/stream"},
+{"name":"Radio City","stream":"https://streaming.softnep.com:8095/stream"},
+{"name":"Radio Birgunj","stream":"https://streaming.softnep.com:8100/stream"},
+{"name":"Citizen FM","stream":"https://streaming.softnep.com:8110/stream"},
+{"name":"Radio Janata","stream":"https://streaming.softnep.com:8120/stream"},
+{"name":"Radio Kathmandu","stream":"https://streaming.softnep.com:8130/stream"},
+{"name":"Nepaliko Radio","stream":"https://streaming.softnep.com:8140/stream"},
+{"name":"SaptaKoshi FM","stream":"https://streaming.softnep.com:8150/stream"},
+{"name":"Synergy FM","stream":"https://streaming.softnep.com:8160/stream"},
+{"name":"Vijaya FM","stream":"https://streaming.softnep.com:8170/stream"},
+{"name":"Kalika FM","stream":"https://streaming.softnep.com:8180/stream"},
+{"name":"Radio Resunga","stream":"https://streaming.softnep.com:8190/stream"},
+{"name":"Radio Bheri","stream":"https://streaming.softnep.com:8200/stream"},
+{"name":"Keeps FM","stream":"https://streaming.softnep.com:8210/stream"},
+{"name":"Radio Taplejung","stream":"https://streaming.softnep.com:8220/stream"},
+{"name":"Radio Arun","stream":"https://streaming.softnep.com:8230/stream"},
+{"name":"Radio Tamor","stream":"https://streaming.softnep.com:8240/stream"},
+{"name":"Ganatantra FM","stream":"https://streaming.softnep.com:8250/stream"},
+{"name":"Radio Active","stream":"https://streaming.softnep.com:8260/stream"},
+{"name":"Radio Panini","stream":"https://streaming.softnep.com:8270/stream"},
+{"name":"Radio Kanchanpur","stream":"https://streaming.softnep.com:8280/stream"},
+{"name":"Radio Manasalu","stream":"https://streaming.softnep.com:8290/stream"},
+{"name":"Radio Chaurjahari","stream":"https://streaming.softnep.com:8300/stream"},
+{"name":"Radio Sajha Aawaj","stream":"https://streaming.softnep.com:8310/stream"},
+{"name":"Radio Netrajyot","stream":"https://streaming.softnep.com:8320/stream"},
+{"name":"Radio Samagra","stream":"https://streaming.softnep.com:8330/stream"},
+{"name":"Radio Naya Nepal","stream":"https://streaming.softnep.com:8340/stream"},
+{"name":"Radio Bungal","stream":"https://streaming.softnep.com:8350/stream"},
+{"name":"Radio Bhimeshwar","stream":"https://streaming.softnep.com:8360/stream"},
+{"name":"Radio Baiteshwor","stream":"https://streaming.softnep.com:8370/stream"},
+{"name":"Radio Ninglashaini","stream":"https://streaming.softnep.com:8380/stream"},
+{"name":"Suryamukhi FM","stream":"https://streaming.softnep.com:8390/stream"},
+{"name":"Sunakhari Radio","stream":"https://streaming.softnep.com:8400/stream"},
+{"name":"Radio Sarlahi","stream":"https://streaming.softnep.com:8410/stream"},
+{"name":"My FM Nepal","stream":"https://streaming.softnep.com:8420/stream"}
 ]
