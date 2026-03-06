@@ -334,6 +334,29 @@
         "address": "Texas, USA"
     },
   {
+        
+        "name": "Vijayapur Fm",
+        "stream": "https://live.itech.host:9479/stream",
+        "frequency": 98.8,
+        "address": "Dharan 10, Sainik Chowk",
+        "province": 1
+    },
+    {
+     
+        "name": "Radio Resunga",
+        "stream": "https://live.itech.host:3260/stream",
+        "frequency": 106.2,
+        "address": "Tamghas, Gulmi",
+        "province": 5
+    },
+    {
+        "name": "Radio Bheri  FM 98.6 & 102.7 MHz",
+        "stream": "http://streaming.hamropatro.com:8313",
+        "frequency": 98.6,
+        "address": "Birendranagar-7, Surkhet",
+        "province": 6
+    },
+  {
     "name": "BFBS Gurkha Network",
     "frequency": "",
     "logo": "",
