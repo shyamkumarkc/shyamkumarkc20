@@ -53,7 +53,7 @@
     "name": "Metro FM",
     "frequency": "",
     "logo": "",
-    "stream": "https://metronews.kathmandu.gov.np/uploads/photos/audio.gif"
+    "stream": "https://streaming.softnep.com:8055/stream"
   },
   {
     "name": "",
