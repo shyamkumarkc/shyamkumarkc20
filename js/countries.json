@@ -1,11 +1,5 @@
 [
-  {
-    "country": "",
-    "capital": "",
-    "currency": " ",
-    "bank": "  ",
-    "flag": ""
-  },
+  
   {
     "country": "Afghanistan",
     "capital": "Kabul",
@@ -19,6 +13,13 @@
     "currency": "Taka",
     "bank": "Bangladesh Bank",
     "flag": "https://flagcdn.com/bd.svg"
+  },
+  {
+    "country": "Bhutan",
+    "capital": "Thimpu",
+    "currency": "Bhutanese nglutrum",
+    "bank": "Royal Monetary Authority of Bhutan",
+    "flag": "https://flagcdn.com/bt.svg"
   },
   {
     "country": "",
