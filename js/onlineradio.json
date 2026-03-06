@@ -12,6 +12,12 @@
     "stream": "http://stream.zenolive.com/wtuvp08xq1duv"
   },
   {
+    "name": "Keeps FM",
+    "frequency": "90.3 MHz",
+    "logo": "",
+    "stream": "https://streaming.softnep.net:10944/;stream.nsv&type=mp3&volume=70"
+  },
+  {
     "name": "Hits FM",
     "frequency": "91.2 MHz",
     "logo": "https://images.hamro-files.com/Z_iEkh16L9Hoi0X4yZdS-bw_p_Q=/500x500/https://image.hamropatro.com/imgs/g:ce/plain/http://storage.googleapis.com/hamropatro_image/radio/logo/Hits_FM.jpg",
