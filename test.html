@@ -1,24 +1,19 @@
-<html>
-  <head>
-    <title> CDSC</title>
-    <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
-</script>
 <script>
-$(function(){
-$('#header').load('/assets/header.html');
-$('#ipowidget').load('/assets/ipowidget.html');
-$('#stockmarket').load('/assets/stockmarket.html');
-$('#footer').load('/assets/footer.html');
+fetch("https://shyamkumarkc20.com.np/js/ipo.json")
+.then(res=>res.json())
+.then(data=>{
+
+let html = "<div style='font-family:Arial;padding:10px;border:1px solid #ddd;border-radius:8px'>";
+html += "<h3>Current IPO in Nepal</h3>";
+
+data.ipo.forEach(i=>{
+html += `<p>${i.company} - ${i.units}</p>`;
+});
+
+html += "<small>Source: <a href='https://shyamkumarkc20.com.np' target='_blank'>shyamkumarkc20.com.np</a></small>";
+html += "</div>";
+
+document.getElementById("ipo-widget").innerHTML = html;
+
 });
 </script>
-  </head>
-  <body>
-    <div id ="header"></div>
-    <div id ="ipowidget"></div>
-    <h2> Securities Board of Nepal (SEBON)</h2>
-    <div id ="stockmarket"></div>
-  </body>
-  
-  <div id ="footer"></div>
-</html>
