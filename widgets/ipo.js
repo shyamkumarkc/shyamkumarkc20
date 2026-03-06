@@ -1,3 +1,4 @@
+<script>
 (function(){
 
 const API = "https://shyamkumarkc20.com.np/js/ipo.json";
@@ -230,7 +231,7 @@ style.innerHTML = css;
 document.head.appendChild(style);
 
 }
-
+  </script>
 loadStyle();
 init();
 setInterval(fetchData, refreshTime);
