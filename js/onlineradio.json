@@ -236,6 +236,13 @@
     "stream": "https://streaming.softnep.com:8032/stream"
   },  
   {
+        "name": "Vijaya FM",
+        "stream": "https://live.itech.host:3320/stream",
+        "frequency": 101.6,
+        "address": "Gaindakot-8, Nawalparasi, Nepal",
+        "province": 5
+    },
+  {
     "name": "Radio Roshi",
     "frequency": "101.6 MHz",
     "logo": "",
