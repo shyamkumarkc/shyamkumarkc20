@@ -131,7 +131,7 @@
     "name": "Classic FM",
     "frequency": "101.2 Mhz",
     "logo": "",
-    "stream": "https://radio-streaming-serv-1.hamropatro.com/radio/8060/radio.mp3"
+    "stream": "https://streaming.softnep.com:8032/stream"
   },  
   {
     "name": "Radio Roshi",
