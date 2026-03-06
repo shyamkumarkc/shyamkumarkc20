@@ -143,7 +143,7 @@
     "name": "Radio Sagarmatha",
     "frequency": "102.4 MHz",
     "logo": "",
-    "stream": "http://194.233.67.236:9300/;&autostart=true"
+    "stream": "https://streaming.softnep.com:8037/stream"
   },
   {
     "name": "Radio King",
