@@ -12,6 +12,13 @@
     "stream": "http://stream.zenolive.com/wtuvp08xq1duv"
   },
   {
+        "name": "SaptaKoshi FM 90.0 MHz",
+        "stream": "https://live.itech.host:4535/stream",
+        "frequency": 90.0,
+        "address": "Ithari-8, Sunsari, Nepal",
+        "province": 1
+    },
+  {
     "name": "Kool FM",
     "frequency": "90.3 MHz",
     "logo": "",
