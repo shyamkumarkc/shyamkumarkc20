@@ -357,6 +357,22 @@
         "province": 6
     },
   {
+        
+        "name": "Radio Taplejung",
+        "stream": "http://live.itech.host:9012/stream",
+        "frequency": 94.0,
+        "address": "Phungling-4, Taplejung",
+        "province": 1
+    },
+    {
+       
+        "name": "BFM",
+        "stream": "http://216.55.141.189:8124/;",
+        "frequency": 91.2,
+        "address": "Biratnagar-7, Morang",
+        "province": 1
+    },
+  {
     "name": "BFBS Gurkha Network",
     "frequency": "",
     "logo": "",
