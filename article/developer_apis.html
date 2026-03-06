@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nepal Developer API Hub – Live HTML Preview</title>
+<style>
+body { margin:0; font-family:'Segoe UI',Arial,sans-serif; background:#0f172a; color:#fff;}
+header { text-align:center; padding:30px 20px; background:linear-gradient(135deg,#1e3a8a,#0f172a);}
+header h1 { margin:0; font-size:32px;}
+header p { font-size:16px; color:#cbd5e1; margin:5px 0 15px 0;}
+#searchInput { width:100%; max-width:400px; padding:10px; border-radius:25px; border:none; outline:none; font-size:14px; margin-bottom:15px;}
+.stats { text-align:center; margin-bottom:20px; font-size:14px; color:#94a3b8;}
+
+.container { max-width:1000px; margin:auto; padding:20px;}
+.api-card { background:#1e293b; border-radius:12px; padding:20px; margin-bottom:20px; box-shadow:0 2px 10px rgba(0,0,0,0.5); transition:0.3s; position:relative; }
+.api-card:hover { background:#334155; }
+.api-title { font-size:20px; font-weight:600; margin-bottom:10px; }
+.api-desc { font-size:14px; margin-bottom:10px; color:#cbd5e1; }
+.api-link { display:inline-block; color:#38bdf8; text-decoration:none; font-weight:500; margin-bottom:10px; }
+.api-link:hover { text-decoration:underline; }
+.code-snippet { background:#0f172a; padding:10px; border-radius:8px; font-family:monospace; font-size:13px; overflow-x:auto; border:1px solid #334155; margin-bottom:5px; }
+.copy-btn, .preview-btn, .html-preview-btn, .fav-btn { margin:5px 5px 0 0; padding:5px 10px; border:none; border-radius:6px; font-size:13px; cursor:pointer; }
+.copy-btn { background:#3b82f6; color:#fff; } .copy-btn:hover { background:#2563eb; }
+.preview-btn { background:#14b8a6; color:#fff; } .preview-btn:hover { background:#0d9488; }
+.html-preview-btn { background:#f472b6; color:#fff; } .html-preview-btn:hover { background:#ec4899; }
+.fav-btn { background:#fbbf24; color:#000; } .fav-btn.active { background:#f59e0b; } .fav-btn:hover { background:#f59e0b; }
+.status { font-size:12px; font-weight:bold; margin-bottom:10px; }
+
+#previewModal { display:none; position:fixed; top:0; left:0; right:0; bottom:0; background:rgba(0,0,0,0.9); justify-content:center; align-items:flex-start; padding-top:50px; z-index:999; }
+#previewContent { background:#1e293b; padding:20px; border-radius:12px; width:90%; max-height:80%; overflow:auto; }
+#closePreview { background:#ef4444; color:#fff; border:none; padding:5px 10px; border-radius:6px; cursor:pointer; float:right; margin-bottom:10px; }
+
+.live-html { display:flex; flex-wrap:wrap; gap:10px; margin-top:10px; }
+.live-html .card { background:#334155; padding:10px; border-radius:8px; width:calc(33% - 10px); box-sizing:border-box; font-size:13px; }
+.live-html .card h4 { margin:0 0 5px 0; font-size:14px; color:#fff; }
+.live-html .card p { margin:0; color:#cbd5e1; }
+
+@media(max-width:600px){ header h1{ font-size:24px; } .api-card { padding:15px; } .live-html .card { width:100%; } }
+</style>
+</head>
+<body>
+
+<header>
+<h1>Nepal Developer API Hub – Live HTML Preview</h1>
+<p>See live JSON and HTML/CSS preview of APIs with real-time status.</p>
+<input type="text" id="searchInput" placeholder="Search API...">
+<div class="stats" id="apiStats">Loading APIs...</div>
+</header>
+
+<div class="container" id="apiContainer"></div>
+
+<!-- Preview Modal -->
+<div id="previewModal">
+    <div id="previewContent">
+        <button id="closePreview">Close</button>
+        <div style="margin-bottom:10px;">
+            <button id="jsonViewBtn" class="preview-btn">JSON View</button>
+            <button id="htmlViewBtn" class="html-preview-btn">HTML Preview</button>
+        </div>
+        <pre id="previewJSON" style="color:#f8fafc;"></pre>
+        <div id="previewHTML" class="live-html"></div>
+    </div>
+</div>
+
+<script>
+const container = document.getElementById("apiContainer");
+const searchInput = document.getElementById("searchInput");
+const apiStats = document.getElementById("apiStats");
+const previewModal = document.getElementById("previewModal");
+const previewJSON = document.getElementById("previewJSON");
+const previewHTML = document.getElementById("previewHTML");
+const closePreview = document.getElementById("closePreview");
+const jsonViewBtn = document.getElementById("jsonViewBtn");
+const htmlViewBtn = document.getElementById("htmlViewBtn");
+
+let apis = [];
+let favorites = JSON.parse(localStorage.getItem("favApis")||"[]");
+
+// Load API list
+fetch("https://shyamkumarkc20.com.np/js/developer_apis.json")
+.then(res => res.json())
+.then(data => {
+    apis = data;
+    displayApis(apis);
+    checkAllStatuses();
+    setInterval(checkAllStatuses,45000); // auto-refresh every 45s
+});
+
+// Display API cards
+function displayApis(list){
+    container.innerHTML = "";
+    apiStats.textContent = `Total APIs: ${list.length} | Favorites: ${favorites.length}`;
+    list.forEach(api => {
+        const card = document.createElement("div");
+        card.className = "api-card";
+
+        const isFav = favorites.includes(api.name);
+        const statusSpan = document.createElement("div");
+        statusSpan.className = "status";
+        statusSpan.id = "status-"+api.name.replace(/\s/g,'');
+        statusSpan.textContent = "Checking status...";
+        card.appendChild(statusSpan);
+
+        card.innerHTML += `
+            <div class="api-title">${api.name}</div>
+            <div class="api-desc">${api.description}</div>
+            <a href="${api.url}" class="api-link" target="_blank">${api.url}</a>
+            <div class="code-snippet" id="snippet-${api.name.replace(/\s/g,'')}">fetch("${api.url}")
+.then(res => res.json())
+.then(data => console.log(data));</div>
+            <button class="copy-btn" onclick="copyCode('snippet-${api.name.replace(/\s/g,'')}')">Copy Code</button>
+            <button class="preview-btn" onclick="previewApi('${api.url}')">Live Preview</button>
+            <button class="fav-btn ${isFav?'active':''}" onclick="toggleFavorite('${api.name}', this)">★ Favorite</button>
+        `;
+        container.appendChild(card);
+    });
+}
+
+// Copy snippet
+function copyCode(id){
+    const snippet = document.getElementById(id);
+    const range = document.createRange();
+    range.selectNode(snippet);
+    window.getSelection().removeAllRanges();
+    window.getSelection().addRange(range);
+    document.execCommand('copy');
+    window.getSelection().removeAllRanges();
+    alert("Code copied!");
+}
+
+// Search filter
+searchInput.addEventListener("input",function(){
+    const value = this.value.toLowerCase();
+    const filtered = apis.filter(api => api.name.toLowerCase().includes(value) || api.description.toLowerCase().includes(value));
+    displayApis(filtered);
+    checkAllStatuses();
+});
+
+// Favorites
+function toggleFavorite(name, btn){
+    if(favorites.includes(name)){
+        favorites = favorites.filter(f=>f!==name);
+        btn.classList.remove("active");
+    }else{
+        favorites.push(name);
+        btn.classList.add("active");
+    }
+    localStorage.setItem("favApis", JSON.stringify(favorites));
+    apiStats.textContent = `Total APIs: ${apis.length} | Favorites: ${favorites.length}`;
+}
+
+// Preview API
+let currentData = [];
+function previewApi(url){
+    fetch(url)
+    .then(res=>res.json())
+    .then(data=>{
+        currentData = data;
+        previewJSON.textContent = JSON.stringify(data,null,2);
+        previewHTML.innerHTML = renderHTMLPreview(data);
+        previewModal.style.display = "flex";
+        showJSONView();
+    })
+    .catch(err=>{
+        previewJSON.textContent = "❌ Error loading API JSON";
+        previewHTML.innerHTML="";
+        previewModal.style.display = "flex";
+        showJSONView();
+    });
+}
+
+// Render JSON as HTML cards
+function renderHTMLPreview(data){
+    if(!Array.isArray(data)) return `<div style="color:#f87171;">Data not an array</div>`;
+    return data.map(item=>`
+        <div class="card">
+            ${Object.keys(item).map(k=>`<h4>${k}</h4><p>${item[k]}</p>`).join('')}
+        </div>
+    `).join('');
+}
+
+// Modal view toggles
+function showJSONView(){ previewJSON.style.display="block"; previewHTML.style.display="none"; }
+function showHTMLView(){ previewJSON.style.display="none"; previewHTML.style.display="flex"; }
+jsonViewBtn.addEventListener("click",showJSONView);
+htmlViewBtn.addEventListener("click",showHTMLView);
+
+// Close modal
+closePreview.addEventListener("click",()=>previewModal.style.display="none");
+
+// Auto-refresh status
+function checkAllStatuses(){
+    apis.forEach(api=>{
+        const statusSpan = document.getElementById("status-"+api.name.replace(/\s/g,''));
+        if(!statusSpan) return;
+        fetch(api.url,{method:'GET'})
+        .then(res=>{ statusSpan.textContent = res.ok ? "✅ Online":"⚠️ Offline"; })
+        .catch(()=>{ statusSpan.textContent = "❌ Offline"; });
+    });
+}
+</script>
+
+</body>
+</html>
