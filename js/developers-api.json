@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Nepal Provinces & Districts",
+    "description": "List of all provinces, districts and municipalities in Nepal.",
+    "url": "https://shyamkumarkc20.com.np/js/nepal-location.json"
+  },
+  {
+    "name": "Nepali Public Holidays",
+    "description": "Official public holidays in Nepal including festivals and national holidays.",
+    "url": "https://shyamkumarkc20.com.np/js/nepal-holidays.json"
+  },
+  {
+    "name": "Nepali Online Radio",
+    "description": "Streaming URLs for Nepali FM stations, logos, and city info.",
+    "url": "https://shyamkumarkc20.com.np/js/onlineradio.json"
+  },
+  {
+    "name": "Nepal Cable Cars",
+    "description": "Information about cable cars/ropeways in Nepal with city and length info.",
+    "url": "https://shyamkumarkc20.com.np/js/cablecars.json"
+  }
+]
