@@ -1,7 +1,5 @@
 [
 
-{"name":"Radio Annapurna","stream":"https://streaming.softnep.com:8050/stream"},
-{"name":"Nepali Radio Network","stream":"https://streaming.softnep.com:8070/stream"},
 {"name":"Swadesh FM","stream":"https://streaming.softnep.com:8060/stream"},
 {"name":"Radio Audio","stream":"https://streaming.softnep.com:8065/stream"},
 {"name":"BBC Nepali","stream":"https://stream.live.vc.bbcmedia.co.uk/bbc_nepali_radio"},
