@@ -373,6 +373,38 @@
         "province": 1
     },
   {
+        
+        "name": "Radio Prakriti",
+        "stream": "http://streaming.hamropatro.com:8276",
+        "frequency": 93.4,
+        "address": "Tulsipur - 5 Salyan Road, Dang",
+        "province": 5
+    },
+  {
+        
+        "name": "Everest FM",
+        "stream": "https://live.itech.host:5005/stream",
+        "frequency": 93.0,
+        "address": "Pokhara, Kaski",
+        "province": 4
+    },
+    {
+        
+        "name": "Community Radio Sky FM",
+        "stream": "http://streaming.hamropatro.com:8421",
+        "frequency": 90.4,
+        "address": "Tamghas, Gulmi",
+        "province": 5
+    },
+    {
+        "
+        "name": "Kalinchowk FM",
+        "stream": "http://streaming.softnep.net:8109/;",
+        "frequency": 106.4,
+        "address": "Charikot, Dolakh",
+        "province": 3
+    },
+  {
     "name": "BFBS Gurkha Network",
     "frequency": "",
     "logo": "",
