@@ -1,5 +1,12 @@
 [
   {
+        "name": "Nepaliko Radio",
+        "stream": "http://95.217.153.73:9888/;",
+        "frequency": 88.8,
+        "address": "Koteshwor, Kathmandu, Nepal",
+        "province": 3
+    },
+  {
     "name": "Shepherd FM",
     "frequency": "89.2 MHz",
     "logo": "",
