@@ -74,6 +74,18 @@
     "stream": "https://stream.live.vc.bbcmedia.co.uk/bbc_world_service"
   },
    {
+    "name": "Radio Himalaya",
+    "frequency": "",
+    "logo": "",
+    "stream": "https://live.itech.host/himalayaradio?1588276425741"
+  },
+  {
+    "name": "",
+    "frequency": "",
+    "logo": "",
+    "stream": ""
+  },
+  {
     "name": "",
     "frequency": "",
     "logo": "",
