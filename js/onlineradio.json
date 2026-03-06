@@ -86,6 +86,42 @@
     "stream": "https://streaming.softnep.net:10988/;stream.nsv&type=mp3"
   },
   {
+    "name": "Radio Sagar",
+    "frequency": "",
+    "logo": "",
+    "stream": "https://eu1.fastcast4u.com/proxy/radiosag?mp=/stream/1"
+  },
+  {
+    "name": "",
+    "frequency": "",
+    "logo": "",
+    "stream": ""
+  },
+  {
+    "name": "",
+    "frequency": "",
+    "logo": "",
+    "stream": ""
+  },
+  {
+    "name": "",
+    "frequency": "",
+    "logo": "",
+    "stream": ""
+  },
+  {
+    "name": "",
+    "frequency": "",
+    "logo": "",
+    "stream": ""
+  },
+  {
+    "name": "",
+    "frequency": "",
+    "logo": "",
+    "stream": ""
+  },
+  {
     "name": "",
     "frequency": "",
     "logo": "",
