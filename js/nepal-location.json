@@ -1,0 +1,26 @@
+{
+  "provinces":[
+    {
+      "name": "Bagmati",
+      "districts":[
+        {
+          "name": "Kathmandu",
+          "municipalities":["Kathmandu", "Kirtipur", "Budhanilkantha", "Chandragiri", "Dakshinkali", Gokarneshwar", "Kageshwari Manohara", "Nagarjun", "Shankharapur", "Tarakeshwar", "Tokha"]
+        },
+        {
+          "name": "Bhaktapur",
+          "municipalities":["Bhaktapur", "Madhyapur Thimi", "ChanguNarayan", "Suryabinayak" ]
+        }
+      ]
+    },
+    {
+      "name":"Gandaki",
+      "districts":[
+        {
+          "name":"Pokhara",
+          "municipalities":["Pokhara","Lekhnath"]
+        }
+      ]
+    }
+  ]
+}
