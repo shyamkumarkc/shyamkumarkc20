@@ -44,6 +44,24 @@
     "stream": "https://streaming.softnep.net:10996/;stream.nsv&type=mp3&volume=60"
   },
   {
+    "name": "Radio Kathmandu",
+    "frequency": "",
+    "logo": "",
+    "stream": "https://radiokathmandu.com/wp-content/plugins/background-music-player-lite/soundmanager/soundmanager2-nodebug-jsmin.js?ver=1.0.0\"
+  },
+  {
+    "name": "",
+    "frequency": "",
+    "logo": "",
+    "stream": ""
+  },
+  {
+    "name": "",
+    "frequency": "",
+    "logo": "",
+    "stream": ""
+  },
+  {
     "name": "",
     "frequency": "",
     "logo": "",
