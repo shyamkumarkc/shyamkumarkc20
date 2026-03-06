@@ -282,6 +282,14 @@
     "stream": "https://stream.zeno.fm/mef816srgy8uv"
   },
   {
+        
+        "name": "FM Adhyatma Jyoti",
+        "stream": "http://streaming.hamropatro.com:8074",
+        "frequency": 104.8,
+        "address": "Dillibazar, Kathmandu",
+        "province": 3
+    },
+  {
     "name": "Radio Sunkoshi",
     "frequency": "105.6 MHz",
     "logo": "",
