@@ -1,0 +1,58 @@
+[
+  {
+    "country": "Nepal",
+    "capital": "Kathmandu",
+    "currency": "Nepalese Rupee",
+    "bank": "Nepal Rastra Bank",
+    "flag": "https://flagcdn.com/np.svg"
+  },
+  {
+    "country": "India",
+    "capital": "New Delhi",
+    "currency": "Indian Rupee",
+    "bank": "Reserve Bank of India",
+    "flag": "https://flagcdn.com/in.svg"
+  },
+  {
+    "country": "China",
+    "capital": "Beijing",
+    "currency": "Chinese Yuan",
+    "bank": "People's Bank of China",
+    "flag": "https://flagcdn.com/cn.svg"
+  },
+  {
+    "country": "United States",
+    "capital": "Washington, D.C.",
+    "currency": "US Dollar",
+    "bank": "Federal Reserve System",
+    "flag": "https://flagcdn.com/us.svg"
+  },
+  {
+    "country": "United Kingdom",
+    "capital": "London",
+    "currency": "Pound Sterling",
+    "bank": "Bank of England",
+    "flag": "https://flagcdn.com/gb.svg"
+  },
+  {
+    "country": "Japan",
+    "capital": "Tokyo",
+    "currency": "Japanese Yen",
+    "bank": "Bank of Japan",
+    "flag": "https://flagcdn.com/jp.svg"
+  },
+  {
+    "country": "Australia",
+    "capital": "Canberra",
+    "currency": "Australian Dollar",
+    "bank": "Reserve Bank of Australia",
+    "flag": "https://flagcdn.com/au.svg"
+  },
+  {
+    "country": "Canada",
+    "capital": "Ottawa",
+    "currency": "Canadian Dollar",
+    "bank": "Bank of Canada",
+    "flag": "https://flagcdn.com/ca.svg"
+  }
+]
