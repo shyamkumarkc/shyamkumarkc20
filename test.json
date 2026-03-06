@@ -1,8 +1,6 @@
 [
-{"name":"Radio Kantipur","stream":"https://radio-broadcast.ekantipur.com/stream"},
-{"name":"Ujyaalo Radio Network","stream":"https://streaming.ujyaaloonline.com/ujyaalo.mp3"},
-{"name":"Radio Nepal","stream":"https://radionepal.gov.np/radio-stream"},
-{"name":"Hits FM 91.2","stream":"https://streaming.softnep.com:8035/stream"},
+
+
 {"name":"Image FM 97.9","stream":"https://streaming.softnep.com:8025/stream"},
 {"name":"Radio Sagarmatha","stream":"https://streaming.softnep.com:8037/stream"},
 {"name":"Radio Candid","stream":"https://streaming.softnep.com:8040/stream"},
