@@ -1,10 +1,5 @@
 [
 
-
-{"name":"Image FM 97.9","stream":"https://streaming.softnep.com:8025/stream"},
-{"name":"Radio Sagarmatha","stream":"https://streaming.softnep.com:8037/stream"},
-{"name":"Radio Candid","stream":"https://streaming.softnep.com:8040/stream"},
-{"name":"Classic FM","stream":"https://streaming.softnep.com:8032/stream"},
 {"name":"Radio Annapurna","stream":"https://streaming.softnep.com:8050/stream"},
 {"name":"Nepali Radio Network","stream":"https://streaming.softnep.com:8070/stream"},
 {"name":"Swadesh FM","stream":"https://streaming.softnep.com:8060/stream"},
