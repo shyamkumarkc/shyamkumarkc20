@@ -60,7 +60,7 @@
     "name": "Radio Kathmandu",
     "frequency": "",
     "logo": "",
-    "stream": "https://streaming.softnep.com:8130/stream"
+    "stream": "http://216.55.141.189:8088/;"
   },
   {
     "name": "Metro FM",
