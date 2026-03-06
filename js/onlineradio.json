@@ -192,5 +192,11 @@
     "frequency": "107.9 Mhz",
     "logo": "https://images.hamro-files.com/bFm-0nnb4g3KWPpDJGgoGt1ipAc=/500x500/https://image.hamropatro.com/imgs/g:ce/plain/https://file-r2.hamropatro.com/hamropatro-backend/hp-cards/6affcb89-7906-437c-b566-6057b47ed006-8947823.jpeg",
     "stream": "https://online.net.np/8116/stream"
+  },
+  {
+    "name": "BFBS Gurkha Network",
+    "frequency": "",
+    "logo": "",
+    "stream": "https://listen-ssvcbfbs.sharp-stream.com/ssvcbfbs3.aac"
   }
 ]
