@@ -1,19 +1,2 @@
-<script>
-fetch("https://shyamkumarkc20.com.np/js/ipo.json")
-.then(res=>res.json())
-.then(data=>{
-
-let html = "<div style='font-family:Arial;padding:10px;border:1px solid #ddd;border-radius:8px'>";
-html += "<h3>Current IPO in Nepal</h3>";
-
-data.ipo.forEach(i=>{
-html += `<p>${i.company} - ${i.units}</p>`;
-});
-
-html += "<small>Source: <a href='https://shyamkumarkc20.com.np' target='_blank'>shyamkumarkc20.com.np</a></small>";
-html += "</div>";
-
-document.getElementById("ipo-widget").innerHTML = html;
-
-});
-</script>
+<div id="nepal-ipo-widget"></div>
+<script src="https://shyamkumarkc20.com.np/widgets/ipo.js"></script>
