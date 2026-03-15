@@ -68,13 +68,13 @@
             "issueManager": "Nabil Investment Banking Limited"
         },
 		{
-            "company": "Super Khudi Hydropower Limited",
-            "units": "1,286,500.00",
+            "company": "Sanigad Hydro Limited",
+            "units": "8,550,000.00",
             "price": "100.00",
-            "openingDate": "2026-02-16",
-            "closingDate": "2026-02-23",
-            "lastClosingDate": "2026-03-03",
-            "issueManager": "Global IME Capital Limited"
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "LS Capital Limited"
         },        
         
 		{
@@ -472,15 +472,7 @@
             "issueManager": "Nepal SBI Merchant Banking Limited"
         },
         
-        {
-            "company": "Sanigad Hydro Limited",
-            "units": "8,550,000.00",
-            "price": "100.00",
-            "openingDate": " ",
-            "closingDate": " ",
-            "lastClosingDate": " ",
-            "issueManager": "LS Capital Limited"
-        },
+        
         {
             "company": "Apex Makalu Hydropower Limited",
             "units": "2,400,000.00",
@@ -1467,9 +1459,9 @@
             "company": "Yambaling Hydropower Limited",
             "units": "280,000.00",
             "price": "100.00",
-            "openingDate": " ",
-            "closingDate": " ",
-            "lastClosingDate": " ",
+            "openingDate": "2026-03-22",
+            "closingDate": "2026-03-25",
+            "lastClosingDate": "2026-04-05",
             "issueManager": "Muktinath Capital Limited"
         },
 		{
@@ -1513,9 +1505,9 @@
             "company": "Sopan Pharmaceuticals Limited",
             "units": "110,000.00",
             "price": "100.00",
-            "openingDate": "",
-            "closingDate": "",
-            "lastClosingDate": "",
+            "openingDate": "2026-03-23",
+            "closingDate": "2026-03-26",
+            "lastClosingDate": "2026-04-06",
             "issueManager": "NMB Capital Limited"
         },
          
@@ -1523,20 +1515,20 @@
             "company": "Snow Rivers Limited",
             "units": "162,500.00",
             "price": "100.00",
-            "openingDate": " ",
-            "closingDate": " ",
-            "lastClosingDate": " ",
+            "openingDate": "2026-03-23",
+            "closingDate": "2026-03-26",
+            "lastClosingDate": "2026-04-06",
             "issueManager": "Sanima Capital Limited"
         },
         
 		{
-            "company": "Appolo Hydropower Limited",
-            "units": "94,000.00",
+            "company": "Sanigad Hydro Limited",
+            "units": "570,000.00",
             "price": "100.00",
-            "openingDate": "2026-02-23",
-            "closingDate": "2026-02-26",
-            "lastClosingDate": " ",
-            "issueManager": "Himalayan Capital Limited"
+            "openingDate": "2026-03-22",
+            "closingDate": "2026-03-25",
+            "lastClosingDate": "2026-04-05",
+            "issueManager": "LS Capital Limited"
         },
 		{
             "company": "Kalinchowk Hydropower Limited",
