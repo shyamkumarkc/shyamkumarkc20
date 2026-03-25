@@ -101,12 +101,7 @@
     "stream": "https://eu1.fastcast4u.com/proxy/radiosag?mp=/stream/1"
   },
   
-  {
-    "name": "Image News",
-    "frequency": "",
-    "logo": "",
-    "stream": "https://radio-stream-relay-np.hamropatro.com/radio/8050/radio.mp3"
-  },
+  
   {
     "name": "Synergy FM",
     "frequency": "",
@@ -270,6 +265,12 @@
     "frequency": "102.4 MHz",
     "logo": "",
     "stream": "https://streaming.softnep.com:8037/stream"
+  },
+  {
+    "name": "Image News",
+    "frequency": "103.6 MHz",
+    "logo": "https://images.hamro-files.com/8wT05JeMV72GDhzoo3ijest0mXI=/500x500/https://image.hamropatro.com/imgs/g:ce/plain/http://storage.googleapis.com/hamropatro-storage/assets/5769928858664960/images/e09c73f4-7865-4d8b-8a67-c89a3c4babaa.jpg",
+    "stream": "https://radio-stream-relay-np.hamropatro.com/radio/8050/radio.mp3"
   },
   {
     "name": "Radio King",
