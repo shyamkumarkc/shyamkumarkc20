@@ -100,12 +100,7 @@
     "logo": "",
     "stream": "https://eu1.fastcast4u.com/proxy/radiosag?mp=/stream/1"
   },
-  {
-    "name": "Swadesh FM",
-    "frequency": "",
-    "logo": "",
-    "stream": "https://radio.garden/api/ara/content/listen/ApPqIXdm/channel.mp3?1700834587158"
-  },
+  
   {
     "name": "Image News",
     "frequency": "",
@@ -177,6 +172,12 @@
     "frequency": "",
     "logo": "",
     "stream": ""
+  },
+  {
+    "name": "Swadesh FM",
+    "frequency": "93.2 MHz",
+    "logo": "https://images.hamro-files.com/LsnU_eA1ye_0gB0shU_StQB6mbk=/500x500/https://image.hamropatro.com/imgs/g:ce/plain/http://storage.googleapis.com/hamropatro-storage/assets/5686875996028928/images/d830788d-5a5d-40ae-b0b2-2483b757c7c9.jpg",
+    "stream": "https://radio.garden/api/ara/content/listen/ApPqIXdm/channel.mp3?1700834587158"
   },
   {
     "name": "Mero FM",
