@@ -81,12 +81,7 @@
     "logo": "",
     "stream": "https://stream.live.vc.bbcmedia.co.uk/bbc_nepali_radio"
   },
-  {
-    "name": "BBC World",
-    "frequency": "",
-    "logo": "",
-    "stream": "https://stream.live.vc.bbcmedia.co.uk/bbc_world_service"
-  },
+  
    {
     "name": "Radio Himalaya",
     "frequency": "",
@@ -294,6 +289,12 @@
     "frequency": "105.6 MHz",
     "logo": "",
     "stream": "https://live.itech.host:8743/stream"
+  },
+  {
+    "name": "BBC World",
+    "frequency": "106.3MHz",
+    "logo": "https://images.hamro-files.com/LlGwsvWvk6w2pQUfvgYVAFAqZfw=/500x500/https://image.hamropatro.com/imgs/g:ce/plain/http://storage.googleapis.com/hamropatro-storage/assets/5769928858664960/images/c2e794c9-4040-4ed3-b28b-3c1c521e8ff5.png",
+    "stream": "https://stream.live.vc.bbcmedia.co.uk/bbc_world_service"
   },
   {
     "name": "Radio Audio",
