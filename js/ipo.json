@@ -1174,26 +1174,26 @@
             "company": "Buddha Bhumi Nepal Hydropower Company Limited",
             "units": "4,000,000.00",
             "price": "100.00",
-            "openingDate": "",
-            "closingDate": "",
+            "openingDate": "2026-04-05",
+            "closingDate": "2026-04-26",
             "lastClosingDate": "",
             "listingDate": "",
             "issueManager": "NIC Asia Capital Limited"
         },
 		{
-            "company": "Khani Khola Hydropower Company Limited",
-            "units": "4,657,143.00",
+            "company": "Himalayan Power Partner Limited",
+            "units": "5,327,085.00",
             "price": "100.00",
-            "openingDate": "2025-08-19",
-            "closingDate": "2025-09-21",
+            "openingDate": "",
+            "closingDate": "",
             "lastClosingDate": "",
             "listingDate": "",
-            "issueManager": "Citizens Capital Limited"
+            "issueManager": "Global IME Capital Limited"
         },
         
 		 {
-            "company": "River Falls Power Limited",
-            "units": "7,000,000.00",
+            "company": "Ghorahi Cement Limited",
+            "units": "",
             "price": "100.00",
             "openingDate": "2025-09-08",
             "closingDate": "2025-10-12",
@@ -1268,8 +1268,8 @@
             "company": "United Ajod Insurance Limited",
             "units": "2,310,000.00",
             "price": "100.00",
-            "openingDate": "",
-            "closingDate": "",
+            "openingDate": "2026-04-09",
+            "closingDate": "2026-04-29",
             "lastClosingDate": "",
             "listingDate": "",
             "issueManager": "Laxmi Sunrise Capital Limited"
@@ -1374,7 +1374,7 @@
             "units": "10,000,000.00",
             "price": "10.00",
             "openingDate": "2026-03-12",
-            "closingDate": "2026-03-16",
+            "closingDate": "2026-03-26",
             "lastClosingDate": "2026-03-26",
             "listingDate": "",
             "issueManager": "Garima Capital Limited"
