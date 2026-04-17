@@ -10,6 +10,33 @@
             "issueManager": "Sanima Capital Limited"
         },
 		{
+            "company": "Everest Colour Limited",
+            "units": "780,000.00",
+             "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Muktinath Capital Limited"
+        },
+		{
+            "company": "Sarvottam Paints Industries Limited",
+            "units": "850,000.00",
+             "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Global IME Capital"
+        },
+		{
+            "company": "Mount Everest Power Development Limited",
+            "units": "2,580,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "NIMB Ace Capital Limited"
+        },
+		{
             "company": "Yambaling Hydropower Limited",
             "units": "2,800,000.00",
             "price": "100.00",
@@ -79,16 +106,16 @@
         
 		{
             "company": "Appolo Hydropower Limited",
-            "units": "1,410,000.00",
+            "units": "780,200.00",
             "price": "100.00",
             "openingDate": "2026-04-09",
-            "closingDate": "2026-04-13",
+            "closingDate": "2026-04-15",
             "lastClosingDate": " ",
             "issueManager": "Himalayan Capital Limited"
         },
 		{
             "company": "Kalinchowk Hydropower Limited",
-            "units": "1375,000.00",
+            "units": "684,750.00",
             "price": "100.00",
             "openingDate": "2026-04-05",
             "closingDate": "2026-04-08",
@@ -152,15 +179,7 @@
             "lastClosingDate": " ",
             "issueManager": "NMB Capital Limited"
         },
-        {
-            "company": "Sarvottam Paints Industries Limited",
-            "units": "850,000.00",
-             "price": "100.00",
-            "openingDate": " ",
-            "closingDate": " ",
-            "lastClosingDate": " ",
-            "issueManager": " "
-        },
+        
         {
             "company": "Mahashakti Cement Limited",
             "units": "17,850,857.00",
@@ -206,15 +225,7 @@
             "lastClosingDate": " ",
             "issueManager": "RBB Merchant Limited"
         },
-        {
-            "company": "Everest Colour Limited",
-            "units": "780,000.00",
-             "price": "100.00",
-            "openingDate": " ",
-            "closingDate": " ",
-            "lastClosingDate": " ",
-            "issueManager": "Muktinath Capital Limited"
-        },
+        
         {
             "company": "United Mewa Khola Hydropower Limited",
             "units": "12,300,000.00",
@@ -503,15 +514,7 @@
             "issueManager": "NMB Capital Limited"
         },
         
-        {
-            "company": "Mount Everest Power Development Limited",
-            "units": "2,580,000.00",
-            "price": "100.00",
-            "openingDate": " ",
-            "closingDate": " ",
-            "lastClosingDate": " ",
-            "issueManager": "NIMB Ace Capital Limited"
-        },
+        
         {
             "company": "Unique Hydel Company Limited",
             "units": "2,200,000.00",
@@ -1265,6 +1268,77 @@
             "issueManager": ""
         },
 		{
+            "company": "Sagarmatha Jalabidhyut Company Limited",
+            "units": "11,732,000.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "NMB Capital Limited"
+        },
+		{
+            "company": "Maikhola Hydropower Limited",
+            "units": "3,921,568.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Prabhu Capital Limited"
+        },
+		{
+            "company": "Nepal Lube Oil Limited",
+            "units": "1,457,253.60",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "NIMB Ace Capital Limited"
+        },
+		{
+            "company": "Mandakini Hydropower Limited",
+            "units": "4,294,242.50",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Global IME Capital Limited"
+        },
+		{
+            "company": "CEDB Holdings Limited",
+            "units": "5,636,591.98",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Muktinath Capital Limited"
+        },
+		{
+            "company": "Sanima GIC Insurance Limited",
+            "units": "3,655,000.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Citizens Capital Limited"
+        },
+		{
+            "company": "Barahi Hydropower Public Limited",
+            "units": "2,500,000.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "Muktinath Capital Limited"
+        },
+		
+		{
             "company": "United Ajod Insurance Limited",
             "units": "2,310,000.00",
             "price": "100.00",
@@ -1306,6 +1380,16 @@
             "lastClosingDate": "",
             "listingDate": "",
             "issueManager": "Muktinath Capital Limited"
+        },
+        {
+            "company": "National Laghubitta Bittiya Sanstha Limited",
+            "units": "669,900.00",
+            "price": "100.00",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
+            "listingDate": "",
+            "issueManager": "RBB Merchant Banking Limited"
         }
     ],
     "mutual": [
@@ -1400,14 +1484,14 @@
             "issueManager": "Machhapuchchhre Capital Limited"
         },
         {
-            "company": "NIC ASIA Equity Linked Investment Scheme",
-            "units": "100,000,000.00",
+            "company": "LS Horizon 12",
+            "units": "120,000,000.00",
             "price": "10.00",
-            "openingDate": "2025-08-14",
-            "closingDate": "2025-08-28",
-            "lastClosingDate": "2025-08-28",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
             "listingDate": "",
-            "issueManager": "NIC Asia Capital Limited"
+            "issueManager": "Laxmi Sunrise Capital Limited"
         }
     ],
 	
@@ -1454,6 +1538,33 @@
             "lastClosingDate": "2026-03-25",
             "listingDate": "",
             "issueManager": "Nabil Investment Banking Limited"
+        },
+		{
+            "company": "Sarvottam Paints Industries Limited",
+            "units": "85,000.00",
+             "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Global IME Capital Limited"
+        },
+		{
+            "company": "Mount Everest Power Development Limited",
+            "units": "258,000.00",
+            "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "NIMB Ace Capital Limited"
+        },
+		{
+            "company": "Everest Colour Limited",
+            "units": "78,000.00",
+             "price": "100.00",
+            "openingDate": " ",
+            "closingDate": " ",
+            "lastClosingDate": " ",
+            "issueManager": "Muktinath Capital Limited"
         },
 		{
             "company": "Yambaling Hydropower Limited",
