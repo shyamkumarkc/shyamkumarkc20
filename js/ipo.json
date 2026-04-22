@@ -40,9 +40,9 @@
             "company": "Yambaling Hydropower Limited",
             "units": "2,800,000.00",
             "price": "100.00",
-            "openingDate": " ",
-            "closingDate": " ",
-            "lastClosingDate": " ",
+            "openingDate": "2026-04-29",
+            "closingDate": "2026-05-05",
+            "lastClosingDate": "2026-05-13",
             "issueManager": "Muktinath Capital Limited"
         },
 		{
@@ -1187,8 +1187,8 @@
             "company": "Himalayan Power Partner Limited",
             "units": "5,327,085.00",
             "price": "100.00",
-            "openingDate": "",
-            "closingDate": "",
+            "openingDate": "2026-04-30",
+            "closingDate": "2026-05-20",
             "lastClosingDate": "",
             "listingDate": "",
             "issueManager": "Global IME Capital Limited"
@@ -1414,14 +1414,14 @@
             "issueManager": "Nepal Life Capital Limited"
         },
 			{
-            "company": "Citizens Santulit Yojana",
+            "company": "Siddhartha Equity Fund 2",
             "units": "100,000,000.00",
             "price": "10.00",
-            "openingDate": "2025-12-19",
-            "closingDate": "2026-01-02",
-            "lastClosingDate": "2026-01-02",
+            "openingDate": "",
+            "closingDate": "",
+            "lastClosingDate": "",
             "listingDate": "",
-            "issueManager": "Citizens Capital Limited"
+            "issueManager": "Siddhartha Capital Limited"
         },
 		{
             "company": "RBB Focus 40",
@@ -1550,20 +1550,20 @@
         },
 		{
             "company": "Mount Everest Power Development Limited",
-            "units": "258,000.00",
+            "units": "172,000.00",
             "price": "100.00",
-            "openingDate": " ",
-            "closingDate": " ",
-            "lastClosingDate": " ",
+            "openingDate": "2026-04-30",
+            "closingDate": "2026-05-06",
+            "lastClosingDate": "2026-05-14",
             "issueManager": "NIMB Ace Capital Limited"
         },
 		{
             "company": "Everest Colour Limited",
-            "units": "78,000.00",
+            "units": "79,000.00",
              "price": "100.00",
-            "openingDate": " ",
-            "closingDate": " ",
-            "lastClosingDate": " ",
+            "openingDate": "2026-04-29",
+            "closingDate": "2026-05-05",
+            "lastClosingDate": "2026-05-13",
             "issueManager": "Muktinath Capital Limited"
         },
 		{
