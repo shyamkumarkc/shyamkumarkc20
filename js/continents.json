@@ -2,62 +2,62 @@
 {
 "SNO": "1",
 "name": "Asia",
-"area":"44,614,000",
+"area": "44,614,000",
 "percent": "29.8",
 "hmount": "Sagarmatha (MountEverest) <br/> 8848.86m",
 "lpoint": "Dead Sea",
 "grass": "Steppes",
 "blake": "Baikal",
-  "glacier" : "Siachen",
-  "dessert" : " "
+  "glacier": "Siachen",
+  "dessert": " "
 },
 {
 "SNO": "2",
 "name": "Africa",
-"area":"30,365,000",
+"area": "30,365,000",
 "percent": "20.3",
 "hmount": "Kilimanjaro 5896m",
 "lpoint": "Lake Assal",
 "grass": "Velds",
 "blake": "Victoria",
-  "glacier" : "Glacier of Mount Kilimanjaro",
-  "dessert" : "Sahara"
+  "glacier": "Glacier of Mount Kilimanjaro",
+  "dessert": "Sahara"
 },
 {
 "SNO": "3",
 "name": "North America",
-"area":"24,230,000",
+"area": "24,230,000",
 "percent": "16.2",
 "hmount": "McKinley 6194m",
 "lpoint": "Death Valley",
 "grass": "Prairies",
 "blake": "Superior",
-  "glacier" : "Harvard",
-  "dessert" : " "
+  "glacier": "Harvard",
+  "dessert": " "
 },
 {
 "SNO": "4",
 "name": "South America",
-"area":"17,814,000",
+"area": "17,814,000",
 "percent": "11.9",
 "hmount": "Aconcagua 6962m",
 "lpoint": "Peninsula",
 "grass": "Pampas",
 "blake": "Titikaka",
-  "glacier" : " Perito Moreno",
-  "dessert" : "Patagonian"
+  "glacier": " Perito Moreno",
+  "dessert": "Patagonian"
 },
 {
 "SNO": "5",
 "name": "Antartica",
-"area":"14,200,000",
+"area": "14,200,000",
 "percent": "9.5",
 "hmount": "Vinson Masif 4892m",
 "lpoint": "Bentley Subglacial Trench",
 "grass": "",
 "blake": "Vostok",
-  "glacier" : "Lambert",
-  "dessert" : "Antarctic Polar"
+  "glacier": "Lambert",
+  "dessert": "Antarctic Polar"
 },
 {
 "SNO": "6",
@@ -68,19 +68,19 @@
 "lpoint": "Caspean Trench",
 "grass": "Steppes",
 "blake": "Ladoga",
-  "glacier" : "Vatnajokull",
-  "dessert" : " "
+  "glacier": "Vatnajokull",
+  "dessert": " "
 },
 {
 "SNO": "7",
-"name": "Austrailia",
-"area":"8,510,926",
+"name": "Australia",
+"area": "8,510,926",
 "percent": "5.9",
 "hmount": "Kosciuszko 2228m",
 "lpoint": "Aaira Lake",
 "grass": "Downs",
 "blake": "Aairi",
-  "glacier" : "Heard Island",
-  "dessert" : "Great Victoria "
+  "glacier": "Heard Island",
+  "dessert": "Great Victoria "
 }
 ]
