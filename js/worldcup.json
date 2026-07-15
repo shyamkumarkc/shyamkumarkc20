@@ -1,0 +1,20 @@
+[
+  {
+    "year": 1930,
+    "host": "Uruguay",
+    "champion": "Uruguay",
+    "runnerUp": "Argentina"
+  },
+  {
+    "year": 1934,
+    "host": "Italy",
+    "champion": "Italy",
+    "runnerUp": "Czechoslovakia"
+  },
+  {
+    "year": 1938,
+    "host": "France",
+    "champion": "Italy",
+    "runnerUp": "Hungary"
+  }
+]
