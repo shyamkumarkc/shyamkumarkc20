@@ -1,0 +1,114 @@
+<style>
+.dashboard{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:20px;
+margin-bottom:30px;
+}
+
+.card{
+background:#fff;
+padding:20px;
+border-radius:10px;
+text-align:center;
+box-shadow:0 5px 20px rgba(0,0,0,.1);
+}
+
+.card h3{
+margin:0;
+color:#777;
+}
+
+.card h2{
+margin:10px 0;
+color:#007bff;
+}
+
+.card p{
+font-size:18px;
+font-weight:bold;
+color:#28a745;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+th,td{
+padding:12px;
+border:1px solid #ddd;
+text-align:center;
+}
+
+thead{
+background:#007bff;
+color:#fff;
+}
+</style>
+<div class="dashboard" id="top5"></div>
+
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Year</th>
+<th>Host</th>
+<th>Champion</th>
+<th>Runner Up</th>
+</tr>
+</thead>
+
+<tbody id="worldcupTable"></tbody>
+</table>
+<script>
+const jsonURL = "https://shyamkumarkc20.com.np/js/worldcup.json";
+
+fetch(jsonURL)
+.then(res => res.json())
+.then(data => {
+
+    // Table
+    let table = "";
+
+    data.forEach((item,index)=>{
+        table += `
+        <tr>
+            <td>${index+1}</td>
+            <td>${item.year}</td>
+            <td>${item.host}</td>
+            <td>${item.champion}</td>
+            <td>${item.runnerUp}</td>
+        </tr>`;
+    });
+
+    document.getElementById("worldcupTable").innerHTML = table;
+
+
+    // Winner Count
+    let wins = {};
+
+    data.forEach(item=>{
+        wins[item.champion] = (wins[item.champion] || 0) + 1;
+    });
+
+    // Top 5
+    const top5 = Object.entries(wins)
+        .sort((a,b)=>b[1]-a[1])
+        .slice(0,5);
+
+    let dashboard="";
+
+    top5.forEach((item,index)=>{
+        dashboard += `
+        <div class="card">
+            <h3>#${index+1}</h3>
+            <h2>${item[0]}</h2>
+            <p>${item[1]} Titles</p>
+        </div>`;
+    });
+
+    document.getElementById("top5").innerHTML = dashboard;
+
+});
+</script>
