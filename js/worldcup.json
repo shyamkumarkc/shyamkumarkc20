@@ -68,32 +68,32 @@
    {
     "year": "1982",
     "host": "Spain",
-    "champion": "West Germany",
+    "champion": "Italy",
     "runnerUp": "West Germany"
   },
    {
     "year": "1986",
-    "host": "",
-    "champion": "",
-    "runnerUp": ""
+    "host": "Mexico",
+    "champion": "Argentina",
+    "runnerUp": "West Germany"
   },
    {
     "year": "1990",
-    "host": "",
-    "champion": "",
-    "runnerUp": ""
+    "host": "Italy",
+    "champion": "West Germany",
+    "runnerUp": "Argentina"
   },
    {
     "year": "1994",
-    "host": "",
-    "champion": "",
-    "runnerUp": ""
+    "host": "United States",
+    "champion": "Brazil",
+    "runnerUp": "Italy"
   },
    {
     "year": "1998",
-    "host": "",
-    "champion": "",
-    "runnerUp": ""
+    "host": "France",
+    "champion": "France",
+    "runnerUp": "Brazil"
   },
    {
     "year": "2002",
