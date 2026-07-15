@@ -54,27 +54,89 @@
     "runnerUp": "Italy"
   },
    {
-    "year": "",
+    "year": "1974",
+    "host": "West Germany",
+    "champion": "West Germany",
+    "runnerUp": "Netherlands"
+  },
+   {
+    "year": "1978",
+    "host": "Argentina",
+    "champion": "Argentina",
+    "runnerUp": "Netherlands"
+  },
+   {
+    "year": "1982",
+    "host": "Spain",
+    "champion": "West Germany",
+    "runnerUp": "West Germany"
+  },
+   {
+    "year": "1986",
     "host": "",
     "champion": "",
     "runnerUp": ""
   },
    {
-    "year": "",
+    "year": "1990",
     "host": "",
     "champion": "",
     "runnerUp": ""
   },
    {
-    "year": "",
+    "year": "1994",
     "host": "",
     "champion": "",
     "runnerUp": ""
   },
    {
-    "year": "",
+    "year": "1998",
+    "host": "",
+    "champion": "",
+    "runnerUp": ""
+  },
+   {
+    "year": "2002",
+    "host": "",
+    "champion": "",
+    "runnerUp": ""
+  },
+   {
+    "year": "2006",
+    "host": "",
+    "champion": "",
+    "runnerUp": ""
+  },
+   {
+    "year": "2010",
+    "host": "",
+    "champion": "",
+    "runnerUp": ""
+  },
+   {
+    "year": "2014",
+    "host": "",
+    "champion": "",
+    "runnerUp": ""
+  },
+   {
+    "year": "2018",
+    "host": "Russia",
+    "champion": "France",
+    "runnerUp": "Croatia"
+  },
+   {
+    "year": "2022",
+    "host": "Qatar",
+    "champion": "Argentina",
+    "runnerUp": "France"
+  },
+   {
+    "year": "2026",
     "host": "",
     "champion": "",
     "runnerUp": ""
   }
+  
+  
 ]
