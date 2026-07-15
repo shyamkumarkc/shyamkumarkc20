@@ -16,5 +16,65 @@
     "host": "France",
     "champion": "Italy",
     "runnerUp": "Hungary"
+  },
+  {
+    "year": 1950,
+    "host": "Brazil",
+    "champion": "Uruguay",
+    "runnerUp": "Brazil"
+  },
+   {
+    "year": 1954,
+    "host": "Switzerland",
+    "champion": "West Germany",
+    "runnerUp": "Hungary"
+  },
+   {
+    "year": 1958,
+    "host": "Sweden",
+    "champion": "Brazil",
+    "runnerUp": "Sweden"
+  },
+   {
+    "year": ,
+    "host": "",
+    "champion": "",
+    "runnerUp": ""
+  },
+   {
+    "year": ,
+    "host": "",
+    "champion": "",
+    "runnerUp": ""
+  },
+   {
+    "year": ,
+    "host": "",
+    "champion": "",
+    "runnerUp": ""
+  },
+   {
+    "year": ,
+    "host": "",
+    "champion": "",
+    "runnerUp": ""
+  },
+   {
+    "year": ,
+    "host": "",
+    "champion": "",
+    "runnerUp": ""
+  },
+   {
+    "year": ,
+    "host": "",
+    "champion": "",
+    "runnerUp": ""
+  },
+   {
+    "year": ,
+    "host": "",
+    "champion": "",
+    "runnerUp": ""
   }
 ]
