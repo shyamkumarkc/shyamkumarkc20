@@ -91,20 +91,20 @@
     },
     {
         "SNo": "16",
-        "Name": "Sangrila Development Bank",
+        "Name": "Sangrila Development Bank Limited",
         "BFI": "a. Cosmos Development Bank</br>b. Bageswori Bikas Bank",
-        "Merger": "Sangrila Development Bank"
+        "Merger": "Sangrila Development Bank Limited"
     },
     {
         "SNo": "17",
-        "Name": "Jyoti Bikas Bank",
-        "BFI": "a. Jhimruk Bikas Bank<br/>b. Hamro Bikas Bank<br/>c. Rapti Bheri Bikas Bank Limited",
-        "Merger": "Jyoti Bikas Bank"
+        "Name": "Jyoti Bikas Bank Limited",
+        "BFI": "a. Jhimruk Bikas Bank Limited<br/>b. Hamro Bikas Bank Limited<br/>c. Rapti Bheri Bikas Bank Limited",
+        "Merger": "Jyoti Bikas Bank Limited"
     },
     {
         "SNo": "18",
         "Name": "Machhapuchhre Bank Limited",
-        "BFI": "Standard Finance",
+        "BFI": "Standard Finance Limited",
         "Merger": "Machhapuchhre Bank Limited"
     },
     {
@@ -115,21 +115,21 @@
     },
     {
         "SNo": "20",
-        "Name": "Muktinath Bikas Bank",
-        "BFI": "Sivik Development Bank",
-        "Merger": "Muktinath Bikas Bank"
+        "Name": "Muktinath Bikas Bank Limited",
+        "BFI": "Sivik Development Bank Limited",
+        "Merger": "Muktinath Bikas Bank Limited"
     },
     {
         "SNo": "21",
-        "Name": "Garima Bikas Bank",
+        "Name": "Garima Bikas Bank Limited",
         "BFI": "a. Nilgiri Bikas Bank<br/>b. Subhekshya Bikas Bank<br/>c. Sahara Bikas Bank",
-        "Merger": "Garima Bikas Bank"
+        "Merger": "Garima Bikas Bank Limited"
     },
     {
         "SNo": "22",
-        "Name": "Central Finance",
-        "BFI": "Bhaktapur Finance",
-        "Merger": "Central Finance"
+        "Name": "Central Finance Limited",
+        "BFI": "Bhaktapur Finance Limited",
+        "Merger": "Central Finance Limited"
     },
     {
         "SNo": "",
@@ -147,25 +147,25 @@
         "SNo": "24",
         "Name": "Malika Bikas Bank",
         "BFI": "a.Mahalaxmi Finance<br/>b. Siddhartha Finance<br/>c. Yeti Development Bank",
-        "Merger": "Mahalaxmi Bikas Bank"
+        "Merger": "Mahalaxmi Bikas Bank Limited"
     },
     {
         "SNo": "25",
         "Name": "NIC Bank",
         "BFI": "Bank of Asia Nepal",
-        "Merger": "NIC Asia Bank"
+        "Merger": "NIC Asia Bank Limited"
     },
     {
         "SNo": "26",
         "Name": "Tinau Bikas Bank",
         "BFI": "a. Mission Development Bank<br/>b. Nepal Community Development Bank",
-        "Merger": "Tinau Mission Development Bank"
+        "Merger": "Tinau Mission Development Bank Limited"
     },
     {
         "SNo": "27",
-        "Name": "Shine Development Bank",
-        "BFI": "Resunga Bikas Bank",
-        "Merger": "Shine Resunga Development Bank"
+        "Name": "Shine Development Bank Limited",
+        "BFI": "Resunga Bikas Bank Limited",
+        "Merger": "Shine Resunga Development Bank Limited"
     },
     {
         "SNo": "28",
