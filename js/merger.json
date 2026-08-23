@@ -44,7 +44,7 @@
     {
         "SNo": "8",
         "Name": "Citizen Bank International Limited",
-        "BFI": "a. Nepal Housing &amp; Merchant<br/>b. People's Finance<br/>c. Premier Finance<br/>d. Sahayogi Bikas Bank<br/>e.Srijana Finance Limited",
+        "BFI": "a. Nepal Housing &amp; Merchant<br/>b. People's Finance<br/>c. Premier Finance<br/>d. Sahayogi Bikas Bank<br/>e.Srijana Finance Limited<br/>f. Tinau Mission Development Bank Limited",
         "Merger": "Citizen Bank International Limited"
     },
     {
@@ -155,20 +155,15 @@
         "BFI": "Bank of Asia Nepal",
         "Merger": "NIC Asia Bank Limited"
     },
+    
     {
         "SNo": "26",
-        "Name": "Tinau Bikas Bank",
-        "BFI": "a. Mission Development Bank<br/>b. Nepal Community Development Bank",
-        "Merger": "Tinau Mission Development Bank Limited"
-    },
-    {
-        "SNo": "27",
         "Name": "Shine Development Bank Limited",
         "BFI": "Resunga Bikas Bank Limited",
         "Merger": "Shine Resunga Development Bank Limited"
     },
     {
-        "SNo": "28",
+        "SNo": "27",
         "Name": "Pokhara Finance Limited",
         "BFI": "Sambridhi Finance Company Limited",
         "Merger": "Pokhara Finance Limited"
