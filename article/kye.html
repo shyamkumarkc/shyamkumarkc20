@@ -1,0 +1,1486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Know Your Employee (KYE) in Banking | Importance, Process & Compliance</title>
+
+    <meta name="description"
+          content="Learn about Know Your Employee (KYE) in banking, including employee due diligence, background verification, risk assessment, monitoring, red flags and AML compliance.">
+
+    <meta name="keywords"
+          content="KYE, Know Your Employee, KYE in banking, employee due diligence, AML, KYC, banking compliance, employee risk assessment">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #123f6d;
+            --secondary: #1976d2;
+            --accent: #00a884;
+            --dark: #172033;
+            --text: #4b5563;
+            --light: #f4f7fb;
+            --white: #ffffff;
+            --border: #e4e9ef;
+            --danger: #dc3545;
+            --warning: #f59e0b;
+            --success: #16a34a;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: var(--light);
+            color: var(--text);
+            line-height: 1.7;
+        }
+
+        /* =========================
+           HERO
+        ========================== */
+
+        .hero {
+            background:
+                linear-gradient(135deg, #123f6d, #1976d2);
+            color: white;
+            padding: 75px 20px;
+        }
+
+        .hero-container {
+            max-width: 1150px;
+            margin: auto;
+        }
+
+        .category {
+            display: inline-block;
+            padding: 7px 16px;
+            border-radius: 30px;
+            background: rgba(255,255,255,.14);
+            border: 1px solid rgba(255,255,255,.25);
+            font-size: 13px;
+            margin-bottom: 20px;
+            letter-spacing: .4px;
+        }
+
+        .hero h1 {
+            font-size: clamp(35px, 5vw, 58px);
+            line-height: 1.15;
+            max-width: 900px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            max-width: 800px;
+            font-size: 18px;
+            color: #e5f1ff;
+        }
+
+        .hero-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            margin-top: 28px;
+            color: #dcecff;
+            font-size: 14px;
+        }
+
+        /* =========================
+           MAIN LAYOUT
+        ========================== */
+
+        .page {
+            max-width: 1150px;
+            margin: -35px auto 60px;
+            padding: 0 20px;
+            position: relative;
+        }
+
+        .article-layout {
+            display: grid;
+            grid-template-columns: 1fr 300px;
+            gap: 30px;
+            align-items: start;
+        }
+
+        .article {
+            background: white;
+            padding: 40px;
+            border-radius: 18px;
+            box-shadow: 0 8px 35px rgba(22,44,75,.08);
+        }
+
+        /* =========================
+           TABLE OF CONTENTS
+        ========================== */
+
+        .toc {
+            background: #f6faff;
+            border: 1px solid #d9e7f5;
+            border-left: 5px solid var(--secondary);
+            padding: 22px;
+            border-radius: 12px;
+            margin-bottom: 35px;
+        }
+
+        .toc h3 {
+            color: var(--dark);
+            margin-bottom: 12px;
+        }
+
+        .toc ul {
+            list-style: none;
+        }
+
+        .toc li {
+            margin: 7px 0;
+        }
+
+        .toc a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .toc a:hover {
+            color: var(--secondary);
+            text-decoration: underline;
+        }
+
+        /* =========================
+           ARTICLE
+        ========================== */
+
+        .article h2 {
+            color: var(--dark);
+            font-size: 30px;
+            margin: 45px 0 15px;
+            line-height: 1.3;
+        }
+
+        .article h2:first-of-type {
+            margin-top: 0;
+        }
+
+        .article h3 {
+            color: var(--primary);
+            font-size: 21px;
+            margin: 25px 0 10px;
+        }
+
+        .article p {
+            margin-bottom: 16px;
+        }
+
+        .article strong {
+            color: var(--dark);
+        }
+
+        /* =========================
+           HIGHLIGHT BOX
+        ========================== */
+
+        .highlight {
+            background: linear-gradient(
+                135deg,
+                #eef7ff,
+                #f5fbff
+            );
+            border-left: 5px solid var(--secondary);
+            border-radius: 10px;
+            padding: 22px;
+            margin: 25px 0;
+        }
+
+        .highlight strong {
+            color: var(--primary);
+        }
+
+        /* =========================
+           CARDS
+        ========================== */
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 18px;
+            margin: 25px 0;
+        }
+
+        .card {
+            padding: 22px;
+            border: 1px solid var(--border);
+            border-radius: 13px;
+            background: white;
+            transition: .25s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 25px rgba(0,0,0,.08);
+        }
+
+        .card-icon {
+            width: 45px;
+            height: 45px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #eaf4ff;
+            color: var(--secondary);
+            border-radius: 10px;
+            font-size: 21px;
+            margin-bottom: 12px;
+        }
+
+        .card h3 {
+            margin: 0 0 8px;
+        }
+
+        /* =========================
+           PROCESS
+        ========================== */
+
+        .process {
+            display: grid;
+            gap: 15px;
+            margin: 25px 0;
+        }
+
+        .process-item {
+            display: grid;
+            grid-template-columns: 50px 1fr;
+            gap: 15px;
+            padding: 18px;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            background: white;
+        }
+
+        .number {
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            background: var(--primary);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+        }
+
+        .process-item h3 {
+            margin: 0 0 5px;
+        }
+
+        /* =========================
+           TABLE
+        ========================== */
+
+        .table-wrapper {
+            overflow-x: auto;
+            margin: 25px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            min-width: 650px;
+        }
+
+        th {
+            background: var(--primary);
+            color: white;
+            text-align: left;
+            padding: 14px;
+        }
+
+        td {
+            padding: 14px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        tr:nth-child(even) {
+            background: #f8fafc;
+        }
+
+        /* =========================
+           BADGES
+        ========================== */
+
+        .badge {
+            display: inline-block;
+            padding: 4px 11px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .low {
+            background: #dcfce7;
+            color: #166534;
+        }
+
+        .medium {
+            background: #fef3c7;
+            color: #92400e;
+        }
+
+        .high {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+
+        /* =========================
+           LIST
+        ========================== */
+
+        .article ul,
+        .article ol {
+            padding-left: 25px;
+            margin: 15px 0;
+        }
+
+        .article li {
+            margin-bottom: 8px;
+        }
+
+        /* =========================
+           RED FLAGS
+        ========================== */
+
+        .red-flags {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 12px;
+            margin-top: 20px;
+        }
+
+        .flag {
+            padding: 15px;
+            border-radius: 9px;
+            background: #fff7f7;
+            border: 1px solid #f4cccc;
+        }
+
+        .flag::before {
+            content: "⚠";
+            margin-right: 8px;
+            color: var(--danger);
+        }
+
+        /* =========================
+           KYE vs KYC
+        ========================== */
+
+        .comparison {
+            overflow-x: auto;
+            margin: 25px 0;
+        }
+
+        .comparison table {
+            min-width: 600px;
+        }
+
+        /* =========================
+           CTA
+        ========================== */
+
+        .cta {
+            margin-top: 45px;
+            padding: 30px;
+            border-radius: 15px;
+            background: linear-gradient(
+                135deg,
+                #123f6d,
+                #1976d2
+            );
+            color: white;
+        }
+
+        .cta h2 {
+            color: white;
+            margin: 0 0 10px;
+        }
+
+        .cta p {
+            color: #e6f2ff;
+        }
+
+        /* =========================
+           SIDEBAR
+        ========================== */
+
+        .sidebar {
+            position: sticky;
+            top: 20px;
+        }
+
+        .side-card {
+            background: white;
+            padding: 22px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 7px 25px rgba(0,0,0,.06);
+        }
+
+        .side-card h3 {
+            color: var(--dark);
+            margin-bottom: 15px;
+        }
+
+        .side-stat {
+            padding: 13px 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .side-stat:last-child {
+            border-bottom: 0;
+        }
+
+        .side-stat strong {
+            display: block;
+            color: var(--primary);
+        }
+
+        /* =========================
+           FOOTER
+        ========================== */
+
+        footer {
+            background: #101827;
+            color: #aeb8c7;
+            text-align: center;
+            padding: 35px 20px;
+            font-size: 14px;
+        }
+
+        footer strong {
+            color: white;
+        }
+
+        /* =========================
+           RESPONSIVE
+        ========================== */
+
+        @media(max-width:850px) {
+
+            .article-layout {
+                grid-template-columns: 1fr;
+            }
+
+            .sidebar {
+                position: static;
+            }
+
+            .cards,
+            .red-flags {
+                grid-template-columns: 1fr;
+            }
+
+            .article {
+                padding: 25px 20px;
+            }
+
+            .hero {
+                padding: 55px 20px;
+            }
+        }
+
+        @media(max-width:500px) {
+
+            .hero h1 {
+                font-size: 34px;
+            }
+
+            .hero p {
+                font-size: 16px;
+            }
+
+            .article h2 {
+                font-size: 25px;
+            }
+
+            .process-item {
+                grid-template-columns: 42px 1fr;
+            }
+        }
+    </style><link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+</script>
+<script>
+$(function(){
+$('#header').load('/assets/header.html');
+});
+</script>
+</head>
+<body>
+
+<!-- =====================================================
+     HERO
+====================================================== -->
+
+<header class="hero">
+
+    <div class="hero-container">
+
+        <span class="category">
+            BANKING • AML • HR COMPLIANCE • RISK MANAGEMENT
+        </span>
+
+        <h1>
+            Know Your Employee (KYE) in Banking
+        </h1>
+
+        <p>
+            Understanding how banks identify, verify, assess and monitor
+            employees to reduce internal fraud, corruption, conflicts of
+            interest and other financial crime risks.
+        </p>
+
+        <div class="hero-info">
+            <span>📚 Banking Guide</span>
+            <span>🛡️ Risk Management</span>
+            <span>👤 Employee Due Diligence</span>
+            <span>⏱️ 8 Min Read</span>
+        </div>
+
+    </div>
+
+</header>
+
+
+<main class="page">
+
+<div class="article-layout">
+
+
+<!-- =====================================================
+     MAIN ARTICLE
+====================================================== -->
+
+<article class="article">
+
+
+<!-- TABLE OF CONTENTS -->
+
+<div class="toc">
+
+    <h3>📑 Table of Contents</h3>
+
+    <ul>
+        <li><a href="#meaning">1. What is KYE?</a></li>
+        <li><a href="#importance">2. Why is KYE Important?</a></li>
+        <li><a href="#objectives">3. Objectives of KYE</a></li>
+        <li><a href="#process">4. KYE Process</a></li>
+        <li><a href="#risk">5. Employee Risk Assessment</a></li>
+        <li><a href="#monitoring">6. Ongoing Employee Monitoring</a></li>
+        <li><a href="#redflags">7. KYE Red Flags</a></li>
+        <li><a href="#comparison">8. KYE vs KYC</a></li>
+        <li><a href="#responsibility">9. Responsibility of Management</a></li>
+        <li><a href="#conclusion">10. Conclusion</a></li>
+    </ul>
+
+</div>
+
+
+<!-- =====================================================
+     WHAT IS KYE
+====================================================== -->
+
+<section id="meaning">
+
+    <h2>What is Know Your Employee (KYE)?</h2>
+
+    <p>
+        <strong>Know Your Employee (KYE)</strong> is the process through
+        which a bank obtains, verifies and maintains relevant information
+        about its employees to understand their background, role,
+        responsibilities, conduct and potential risks.
+    </p>
+
+    <p>
+        KYE is an important component of an effective
+        <strong>risk management, internal control and AML/CFT framework</strong>.
+        It helps financial institutions reduce the risk of employees being
+        involved in fraud, money laundering, corruption, unauthorized
+        activities or other misconduct.
+    </p>
+
+    <div class="highlight">
+
+        <strong>Simple Definition:</strong><br>
+
+        KYE means knowing who your employees are, understanding their
+        background and responsibilities, assessing their risk and
+        maintaining appropriate controls throughout their employment.
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     IMPORTANCE
+====================================================== -->
+
+<section id="importance">
+
+    <h2>Why is KYE Important in Banking?</h2>
+
+    <p>
+        Banks handle customer deposits, confidential information,
+        payment systems and large volumes of financial transactions.
+        Employees therefore have access to systems and information that
+        could potentially be misused.
+    </p>
+
+    <p>
+        A strong KYE framework helps a bank identify and manage
+        employee-related risks before they become significant threats.
+    </p>
+
+
+    <div class="cards">
+
+
+        <div class="card">
+
+            <div class="card-icon">
+                🔎
+            </div>
+
+            <h3>Background Verification</h3>
+
+            <p>
+                Helps the institution verify relevant information about
+                employees before and during employment.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <div class="card-icon">
+                🛡️
+            </div>
+
+            <h3>Fraud Prevention</h3>
+
+            <p>
+                Reduces the risk of internal fraud, misuse of systems
+                and unauthorized financial activities.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <div class="card-icon">
+                ⚖️
+            </div>
+
+            <h3>Conduct Management</h3>
+
+            <p>
+                Promotes ethical behaviour and compliance with internal
+                policies and applicable regulations.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <div class="card-icon">
+                🔐
+            </div>
+
+            <h3>Information Security</h3>
+
+            <p>
+                Helps reduce risks associated with unauthorized access
+                to sensitive customer and bank information.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     OBJECTIVES
+====================================================== -->
+
+<section id="objectives">
+
+    <h2>Key Objectives of KYE</h2>
+
+    <p>
+        The primary objective of KYE is to ensure that the bank understands
+        and appropriately manages risks associated with its employees.
+    </p>
+
+    <ul>
+
+        <li>
+            Verify employee identity and background.
+        </li>
+
+        <li>
+            Assess integrity and suitability for the assigned position.
+        </li>
+
+        <li>
+            Identify potential conflicts of interest.
+        </li>
+
+        <li>
+            Reduce the risk of internal fraud and financial misconduct.
+        </li>
+
+        <li>
+            Identify employees who may present higher operational or
+            financial crime risks.
+        </li>
+
+        <li>
+            Promote ethical conduct and compliance culture.
+        </li>
+
+        <li>
+            Maintain appropriate employee records throughout employment.
+        </li>
+
+    </ul>
+
+</section>
+
+
+<!-- =====================================================
+     KYE PROCESS
+====================================================== -->
+
+<section id="process">
+
+    <h2>KYE Process in Banking</h2>
+
+
+    <div class="process">
+
+
+        <div class="process-item">
+
+            <div class="number">
+                1
+            </div>
+
+            <div>
+
+                <h3>Employee Identification</h3>
+
+                <p>
+                    Obtain appropriate identity and employment information
+                    from the employee.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="process-item">
+
+            <div class="number">
+                2
+            </div>
+
+            <div>
+
+                <h3>Background Verification</h3>
+
+                <p>
+                    Conduct appropriate verification of education,
+                    employment history, identity and other relevant
+                    information.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="process-item">
+
+            <div class="number">
+                3
+            </div>
+
+            <div>
+
+                <h3>Position Risk Assessment</h3>
+
+                <p>
+                    Assess the level of risk associated with the employee's
+                    position, authority, system access and responsibilities.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="process-item">
+
+            <div class="number">
+                4
+            </div>
+
+            <div>
+
+                <h3>Conflict of Interest Review</h3>
+
+                <p>
+                    Identify potential conflicts between personal interests
+                    and the employee's official responsibilities.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="process-item">
+
+            <div class="number">
+                5
+            </div>
+
+            <div>
+
+                <h3>Employee Training</h3>
+
+                <p>
+                    Provide appropriate training on AML/CFT, ethics,
+                    information security, fraud prevention and internal
+                    policies.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="process-item">
+
+            <div class="number">
+                6
+            </div>
+
+            <div>
+
+                <h3>Ongoing Monitoring</h3>
+
+                <p>
+                    Periodically review employee conduct, access rights,
+                    unusual behaviour and other relevant risk indicators.
+                </p>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     RISK ASSESSMENT
+====================================================== -->
+
+<section id="risk">
+
+    <h2>Employee Risk Assessment</h2>
+
+    <p>
+        Not every employee presents the same level of risk. Banks may
+        apply a risk-based approach by considering the employee's role,
+        authority, access to systems, customer information and financial
+        responsibilities.
+    </p>
+
+
+    <div class="table-wrapper">
+
+        <table>
+
+            <thead>
+
+                <tr>
+                    <th>Risk Level</th>
+                    <th>Possible Characteristics</th>
+                    <th>Possible Controls</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+
+                    <td>
+                        <span class="badge low">
+                            LOW
+                        </span>
+                    </td>
+
+                    <td>
+                        Limited system access and relatively low
+                        financial authority.
+                    </td>
+
+                    <td>
+                        Standard employee due diligence and
+                        periodic review.
+                    </td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>
+                        <span class="badge medium">
+                            MEDIUM
+                        </span>
+                    </td>
+
+                    <td>
+                        Access to customer information, operational
+                        systems or moderate financial authority.
+                    </td>
+
+                    <td>
+                        Additional controls, supervision and
+                        periodic assessment.
+                    </td>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>
+                        <span class="badge high">
+                            HIGH
+                        </span>
+                    </td>
+
+                    <td>
+                        Significant financial authority, privileged
+                        system access or high-risk responsibilities.
+                    </td>
+
+                    <td>
+                        Enhanced supervision, stronger access controls
+                        and more frequent review.
+                    </td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     MONITORING
+====================================================== -->
+
+<section id="monitoring">
+
+    <h2>Ongoing Employee Monitoring</h2>
+
+    <p>
+        KYE should not be considered only a recruitment-stage activity.
+        Appropriate monitoring should continue throughout the employee's
+        relationship with the institution.
+    </p>
+
+    <p>
+        The objective is not unnecessary surveillance of employees.
+        Instead, monitoring should be proportionate to legitimate
+        operational, compliance, security and financial crime risks.
+    </p>
+
+
+    <ul>
+
+        <li>
+            Periodic review of employee information.
+        </li>
+
+        <li>
+            Review of system access and authorization levels.
+        </li>
+
+        <li>
+            Monitoring of unusual or unauthorized activities.
+        </li>
+
+        <li>
+            Review of conflicts of interest.
+        </li>
+
+        <li>
+            Periodic AML/CFT and compliance training.
+        </li>
+
+        <li>
+            Review of employee access after transfer or change in role.
+        </li>
+
+        <li>
+            Immediate removal or modification of access when employment
+            ends, according to applicable procedures.
+        </li>
+
+    </ul>
+
+</section>
+
+
+<!-- =====================================================
+     RED FLAGS
+====================================================== -->
+
+<section id="redflags">
+
+    <h2>Common KYE Red Flags</h2>
+
+    <p>
+        The following indicators may warrant additional review depending
+        on the circumstances and applicable institutional policies:
+    </p>
+
+
+    <div class="red-flags">
+
+
+        <div class="flag">
+            Unexplained lifestyle or financial circumstances inconsistent
+            with known income.
+        </div>
+
+
+        <div class="flag">
+            Unauthorized access to customer accounts or information.
+        </div>
+
+
+        <div class="flag">
+            Repeated override of established procedures or controls.
+        </div>
+
+
+        <div class="flag">
+            Unusual transactions involving the employee or related parties.
+        </div>
+
+
+        <div class="flag">
+            Attempts to bypass maker-checker or authorization controls.
+        </div>
+
+
+        <div class="flag">
+            Undisclosed conflicts of interest.
+        </div>
+
+
+        <div class="flag">
+            Frequent complaints involving unethical or inappropriate conduct.
+        </div>
+
+
+        <div class="flag">
+            Unusual resistance to internal control or compliance procedures.
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     KYE VS KYC
+====================================================== -->
+
+<section id="comparison">
+
+    <h2>KYE vs KYC</h2>
+
+    <p>
+        KYE and KYC are related concepts but focus on different parties
+        within a financial institution's risk environment.
+    </p>
+
+
+    <div class="comparison">
+
+        <table>
+
+            <thead>
+
+                <tr>
+                    <th>Aspect</th>
+                    <th>KYC</th>
+                    <th>KYE</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td><strong>Meaning</strong></td>
+                    <td>Know Your Customer</td>
+                    <td>Know Your Employee</td>
+                </tr>
+
+                <tr>
+                    <td><strong>Focus</strong></td>
+                    <td>Customers</td>
+                    <td>Employees</td>
+                </tr>
+
+                <tr>
+                    <td><strong>Main Purpose</strong></td>
+                    <td>
+                        Identify and manage customer-related
+                        financial crime risks.
+                    </td>
+                    <td>
+                        Identify and manage employee-related
+                        operational and financial crime risks.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><strong>Key Area</strong></td>
+                    <td>Customer due diligence</td>
+                    <td>Employee due diligence</td>
+                </tr>
+
+                <tr>
+                    <td><strong>Risk Examples</strong></td>
+                    <td>
+                        Money laundering, fraud and terrorist financing.
+                    </td>
+                    <td>
+                        Internal fraud, misconduct, unauthorized access
+                        and conflicts of interest.
+                    </td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     MANAGEMENT RESPONSIBILITY
+====================================================== -->
+
+<section id="responsibility">
+
+    <h2>Role of Management in KYE</h2>
+
+    <p>
+        Effective KYE requires involvement from senior management,
+        human resources, compliance, risk management, information
+        security and business units.
+    </p>
+
+
+    <div class="cards">
+
+
+        <div class="card">
+
+            <div class="card-icon">
+                👔
+            </div>
+
+            <h3>Senior Management</h3>
+
+            <p>
+                Establish an appropriate control environment and promote
+                a strong culture of integrity and compliance.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <div class="card-icon">
+                👥
+            </div>
+
+            <h3>Human Resources</h3>
+
+            <p>
+                Maintain employee records, recruitment controls,
+                background verification and employment-related processes.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <div class="card-icon">
+                🛡️
+            </div>
+
+            <h3>Compliance & Risk</h3>
+
+            <p>
+                Develop appropriate policies, identify risks and provide
+                guidance on compliance and financial crime controls.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <div class="card-icon">
+                💻
+            </div>
+
+            <h3>Information Security</h3>
+
+            <p>
+                Ensure employee access to systems and information is
+                appropriate for their role.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     AML CONNECTION
+====================================================== -->
+
+<section>
+
+    <h2>KYE and AML/CFT</h2>
+
+    <p>
+        Employees can potentially be exposed to financial crime risks
+        because of their access to customers, accounts, transaction
+        systems and confidential information.
+    </p>
+
+    <p>
+        An effective KYE framework therefore complements the bank's
+        broader <strong>AML/CFT</strong> framework by helping the
+        institution understand and manage risks arising from employees,
+        agents, contractors and other relevant personnel, where applicable.
+    </p>
+
+    <div class="highlight">
+
+        <strong>Important:</strong><br>
+
+        KYE should complement—not replace—strong segregation of duties,
+        maker-checker controls, access management, internal audit,
+        transaction monitoring and other internal control mechanisms.
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     CONCLUSION
+====================================================== -->
+
+<section id="conclusion">
+
+    <h2>Conclusion</h2>
+
+    <p>
+        <strong>Know Your Employee (KYE)</strong> is an important part of
+        sound banking governance, internal control and risk management.
+        Banks need to understand not only their customers but also the
+        people who operate their systems and interact with customers.
+    </p>
+
+    <p>
+        Effective KYE begins with appropriate recruitment and background
+        verification and continues through employee training, access
+        management, conflict-of-interest controls, monitoring and
+        appropriate action when risks are identified.
+    </p>
+
+    <p>
+        A strong KYE culture helps create a banking environment based on
+        <strong>integrity, accountability, transparency and responsible
+        conduct</strong>.
+    </p>
+
+</section>
+
+
+<!-- =====================================================
+     CTA
+====================================================== -->
+
+<div class="cta">
+
+    <h2>Key Takeaway</h2>
+
+    <p>
+        <strong>
+            Know your employees. Understand their roles. Assess the risk.
+            Maintain appropriate controls.
+        </strong>
+    </p>
+
+    <p>
+        KYE is not simply an HR process—it is an important component of
+        the bank's overall governance, compliance and risk-management
+        framework.
+    </p>
+
+</div>
+
+
+</article>
+
+
+<!-- =====================================================
+     SIDEBAR
+====================================================== -->
+
+<aside class="sidebar">
+
+
+    <div class="side-card">
+
+        <h3>📌 KYE at a Glance</h3>
+
+
+        <div class="side-stat">
+
+            <strong>Identify</strong>
+
+            Know who your employees are.
+
+        </div>
+
+
+        <div class="side-stat">
+
+            <strong>Verify</strong>
+
+            Check relevant background information.
+
+        </div>
+
+
+        <div class="side-stat">
+
+            <strong>Assess</strong>
+
+            Understand employee and position risk.
+
+        </div>
+
+
+        <div class="side-stat">
+
+            <strong>Control</strong>
+
+            Apply appropriate internal controls.
+
+        </div>
+
+
+        <div class="side-stat">
+
+            <strong>Monitor</strong>
+
+            Review relevant risk indicators continuously.
+
+        </div>
+
+
+    </div>
+
+
+    <div class="side-card">
+
+        <h3>🛡️ Related Banking Topics</h3>
+
+        <p>• KYC – Know Your Customer</p>
+
+        <p>• CDD – Customer Due Diligence</p>
+
+        <p>• EDD – Enhanced Due Diligence</p>
+
+        <p>• AML – Anti-Money Laundering</p>
+
+        <p>• CFT – Combating Financing of Terrorism</p>
+
+        <p>• Fraud Risk Management</p>
+
+        <p>• Operational Risk</p>
+
+        <p>• Internal Control</p>
+
+        <p>• Conflict of Interest</p>
+
+    </div>
+
+
+</aside>
+
+</div>
+ <script>
+$(function(){
+$('#footer').load('/assets/footer.html');
+});
+</script>
+</main>
+</body>
+  <div id ="footer"></div>
+</html>
