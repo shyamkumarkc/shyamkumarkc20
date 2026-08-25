@@ -1,267 +1,1852 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<title>Simple Interest</title>
-<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
-</script>
-<script>
-$(function(){
-$('#header').load('/assets/header.html');
-});
-</script>
+
+    <!-- =====================================================
+         BASIC SEO
+    ====================================================== -->
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Simple Interest: Formula, Calculation, Examples & Uses | Shyam Kumar KC
+    </title>
+
+    <meta name="description"
+          content="Learn Simple Interest with its formula, calculation, examples, principal, rate and time explained clearly. Understand how Simple Interest is used in banking, loans, investments and financial calculations.">
+
+    <meta name="keywords"
+          content="simple interest, simple interest formula, simple interest calculation, simple interest example, SI formula, simple interest calculator, banking interest, loan interest, principal rate time">
+
+    <meta name="author"
+          content="Shyam Kumar KC">
+
+    <meta name="robots"
+          content="index, follow, max-image-preview:large">
+
+    <meta name="googlebot"
+          content="index, follow">
+
+
+    <!-- =====================================================
+         CANONICAL
+    ====================================================== -->
+
+    <link rel="canonical"
+          href="https://shyamkumarkc20.com.np/tools/simple-interest">
+
+
+    <!-- =====================================================
+         FAVICON
+    ====================================================== -->
+
+    <link rel="shortcut icon"
+          type="image/jpg"
+          href="/brp.jpg">
+
+
+    <!-- =====================================================
+         OPEN GRAPH
+    ====================================================== -->
+
+    <meta property="og:type"
+          content="article">
+
+    <meta property="og:title"
+          content="Simple Interest: Formula, Calculation, Examples & Uses">
+
+    <meta property="og:description"
+          content="A simple guide to Simple Interest, including formula, calculation, examples, principal, rate, time and banking applications.">
+
+    <meta property="og:url"
+          content="https://shyamkumarkc20.com.np/tools/simple-interest">
+
+    <meta property="og:site_name"
+          content="Shyam Kumar KC">
+
+
+    <!-- =====================================================
+         TWITTER CARD
+    ====================================================== -->
+
+    <meta name="twitter:card"
+          content="summary">
+
+    <meta name="twitter:title"
+          content="Simple Interest: Formula, Calculation & Examples">
+
+    <meta name="twitter:description"
+          content="Understand Simple Interest formula, calculation, examples and banking applications.">
+
+
+    <!-- =====================================================
+         PRECONNECT
+    ====================================================== -->
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+
+    <!-- =====================================================
+         CSS
+    ====================================================== -->
+
+    <style>
+
+        /* =====================================================
+           ROOT
+        ====================================================== */
+
+        :root {
+
+            --primary: #0b4f8a;
+            --secondary: #1976d2;
+            --accent: #00a884;
+
+            --dark: #142033;
+            --text: #526174;
+            --muted: #718096;
+
+            --background: #f5f8fc;
+            --card: #ffffff;
+
+            --border: #e2e8f0;
+
+            --success: #15803d;
+            --warning: #d97706;
+
+            --shadow:
+                0 10px 35px
+                rgba(20, 45, 75, 0.08);
+
+            --radius: 16px;
+
+        }
+
+
+        /* =====================================================
+           RESET
+        ====================================================== */
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+
+        html {
+
+            scroll-behavior: smooth;
+
+            scroll-padding-top: 80px;
+
+        }
+
+
+        body {
+
+            font-family:
+                "Segoe UI",
+                Arial,
+                sans-serif;
+
+            background:
+                var(--background);
+
+            color:
+                var(--text);
+
+            line-height:
+                1.75;
+
+        }
+
+
+        img {
+
+            max-width: 100%;
+
+            height: auto;
+
+        }
+
+
+        a {
+
+            color:
+                var(--secondary);
+
+        }
+
+
+        /* =====================================================
+           READING PROGRESS
+        ====================================================== */
+
+        #readingProgress {
+
+            position: fixed;
+
+            top: 0;
+            left: 0;
+
+            width: 0;
+
+            height: 4px;
+
+            background:
+                linear-gradient(
+                    90deg,
+                    var(--accent),
+                    var(--secondary)
+                );
+
+            z-index: 9999;
+
+        }
+
+
+        /* =====================================================
+           PAGE
+        ====================================================== */
+
+        .page-container {
+
+            max-width:
+                1200px;
+
+            margin:
+                0 auto;
+
+            padding:
+                35px 20px 60px;
+
+        }
+
+
+        /* =====================================================
+           ARTICLE HEADER
+        ====================================================== */
+
+        .article-header {
+
+            background:
+                linear-gradient(
+                    135deg,
+                    #07365f,
+                    #1976d2
+                );
+
+            color:
+                #ffffff;
+
+            padding:
+                55px 35px;
+
+            border-radius:
+                var(--radius);
+
+            margin-bottom:
+                30px;
+
+            box-shadow:
+                var(--shadow);
+
+        }
+
+
+        .article-category {
+
+            display:
+                inline-block;
+
+            padding:
+                6px 13px;
+
+            margin-bottom:
+                15px;
+
+            border:
+                1px solid
+                rgba(255,255,255,.2);
+
+            border-radius:
+                50px;
+
+            background:
+                rgba(255,255,255,.1);
+
+            font-size:
+                12px;
+
+            font-weight:
+                700;
+
+            letter-spacing:
+                .5px;
+
+        }
+
+
+        .article-header h1 {
+
+            font-size:
+                clamp(
+                    34px,
+                    5vw,
+                    55px
+                );
+
+            line-height:
+                1.15;
+
+            margin-bottom:
+                15px;
+
+        }
+
+
+        .article-header p {
+
+            max-width:
+                850px;
+
+            color:
+                #e5f2ff;
+
+            font-size:
+                17px;
+
+        }
+
+
+        /* =====================================================
+           ARTICLE
+        ====================================================== */
+
+        .article {
+
+            background:
+                var(--card);
+
+            padding:
+                40px;
+
+            border:
+                1px solid
+                var(--border);
+
+            border-radius:
+                var(--radius);
+
+            box-shadow:
+                var(--shadow);
+
+        }
+
+
+        /* =====================================================
+           TABLE OF CONTENTS
+        ====================================================== */
+
+        .toc {
+
+            padding:
+                22px;
+
+            margin-bottom:
+                35px;
+
+            background:
+                #f4f9ff;
+
+            border:
+                1px solid
+                #d9e8f6;
+
+            border-left:
+                5px solid
+                var(--secondary);
+
+            border-radius:
+                12px;
+
+        }
+
+
+        .toc h2 {
+
+            font-size:
+                21px;
+
+            color:
+                var(--dark);
+
+            margin-bottom:
+                10px;
+
+        }
+
+
+        .toc ol {
+
+            padding-left:
+                22px;
+
+        }
+
+
+        .toc li {
+
+            margin:
+                5px 0;
+
+        }
+
+
+        .toc a {
+
+            text-decoration:
+                none;
+
+        }
+
+
+        .toc a:hover {
+
+            text-decoration:
+                underline;
+
+        }
+
+
+        /* =====================================================
+           HEADINGS
+        ====================================================== */
+
+        .article h2 {
+
+            color:
+                var(--dark);
+
+            font-size:
+                31px;
+
+            line-height:
+                1.3;
+
+            margin:
+                45px 0 15px;
+
+        }
+
+
+        .article h2:first-of-type {
+
+            margin-top:
+                0;
+
+        }
+
+
+        .article h3 {
+
+            color:
+                var(--primary);
+
+            font-size:
+                21px;
+
+            margin:
+                25px 0 10px;
+
+        }
+
+
+        .article p {
+
+            margin-bottom:
+                17px;
+
+        }
+
+
+        .article strong {
+
+            color:
+                var(--dark);
+
+        }
+
+
+        .article ul {
+
+            padding-left:
+                25px;
+
+            margin:
+                15px 0 20px;
+
+        }
+
+
+        .article li {
+
+            margin-bottom:
+                8px;
+
+        }
+
+
+        /* =====================================================
+           HIGHLIGHT
+        ====================================================== */
+
+        .highlight {
+
+            padding:
+                20px;
+
+            margin:
+                25px 0;
+
+            border-radius:
+                12px;
+
+            border-left:
+                5px solid
+                var(--accent);
+
+            background:
+                rgba(
+                    0,
+                    168,
+                    132,
+                    .06
+                );
+
+        }
+
+
+        /* =====================================================
+           FORMULA
+        ====================================================== */
+
+        .formula-box {
+
+            margin:
+                25px 0;
+
+            padding:
+                30px 20px;
+
+            text-align:
+                center;
+
+            border-radius:
+                15px;
+
+            background:
+                linear-gradient(
+                    135deg,
+                    #07365f,
+                    #1976d2
+                );
+
+            color:
+                #ffffff;
+
+            box-shadow:
+                0 12px 30px
+                rgba(
+                    25,
+                    118,
+                    210,
+                    .18
+                );
+
+        }
+
+
+        .formula-label {
+
+            font-size:
+                13px;
+
+            text-transform:
+                uppercase;
+
+            letter-spacing:
+                1px;
+
+            color:
+                #d9edff;
+
+            margin-bottom:
+                10px;
+
+        }
+
+
+        .formula {
+
+            font-size:
+                clamp(
+                    27px,
+                    5vw,
+                    40px
+                );
+
+            font-weight:
+                800;
+
+        }
+
+
+        .formula-note {
+
+            margin-top:
+                10px;
+
+            font-size:
+                14px;
+
+            color:
+                #e2f1ff;
+
+        }
+
+
+        /* =====================================================
+           VARIABLE CARDS
+        ====================================================== */
+
+        .variable-grid {
+
+            display:
+                grid;
+
+            grid-template-columns:
+                repeat(
+                    3,
+                    1fr
+                );
+
+            gap:
+                18px;
+
+            margin:
+                25px 0;
+
+        }
+
+
+        .variable {
+
+            padding:
+                23px;
+
+            text-align:
+                center;
+
+            border:
+                1px solid
+                var(--border);
+
+            border-radius:
+                14px;
+
+            background:
+                var(--card);
+
+            transition:
+                .25s;
+
+        }
+
+
+        .variable:hover {
+
+            transform:
+                translateY(-4px);
+
+            box-shadow:
+                0 10px 25px
+                rgba(0,0,0,.07);
+
+        }
+
+
+        .variable-symbol {
+
+            font-size:
+                32px;
+
+            font-weight:
+                800;
+
+            color:
+                var(--secondary);
+
+            margin-bottom:
+                5px;
+
+        }
+
+
+        .variable strong {
+
+            display:
+                block;
+
+            margin-bottom:
+                5px;
+
+        }
+
+
+        /* =====================================================
+           EXAMPLE
+        ====================================================== */
+
+        .example {
+
+            padding:
+                24px;
+
+            margin:
+                25px 0;
+
+            border:
+                1px solid
+                #cfe3f7;
+
+            border-radius:
+                14px;
+
+            background:
+                #f7fbff;
+
+        }
+
+
+        .example-title {
+
+            color:
+                var(--primary);
+
+            font-weight:
+                800;
+
+            margin-bottom:
+                12px;
+
+        }
+
+
+        .calculation {
+
+            padding:
+                18px;
+
+            margin-top:
+                15px;
+
+            border:
+                1px dashed
+                #b9d3ea;
+
+            border-radius:
+                10px;
+
+            background:
+                #ffffff;
+
+            font-family:
+                Consolas,
+                monospace;
+
+            color:
+                var(--dark);
+
+        }
+
+
+        /* =====================================================
+           CARDS
+        ====================================================== */
+
+        .cards {
+
+            display:
+                grid;
+
+            grid-template-columns:
+                repeat(
+                    2,
+                    1fr
+                );
+
+            gap:
+                18px;
+
+            margin:
+                25px 0;
+
+        }
+
+
+        .card {
+
+            padding:
+                23px;
+
+            border:
+                1px solid
+                var(--border);
+
+            border-radius:
+                14px;
+
+            background:
+                var(--card);
+
+        }
+
+
+        .card h3 {
+
+            margin-top:
+                0;
+
+        }
+
+
+        /* =====================================================
+           FAQ
+        ====================================================== */
+
+        .faq {
+
+            margin-top:
+                20px;
+
+        }
+
+
+        .faq details {
+
+            margin-bottom:
+                12px;
+
+            border:
+                1px solid
+                var(--border);
+
+            border-radius:
+                10px;
+
+            background:
+                #ffffff;
+
+            padding:
+                15px 18px;
+
+        }
+
+
+        .faq summary {
+
+            cursor:
+                pointer;
+
+            font-weight:
+                700;
+
+            color:
+                var(--dark);
+
+        }
+
+
+        .faq p {
+
+            margin:
+                12px 0 0;
+
+        }
+
+
+        /* =====================================================
+           RESPONSIVE
+        ====================================================== */
+
+        @media(max-width:700px) {
+
+            .page-container {
+
+                padding:
+                    20px 12px 40px;
+
+            }
+
+
+            .article-header {
+
+                padding:
+                    35px 22px;
+
+            }
+
+
+            .article {
+
+                padding:
+                    25px 18px;
+
+            }
+
+
+            .variable-grid,
+            .cards {
+
+                grid-template-columns:
+                    1fr;
+
+            }
+
+
+            .article h2 {
+
+                font-size:
+                    27px;
+
+            }
+
+        }
+
+    </style>
+
+
+    <!-- =====================================================
+         STRUCTURED DATA
+    ====================================================== -->
+
+    <script type="application/ld+json">
+
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+
+        "headline": "Simple Interest: Formula, Calculation, Examples & Uses",
+
+        "description": "Learn Simple Interest with its formula, calculation, examples, principal, rate and time explained clearly.",
+
+        "author": {
+            "@type": "Person",
+            "name": "Shyam Kumar KC"
+        },
+
+        "publisher": {
+            "@type": "Person",
+            "name": "Shyam Kumar KC"
+        },
+
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://shyamkumarkc20.com.np/tools/simple-interest"
+        },
+
+        "url": "https://shyamkumarkc20.com.np/tools/simple-interest",
+
+        "datePublished": "2026-08-25",
+
+        "dateModified": "2026-08-25"
+    }
+
+    </script>
+
+
+    <!-- =====================================================
+         FAQ STRUCTURED DATA
+    ====================================================== -->
+
+    <script type="application/ld+json">
+
+    {
+        "@context": "https://schema.org",
+
+        "@type": "FAQPage",
+
+        "mainEntity": [
+
+            {
+                "@type": "Question",
+                "name": "What is Simple Interest?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Simple Interest is interest calculated only on the original principal amount for the entire period."
+                }
+            },
+
+            {
+                "@type": "Question",
+                "name": "What is the formula for Simple Interest?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The standard Simple Interest formula is SI = (P × R × T) / 100, where P is principal, R is annual interest rate and T is time in years."
+                }
+            },
+
+            {
+                "@type": "Question",
+                "name": "What are P, R and T in Simple Interest?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "P represents principal, R represents annual interest rate and T represents the time period in years."
+                }
+            },
+
+            {
+                "@type": "Question",
+                "name": "How is total amount calculated using Simple Interest?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Total amount is calculated by adding Simple Interest to the original principal: A = P + SI."
+                }
+            }
+
+        ]
+    }
+
+    </script>
+
 </head>
+
+
 <body>
-<div id ="header"></div>
- <main>
-   <h1>Simple Interest</h1>
-   <h2>What is Simple Interest?</h2>
-
-    <p><strong>Simple Interest (SI)</strong> is a method of calculating interest where interest is calculated only on the original principal amount for the entire period.</p>
-    <p>Unlike compound interest, previously earned interest is not added to the principal when calculating subsequent interest.</p>
-        <strong>
-            In simple terms:
-        </strong>
-
-        Simple Interest is interest calculated on the
-        <strong>original principal amount only</strong>
-        
-    <p>
-        Simple interest is commonly used for certain short-term loans,
-        advances, financial calculations, educational examples and
-        specific banking products depending on their terms.
-    </p>
-     <h2>
-        Simple Interest Formula
-    </h2>
-
-    <p>
-        The standard formula for calculating Simple Interest is:
-    </p>
-
-
-    <div class="formula-box">
-
-        <div class="formula-label">
-            Simple Interest Formula
-        </div>
-
-        <div class="formula">
-            SI = (P × R × T) / 100
-        </div>
-
-        <div class="formula-note">
-            When Rate (R) is expressed as a percentage and Time (T)
-            is expressed in years.
-        </div>
-
-    </div>
-
-
-    <p>
-        The total amount payable or receivable after the interest period
-        can then be calculated as:
-    </p>
-
-
-    <div class="formula-box">
-
-        <div class="formula-label">
-            Total Amount
-        </div>
-
-        <div class="formula">
-            A = P + SI
-        </div>
-
-        <div class="formula-note">
-            Amount = Principal + Simple Interest
-        </div>
-
-    </div>
-
-    <div class="variable-grid">
-
-
-        <div class="variable">
-
-            <div class="variable-symbol">
-                P
-            </div>
-
-            <strong>
-                Principal
-            </strong>
-
-            <p>
-                The original amount of money invested,
-                deposited or borrowed.
-            </p>
-
-        </div>
-
-
-        <div class="variable">
-
-            <div class="variable-symbol">
-                R
-            </div>
-
-            <strong>
-                Rate
-            </strong>
-
-            <p>
-                The annual interest rate expressed
-                as a percentage.
-            </p>
-
-        </div>
-
-
-        <div class="variable">
-
-            <div class="variable-symbol">
-                T
-            </div>
-
-            <strong>
-                Time
-            </strong>
-
-            <p>
-                The period for which the money remains
-                invested or borrowed.
-            </p>
-
-        </div>
-
-    </div>
- <h3>
-                Advantages
-            </h3>
-
-            <ul>
-
-                <li>
-                    Easy to understand and calculate.
-                </li>
-
-                <li>
-                    Requires only principal, rate and time.
-                </li>
-
-                <li>
-                    Useful for short-term financial calculations.
-                </li>
-
-                <li>
-                    Provides predictable interest when the principal,
-                    rate and period remain constant.
-                </li>
-
-            </ul>
-
-        </div>
-
-
-        <div class="card">
-
-            
-
-            <h3>
-                Limitations
-            </h3>
-
-            <ul>
-
-                <li>
-                    Does not account for interest compounding.
-                </li>
-
-                <li>
-                    May not accurately represent products where interest
-                    is compounded.
-                </li>
-
-                <li>
-                    Actual banking products may use different interest
-                    calculation conventions.
-                </li>
-
-                <li>
-                    Loan agreements should always be checked for the
-                    applicable calculation method.
-                </li>
-
-            </ul>
-
-        </div>
-
- 
-    <h2>
-        Important Points to Remember
-    </h2>
-
-    <ul>
-
-        <li>
-            Simple Interest is calculated on the original principal.
-        </li>
-
-        <li>
-            The standard formula is
-            <strong>SI = (P × R × T) / 100</strong>.
-        </li>
-
-        <li>
-            Annual interest rates generally require time to be expressed
-            in years.
-        </li>
-
-        <li>
-            Total amount is calculated as
-            <strong>A = P + SI</strong>.
-        </li>
-
-        <li>
-            Always check the applicable terms and interest calculation
-            method of an actual banking product.
-        </li>
-
-    </ul>
-
 
 
 <!-- =====================================================
-     CONCLUSION
+     READING PROGRESS
 ===================================================== -->
 
-<section id="conclusion">
+<div id="readingProgress"></div>
 
-    <h2>
-        Conclusion
-    </h2>
 
-    <p>
-        Simple Interest is one of the easiest and most fundamental
-        concepts in financial mathematics. It allows interest to be
-        calculated directly from the principal amount, interest rate
-        and time period.
-    </p>
+<!-- =====================================================
+     WEBSITE HEADER
+===================================================== -->
 
-    <p>
-        Understanding Simple Interest is particularly useful for students,
-        banking professionals, borrowers, investors and anyone who wants
-        to understand basic financial calculations.
-    </p>
+<div id="header"></div>
 
-  <script>
-$(function(){
-$('#footer').load('/assets/footer.html');
-});
-</script>
+
+<!-- =====================================================
+     ARTICLE
+===================================================== -->
+
+<main class="page-container">
+
+    <header class="article-header">
+
+        <span class="article-category">
+            FINANCE • BANKING • FINANCIAL EDUCATION
+        </span>
+
+        <h1>
+            Simple Interest: Formula, Calculation, Examples & Uses
+        </h1>
+
+        <p>
+            Learn what Simple Interest is, how to calculate it using the
+            SI formula, understand principal, rate and time, and explore
+            its applications in banking and financial calculations.
+        </p>
+
+    </header>
+
+
+    <article class="article">
+
+
+        <!-- =================================================
+             TABLE OF CONTENTS
+        ================================================== -->
+
+        <nav class="toc"
+             aria-label="Table of Contents">
+
+            <h2>
+                Table of Contents
+            </h2>
+
+            <ol>
+
+                <li>
+                    <a href="#what-is-simple-interest">
+                        What is Simple Interest?
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#formula">
+                        Simple Interest Formula
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#variables">
+                        Principal, Rate and Time
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#example">
+                        Simple Interest Example
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#advantages">
+                        Advantages and Limitations
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#important-points">
+                        Important Points
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#faq">
+                        Frequently Asked Questions
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#conclusion">
+                        Conclusion
+                    </a>
+                </li>
+
+            </ol>
+
+        </nav>
+
+
+        <!-- =================================================
+             WHAT IS SIMPLE INTEREST
+        ================================================== -->
+
+        <section id="what-is-simple-interest">
+
+            <h2>
+                What is Simple Interest?
+            </h2>
+
+            <p>
+
+                <strong>Simple Interest (SI)</strong> is a method of
+                calculating interest where interest is calculated only
+                on the original principal amount for the entire period.
+
+            </p>
+
+            <p>
+
+                Unlike compound interest, previously earned interest is
+                not added to the principal when calculating subsequent
+                interest.
+
+            </p>
+
+
+            <div class="highlight">
+
+                <strong>
+                    In simple terms:
+                </strong>
+
+                Simple Interest is interest calculated on the
+                <strong>
+                    original principal amount only.
+                </strong>
+
+            </div>
+
+
+            <p>
+
+                Simple interest is commonly used for certain short-term
+                loans, advances, financial calculations, educational
+                examples and specific banking products depending on
+                their terms.
+
+            </p>
+
+        </section>
+
+
+        <!-- =================================================
+             FORMULA
+        ================================================== -->
+
+        <section id="formula">
+
+            <h2>
+                Simple Interest Formula
+            </h2>
+
+            <p>
+
+                The standard formula for calculating Simple Interest is:
+
+            </p>
+
+
+            <div class="formula-box">
+
+                <div class="formula-label">
+                    Simple Interest Formula
+                </div>
+
+                <div class="formula">
+                    SI = (P × R × T) / 100
+                </div>
+
+                <div class="formula-note">
+
+                    P = Principal |
+                    R = Annual Interest Rate |
+                    T = Time in Years
+
+                </div>
+
+            </div>
+
+
+            <p>
+
+                The total amount after adding Simple Interest to the
+                original principal can be calculated using:
+
+            </p>
+
+
+            <div class="formula-box">
+
+                <div class="formula-label">
+                    Total Amount Formula
+                </div>
+
+                <div class="formula">
+                    A = P + SI
+                </div>
+
+                <div class="formula-note">
+
+                    Amount = Principal + Simple Interest
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             VARIABLES
+        ================================================== -->
+
+        <section id="variables">
+
+            <h2>
+                Principal, Rate and Time in Simple Interest
+            </h2>
+
+
+            <div class="variable-grid">
+
+
+                <div class="variable">
+
+                    <div class="variable-symbol">
+                        P
+                    </div>
+
+                    <strong>
+                        Principal
+                    </strong>
+
+                    <p>
+
+                        The original amount of money invested,
+                        deposited or borrowed.
+
+                    </p>
+
+                </div>
+
+
+                <div class="variable">
+
+                    <div class="variable-symbol">
+                        R
+                    </div>
+
+                    <strong>
+                        Rate
+                    </strong>
+
+                    <p>
+
+                        The annual interest rate expressed
+                        as a percentage.
+
+                    </p>
+
+                </div>
+
+
+                <div class="variable">
+
+                    <div class="variable-symbol">
+                        T
+                    </div>
+
+                    <strong>
+                        Time
+                    </strong>
+
+                    <p>
+
+                        The period for which the money remains
+                        invested or borrowed.
+
+                    </p>
+
+                </div>
+
+
+            </div>
+
+
+            <h3>
+                How to Convert Time into Years
+            </h3>
+
+
+            <ul>
+
+                <li>
+                    6 months = 0.5 year
+                </li>
+
+                <li>
+                    3 months = 0.25 year
+                </li>
+
+                <li>
+                    9 months = 0.75 year
+                </li>
+
+                <li>
+                    2 years = 2 years
+                </li>
+
+            </ul>
+
+        </section>
+
+
+        <!-- =================================================
+             EXAMPLE
+        ================================================== -->
+
+        <section id="example">
+
+            <h2>
+                Simple Interest Calculation Example
+            </h2>
+
+
+            <div class="example">
+
+                <div class="example-title">
+                    Example
+                </div>
+
+                <p>
+
+                    Suppose a person deposits or lends
+                    <strong>Rs. 100,000</strong>
+                    at an annual interest rate of
+                    <strong>10%</strong>
+                    for
+                    <strong>2 years</strong>.
+
+                </p>
+
+
+                <div class="calculation">
+
+                    P = Rs. 100,000<br>
+                    R = 10%<br>
+                    T = 2 years<br><br>
+
+                    SI = (P × R × T) / 100<br><br>
+
+                    SI = (100,000 × 10 × 2) / 100<br><br>
+
+                    SI = Rs. 20,000
+
+                </div>
+
+            </div>
+
+
+            <p>
+
+                Therefore, the Simple Interest for two years is
+                <strong>Rs. 20,000</strong>.
+
+            </p>
+
+
+            <div class="highlight">
+
+                <strong>
+                    Total Amount:
+                </strong>
+
+                Rs. 100,000 + Rs. 20,000 =
+                <strong>
+                    Rs. 120,000
+                </strong>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             ADVANTAGES
+        ================================================== -->
+
+        <section id="advantages">
+
+            <h2>
+                Advantages and Limitations of Simple Interest
+            </h2>
+
+
+            <div class="cards">
+
+
+                <div class="card">
+
+                    <h3>
+                        Advantages of Simple Interest
+                    </h3>
+
+                    <ul>
+
+                        <li>
+                            Easy to understand and calculate.
+                        </li>
+
+                        <li>
+                            Requires only principal, rate and time.
+                        </li>
+
+                        <li>
+                            Useful for short-term financial calculations.
+                        </li>
+
+                        <li>
+                            Provides predictable interest when the
+                            principal, rate and period remain constant.
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <div class="card">
+
+                    <h3>
+                        Limitations of Simple Interest
+                    </h3>
+
+                    <ul>
+
+                        <li>
+                            Does not account for interest compounding.
+                        </li>
+
+                        <li>
+                            May not accurately represent products where
+                            interest is compounded.
+                        </li>
+
+                        <li>
+                            Actual banking products may use different
+                            interest calculation conventions.
+                        </li>
+
+                        <li>
+                            Loan agreements should always be checked for
+                            the applicable calculation method.
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             IMPORTANT POINTS
+        ================================================== -->
+
+        <section id="important-points">
+
+            <h2>
+                Important Points to Remember
+            </h2>
+
+
+            <ul>
+
+                <li>
+
+                    Simple Interest is calculated on the
+                    original principal.
+
+                </li>
+
+                <li>
+
+                    The standard formula is
+                    <strong>
+                        SI = (P × R × T) / 100
+                    </strong>.
+
+                </li>
+
+                <li>
+
+                    Annual interest rates generally require
+                    time to be expressed in years.
+
+                </li>
+
+                <li>
+
+                    Total amount is calculated as
+                    <strong>
+                        A = P + SI
+                    </strong>.
+
+                </li>
+
+                <li>
+
+                    Always check the applicable terms and interest
+                    calculation method of an actual banking product.
+
+                </li>
+
+            </ul>
+
+        </section>
+
+
+        <!-- =================================================
+             FAQ
+        ================================================== -->
+
+        <section id="faq">
+
+            <h2>
+                Frequently Asked Questions About Simple Interest
+            </h2>
+
+
+            <div class="faq">
+
+
+                <details>
+
+                    <summary>
+                        What is Simple Interest?
+                    </summary>
+
+                    <p>
+
+                        Simple Interest is interest calculated only on
+                        the original principal amount for the entire
+                        interest period.
+
+                    </p>
+
+                </details>
+
+
+                <details>
+
+                    <summary>
+                        What is the formula for Simple Interest?
+                    </summary>
+
+                    <p>
+
+                        The standard formula is
+                        <strong>
+                            SI = (P × R × T) / 100
+                        </strong>,
+                        where P is principal, R is annual interest rate
+                        and T is time in years.
+
+                    </p>
+
+                </details>
+
+
+                <details>
+
+                    <summary>
+                        What do P, R and T mean in the SI formula?
+                    </summary>
+
+                    <p>
+
+                        P represents Principal, R represents the annual
+                        interest Rate and T represents the Time period
+                        in years.
+
+                    </p>
+
+                </details>
+
+
+                <details>
+
+                    <summary>
+                        How is the total amount calculated?
+                    </summary>
+
+                    <p>
+
+                        Total amount is calculated by adding Simple
+                        Interest to the original principal:
+                        <strong>
+                            A = P + SI
+                        </strong>.
+
+                    </p>
+
+                </details>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             CONCLUSION
+        ================================================== -->
+
+        <section id="conclusion">
+
+            <h2>
+                Conclusion
+            </h2>
+
+            <p>
+
+                Simple Interest is one of the easiest and most fundamental
+                concepts in financial mathematics. It allows interest to be
+                calculated directly from the principal amount, interest rate
+                and time period.
+
+            </p>
+
+
+            <p>
+
+                Understanding Simple Interest is particularly useful for
+                students, banking professionals, borrowers, investors and
+                anyone who wants to understand basic financial calculations.
+
+            </p>
+
+
+            <div class="highlight">
+
+                <strong>
+                    Key Takeaway:
+                </strong>
+
+                Simple Interest =
+                Principal × Rate × Time ÷ 100
+
+            </div>
+
+        </section>
+
+
+    </article>
+
 </main>
+
+
+<!-- =====================================================
+     WEBSITE FOOTER
+===================================================== -->
+
+<div id="footer"></div>
+
+
+<!-- =====================================================
+     HEADER / FOOTER LOADER
+===================================================== -->
+
+<script>
+
+document.addEventListener(
+    "DOMContentLoaded",
+    function () {
+
+        /*
+         * Load reusable website header
+         */
+
+        fetch("/assets/header.html")
+
+            .then(function(response) {
+
+                if (!response.ok) {
+
+                    throw new Error(
+                        "Header could not be loaded"
+                    );
+
+                }
+
+                return response.text();
+
+            })
+
+            .then(function(data) {
+
+                document.getElementById(
+                    "header"
+                ).innerHTML = data;
+
+            })
+
+            .catch(function(error) {
+
+                console.error(
+                    "Header loading error:",
+                    error
+                );
+
+            });
+
+
+        /*
+         * Load reusable website footer
+         */
+
+        fetch("/assets/footer.html")
+
+            .then(function(response) {
+
+                if (!response.ok) {
+
+                    throw new Error(
+                        "Footer could not be loaded"
+                    );
+
+                }
+
+                return response.text();
+
+            })
+
+            .then(function(data) {
+
+                document.getElementById(
+                    "footer"
+                ).innerHTML = data;
+
+            })
+
+            .catch(function(error) {
+
+                console.error(
+                    "Footer loading error:",
+                    error
+                );
+
+            });
+
+    }
+);
+
+
+/* =====================================================
+   READING PROGRESS
+====================================================== */
+
+window.addEventListener(
+    "scroll",
+    function () {
+
+        const scrollTop =
+            window.scrollY;
+
+        const documentHeight =
+            document.documentElement.scrollHeight -
+            document.documentElement.clientHeight;
+
+        const progress =
+            documentHeight > 0
+                ? (scrollTop / documentHeight) * 100
+                : 0;
+
+        document.getElementById(
+            "readingProgress"
+        ).style.width =
+            progress + "%";
+
+    },
+    {
+        passive: true
+    }
+);
+
+</script>
+
+
 </body>
-  <div id ="footer"></div>
+
 </html>
