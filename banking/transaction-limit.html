@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description"
+          content="Check transaction limits in Nepal for mobile banking, internet banking, connectIPS, debit cards and credit cards. View per transaction, daily and monthly transaction limits.">
+
+    <meta name="keywords"
+          content="transaction limit Nepal, mobile banking transaction limit Nepal, internet banking limit Nepal, connectIPS limit, debit card limit Nepal, credit card limit Nepal, ATM withdrawal limit Nepal, digital payment limit Nepal">
+
+    <meta name="author"
+          content="Shyam Kumar KC">
+
+    <meta name="robots"
+          content="index, follow">
+
+    <link rel="canonical"
+          href="https://shyamkumarkc20.com.np/banking/transaction-limit">
+
+
+    <!-- =========================
+         OPEN GRAPH
+    ========================== -->
+
+    <meta property="og:type"
+          content="website">
+
+    <meta property="og:title"
+          content="Transaction Limits in Nepal | Mobile Banking, connectIPS & Cards">
+
+    <meta property="og:description"
+          content="Find transaction limits for mobile banking, internet banking, connectIPS, debit cards and credit cards in Nepal.">
+
+    <meta property="og:url"
+          content="https://shyamkumarkc20.com.np/banking/transaction-limit">
+
+    <meta property="og:site_name"
+          content="Shyam Kumar KC">
+<title>Transaction Limits in Nepal | Mobile Banking, Cards & connectIPS</title>
+ <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Transaction Limits in Nepal",
+      "description": "Transaction limits for mobile banking, internet banking, connectIPS, debit cards and credit cards in Nepal.",
+      "author": {
+        "@type": "Person",
+        "name": "Shyam Kumar KC"
+      },
+      "publisher": {
+        "@type": "Person",
+        "name": "Shyam Kumar KC"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://shyamkumarkc20.com.np/banking/transaction-limit"
+      }
+    }
+    </script>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fb;
+    color: #222;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 30px 15px;
+}
+
+.page-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.page-header h1 {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.page-header p {
+    color: #666;
+    font-size: 16px;
+}
+
+#data-output {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.channel-card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #e5e7eb;
+}
+
+.channel-title {
+    padding: 16px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background: #f1f5f9;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+th {
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+td {
+    font-size: 14px;
+}
+
+.limit {
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.loading,
+.error-message {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.error-message {
+    color: #d32f2f;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px 10px;
+    }
+
+    .page-header h1 {
+        font-size: 24px;
+    }
+
+    #data-output {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .channel-title {
+        font-size: 18px;
+    }
+
+    th,
+    td {
+        padding: 10px;
+        font-size: 13px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="page-header">
+        <h1>Transaction Limits in Nepal</h1>
+        <p>
+            Mobile Banking, Internet Banking, connectIPS, Debit Card and Credit Card transaction limits.
+        </p>
+    </div>
+
+    <div id="data-output">
+        <div class="loading">Loading transaction limits...</div>
+    </div>
+
+</div>
+
+
+<script>
+
+const JSON_URL = "https://shyamkumarkc20.com.np/js/transactionlimit.json";
+
+
+function formatLimit(value, unit) {
+
+    if (value === null || value === undefined) {
+        return "N/A";
+    }
+
+    return unit + " " + Number(value).toLocaleString();
+}
+
+
+fetch(JSON_URL)
+
+.then(function(response) {
+
+    if (!response.ok) {
+        throw new Error(
+            "Unable to load JSON file. HTTP Status: " + response.status
+        );
+    }
+
+    return response.json();
+})
+
+.then(function(data) {
+
+    const output = document.getElementById("data-output");
+
+    let html = "";
+
+
+    data.forEach(function(channel) {
+
+        html += `
+        <div class="channel-card">
+
+            <div class="channel-title">
+                ${channel.channel}
+            </div>
+
+            <div class="table-wrapper">
+
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th>Transaction Type</th>
+                            <th>Per Transaction</th>
+                            <th>Daily Limit</th>
+                            <th>Monthly Limit</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+        `;
+
+
+        channel.transactions.forEach(function(transaction) {
+
+            html += `
+            <tr>
+
+                <td>
+                    ${transaction.type}
+                </td>
+
+                <td class="limit">
+                    ${formatLimit(
+                        transaction.perTransaction,
+                        transaction.unit
+                    )}
+                </td>
+
+                <td class="limit">
+                    ${formatLimit(
+                        transaction.daily,
+                        transaction.unit
+                    )}
+                </td>
+
+                <td class="limit">
+                    ${formatLimit(
+                        transaction.monthly,
+                        transaction.unit
+                    )}
+                </td>
+
+            </tr>
+            `;
+
+        });
+
+
+        html += `
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+        `;
+
+    });
+
+
+    output.innerHTML = html;
+
+})
+
+
+.catch(function(error) {
+
+    console.error("Error:", error);
+
+    document.getElementById("data-output").innerHTML = `
+        <div class="error-message">
+            <strong>Unable to load transaction limits.</strong>
+            <br>
+            Please check the JSON file URL and try again.
+        </div>
+    `;
+
+});
+
+</script>
+<section class="faq">
+
+        <h2>
+            Frequently Asked Questions
+        </h2>
+
+
+        <div class="faq-item">
+
+            <h3>
+                What is a transaction limit?
+            </h3>
+
+            <p>
+                A transaction limit is the maximum amount that
+                can generally be transferred, withdrawn or paid
+                through a particular banking or payment channel
+                during a specified period.
+            </p>
+
+        </div>
+
+
+        <div class="faq-item">
+
+            <h3>
+                Are transaction limits the same for every bank in Nepal?
+            </h3>
+
+            <p>
+                No. Limits may vary depending on the bank,
+                financial institution, card type, payment channel
+                and transaction type.
+            </p>
+
+        </div>
+
+
+        <div class="faq-item">
+
+            <h3>
+                What do daily and per-transaction limits mean?
+            </h3>
+
+            <p>
+                A per-transaction limit is the maximum amount
+                allowed in a single transaction, while a daily
+                limit represents the maximum amount allowed over
+                the applicable day.
+            </p>
+
+        </div>
+
+
+        <div class="faq-item">
+
+            <h3>
+                Can transaction limits change?
+            </h3>
+
+            <p>
+                Yes. Banks and payment service providers may
+                change transaction limits based on their policies,
+                regulatory requirements and service conditions.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         DISCLAIMER
+    ========================== -->
+
+    <div class="disclaimer">
+
+        <strong>Important:</strong>
+        Transaction limits may vary between banks, financial
+        institutions, card issuers and payment channels.
+        Always verify the applicable limit with your bank or
+        payment service provider before making a transaction.
+
+    </div>
+
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a transaction limit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A transaction limit is the maximum amount that can generally be transferred, withdrawn or paid through a particular banking or payment channel within a specified period."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are transaction limits the same for every bank in Nepal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Transaction limits can vary between banks, financial institutions, card types, payment channels and transaction types."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What transaction limits are shown on this page?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This page displays per transaction, daily and monthly transaction limits where the applicable data is available."
+          }
+        }
+      ]
+    }
+    </script>
+
+</body>
+</html>
