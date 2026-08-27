@@ -68,16 +68,16 @@
     "transactions": [
       {
         "type": "ATM Withdrawal",
-        "daily": 25000,
-        "perTransaction": 25000,
-        "monthly": null,
+        "daily": 50000,
+        "perTransaction": 20000,
+        "monthly": 300000,
         "unit": "NPR"
       },
       {
         "type": "POS Purchase",
-        "daily": 100000,
-        "perTransaction": 100000,
-        "monthly": null,
+        "daily": 500000,
+        "perTransaction": 200000,
+        "monthly": 1000000,
         "unit": "NPR"
       },
       {
