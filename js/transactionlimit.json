@@ -1,0 +1,118 @@
+[
+  {
+    "channel": "Mobile Banking",
+    "transactions": [
+      {
+        "type": "Fund Transfer",
+        "daily": null,
+        "perTransaction": null,
+        "monthly": null,
+        "unit": "NPR"
+      },
+      {
+        "type": "QR Payment",
+        "daily": null,
+        "perTransaction": null,
+        "monthly": null,
+        "unit": "NPR"
+      },
+      {
+        "type": "Utility Payment",
+        "daily": null,
+        "perTransaction": null,
+        "monthly": null,
+        "unit": "NPR"
+      }
+    ]
+  },
+  {
+    "channel": "Internet Banking",
+    "transactions": [
+      {
+        "type": "Fund Transfer",
+        "daily": null,
+        "perTransaction": null,
+        "monthly": null,
+        "unit": "NPR"
+      },
+      {
+        "type": "Bill Payment",
+        "daily": null,
+        "perTransaction": null,
+        "monthly": null,
+        "unit": "NPR"
+      }
+    ]
+  },
+  {
+    "channel": "connectIPS",
+    "transactions": [
+      {
+        "type": "Bank Transfer",
+        "daily": null,
+        "perTransaction": null,
+        "monthly": null,
+        "unit": "NPR"
+      },
+      {
+        "type": "Government Payment",
+        "daily": null,
+        "perTransaction": null,
+        "monthly": null,
+        "unit": "NPR"
+      }
+    ]
+  },
+  {
+    "channel": "Debit Card",
+    "transactions": [
+      {
+        "type": "ATM Withdrawal",
+        "daily": 25000,
+        "perTransaction": 25000,
+        "monthly": null,
+        "unit": "NPR"
+      },
+      {
+        "type": "POS Purchase",
+        "daily": 100000,
+        "perTransaction": 100000,
+        "monthly": null,
+        "unit": "NPR"
+      },
+      {
+        "type": "Online/E-commerce",
+        "daily": null,
+        "perTransaction": null,
+        "monthly": null,
+        "unit": "NPR"
+      }
+    ]
+  },
+  {
+    "channel": "Credit Card",
+    "transactions": [
+      {
+        "type": "POS Purchase",
+        "daily": null,
+        "perTransaction": null,
+        "monthly": null,
+        "unit": "NPR"
+      },
+      {
+        "type": "Online/E-commerce",
+        "daily": null,
+        "perTransaction": null,
+        "monthly": null,
+        "unit": "NPR"
+      },
+      {
+        "type": "ATM Cash Withdrawal",
+        "daily": null,
+        "perTransaction": null,
+        "monthly": null,
+        "unit": "NPR"
+      }
+    ]
+  }
+]
