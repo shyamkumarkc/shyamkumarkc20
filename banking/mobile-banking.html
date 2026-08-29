@@ -1,121 +1,662 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Mobile Banking in Nepal: Services, Features, Charges & Benefits</title>
 
-    <title>Mobile Banking in Nepal: Services, Features and Benefits</title>
+<meta name="description" content="Learn about mobile banking in Nepal, including services, features, benefits, fund transfers, QR payments, bill payments, fixed deposits, security and mobile banking apps of commercial banks.">
 
-    <meta name="description" content="Learn about mobile banking in Nepal, its services, features and benefits, including account balance, fund transfer, bill payment, QR payments, fixed deposits and more.">
+<meta name="keywords" content="mobile banking in Nepal, mobile banking, mobile banking services, mobile banking features, mobile banking benefits, mobile banking apps Nepal, mobile banking charges, digital banking Nepal">
 
-    <meta name="keywords" content="mobile banking, mobile banking in Nepal, mobile banking services, mobile banking features, mobile banking benefits, digital banking Nepal">
+<meta name="author" content="Shyam Kumar KC">
+<meta name="robots" content="index, follow, max-image-preview:large">
 
 <link rel="canonical" href="https://shyamkumarkc20.com.np/banking/mobile-banking">
 <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
-</script>
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="Mobile Banking in Nepal: Services, Features, Charges & Benefits">
+<meta property="og:description" content="Learn about mobile banking in Nepal, its services, features, benefits, security and mobile banking apps offered by commercial banks.">
+<meta property="og:url" content="https://shyamkumarkc20.com.np/banking/mobile-banking">
+<meta property="og:site_name" content="Shyam Kumar KC">
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+
+<!-- Load Header -->
 <script>
-$(function(){
-$('#header').load('/assets/header.html');
-});
+    $(function () {
+        $('#header').load('/assets/header.html');
+    });
 </script>
-    
-<body>
-<div id ="header"></div>
- <main>
 
-    <h1>Mobile Banking in Nepal: Services, Features and Benefits</h1>
-
-    <p class="intro">
-        <strong>Mobile banking</strong> is a financial service provided by banks and other
-        financial institutions that allows customers to conduct financial transactions
-        remotely using a mobile device such as a smartphone or tablet.
-    </p>
-
-    <p>
-        Financial institutions generally provide mobile banking services through their own mobile applications, which are usually available 24 hours a day, 7 days
-        a week. Transaction limits and transaction amounts may apply according to the
-        rules and directives issued by the central bank and the respective financial
-        institution.
-    </p>
-
-    <p>
-        Through a mobile banking application, customers can generally check their account
-        balance, obtain account statements, transfer funds, make electronic bill payments,
-        make QR payments and access various other banking services. The services available
-        through mobile banking may differ from one financial institution to another.
-    </p>
-
-    <h2>General Services Provided Through Mobile Banking</h2>
-
-    <p>
-        The following are some of the common services that banks and financial institutions
-        provide through their mobile banking applications:
-    </p>
-
-    <ol>
-        <li>Check account balance.</li>
-        <li>View and download account statements.</li>
-        <li>Electronic fund transfer and bill payments.</li>
-        <li>QR payments and merchant payments.</li>
-        <li>Apply for fixed deposits.</li>
-        <li>Apply for loans against fixed deposits, where available.</li>
-        <li>Pay utility bills and other digital services.</li>
-        <li>Transfer funds to other bank accounts.</li>
-    </ol>
-
-    <h2>Benefits of Mobile Banking</h2>
-
-    <p>
-        Mobile banking provides convenient access to banking services without requiring
-        customers to visit a bank branch. It can save time, provide access to banking
-        services outside regular branch hours and make everyday financial transactions
-        easier.
-    </p>
-<h3> List of Banks and their Mobile Banking App</h3>
-<table border="black" >
-<thead>
-<tr>
-<th>S.No.</th>
-<th>Name</th>
-<th>Logo</th>
-<th>App Name</th>
-</tr>
-</thead>
-      <tbody id="data-output">
-         <!-- Prodcuts from javascript file in here. -->
-      </tbody>
-   </table> 
-   <script>
-   fetch("https://shyamkumarkc20.com.np/js/commercialbanks.json")
-.then(function(response){
-   return response.json();
-})
-.then(function(products){
-   let placeholder = document.querySelector("#data-output");
-   let out = "";
-   for(let product of products){
-      out += `
-         <tr>
-            
-            <td>${product.SNO}</td>
-             <td>${product.Name}</td>
-             <td><img src="${product.IMG}" width="50" height="40"</td>
-             <td>${product.app}</td>
-             </tr>
-      `;
-   }
- 
-   placeholder.innerHTML = out;
-});
-   </script>
-
-<script>
-$(function(){
-$('#footer').load('/assets/footer.html');
-});
+<!-- Article Structured Data -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Mobile Banking in Nepal: Services, Features, Charges & Benefits",
+    "description": "Learn about mobile banking in Nepal, including services, features, benefits, fund transfers, QR payments, bill payments, fixed deposits and security.",
+    "url": "https://shyamkumarkc20.com.np/banking/mobile-banking",
+    "author": {
+        "@type": "Person",
+        "name": "Shyam Kumar KC"
+    },
+    "publisher": {
+        "@type": "Person",
+        "name": "Shyam Kumar KC"
+    },
+    "inLanguage": "en-NP"
+}
 </script>
-</main>
-</body>
-  <div id ="footer"></div>
+
+<!-- Breadcrumb Structured Data -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://shyamkumarkc20.com.np/"
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Banking",
+            "item": "https://shyamkumarkc20.com.np/banking/"
+        },
+        {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Mobile Banking",
+            "item": "https://shyamkumarkc20.com.np/banking/mobile-banking"
+        }
+    ]
+}
+</script>
+
+<!-- FAQ Structured Data -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "What is mobile banking?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Mobile banking is a banking service that allows customers to access and perform selected banking transactions using a mobile phone or other mobile device."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What services are available through mobile banking?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Depending on the bank, mobile banking may provide account balance inquiry, statements, fund transfers, bill payments, QR payments, mobile recharge, fixed deposit services and other digital banking services."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Is mobile banking available 24 hours a day?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Mobile banking applications generally allow customers to access many services outside normal branch hours. However, availability may depend on the service, bank systems and maintenance schedules."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Is mobile banking the same as internet banking?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Mobile banking and internet banking both provide digital banking services, but mobile banking is generally accessed through a mobile application or mobile device, while internet banking is commonly accessed through a web browser."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Is mobile banking safe?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Mobile banking can be used securely when customers use official banking applications, protect passwords and transaction PINs, never share OTPs and follow the security instructions provided by their bank."
+            }
+        }
+    ]
+}
+</script>
+
+</head><body><!-- Header --><div id="header"></div><main><article>
+
+    <header>
+        <h1>Mobile Banking in Nepal: Services, Features, Charges & Benefits</h1>
+
+        <p class="intro">
+            <strong>Mobile banking in Nepal</strong> allows bank customers to access
+            selected banking services and perform financial transactions using a
+            smartphone or other mobile device. Banks generally provide these services
+            through their official mobile banking applications.
+        </p>
+
+        <p>
+            Mobile banking has made everyday banking more convenient by allowing
+            customers to check account balances, transfer funds, pay bills, make QR
+            payments and access other banking services without visiting a bank branch.
+            The services, transaction limits and applicable charges may vary between
+            banks and according to the type of transaction.
+        </p>
+    </header>
+
+    <!-- Quick Navigation -->
+    <nav aria-label="Table of contents">
+        <h2>On This Page</h2>
+
+        <ul>
+            <li><a href="#what-is-mobile-banking">What Is Mobile Banking?</a></li>
+            <li><a href="#mobile-banking-nepal">Mobile Banking in Nepal</a></li>
+            <li><a href="#services">Mobile Banking Services</a></li>
+            <li><a href="#features">Features of Mobile Banking</a></li>
+            <li><a href="#benefits">Benefits of Mobile Banking</a></li>
+            <li><a href="#activation">How to Activate Mobile Banking</a></li>
+            <li><a href="#security">Mobile Banking Security Tips</a></li>
+            <li><a href="#comparison">Mobile Banking vs Internet Banking</a></li>
+            <li><a href="#apps">Mobile Banking Apps of Commercial Banks</a></li>
+            <li><a href="#faq">Frequently Asked Questions</a></li>
+        </ul>
+    </nav>
+
+    <section id="what-is-mobile-banking">
+        <h2>What Is Mobile Banking?</h2>
+
+        <p>
+            Mobile banking is a digital banking service that enables customers to
+            access their bank accounts and perform selected banking transactions
+            through a mobile phone or other supported mobile device.
+        </p>
+
+        <p>
+            Banks generally provide mobile banking through an official mobile
+            application. Customers can use the application to access banking
+            services without physically visiting a branch, subject to the bank's
+            terms, transaction limits and service availability.
+        </p>
+    </section>
+
+    <section id="mobile-banking-nepal">
+        <h2>Mobile Banking in Nepal</h2>
+
+        <p>
+            Mobile banking is an important part of digital banking in Nepal. Commercial
+            banks and other financial institutions provide mobile applications that
+            allow customers to perform a range of banking and payment-related
+            activities using smartphones.
+        </p>
+
+        <p>
+            The exact services available through mobile banking depend on the
+            respective financial institution. Some applications provide basic
+            account information and fund transfers, while others offer additional
+            services such as QR payments, utility bill payments, mobile recharge,
+            fixed deposit services and card-related features.
+        </p>
+
+        <p>
+            For information about commercial banks in Nepal, you can also visit our
+            <a href="/banking/commercialbanks">Commercial Banks in Nepal</a> guide.
+        </p>
+    </section>
+
+    <section id="services">
+        <h2>Mobile Banking Services</h2>
+
+        <p>
+            Common services available through mobile banking applications may include:
+        </p>
+
+        <ol>
+            <li>Account balance inquiry</li>
+            <li>Account statement and transaction history</li>
+            <li>Fund transfer</li>
+            <li>Interbank transfer</li>
+            <li>QR payments</li>
+            <li>Merchant payments</li>
+            <li>Utility bill payments</li>
+            <li>Mobile recharge</li>
+            <li>Internet and other digital service payments</li>
+            <li>Fixed deposit-related services</li>
+            <li>Loan-related services, where available</li>
+            <li>Card-related services, where available</li>
+        </ol>
+
+        <p>
+            <strong>Note:</strong> Not every bank provides all of these services.
+            Customers should check the official mobile banking application or website
+            of their respective bank for the latest available services.
+        </p>
+    </section>
+
+    <section id="features">
+        <h2>Features of Mobile Banking</h2>
+
+        <div class="table-responsive">
+            <table>
+                <caption>Common mobile banking features</caption>
+
+                <thead>
+                    <tr>
+                        <th scope="col">Service</th>
+                        <th scope="col">Description</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Balance Inquiry</td>
+                        <td>Check the available balance of a bank account.</td>
+                    </tr>
+
+                    <tr>
+                        <td>Account Statement</td>
+                        <td>View transaction history and account statements.</td>
+                    </tr>
+
+                    <tr>
+                        <td>Fund Transfer</td>
+                        <td>Transfer money to supported accounts.</td>
+                    </tr>
+
+                    <tr>
+                        <td>QR Payment</td>
+                        <td>Make payments to supported merchants using QR codes.</td>
+                    </tr>
+
+                    <tr>
+                        <td>Bill Payment</td>
+                        <td>Pay supported utility bills and digital services.</td>
+                    </tr>
+
+                    <tr>
+                        <td>Mobile Recharge</td>
+                        <td>Recharge supported mobile numbers and services.</td>
+                    </tr>
+
+                    <tr>
+                        <td>Fixed Deposit</td>
+                        <td>Access fixed deposit-related services where supported.</td>
+                    </tr>
+
+                    <tr>
+                        <td>Card Services</td>
+                        <td>Access selected debit or card-related services where available.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="benefits">
+        <h2>Benefits of Mobile Banking</h2>
+
+        <p>
+            Mobile banking provides convenient access to many banking services without
+            requiring customers to visit a branch for every transaction.
+        </p>
+
+        <h3>1. Convenient Banking</h3>
+        <p>
+            Customers can access supported banking services using a mobile device,
+            reducing the need for routine branch visits.
+        </p>
+
+        <h3>2. Faster Transactions</h3>
+        <p>
+            Fund transfers, payments and other supported transactions can generally
+            be completed digitally.
+        </p>
+
+        <h3>3. Easy Access to Account Information</h3>
+        <p>
+            Customers can check balances and transaction information through their
+            banking application.
+        </p>
+
+        <h3>4. Digital Payments</h3>
+        <p>
+            Mobile banking applications can support QR payments, bill payments,
+            mobile recharge and other digital payment services.
+        </p>
+
+        <h3>5. Reduced Branch Visits</h3>
+        <p>
+            Many routine banking activities can be performed digitally, potentially
+            reducing the need to visit a physical branch.
+        </p>
+    </section>
+
+    <section id="activation">
+        <h2>How to Activate Mobile Banking in Nepal</h2>
+
+        <p>
+            The mobile banking registration and activation process differs from one
+            bank to another. A general process may include:
+        </p>
+
+        <ol>
+            <li>Maintain an eligible account with the bank.</li>
+            <li>Register for the bank's mobile banking service.</li>
+            <li>Provide the required customer information.</li>
+            <li>Install the official mobile banking application.</li>
+            <li>Complete the activation or verification process.</li>
+            <li>Create the required login credentials or transaction PIN.</li>
+            <li>Start using the services available through the application.</li>
+        </ol>
+
+        <p>
+            Customers should follow the registration instructions provided by their
+            respective bank because the exact process may vary.
+        </p>
+    </section>
+
+    <section>
+        <h2>Mobile Banking Charges and Transaction Limits</h2>
+
+        <p>
+            Mobile banking charges and transaction limits can vary according to the
+            bank, transaction type and applicable rules. Some services may be free
+            while charges may apply to particular transactions or services.
+        </p>
+
+        <p>
+            Because banking fees and transaction limits can change, customers should
+            check the latest schedule of charges and transaction limits published by
+            their respective bank before making a transaction.
+        </p>
+
+        <p>
+            For related banking information, see our
+            <a href="/banking/commercialbanks">Commercial Banks in Nepal</a>
+            page.
+        </p>
+    </section>
+
+    <section id="security">
+        <h2>Mobile Banking Security Tips</h2>
+
+        <p>
+            Customers should follow basic security practices when using mobile banking
+            applications.
+        </p>
+
+        <ul>
+            <li>Use the official mobile banking application provided by your bank.</li>
+            <li>Never share your OTP, password, MPIN or transaction PIN.</li>
+            <li>Do not install banking applications from unknown sources.</li>
+            <li>Keep your smartphone's operating system and banking application updated.</li>
+            <li>Use a strong screen lock on your mobile device.</li>
+            <li>Avoid clicking suspicious banking links received through unknown messages.</li>
+            <li>Contact your bank immediately if you notice an unauthorized transaction.</li>
+            <li>Do not provide confidential banking information to unknown callers.</li>
+        </ul>
+    </section>
+
+    <section id="comparison">
+        <h2>Mobile Banking vs Internet Banking</h2>
+
+        <div class="table-responsive">
+            <table>
+                <caption>Comparison between mobile banking and internet banking</caption>
+
+                <thead>
+                    <tr>
+                        <th scope="col">Feature</th>
+                        <th scope="col">Mobile Banking</th>
+                        <th scope="col">Internet Banking</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Access</td>
+                        <td>Usually through a mobile application</td>
+                        <td>Usually through a web browser</td>
+                    </tr>
+
+                    <tr>
+                        <td>Device</td>
+                        <td>Smartphone or supported mobile device</td>
+                        <td>Computer, laptop, tablet or supported mobile device</td>
+                    </tr>
+
+                    <tr>
+                        <td>Fund Transfer</td>
+                        <td>Available depending on the bank</td>
+                        <td>Available depending on the bank</td>
+                    </tr>
+
+                    <tr>
+                        <td>Bill Payment</td>
+                        <td>Commonly available</td>
+                        <td>Commonly available</td>
+                    </tr>
+
+                    <tr>
+                        <td>QR Payment</td>
+                        <td>Commonly supported by many banking applications</td>
+                        <td>Availability depends on the bank</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <p>
+            Both mobile banking and internet banking provide digital access to
+            banking services. The available features depend on the respective bank.
+        </p>
+    </section>
+
+    <section id="apps">
+        <h2>Mobile Banking Apps of Commercial Banks in Nepal</h2>
+
+        <p>
+            The table below displays commercial banks and their mobile banking
+            application names using data from the website's external JSON dataset.
+            The information may change when banks update their applications or
+            services.
+        </p>
+
+        <div class="table-responsive">
+            <table>
+                <caption>Commercial banks and their mobile banking applications</caption>
+
+                <thead>
+                    <tr>
+                        <th scope="col">S.N.</th>
+                        <th scope="col">Bank Name</th>
+                        <th scope="col">Logo</th>
+                        <th scope="col">Mobile Banking App</th>
+                    </tr>
+                </thead>
+
+                <tbody id="data-output">
+                    <tr>
+                        <td colspan="4">Loading bank information...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <p id="data-error" style="display:none;">
+            Bank information could not be loaded at the moment. Please try again later.
+        </p>
+    </section>
+
+    <section id="faq">
+        <h2>Frequently Asked Questions About Mobile Banking</h2>
+
+        <h3>What is mobile banking?</h3>
+        <p>
+            Mobile banking is a digital banking service that allows customers to
+            access and perform selected banking transactions through a mobile device.
+        </p>
+
+        <h3>What services can be used through mobile banking?</h3>
+        <p>
+            Depending on the bank, customers may be able to check account balances,
+            view statements, transfer funds, pay bills, make QR payments, recharge
+            mobile phones and access other banking services.
+        </p>
+
+        <h3>Is mobile banking available 24 hours a day?</h3>
+        <p>
+            Many mobile banking services can be accessed outside normal branch
+            operating hours. However, particular services may be temporarily
+            unavailable because of maintenance, system issues or other restrictions.
+        </p>
+
+        <h3>Is mobile banking the same as internet banking?</h3>
+        <p>
+            No. Both provide digital banking services, but mobile banking is generally
+            designed around a mobile application, while internet banking is commonly
+            accessed through a web browser.
+        </p>
+
+        <h3>Is mobile banking safe?</h3>
+        <p>
+            Mobile banking can be used securely when customers follow their bank's
+            security guidance, use official applications and protect passwords,
+            PINs and OTPs.
+        </p>
+
+        <h3>Do all banks have the same mobile banking services?</h3>
+        <p>
+            No. Mobile banking features, charges, transaction limits and supported
+            services can differ between banks.
+        </p>
+    </section>
+
+    <section>
+        <h2>Conclusion</h2>
+
+        <p>
+            Mobile banking has made banking services more convenient by allowing
+            customers to access many routine services through a mobile device.
+            Account information, fund transfers, QR payments, bill payments and
+            other digital services can be available through a bank's mobile
+            application.
+        </p>
+
+        <p>
+            However, services, transaction limits and charges vary between financial
+            institutions. Customers should always check the latest information from
+            their respective bank before using a particular mobile banking service.
+        </p>
+    </section>
+
+    <footer>
+        <p>
+            <strong>Last updated:</strong> August 29, 2026
+        </p>
+
+        <p>
+            <small>
+                This article is provided for general informational purposes.
+                Banking services, charges, transaction limits and features may change.
+                Please verify current information with the respective financial
+                institution before making financial decisions.
+            </small>
+        </p>
+    </footer>
+
+</article>
+
+</main><!-- Footer --><div id="footer"></div><!-- Load Footer --><script>
+    $(function () {
+        $('#footer').load('/assets/footer.html');
+    });
+</script><!-- External JSON Data --><script>
+fetch("https://shyamkumarkc20.com.np/js/commercialbanks.json")
+    .then(function(response) {
+
+        if (!response.ok) {
+            throw new Error("Unable to load bank data.");
+        }
+
+        return response.json();
+    })
+    .then(function(products) {
+
+        const placeholder = document.querySelector("#data-output");
+
+        if (!Array.isArray(products) || products.length === 0) {
+            placeholder.innerHTML = `
+                <tr>
+                    <td colspan="4">No bank information available.</td>
+                </tr>
+            `;
+            return;
+        }
+
+        let out = "";
+
+        for (let product of products) {
+
+            const sno = product.SNO ?? "";
+            const name = product.Name ?? "";
+            const app = product.app ?? "";
+            const image = product.IMG ?? "";
+
+            out += `
+                <tr>
+                    <td>${sno}</td>
+
+                    <td>
+                        <strong>${name}</strong>
+                    </td>
+
+                    <td>
+                        ${
+                            image
+                            ? `<img
+                                src="${image}"
+                                width="50"
+                                height="40"
+                                loading="lazy"
+                                decoding="async"
+                                alt="${name} logo"
+                            >`
+                            : "N/A"
+                        }
+                    </td>
+
+                    <td>${app}</td>
+                </tr>
+            `;
+        }
+
+        placeholder.innerHTML = out;
+    })
+    .catch(function(error) {
+
+        console.error("Mobile banking JSON error:", error);
+
+        const placeholder = document.querySelector("#data-output");
+        const errorMessage = document.querySelector("#data-error");
+
+        placeholder.innerHTML = `
+            <tr>
+                <td colspan="4">
+                    Bank information could not be loaded.
+                </td>
+            </tr>
+        `;
+
+        if (errorMessage) {
+            errorMessage.style.display = "block";
+        }
+    });
+</script></body>
 </html>
