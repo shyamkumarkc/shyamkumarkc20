@@ -1,0 +1,426 @@
+{
+  "title": "Industrial Areas in Nepal",
+  "description": "Details of industrial areas and industrial districts in Nepal, including location, province, district, area, status, management and major industrial activities.",
+  "country": "Nepal",
+  "managedBy": "Industrial Area Management Limited",
+  "totalEstablishedAreas": 10,
+  "totalAreasIncludingProjects": 14,
+  "lastUpdated": "2026-08-31",
+  "sourceNote": "Area, industry and employment statistics may change over time. Verify current figures with Industrial Area Management Limited and relevant government publications.",
+  "industrialAreas": [
+    {
+      "id": "balaju",
+      "name": "Balaju Industrial Area",
+      "shortName": "Balaju Industrial Area",
+      "location": "Balaju, Kathmandu",
+      "district": "Kathmandu",
+      "province": "Bagmati Province",
+      "provinceNumber": 3,
+      "status": "Operational",
+      "type": "Industrial Area",
+      "area": {
+        "value": 34.09,
+        "unit": "hectare"
+      },
+      "establishedBS": "2016",
+      "supportCountry": "United States",
+      "majorIndustries": [
+        "Manufacturing",
+        "Food processing",
+        "Engineering",
+        "Consumer goods",
+        "Service industries"
+      ],
+      "facilities": [
+        "Industrial land",
+        "Industrial buildings",
+        "Road access",
+        "Electricity",
+        "Water supply",
+        "Drainage",
+        "Security"
+      ],
+      "statistics": {
+        "industriesEstablished": 131,
+        "industriesInOperation": 97
+      },
+      "remarks": "One of the oldest and major industrial areas in Nepal."
+    },
+    {
+      "id": "patan",
+      "name": "Patan Industrial Area",
+      "shortName": "Patan Industrial Area",
+      "location": "Lalitpur",
+      "district": "Lalitpur",
+      "province": "Bagmati Province",
+      "provinceNumber": 3,
+      "status": "Operational",
+      "type": "Industrial Area",
+      "area": {
+        "value": 14.91,
+        "unit": "hectare"
+      },
+      "establishedBS": "2020",
+      "supportCountry": "India",
+      "majorIndustries": [
+        "Handicrafts",
+        "Plastic products",
+        "Dairy products",
+        "Sweets",
+        "Furniture",
+        "Water processing",
+        "Iron and steel"
+      ],
+      "facilities": [
+        "Industrial land",
+        "Industrial buildings",
+        "Electricity",
+        "Water supply",
+        "Road access",
+        "Drainage"
+      ],
+      "statistics": {
+        "industriesEstablished": 116,
+        "industriesInOperation": 113
+      },
+      "remarks": "Located in the Kathmandu Valley and known for manufacturing and handicraft-related industries."
+    },
+    {
+      "id": "hetauda",
+      "name": "Hetauda Industrial Area",
+      "shortName": "Hetauda Industrial Area",
+      "location": "Hetauda, Makwanpur",
+      "district": "Makwanpur",
+      "province": "Bagmati Province",
+      "provinceNumber": 3,
+      "status": "Operational",
+      "type": "Industrial Area",
+      "area": {
+        "value": 143.92,
+        "unit": "hectare"
+      },
+      "establishedBS": "2020",
+      "supportCountry": "United States",
+      "majorIndustries": [
+        "Manufacturing",
+        "Food processing",
+        "Construction materials",
+        "Engineering",
+        "Consumer products"
+      ],
+      "facilities": [
+        "Industrial land",
+        "Industrial buildings",
+        "Electricity",
+        "Water supply",
+        "Road network",
+        "Drainage",
+        "Security"
+      ],
+      "statistics": {
+        "industriesEstablished": 100,
+        "industriesInOperation": 63
+      },
+      "remarks": "One of Nepal's largest established industrial areas."
+    },
+    {
+      "id": "dharan",
+      "name": "Dharan Industrial Area",
+      "shortName": "Dharan Industrial Area",
+      "location": "Dharan, Sunsari",
+      "district": "Sunsari",
+      "province": "Koshi Province",
+      "provinceNumber": 1,
+      "status": "Operational",
+      "type": "Industrial Area",
+      "area": {
+        "value": 10.28,
+        "unit": "hectare"
+      },
+      "establishedBS": "2029",
+      "supportCountry": "India",
+      "majorIndustries": [
+        "Plastic products",
+        "Metal products",
+        "Brass products",
+        "Aluminium products",
+        "Food products",
+        "Rice processing",
+        "Animal feed",
+        "Pharmaceuticals"
+      ],
+      "facilities": [
+        "Industrial land",
+        "Electricity",
+        "Water supply",
+        "Road access",
+        "Drainage"
+      ],
+      "statistics": {
+        "industriesEstablished": 37,
+        "industriesInOperation": 30
+      },
+      "remarks": "Important industrial area in eastern Nepal."
+    },
+    {
+      "id": "nepalgunj",
+      "name": "Nepalgunj Industrial Area",
+      "shortName": "Nepalgunj Industrial Area",
+      "location": "Nepalgunj, Banke",
+      "district": "Banke",
+      "province": "Lumbini Province",
+      "provinceNumber": 5,
+      "status": "Operational",
+      "type": "Industrial Area",
+      "area": {
+        "value": 11.85,
+        "unit": "hectare"
+      },
+      "establishedBS": "2030",
+      "supportCountry": "India",
+      "majorIndustries": [
+        "Manufacturing",
+        "Food processing",
+        "Consumer products",
+        "Engineering"
+      ],
+      "facilities": [
+        "Industrial land",
+        "Industrial buildings",
+        "Electricity",
+        "Water supply",
+        "Road access"
+      ],
+      "statistics": {
+        "industriesEstablished": 35,
+        "industriesInOperation": 30
+      },
+      "remarks": "A major industrial area serving western Nepal."
+    },
+    {
+      "id": "pokhara",
+      "name": "Pokhara Industrial Area",
+      "shortName": "Pokhara Industrial Area",
+      "location": "Pokhara, Kaski",
+      "district": "Kaski",
+      "province": "Gandaki Province",
+      "provinceNumber": 4,
+      "status": "Operational",
+      "type": "Industrial Area",
+      "area": {
+        "value": 24.01,
+        "unit": "hectare"
+      },
+      "establishedBS": "2031",
+      "supportCountry": "Nepal",
+      "majorIndustries": [
+        "Food processing",
+        "Textiles",
+        "Footwear",
+        "Construction materials",
+        "Electrical products",
+        "Plastic recycling",
+        "Healthcare products"
+      ],
+      "facilities": [
+        "Industrial land",
+        "Industrial buildings",
+        "Electricity",
+        "Water supply",
+        "Road access",
+        "Drainage"
+      ],
+      "statistics": {
+        "industriesEstablished": 86,
+        "industriesInOperation": 76
+      },
+      "remarks": "Major industrial area in Gandaki Province."
+    },
+    {
+      "id": "butwal",
+      "name": "Butwal Industrial Area",
+      "shortName": "Butwal Industrial Area",
+      "location": "Butwal, Rupandehi",
+      "district": "Rupandehi",
+      "province": "Lumbini Province",
+      "provinceNumber": 5,
+      "status": "Operational",
+      "type": "Industrial Area",
+      "area": {
+        "value": 22.08,
+        "unit": "hectare"
+      },
+      "establishedBS": "2032",
+      "supportCountry": "Nepal",
+      "majorIndustries": [
+        "Iron-based industries",
+        "Construction materials",
+        "Manufacturing",
+        "Engineering"
+      ],
+      "facilities": [
+        "Industrial land",
+        "Industrial buildings",
+        "Electricity",
+        "Water supply",
+        "Road access",
+        "Drainage"
+      ],
+      "statistics": {
+        "industriesEstablished": 72,
+        "industriesInOperation": null
+      },
+      "remarks": "Important industrial area in Lumbini Province."
+    },
+    {
+      "id": "bhaktapur",
+      "name": "Bhaktapur Industrial Area",
+      "shortName": "Bhaktapur Industrial Area",
+      "location": "Bhaktapur",
+      "district": "Bhaktapur",
+      "province": "Bagmati Province",
+      "provinceNumber": 3,
+      "status": "Operational",
+      "type": "Industrial Area",
+      "area": {
+        "value": 3.63,
+        "unit": "hectare"
+      },
+      "establishedBS": "2036",
+      "supportCountry": "Germany",
+      "majorIndustries": [
+        "Manufacturing",
+        "Small and medium industries",
+        "Consumer products",
+        "Engineering"
+      ],
+      "facilities": [
+        "Industrial land",
+        "Electricity",
+        "Water supply",
+        "Road access"
+      ],
+      "statistics": {
+        "industriesEstablished": null,
+        "industriesInOperation": null
+      },
+      "remarks": "Industrial area located within the Kathmandu Valley."
+    },
+    {
+      "id": "birendranagar",
+      "name": "Birendranagar Industrial Area",
+      "shortName": "Birendranagar Industrial Area",
+      "location": "Birendranagar, Surkhet",
+      "district": "Surkhet",
+      "province": "Karnali Province",
+      "provinceNumber": 6,
+      "status": "Operational",
+      "type": "Industrial Area",
+      "area": {
+        "value": 4.58,
+        "unit": "hectare"
+      },
+      "establishedBS": "2038",
+      "supportCountry": "Netherlands",
+      "majorIndustries": [
+        "Manufacturing",
+        "Food processing",
+        "Consumer products",
+        "Small industries"
+      ],
+      "facilities": [
+        "Industrial land",
+        "Electricity",
+        "Water supply",
+        "Road access"
+      ],
+      "statistics": {
+        "industriesEstablished": null,
+        "industriesInOperation": null
+      },
+      "remarks": "Important industrial area serving Karnali Province."
+    },
+    {
+      "id": "gajendra-narayan-singh",
+      "name": "Gajendra Narayan Singh Industrial Area",
+      "shortName": "Gajendra Narayan Singh Industrial Area",
+      "location": "Rajbiraj, Saptari",
+      "district": "Saptari",
+      "province": "Madhesh Province",
+      "provinceNumber": 2,
+      "status": "Operational",
+      "type": "Industrial Area",
+      "area": {
+        "value": 14.96,
+        "unit": "hectare"
+      },
+      "establishedBS": "2040",
+      "supportCountry": "India",
+      "majorIndustries": [
+        "Manufacturing",
+        "Food processing",
+        "Small industries"
+      ],
+      "facilities": [
+        "Industrial land",
+        "Electricity",
+        "Water supply",
+        "Road access"
+      ],
+      "statistics": {
+        "industriesEstablished": 9,
+        "industriesInOperation": null
+      },
+      "remarks": "Industrial area located in Rajbiraj, Saptari."
+    }
+  ],
+  "projectAreas": [
+    {
+      "id": "naubasta",
+      "name": "Naubasta Industrial Area",
+      "location": "Naubasta, Banke",
+      "district": "Banke",
+      "province": "Lumbini Province",
+      "status": "Project",
+      "type": "Industrial Area Project"
+    },
+    {
+      "id": "mayurdhap",
+      "name": "Mayurdhap Industrial Area",
+      "location": "Makwanpur",
+      "district": "Makwanpur",
+      "province": "Bagmati Province",
+      "status": "Project",
+      "type": "Industrial Area Project"
+    },
+    {
+      "id": "motipur",
+      "name": "Motipur Industrial Area",
+      "location": "Rupandehi",
+      "district": "Rupandehi",
+      "province": "Lumbini Province",
+      "status": "Project",
+      "type": "Industrial Area Project"
+    },
+    {
+      "id": "daiji-chhela",
+      "name": "Daiji-Chhela Industrial Area",
+      "location": "Kanchanpur",
+      "district": "Kanchanpur",
+      "province": "Sudurpashchim Province",
+      "status": "Project",
+      "type": "Industrial Area Project"
+    }
+  ],
+  "management": {
+    "organization": "Industrial Area Management Limited",
+    "shortName": "IDML",
+    "ownership": "Government of Nepal",
+    "role": [
+      "Management of industrial areas",
+      "Industrial land leasing",
+      "Industrial infrastructure management",
+      "Development and operation of industrial areas"
+    ]
+  }
+}
