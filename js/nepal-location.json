@@ -5,7 +5,7 @@
       "districts":[
         {
           "name": "Kathmandu",
-          "municipalities":["Kathmandu", "Kirtipur", "Budhanilkantha", "Chandragiri", "Dakshinkali", Gokarneshwar", "Kageshwari Manohara", "Nagarjun", "Shankharapur", "Tarakeshwar", "Tokha"]
+          "municipalities":["Kathmandu", "Kirtipur", "Budhanilkantha", "Chandragiri", "Dakshinkali", "Gokarneshwar", "Kageshwari Manohara", "Nagarjun", "Shankharapur", "Tarakeshwar", "Tokha"]
         },
         {
           "name": "Bhaktapur",
