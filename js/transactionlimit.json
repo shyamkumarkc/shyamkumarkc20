@@ -4,9 +4,9 @@
     "transactions": [
       {
         "type": "Fund Transfer",
-        "daily": null,
-        "perTransaction": null,
-        "monthly": null,
+        "daily": 300000,
+        "perTransaction": 100000,
+        "monthly": 1000000,
         "unit": "NPR"
       },
       {
