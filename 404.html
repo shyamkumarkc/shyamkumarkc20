@@ -97,9 +97,18 @@
             }
         }
     </style>
-</head>
+<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+</script>
+<script>
+$(function(){
+$('#header').load('/assets/header.html');
+});
+</script>
 
+</head>
 <body>
+<div id ="header"></div>
 
     <main class="error-container">
 
@@ -116,13 +125,15 @@
             ← Back to Homepage
         </a>
 
-        <div class="links">
-            <a href="/banking/">Banking</a>
-            <a href="/tools/">Tools</a>
-            <a href="/nepal/">Nepal</a>
-        </div>
+        
 
     </main>
+<script>
+$(function(){
+$('#footer').load('/assets/footer.html');
+});
+</script>
 
 </body>
+  <div id ="footer"></div>
 </html>
