@@ -1,58 +1,606 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<title>Securities Board of Nepal (SEBON)</title>
-<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
-</script>
-<script>
-$(function(){
-$('#header').load('/assets/header.html');
-$('#stockmarket').load('/assets/stockmarket.html');
-$('#ipowidget').load('/assets/ipowidget.html');
-});
-</script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Securities Board of Nepal (SEBON) | Functions, Departments and Role</title>
+
+    <meta name="description"
+        content="Learn about the Securities Board of Nepal (SEBON), its functions, departments, responsibilities and role in regulating Nepal's securities and capital market.">
+
+    <link rel="canonical"
+        href="https://shyamkumarkc20.com.np/sebon">
+
+    <link rel="shortcut icon"
+        type="image/jpg"
+        href="/brp.jpg">
+
+    <link rel="stylesheet"
+        href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous">
+    </script>
+
+    <style>
+
+        /* =========================
+           STOCK MARKET / ALSO READ
+        ========================= */
+
+        .smartHub {
+            margin: 25px auto;
+            padding: 0 14px;
+            max-width: 1900px;
+            overflow: hidden;
+        }
+
+        .hub-title {
+            text-align: center;
+            font-size: 28px;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+
+        .hub-grid {
+            display: grid;
+            grid-template-columns:
+                repeat(auto-fit, minmax(260px, 1fr));
+            gap: 20px;
+        }
+
+        .card-link {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .card {
+            background: #fff;
+            border-radius: 16px;
+            padding: 18px;
+            box-shadow: 0 6px 18px rgba(0,0,0,.08);
+            transition: .25s;
+            position: relative;
+            cursor: pointer;
+            min-height: 70px;
+        }
+
+        .card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 14px 34px rgba(0,0,0,.15);
+        }
+
+        .card h3 {
+            margin: 0;
+            padding-right: 70px;
+            font-size: 18px;
+            line-height: 1.4;
+        }
+
+        .card:hover h3 {
+            color: #0a66ff;
+        }
+
+        /* BADGES */
+
+        .badge {
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            font-size: 11px;
+            padding: 5px 10px;
+            border-radius: 20px;
+            color: #fff;
+            font-weight: 600;
+        }
+
+        .trending {
+            background: #ff3b3b;
+        }
+
+        .new {
+            background: #00b894;
+        }
+
+        .pick {
+            background: #6c5ce7;
+        }
+
+        .ai {
+            background: #ff9f43;
+        }
+
+        /* MOBILE */
+
+        @media(max-width:768px) {
+
+            .hub-grid {
+                display: flex;
+                overflow-x: auto;
+                overflow-y: hidden;
+                scroll-behavior: smooth;
+                scroll-snap-type: x mandatory;
+
+                -ms-overflow-style: none;
+                scrollbar-width: none;
+            }
+
+            .hub-grid::-webkit-scrollbar {
+                display: none;
+            }
+
+            .card-link {
+                min-width: 85%;
+                flex-shrink: 0;
+                scroll-snap-align: start;
+            }
+
+            .hub-title {
+                font-size: 24px;
+            }
+
+            .card h3 {
+                font-size: 17px;
+            }
+
+        }
+
+    </style>
+
+    <script>
+
+        $(function () {
+
+            $('#header').load('/assets/header.html');
+
+            $('#ipowidget').load('/assets/ipowidget.html');
+
+            $('#footer').load('/assets/footer.html');
+
+        });
+
+    </script>
 
 </head>
-<body>
-<div id ="header"></div>
 
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
 <body>
-  <div id="ipowidget"></div>
-  <main>
-<h1>  Securities Board of Nepal (SEBON)</h1>
-<p><strong>Securities Board of Nepal (SEBON)</strong> was established by the Government of Nepal on June 7, 1993 as an apex regulator of Securities Markets. It has been regulating the market under the Securities Act, 2006. The Governing Board of SEBON is composed of seven members including one full time chairman appointed by the Government for tenure of four years. Other members of the Board include joint secretary of Ministry of Finance, joint secretary of Ministry of Law, Justice and Parliamentary Affairs, representative from Nepal Rastra Bank, representative from Institute of Chartered Accountants of Nepal, representative from Federation of Nepalese Chambers of Commerce and Industries, and one member appointed by the Government from amongst the experts pertaining to management of securities market, development of capital market, financial or economic sector.</p>
-<h4>Division and Department</h4>
-<p>There are four departments namely Regulation Department, Supervision Department, Commodity market and Research Department and Management &amp; legal Department in SEBON. Under these departments there are Eight divisions namely Securities market and Listed companies Division, Stock Broker Dealer Division, Regulation Division, Legal Division, Policy, Research &amp; Planning Division, Commodities Exchange and Business Person Division, Securities Businesspersons Supervision Division and Management and Finance Division. Under these divisions there are total twenty sections.</p>
-<p>The major financial sources of SEBON are the government grant, transaction fee from the stock exchange and registration fee of corporate securities. Other financing sources include registration and renewal of stock exchange and market intermediaries and the income from mobilization of its revolving fund.</p>
-<h4>Major functions and duties</h4>
-<ul>
-<li>Provide advice to Government on matters related with the development of capital market.</li>
-<li>Issue necessary securities regulations and directives.</li>
-<li>Register the securities of public companies.</li>
-<li>Regulate and systematize the issue, transfer, sale and exchange of registered securities.</li>
-<li>Issue license to operate stock exchange.</li>
-<li>Issue license to stock broker, dealer, merchant banker and fund manager.</li>
-<li>Issue license to depository company, depository participant and credit rating agency.</li>
-<li>Register mutual funds, grant permission to operate collective investment schemes, and supervise and monitor them.</li>
-<li>Approve the bye-laws of stock exchange and depository company.</li>
-<li>Take necessary actions to prevent insider trading or any other offenses relating to transactions in securities in order to protect the interest of investors in securities.</li>
-<li>Establish coordination and exchange cooperation with appropriate agencies in order to supervise and regulate matters concerning securities or companies.</li>
-<li>Discharge or make arrangements for discharging such other functions as are necessary for the development of the capital market.</li>
-</ul>
+
+    <!-- HEADER -->
+
+    <div id="header"></div>
+
+
+    <!-- IPO WIDGET -->
+
+    <div id="ipowidget"></div>
+
+
+    <!-- MAIN ARTICLE -->
+
+    <main>
+
+        <h1>Securities Board of Nepal (SEBON)</h1>
+
+
+        <p>
+            <strong>Securities Board of Nepal (SEBON)</strong>
+            was established by the Government of Nepal on June 7,
+            1993 as the apex regulator of the securities market.
+            It regulates Nepal's securities market under the
+            Securities Act, 2006.
+        </p>
+
+
+        <p>
+            SEBON is responsible for regulating and developing the
+            securities market, protecting investors and promoting
+            transparency and orderly development of Nepal's capital
+            market.
+        </p>
+
+
+        <h2>Departments of SEBON</h2>
+
+        <p>
+            SEBON has four major departments responsible for
+            regulation, supervision, commodity market and research,
+            and management and legal affairs.
+        </p>
+
+
+        <ul>
+
+            <li>Regulation Department</li>
+
+            <li>Supervision Department</li>
+
+            <li>Commodity Market and Research Department</li>
+
+            <li>Management and Legal Department</li>
+
+        </ul>
+
+
+        <h2>Major Functions and Duties of SEBON</h2>
+
+        <ul>
+
+            <li>
+                Provide advice to the Government on matters related
+                to the development of the capital market.
+            </li>
+
+            <li>
+                Issue necessary securities regulations and directives.
+            </li>
+
+            <li>
+                Register securities issued by public companies.
+            </li>
+
+            <li>
+                Regulate and systematize the issue, transfer, sale
+                and exchange of registered securities.
+            </li>
+
+            <li>
+                Issue licenses to operate stock exchanges.
+            </li>
+
+            <li>
+                Issue licenses to stock brokers, dealers, merchant
+                bankers and fund managers.
+            </li>
+
+            <li>
+                Issue licenses to depository companies, depository
+                participants and credit rating agencies.
+            </li>
+
+            <li>
+                Register mutual funds and supervise collective
+                investment schemes.
+            </li>
+
+            <li>
+                Approve the bylaws of stock exchanges and
+                depository companies.
+            </li>
+
+            <li>
+                Take necessary actions to prevent insider trading
+                and other securities-related offences.
+            </li>
+
+            <li>
+                Coordinate with relevant agencies to supervise and
+                regulate the securities market.
+            </li>
+
+            <li>
+                Perform other functions necessary for the development
+                of Nepal's capital market.
+            </li>
+
+        </ul>
+
+
+        <h2>Importance of SEBON in Nepal's Capital Market</h2>
+
+        <p>
+            SEBON plays an important role in maintaining an orderly,
+            transparent and regulated securities market in Nepal.
+            Its regulatory activities cover securities issuers,
+            stock exchanges, brokers, merchant bankers, mutual funds
+            and other capital-market intermediaries.
+        </p>
+
+
+        <!-- =========================
+             STOCK MARKET / ALSO READ
+        ========================= -->
+
+        <section class="smartHub"
+                 aria-labelledby="also-read-title">
+
+            <h2 id="also-read-title"
+                class="hub-title">
+                Stock Market &amp; Related Articles
+            </h2>
+
+            <div id="hubGrid"
+                 class="hub-grid"
+                 aria-live="polite">
+
+                <p>Loading related articles...</p>
+
+            </div>
+
+        </section>
+
+
     </main>
-  <div id ="stockmarket"></div>
-<script>
-$(function(){
-$('#footer').load('/assets/footer.html');
-});
-</script>
+
+
+    <!-- FOOTER -->
+
+    <div id="footer"></div>
+
+
+    <!-- STOCK MARKET WIDGET -->
+
+    <script>
+
+        const DATA_URL =
+            "https://shyamkumarkc20.com.np/js/stockmarket.json";
+
+        const hubGrid =
+            document.getElementById("hubGrid");
+
+        let ALL_ARTICLES = [];
+
+        let loaded = 0;
+
+        const LOAD_COUNT = 5;
+
+
+        /* =========================
+           LOAD JSON
+        ========================= */
+
+        fetch(DATA_URL)
+
+        .then(response => {
+
+            if (!response.ok) {
+
+                throw new Error(
+                    "HTTP error: " + response.status
+                );
+
+            }
+
+            return response.json();
+
+        })
+
+        .then(data => {
+
+            if (!Array.isArray(data)) {
+
+                throw new Error(
+                    "Invalid JSON format"
+                );
+
+            }
+
+
+            ALL_ARTICLES =
+                [...data]
+                .sort(() => Math.random() - 0.5);
+
+
+            hubGrid.innerHTML = "";
+
+            loadMore();
+
+            startSlider();
+
+        })
+
+        .catch(error => {
+
+            console.error(
+                "Stock market widget error:",
+                error
+            );
+
+
+            hubGrid.innerHTML = `
+                <p style="text-align:center;">
+                    Related articles are currently unavailable.
+                </p>
+            `;
+
+        });
+
+
+        /* =========================
+           LOAD ARTICLES
+        ========================= */
+
+        function loadMore() {
+
+            if (loaded >= ALL_ARTICLES.length) {
+                return;
+            }
+
+
+            const next =
+                ALL_ARTICLES.slice(
+                    loaded,
+                    loaded + LOAD_COUNT
+                );
+
+
+            loaded += LOAD_COUNT;
+
+
+            render(next);
+
+        }
+
+
+        /* =========================
+           RENDER
+        ========================= */
+
+        function render(list) {
+
+            let html = "";
+
+
+            list.forEach(article => {
+
+                let badge = "";
+
+
+                const articleDate =
+                    new Date(article.date);
+
+
+                const days =
+                    (
+                        Date.now() -
+                        articleDate.getTime()
+                    ) / 86400000;
+
+
+                if (article.editor) {
+
+                    badge = `
+                        <div class="badge pick">
+                            Editor Pick
+                        </div>
+                    `;
+
+                }
+
+                else if (days < 7) {
+
+                    badge = `
+                        <div class="badge new">
+                            New
+                        </div>
+                    `;
+
+                }
+
+                else if (days < 30) {
+
+                    badge = `
+                        <div class="badge trending">
+                            Trending
+                        </div>
+                    `;
+
+                }
+
+                else {
+
+                    badge = `
+                        <div class="badge ai">
+                            Recommended
+                        </div>
+                    `;
+
+                }
+
+
+                html += `
+
+                    <a
+                        href="${article.url}"
+                        class="card-link"
+                        aria-label="${article.title}"
+                    >
+
+                        <article class="card">
+
+                            ${badge}
+
+                            <h3>
+                                ${article.title}
+                            </h3>
+
+                        </article>
+
+                    </a>
+
+                `;
+
+            });
+
+
+            hubGrid.innerHTML += html;
+
+        }
+
+
+        /* =========================
+           LAZY LOAD
+        ========================= */
+
+        window.addEventListener(
+            "scroll",
+            function () {
+
+                if (
+                    window.innerHeight +
+                    window.scrollY >=
+                    document.body.offsetHeight - 300
+                ) {
+
+                    loadMore();
+
+                }
+
+            }
+        );
+
+
+        /* =========================
+           MOBILE AUTO SLIDER
+        ========================= */
+
+        function startSlider() {
+
+            if (window.innerWidth > 768) {
+                return;
+            }
+
+
+            setInterval(function () {
+
+                hubGrid.scrollBy({
+
+                    left:
+                        hubGrid.clientWidth * 0.9,
+
+                    behavior: "smooth"
+
+                });
+
+
+                if (
+                    hubGrid.scrollLeft +
+                    hubGrid.clientWidth >=
+                    hubGrid.scrollWidth - 5
+                ) {
+
+                    hubGrid.scrollTo({
+
+                        left: 0,
+
+                        behavior: "smooth"
+
+                    });
+
+                }
+
+            }, 3000);
+
+        }
+
+    </script>
+
 
 </body>
-  <div id ="footer"></div>
 
 </html>
-
-
-
