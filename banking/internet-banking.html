@@ -43,23 +43,7 @@
 </script>
 
 <style>
-    body {
-        font-family: Arial, sans-serif;
-        line-height: 1.7;
-        margin: 0;
-        padding: 20px;
-        background: #f7f9fc;
-        color: #222;
-    }
-
-    article {
-        max-width: 900px;
-        margin: auto;
-        background: #fff;
-        padding: 30px;
-        border-radius: 10px;
-    }
-
+    
     h1 {
         font-size: 34px;
         margin-bottom: 10px;
@@ -136,11 +120,18 @@
 </style>
 
 
+<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+</script>
+<script>
+$(function(){
+$('#header').load('/assets/header.html');
+});
+</script>
 </head>
-
 <body>
-
-<article>
+<div id ="header"></div>
+ <main>
 
 <h1>Internet Banking</h1>
 
@@ -344,7 +335,321 @@
 </p>
 
 
-</article>
 
+<style>
+    .limit-section {
+        margin: 35px 0;
+    }
+
+    .limit-intro {
+        margin-bottom: 18px;
+    }
+
+    .limit-card {
+        background: #ffffff;
+        border: 1px solid #e5e7eb;
+        border-radius: 16px;
+        overflow: hidden;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.07);
+    }
+
+    .limit-card-header {
+        padding: 20px 22px;
+        background: linear-gradient(135deg, #0f3d68, #1769aa);
+        color: #ffffff;
+    }
+
+    .limit-card-header h3 {
+        margin: 0 0 5px;
+        color: #ffffff;
+        font-size: 21px;
+    }
+
+    .limit-card-header p {
+        margin: 0;
+        color: #eaf4ff;
+        font-size: 14px;
+    }
+
+    .table-container {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .limit-table {
+        width: 100%;
+        min-width: 650px;
+        border-collapse: collapse;
+        margin: 0;
+        background: #ffffff;
+    }
+
+    .limit-table th {
+        background: #f3f6fa;
+        color: #334155;
+        font-size: 14px;
+        font-weight: 700;
+        padding: 15px 16px;
+        text-align: left;
+        border-bottom: 1px solid #e2e8f0;
+        white-space: nowrap;
+    }
+
+    .limit-table td {
+        padding: 16px;
+        font-size: 15px;
+        color: #334155;
+        border-bottom: 1px solid #edf0f4;
+        vertical-align: middle;
+    }
+
+    .limit-table tbody tr {
+        transition: background 0.2s ease;
+    }
+
+    .limit-table tbody tr:hover {
+        background: #f8fbff;
+    }
+
+    .limit-table tbody tr:last-child td {
+        border-bottom: none;
+    }
+
+    .transaction-name {
+        font-weight: 700;
+        color: #172033;
+    }
+
+    .amount {
+        font-weight: 700;
+        color: #0f766e;
+        background: #ecfdf5;
+        padding: 6px 10px;
+        border-radius: 7px;
+        display: inline-block;
+        white-space: nowrap;
+    }
+
+    .not-specified {
+        color: #64748b;
+        font-style: italic;
+        font-size: 14px;
+    }
+
+    .limit-note {
+        margin-top: 15px;
+        padding: 14px 16px;
+        background: #fff8e6;
+        border-left: 4px solid #f59e0b;
+        border-radius: 8px;
+        color: #5f4b16;
+        font-size: 14px;
+    }
+
+    .limit-source {
+        margin-top: 10px;
+        font-size: 13px;
+        color: #64748b;
+    }
+
+    @media (max-width: 600px) {
+
+        .limit-card {
+            border-radius: 12px;
+        }
+
+        .limit-card-header {
+            padding: 17px;
+        }
+
+        .limit-card-header h3 {
+            font-size: 18px;
+        }
+
+        .limit-table th,
+        .limit-table td {
+            padding: 13px;
+        }
+
+        .amount {
+            padding: 5px 8px;
+        }
+    }
+</style>
+
+<section class="limit-section">
+
+<h2>Internet Banking Transaction Limit</h2>
+
+<p class="limit-intro">
+    Internet banking transaction limits may vary depending on the type of transaction.
+    The following limits are based on the transaction-limit data available on this website.
+</p>
+
+<div class="limit-card">
+
+    
+
+    <div class="table-container">
+
+        <table class="limit-table">
+
+            <thead>
+                <tr>
+                    <th>Transaction Type</th>
+                    <th>Per Transaction</th>
+                    <th>Daily Limit</th>
+                    <th>Monthly Limit</th>
+                </tr>
+            </thead>
+
+            <tbody id="internetBankingLimitsBody">
+
+                <tr>
+                    <td colspan="4" style="text-align:center;">
+                        Loading transaction limits...
+                    </td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</div>
+
+<div class="limit-note">
+    <strong>Note:</strong>
+    Transaction limits can vary by bank, account type, transaction channel and
+    applicable regulations. Customers should verify the latest limits with their
+    respective bank before making transactions.
+</div>
+
+<div class="limit-source">
+    Data source: transaction limit dataset on Shyam Kumar KC
+</div>
+
+
+</section>
+
+<script>
+async function loadInternetBankingLimits() {
+
+    const tableBody =
+        document.getElementById("internetBankingLimitsBody");
+
+    try {
+
+        const response =
+            await fetch("https://shyamkumarkc20.com.np/js/transactionlimit.json");
+
+        if (!response.ok) {
+            throw new Error("Failed to load transaction limit data");
+        }
+
+        const data = await response.json();
+
+        const internetBanking = data.find(item =>
+            String(item.channel).toLowerCase().trim()
+            === "internet banking"
+        );
+
+        if (!internetBanking ||
+            !Array.isArray(internetBanking.transactions)) {
+
+            tableBody.innerHTML = `
+                <tr>
+                    <td colspan="4" style="text-align:center;">
+                        Internet banking transaction limit data is unavailable.
+                    </td>
+                </tr>
+            `;
+
+            return;
+        }
+
+
+        function formatAmount(value) {
+
+            if (
+                value === null ||
+                value === undefined ||
+                value === "" ||
+                value === "N/A"
+            ) {
+                return `<span class="not-specified">
+                            Not specified
+                        </span>`;
+            }
+
+            return `<span class="amount">
+                        NPR ${Number(value).toLocaleString("en-IN")}
+                    </span>`;
+        }
+
+
+        tableBody.innerHTML =
+            internetBanking.transactions.map(transaction => {
+
+                return `
+                    <tr>
+
+                        <td>
+                            <span class="transaction-name">
+                                ${transaction.type}
+                            </span>
+                        </td>
+
+                        <td>
+                            ${formatAmount(
+                                transaction.perTransaction
+                            )}
+                        </td>
+
+                        <td>
+                            ${formatAmount(
+                                transaction.daily
+                            )}
+                        </td>
+
+                        <td>
+                            ${formatAmount(
+                                transaction.monthly
+                            )}
+                        </td>
+
+                    </tr>
+                `;
+
+            }).join("");
+
+
+    } catch (error) {
+
+        console.error(
+            "Internet banking limit error:",
+            error
+        );
+
+        tableBody.innerHTML = `
+            <tr>
+                <td colspan="4" style="text-align:center;">
+                    Unable to load transaction limits.
+                </td>
+            </tr>
+        `;
+    }
+}
+
+loadInternetBankingLimits();
+</script>
+<script>
+$(function(){
+$('#footer').load('/assets/footer.html');
+});
+</script>
+</main>
 </body>
+  <div id ="footer"></div>
 </html>
