@@ -7,14 +7,12 @@
 <!-- Banking -->
     <url><loc>https://shyamkumarkc20.com.np/banking/commercialbanks</loc></url>
     <url><loc>https://shyamkumarkc20.com.np/banking/nepalrastrabank</loc></url>
-    <url>
-        <loc>https://shyamkumarkc20.com.np/banking/mobile-banking</loc>
-    </url>
-
-    <url>
-        <loc>https://shyamkumarkc20.com.np/merger-and-acquisition-nepal</loc>
-    </url>
-
+    <url><loc>https://shyamkumarkc20.com.np/banking/mobile-banking</loc></url>
+    <url><loc>https://shyamkumarkc20.com.np/merger-and-acquisition-nepal</loc></url>
+    <url><loc>https://shyamkumarkc20.com.np/banking/minimumpaidup</loc></url>
+    <url><loc>https://shyamkumarkc20.com.np/banking/bankingterminology</loc></url>
+    <url><loc>https://shyamkumarkc20.com.np/banking/bankingabbreviations</loc></url>
+    <url><loc>https://shyamkumarkc20.com.np/banking/CAR</loc></url>
     <url>
         <loc>https://shyamkumarkc20.com.np/tools/emicalculator</loc>
     </url>
