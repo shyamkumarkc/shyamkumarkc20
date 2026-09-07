@@ -444,21 +444,21 @@
 		"merger": "Samaj Laghubitta Bittiya Sanstha Limited"
     },
     {
-        "SNO": "27",	    
+        "SNO": "27",
 		"class": "D",
-        "Name": "Wean Nepal Laghubitta Bittiya Sanstha Limited",
-        "ODAD": "2021-11-01",
-        "HO": " Banepa, Kavrepalanchowk",
-        "paidup": "0.07",
-        "Area": "Province Level (Bagmati Province)",
-		"Website": "www.nslbsl.com.np/",
-		"phone1": "011-665626 ",
-		"phone2": "",
+        "Name": " Shrijanshil Laghubitta Bittiya Sanstha Limited",
+        "ODAD": " 2019/03/15",
+        "HO": " Golbazar, Siraha",
+        "paidup": " 10.94 ",
+        "Area": "National Level",
+		"Website": "www.shrijanshil.org/",
+		"phone1": "033-401045",
+	"phone2": "",
 		"fax":" ",
-		"email": "nepalseva@gmail.com ",
-		"IMG": "https://shyamkumarkc20.com.np/logo/wnlb.png ",
-		"NEPSE": "WNLB",
-		"merger": "Nepal Seva Laghubitta Bittiya Sanstha Limited"
+		"email": "info@shrijanshil.com.np ",
+			"IMG": "https://shyamkumarkc20.com.np/logo/shlb.jpg",
+		"NEPSE": "SHLB"
+		
     },
     {
         "SNO": "28 ",	    
@@ -833,23 +833,8 @@
 	"phone2": "",
 		"fax":" ",
 		"email": "info@swastikmicrofinance.com ",
-			"IMG": "https://shyamkumarkc20.com.np/logo/swastik.jpg",
+		"IMG": "https://shyamkumarkc20.com.np/logo/swastik.jpg",
 		"NEPSE": ""
-    },
-    {
-        "SNO": "51",	    
-	  "class": "D",
-        "Name": " Shrijanshil Laghubitta Bittiya Sanstha Limited",
-        "ODAD": " 2019/03/15",
-        "HO": " Golbazar, Siraha",
-        "paidup": " 10.94 ",
-        "Area": "National Level",
-		"Website": "www.shrijanshil.org/",
-		"phone1": "033-401045",
-	"phone2": "",
-		"fax":" ",
-		"email": "info@shrijanshil.com.np ",
-			"IMG": "https://shyamkumarkc20.com.np/logo/shlb.jpg",
-		"NEPSE": "SHLB"
+   
     }
 ]
