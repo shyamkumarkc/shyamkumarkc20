@@ -10,7 +10,7 @@
 		"Website": "www.nirdhan.com.np",
 		"phone1": "014513711",
 		"phone2": "",
-		"fax":"01-4513856",
+		"fax": "01-4513856",
 		"email": "info@nirdhan.com.np",
 		"IMG": "https://shyamkumarkc20.com.np/logo/nubl.png",
 		"NEPSE": "NUBL",
@@ -44,7 +44,7 @@
 		"Website": "www.chhimekbank.org/",
 		"phone1": "01-4595513",
 		"phone2": "01-4564853",
-		"fax":"01-4465785",
+		"fax": "01-4465785",
 		"email": "info@chhimekbank.org.np",
 		"IMG": "https://shyamkumarkc20.com.np/logo/cbbl.png",
 		"NEPSE": "CBBL",
@@ -101,7 +101,7 @@
 		"email": "info@nerudemirmire.com.np",
 		"IMG": "https://shyamkumarkc20.com.np/logo/nerude.jpg",
 		"NEPSE": "",
-		"merger": "a. Buddha Jyoti Laghubitta Bittiya Sanstha Limited<br/>b. Nagbeli Laghubitta Bikas Bank Limited"
+		"merger": "a. Buddha Jyoti Laghubitta Bittiya Sanstha Limited<br/>b. Nagbeli Laghubitta Bikas Bank Limited<br/>a. Nerude Laghubitta Bittiya Sanstha Limited<br/>b. Mirmire Laghubitta Bittiya Sanstha Limited"
     },
     {
         "SNO": "7",	    
@@ -134,7 +134,7 @@
 		"email": "info@slbbl.com.np",
 		"IMG": "https://shyamkumarkc20.com.np/logo/slbbl.jpg",
 		"NEPSE": "SLBBL",
-		"merger": "Janakpur Laghubitta Bittiya Sanstha Limited"
+		"merger": "Janakpur Laghubitta Bittiya Sanstha Limited, Wean Nepal Laghubitta Bittiya Sanstha Limited"
     },
     {
         "SNO": "9",	    
@@ -299,7 +299,7 @@
 		"Website": "forwardmfbank.com.np/",
 		"phone1": "025-542018 ",
 		"phone2": "",
-		"fax":"025-541483 ",
+		"fax": "025-541483 ",
 		"email": "info@forwardmfbank.com.np ",
 		"IMG": "https://shyamkumarkc20.com.np/logo/fowad.jpg ",
 		"NEPSE": "FOWAD",
@@ -334,7 +334,7 @@
 		"Website": "www.mslbsl.com.np/",
 		"phone1": "031411005",
 		"phone2": "031411006",
-		"fax":"031411008",
+		"fax": "031411008",
 		"email": "info@mslbsl.com.np ",
 		"IMG": "https://shyamkumarkc20.com.np/logo/mslb.png ",
 		"NEPSE": "MSLB",
@@ -441,7 +441,7 @@
 		"email": "info@gblbs.com.np ",
 		"IMG": "https://shyamkumarkc20.com.np/logo/gblbs.jpg ",
 		"NEPSE": "GBLBS",
-		"merger": "Samaj Laghubitta Bittiya Sanstha Limited"
+		"merger": "a. Purwanchal Grameen Bikash Bank Limited <br/>b. Madyamanchal Grameen Bikash Bank Limited <br/>c. Paschimanchal Grameen Bikash Bank Limited<br/>d. Madya Paschimanchal Grameen Bikash Bank Limited<br/>e. Sudur Paschimanchal Grameen Bikash Bank Limited<br/>f. Samaj Laghubitta Bittiya Sanstha Limited"
     },
     {
         "SNO": "27",
@@ -529,7 +529,7 @@
     {
         "SNO": "32",	    
 		"class": "D",
-        "Name": " Asha Lagubitta Bittiya Sanstha Limited",
+        "Name": " Asha Laghubitta Bittiya Sanstha Limited",
         "ODAD": " 2016/08/29",
         "HO": " Madanpur Nuwakot",
         "paidup": " 64.16",
@@ -546,7 +546,7 @@
     {
         "SNO": "33",	    
 	  "class": "D",
-        "Name": " Gurans LaghuBitta Bittiya Sanstha Limited",
+        "Name": " Gurans Laghubitta Bittiya Sanstha Limited",
         "ODAD": " 2016/11/16 ",
         "HO": "Dhankutabazaar, Dhankuta",
         "paidup": " 10.14",
@@ -629,7 +629,7 @@
 		"class": "D",
         "Name": " Jeevan Bikash Laghubitta Bittiya Sanstha Limited",
         "ODAD": " 2020-09-07*",
-        "HO": " Katahari , Morang",
+        "HO": " Katahari, Morang",
         "paidup": " 118.20",
         "Area": " National Level",
 		"Website": "www.jeevanbikasmf.com/eg",
@@ -781,7 +781,7 @@
 		"Website": "dhaulagiribank.com/",
 		"phone1": "068-520905",
 		"phone2": "",
-		"fax":" ",
+		"fax": " ",
 		"email": "infodesk@dhaulagiribank.com ",
 		"IMG": "https://shyamkumarkc20.com.np/logo/dlbs.jpg",
 		"NEPSE": "DLBS",
