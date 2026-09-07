@@ -65,23 +65,25 @@
         "Name": "Arun Securities Private Limited",
 		"IMG": "https://shyamkumarkc20.com.np/logo/broker3.jpg",
         "Location": "Gaushala Kathmandu",
-        "Contact1": "01-5913750","Contact2":"",
+        "Contact1": "01-5913750", "Contact2":"",
         "Email": "arunsecurities@gmail.com"
     },
     {
         "SNo": "8",
         "id": "11900",
-        "Name": "ARYATARA INVESTMENT AND SECURITIES Private Limited",
-        "Location": "ANAMNAGAR,Kathmandu",
-        "Contact1": "015705596","Contact2":"015706297",
+        "Name": "Aryatara Investment & Securities Private Limited",
+		"IMG": "https://shyamkumarkc20.com.np/logo/broker57.jpg",
+        "Location": "Anamnagar, Kathmandu",
+        "Contact1": "015705596", "Contact2": "015706297",
+		"website": "https://aryatarasecurities.com/",
         "Email": "aryatara57@yahoo.com"
     },
     {
-        "SNo": "*",
+        "SNo": "9",
         "id": "15600",
         "Name": "ASHUTOSH BROKERAGE AND SECURITIES Private Limited",
         "Location": "KHICHAPOKHARI",
-        "Contact1": "014220276","Contact2":"014220276",
+        "Contact1": "014220276", "Contact2": "014220276",
         "Email": "broker8ash@gmail.com"
     },
     {
@@ -97,9 +99,11 @@
     {
         "SNo": "11",
         "id": "14700",
-        "Name": "ASIAN SECURITIES Private Limited",
-        "Location": "PUTALISADAK,Kathmandu",
-        "Contact1": "014424351","Contact2":"014424485",
+        "Name": "Asian Securities Private Limited",
+		"IMG": "https://shyamkumarkc20.com.np/logo/broker26.jpg",
+        "Location": "Putalisadak, Kathmandu",
+        "Contact1": "014424351", "Contact2": "014424485",
+		"Website": "https://aspl26.com/",
         "Email": "asiansecurities26@gmail.com"
     },
 	{
