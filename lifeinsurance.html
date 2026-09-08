@@ -30,15 +30,17 @@ tr:nth-child(even) {
 </head>
 <body>
 <div id ="header"></div>
-<h2>List of Insurance Companies in Nepal</h2>
-Below are the list of 14 life insurance companies of Nepal:
+<h2>Life Insurance Companies in Nepal</h2>
+	<p>Life insurance companies in Nepal provide life insurance, savings, protection, investment-linked and other insurance products to individuals and businesses. These companies operate under the regulatory framework of the Nepal Insurance Authority.</p>
+<p>This page provides a regularly updated list of life insurance companies in Nepal, including their operation date, head office, NEPSE symbol, telephone number and email address. The information is presented to help users easily find and compare life insurance companies operating in Nepal.</p>
+Below is the list of 14 life insurance companies in Nepal:
 <br/>
 <table border="black" style="width: 100%;">
 
       <thead>
          <tr>
             <th>S No</th>
-            <th>Company Name</th>
+            <th>Life Insurance Company</th>
            <th>Logo</th>
             <th>Operation Date</th>
 		 <th>Head Office</th>
@@ -49,10 +51,64 @@ Below are the list of 14 life insurance companies of Nepal:
          </tr>
       </thead>
       <tbody id="data-output1">
-         <!-- Prodcuts from javascript file in here. -->
+         <!-- Products from javascript file in here. -->
       </tbody>
    </table>
- 
+
+<!-- Related Insurance Information -->
+<section class="related-links">
+    <h2>Related Insurance Information</h2>
+
+    <div class="related-links-list">
+        <a href="/insurancecompanies">Insurance Companies in Nepal</a>
+        <a href="/nonlifeinsurance">Non-Life Insurance Companies in Nepal</a>
+        <a href="/microlifeinsurance">Micro Life Insurance Companies in Nepal</a>
+        <a href="/microlifeinsurance">Micro Non Life Insurance Companies in Nepal</a>
+        <a href="/reinsurance">Reinsurance Companies in Nepal</a>
+        <a href="/article/nepalinsuranceauthority">Nepal Insurance Authority</a>
+        
+    </div>
+</section>
+
+<style>
+.related-links {
+    margin: 25px 0;
+}
+
+.related-links h2 {
+    margin-bottom: 12px;
+    font-size: 22px;
+}
+
+.related-links-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+}
+
+.related-links-list a {
+    display: block;
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #333;
+    background: #fafafa;
+    font-size: 15px;
+}
+
+.related-links-list a:hover {
+    background: #f0f0f0;
+}
+
+@media (max-width: 600px) {
+    .related-links-list {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+
+
    <script>
    fetch("https://shyamkumarkc20.com.np/js/lifeinsurance.json")
 .then(function(response){
