@@ -1,297 +1,2683 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<title>SHYAM KUMAR K.C.</title>
-<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>
+Shyam Kumar K.C. | Banking, Finance, Share Market & Nepal
+</title>
+
+<meta name="description"
+content="Explore Nepal banking, finance, commercial banks, development banks, IPO, NEPSE, CDSC, SEBON, Nepal Rastra Bank, financial articles, Nepal information and useful online tools.">
+
+<meta name="robots" content="index, follow">
+
+<link rel="canonical"
+href="https://shyamkumarkc20.com.np/">
+
+<link rel="shortcut icon"
+href="/brp.jpg"
+type="image/jpeg">
+
+<meta property="og:type"
+content="website">
+
+<meta property="og:title"
+content="Shyam Kumar K.C. | Banking, Finance & Nepal">
+
+<meta property="og:description"
+content="Banking, finance, share market, Nepal information, articles and useful online tools.">
+
+<meta property="og:url"
+content="https://shyamkumarkc20.com.np/">
+
+<meta property="og:image"
+content="https://shyamkumarkc20.com.np/brp.jpg">
+
+
+<!-- =====================================================
+     WEBSITE SCHEMA
+===================================================== -->
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Shyam Kumar K.C.",
+    "url": "https://shyamkumarkc20.com.np/",
+    "description": "Banking, finance, share market and Nepal information resource.",
+    "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://shyamkumarkc20.com.np/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+    }
+}
 </script>
-<script>
-$(function(){
-$('#header').load('/assets/header.html');
-});
-</script>
+
+
 <style>
-    
 
-    .tabs {
-      max-width: 700px;
-      
+/* =====================================================
+   RESET
+===================================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    background: #f6f8fb;
+
+    color: #172033;
+
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+button,
+input {
+    font-family: inherit;
+}
+
+
+/* =====================================================
+   HEADER
+===================================================== */
+
+.site-header {
+
+    background: #ffffff;
+
+    border-bottom: 1px solid #e5e9ef;
+
+    position: sticky;
+
+    top: 0;
+
+    z-index: 1000;
+}
+
+.header-inner {
+
+    max-width: 1240px;
+
+    min-height: 68px;
+
+    margin: auto;
+
+    padding: 0 20px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 20px;
+}
+
+.logo {
+
+    font-size: 20px;
+
+    font-weight: 800;
+
+    color: #111827;
+
+    white-space: nowrap;
+}
+
+.logo span {
+    color: #1261c9;
+}
+
+.main-nav {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 22px;
+}
+
+.main-nav a {
+
+    color: #3f4a59;
+
+    font-size: 14px;
+
+    font-weight: 600;
+}
+
+.main-nav a:hover {
+    color: #1261c9;
+}
+
+
+/* =====================================================
+   HERO
+===================================================== */
+
+.hero {
+
+    background:
+        linear-gradient(
+            135deg,
+            #eaf3ff,
+            #ffffff 58%,
+            #f4f9ff
+        );
+
+    border-bottom: 1px solid #e4e9f0;
+}
+
+.hero-inner {
+
+    max-width: 1240px;
+
+    margin: auto;
+
+    padding:
+        70px 20px 65px;
+
+    display: grid;
+
+    grid-template-columns:
+        1.5fr .5fr;
+
+    gap: 50px;
+
+    align-items: center;
+}
+
+.hero-label {
+
+    display: inline-block;
+
+    padding: 6px 12px;
+
+    border-radius: 30px;
+
+    border: 1px solid #d5e4f8;
+
+    background: white;
+
+    color: #1261c9;
+
+    font-size: 11px;
+
+    font-weight: 800;
+
+    letter-spacing: .5px;
+
+    margin-bottom: 18px;
+}
+
+.hero h1 {
+
+    font-size:
+        clamp(36px, 5vw, 60px);
+
+    line-height: 1.08;
+
+    letter-spacing: -1.5px;
+
+    color: #101827;
+
+    margin-bottom: 20px;
+}
+
+.hero h1 span {
+    color: #1261c9;
+}
+
+.hero-description {
+
+    max-width: 700px;
+
+    color: #5d6878;
+
+    font-size: 17px;
+
+    margin-bottom: 28px;
+}
+
+.hero-buttons {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+}
+
+.btn {
+
+    display: inline-block;
+
+    padding:
+        11px 19px;
+
+    border-radius: 8px;
+
+    font-size: 13px;
+
+    font-weight: 700;
+}
+
+.btn-primary {
+
+    background: #1261c9;
+
+    color: white;
+}
+
+.btn-primary:hover {
+    background: #0b4d9e;
+}
+
+.btn-secondary {
+
+    background: white;
+
+    border: 1px solid #d5dce5;
+
+    color: #263244;
+}
+
+.btn-secondary:hover {
+
+    border-color: #1261c9;
+
+    color: #1261c9;
+}
+
+
+/* PROFILE */
+
+.profile-card {
+
+    background: white;
+
+    border: 1px solid #e0e6ed;
+
+    border-radius: 16px;
+
+    padding: 28px;
+
+    box-shadow:
+        0 15px 40px rgba(20,40,70,.08);
+}
+
+.profile-card img {
+
+    width: 92px;
+
+    height: 92px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 4px solid #edf5ff;
+
+    margin-bottom: 15px;
+}
+
+.profile-card h2 {
+
+    font-size: 21px;
+
+    margin-bottom: 4px;
+}
+
+.profile-card p {
+
+    color: #6b7280;
+
+    font-size: 13px;
+}
+
+
+/* =====================================================
+   SEARCH
+===================================================== */
+
+.search-wrapper {
+
+    max-width: 900px;
+
+    margin:
+        -25px auto 0;
+
+    padding: 0 20px;
+
+    position: relative;
+
+    z-index: 10;
+}
+
+.search-box {
+
+    background: white;
+
+    border: 1px solid #dfe5ec;
+
+    border-radius: 12px;
+
+    padding: 8px;
+
+    display: flex;
+
+    box-shadow:
+        0 12px 30px rgba(20,40,70,.08);
+}
+
+.search-box input {
+
+    flex: 1;
+
+    min-width: 0;
+
+    border: 0;
+
+    outline: 0;
+
+    padding:
+        13px 15px;
+
+    font-size: 14px;
+}
+
+.search-box button {
+
+    border: 0;
+
+    border-radius: 8px;
+
+    padding:
+        0 24px;
+
+    background: #1261c9;
+
+    color: white;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    cursor: pointer;
+}
+
+
+/* =====================================================
+   COMMON
+===================================================== */
+
+.container {
+
+    max-width: 1240px;
+
+    margin: auto;
+
+    padding:
+        60px 20px;
+}
+
+.section-header {
+
+    display: flex;
+
+    align-items: end;
+
+    justify-content: space-between;
+
+    gap: 20px;
+
+    margin-bottom: 25px;
+}
+
+.section-header h2 {
+
+    color: #111827;
+
+    font-size: 28px;
+
+    line-height: 1.2;
+}
+
+.section-header p {
+
+    color: #6b7280;
+
+    font-size: 13px;
+
+    margin-top: 5px;
+}
+
+.view-all {
+
+    color: #1261c9;
+
+    font-size: 12px;
+
+    font-weight: 800;
+
+    white-space: nowrap;
+}
+
+
+/* =====================================================
+   FEATURED ARTICLE
+===================================================== */
+
+.featured-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        1.5fr .75fr;
+
+    gap: 18px;
+}
+
+.featured-main {
+
+    background: white;
+
+    border: 1px solid #e0e6ed;
+
+    border-radius: 14px;
+
+    padding: 32px;
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+.featured-main::before {
+
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+
+    top: 0;
+
+    width: 5px;
+
+    height: 100%;
+
+    background: #1261c9;
+}
+
+.article-category {
+
+    color: #1261c9;
+
+    font-size: 10px;
+
+    font-weight: 800;
+
+    letter-spacing: .7px;
+
+    text-transform: uppercase;
+}
+
+.featured-main h3 {
+
+    font-size: 28px;
+
+    line-height: 1.25;
+
+    margin:
+        9px 0 12px;
+}
+
+.featured-main p {
+
+    color: #687485;
+
+    font-size: 14px;
+
+    max-width: 750px;
+
+    margin-bottom: 18px;
+}
+
+.read-more {
+
+    color: #1261c9;
+
+    font-size: 12px;
+
+    font-weight: 800;
+}
+
+.mini-articles {
+
+    display: grid;
+
+    gap: 18px;
+}
+
+.mini-article {
+
+    background: white;
+
+    border: 1px solid #e0e6ed;
+
+    border-radius: 14px;
+
+    padding: 23px;
+}
+
+.mini-article h3 {
+
+    font-size: 17px;
+
+    line-height: 1.35;
+
+    margin:
+        7px 0 8px;
+}
+
+.mini-article p {
+
+    color: #6b7280;
+
+    font-size: 12px;
+}
+
+
+/* =====================================================
+   ARTICLE GRID
+===================================================== */
+
+.article-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 18px;
+}
+
+.article-card {
+
+    background: white;
+
+    border: 1px solid #e0e6ed;
+
+    border-radius: 13px;
+
+    padding: 23px;
+
+    transition:
+        transform .2s ease,
+        box-shadow .2s ease,
+        border-color .2s ease;
+}
+
+.article-card:hover {
+
+    transform:
+        translateY(-3px);
+
+    border-color: #c7d9f2;
+
+    box-shadow:
+        0 12px 30px rgba(20,40,70,.08);
+}
+
+.article-card h3 {
+
+    font-size: 17px;
+
+    line-height: 1.35;
+
+    margin:
+        8px 0 9px;
+}
+
+.article-card p {
+
+    color: #687485;
+
+    font-size: 12px;
+
+    margin-bottom: 13px;
+}
+
+.article-date {
+
+    color: #9aa3af;
+
+    font-size: 10px;
+}
+
+
+/* =====================================================
+   CATEGORY SECTION
+===================================================== */
+
+.category-section {
+
+    background: white;
+
+    border-top: 1px solid #e5e9ef;
+
+    border-bottom: 1px solid #e5e9ef;
+}
+
+.category-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    gap: 17px;
+}
+
+.category-card {
+
+    background: #fbfcfe;
+
+    border: 1px solid #e0e6ed;
+
+    border-radius: 13px;
+
+    padding: 24px;
+}
+
+.category-icon {
+
+    width: 44px;
+
+    height: 44px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 10px;
+
+    background: #edf5ff;
+
+    font-size: 20px;
+
+    margin-bottom: 14px;
+}
+
+.category-card h3 {
+
+    font-size: 18px;
+
+    margin-bottom: 7px;
+}
+
+.category-card p {
+
+    color: #6b7280;
+
+    font-size: 12px;
+
+    margin-bottom: 12px;
+}
+
+.category-card a {
+
+    color: #1261c9;
+
+    font-size: 11px;
+
+    font-weight: 800;
+}
+
+
+/* =====================================================
+   BANK CARDS
+===================================================== */
+
+.bank-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(6, 1fr);
+
+    gap: 12px;
+}
+
+.bank-card {
+
+    background: white;
+
+    border: 1px solid #e1e6ed;
+
+    border-radius: 10px;
+
+    padding: 14px;
+
+    min-height: 110px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    text-align: center;
+
+    transition: .2s ease;
+}
+
+.bank-card:hover {
+
+    transform:
+        translateY(-2px);
+
+    border-color: #bfd3ee;
+
+    box-shadow:
+        0 8px 20px rgba(20,40,70,.06);
+}
+
+.bank-logo {
+
+    width: 42px;
+
+    height: 42px;
+
+    object-fit: contain;
+
+    margin:
+        0 auto 8px;
+}
+
+.bank-name {
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+    line-height: 1.3;
+}
+
+.bank-code {
+
+    color: #8a94a2;
+
+    font-size: 9px;
+
+    margin-top: 3px;
+}
+
+
+/* =====================================================
+   IPO
+===================================================== */
+
+.ipo-section {
+
+    background: #f0f6ff;
+
+    border-top: 1px solid #dfeafa;
+
+    border-bottom: 1px solid #dfeafa;
+}
+
+.ipo-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 16px;
+}
+
+.ipo-card {
+
+    background: white;
+
+    border: 1px solid #dbe5f1;
+
+    border-radius: 12px;
+
+    padding: 20px;
+}
+
+.ipo-status {
+
+    display: inline-block;
+
+    padding: 4px 8px;
+
+    border-radius: 20px;
+
+    font-size: 9px;
+
+    font-weight: 800;
+
+    margin-bottom: 8px;
+}
+
+.status-current {
+
+    background: #dcfce7;
+
+    color: #15803d;
+}
+
+.status-upcoming {
+
+    background: #dbeafe;
+
+    color: #1d4ed8;
+}
+
+.ipo-card h3 {
+
+    font-size: 16px;
+
+    line-height: 1.3;
+
+    margin-bottom: 6px;
+}
+
+.ipo-card p {
+
+    color: #6b7280;
+
+    font-size: 11px;
+}
+
+
+/* =====================================================
+   TOOLS
+===================================================== */
+
+.tools-section {
+
+    background: #ffffff;
+}
+
+.tool-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    gap: 16px;
+}
+
+.tool-card {
+
+    background: #f8fafc;
+
+    border: 1px solid #e0e6ed;
+
+    border-radius: 12px;
+
+    padding: 22px;
+}
+
+.tool-card h3 {
+
+    font-size: 16px;
+
+    margin-bottom: 6px;
+}
+
+.tool-card p {
+
+    color: #6b7280;
+
+    font-size: 12px;
+
+    margin-bottom: 12px;
+}
+
+.tool-card a {
+
+    color: #1261c9;
+
+    font-size: 11px;
+
+    font-weight: 800;
+}
+
+
+/* =====================================================
+   LOADING
+===================================================== */
+
+.loading {
+
+    grid-column:
+        1 / -1;
+
+    text-align: center;
+
+    color: #8b95a3;
+
+    padding: 30px;
+}
+
+
+/* =====================================================
+   FOOTER
+===================================================== */
+
+.footer {
+
+    background: #111827;
+
+    color: #aeb7c4;
+
+    padding:
+        45px 20px 20px;
+}
+
+.footer-grid {
+
+    max-width: 1240px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns:
+        1.5fr 1fr 1fr 1fr;
+
+    gap: 35px;
+}
+
+.footer h3 {
+
+    color: white;
+
+    font-size: 16px;
+
+    margin-bottom: 13px;
+}
+
+.footer p,
+.footer a {
+
+    color: #9ca6b4;
+
+    font-size: 12px;
+}
+
+.footer a {
+
+    display: block;
+
+    margin-bottom: 7px;
+}
+
+.footer a:hover {
+    color: white;
+}
+
+.footer-bottom {
+
+    max-width: 1240px;
+
+    margin:
+        30px auto 0;
+
+    padding-top: 18px;
+
+    border-top: 1px solid #2c3542;
+
+    text-align: center;
+
+    color: #7f8997;
+
+    font-size: 11px;
+}
+
+
+/* =====================================================
+   RESPONSIVE
+===================================================== */
+
+@media(max-width: 1050px) {
+
+    .bank-grid {
+        grid-template-columns:
+            repeat(3, 1fr);
     }
 
-    .tab-labels {
-      display: flex;
-      cursor: pointer;
-      margin-bottom: 1em;
+}
+
+@media(max-width: 900px) {
+
+    .hero-inner,
+    .featured-grid {
+        grid-template-columns: 1fr;
     }
 
-    .tab-labels label {
-      flex: 1;
-      padding: 10px;
-      background: #eee;
-      text-align: center;
-      border: 1px solid #ccc;
-      border-bottom: none;
-      transition: background 0.3s;
+    .category-grid {
+        grid-template-columns:
+            repeat(2, 1fr);
     }
 
-    .tab-labels label:hover {
-      background: #ddd;
+    .article-grid {
+        grid-template-columns:
+            repeat(2, 1fr);
     }
 
-    input[type="radio"] {
-      display: none;
+    .ipo-grid {
+        grid-template-columns:
+            repeat(2, 1fr);
     }
 
-    .tab-content {
-      border: 1px solid #ccc;
-      padding: 15px;
-      background: #fff;
+    .tool-grid {
+        grid-template-columns:
+            repeat(2, 1fr);
     }
 
-    .tab {
-      display: none;
+    .footer-grid {
+        grid-template-columns:
+            repeat(2, 1fr);
     }
 
-    #tab1:checked ~ .content .tab1,
-    #tab2:checked ~ .content .tab2,
-    #tab3:checked ~ .content .tab3,
-    #tab4:checked ~ .content .tab4,
-    #tab5:checked ~ .content .tab5{
-      display: block;
+}
+
+@media(max-width: 650px) {
+
+    .main-nav {
+        display: none;
     }
 
-    /* Active tab style */
-    #tab1:checked ~ .tab-labels label[for="tab1"],
-    #tab2:checked ~ .tab-labels label[for="tab2"],
-    #tab3:checked ~ .tab-labels label[for="tab3"],
-    #tab4:checked ~ .tab-labels label[for="tab4"],
-    #tab5:checked ~ .tab-labels label[for="tab5"]{
-      background: #fff;
-      font-weight: bold;
+    .hero-inner {
+        padding:
+            55px 15px;
     }
-  </style>
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    .hero-description {
+        font-size: 15px;
+    }
+
+    .search-wrapper {
+        padding:
+            0 12px;
+    }
+
+    .search-box {
+        flex-direction: column;
+    }
+
+    .search-box button {
+        height: 44px;
+    }
+
+    .container {
+        padding:
+            48px 15px;
+    }
+
+    .section-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .article-grid,
+    .category-grid,
+    .ipo-grid,
+    .tool-grid,
+    .footer-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .bank-grid {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+}
+
+
+/* =====================================================
+   REDUCED MOTION
+===================================================== */
+
+@media(prefers-reduced-motion: reduce) {
+
+    html {
+        scroll-behavior: auto;
+    }
+
+    * {
+        transition: none !important;
+    }
+
+}
+
+</style>
+
 </head>
+
+
 <body>
-<div id ="header"></div>
-  
-
-<h2>List of Insurance Companies in Nepal</h2>There are 37 insurance companies in Nepal. The insurance companies in Nepal are divided into three types:<div>A. Life Insurance
-&nbsp;</div><div>B. Non-Life/General Insurance&nbsp;
-</div><div>C. Reinsurance</div><p>14 <a href= "/lifeinsurance.html">life insurance companies</a>,
-	<br/> 14 <a href= "/nonlifeinsurance.html">Non-life insurance companies (general insurance)</a>, 
-	<br/> 2 <a href= "/reinsurance.html">Reinsurance companies</a>,<br/>
-	3 <a href= "/microlifeinsurance.html">Micro Life Insurance Companies</a> and
-	<br/>4 <a href= "/micrononlifeinsurance.html">Micro Non Life Insurance companies</a> are operating in Nepal.&nbsp;</p>
-	 
-   
-
-<div class="tabs">
-  <!-- Radio buttons -->
-  <input type="radio" name="tabs" id="tab1" checked>
-  <input type="radio" name="tabs" id="tab2">
-  <input type="radio" name="tabs" id="tab3">
-  <input type="radio" name="tabs" id="tab4">
-  <input type="radio" name="tabs" id="tab5">
-
-  <!-- Tab labels -->
-  <div class="tab-labels">
-    <label for="tab1">Life Insurance</label>
-    <label for="tab2">Non Life</label>
-    <label for="tab3">Reinsurance</label>
-    <label for="tab4">Micro Life</label>
-    <label for="tab5">Micro Non Life</label>
-  </div>
-
-  <!-- Tab content -->
-  <div class="content">
-    <div class="tab tab1 tab-content">
-      
-     
-<table>
 
 
-      <tbody id="data-output">
-         <!-- Prodcuts from javascript file in here. -->
-      </tbody>
-   </table>
- 
-   <script>
-   fetch("https://shyamkumarkc20.com.np/js/lifeinsurance.json")
-.then(function(response){
-   return response.json();
-})
-.then(function(products){
-   let placeholder = document.querySelector("#data-output");
-   let out = "";
-   for(let product of products){
-      out += `
-         <tr>            
-            <td>${product.Sno}</td>
-             <td>${product.Name}</td>	   
-			            
-            
-         </tr>
-      `;
-   }
- 
-   placeholder.innerHTML = out;
-});
-</script>
-    </div>
-    <div class="tab tab2 tab-content">
-      <h3>List of General (Non-Life) Insurance Companies In Nepal</h3>
-Non-life insurance is an agreement made to avoid the risk of loss of property and liability. It is generally used to ensure movable and immovable property such as houses, factories, vehicles, etc.<br />
+<!-- =====================================================
+     HEADER
+===================================================== -->
 
-Non-life insurance covers accidents, medical expenses, third-party liability, production liability, and risks involved in foreign travel. It is used to obtain compensation for damage caused by various natural calamities including accidents, fires, thefts and to get compensation or relief from possible losses due to risk. At current, there are 20 general or non-life insurance companies in Nepal.&nbsp;<br />
+<header class="site-header">
 
-Below are the lists of 14 general or non-life insurance companies in Nepal:
- 
-      <table >
+<div class="header-inner">
 
+<a href="/" class="logo">
+SHYAM <span>KUMAR K.C.</span>
+</a>
 
-      <tbody id="data-output3">
-         <!-- Prodcuts from javascript file in here. -->
-      </tbody>
-   </table>
- 
-   <script>
-   fetch("https://shyamkumarkc20.com.np/js/nonlifeinsurance.json")
-.then(function(response){
-   return response.json();
-})
-.then(function(products){
-   let placeholder = document.querySelector("#data-output3");
-   let out = "";
-   for(let product of products){
-      out += `
-         <tr>            
-            <td>${product.Sno}</td>
-             <td>${product.Name}</td>	   
-			            
-            
-         </tr>
-      `;
-   }
- 
-   placeholder.innerHTML = out;
-});
-</script>
-    </div>
-    <div class="tab tab3 tab-content">
-      <h4>List of Re-Insurance Companies In Nepal</h4>
-Insurance companies cannot bear the entire risk of the insurance they cover, they transfer the risk from one company to another to reduce the risk, which is called reinsurance.
+<nav
+class="main-nav"
+aria-label="Main navigation">
 
-So far, there are only two reinsurance companies in Nepal.&nbsp;
-      <table  >
+<a href="/banking/">
+Banking
+</a>
+
+<a href="/sharemarket/">
+Share Market
+</a>
+
+<a href="/article/">
+Articles
+</a>
+
+<a href="/nepal/">
+Nepal
+</a>
+
+<a href="/tools/">
+Tools
+</a>
+
+</nav>
+
+</div>
+
+</header>
 
 
-      <tbody id="data-output2">
-         <!-- Prodcuts from javascript file in here. -->
-      </tbody>
-   </table>
- 
-   <script>
-   fetch("https://shyamkumarkc20.com.np/js/reinsurance.json")
-.then(function(response){
-   return response.json();
-})
-.then(function(products){
-   let placeholder = document.querySelector("#data-output2");
-   let out = "";
-   for(let product of products){
-      out += `
-         <tr>            
-            <td>${product.Sno}</td>
-            <td>${product.Name}</td>
-                        
-            
-         </tr>
-      `;
-   }
- 
-   placeholder.innerHTML = out;
-});
-</script>
-    </div>
-  
-    <div class="tab tab4 tab-content">
-    
-      
-<table  >
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section class="hero">
+
+<div class="hero-inner">
+
+<div>
+
+<span class="hero-label">
+NEPAL • BANKING • FINANCE • SHARE MARKET
+</span>
+
+<h1>
+Banking, Finance &
+<span>Nepal Information</span>
+</h1>
+
+<p class="hero-description">
+
+Practical articles, banking information,
+financial resources, share-market data,
+Nepal information and useful online tools.
+
+</p>
+
+<div class="hero-buttons">
+
+<a
+href="/banking/"
+class="btn btn-primary">
+Explore Banking
+</a>
+
+<a
+href="/sharemarket/"
+class="btn btn-secondary">
+Share Market
+</a>
+
+</div>
+
+</div>
 
 
-      <tbody id="data-output5">
-         <!-- Prodcuts from javascript file in here. -->
-      </tbody>
-   </table>
- 
-   <script>
-   fetch("https://shyamkumarkc20.com.np/js/microlife.json")
-.then(function(response){
-   return response.json();
-})
-.then(function(products){
-   let placeholder = document.querySelector("#data-output5");
-   let out = "";
-   for(let product of products){
-      out += `
-         <tr>            
-            <td>${product.Sno}</td>
-             <td>${product.Name}</td>	   
-			            
-            
-         </tr>
-      `;
-   }
- 
-   placeholder.innerHTML = out;
-});
-</script>
-    </div>
-    <div class="tab tab5 tab-content">
+<div class="profile-card">
 
-      
-<table >
+<img
+src="/brp.jpg"
+alt="Shyam Kumar K.C."
+width="92"
+height="92"
+fetchpriority="high">
+
+<h2>
+Shyam Kumar K.C.
+</h2>
+
+<p>
+Banking, finance and Nepal
+information resource
+</p>
+
+</div>
+
+</div>
+
+</section>
 
 
-      <tbody id="data-output6">
-         <!-- Prodcuts from javascript file in here. -->
-      </tbody>
-   </table>
- 
-   <script>
-   fetch("https://shyamkumarkc20.com.np/js/micrononlife.json")
-.then(function(response){
-   return response.json();
-})
-.then(function(products){
-   let placeholder = document.querySelector("#data-output6");
-   let out = "";
-   for(let product of products){
-      out += `
-         <tr>            
-            <td>${product.Sno}</td>
-             <td>${product.Name}</td>	   
-			            
-            
-         </tr>
-      `;
-   }
- 
-   placeholder.innerHTML = out;
-});
-</script>
-    </div>
-    </div>
-    </div>
-  
+<!-- =====================================================
+     SEARCH
+===================================================== -->
+
+<div class="search-wrapper">
+
+<form
+class="search-box"
+action="/search"
+method="get">
+
+<input
+type="search"
+name="q"
+placeholder="Search articles, banks, IPO, NEPSE, NRB..."
+aria-label="Search website">
+
+<button type="submit">
+Search
+</button>
+
+</form>
+
+</div>
+
+
+<main>
+
+
+<!-- =====================================================
+     FEATURED ARTICLES
+===================================================== -->
+
+<section class="container">
+
+<div class="section-header">
+
+<div>
+
+<h2>
+Featured Articles
+</h2>
+
+<p>
+Important and useful articles from the website.
+</p>
+
+</div>
+
+<a
+href="/article/"
+class="view-all">
+View all articles →
+</a>
+
+</div>
+
+
+<div
+id="featuredArticles"
+class="featured-grid">
+
+<div class="loading">
+Loading articles...
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =====================================================
+     LATEST ARTICLES
+===================================================== -->
+
+<section class="container">
+
+<div class="section-header">
+
+<div>
+
+<h2>
+Latest Articles
+</h2>
+
+<p>
+Recently added and updated information.
+</p>
+
+</div>
+
+<a
+href="/article/"
+class="view-all">
+View all →
+</a>
+
+</div>
+
+
+<div
+id="latestArticles"
+class="article-grid">
+
+<div class="loading">
+Loading latest articles...
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =====================================================
+     CATEGORIES
+===================================================== -->
+
+<section class="category-section">
+
+<div class="container">
+
+<div class="section-header">
+
+<div>
+
+<h2>
+Explore by Category
+</h2>
+
+<p>
+Find information according to your interest.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="category-grid">
+
+
+<div class="category-card">
+
+<div class="category-icon">
+🏦
+</div>
+
+<h3>
+Banking & Finance
+</h3>
+
+<p>
+Commercial banks, development banks,
+NRB, banking concepts and financial services.
+</p>
+
+<a href="/banking/">
+Explore Banking →
+</a>
+
+</div>
+
+
+<div class="category-card">
+
+<div class="category-icon">
+📈
+</div>
+
+<h3>
+Share Market
+</h3>
+
+<p>
+NEPSE, CDSC, SEBON, IPO, brokers,
+registrars and capital market resources.
+</p>
+
+<a href="/sharemarket/">
+Explore Share Market →
+</a>
+
+</div>
+
+
+<div class="category-card">
+
+<div class="category-icon">
+🇳🇵
+</div>
+
+<h3>
+Nepal
+</h3>
+
+<p>
+Geography, infrastructure, locations,
+cable cars, highways and national parks.
+</p>
+
+<a href="/nepal/">
+Explore Nepal →
+</a>
+
+</div>
+
+
+<div class="category-card">
+
+<div class="category-icon">
+🧮
+</div>
+
+<h3>
+Tools
+</h3>
+
+<p>
+EMI calculator, converters, gold and silver
+information and useful utilities.
+</p>
+
+<a href="/tools/">
+Explore Tools →
+</a>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =====================================================
+     COMMERCIAL BANKS
+===================================================== -->
+
+<section class="container">
+
+<div class="section-header">
+
+<div>
+
+<h2>
+Commercial Banks in Nepal
+</h2>
+
+<p>
+Quick access to commercial bank information.
+</p>
+
+</div>
+
+<a
+href="/banking/commercialbanks"
+class="view-all">
+View all banks →
+</a>
+
+</div>
+
+
+<div
+id="commercialBanks"
+class="bank-grid">
+
+<div class="loading">
+Loading banks...
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =====================================================
+     DEVELOPMENT BANKS
+===================================================== -->
+
+<section class="container">
+
+<div class="section-header">
+
+<div>
+
+<h2>
+Development Banks
+</h2>
+
+<p>
+Explore development banks and their information.
+</p>
+
+</div>
+
+<a
+href="/banking/developmentbanks"
+class="view-all">
+View all →
+</a>
+
+</div>
+
+
+<div
+id="developmentBanks"
+class="bank-grid">
+
+<div class="loading">
+Loading banks...
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =====================================================
+     IPO
+===================================================== -->
+
+<section class="ipo-section">
+
+<div class="container">
+
+<div class="section-header">
+
+<div>
+
+<h2>
+IPO in Nepal
+</h2>
+
+<p>
+Current and upcoming public issues.
+</p>
+
+</div>
+
+<a
+href="/sharemarket/ipo"
+class="view-all">
+View all IPOs →
+</a>
+
+</div>
+
+
+<div
+id="ipoContainer"
+class="ipo-grid">
+
+<div class="loading">
+Loading IPO information...
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =====================================================
+     TOOLS
+===================================================== -->
+
+<section class="tools-section">
+
+<div class="container">
+
+<div class="section-header">
+
+<div>
+
+<h2>
+Useful Online Tools
+</h2>
+
+<p>
+Simple tools for everyday financial needs.
+</p>
+
+</div>
+
+<a
+href="/tools/"
+class="view-all">
+View all tools →
+</a>
+
+</div>
+
+
+<div class="tool-grid">
+
+
+<div class="tool-card">
+
+<h3>
+EMI Calculator
+</h3>
+
+<p>
+Calculate monthly loan installments.
+</p>
+
+<a href="/tools/emicalculator">
+Open calculator →
+</a>
+
+</div>
+
+
+<div class="tool-card">
+
+<h3>
+Gold & Silver
+</h3>
+
+<p>
+Explore gold and silver information.
+</p>
+
+<a href="/tools/goldandsilver">
+Open tool →
+</a>
+
+</div>
+
+
+<div class="tool-card">
+
+<h3>
+Preeti → Unicode
+</h3>
+
+<p>
+Convert Nepali Preeti text to Unicode.
+</p>
+
+<a href="/tools/preetitounicode">
+Open converter →
+</a>
+
+</div>
+
+
+<div class="tool-card">
+
+<h3>
+Nepal Locations
+</h3>
+
+<p>
+Explore useful location information.
+</p>
+
+<a href="/nepal/location">
+Explore locations →
+</a>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =====================================================
+     ABOUT
+===================================================== -->
+
+<section class="about">
+
+<div class="about-inner">
+
+<h2>
+About Shyam Kumar K.C.
+</h2>
+
+<p>
+
+This website provides practical information
+about banking, finance, Nepal's share market,
+financial concepts, Nepal-related information
+and useful online tools.
+
+</p>
+
+</div>
+
+</section>
+
+
+</main>
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer class="footer">
+
+<div class="footer-grid">
+
+
+<div>
+
+<h3>
+SHYAM KUMAR K.C.
+</h3>
+
+<p>
+Banking, finance, share market,
+Nepal information and useful resources.
+</p>
+
+</div>
+
+
+<div>
+
+<h3>
+Banking
+</h3>
+
+<a href="/nepalrastrabank">
+Nepal Rastra Bank
+</a>
+
+<a href="/banking/commercialbanks">
+Commercial Banks
+</a>
+
+<a href="/banking/developmentbanks">
+Development Banks
+</a>
+
+<a href="/banking/mobile-banking">
+Mobile Banking
+</a>
+
+</div>
+
+
+<div>
+
+<h3>
+Share Market
+</h3>
+
+<a href="/sharemarket/">
+Share Market
+</a>
+
+<a href="/sharemarket/ShareRegistrar">
+Share Registrars
+</a>
+
+<a href="/sharemarket/merchantbanker">
+Merchant Bankers
+</a>
+
+<a href="/sharemarket/registeredcasbamembers">
+C-ASBA Members
+</a>
+
+</div>
+
+
+<div>
+
+<h3>
+Explore
+</h3>
+
+<a href="/article/">
+Articles
+</a>
+
+<a href="/nepal/">
+Nepal
+</a>
+
+<a href="/tools/">
+Tools
+</a>
+
+<a href="/">
+Home
+</a>
+
+</div>
+
+
+</div>
+
+
+<div class="footer-bottom">
+
+© 2026 Shyam Kumar K.C. · All Rights Reserved
+
+</div>
+
+</footer>
+
+
+<!-- =====================================================
+     DYNAMIC HOMEPAGE JAVASCRIPT
+===================================================== -->
+
 <script>
-$(function(){
-$('#footer').load('/assets/footer.html');
-});
+
+"use strict";
+
+
+/* =====================================================
+   HELPER
+===================================================== */
+
+async function loadJSON(url) {
+
+    try {
+
+        const response = await fetch(url, {
+            cache: "no-cache"
+        });
+
+        if (!response.ok) {
+            throw new Error("Unable to load " + url);
+        }
+
+        return await response.json();
+
+    } catch (error) {
+
+        console.error(error);
+
+        return null;
+    }
+}
+
+
+/* =====================================================
+   ARTICLES
+===================================================== */
+
+async function loadArticles() {
+
+    const data =
+        await loadJSON("/js/articles.json");
+
+    const featured =
+        document.getElementById("featuredArticles");
+
+    const latest =
+        document.getElementById("latestArticles");
+
+
+    if (!data || !Array.isArray(data)) {
+
+        featured.innerHTML = `
+            <article class="featured-main">
+                <div class="article-category">
+                    BANKING
+                </div>
+
+                <h3>
+                    Banking and Financial Information in Nepal
+                </h3>
+
+                <p>
+                    Explore banking, finance, share market
+                    and Nepal-related information.
+                </p>
+
+                <a href="/banking/"
+                   class="read-more">
+                    Explore Banking →
+                </a>
+            </article>
+        `;
+
+        latest.innerHTML = `
+            <article class="article-card">
+                <h3>
+                    Explore Our Articles
+                </h3>
+
+                <p>
+                    Browse banking, finance and
+                    Nepal-related articles.
+                </p>
+
+                <a href="/article/"
+                   class="read-more">
+                    View Articles →
+                </a>
+            </article>
+        `;
+
+        return;
+    }
+
+
+    /* Sort newest first */
+
+    data.sort(function(a, b) {
+
+        return new Date(b.date || 0)
+             - new Date(a.date || 0);
+
+    });
+
+
+    /* Featured article */
+
+    let featuredArticle =
+        data.find(item => item.featured === true)
+        || data[0];
+
+
+    const featuredHTML = `
+
+        <article class="featured-main">
+
+            <div class="article-category">
+                ${escapeHTML(featuredArticle.category || "ARTICLE")}
+            </div>
+
+            <h3>
+                ${escapeHTML(featuredArticle.title)}
+            </h3>
+
+            <p>
+                ${escapeHTML(featuredArticle.description || "")}
+            </p>
+
+            <a
+                href="${safeURL(featuredArticle.url)}"
+                class="read-more">
+
+                Read article →
+
+            </a>
+
+        </article>
+
+        <div class="mini-articles">
+
+            ${data
+                .filter(item =>
+                    item !== featuredArticle
+                )
+                .slice(0, 2)
+                .map(article => `
+
+                    <article class="mini-article">
+
+                        <div class="article-category">
+                            ${escapeHTML(
+                                article.category || "ARTICLE"
+                            )}
+                        </div>
+
+                        <h3>
+                            ${escapeHTML(article.title)}
+                        </h3>
+
+                        <p>
+                            ${escapeHTML(
+                                article.description || ""
+                            )}
+                        </p>
+
+                        <a
+                            href="${safeURL(article.url)}"
+                            class="read-more">
+
+                            Read article →
+
+                        </a>
+
+                    </article>
+
+                `)
+                .join("")}
+
+        </div>
+    `;
+
+
+    featured.innerHTML = featuredHTML;
+
+
+    /* Latest articles */
+
+    const latestArticles =
+        data
+        .filter(item =>
+            item !== featuredArticle
+        )
+        .slice(0, 6);
+
+
+    latest.innerHTML =
+        latestArticles
+        .map(article => `
+
+            <article class="article-card">
+
+                <div class="article-category">
+
+                    ${escapeHTML(
+                        article.category || "ARTICLE"
+                    )}
+
+                </div>
+
+                <h3>
+                    ${escapeHTML(article.title)}
+                </h3>
+
+                <p>
+                    ${escapeHTML(
+                        article.description || ""
+                    )}
+                </p>
+
+                <div class="article-date">
+
+                    ${formatDate(article.date)}
+
+                </div>
+
+                <br>
+
+                <a
+                    href="${safeURL(article.url)}"
+                    class="read-more">
+
+                    Read article →
+
+                </a>
+
+            </article>
+
+        `)
+        .join("");
+
+}
+
+
+/* =====================================================
+   COMMERCIAL BANKS
+===================================================== */
+
+async function loadCommercialBanks() {
+
+    const container =
+        document.getElementById(
+            "commercialBanks"
+        );
+
+    const data =
+        await loadJSON(
+            "/js/commercialbanks.json"
+        );
+
+
+    if (!data) {
+
+        container.innerHTML = `
+            <div class="loading">
+                Bank information unavailable.
+            </div>
+        `;
+
+        return;
+    }
+
+
+    let banks =
+        Array.isArray(data)
+        ? data
+        : data.banks || [];
+
+
+    banks =
+        banks
+        .slice(0, 6);
+
+
+    container.innerHTML =
+        banks
+        .map(bank => {
+
+            const name =
+                bank.Name || "Bank";
+
+            const code =
+                bank.Code || "";
+
+            const image =
+                bank.IMG || "";
+
+            const url =
+                "/banking/commercialbanks?bank="
+                + encodeURIComponent(code);
+
+
+            return `
+
+                <a
+                    href="${url}"
+                    class="bank-card">
+
+                    ${
+                        image
+                        ?
+                        `<img
+                            class="bank-logo"
+                            src="${safeImage(image)}"
+                            alt="${escapeHTML(name)}"
+                            width="42"
+                            height="42"
+                            loading="lazy">`
+                        :
+                        ""
+                    }
+
+                    <div class="bank-name">
+                        ${escapeHTML(name)}
+                    </div>
+
+                    <div class="bank-code">
+                        ${escapeHTML(code)}
+                    </div>
+
+                </a>
+
+            `;
+
+        })
+        .join("");
+
+}
+
+
+/* =====================================================
+   DEVELOPMENT BANKS
+===================================================== */
+
+async function loadDevelopmentBanks() {
+
+    const container =
+        document.getElementById(
+            "developmentBanks"
+        );
+
+    const data =
+        await loadJSON(
+            "/js/developmentbanks.json"
+        );
+
+
+    if (!data) {
+
+        container.innerHTML = `
+            <div class="loading">
+                Development bank information unavailable.
+            </div>
+        `;
+
+        return;
+    }
+
+
+    let banks =
+        Array.isArray(data)
+        ? data
+        : data.banks || [];
+
+
+    banks =
+        banks.slice(0, 6);
+
+
+    container.innerHTML =
+        banks
+        .map(bank => {
+
+            const name =
+                bank.Name || "Development Bank";
+
+            const code =
+                bank.Code || "";
+
+            const image =
+                bank.IMG || "";
+
+
+            /*
+             * Change this URL if your
+             * development-bank dynamic
+             * page uses another structure.
+             */
+
+            const url =
+                "/banking/developmentbanks";
+
+
+            return `
+
+                <a
+                    href="${url}"
+                    class="bank-card">
+
+                    ${
+                        image
+                        ?
+                        `<img
+                            class="bank-logo"
+                            src="${safeImage(image)}"
+                            alt="${escapeHTML(name)}"
+                            width="42"
+                            height="42"
+                            loading="lazy">`
+                        :
+                        ""
+                    }
+
+                    <div class="bank-name">
+                        ${escapeHTML(name)}
+                    </div>
+
+                    <div class="bank-code">
+                        ${escapeHTML(code)}
+                    </div>
+
+                </a>
+
+            `;
+
+        })
+        .join("");
+
+}
+
+
+/* =====================================================
+   IPO
+===================================================== */
+
+async function loadIPO() {
+
+    const container =
+        document.getElementById(
+            "ipoContainer"
+        );
+
+    const data =
+        await loadJSON(
+            "/js/ipo.json"
+        );
+
+
+    if (!data) {
+
+        container.innerHTML = `
+            <div class="loading">
+                IPO information unavailable.
+            </div>
+        `;
+
+        return;
+    }
+
+
+    let current =
+        Array.isArray(data)
+        ? data
+        : (data.ipo || []);
+
+
+    let future =
+        data.future || [];
+
+
+    /*
+     * Current IPO first,
+     * then upcoming IPO.
+     */
+
+    let combined = [
+
+        ...current.map(item => ({
+            ...item,
+            status: "Current"
+        })),
+
+        ...future.map(item => ({
+            ...item,
+            status: "Upcoming"
+        }))
+
+    ];
+
+
+    combined =
+        combined.slice(0, 6);
+
+
+    if (!combined.length) {
+
+        container.innerHTML = `
+            <div class="loading">
+                No IPO information available.
+            </div>
+        `;
+
+        return;
+    }
+
+
+    container.innerHTML =
+        combined
+        .slice(0, 3)
+        .map(item => {
+
+            const name =
+                item.Name ||
+                item.name ||
+                item.company ||
+                "IPO";
+
+
+            const opening =
+                item.openingDate ||
+                item.openDate ||
+                "";
+
+
+            const closing =
+                item.closingDate ||
+                item.lastClosingDate ||
+                "";
+
+
+            const status =
+                item.status ||
+                "Upcoming";
+
+
+            const statusClass =
+                status === "Current"
+                ? "status-current"
+                : "status-upcoming";
+
+
+            return `
+
+                <article class="ipo-card">
+
+                    <span
+                        class="ipo-status ${statusClass}">
+
+                        ${escapeHTML(status)}
+
+                    </span>
+
+                    <h3>
+                        ${escapeHTML(name)}
+                    </h3>
+
+                    ${
+                        opening
+                        ?
+                        `<p>
+                            Opening:
+                            ${escapeHTML(opening)}
+                        </p>`
+                        :
+                        ""
+                    }
+
+                    ${
+                        closing
+                        ?
+                        `<p>
+                            Closing:
+                            ${escapeHTML(closing)}
+                        </p>`
+                        :
+                        ""
+                    }
+
+                </article>
+
+            `;
+
+        })
+        .join("");
+
+}
+
+
+/* =====================================================
+   ESCAPE HTML
+===================================================== */
+
+function escapeHTML(value) {
+
+    if (value === null ||
+        value === undefined) {
+
+        return "";
+
+    }
+
+    return String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+}
+
+
+/* =====================================================
+   SAFE URL
+===================================================== */
+
+function safeURL(url) {
+
+    if (!url) {
+        return "#";
+    }
+
+    const value =
+        String(url).trim();
+
+
+    /*
+     * Only allow internal URLs
+     * on the homepage.
+     */
+
+    if (
+        value.startsWith("/") &&
+        !value.startsWith("//")
+    ) {
+
+        return value;
+
+    }
+
+    return "#";
+}
+
+
+/* =====================================================
+   SAFE IMAGE
+===================================================== */
+
+function safeImage(url) {
+
+    if (!url) {
+        return "";
+    }
+
+    const value =
+        String(url).trim();
+
+
+    if (
+        value.startsWith("/") &&
+        !value.startsWith("//")
+    ) {
+
+        return value;
+
+    }
+
+    if (
+        value.startsWith("https://") ||
+        value.startsWith("http://")
+    ) {
+
+        return value;
+
+    }
+
+    return "";
+}
+
+
+/* =====================================================
+   DATE
+===================================================== */
+
+function formatDate(date) {
+
+    if (!date) {
+        return "";
+    }
+
+    const parsed =
+        new Date(date);
+
+    if (
+        Number.isNaN(
+            parsed.getTime()
+        )
+    ) {
+
+        return escapeHTML(date);
+
+    }
+
+    return parsed.toLocaleDateString(
+        "en-US",
+        {
+            year: "numeric",
+            month: "short",
+            day: "numeric"
+        }
+    );
+
+}
+
+
+/* =====================================================
+   LOAD EVERYTHING
+===================================================== */
+
+document.addEventListener(
+    "DOMContentLoaded",
+    function() {
+
+        loadArticles();
+
+        loadCommercialBanks();
+
+        loadDevelopmentBanks();
+
+        loadIPO();
+
+    }
+);
+
 </script>
+
 
 </body>
-  <div id ="footer"></div>
+
 </html>
 
