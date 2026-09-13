@@ -3,1383 +3,1013 @@
 <html lang="en">
 
 <head>
-
 <meta charset="UTF-8">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>
-Shyam Kumar K.C. | Banking, Finance, Share Market & Nepal
-</title>
+<title>Shyam Kumar K.C. | Banking, Finance, Share Market & Nepal</title>
 
 <meta name="description"
-content="Explore Nepal banking, finance, commercial banks, development banks, IPO, NEPSE, CDSC, SEBON, Nepal Rastra Bank, financial articles, Nepal information and useful online tools.">
+content="Explore banking, finance, share market, IPOs, Nepal information, useful tools and informative articles by Shyam Kumar K.C.">
+
+<meta name="keywords"
+content="Nepal banking, Nepal finance, share market Nepal, NEPSE, IPO Nepal, commercial banks, Nepal Rastra Bank, banking articles, Nepal information">
+
+<link rel="canonical" href="https://shyamkumarkc20.com.np/">
 
 <meta name="robots" content="index, follow">
 
-<link rel="canonical"
-href="https://shyamkumarkc20.com.np/">
-
-<link rel="shortcut icon"
-href="/brp.jpg"
-type="image/jpeg">
-
-<meta property="og:type"
-content="website">
-
-<meta property="og:title"
-content="Shyam Kumar K.C. | Banking, Finance & Nepal">
-
+<meta property="og:type" content="website">
+<meta property="og:title" content="Shyam Kumar K.C. | Banking, Finance & Nepal">
 <meta property="og:description"
-content="Banking, finance, share market, Nepal information, articles and useful online tools.">
+content="Banking, finance, share market, IPOs, Nepal information and useful financial tools.">
+<meta property="og:url" content="https://shyamkumarkc20.com.np/">
+<meta property="og:image" content="https://shyamkumarkc20.com.np/brp.jpg">
 
-<meta property="og:url"
-content="https://shyamkumarkc20.com.np/">
-
-<meta property="og:image"
-content="https://shyamkumarkc20.com.np/brp.jpg">
-
-
-<!-- =====================================================
-     WEBSITE SCHEMA
-===================================================== -->
-
-<script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Shyam Kumar K.C.",
-    "url": "https://shyamkumarkc20.com.np/",
-    "description": "Banking, finance, share market and Nepal information resource.",
-    "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://shyamkumarkc20.com.np/search?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-    }
-}
-</script>
-
+<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
 
 <style>
 
-/* =====================================================
-   RESET
-===================================================== */
+/* ================================
+   GLOBAL
+================================ */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
 }
 
-html {
-    scroll-behavior: smooth;
+html{
+    scroll-behavior:smooth;
 }
 
-body {
+body{
     font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
         Arial,
-        Helvetica,
         sans-serif;
-
-    background: #f6f8fb;
-
-    color: #172033;
-
-    line-height: 1.6;
+    background:#f6f8fb;
+    color:#172033;
+    line-height:1.6;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
+a{
+    color:inherit;
+    text-decoration:none;
 }
 
-img {
-    max-width: 100%;
-    display: block;
+img{
+    max-width:100%;
+    display:block;
 }
 
-button,
-input {
-    font-family: inherit;
+.container{
+    width:min(1180px,92%);
+    margin:auto;
 }
 
 
-/* =====================================================
+/* ================================
    HEADER
-===================================================== */
+================================ */
 
-.site-header {
-
-    background: #ffffff;
-
-    border-bottom: 1px solid #e5e9ef;
-
-    position: sticky;
-
-    top: 0;
-
-    z-index: 1000;
+.site-header{
+    background:#ffffff;
+    border-bottom:1px solid #e7ebf0;
+    position:sticky;
+    top:0;
+    z-index:1000;
 }
 
-.header-inner {
-
-    max-width: 1240px;
-
-    min-height: 68px;
-
-    margin: auto;
-
-    padding: 0 20px;
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: space-between;
-
-    gap: 20px;
+.header-inner{
+    min-height:70px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:25px;
 }
 
-.logo {
-
-    font-size: 20px;
-
-    font-weight: 800;
-
-    color: #111827;
-
-    white-space: nowrap;
+.logo{
+    font-size:21px;
+    font-weight:800;
+    letter-spacing:-.4px;
+    white-space:nowrap;
 }
 
-.logo span {
-    color: #1261c9;
+.logo span{
+    color:#1769d2;
 }
 
-.main-nav {
-
-    display: flex;
-
-    align-items: center;
-
-    gap: 22px;
+.main-nav{
+    display:flex;
+    align-items:center;
+    gap:24px;
 }
 
-.main-nav a {
-
-    color: #3f4a59;
-
-    font-size: 14px;
-
-    font-weight: 600;
+.main-nav a{
+    font-size:14px;
+    font-weight:600;
+    color:#4c5869;
 }
 
-.main-nav a:hover {
-    color: #1261c9;
+.main-nav a:hover{
+    color:#1769d2;
+}
+
+.header-search{
+    width:190px;
+    position:relative;
+}
+
+.header-search input{
+    width:100%;
+    border:1px solid #dfe5ec;
+    border-radius:22px;
+    padding:9px 15px;
+    outline:none;
+    background:#f8fafc;
+}
+
+.header-search input:focus{
+    border-color:#1769d2;
 }
 
 
-/* =====================================================
+/* ================================
    HERO
-===================================================== */
+================================ */
 
-.hero {
-
-    background:
-        linear-gradient(
-            135deg,
-            #eaf3ff,
-            #ffffff 58%,
-            #f4f9ff
-        );
-
-    border-bottom: 1px solid #e4e9f0;
+.hero{
+    background:#ffffff;
+    padding:70px 0 65px;
+    border-bottom:1px solid #e8ecf1;
 }
 
-.hero-inner {
-
-    max-width: 1240px;
-
-    margin: auto;
-
-    padding:
-        70px 20px 65px;
-
-    display: grid;
-
-    grid-template-columns:
-        1.5fr .5fr;
-
-    gap: 50px;
-
-    align-items: center;
+.hero-grid{
+    display:grid;
+    grid-template-columns:1.5fr .8fr;
+    gap:55px;
+    align-items:center;
 }
 
-.hero-label {
-
-    display: inline-block;
-
-    padding: 6px 12px;
-
-    border-radius: 30px;
-
-    border: 1px solid #d5e4f8;
-
-    background: white;
-
-    color: #1261c9;
-
-    font-size: 11px;
-
-    font-weight: 800;
-
-    letter-spacing: .5px;
-
-    margin-bottom: 18px;
+.hero-label{
+    display:inline-block;
+    font-size:12px;
+    font-weight:800;
+    text-transform:uppercase;
+    letter-spacing:1.5px;
+    color:#1769d2;
+    margin-bottom:14px;
 }
 
-.hero h1 {
-
-    font-size:
-        clamp(36px, 5vw, 60px);
-
-    line-height: 1.08;
-
-    letter-spacing: -1.5px;
-
-    color: #101827;
-
-    margin-bottom: 20px;
+.hero h1{
+    font-size:clamp(38px,5vw,64px);
+    line-height:1.08;
+    letter-spacing:-2px;
+    margin-bottom:20px;
+    max-width:750px;
 }
 
-.hero h1 span {
-    color: #1261c9;
+.hero h1 span{
+    color:#1769d2;
 }
 
-.hero-description {
-
-    max-width: 700px;
-
-    color: #5d6878;
-
-    font-size: 17px;
-
-    margin-bottom: 28px;
+.hero-text{
+    max-width:650px;
+    color:#667085;
+    font-size:17px;
+    margin-bottom:28px;
 }
 
-.hero-buttons {
-
-    display: flex;
-
-    flex-wrap: wrap;
-
-    gap: 10px;
+.hero-search{
+    display:flex;
+    max-width:600px;
+    border:1px solid #dce2e9;
+    border-radius:10px;
+    background:#fff;
+    overflow:hidden;
+    box-shadow:0 8px 30px rgba(23,32,51,.06);
 }
 
-.btn {
-
-    display: inline-block;
-
-    padding:
-        11px 19px;
-
-    border-radius: 8px;
-
-    font-size: 13px;
-
-    font-weight: 700;
+.hero-search input{
+    flex:1;
+    border:0;
+    outline:0;
+    padding:15px 17px;
+    font-size:14px;
 }
 
-.btn-primary {
-
-    background: #1261c9;
-
-    color: white;
+.hero-search button{
+    border:0;
+    background:#1769d2;
+    color:white;
+    padding:0 25px;
+    font-weight:700;
+    cursor:pointer;
 }
 
-.btn-primary:hover {
-    background: #0b4d9e;
+.hero-profile{
+    display:flex;
+    justify-content:center;
 }
 
-.btn-secondary {
-
-    background: white;
-
-    border: 1px solid #d5dce5;
-
-    color: #263244;
-}
-
-.btn-secondary:hover {
-
-    border-color: #1261c9;
-
-    color: #1261c9;
+.hero-profile img{
+    width:220px;
+    height:220px;
+    object-fit:cover;
+    border-radius:50%;
+    border:8px solid #f0f5fb;
 }
 
 
-/* PROFILE */
+/* ================================
+   QUICK LINKS
+================================ */
 
-.profile-card {
-
-    background: white;
-
-    border: 1px solid #e0e6ed;
-
-    border-radius: 16px;
-
-    padding: 28px;
-
-    box-shadow:
-        0 15px 40px rgba(20,40,70,.08);
+.quick-section{
+    background:#fff;
+    padding:25px 0;
+    border-bottom:1px solid #e8ecf1;
 }
 
-.profile-card img {
-
-    width: 92px;
-
-    height: 92px;
-
-    object-fit: cover;
-
-    border-radius: 50%;
-
-    border: 4px solid #edf5ff;
-
-    margin-bottom: 15px;
+.quick-grid{
+    display:grid;
+    grid-template-columns:repeat(6,1fr);
+    gap:12px;
 }
 
-.profile-card h2 {
-
-    font-size: 21px;
-
-    margin-bottom: 4px;
+.quick-card{
+    padding:15px 12px;
+    border:1px solid #e4e9ef;
+    border-radius:9px;
+    text-align:center;
+    background:#fff;
+    font-size:13px;
+    font-weight:700;
+    transition:.2s;
 }
 
-.profile-card p {
-
-    color: #6b7280;
-
-    font-size: 13px;
+.quick-card:hover{
+    transform:translateY(-2px);
+    border-color:#1769d2;
+    color:#1769d2;
 }
 
 
-/* =====================================================
-   SEARCH
-===================================================== */
+/* ================================
+   SECTION
+================================ */
 
-.search-wrapper {
-
-    max-width: 900px;
-
-    margin:
-        -25px auto 0;
-
-    padding: 0 20px;
-
-    position: relative;
-
-    z-index: 10;
+.section{
+    padding:55px 0;
 }
 
-.search-box {
-
-    background: white;
-
-    border: 1px solid #dfe5ec;
-
-    border-radius: 12px;
-
-    padding: 8px;
-
-    display: flex;
-
-    box-shadow:
-        0 12px 30px rgba(20,40,70,.08);
+.section-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:end;
+    margin-bottom:25px;
+    gap:20px;
 }
 
-.search-box input {
-
-    flex: 1;
-
-    min-width: 0;
-
-    border: 0;
-
-    outline: 0;
-
-    padding:
-        13px 15px;
-
-    font-size: 14px;
+.section-title{
+    font-size:27px;
+    letter-spacing:-.6px;
 }
 
-.search-box button {
+.section-description{
+    color:#7b8492;
+    font-size:14px;
+    margin-top:3px;
+}
 
-    border: 0;
-
-    border-radius: 8px;
-
-    padding:
-        0 24px;
-
-    background: #1261c9;
-
-    color: white;
-
-    font-size: 13px;
-
-    font-weight: 700;
-
-    cursor: pointer;
+.view-all{
+    font-size:13px;
+    font-weight:700;
+    color:#1769d2;
+    white-space:nowrap;
 }
 
 
-/* =====================================================
-   COMMON
-===================================================== */
+/* ================================
+   FEATURED
+================================ */
 
-.container {
-
-    max-width: 1240px;
-
-    margin: auto;
-
-    padding:
-        60px 20px;
+.featured-grid{
+    display:grid;
+    grid-template-columns:1.5fr .8fr;
+    gap:24px;
 }
 
-.section-header {
-
-    display: flex;
-
-    align-items: end;
-
-    justify-content: space-between;
-
-    gap: 20px;
-
-    margin-bottom: 25px;
+.featured-main{
+    background:#fff;
+    border:1px solid #e4e9ef;
+    border-radius:14px;
+    overflow:hidden;
+    transition:.25s;
 }
 
-.section-header h2 {
-
-    color: #111827;
-
-    font-size: 28px;
-
-    line-height: 1.2;
+.featured-main:hover{
+    transform:translateY(-3px);
+    box-shadow:0 12px 35px rgba(23,32,51,.08);
 }
 
-.section-header p {
-
-    color: #6b7280;
-
-    font-size: 13px;
-
-    margin-top: 5px;
+.featured-image{
+    height:280px;
+    background:#e9eef5;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#7c8796;
 }
 
-.view-all {
-
-    color: #1261c9;
-
-    font-size: 12px;
-
-    font-weight: 800;
-
-    white-space: nowrap;
+.featured-image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
 }
 
-
-/* =====================================================
-   FEATURED ARTICLE
-===================================================== */
-
-.featured-grid {
-
-    display: grid;
-
-    grid-template-columns:
-        1.5fr .75fr;
-
-    gap: 18px;
+.featured-content{
+    padding:25px;
 }
 
-.featured-main {
-
-    background: white;
-
-    border: 1px solid #e0e6ed;
-
-    border-radius: 14px;
-
-    padding: 32px;
-
-    position: relative;
-
-    overflow: hidden;
+.article-category{
+    color:#1769d2;
+    font-size:11px;
+    font-weight:800;
+    text-transform:uppercase;
+    letter-spacing:1px;
 }
 
-.featured-main::before {
-
-    content: "";
-
-    position: absolute;
-
-    left: 0;
-
-    top: 0;
-
-    width: 5px;
-
-    height: 100%;
-
-    background: #1261c9;
+.featured-content h3{
+    font-size:28px;
+    line-height:1.2;
+    margin:8px 0 10px;
 }
 
-.article-category {
-
-    color: #1261c9;
-
-    font-size: 10px;
-
-    font-weight: 800;
-
-    letter-spacing: .7px;
-
-    text-transform: uppercase;
+.article-description{
+    color:#6c7584;
+    font-size:14px;
 }
 
-.featured-main h3 {
-
-    font-size: 28px;
-
-    line-height: 1.25;
-
-    margin:
-        9px 0 12px;
-}
-
-.featured-main p {
-
-    color: #687485;
-
-    font-size: 14px;
-
-    max-width: 750px;
-
-    margin-bottom: 18px;
-}
-
-.read-more {
-
-    color: #1261c9;
-
-    font-size: 12px;
-
-    font-weight: 800;
-}
-
-.mini-articles {
-
-    display: grid;
-
-    gap: 18px;
-}
-
-.mini-article {
-
-    background: white;
-
-    border: 1px solid #e0e6ed;
-
-    border-radius: 14px;
-
-    padding: 23px;
-}
-
-.mini-article h3 {
-
-    font-size: 17px;
-
-    line-height: 1.35;
-
-    margin:
-        7px 0 8px;
-}
-
-.mini-article p {
-
-    color: #6b7280;
-
-    font-size: 12px;
+.read-more{
+    display:inline-block;
+    margin-top:18px;
+    color:#1769d2;
+    font-weight:700;
+    font-size:13px;
 }
 
 
-/* =====================================================
-   ARTICLE GRID
-===================================================== */
+/* ================================
+   LATEST
+================================ */
 
-.article-grid {
-
-    display: grid;
-
-    grid-template-columns:
-        repeat(3, 1fr);
-
-    gap: 18px;
+.latest-list{
+    background:#fff;
+    border:1px solid #e4e9ef;
+    border-radius:14px;
+    overflow:hidden;
 }
 
-.article-card {
-
-    background: white;
-
-    border: 1px solid #e0e6ed;
-
-    border-radius: 13px;
-
-    padding: 23px;
-
-    transition:
-        transform .2s ease,
-        box-shadow .2s ease,
-        border-color .2s ease;
+.latest-item{
+    display:block;
+    padding:18px 20px;
+    border-bottom:1px solid #edf0f4;
+    transition:.2s;
 }
 
-.article-card:hover {
-
-    transform:
-        translateY(-3px);
-
-    border-color: #c7d9f2;
-
-    box-shadow:
-        0 12px 30px rgba(20,40,70,.08);
+.latest-item:last-child{
+    border-bottom:0;
 }
 
-.article-card h3 {
-
-    font-size: 17px;
-
-    line-height: 1.35;
-
-    margin:
-        8px 0 9px;
+.latest-item:hover{
+    background:#f8fafc;
 }
 
-.article-card p {
-
-    color: #687485;
-
-    font-size: 12px;
-
-    margin-bottom: 13px;
+.latest-number{
+    color:#a0a8b4;
+    font-size:12px;
+    font-weight:800;
 }
 
-.article-date {
+.latest-item h4{
+    font-size:15px;
+    line-height:1.35;
+    margin-top:3px;
+}
 
-    color: #9aa3af;
-
-    font-size: 10px;
+.latest-date{
+    display:block;
+    color:#8a93a1;
+    font-size:11px;
+    margin-top:5px;
 }
 
 
-/* =====================================================
-   CATEGORY SECTION
-===================================================== */
+/* ================================
+   CATEGORY CARDS
+================================ */
 
-.category-section {
-
-    background: white;
-
-    border-top: 1px solid #e5e9ef;
-
-    border-bottom: 1px solid #e5e9ef;
+.category-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:18px;
 }
 
-.category-grid {
-
-    display: grid;
-
-    grid-template-columns:
-        repeat(4, 1fr);
-
-    gap: 17px;
+.category-card{
+    background:#fff;
+    border:1px solid #e3e8ee;
+    border-radius:12px;
+    padding:25px;
+    min-height:180px;
+    transition:.25s;
 }
 
-.category-card {
-
-    background: #fbfcfe;
-
-    border: 1px solid #e0e6ed;
-
-    border-radius: 13px;
-
-    padding: 24px;
+.category-card:hover{
+    transform:translateY(-4px);
+    box-shadow:0 12px 30px rgba(23,32,51,.07);
 }
 
-.category-icon {
-
-    width: 44px;
-
-    height: 44px;
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
-
-    border-radius: 10px;
-
-    background: #edf5ff;
-
-    font-size: 20px;
-
-    margin-bottom: 14px;
+.category-icon{
+    font-size:28px;
+    margin-bottom:14px;
 }
 
-.category-card h3 {
-
-    font-size: 18px;
-
-    margin-bottom: 7px;
+.category-card h3{
+    font-size:18px;
+    margin-bottom:6px;
 }
 
-.category-card p {
-
-    color: #6b7280;
-
-    font-size: 12px;
-
-    margin-bottom: 12px;
-}
-
-.category-card a {
-
-    color: #1261c9;
-
-    font-size: 11px;
-
-    font-weight: 800;
+.category-card p{
+    font-size:13px;
+    color:#707a89;
 }
 
 
-/* =====================================================
-   BANK CARDS
-===================================================== */
+/* ================================
+   DATA SECTION
+================================ */
 
-.bank-grid {
-
-    display: grid;
-
-    grid-template-columns:
-        repeat(6, 1fr);
-
-    gap: 12px;
+.data-section{
+    background:#ffffff;
+    border-top:1px solid #e8ecf1;
+    border-bottom:1px solid #e8ecf1;
 }
 
-.bank-card {
-
-    background: white;
-
-    border: 1px solid #e1e6ed;
-
-    border-radius: 10px;
-
-    padding: 14px;
-
-    min-height: 110px;
-
-    display: flex;
-
-    flex-direction: column;
-
-    justify-content: center;
-
-    text-align: center;
-
-    transition: .2s ease;
+.data-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:24px;
 }
 
-.bank-card:hover {
-
-    transform:
-        translateY(-2px);
-
-    border-color: #bfd3ee;
-
-    box-shadow:
-        0 8px 20px rgba(20,40,70,.06);
+.data-card{
+    background:#f8fafc;
+    border:1px solid #e3e8ee;
+    border-radius:13px;
+    overflow:hidden;
 }
 
-.bank-logo {
-
-    width: 42px;
-
-    height: 42px;
-
-    object-fit: contain;
-
-    margin:
-        0 auto 8px;
+.data-card-header{
+    padding:20px;
+    background:#fff;
+    border-bottom:1px solid #e3e8ee;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
 }
 
-.bank-name {
-
-    font-size: 11px;
-
-    font-weight: 700;
-
-    line-height: 1.3;
+.data-card-header h3{
+    font-size:18px;
 }
 
-.bank-code {
+.data-list{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}
 
-    color: #8a94a2;
+.data-item{
+    padding:15px 18px;
+    border-bottom:1px solid #e6eaf0;
+    border-right:1px solid #e6eaf0;
+    background:#f8fafc;
+}
 
-    font-size: 9px;
+.data-item strong{
+    display:block;
+    font-size:14px;
+}
 
-    margin-top: 3px;
+.data-item span{
+    font-size:11px;
+    color:#7c8795;
 }
 
 
-/* =====================================================
+/* ================================
    IPO
-===================================================== */
+================================ */
 
-.ipo-section {
-
-    background: #f0f6ff;
-
-    border-top: 1px solid #dfeafa;
-
-    border-bottom: 1px solid #dfeafa;
+.ipo-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:18px;
 }
 
-.ipo-grid {
-
-    display: grid;
-
-    grid-template-columns:
-        repeat(3, 1fr);
-
-    gap: 16px;
+.ipo-card{
+    background:#fff;
+    border:1px solid #e2e7ed;
+    border-radius:12px;
+    padding:20px;
 }
 
-.ipo-card {
-
-    background: white;
-
-    border: 1px solid #dbe5f1;
-
-    border-radius: 12px;
-
-    padding: 20px;
+.ipo-status{
+    display:inline-block;
+    font-size:10px;
+    font-weight:800;
+    text-transform:uppercase;
+    padding:4px 8px;
+    border-radius:20px;
+    background:#e8f5ec;
+    color:#188342;
+    margin-bottom:10px;
 }
 
-.ipo-status {
-
-    display: inline-block;
-
-    padding: 4px 8px;
-
-    border-radius: 20px;
-
-    font-size: 9px;
-
-    font-weight: 800;
-
-    margin-bottom: 8px;
+.ipo-status.upcoming{
+    background:#edf4ff;
+    color:#1769d2;
 }
 
-.status-current {
-
-    background: #dcfce7;
-
-    color: #15803d;
+.ipo-card h3{
+    font-size:16px;
+    line-height:1.35;
+    margin-bottom:8px;
 }
 
-.status-upcoming {
-
-    background: #dbeafe;
-
-    color: #1d4ed8;
-}
-
-.ipo-card h3 {
-
-    font-size: 16px;
-
-    line-height: 1.3;
-
-    margin-bottom: 6px;
-}
-
-.ipo-card p {
-
-    color: #6b7280;
-
-    font-size: 11px;
+.ipo-card p{
+    font-size:12px;
+    color:#7b8491;
 }
 
 
-/* =====================================================
+/* ================================
+   EXPLORE
+================================ */
+
+.explore-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:18px;
+}
+
+.explore-card{
+    position:relative;
+    background:#172033;
+    color:#fff;
+    min-height:170px;
+    border-radius:13px;
+    padding:25px;
+    overflow:hidden;
+}
+
+.explore-card small{
+    opacity:.65;
+}
+
+.explore-card h3{
+    font-size:22px;
+    margin:25px 0 5px;
+}
+
+.explore-card p{
+    font-size:12px;
+    opacity:.7;
+}
+
+
+/* ================================
    TOOLS
-===================================================== */
+================================ */
 
-.tools-section {
-
-    background: #ffffff;
+.tools-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:15px;
 }
 
-.tool-grid {
-
-    display: grid;
-
-    grid-template-columns:
-        repeat(4, 1fr);
-
-    gap: 16px;
+.tool-card{
+    background:#fff;
+    border:1px solid #e3e8ee;
+    padding:20px;
+    border-radius:11px;
+    font-weight:700;
+    font-size:14px;
+    transition:.2s;
 }
 
-.tool-card {
-
-    background: #f8fafc;
-
-    border: 1px solid #e0e6ed;
-
-    border-radius: 12px;
-
-    padding: 22px;
-}
-
-.tool-card h3 {
-
-    font-size: 16px;
-
-    margin-bottom: 6px;
-}
-
-.tool-card p {
-
-    color: #6b7280;
-
-    font-size: 12px;
-
-    margin-bottom: 12px;
-}
-
-.tool-card a {
-
-    color: #1261c9;
-
-    font-size: 11px;
-
-    font-weight: 800;
+.tool-card:hover{
+    border-color:#1769d2;
+    color:#1769d2;
 }
 
 
-/* =====================================================
-   LOADING
-===================================================== */
+/* ================================
+   ARTICLE GRID
+================================ */
 
-.loading {
+.article-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
 
-    grid-column:
-        1 / -1;
+.article-card{
+    background:#fff;
+    border:1px solid #e3e8ee;
+    border-radius:12px;
+    padding:21px;
+    transition:.25s;
+}
 
-    text-align: center;
+.article-card:hover{
+    transform:translateY(-3px);
+    box-shadow:0 10px 28px rgba(23,32,51,.07);
+}
 
-    color: #8b95a3;
+.article-card h3{
+    font-size:18px;
+    line-height:1.3;
+    margin:8px 0;
+}
 
-    padding: 30px;
+.article-card p{
+    font-size:13px;
+    color:#737d8c;
+}
+
+.article-date{
+    font-size:11px;
+    color:#8c95a2;
 }
 
 
-/* =====================================================
+/* ================================
+   CTA
+================================ */
+
+.cta{
+    background:#1769d2;
+    color:#fff;
+    border-radius:16px;
+    padding:40px;
+    margin:20px 0 60px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:25px;
+}
+
+.cta h2{
+    font-size:28px;
+    margin-bottom:5px;
+}
+
+.cta p{
+    opacity:.85;
+    font-size:14px;
+}
+
+.cta a{
+    background:#fff;
+    color:#1769d2;
+    padding:12px 20px;
+    border-radius:7px;
+    font-weight:800;
+    font-size:13px;
+    white-space:nowrap;
+}
+
+
+/* ================================
    FOOTER
-===================================================== */
+================================ */
 
-.footer {
-
-    background: #111827;
-
-    color: #aeb7c4;
-
-    padding:
-        45px 20px 20px;
+footer{
+    background:#111827;
+    color:#fff;
+    padding:45px 0 25px;
 }
 
-.footer-grid {
-
-    max-width: 1240px;
-
-    margin: auto;
-
-    display: grid;
-
-    grid-template-columns:
-        1.5fr 1fr 1fr 1fr;
-
-    gap: 35px;
+.footer-grid{
+    display:grid;
+    grid-template-columns:2fr 1fr 1fr 1fr;
+    gap:35px;
 }
 
-.footer h3 {
-
-    color: white;
-
-    font-size: 16px;
-
-    margin-bottom: 13px;
+footer h3{
+    font-size:17px;
+    margin-bottom:12px;
 }
 
-.footer p,
-.footer a {
-
-    color: #9ca6b4;
-
-    font-size: 12px;
+footer p,
+footer a{
+    color:#9ba5b5;
+    font-size:13px;
 }
 
-.footer a {
-
-    display: block;
-
-    margin-bottom: 7px;
+footer a{
+    display:block;
+    margin-bottom:6px;
 }
 
-.footer a:hover {
-    color: white;
+footer a:hover{
+    color:#fff;
 }
 
-.footer-bottom {
-
-    max-width: 1240px;
-
-    margin:
-        30px auto 0;
-
-    padding-top: 18px;
-
-    border-top: 1px solid #2c3542;
-
-    text-align: center;
-
-    color: #7f8997;
-
-    font-size: 11px;
+.footer-bottom{
+    border-top:1px solid #293142;
+    margin-top:30px;
+    padding-top:20px;
+    color:#7e899a;
+    font-size:12px;
+    text-align:center;
 }
 
 
-/* =====================================================
-   RESPONSIVE
-===================================================== */
+/* ================================
+   EMPTY / LOADING
+================================ */
 
-@media(max-width: 1050px) {
-
-    .bank-grid {
-        grid-template-columns:
-            repeat(3, 1fr);
-    }
-
+.loading{
+    color:#8a94a2;
+    font-size:13px;
+    padding:20px 0;
 }
 
-@media(max-width: 900px) {
-
-    .hero-inner,
-    .featured-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .category-grid {
-        grid-template-columns:
-            repeat(2, 1fr);
-    }
-
-    .article-grid {
-        grid-template-columns:
-            repeat(2, 1fr);
-    }
-
-    .ipo-grid {
-        grid-template-columns:
-            repeat(2, 1fr);
-    }
-
-    .tool-grid {
-        grid-template-columns:
-            repeat(2, 1fr);
-    }
-
-    .footer-grid {
-        grid-template-columns:
-            repeat(2, 1fr);
-    }
-
+.error{
+    color:#c0392b;
+    font-size:13px;
 }
 
-@media(max-width: 650px) {
 
-    .main-nav {
-        display: none;
+/* ================================
+   MOBILE
+================================ */
+
+@media(max-width:900px){
+
+    .main-nav{
+        display:none;
     }
 
-    .hero-inner {
-        padding:
-            55px 15px;
+    .header-search{
+        width:160px;
     }
 
-    .hero h1 {
-        font-size: 38px;
+    .hero-grid{
+        grid-template-columns:1fr;
     }
 
-    .hero-description {
-        font-size: 15px;
+    .hero-profile{
+        order:-1;
     }
 
-    .search-wrapper {
-        padding:
-            0 12px;
+    .hero{
+        padding:45px 0;
     }
 
-    .search-box {
-        flex-direction: column;
+    .hero-profile img{
+        width:150px;
+        height:150px;
     }
 
-    .search-box button {
-        height: 44px;
+    .quick-grid{
+        grid-template-columns:repeat(3,1fr);
     }
 
-    .container {
-        padding:
-            48px 15px;
+    .featured-grid,
+    .data-grid{
+        grid-template-columns:1fr;
     }
 
-    .section-header {
-        flex-direction: column;
-        align-items: flex-start;
+    .category-grid{
+        grid-template-columns:repeat(2,1fr);
     }
 
-    .article-grid,
+    .ipo-grid,
+    .article-grid{
+        grid-template-columns:1fr 1fr;
+    }
+
+    .footer-grid{
+        grid-template-columns:1fr 1fr;
+    }
+}
+
+
+@media(max-width:600px){
+
+    .container{
+        width:94%;
+    }
+
+    .header-inner{
+        min-height:60px;
+    }
+
+    .logo{
+        font-size:17px;
+    }
+
+    .header-search{
+        display:none;
+    }
+
+    .hero h1{
+        font-size:38px;
+        letter-spacing:-1.2px;
+    }
+
+    .hero-text{
+        font-size:15px;
+    }
+
+    .hero-search{
+        display:block;
+        border:0;
+        box-shadow:none;
+    }
+
+    .hero-search input{
+        width:100%;
+        border:1px solid #dce2e9;
+        border-radius:8px;
+        margin-bottom:8px;
+    }
+
+    .hero-search button{
+        width:100%;
+        height:45px;
+        border-radius:8px;
+    }
+
+    .quick-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .section{
+        padding:40px 0;
+    }
+
+    .section-header{
+        align-items:flex-start;
+    }
+
+    .section-title{
+        font-size:23px;
+    }
+
+    .featured-image{
+        height:200px;
+    }
+
+    .featured-content h3{
+        font-size:23px;
+    }
+
     .category-grid,
     .ipo-grid,
-    .tool-grid,
-    .footer-grid {
-        grid-template-columns: 1fr;
+    .article-grid,
+    .explore-grid,
+    .tools-grid{
+        grid-template-columns:1fr;
     }
 
-    .bank-grid {
-        grid-template-columns:
-            repeat(2, 1fr);
+    .data-list{
+        grid-template-columns:1fr;
     }
 
-}
-
-
-/* =====================================================
-   REDUCED MOTION
-===================================================== */
-
-@media(prefers-reduced-motion: reduce) {
-
-    html {
-        scroll-behavior: auto;
+    .cta{
+        display:block;
+        padding:30px 22px;
     }
 
-    * {
-        transition: none !important;
+    .cta a{
+        display:inline-block;
+        margin-top:20px;
     }
 
+    .footer-grid{
+        grid-template-columns:1fr;
+    }
 }
 
 </style>
 
-</head>
+<!-- WebSite Schema -->
+<script type="application/ld+json">
+{
+    "@context":"https://schema.org",
+    "@type":"WebSite",
+    "name":"Shyam Kumar K.C.",
+    "url":"https://shyamkumarkc20.com.np/",
+    "description":"Banking, finance, share market and Nepal information portal.",
+    "potentialAction":{
+        "@type":"SearchAction",
+        "target":"https://shyamkumarkc20.com.np/search?q={search_term_string}",
+        "query-input":"required name=search_term_string"
+    }
+}
+</script>
 
+</head>
 
 <body>
 
-
-<!-- =====================================================
+<!-- ================================
      HEADER
-===================================================== -->
+================================ -->
 
 <header class="site-header">
 
-<div class="header-inner">
+<div class="container header-inner">
 
 <a href="/" class="logo">
-SHYAM <span>KUMAR K.C.</span>
+    SHYAM <span>KUMAR K.C.</span>
 </a>
 
-<nav
-class="main-nav"
-aria-label="Main navigation">
-
-<a href="/banking/">
-Banking
-</a>
-
-<a href="/sharemarket/">
-Share Market
-</a>
-
-<a href="/article/">
-Articles
-</a>
-
-<a href="/nepal/">
-Nepal
-</a>
-
-<a href="/tools/">
-Tools
-</a>
-
+<nav class="main-nav">
+    <a href="/banking/">Banking</a>
+    <a href="/sharemarket/">Share Market</a>
+    <a href="/article/">Articles</a>
+    <a href="/nepal/">Nepal</a>
+    <a href="/tools/">Tools</a>
 </nav>
+
+<form class="header-search" action="/search" method="get">
+    <input
+        type="search"
+        name="q"
+        placeholder="Search..."
+        aria-label="Search website">
+</form>
 
 </div>
 
 </header>
 
 
-<!-- =====================================================
+<!-- ================================
      HERO
-===================================================== -->
+================================ -->
 
 <section class="hero">
 
-<div class="hero-inner">
+<div class="container hero-grid">
 
 <div>
 
 <span class="hero-label">
-NEPAL • BANKING • FINANCE • SHARE MARKET
+    Banking • Finance • Nepal
 </span>
 
 <h1>
-Banking, Finance &
-<span>Nepal Information</span>
+    Knowledge for <span>Nepal</span>
 </h1>
 
-<p class="hero-description">
-
-Practical articles, banking information,
-financial resources, share-market data,
-Nepal information and useful online tools.
-
+<p class="hero-text">
+    Explore banking information, financial articles,
+    share market resources, IPOs, Nepal information
+    and useful online tools.
 </p>
 
-<div class="hero-buttons">
-
-<a
-href="/banking/"
-class="btn btn-primary">
-Explore Banking
-</a>
-
-<a
-href="/sharemarket/"
-class="btn btn-secondary">
-Share Market
-</a>
-
-</div>
-
-</div>
-
-
-<div class="profile-card">
-
-<img
-src="/brp.jpg"
-alt="Shyam Kumar K.C."
-width="92"
-height="92"
-fetchpriority="high">
-
-<h2>
-Shyam Kumar K.C.
-</h2>
-
-<p>
-Banking, finance and Nepal
-information resource
-</p>
-
-</div>
-
-</div>
-
-</section>
-
-
-<!-- =====================================================
-     SEARCH
-===================================================== -->
-
-<div class="search-wrapper">
-
-<form
-class="search-box"
-action="/search"
-method="get">
+<form class="hero-search" action="/search" method="get">
 
 <input
-type="search"
-name="q"
-placeholder="Search articles, banks, IPO, NEPSE, NRB..."
-aria-label="Search website">
+    type="search"
+    name="q"
+    placeholder="Search banks, IPOs, articles, tools..."
+    aria-label="Search website">
 
 <button type="submit">
-Search
+    Search
 </button>
 
 </form>
 
 </div>
 
+<div class="hero-profile">
 
-<main>
+<img
+    src="/brp.jpg"
+    alt="Shyam Kumar K.C."
+    width="220"
+    height="220">
 
-
-<!-- =====================================================
-     FEATURED ARTICLES
-===================================================== -->
-
-<section class="container">
-
-<div class="section-header">
-
-<div>
-
-<h2>
-Featured Articles
-</h2>
-
-<p>
-Important and useful articles from the website.
-</p>
-
-</div>
-
-<a
-href="/article/"
-class="view-all">
-View all articles →
-</a>
-
-</div>
-
-
-<div
-id="featuredArticles"
-class="featured-grid">
-
-<div class="loading">
-Loading articles...
 </div>
 
 </div>
@@ -1387,41 +1017,40 @@ Loading articles...
 </section>
 
 
-<!-- =====================================================
-     LATEST ARTICLES
-===================================================== -->
+<!-- ================================
+     QUICK ACCESS
+================================ -->
 
-<section class="container">
+<section class="quick-section">
 
-<div class="section-header">
+<div class="container">
 
-<div>
+<div class="quick-grid">
 
-<h2>
-Latest Articles
-</h2>
-
-<p>
-Recently added and updated information.
-</p>
-
-</div>
-
-<a
-href="/article/"
-class="view-all">
-View all →
+<a class="quick-card" href="/banking/commercialbanks">
+    🏦 Commercial Banks
 </a>
 
-</div>
+<a class="quick-card" href="/banking/nepalrastrabank">
+    🏛️ Nepal Rastra Bank
+</a>
 
+<a class="quick-card" href="/sharemarket/ipo">
+    📊 IPO
+</a>
 
-<div
-id="latestArticles"
-class="article-grid">
+<a class="quick-card" href="/sharemarket/">
+    📈 NEPSE
+</a>
 
-<div class="loading">
-Loading latest articles...
+<a class="quick-card" href="/sharemarket/CDSC">
+    📑 CDSC
+</a>
+
+<a class="quick-card" href="/tools/emicalculator">
+    🧮 EMI Calculator
+</a>
+
 </div>
 
 </div>
@@ -1429,26 +1058,76 @@ Loading latest articles...
 </section>
 
 
-<!-- =====================================================
-     CATEGORIES
-===================================================== -->
+<!-- ================================
+     FEATURED
+================================ -->
 
-<section class="category-section">
+<section class="section">
 
 <div class="container">
 
 <div class="section-header">
 
 <div>
+<h2 class="section-title">Featured</h2>
+<p class="section-description">
+    Important guides and articles
+</p>
+</div>
 
-<h2>
-Explore by Category
+<a href="/article/" class="view-all">
+    View all →
+</a>
+
+</div>
+
+
+<div class="featured-grid">
+
+<div id="featuredArticle">
+    <div class="loading">Loading featured article...</div>
+</div>
+
+
+<div>
+
+<div class="section-header">
+<h2 class="section-title" style="font-size:21px;">
+    Latest
+</h2>
+</div>
+
+<div id="latestArticles" class="latest-list">
+    <div class="loading">Loading articles...</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ================================
+     CATEGORIES
+================================ -->
+
+<section class="section" style="padding-top:10px;">
+
+<div class="container">
+
+<div class="section-header">
+
+<div>
+<h2 class="section-title">
+    Explore by Category
 </h2>
 
-<p>
-Find information according to your interest.
+<p class="section-description">
+    Find information by topic
 </p>
-
 </div>
 
 </div>
@@ -1456,94 +1135,60 @@ Find information according to your interest.
 
 <div class="category-grid">
 
+<a href="/banking/" class="category-card">
 
-<div class="category-card">
+<div class="category-icon">🏦</div>
 
-<div class="category-icon">
-🏦
-</div>
-
-<h3>
-Banking & Finance
-</h3>
+<h3>Banking</h3>
 
 <p>
 Commercial banks, development banks,
-NRB, banking concepts and financial services.
+NRB, CIB, banking services and concepts.
 </p>
 
-<a href="/banking/">
-Explore Banking →
 </a>
 
-</div>
 
+<a href="/sharemarket/" class="category-card">
 
-<div class="category-card">
+<div class="category-icon">📈</div>
 
-<div class="category-icon">
-📈
-</div>
-
-<h3>
-Share Market
-</h3>
+<h3>Share Market</h3>
 
 <p>
-NEPSE, CDSC, SEBON, IPO, brokers,
-registrars and capital market resources.
+IPO, NEPSE, CDSC, brokers,
+MeroShare and capital market information.
 </p>
 
-<a href="/sharemarket/">
-Explore Share Market →
 </a>
 
-</div>
 
+<a href="/nepal/" class="category-card">
 
-<div class="category-card">
+<div class="category-icon">🇳🇵</div>
 
-<div class="category-icon">
-🇳🇵
-</div>
-
-<h3>
-Nepal
-</h3>
+<h3>Nepal</h3>
 
 <p>
-Geography, infrastructure, locations,
-cable cars, highways and national parks.
+Places, geography, highways,
+cable cars and useful information about Nepal.
 </p>
 
-<a href="/nepal/">
-Explore Nepal →
 </a>
 
-</div>
 
+<a href="/tools/" class="category-card">
 
-<div class="category-card">
+<div class="category-icon">🛠️</div>
 
-<div class="category-icon">
-🧮
-</div>
-
-<h3>
-Tools
-</h3>
+<h3>Tools</h3>
 
 <p>
-EMI calculator, converters, gold and silver
-information and useful utilities.
+Useful calculators, converters and
+other online tools.
 </p>
 
-<a href="/tools/">
-Explore Tools →
 </a>
-
-</div>
-
 
 </div>
 
@@ -1552,38 +1197,49 @@ Explore Tools →
 </section>
 
 
-<!-- =====================================================
-     COMMERCIAL BANKS
-===================================================== -->
+<!-- ================================
+     BANKING DATA
+================================ -->
 
-<section class="container">
+<section class="section data-section">
+
+<div class="container">
 
 <div class="section-header">
 
 <div>
-
-<h2>
-Commercial Banks in Nepal
+<h2 class="section-title">
+    Banking Directory
 </h2>
 
-<p>
-Quick access to commercial bank information.
+<p class="section-description">
+    Explore banking institutions
 </p>
-
 </div>
 
-<a
-href="/banking/commercialbanks"
-class="view-all">
-View all banks →
+<a href="/banking/commercialbanks" class="view-all">
+    Explore →
 </a>
 
 </div>
 
 
-<div
-id="commercialBanks"
-class="bank-grid">
+<div class="data-grid">
+
+<div class="data-card">
+
+<div class="data-card-header">
+
+<h3>Commercial Banks</h3>
+
+<a href="/banking/commercialbanks"
+class="view-all">
+View all
+</a>
+
+</div>
+
+<div id="commercialBanks" class="data-list">
 
 <div class="loading">
 Loading banks...
@@ -1591,41 +1247,23 @@ Loading banks...
 
 </div>
 
-</section>
-
-
-<!-- =====================================================
-     DEVELOPMENT BANKS
-===================================================== -->
-
-<section class="container">
-
-<div class="section-header">
-
-<div>
-
-<h2>
-Development Banks
-</h2>
-
-<p>
-Explore development banks and their information.
-</p>
-
 </div>
 
-<a
-href="/banking/developmentbanks"
+
+<div class="data-card">
+
+<div class="data-card-header">
+
+<h3>Development Banks</h3>
+
+<a href="/banking/developmentbanks"
 class="view-all">
-View all →
+View all
 </a>
 
 </div>
 
-
-<div
-id="developmentBanks"
-class="bank-grid">
+<div id="developmentBanks" class="data-list">
 
 <div class="loading">
 Loading banks...
@@ -1633,14 +1271,20 @@ Loading banks...
 
 </div>
 
+</div>
+
+</div>
+
+</div>
+
 </section>
 
 
-<!-- =====================================================
+<!-- ================================
      IPO
-===================================================== -->
+================================ -->
 
-<section class="ipo-section">
+<section class="section">
 
 <div class="container">
 
@@ -1648,28 +1292,24 @@ Loading banks...
 
 <div>
 
-<h2>
-IPO in Nepal
+<h2 class="section-title">
+    IPO & Issue Information
 </h2>
 
-<p>
-Current and upcoming public issues.
+<p class="section-description">
+    Current and upcoming public issues
 </p>
 
 </div>
 
-<a
-href="/sharemarket/ipo"
-class="view-all">
-View all IPOs →
+<a href="/sharemarket/ipo" class="view-all">
+    View IPO →
 </a>
 
 </div>
 
 
-<div
-id="ipoContainer"
-class="ipo-grid">
+<div id="ipoContainer" class="ipo-grid">
 
 <div class="loading">
 Loading IPO information...
@@ -1682,11 +1322,11 @@ Loading IPO information...
 </section>
 
 
-<!-- =====================================================
-     TOOLS
-===================================================== -->
+<!-- ================================
+     EXPLORE NEPAL
+================================ -->
 
-<section class="tools-section">
+<section class="section">
 
 <div class="container">
 
@@ -1694,95 +1334,107 @@ Loading IPO information...
 
 <div>
 
-<h2>
-Useful Online Tools
+<h2 class="section-title">
+    Explore Nepal
 </h2>
 
-<p>
-Simple tools for everyday financial needs.
+<p class="section-description">
+    Useful information about Nepal
 </p>
 
 </div>
 
-<a
-href="/tools/"
-class="view-all">
-View all tools →
+<a href="/nepal/" class="view-all">
+    Explore Nepal →
 </a>
 
 </div>
 
 
-<div class="tool-grid">
+<div class="explore-grid">
 
+<a href="/article/topplacestovisitinbhaktapur"
+class="explore-card">
 
-<div class="tool-card">
+<small>TRAVEL</small>
 
-<h3>
-EMI Calculator
-</h3>
-
-<p>
-Calculate monthly loan installments.
-</p>
-
-<a href="/tools/emicalculator">
-Open calculator →
-</a>
-
-</div>
-
-
-<div class="tool-card">
-
-<h3>
-Gold & Silver
-</h3>
+<h3>Bhaktapur</h3>
 
 <p>
-Explore gold and silver information.
+Places to visit and explore in Bhaktapur.
 </p>
 
-<a href="/tools/goldandsilver">
-Open tool →
 </a>
 
-</div>
 
+<a href="/nepal/cablecars"
+class="explore-card">
 
-<div class="tool-card">
+<small>TRANSPORT</small>
 
-<h3>
-Preeti → Unicode
-</h3>
+<h3>Cable Cars</h3>
 
 <p>
-Convert Nepali Preeti text to Unicode.
+Cable car information across Nepal.
 </p>
 
-<a href="/tools/preetitounicode">
-Open converter →
 </a>
 
-</div>
 
+<a href="/geography/HighwaysinNepal"
+class="explore-card">
 
-<div class="tool-card">
+<small>GEOGRAPHY</small>
 
-<h3>
-Nepal Locations
-</h3>
+<h3>Highways in Nepal</h3>
 
 <p>
-Explore useful location information.
+Explore Nepal's major highways.
 </p>
 
-<a href="/nepal/location">
-Explore locations →
 </a>
 
-</div>
 
+<a href="/nepal/nationalparks"
+class="explore-card">
+
+<small>NATURE</small>
+
+<h3>National Parks</h3>
+
+<p>
+Discover protected areas of Nepal.
+</p>
+
+</a>
+
+
+<a href="/nepal/petroleumprice"
+class="explore-card">
+
+<small>ECONOMY</small>
+
+<h3>Petroleum Price</h3>
+
+<p>
+Latest petroleum price information.
+</p>
+
+</a>
+
+
+<a href="/nepal/location"
+class="explore-card">
+
+<small>LOCATION</small>
+
+<h3>Nepal Locations</h3>
+
+<p>
+Explore locations and geographical information.
+</p>
+
+</a>
 
 </div>
 
@@ -1791,53 +1443,153 @@ Explore locations →
 </section>
 
 
-<!-- =====================================================
-     ABOUT
-===================================================== -->
+<!-- ================================
+     TOOLS
+================================ -->
 
-<section class="about">
+<section class="section">
 
-<div class="about-inner">
+<div class="container">
 
-<h2>
-About Shyam Kumar K.C.
+<div class="section-header">
+
+<div>
+
+<h2 class="section-title">
+    Useful Tools
 </h2>
 
-<p>
-
-This website provides practical information
-about banking, finance, Nepal's share market,
-financial concepts, Nepal-related information
-and useful online tools.
-
+<p class="section-description">
+    Simple tools for everyday use
 </p>
+
+</div>
+
+<a href="/tools/" class="view-all">
+    All tools →
+</a>
+
+</div>
+
+
+<div class="tools-grid">
+
+<a href="/tools/emicalculator" class="tool-card">
+    🧮 EMI Calculator
+</a>
+
+<a href="/tools/goldandsilver" class="tool-card">
+    🪙 Gold & Silver
+</a>
+
+<a href="/tools/preetitounicode" class="tool-card">
+    🔤 Preeti ↔ Unicode
+</a>
+
+<a href="/nepal/location" class="tool-card">
+    📍 Nepal Location
+</a>
+
+<a href="/banking/internet-banking" class="tool-card">
+    💻 Internet Banking
+</a>
+
+<a href="/banking/mobile-banking" class="tool-card">
+    📱 Mobile Banking
+</a>
+
+</div>
 
 </div>
 
 </section>
 
 
-</main>
+<!-- ================================
+     LATEST ARTICLES
+================================ -->
+
+<section class="section data-section">
+
+<div class="container">
+
+<div class="section-header">
+
+<div>
+
+<h2 class="section-title">
+    Latest Articles
+</h2>
+
+<p class="section-description">
+    Recently published information and guides
+</p>
+
+</div>
+
+<a href="/article/" class="view-all">
+    All articles →
+</a>
+
+</div>
 
 
-<!-- =====================================================
+<div id="articleGrid" class="article-grid">
+
+<div class="loading">
+Loading latest articles...
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ================================
+     CTA
+================================ -->
+
+<div class="container">
+
+<div class="cta">
+
+<div>
+
+<h2>Explore the Website</h2>
+
+<p>
+Banking, finance, share market, Nepal information
+and useful tools in one place.
+</p>
+
+</div>
+
+<a href="/article/">
+    Explore Articles →
+</a>
+
+</div>
+
+</div>
+
+
+<!-- ================================
      FOOTER
-===================================================== -->
+================================ -->
 
-<footer class="footer">
+<footer>
 
-<div class="footer-grid">
-
+<div class="container footer-grid">
 
 <div>
 
-<h3>
-SHYAM KUMAR K.C.
-</h3>
+<h3>SHYAM KUMAR K.C.</h3>
 
 <p>
-Banking, finance, share market,
-Nepal information and useful resources.
+Banking, finance, share market and
+Nepal information resource.
 </p>
 
 </div>
@@ -1845,13 +1597,7 @@ Nepal information and useful resources.
 
 <div>
 
-<h3>
-Banking
-</h3>
-
-<a href="/nepalrastrabank">
-Nepal Rastra Bank
-</a>
+<h3>Banking</h3>
 
 <a href="/banking/commercialbanks">
 Commercial Banks
@@ -1861,8 +1607,12 @@ Commercial Banks
 Development Banks
 </a>
 
-<a href="/banking/mobile-banking">
-Mobile Banking
+<a href="/banking/nepalrastrabank">
+Nepal Rastra Bank
+</a>
+
+<a href="/banking/internet-banking">
+Internet Banking
 </a>
 
 </div>
@@ -1870,24 +1620,22 @@ Mobile Banking
 
 <div>
 
-<h3>
-Share Market
-</h3>
+<h3>Share Market</h3>
 
 <a href="/sharemarket/">
 Share Market
 </a>
 
-<a href="/sharemarket/ShareRegistrar">
-Share Registrars
+<a href="/sharemarket/ipo">
+IPO
 </a>
 
-<a href="/sharemarket/merchantbanker">
-Merchant Bankers
+<a href="/sharemarket/CDSC">
+CDSC
 </a>
 
-<a href="/sharemarket/registeredcasbamembers">
-C-ASBA Members
+<a href="/sharemarket/sharebrokers">
+Share Brokers
 </a>
 
 </div>
@@ -1895,9 +1643,7 @@ C-ASBA Members
 
 <div>
 
-<h3>
-Explore
-</h3>
+<h3>Website</h3>
 
 <a href="/article/">
 Articles
@@ -1911,773 +1657,554 @@ Nepal
 Tools
 </a>
 
-<a href="/">
-Home
+<a href="/sitemap.xml">
+Sitemap
 </a>
 
 </div>
 
-
 </div>
 
 
-<div class="footer-bottom">
+<div class="container footer-bottom">
 
-© 2026 Shyam Kumar K.C. · All Rights Reserved
+© <span id="year"></span>
+Shyam Kumar K.C. All rights reserved.
 
 </div>
 
 </footer>
 
 
-<!-- =====================================================
-     DYNAMIC HOMEPAGE JAVASCRIPT
-===================================================== -->
-
 <script>
 
-"use strict";
+/* =================================
+   CONFIGURATION
+================================= */
+
+const BASE = "";
 
 
-/* =====================================================
-   HELPER
-===================================================== */
+/* =================================
+   HELPERS
+================================= */
 
-async function loadJSON(url) {
+async function loadJSON(url){
 
-    try {
+    const response = await fetch(url, {
+        cache:"no-cache"
+    });
 
-        const response = await fetch(url, {
-            cache: "no-cache"
-        });
-
-        if (!response.ok) {
-            throw new Error("Unable to load " + url);
-        }
-
-        return await response.json();
-
-    } catch (error) {
-
-        console.error(error);
-
-        return null;
+    if(!response.ok){
+        throw new Error("Unable to load " + url);
     }
+
+    return await response.json();
 }
 
 
-/* =====================================================
+function escapeHTML(value){
+
+    if(value === null || value === undefined){
+        return "";
+    }
+
+    return String(value)
+        .replace(/&/g,"&amp;")
+        .replace(/</g,"&lt;")
+        .replace(/>/g,"&gt;")
+        .replace(/"/g,"&quot;")
+        .replace(/'/g,"&#039;");
+}
+
+
+function formatDate(date){
+
+    if(!date){
+        return "";
+    }
+
+    const d = new Date(date);
+
+    if(isNaN(d)){
+        return escapeHTML(date);
+    }
+
+    return d.toLocaleDateString("en-US",{
+        year:"numeric",
+        month:"short",
+        day:"numeric"
+    });
+}
+
+
+/* =================================
    ARTICLES
-===================================================== */
+================================= */
 
-async function loadArticles() {
-
-    const data =
-        await loadJSON("/js/articles.json");
+async function loadArticles(){
 
     const featured =
-        document.getElementById("featuredArticles");
+        document.getElementById("featuredArticle");
 
     const latest =
         document.getElementById("latestArticles");
 
+    const articleGrid =
+        document.getElementById("articleGrid");
 
-    if (!data || !Array.isArray(data)) {
+    try{
 
-        featured.innerHTML = `
-            <article class="featured-main">
-                <div class="article-category">
-                    BANKING
-                </div>
+        const data =
+            await loadJSON("/js/articles.json");
 
-                <h3>
-                    Banking and Financial Information in Nepal
-                </h3>
+        let articles =
+            Array.isArray(data)
+            ? data
+            : data.articles || [];
 
-                <p>
-                    Explore banking, finance, share market
-                    and Nepal-related information.
-                </p>
-
-                <a href="/banking/"
-                   class="read-more">
-                    Explore Banking →
-                </a>
-            </article>
-        `;
-
-        latest.innerHTML = `
-            <article class="article-card">
-                <h3>
-                    Explore Our Articles
-                </h3>
-
-                <p>
-                    Browse banking, finance and
-                    Nepal-related articles.
-                </p>
-
-                <a href="/article/"
-                   class="read-more">
-                    View Articles →
-                </a>
-            </article>
-        `;
-
-        return;
-    }
-
-
-    /* Sort newest first */
-
-    data.sort(function(a, b) {
-
-        return new Date(b.date || 0)
-             - new Date(a.date || 0);
-
-    });
-
-
-    /* Featured article */
-
-    let featuredArticle =
-        data.find(item => item.featured === true)
-        || data[0];
-
-
-    const featuredHTML = `
-
-        <article class="featured-main">
-
-            <div class="article-category">
-                ${escapeHTML(featuredArticle.category || "ARTICLE")}
-            </div>
-
-            <h3>
-                ${escapeHTML(featuredArticle.title)}
-            </h3>
-
-            <p>
-                ${escapeHTML(featuredArticle.description || "")}
-            </p>
-
-            <a
-                href="${safeURL(featuredArticle.url)}"
-                class="read-more">
-
-                Read article →
-
-            </a>
-
-        </article>
-
-        <div class="mini-articles">
-
-            ${data
-                .filter(item =>
-                    item !== featuredArticle
-                )
-                .slice(0, 2)
-                .map(article => `
-
-                    <article class="mini-article">
-
-                        <div class="article-category">
-                            ${escapeHTML(
-                                article.category || "ARTICLE"
-                            )}
-                        </div>
-
-                        <h3>
-                            ${escapeHTML(article.title)}
-                        </h3>
-
-                        <p>
-                            ${escapeHTML(
-                                article.description || ""
-                            )}
-                        </p>
-
-                        <a
-                            href="${safeURL(article.url)}"
-                            class="read-more">
-
-                            Read article →
-
-                        </a>
-
-                    </article>
-
-                `)
-                .join("")}
-
-        </div>
-    `;
-
-
-    featured.innerHTML = featuredHTML;
-
-
-    /* Latest articles */
-
-    const latestArticles =
-        data
-        .filter(item =>
-            item !== featuredArticle
-        )
-        .slice(0, 6);
-
-
-    latest.innerHTML =
-        latestArticles
-        .map(article => `
-
-            <article class="article-card">
-
-                <div class="article-category">
-
-                    ${escapeHTML(
-                        article.category || "ARTICLE"
-                    )}
-
-                </div>
-
-                <h3>
-                    ${escapeHTML(article.title)}
-                </h3>
-
-                <p>
-                    ${escapeHTML(
-                        article.description || ""
-                    )}
-                </p>
-
-                <div class="article-date">
-
-                    ${formatDate(article.date)}
-
-                </div>
-
-                <br>
-
-                <a
-                    href="${safeURL(article.url)}"
-                    class="read-more">
-
-                    Read article →
-
-                </a>
-
-            </article>
-
-        `)
-        .join("");
-
-}
-
-
-/* =====================================================
-   COMMERCIAL BANKS
-===================================================== */
-
-async function loadCommercialBanks() {
-
-    const container =
-        document.getElementById(
-            "commercialBanks"
-        );
-
-    const data =
-        await loadJSON(
-            "/js/commercialbanks.json"
+        articles.sort((a,b)=>
+            new Date(b.updated || b.date || 0) -
+            new Date(a.updated || a.date || 0)
         );
 
 
-    if (!data) {
+        /* FEATURED */
 
-        container.innerHTML = `
-            <div class="loading">
-                Bank information unavailable.
-            </div>
-        `;
-
-        return;
-    }
+        const featuredArticle =
+            articles.find(a=>a.featured) ||
+            articles[0];
 
 
-    let banks =
-        Array.isArray(data)
-        ? data
-        : data.banks || [];
-
-
-    banks =
-        banks
-        .slice(0, 6);
-
-
-    container.innerHTML =
-        banks
-        .map(bank => {
-
-            const name =
-                bank.Name || "Bank";
-
-            const code =
-                bank.Code || "";
+        if(featuredArticle){
 
             const image =
-                bank.IMG || "";
+                featuredArticle.image
+                ? `
+                    <img
+                    src="${escapeHTML(featuredArticle.image)}"
+                    alt="${escapeHTML(featuredArticle.title)}"
+                    loading="lazy">
+                  `
+                :
+                `<span>Featured Article</span>`;
 
-            const url =
-                "/banking/commercialbanks?bank="
-                + encodeURIComponent(code);
+
+            featured.innerHTML = `
+
+                <article class="featured-main">
+
+                    <a href="${escapeHTML(featuredArticle.url)}">
+
+                        <div class="featured-image">
+
+                            ${image}
+
+                        </div>
+
+                        <div class="featured-content">
+
+                            <span class="article-category">
+                                ${escapeHTML(featuredArticle.category || "Article")}
+                            </span>
+
+                            <h3>
+                                ${escapeHTML(featuredArticle.title)}
+                            </h3>
+
+                            <p class="article-description">
+                                ${escapeHTML(featuredArticle.description || "")}
+                            </p>
+
+                            <span class="read-more">
+                                Read article →
+                            </span>
+
+                        </div>
+
+                    </a>
+
+                </article>
+
+            `;
+        }
 
 
-            return `
+        /* LATEST SIDE LIST */
+
+        const latestArticles =
+            articles.slice(0,6);
+
+        latest.innerHTML =
+            latestArticles.map((article,index)=>`
 
                 <a
-                    href="${url}"
-                    class="bank-card">
+                    href="${escapeHTML(article.url)}"
+                    class="latest-item">
 
-                    ${
-                        image
-                        ?
-                        `<img
-                            class="bank-logo"
-                            src="${safeImage(image)}"
-                            alt="${escapeHTML(name)}"
-                            width="42"
-                            height="42"
-                            loading="lazy">`
-                        :
-                        ""
-                    }
+                    <span class="latest-number">
+                        0${index+1}
+                    </span>
 
-                    <div class="bank-name">
-                        ${escapeHTML(name)}
-                    </div>
+                    <h4>
+                        ${escapeHTML(article.title)}
+                    </h4>
 
-                    <div class="bank-code">
-                        ${escapeHTML(code)}
-                    </div>
+                    <span class="latest-date">
+                        ${formatDate(
+                            article.updated ||
+                            article.date
+                        )}
+                    </span>
 
                 </a>
 
-            `;
+            `).join("");
 
-        })
-        .join("");
 
+        /* ARTICLE GRID */
+
+        articleGrid.innerHTML =
+            articles.slice(0,9).map(article=>`
+
+                <article class="article-card">
+
+                    <span class="article-category">
+                        ${escapeHTML(article.category || "Article")}
+                    </span>
+
+                    <h3>
+                        <a href="${escapeHTML(article.url)}">
+                            ${escapeHTML(article.title)}
+                        </a>
+                    </h3>
+
+                    <p>
+                        ${escapeHTML(
+                            article.description || ""
+                        )}
+                    </p>
+
+                    <span class="article-date">
+                        ${formatDate(
+                            article.updated ||
+                            article.date
+                        )}
+                    </span>
+
+                </article>
+
+            `).join("");
+
+    }
+
+    catch(error){
+
+        featured.innerHTML =
+            `<p class="error">
+                Featured article unavailable.
+             </p>`;
+
+        latest.innerHTML =
+            `<p class="error">
+                Articles unavailable.
+             </p>`;
+
+        articleGrid.innerHTML =
+            `<p class="error">
+                Unable to load articles.
+             </p>`;
+
+        console.error(error);
+    }
 }
 
 
-/* =====================================================
-   DEVELOPMENT BANKS
-===================================================== */
+/* =================================
+   COMMERCIAL BANKS
+================================= */
 
-async function loadDevelopmentBanks() {
+async function loadCommercialBanks(){
+
+    const container =
+        document.getElementById("commercialBanks");
+
+    try{
+
+        const data =
+            await loadJSON(
+                "/js/commercialbanks.json"
+            );
+
+        const banks =
+            Array.isArray(data)
+            ? data
+            : data.banks || [];
+
+        container.innerHTML =
+            banks.slice(0,8).map(bank=>`
+
+                <a
+                    class="data-item"
+                    href="/banking/commercialbanks?bank=${encodeURIComponent(
+                        bank.Code || ""
+                    )}">
+
+                    <strong>
+                        ${escapeHTML(
+                            bank.Name ||
+                            "Commercial Bank"
+                        )}
+                    </strong>
+
+                    <span>
+                        ${escapeHTML(
+                            bank.Code || ""
+                        )}
+                    </span>
+
+                </a>
+
+            `).join("");
+
+    }
+
+    catch(error){
+
+        container.innerHTML =
+            `<p class="error" style="padding:20px;">
+                Unable to load banks.
+             </p>`;
+
+        console.error(error);
+    }
+}
+
+
+/* =================================
+   DEVELOPMENT BANKS
+================================= */
+
+async function loadDevelopmentBanks(){
 
     const container =
         document.getElementById(
             "developmentBanks"
         );
 
-    const data =
-        await loadJSON(
-            "/js/developmentbanks.json"
-        );
+    try{
 
+        const data =
+            await loadJSON(
+                "/js/developmentbanks.json"
+            );
 
-    if (!data) {
+        const banks =
+            Array.isArray(data)
+            ? data
+            : data.banks || [];
 
-        container.innerHTML = `
-            <div class="loading">
-                Development bank information unavailable.
-            </div>
-        `;
-
-        return;
-    }
-
-
-    let banks =
-        Array.isArray(data)
-        ? data
-        : data.banks || [];
-
-
-    banks =
-        banks.slice(0, 6);
-
-
-    container.innerHTML =
-        banks
-        .map(bank => {
-
-            const name =
-                bank.Name || "Development Bank";
-
-            const code =
-                bank.Code || "";
-
-            const image =
-                bank.IMG || "";
-
-
-            /*
-             * Change this URL if your
-             * development-bank dynamic
-             * page uses another structure.
-             */
-
-            const url =
-                "/banking/developmentbanks";
-
-
-            return `
+        container.innerHTML =
+            banks.slice(0,8).map(bank=>`
 
                 <a
-                    href="${url}"
-                    class="bank-card">
+                    class="data-item"
+                    href="/banking/developmentbanks">
 
-                    ${
-                        image
-                        ?
-                        `<img
-                            class="bank-logo"
-                            src="${safeImage(image)}"
-                            alt="${escapeHTML(name)}"
-                            width="42"
-                            height="42"
-                            loading="lazy">`
-                        :
-                        ""
-                    }
+                    <strong>
+                        ${escapeHTML(
+                            bank.Name ||
+                            bank.name ||
+                            "Development Bank"
+                        )}
+                    </strong>
 
-                    <div class="bank-name">
-                        ${escapeHTML(name)}
-                    </div>
-
-                    <div class="bank-code">
-                        ${escapeHTML(code)}
-                    </div>
+                    <span>
+                        ${escapeHTML(
+                            bank.Code ||
+                            bank.code ||
+                            ""
+                        )}
+                    </span>
 
                 </a>
 
-            `;
+            `).join("");
 
-        })
-        .join("");
+    }
 
+    catch(error){
+
+        container.innerHTML =
+            `<p class="error" style="padding:20px;">
+                Unable to load banks.
+             </p>`;
+
+        console.error(error);
+    }
 }
 
 
-/* =====================================================
+/* =================================
    IPO
-===================================================== */
+================================= */
 
-async function loadIPO() {
+async function loadIPO(){
 
     const container =
         document.getElementById(
             "ipoContainer"
         );
 
-    const data =
-        await loadJSON(
-            "/js/ipo.json"
-        );
+    try{
+
+        const data =
+            await loadJSON("/js/ipo.json");
+
+        let current = [];
+        let upcoming = [];
+
+        if(Array.isArray(data)){
+
+            current = data;
+
+        }else{
+
+            current =
+                Array.isArray(data.ipo)
+                ? data.ipo
+                : [];
+
+            upcoming =
+                Array.isArray(data.future)
+                ? data.future
+                : [];
+        }
 
 
-    if (!data) {
+        const items = [
+            ...current.map(x=>({
+                ...x,
+                status:"Current"
+            })),
 
-        container.innerHTML = `
-            <div class="loading">
-                IPO information unavailable.
-            </div>
-        `;
-
-        return;
-    }
-
-
-    let current =
-        Array.isArray(data)
-        ? data
-        : (data.ipo || []);
+            ...upcoming.map(x=>({
+                ...x,
+                status:"Upcoming"
+            }))
+        ];
 
 
-    let future =
-        data.future || [];
+        if(!items.length){
+
+            container.innerHTML =
+                `<p class="loading">
+                    No IPO information available.
+                 </p>`;
+
+            return;
+        }
 
 
-    /*
-     * Current IPO first,
-     * then upcoming IPO.
-     */
-
-    let combined = [
-
-        ...current.map(item => ({
-            ...item,
-            status: "Current"
-        })),
-
-        ...future.map(item => ({
-            ...item,
-            status: "Upcoming"
-        }))
-
-    ];
-
-
-    combined =
-        combined.slice(0, 6);
-
-
-    if (!combined.length) {
-
-        container.innerHTML = `
-            <div class="loading">
-                No IPO information available.
-            </div>
-        `;
-
-        return;
-    }
-
-
-    container.innerHTML =
-        combined
-        .slice(0, 3)
-        .map(item => {
-
-            const name =
-                item.Name ||
-                item.name ||
-                item.company ||
-                "IPO";
-
-
-            const opening =
-                item.openingDate ||
-                item.openDate ||
-                "";
-
-
-            const closing =
-                item.closingDate ||
-                item.lastClosingDate ||
-                "";
-
-
-            const status =
-                item.status ||
-                "Upcoming";
-
-
-            const statusClass =
-                status === "Current"
-                ? "status-current"
-                : "status-upcoming";
-
-
-            return `
+        container.innerHTML =
+            items.slice(0,6).map(item=>`
 
                 <article class="ipo-card">
 
-                    <span
-                        class="ipo-status ${statusClass}">
+                    <span class="ipo-status
+                        ${item.status === "Upcoming"
+                        ? "upcoming"
+                        : ""}">
 
-                        ${escapeHTML(status)}
+                        ${item.status}
 
                     </span>
 
                     <h3>
-                        ${escapeHTML(name)}
+                        ${escapeHTML(
+                            item.Name ||
+                            item.name ||
+                            item.company ||
+                            "Public Issue"
+                        )}
                     </h3>
 
-                    ${
-                        opening
-                        ?
-                        `<p>
-                            Opening:
-                            ${escapeHTML(opening)}
-                        </p>`
-                        :
-                        ""
-                    }
+                    <p>
 
-                    ${
-                        closing
-                        ?
-                        `<p>
-                            Closing:
-                            ${escapeHTML(closing)}
-                        </p>`
-                        :
-                        ""
-                    }
+                        Opening:
+                        ${formatDate(
+                            item.openingDate
+                        )}
+
+                        <br>
+
+                        Closing:
+                        ${formatDate(
+                            item.closingDate ||
+                            item.lastClosingDate
+                        )}
+
+                    </p>
 
                 </article>
 
-            `;
+            `).join("");
 
-        })
-        .join("");
+    }
 
+    catch(error){
+
+        container.innerHTML =
+            `<p class="error">
+                IPO information unavailable.
+             </p>`;
+
+        console.error(error);
+    }
 }
 
 
-/* =====================================================
-   ESCAPE HTML
-===================================================== */
+/* =================================
+   INITIALIZE
+================================= */
 
-function escapeHTML(value) {
-
-    if (value === null ||
-        value === undefined) {
-
-        return "";
-
-    }
-
-    return String(value)
-        .replace(/&/g, "&amp;")
-        .replace(/</g, "&lt;")
-        .replace(/>/g, "&gt;")
-        .replace(/"/g, "&quot;")
-        .replace(/'/g, "&#039;");
-}
+document.getElementById("year").textContent =
+    new Date().getFullYear();
 
 
-/* =====================================================
-   SAFE URL
-===================================================== */
-
-function safeURL(url) {
-
-    if (!url) {
-        return "#";
-    }
-
-    const value =
-        String(url).trim();
-
-
-    /*
-     * Only allow internal URLs
-     * on the homepage.
-     */
-
-    if (
-        value.startsWith("/") &&
-        !value.startsWith("//")
-    ) {
-
-        return value;
-
-    }
-
-    return "#";
-}
-
-
-/* =====================================================
-   SAFE IMAGE
-===================================================== */
-
-function safeImage(url) {
-
-    if (!url) {
-        return "";
-    }
-
-    const value =
-        String(url).trim();
-
-
-    if (
-        value.startsWith("/") &&
-        !value.startsWith("//")
-    ) {
-
-        return value;
-
-    }
-
-    if (
-        value.startsWith("https://") ||
-        value.startsWith("http://")
-    ) {
-
-        return value;
-
-    }
-
-    return "";
-}
-
-
-/* =====================================================
-   DATE
-===================================================== */
-
-function formatDate(date) {
-
-    if (!date) {
-        return "";
-    }
-
-    const parsed =
-        new Date(date);
-
-    if (
-        Number.isNaN(
-            parsed.getTime()
-        )
-    ) {
-
-        return escapeHTML(date);
-
-    }
-
-    return parsed.toLocaleDateString(
-        "en-US",
-        {
-            year: "numeric",
-            month: "short",
-            day: "numeric"
-        }
-    );
-
-}
-
-
-/* =====================================================
-   LOAD EVERYTHING
-===================================================== */
-
-document.addEventListener(
-    "DOMContentLoaded",
-    function() {
-
-        loadArticles();
-
-        loadCommercialBanks();
-
-        loadDevelopmentBanks();
-
-        loadIPO();
-
-    }
-);
+loadArticles();
+loadCommercialBanks();
+loadDevelopmentBanks();
+loadIPO();
 
 </script>
 
-
 </body>
-
 </html>
+```
 
+### One important change I recommend
+
+For this homepage, upgrade your `articles.json` from the basic version to something like:
+
+```json
+[
+  {
+    "title": "Bank Guarantee in Nepal",
+    "description": "Complete guide to bank guarantee in Nepal, including types, validity, purpose and important banking concepts.",
+    "category": "Banking",
+    "url": "/article/bankguarantee",
+    "date": "2026-09-01",
+    "updated": "2026-09-05",
+    "image": "/images/bank-guarantee.jpg",
+    "featured": true,
+    "tags": ["Bank Guarantee", "Banking", "Nepal"]
+  }
+]
+
+
+That will allow the homepage to eventually support **Featured, Latest, Recently Updated, category filtering, article images and tags** without repeatedly changing the HTML.
+
+**Important:** the JavaScript is deliberately tolerant of your existing JSON structure, but the exact field names in your `developmentbanks.json` and `ipo.json` may need one small adjustment if they differ from the assumed fields.
+
+If you want, I can next make this homepage **much more premium—newspaper-style, with a large featured article, 3-column article grid, live IPO cards, bank logos, dark/light sections, and a mobile bottom navigation**, while still keeping it fast.
