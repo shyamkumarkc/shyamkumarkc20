@@ -9,10 +9,10 @@
     <title>Banking Hours & Transaction Timings in Nepal | Bank Hours</title>
 
     <meta name="description"
-        content="Find banking hours and transaction timings in Nepal. Check commercial bank branch information, regular banking hours, Friday timings, transaction cut-off times and important banking service timings.">
+        content="Find banking hours and transaction timings in Nepal. Check commercial bank branch information, summer and winter banking hours, Friday timings, transaction cut-off times and important banking service timings.">
 
     <meta name="keywords"
-        content="banking hours in Nepal, bank timing Nepal, bank opening time Nepal, bank closing time Nepal, banking transaction hours Nepal, commercial bank hours Nepal, Friday bank timing Nepal, bank working hours">
+        content="banking hours in Nepal, bank timing Nepal, bank opening time Nepal, bank closing time Nepal, banking transaction hours Nepal, commercial bank hours Nepal, summer bank timing Nepal, winter bank timing Nepal, Friday bank timing Nepal">
 
     <meta name="author" content="Shyam Kumar K.C.">
 
@@ -23,23 +23,34 @@
 
     <!-- Open Graph -->
     <meta property="og:type" content="article">
+
     <meta property="og:title"
         content="Banking Hours & Transaction Timings in Nepal">
+
     <meta property="og:description"
-        content="Complete guide to banking hours, transaction timings and commercial bank information in Nepal.">
+        content="Complete guide to banking hours, summer and winter banking timings, transaction timings and commercial bank information in Nepal.">
+
     <meta property="og:url"
         content="https://shyamkumarkc20.com.np/banking/bankinghours">
-    <meta property="og:site_name" content="SHYAM KUMAR K.C.">
 
-    <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+    <meta property="og:site_name"
+        content="SHYAM KUMAR K.C.">
 
-    <!-- Article Schema -->
+    <link rel="shortcut icon"
+        type="image/jpg"
+        href="/brp.jpg">
+
+
+    <!-- =========================
+         ARTICLE SCHEMA
+    ========================== -->
+
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "Banking Hours & Transaction Timings in Nepal",
-        "description": "Guide to banking hours, transaction timings and commercial bank information in Nepal.",
+        "description": "Guide to banking hours, summer and winter banking timings, transaction timings and commercial bank information in Nepal.",
         "author": {
             "@type": "Person",
             "name": "Shyam Kumar K.C."
@@ -56,12 +67,17 @@
     }
     </script>
 
-    <!-- FAQ Schema -->
+
+    <!-- =========================
+         FAQ SCHEMA
+    ========================== -->
+
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "FAQPage",
         "mainEntity": [
+
             {
                 "@type": "Question",
                 "name": "What are the normal banking hours in Nepal?",
@@ -70,14 +86,27 @@
                     "text": "Banking hours can vary by bank, branch, service and regulatory notices. Customers should check their bank or branch for the latest operating hours."
                 }
             },
+
             {
                 "@type": "Question",
-                "name": "Are banks open on Friday in Nepal?",
+                "name": "What are summer banking hours in Nepal?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Friday banking hours may be shorter than regular working days. Customers should check the latest schedule published by their bank or the relevant authority."
+                    "text": "Summer banking hours can differ between banks and branches. Customers should check the latest summer banking hours published by their respective bank."
                 }
             },
+
+            {
+                "@type": "Question",
+                "name": "What are winter banking hours in Nepal?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Winter banking hours can differ from summer banking hours. Customers should check the latest winter schedule published by their respective bank."
+                }
+            },
+
+            
+
             {
                 "@type": "Question",
                 "name": "Are ATM and mobile banking services available outside branch hours?",
@@ -86,6 +115,7 @@
                     "text": "Many digital and ATM services can remain available outside branch operating hours, but availability, maintenance periods and transaction limits depend on the bank and service."
                 }
             },
+
             {
                 "@type": "Question",
                 "name": "Do all commercial banks have the same transaction timing?",
@@ -94,814 +124,2603 @@
                     "text": "Not necessarily. Branch hours and transaction cut-off times may differ depending on the bank, branch, service and applicable regulatory instructions."
                 }
             }
+
         ]
     }
     </script>
 
+
+    <!-- =========================
+         CSS
+    ========================== -->
+
     <style>
+
         :root {
+
             --primary: #123c69;
+
             --secondary: #f4f7fb;
+
             --border: #dfe5ec;
+
             --text: #20262e;
+
             --muted: #667085;
+
             --white: #ffffff;
+
+            --summer-bg: #fff8e6;
+
+            --winter-bg: #eef7ff;
+
         }
+
 
         * {
+
             box-sizing: border-box;
+
         }
+
 
         html {
+
             scroll-behavior: smooth;
+
         }
+
 
         body {
+
             margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
+
+            font-family:
+                Arial,
+                Helvetica,
+                sans-serif;
+
             line-height: 1.7;
+
             color: var(--text);
+
             background: #ffffff;
+
         }
+
 
         a {
+
             color: var(--primary);
+
             text-decoration: none;
+
         }
+
 
         a:hover {
+
             text-decoration: underline;
+
         }
+
 
         .container {
+
             width: min(1180px, 94%);
+
             margin: auto;
+
         }
+
+
+        /* =========================
+           BREADCRUMB
+        ========================== */
 
         .breadcrumb {
+
             font-size: 14px;
+
             padding: 15px 0;
+
             color: var(--muted);
+
         }
+
 
         .breadcrumb a {
+
             font-weight: 600;
+
         }
+
+
+        /* =========================
+           HERO
+        ========================== */
 
         .hero {
+
             background: var(--secondary);
+
             border: 1px solid var(--border);
+
             border-radius: 14px;
+
             padding: 30px;
+
             margin-bottom: 25px;
+
         }
+
 
         h1 {
+
             margin: 0 0 12px;
-            font-size: clamp(30px, 5vw, 44px);
+
+            font-size:
+                clamp(30px, 5vw, 44px);
+
             line-height: 1.2;
+
             color: var(--primary);
+
         }
+
 
         h2 {
+
             margin-top: 35px;
+
             color: var(--primary);
+
             font-size: 27px;
+
         }
+
 
         h3 {
+
             color: var(--primary);
+
             margin-top: 25px;
+
         }
+
 
         .intro {
+
             font-size: 18px;
+
             max-width: 900px;
+
             margin: 0;
+
         }
+
 
         .updated {
+
             margin-top: 15px;
+
             color: var(--muted);
+
             font-size: 14px;
+
         }
+
+
+        /* =========================
+           NOTICE
+        ========================== */
 
         .notice {
+
             padding: 18px 20px;
-            border-left: 5px solid var(--primary);
+
+            border-left:
+                5px solid var(--primary);
+
             background: var(--secondary);
+
             border-radius: 8px;
+
             margin: 22px 0;
+
         }
+
+
+        /* =========================
+           CARDS
+        ========================== */
 
         .cards {
+
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+
+            grid-template-columns:
+                repeat(3, 1fr);
+
             gap: 16px;
+
             margin: 25px 0;
+
         }
+
 
         .card {
-            border: 1px solid var(--border);
+
+            border:
+                1px solid var(--border);
+
             border-radius: 12px;
+
             padding: 20px;
+
             background: var(--white);
+
         }
+
 
         .card strong {
+
             display: block;
+
             font-size: 18px;
+
             color: var(--primary);
+
             margin-bottom: 6px;
+
         }
+
+
+        /* =========================
+           TABLE
+        ========================== */
 
         .table-wrapper {
+
             width: 100%;
+
             overflow-x: auto;
-            margin: 20px 0 30px;
-            border: 1px solid var(--border);
+
+            margin:
+                20px 0 30px;
+
+            border:
+                1px solid var(--border);
+
             border-radius: 10px;
+
+            -webkit-overflow-scrolling: touch;
+
         }
 
+
         table {
+
             width: 100%;
-            min-width: 700px;
+
+            min-width: 800px;
+
             border-collapse: collapse;
+
         }
+
 
         th,
         td {
-            padding: 13px 14px;
-            border-bottom: 1px solid var(--border);
+
+            padding:
+                13px 14px;
+
+            border-bottom:
+                1px solid var(--border);
+
             text-align: left;
+
+            vertical-align: top;
+
         }
+
 
         th {
+
             background: var(--secondary);
+
             color: var(--primary);
+
             font-weight: 700;
+
+            white-space: nowrap;
+
         }
+
 
         tr:last-child td {
+
             border-bottom: none;
+
         }
+
+
+        /* =========================
+           SEARCH
+        ========================== */
 
         .search-box {
+
             width: 100%;
-            padding: 13px 15px;
-            border: 1px solid var(--border);
+
+            padding:
+                13px 15px;
+
+            border:
+                1px solid var(--border);
+
             border-radius: 8px;
+
             font-size: 16px;
-            margin: 10px 0 15px;
+
+            margin:
+                10px 0 15px;
+
+            outline: none;
+
         }
+
+
+        .search-box:focus {
+
+            border-color:
+                var(--primary);
+
+            box-shadow:
+                0 0 0 3px
+                rgba(18, 60, 105, 0.08);
+
+        }
+
+
+        /* =========================
+           TIMING TABS
+        ========================== */
+
+        .timing-tabs {
+
+            display: flex;
+
+            flex-wrap: wrap;
+
+            gap: 10px;
+
+            margin:
+                20px 0 15px;
+
+        }
+
+
+        .timing-tab {
+
+            border:
+                1px solid var(--border);
+
+            background:
+                var(--white);
+
+            color:
+                var(--primary);
+
+            padding:
+                11px 18px;
+
+            border-radius: 8px;
+
+            font-size: 15px;
+
+            font-weight: 700;
+
+            cursor: pointer;
+
+            transition:
+                all 0.2s ease;
+
+        }
+
+
+        .timing-tab:hover {
+
+            background:
+                var(--secondary);
+
+        }
+
+
+        .timing-tab.active {
+
+            background:
+                var(--primary);
+
+            color:
+                var(--white);
+
+            border-color:
+                var(--primary);
+
+        }
+
+
+        /* =========================
+           TIMING INFO
+        ========================== */
+
+        .timing-info {
+
+            display: flex;
+
+            flex-direction: column;
+
+            gap: 2px;
+
+            padding:
+                14px 17px;
+
+            margin-bottom: 15px;
+
+            border-left:
+                4px solid var(--primary);
+
+            background:
+                var(--secondary);
+
+            border-radius: 7px;
+
+        }
+
+
+        .timing-info strong {
+
+            color:
+                var(--primary);
+
+            font-size: 16px;
+
+        }
+
+
+        .timing-info span {
+
+            color:
+                var(--muted);
+
+            font-size: 14px;
+
+        }
+
+
+        /* =========================
+           BANK HOURS
+        ========================== */
+
+        .bank-hours {
+
+            font-weight: 600;
+
+            white-space: nowrap;
+
+        }
+
+
+        .summer-hours {
+
+            color: #9a6500;
+
+        }
+
+
+        .winter-hours {
+
+            color: #245b82;
+
+        }
+
+
+        .both-hours {
+
+            display: flex;
+
+            flex-direction: column;
+
+            gap: 7px;
+
+            min-width: 230px;
+
+        }
+
+
+        .hour-item {
+
+            padding:
+                7px 9px;
+
+            border-radius: 6px;
+
+            background:
+                var(--secondary);
+
+        }
+
+
+        .hour-label {
+
+            display: block;
+
+            font-size: 12px;
+
+            font-weight: 700;
+
+            color:
+                var(--muted);
+
+            margin-bottom: 2px;
+
+        }
+
+
+        .hour-value {
+
+            font-weight: 600;
+
+        }
+
+
+        /* =========================
+           SMALL NOTE
+        ========================== */
 
         .small-note {
-            color: var(--muted);
+
+            color:
+                var(--muted);
+
             font-size: 14px;
+
         }
+
+
+        /* =========================
+           RELATED LINKS
+        ========================== */
 
         .links {
+
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+
+            grid-template-columns:
+                repeat(2, 1fr);
+
             gap: 12px;
-            margin: 20px 0;
+
+            margin:
+                20px 0;
+
         }
+
 
         .links a {
+
             display: block;
-            border: 1px solid var(--border);
+
+            border:
+                1px solid var(--border);
+
             border-radius: 8px;
-            padding: 13px 15px;
-            background: var(--secondary);
+
+            padding:
+                13px 15px;
+
+            background:
+                var(--secondary);
+
             font-weight: 600;
+
         }
+
+
+        .links a:hover {
+
+            text-decoration: none;
+
+            border-color:
+                var(--primary);
+
+        }
+
+
+        /* =========================
+           FAQ
+        ========================== */
 
         .faq {
-            border-top: 1px solid var(--border);
-            padding: 18px 0;
+
+            border-top:
+                1px solid var(--border);
+
+            padding:
+                18px 0;
+
         }
+
 
         .faq h3 {
-            margin: 0 0 7px;
+
+            margin:
+                0 0 7px;
+
             font-size: 18px;
+
         }
+
+
+        /* =========================
+           FOOTER
+        ========================== */
 
         footer {
+
             margin-top: 45px;
-            padding: 25px 0;
-            border-top: 1px solid var(--border);
-            color: var(--muted);
+
+            padding:
+                25px 0;
+
+            border-top:
+                1px solid var(--border);
+
+            color:
+                var(--muted);
+
             font-size: 14px;
+
         }
+
+
+        /* =========================
+           MOBILE
+        ========================== */
 
         @media (max-width: 800px) {
+
             .cards {
+
                 grid-template-columns: 1fr;
+
             }
+
 
             .links {
+
                 grid-template-columns: 1fr;
+
             }
+
 
             .hero {
+
                 padding: 22px;
+
             }
+
 
             h2 {
+
                 font-size: 24px;
+
             }
 
+
             .intro {
+
                 font-size: 16px;
+
             }
+
+
+            .timing-tabs {
+
+                display: grid;
+
+                grid-template-columns: 1fr;
+
+            }
+
+
+            .timing-tab {
+
+                width: 100%;
+
+                text-align: center;
+
+            }
+
+
+            .both-hours {
+
+                min-width: 200px;
+
+            }
+
         }
+
     </style>
+
 </head>
+
 
 <body>
 
-    <!-- Existing site header -->
+
+    <!-- =========================
+         EXISTING SITE HEADER
+    ========================== -->
+
     <div id="header"></div>
+
 
     <main class="container">
 
-        <nav class="breadcrumb" aria-label="Breadcrumb">
-            <a href="/">Home</a>
-            &nbsp;›&nbsp;
-            <a href="/banking">Banking</a>
-            &nbsp;›&nbsp;
-            Banking Hours & Transaction Timings
-        </nav>
+
+        <!-- =========================
+             BREADCRUMB
+        ========================== -->
+
+        
+
 
         <article>
 
+
+            <!-- =========================
+                 HERO
+            ========================== -->
+
             <header class="hero">
-                <h1>Banking Hours & Transaction Timings in Nepal</h1>
+
+                <h1>
+                    Banking Hours & Transaction Timings in Nepal
+                </h1>
+
 
                 <p class="intro">
-                    Banking hours in Nepal can vary according to the bank,
-                    branch, banking service, weekday, season and instructions
-                    issued by Nepal Rastra Bank. This page provides a practical
-                    guide to bank opening hours, transaction timings and
-                    commercial banks in Nepal.
+
+                    Banking hours in Nepal can vary according to
+                    the bank, branch, banking service, weekday,
+                    season and instructions issued by Nepal
+                    Rastra Bank. This page provides a practical
+                    guide to bank opening hours, summer and
+                    winter banking timings, transaction timings
+                    and commercial banks in Nepal.
+
                 </p>
+
 
                 <p class="updated">
-                    <strong>Last reviewed:</strong> September 2026
+
+                    <strong>Last reviewed:</strong>
+                    September 2026
+
                 </p>
+
             </header>
 
+
+            <!-- =========================
+                 BANKING HOURS
+            ========================== -->
+
             <section>
-                <h2>Banking Hours in Nepal</h2>
+
+                <h2>
+                    Banking Hours in Nepal
+                </h2>
+
 
                 <p>
-                    Bank branch operating hours and transaction hours are not
-                    necessarily identical. A branch may remain open while
-                    particular banking transactions have a separate cut-off
-                    time.
+
+                    Bank branch operating hours and transaction
+                    hours are not necessarily identical. A branch
+                    may remain open while particular banking
+                    transactions have a separate cut-off time.
+
                 </p>
 
+
                 <p>
-                    Customers should therefore check the latest schedule of
-                    their bank and branch before visiting, particularly during
-                    public holidays, special notices, seasonal schedules or
-                    changes issued by the regulator.
+
+                    Customers should therefore check the latest
+                    schedule of their bank and branch before
+                    visiting, particularly during public holidays,
+                    special notices, seasonal schedules or changes
+                    issued by the regulator.
+
                 </p>
+
 
                 <div class="notice">
+
                     <strong>Important:</strong>
-                    Banking hours may change because of public holidays,
-                    special regulatory notices, local circumstances or bank
-                    branch arrangements. The table on this page is intended as
-                    a general reference and should not be treated as a
-                    guarantee that every branch operates at exactly the same
-                    time.
+
+                    Banking hours may change because of public
+                    holidays, special regulatory notices, local
+                    circumstances or bank branch arrangements.
+                    The bank timings shown below are based on
+                    the available data in the website's commercial
+                    bank.
+
                 </div>
+
             </section>
 
+
+            <!-- =========================
+                 GENERAL TIMINGS
+            ========================== -->
+
             <section>
-                <h2>General Banking Transaction Timings</h2>
+
+                <h2>
+                    General Banking Transaction Timings
+                </h2>
+
 
                 <div class="cards">
 
-                    <div class="card">
-                        <strong>Sunday–Thursday</strong>
-                        <span>
-                            Regular banking days. Actual branch and transaction
-                            hours can vary by bank and service.
-                        </span>
-                    </div>
 
                     <div class="card">
-                        <strong>Friday</strong>
+
+                        <strong>
+                            Monday–Friday
+                        </strong>
+
                         <span>
-                            Many banking and regulatory services operate for
-                            shorter hours on Friday.
+
+                            Regular banking days. Actual branch
+                            and transaction hours can vary by
+                            bank and service.
+
                         </span>
+
                     </div>
 
+
+                   
+
+
                     <div class="card">
-                        <strong>Public Holidays</strong>
+
+                        <strong>
+                            Public Holidays
+                        </strong>
+
                         <span>
-                            Branch services may be closed or limited. Banks
-                            may publish special holiday arrangements.
+
+                            Branch services may be closed or
+                            limited. Banks may publish special
+                            holiday arrangements.
+
                         </span>
+
                     </div>
+
 
                 </div>
+
             </section>
 
+
+            <!-- =========================
+                 NRB TIMINGS
+            ========================== -->
+
             <section>
-                <h2>Nepal Rastra Bank Banking Transaction Hours</h2>
+
+                <h2>
+                    Nepal Rastra Bank Banking Transaction Hours
+                </h2>
+
 
                 <p>
-                    Nepal Rastra Bank publishes specific operating schedules
-                    for its banking transactions. These should be distinguished
-                    from the branch opening hours of individual commercial
-                    banks.
+
+                    Nepal Rastra Bank publishes specific operating
+                    schedules for its banking transactions. These
+                    should be distinguished from the branch opening
+                    hours of individual commercial banks.
+
                 </p>
 
+
                 <div class="table-wrapper">
+
                     <table>
+
                         <thead>
+
                             <tr>
-                                <th>Period</th>
-                                <th>Day</th>
-                                <th>General Banking Transaction Time</th>
+
+                                <th>
+                                    Period
+                                </th>
+
+                                <th>
+                                    Day
+                                </th>
+
+                                <th>
+                                    General Banking Transaction Time
+                                </th>
+
                             </tr>
+
                         </thead>
 
+
                         <tbody>
-                            <tr>
-                                <td>Magh 16 – Kartik 15</td>
-                                <td>Sunday – Thursday</td>
-                                <td>10:00 AM – 4:00 PM</td>
-                            </tr>
 
                             <tr>
-                                <td>Magh 16 – Kartik 15</td>
-                                <td>Friday</td>
-                                <td>10:00 AM – 12:30 PM</td>
+
+                                <td>
+                                    Magh 16 – Kartik 15
+                                </td>
+
+                                <td>
+                                    Monday – Friday
+                                </td>
+
+                                <td>
+                                    10:00 AM – 4:00 PM
+                                </td>
+
                             </tr>
 
-                            <tr>
-                                <td>Kartik 16 – Magh 15</td>
-                                <td>Sunday – Thursday</td>
-                                <td>10:00 AM – 3:00 PM</td>
-                            </tr>
+
+                           
+
 
                             <tr>
-                                <td>Kartik 16 – Magh 15</td>
-                                <td>Friday</td>
-                                <td>10:00 AM – 12:30 PM</td>
+
+                                <td>
+                                    Kartik 16 – Magh 15
+                                </td>
+
+                                <td>
+                                    Monday – Friday
+                                </td>
+
+                                <td>
+                                    10:00 AM – 3:00 PM
+                                </td>
+
                             </tr>
+
+
+                            
+
                         </tbody>
+
                     </table>
+
                 </div>
+
 
                 <p class="small-note">
-                    These timings refer to banking transactions published by
-                    Nepal Rastra Bank and should not automatically be assumed
-                    to be the exact customer-service hours of every commercial
+
+                    These timings refer to banking transactions
+                    published by Nepal Rastra Bank and should
+                    not automatically be assumed to be the exact
+                    customer-service hours of every commercial
                     bank branch.
+
                 </p>
+
             </section>
 
+
+            <!-- =========================
+                 ECC / IPS
+            ========================== -->
+
+
+            <!-- =========================
+                 COMMERCIAL BANKS
+            ========================== -->
+
             <section>
-                <h2>ECC and IPS Transaction Timings</h2>
+
+                <h2>
+                    Commercial Banks in Nepal – Banking Hours
+                </h2>
+
 
                 <p>
-                    Electronic Cheque Clearing System (ECC) and Interbank
-                    Payment System (IPS) have their own transaction schedules.
-                    Their operating hours can therefore differ from ordinary
-                    branch customer-service hours.
+
+                    The following table is generated from their own website. Select
+                    <strong>Summer</strong>,
+                    <strong>Winter</strong>, or
+                    <strong>Both</strong> to compare the banking
+                    hours of commercial banks in Nepal.
+
                 </p>
 
-                <div class="table-wrapper">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Period</th>
-                                <th>Day</th>
-                                <th>ECC</th>
-                                <th>IPS</th>
-                            </tr>
-                        </thead>
 
-                        <tbody>
-                            <tr>
-                                <td>Magh 16 – Kartik 15</td>
-                                <td>Sunday – Thursday</td>
-                                <td>10:00 AM – 3:00 PM</td>
-                                <td>10:00 AM – 5:00 PM</td>
-                            </tr>
+                <!-- =========================
+                     TIMING TABS
+                ========================== -->
 
-                            <tr>
-                                <td>Magh 16 – Kartik 15</td>
-                                <td>Friday</td>
-                                <td>10:00 AM – 1:00 PM</td>
-                                <td>10:00 AM – 5:00 PM</td>
-                            </tr>
+                <div
+                    class="timing-tabs"
+                    role="tablist"
+                    aria-label="Banking hours">
 
-                            <tr>
-                                <td>Kartik 16 – Magh 15</td>
-                                <td>Sunday – Thursday</td>
-                                <td>10:00 AM – 3:00 PM</td>
-                                <td>10:00 AM – 4:00 PM</td>
-                            </tr>
 
-                            <tr>
-                                <td>Kartik 16 – Magh 15</td>
-                                <td>Friday</td>
-                                <td>10:00 AM – 1:00 PM</td>
-                                <td>10:00 AM – 4:00 PM</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <button
+                        type="button"
+                        class="timing-tab active"
+                        data-timing="summer"
+                        role="tab"
+                        aria-selected="true">
+
+                        ☀️ Summer Hours
+
+                    </button>
+
+
+                    <button
+                        type="button"
+                        class="timing-tab"
+                        data-timing="winter"
+                        role="tab"
+                        aria-selected="false">
+
+                        ❄️ Winter Hours
+
+                    </button>
+
+
+                    <button
+                        type="button"
+                        class="timing-tab"
+                        data-timing="both"
+                        role="tab"
+                        aria-selected="false">
+
+                        🕐 Both Hours
+
+                    </button>
+
+
                 </div>
-            </section>
 
-            <section>
-                <h2>Commercial Banks in Nepal</h2>
 
-                <p>
-                    The following table is generated from the
-                    <code>/js/commercialbanks.json</code> data file used by
-                    this website. This allows the bank directory to be updated
-                    from a single data source.
-                </p>
+                <!-- =========================
+                     TIMING DESCRIPTION
+                ========================== -->
+
+                <div
+                    class="timing-info"
+                    id="timingInfo">
+
+
+                    <strong>
+                        ☀️ Summer Banking Hours
+                    </strong>
+
+
+                    <span>
+
+                        Showing summer banking hours
+                        for commercial banks.
+
+                    </span>
+
+
+                </div>
+
+
+                <!-- =========================
+                     SEARCH
+                ========================== -->
 
                 <input
                     type="search"
                     id="bankSearch"
                     class="search-box"
-                    placeholder="Search commercial bank..."
+                    placeholder="Search bank by name, code, head office or NEPSE symbol..."
                     aria-label="Search commercial banks">
 
-                <!--
-                    SEO NOTE:
-                    The bank information is generated from the existing JSON
-                    file. The JavaScript enhances the table with search.
-                -->
+
+                <!-- =========================
+                     BANK TABLE
+                ========================== -->
 
                 <div class="table-wrapper">
+
                     <table id="bankTable">
+
                         <thead>
+
                             <tr>
-                                <th>S.N.</th>
-                                <th>Bank Name</th>
-                                <th>Code</th>
-                                <th>Head Office</th>
-                                <th>NEPSE Symbol</th>
+
+                                <th>
+                                    S.N.
+                                </th>
+
+                                <th>
+                                    Bank Name
+                                </th>
+
+                                <th>
+                                    Code
+                                </th>
+
+                                <th>
+                                    Head Office
+                                </th>
+
+                                <th>
+                                    NEPSE
+                                </th>
+
+                                <th>
+                                    ☀️ Summer Banking Hours
+                                </th>
+
                             </tr>
+
                         </thead>
 
+
                         <tbody id="bankTableBody">
+
                             <tr>
-                                <td colspan="5">
-                                    Loading commercial bank information...
+
+                                <td colspan="6">
+
+                                    Loading commercial bank
+                                    information...
+
                                 </td>
+
                             </tr>
+
                         </tbody>
+
                     </table>
+
                 </div>
+
 
                 <p class="small-note">
-                    Bank information is loaded from the website's commercial
-                    bank JSON dataset. Always verify branch-specific opening
+
+                    Bank information and banking-hour data are
+                    loaded from the website's commercial bank
+                    JSON dataset. Branch-specific schedules may
+                    differ. Always verify the latest operating
                     hours with the respective bank before visiting.
+
                 </p>
+
             </section>
 
+
+            <!-- =========================
+                 DIGITAL SERVICES
+            ========================== -->
+
             <section>
-                <h2>Banking Services Available Outside Branch Hours</h2>
+
+                <h2>
+                    Banking Services Available Outside Branch Hours
+                </h2>
+
 
                 <p>
-                    Branches have fixed operating schedules, but many banking
-                    services can be accessed electronically outside normal
-                    branch hours.
+
+                    Branches have fixed operating schedules, but
+                    many banking services can be accessed
+                    electronically outside normal branch hours.
+
                 </p>
+
 
                 <ul>
-                    <li>Mobile banking</li>
-                    <li>Internet banking</li>
-                    <li>ATM services</li>
-                    <li>Digital fund transfers</li>
-                    <li>Card payments</li>
-                    <li>Some account and payment services through digital channels</li>
+
+                    <li>
+                        Mobile banking
+                    </li>
+
+                    <li>
+                        Internet banking
+                    </li>
+
+                    <li>
+                        ATM services
+                    </li>
+
+                    <li>
+                        Digital fund transfers
+                    </li>
+
+                    <li>
+                        Card payments
+                    </li>
+
+                    <li>
+                        Some account and payment services through
+                        digital channels
+                    </li>
+
                 </ul>
 
+
                 <p>
-                    Availability and transaction limits depend on the bank,
-                    service, system maintenance and applicable rules.
+
+                    Availability and transaction limits depend
+                    on the bank, service, system maintenance
+                    and applicable rules.
+
                 </p>
+
             </section>
 
+
+            <!-- =========================
+                 CUT-OFF TIME
+            ========================== -->
+
             <section>
-                <h2>Banking Hours vs Transaction Cut-off Time</h2>
+
+                <h2>
+                    Banking Hours vs Transaction Cut-off Time
+                </h2>
+
 
                 <p>
-                    One of the most important points for customers is that
-                    <strong>branch opening time does not always mean that every
-                    transaction can be processed until the branch closes</strong>.
+
+                    One of the most important points for customers
+                    is that <strong>branch opening time does not
+                    always mean that every transaction can be
+                    processed until the branch closes</strong>.
+
                 </p>
 
+
                 <p>
-                    For example, cheque clearing, IPS, RTGS and other payment
-                    systems may have separate operating sessions and cut-off
-                    times. Customers making time-sensitive transactions should
-                    therefore check the applicable service schedule.
+
+                    For example, cheque clearing, IPS, RTGS and
+                    other payment systems may have separate
+                    operating sessions and cut-off times.
+                    Customers making time-sensitive transactions
+                    should therefore check the applicable service
+                    schedule.
+
                 </p>
+
             </section>
 
+
+            <!-- =========================
+                 FAQ
+            ========================== -->
+
             <section>
-                <h2>Frequently Asked Questions</h2>
+
+                <h2>
+                    Frequently Asked Questions
+                </h2>
+
 
                 <div class="faq">
-                    <h3>What are the normal banking hours in Nepal?</h3>
+
+                    <h3>
+                        What are the normal banking hours in Nepal?
+                    </h3>
+
                     <p>
-                        Banking hours depend on the bank, branch, service and
-                        applicable regulatory schedule. Customers should check
-                        their specific bank or branch for the latest hours.
+
+                        Banking hours depend on the bank, branch,
+                        service and applicable regulatory schedule.
+                        Customers should check their specific bank
+                        or branch for the latest hours.
+
                     </p>
+
                 </div>
 
-                <div class="faq">
-                    <h3>Are banks open on Friday in Nepal?</h3>
-                    <p>
-                        Friday hours can be shorter than regular banking days.
-                        The exact schedule may depend on the bank and current
-                        regulatory instructions.
-                    </p>
-                </div>
 
                 <div class="faq">
-                    <h3>Can I use mobile banking after bank closing time?</h3>
+
+                    <h3>
+                        What are summer banking hours in Nepal?
+                    </h3>
+
                     <p>
-                        Many mobile banking services remain available outside
-                        branch hours, although some transactions may be subject
-                        to limits, maintenance periods or service-specific
+
+                        Summer banking hours can vary by bank and
+                        branch. The commercial-bank table above
+                        displays the summer hours stored in the
+                        website's bank dataset.
+
+                    </p>
+
+                </div>
+
+
+                <div class="faq">
+
+                    <h3>
+                        What are winter banking hours in Nepal?
+                    </h3>
+
+                    <p>
+
+                        Winter banking hours may differ from summer
+                        hours. Select the Winter Hours tab above
+                        to view the winter schedule available for
+                        each commercial bank.
+
+                    </p>
+
+                </div>
+
+
+
+
+                <div class="faq">
+
+                    <h3>
+                        Can I use mobile banking after bank
+                        closing time?
+                    </h3>
+
+                    <p>
+
+                        Many mobile banking services remain
+                        available outside branch hours, although
+                        some transactions may be subject to limits,
+                        maintenance periods or service-specific
                         cut-off times.
+
                     </p>
+
                 </div>
+
 
                 <div class="faq">
-                    <h3>Do all commercial banks have the same banking hours?</h3>
+
+                    <h3>
+                        Do all commercial banks have the same
+                        banking hours?
+                    </h3>
+
                     <p>
-                        No. Bank and branch operating schedules can differ.
-                        Customers should confirm the operating hours of the
-                        particular branch they plan to visit.
+
+                        No. Bank and branch operating schedules can
+                        differ. Customers should confirm the
+                        operating hours of the particular branch
+                        they plan to visit.
+
                     </p>
+
                 </div>
+
             </section>
 
+
+            <!-- =========================
+                 RELATED PAGES
+            ========================== -->
+
             <section>
-                <h2>Related Banking Pages</h2>
+
+                <h2>
+                    Related Banking Pages
+                </h2>
+
 
                 <div class="links">
+
+
                     <a href="/banking/commercialbanks">
+
                         Commercial Banks in Nepal
+
                     </a>
+
 
                     <a href="/banking/mobile-banking">
+
                         Mobile Banking in Nepal
+
                     </a>
+
 
                     <a href="/banking/internet-banking">
+
                         Internet Banking in Nepal
+
                     </a>
+
 
                     <a href="/article/cheque">
+
                         Cheque in Nepal
+
                     </a>
+
 
                     <a href="/article/cib">
+
                         Credit Information Bureau (CIB)
+
                     </a>
+
 
                     <a href="/article/bankguarantee">
+
                         Bank Guarantee in Nepal
+
                     </a>
+
+
                 </div>
+
             </section>
+
+
+            <!-- =========================
+                 SOURCE
+            ========================== -->
 
             <section>
-                <h2>Source and Data Note</h2>
+
+                <h2>
+                    Source and Data Note
+                </h2>
+
 
                 <p>
-                    Banking transaction schedules should be checked against
-                    the latest notices and instructions published by
-                    <a href="https://www.nrb.org.np/" target="_blank"
+
+                    Banking transaction schedules should be
+                    checked against the latest notices and
+                    instructions published by
+
+                    <a
+                        href="https://www.nrb.org.np/"
+                        target="_blank"
                         rel="noopener noreferrer">
+
                         Nepal Rastra Bank
+
                     </a>.
+
                 </p>
 
-                <p>
-                    <strong>Bank directory data:</strong>
-                    <code>/js/commercialbanks.json</code>
-                </p>
 
-                <p>
-                    <strong>Website:</strong>
-                    SHYAM KUMAR K.C.
-                </p>
+                
+
+
+                
             </section>
+
 
         </article>
 
-        <footer>
-            © <span id="year"></span> SHYAM KUMAR K.C.
-        </footer>
+
+       
+        
 
     </main>
 
+
     <!-- Existing site footer -->
+
     <div id="footer"></div>
 
+
+    <!-- =========================
+         JQUERY HEADER / FOOTER
+    ========================== -->
+
     <script>
-        /* Existing website header/footer */
+
         if (window.jQuery) {
-            $('#header').load('/assets/header.html');
-            $('#footer').load('/assets/footer.html');
+
+            $('#header')
+                .load('/assets/header.html');
+
+            $('#footer')
+                .load('/assets/footer.html');
+
         }
+
     </script>
 
+
+    <!-- =========================
+         COMMERCIAL BANK JAVASCRIPT
+    ========================== -->
+
     <script>
+
         /*
-         * Commercial Banks
+         * ============================================
+         * COMMERCIAL BANK DATA
+         * ============================================
+         *
          * Data source:
+         *
          * /js/commercialbanks.json
+         *
+         * Summer:
+         * shours
+         *
+         * Winter:
+         * whours
+         *
          */
 
-        const bankBody = document.getElementById("bankTableBody");
-        const bankSearch = document.getElementById("bankSearch");
+
+        const bankBody =
+            document.getElementById(
+                "bankTableBody"
+            );
+
+
+        const bankSearch =
+            document.getElementById(
+                "bankSearch"
+            );
+
+
+        const timingTabs =
+            document.querySelectorAll(
+                ".timing-tab"
+            );
+
+
+        const timingInfo =
+            document.getElementById(
+                "timingInfo"
+            );
+
 
         let commercialBanks = [];
 
+
+        /*
+         * Default tab
+         */
+
+        let currentTiming = "summer";
+
+
+        /* ============================================
+           ESCAPE HTML
+        ============================================ */
+
         function escapeHTML(value) {
+
             return String(value ?? "")
-                .replace(/&/g, "&amp;")
-                .replace(/</g, "&lt;")
-                .replace(/>/g, "&gt;")
-                .replace(/"/g, "&quot;")
-                .replace(/'/g, "&#039;");
+
+                .replace(
+                    /&/g,
+                    "&amp;"
+                )
+
+                .replace(
+                    /</g,
+                    "&lt;"
+                )
+
+                .replace(
+                    />/g,
+                    "&gt;"
+                )
+
+                .replace(
+                    /"/g,
+                    "&quot;"
+                )
+
+                .replace(
+                    /'/g,
+                    "&#039;"
+                );
+
         }
 
-        function getValue(bank, keys) {
-            for (const key of keys) {
+
+        /* ============================================
+           GET VALUE
+        ============================================ */
+
+        function getValue(
+            bank,
+            keys
+        ) {
+
+            for (
+                const key of keys
+            ) {
+
                 if (
+
                     bank[key] !== undefined &&
+
                     bank[key] !== null &&
+
                     bank[key] !== ""
+
                 ) {
+
                     return bank[key];
+
                 }
+
             }
+
 
             return "";
+
         }
 
-        function renderBanks(list) {
 
-            if (!list.length) {
-                bankBody.innerHTML = `
-                    <tr>
-                        <td colspan="5">
-                            No commercial bank found.
-                        </td>
-                    </tr>
-                `;
-                return;
-            }
+        /* ============================================
+           GET BANK TIMING
+        ============================================ */
 
-            bankBody.innerHTML = list.map((bank, index) => {
+        function getBankHours(
+            bank,
+            type
+        ) {
 
-                const sno = getValue(bank, ["SNO", "SN", "sno"]);
-                const name = getValue(bank, [
-                    "Name",
-                    "name",
-                    "BankName",
-                    "bankName"
-                ]);
 
-                const code = getValue(bank, [
-                    "Code",
-                    "code"
-                ]);
+            /*
+             * IMPORTANT:
+             *
+             * Summer and Winter are read
+             * separately.
+             *
+             * shours = Summer
+             * whours = Winter
+             */
 
-                const headOffice = getValue(bank, [
-                    "HO",
-                    "HeadOffice",
-                    "headOffice",
-                    "Address"
-                ]);
 
-                const nepse = getValue(bank, [
-                    "NEPSE",
-                    "nepse",
-                    "Symbol",
-                    "symbol"
-                ]);
+            const summer =
+                getValue(
+                    bank,
+                    [
+                        "shours",
+                        "summerHours",
+                        "summer",
+                        "sHours"
+                    ]
+                );
+
+
+            const winter =
+                getValue(
+                    bank,
+                    [
+                        "whours",
+                        "winterHours",
+                        "winter",
+                        "wHours"
+                    ]
+                );
+
+
+            /* =========================
+               SUMMER
+            ========================== */
+
+            if (
+                type === "summer"
+            ) {
 
                 return `
-                    <tr>
-                        <td>${escapeHTML(sno || index + 1)}</td>
-                        <td>
-                            <strong>${escapeHTML(name)}</strong>
-                        </td>
-                        <td>${escapeHTML(code)}</td>
-                        <td>${escapeHTML(headOffice)}</td>
-                        <td>${escapeHTML(nepse)}</td>
-                    </tr>
+
+                    <span
+                        class="bank-hours summer-hours">
+
+                        ${escapeHTML(
+                            summer ||
+                            "Not available"
+                        )}
+
+                    </span>
+
                 `;
 
-            }).join("");
+            }
+
+
+            /* =========================
+               WINTER
+            ========================== */
+
+            if (
+                type === "winter"
+            ) {
+
+                return `
+
+                    <span
+                        class="bank-hours winter-hours">
+
+                        ${escapeHTML(
+                            winter ||
+                            "Not available"
+                        )}
+
+                    </span>
+
+                `;
+
+            }
+
+
+            /* =========================
+               BOTH
+            ========================== */
+
+            return `
+
+                <div class="both-hours">
+
+
+                    <div class="hour-item">
+
+                        <span class="hour-label">
+
+                            ☀️ Summer
+
+                        </span>
+
+
+                        <span
+                            class="hour-value summer-hours">
+
+                            ${escapeHTML(
+                                summer ||
+                                "Not available"
+                            )}
+
+                        </span>
+
+                    </div>
+
+
+                    <div class="hour-item">
+
+                        <span class="hour-label">
+
+                            ❄️ Winter
+
+                        </span>
+
+
+                        <span
+                            class="hour-value winter-hours">
+
+                            ${escapeHTML(
+                                winter ||
+                                "Not available"
+                            )}
+
+                        </span>
+
+                    </div>
+
+
+                </div>
+
+            `;
+
         }
 
-        async function loadCommercialBanks() {
 
-            try {
+        /* ============================================
+           UPDATE TABLE HEADER
+        ============================================ */
 
-                const response = await fetch(
-                    "/js/commercialbanks.json",
-                    {
-                        cache: "no-cache"
+        function updateTableHeader() {
+
+
+            const table =
+                document.getElementById(
+                    "bankTable"
+                );
+
+
+            const headerRow =
+                table.querySelector(
+                    "thead tr"
+                );
+
+
+            let timingHeader = "";
+
+
+            /* =========================
+               SUMMER
+            ========================== */
+
+            if (
+                currentTiming ===
+                "summer"
+            ) {
+
+
+                timingHeader = `
+
+                    <th>
+                        ☀️ Summer Banking Hours
+                    </th>
+
+                `;
+
+
+                timingInfo.innerHTML = `
+
+                    <strong>
+                        ☀️ Summer Banking Hours
+                    </strong>
+
+                    <span>
+
+                        Showing summer banking hours
+                        for commercial banks.
+
+                    </span>
+
+                `;
+
+            }
+
+
+            /* =========================
+               WINTER
+            ========================== */
+
+            else if (
+                currentTiming ===
+                "winter"
+            ) {
+
+
+                timingHeader = `
+
+                    <th>
+                        ❄️ Winter Banking Hours
+                    </th>
+
+                `;
+
+
+                timingInfo.innerHTML = `
+
+                    <strong>
+                        ❄️ Winter Banking Hours
+                    </strong>
+
+                    <span>
+
+                        Showing winter banking hours
+                        for commercial banks.
+
+                    </span>
+
+                `;
+
+            }
+
+
+            /* =========================
+               BOTH
+            ========================== */
+
+            else {
+
+
+                timingHeader = `
+
+                    <th>
+                        ☀️ Summer Hours
+                    </th>
+
+                    <th>
+                        ❄️ Winter Hours
+                    </th>
+
+                `;
+
+
+                timingInfo.innerHTML = `
+
+                    <strong>
+                        🕐 Summer & Winter Banking Hours
+                    </strong>
+
+                    <span>
+
+                        Comparing summer and winter
+                        banking hours for commercial banks.
+
+                    </span>
+
+                `;
+
+            }
+
+
+            /*
+             * Rebuild table header.
+             */
+
+            headerRow.innerHTML = `
+
+                <th>
+                    S.N.
+                </th>
+
+                <th>
+                    Bank Name
+                </th>
+
+               
+
+                
+
+                
+
+                ${timingHeader}
+
+            `;
+
+        }
+
+
+        /* ============================================
+           RENDER BANKS
+        ============================================ */
+
+        function renderBanks(
+            list
+        ) {
+
+
+            if (
+                !list.length
+            ) {
+
+
+                const colspan =
+                    currentTiming ===
+                    "both"
+                        ? 7
+                        : 6;
+
+
+                bankBody.innerHTML = `
+
+                    <tr>
+
+                        <td
+                            colspan="${colspan}">
+
+                            No commercial bank found.
+
+                        </td>
+
+                    </tr>
+
+                `;
+
+
+                return;
+
+            }
+
+
+            bankBody.innerHTML =
+                list.map(
+
+                    (
+                        bank,
+                        index
+                    ) => {
+
+
+                        /* =====================
+                           BASIC INFORMATION
+                        ====================== */
+
+
+                        const sno =
+                            getValue(
+                                bank,
+                                [
+                                    "SNO",
+                                    "SN",
+                                    "sno"
+                                ]
+                            );
+
+
+                        const name =
+                            getValue(
+                                bank,
+                                [
+                                    "Name",
+                                    "name",
+                                    "BankName",
+                                    "bankName"
+                                ]
+                            );
+
+
+                        const code =
+                            getValue(
+                                bank,
+                                [
+                                    "Code",
+                                    "code"
+                                ]
+                            );
+
+
+                        const headOffice =
+                            getValue(
+                                bank,
+                                [
+                                    "HO",
+                                    "HeadOffice",
+                                    "headOffice",
+                                    "Address"
+                                ]
+                            );
+
+
+                        const nepse =
+                            getValue(
+                                bank,
+                                [
+                                    "NEPSE",
+                                    "nepse",
+                                    "Symbol",
+                                    "symbol"
+                                ]
+                            );
+
+
+                        /*
+                         * Read hours.
+                         */
+
+                        const summer =
+                            getValue(
+                                bank,
+                                [
+                                    "shours",
+                                    "summerHours",
+                                    "summer",
+                                    "sHours"
+                                ]
+                            );
+
+
+                        const winter =
+                            getValue(
+                                bank,
+                                [
+                                    "whours",
+                                    "winterHours",
+                                    "winter",
+                                    "wHours"
+                                ]
+                            );
+
+
+                        let timingHTML = "";
+
+
+                        /* =====================
+                           SUMMER
+                        ====================== */
+
+                        if (
+                            currentTiming ===
+                            "summer"
+                        ) {
+
+
+                            timingHTML = `
+
+                                <td>
+
+                                    <span
+                                        class="bank-hours summer-hours">
+
+                                        ${escapeHTML(
+                                            summer ||
+                                            "Not available"
+                                        )}
+
+                                    </span>
+
+                                </td>
+
+                            `;
+
+                        }
+
+
+                        /* =====================
+                           WINTER
+                        ====================== */
+
+                        else if (
+                            currentTiming ===
+                            "winter"
+                        ) {
+
+
+                            timingHTML = `
+
+                                <td>
+
+                                    <span
+                                        class="bank-hours winter-hours">
+
+                                        ${escapeHTML(
+                                            winter ||
+                                            "Not available"
+                                        )}
+
+                                    </span>
+
+                                </td>
+
+                            `;
+
+                        }
+
+
+                        /* =====================
+                           BOTH
+                        ====================== */
+
+                        else {
+
+
+                            timingHTML = `
+
+                                <td>
+
+                                    <div
+                                        class="both-hours">
+
+
+                                        <div
+                                            class="hour-item">
+
+                                            <span
+                                                class="hour-label">
+
+                                                ☀️ Summer
+
+                                            </span>
+
+
+                                            <span
+                                                class="hour-value summer-hours">
+
+                                                ${escapeHTML(
+                                                    summer ||
+                                                    "Not available"
+                                                )}
+
+                                            </span>
+
+                                        </div>
+
+
+                                        <div
+                                            class="hour-item">
+
+                                            <span
+                                                class="hour-label">
+
+                                                ❄️ Winter
+
+                                            </span>
+
+
+                                            <span
+                                                class="hour-value winter-hours">
+
+                                                ${escapeHTML(
+                                                    winter ||
+                                                    "Not available"
+                                                )}
+
+                                            </span>
+
+                                        </div>
+
+
+                                    </div>
+
+                                </td>
+
+                            `;
+
+                        }
+
+
+                        /* =====================
+                           ROW
+                        ====================== */
+
+                        return `
+
+                            <tr>
+
+
+                                <td>
+
+                                    ${escapeHTML(
+                                        sno ||
+                                        index + 1
+                                    )}
+
+                                </td>
+
+
+                                <td>
+
+                                    <strong>
+
+                                        ${escapeHTML(
+                                            name
+                                        )}
+
+                                    </strong>
+
+                                </td>
+
+
+                                
+
+
+                                ${timingHTML}
+
+
+                            </tr>
+
+                        `;
+
+                    }
+
+                ).join("");
+
+        }
+
+
+        /* ============================================
+           REFRESH TABLE
+        ============================================ */
+
+        function refreshBankTable() {
+
+
+            /*
+             * First update header.
+             */
+
+            updateTableHeader();
+
+
+            /*
+             * Search text.
+             */
+
+            const query =
+                bankSearch.value
+                    .trim()
+                    .toLowerCase();
+
+
+            let filteredBanks =
+                commercialBanks;
+
+
+            /*
+             * Filter bank data.
+             */
+
+            if (
+                query
+            ) {
+
+
+                filteredBanks =
+                    commercialBanks.filter(
+                        bank => {
+
+                            return JSON.stringify(
+                                bank
+                            )
+                            .toLowerCase()
+                            .includes(
+                                query
+                            );
+
+                        }
+                    );
+
+            }
+
+
+            /*
+             * Render.
+             */
+
+            renderBanks(
+                filteredBanks
+            );
+
+        }
+
+
+        /* ============================================
+           TIMING TAB CLICK
+        ============================================ */
+
+        timingTabs.forEach(
+            tab => {
+
+
+                tab.addEventListener(
+                    "click",
+                    function () {
+
+
+                        /*
+                         * Read timing from
+                         * clicked button.
+                         */
+
+                        currentTiming =
+                            this.dataset.timing;
+
+
+                        /*
+                         * Remove active
+                         * state.
+                         */
+
+                        timingTabs.forEach(
+                            button => {
+
+                                button.classList
+                                    .remove(
+                                        "active"
+                                    );
+
+
+                                button.setAttribute(
+                                    "aria-selected",
+                                    "false"
+                                );
+
+                            }
+                        );
+
+
+                        /*
+                         * Activate selected
+                         * button.
+                         */
+
+                        this.classList.add(
+                            "active"
+                        );
+
+
+                        this.setAttribute(
+                            "aria-selected",
+                            "true"
+                        );
+
+
+                        /*
+                         * Rebuild table.
+                         */
+
+                        refreshBankTable();
+
                     }
                 );
 
-                if (!response.ok) {
+            }
+        );
+
+
+        /* ============================================
+           SEARCH
+        ============================================ */
+
+        bankSearch.addEventListener(
+            "input",
+            function () {
+
+                refreshBankTable();
+
+            }
+        );
+
+
+        /* ============================================
+           LOAD JSON
+        ============================================ */
+
+        async function loadCommercialBanks() {
+
+
+            try {
+
+
+                const response =
+                    await fetch(
+                        "https://shyamkumarkc20.com.np/js/commercialbanks.json",
+                        {
+                            cache: "no-cache"
+                        }
+                    );
+
+
+                if (
+                    !response.ok
+                ) {
+
                     throw new Error(
                         "Unable to load commercial bank data."
                     );
+
                 }
 
-                const data = await response.json();
+
+                const data =
+                    await response.json();
+
 
                 /*
-                 * Supports both:
-                 * [
-                 *   {...}
-                 * ]
-                 *
-                 * and possible object wrappers.
+                 * Support standard array.
                  */
 
-                if (Array.isArray(data)) {
-                    commercialBanks = data;
-                } else if (Array.isArray(data.banks)) {
-                    commercialBanks = data.banks;
-                } else if (Array.isArray(data.commercialbanks)) {
-                    commercialBanks = data.commercialbanks;
-                } else {
-                    commercialBanks = [];
+                if (
+                    Array.isArray(data)
+                ) {
+
+                    commercialBanks =
+                        data;
+
                 }
 
-                renderBanks(commercialBanks);
 
-            } catch (error) {
+                /*
+                 * Support:
+                 *
+                 * { banks: [...] }
+                 */
 
-                console.error(error);
+                else if (
+                    Array.isArray(
+                        data.banks
+                    )
+                ) {
+
+                    commercialBanks =
+                        data.banks;
+
+                }
+
+
+                /*
+                 * Support:
+                 *
+                 * { commercialbanks: [...] }
+                 */
+
+                else if (
+                    Array.isArray(
+                        data.commercialbanks
+                    )
+                ) {
+
+                    commercialBanks =
+                        data.commercialbanks;
+
+                }
+
+
+                else {
+
+                    commercialBanks = [];
+
+                }
+
+
+                /*
+                 * Render first view.
+                 */
+
+                refreshBankTable();
+
+
+            }
+
+
+            catch (error) {
+
+
+                console.error(
+                    error
+                );
+
 
                 bankBody.innerHTML = `
+
                     <tr>
-                        <td colspan="5">
-                            Commercial bank information could not be loaded.
+
+                        <td colspan="7">
+
+                            Commercial bank information
+                            could not be loaded.
                             Please try again later.
+
                         </td>
+
                     </tr>
+
                 `;
+
             }
+
         }
 
-        bankSearch.addEventListener("input", function () {
 
-            const query = this.value
-                .trim()
-                .toLowerCase();
-
-            if (!query) {
-                renderBanks(commercialBanks);
-                return;
-            }
-
-            const filtered = commercialBanks.filter(bank => {
-
-                return JSON.stringify(bank)
-                    .toLowerCase()
-                    .includes(query);
-
-            });
-
-            renderBanks(filtered);
-
-        });
+        /* ============================================
+           INITIALIZE
+        ============================================ */
 
         loadCommercialBanks();
 
-        document.getElementById("year").textContent =
+
+        /* ============================================
+           FOOTER YEAR
+        ============================================ */
+
+        document.getElementById(
+            "year"
+        ).textContent =
             new Date().getFullYear();
+
     </script>
+
 
 </body>
 
