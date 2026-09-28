@@ -73,5 +73,80 @@
         }
       ]
     }
+  ],
+  "notes": [
+    {
+      "denomination": 1,
+      "display": "Rs. 1",
+      "characters": [
+        {
+          "name": "",
+          "image": "",
+          "description": ""
+        },
+        {
+          "name": "",
+          "image": "",
+          "description": ""
+        },
+        {
+          "name": "",
+          "image": "",
+          "description": ""
+        },
+        {
+          "name": "",
+          "image": "",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "denomination": 2,
+      "display": "Rs. 2",
+      "characters": [
+        {
+          "name": "",
+          "image": "",
+          "description": ""
+        },
+        {
+          "name": "",
+          "image": "",
+          "description": ""
+        },
+        {
+          "name": "",
+          "image": "",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "denomination": 5,
+      "display": "Rs. 5",
+      "characters": [
+        {
+          "name": "",
+          "image": "",
+          "description": ""
+        },
+        {
+          "name": "",
+          "image": "",
+          "description": ""
+        },
+        {
+          "name": "",
+          "image": "",
+          "description": ""
+        },
+        {
+          "name": "",
+          "image": "",
+          "description": ""
+        }
+      ]
+    }
   ]
 }
