@@ -68,25 +68,6 @@ main {
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
 }
 
-.breadcrumb {
-    font-size: 14px;
-    margin-bottom: 20px;
-    color: #666;
-}
-
-.breadcrumb a {
-    color: #175a88;
-    text-decoration: none;
-}
-
-.breadcrumb a:hover {
-    text-decoration: underline;
-}
-
-.breadcrumb span {
-    margin: 0 6px;
-    color: #888;
-}
 
 h1 {
     color: #123b63;
@@ -315,7 +296,11 @@ tr:nth-child(even) {
 }
 
 </style>
-
+<script>
+$(function(){
+$('#header').load('/assets/header.html');
+});
+</script>
 <script>
 $(function () {
     $('#header').load('/assets/header.html');
@@ -347,34 +332,6 @@ $(function () {
 }
 </script>
 
-<!-- Breadcrumb Schema -->
-
-<script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-        {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://shyamkumarkc20.com.np/"
-        },
-        {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Articles",
-            "item": "https://shyamkumarkc20.com.np/article/"
-        },
-        {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Filing and Its Objectives",
-            "item": "https://shyamkumarkc20.com.np/article/filing"
-        }
-    ]
-}
-</script>
 
 </head>
 
@@ -390,9 +347,7 @@ $(function () {
 
 <h1>Filing and Its Objectives: Meaning, Importance, Types and Qualities</h1>
 
-<div class="article-meta">
-    <strong>Written by:</strong> Shyam Kumar K.C.
-</div>
+
 
 <p class="article-intro">
 Filing is an important function of an office. It involves arranging,
