@@ -1,29 +1,31 @@
 <!DOCTYPE html>
+<html lang="en">
 
 <head>
-<title>Petroleum Price In Nepal</title>
-<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
-</script>
-<script>
-$(function(){
-$('#header').load('/assets/header.html');
-});
-</script>
+  <meta charset="UTF-8">
 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Petroleum Price in Nepal | Petrol, Diesel & LPG Prices</title>
+
+  <meta name="description"
+    content="Latest petroleum prices in Nepal including petrol, diesel, kerosene, aviation fuel and cooking gas prices for different locations.">
+
+  <link rel="canonical" href="https://shyamkumarkc20.com.np/nepal/petroleumprice">
+
+  <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
 
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
+      font-family: "Segoe UI", sans-serif;
       margin: 0;
       background: #f4f4f4;
       color: #333;
     }
 
-    h2 {
-     
-      
+    h1 {
       padding: 1rem;
+      margin: 0;
       text-align: center;
       font-size: 1.8rem;
     }
@@ -32,7 +34,7 @@ $('#header').load('/assets/header.html');
       text-align: center;
       font-size: 0.95rem;
       color: #555;
-      margin: 10px 0;
+      margin: 10px 0 20px;
     }
 
     .city-block {
@@ -41,7 +43,8 @@ $('#header').load('/assets/header.html');
       padding: 1rem;
       background: #fff;
       border-radius: 10px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+      contain: content;
     }
 
     .city-title {
@@ -60,11 +63,12 @@ $('#header').load('/assets/header.html');
     }
 
     .fuel-card {
-      background-color: #fafafa;
+      background: #fafafa;
       border-radius: 8px;
       text-align: center;
       padding: 1rem;
-      box-shadow: 0 1px 5px rgba(0,0,0,0.05);
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+      min-height: 125px;
     }
 
     .fuel-card img {
@@ -86,6 +90,10 @@ $('#header').load('/assets/header.html');
     }
 
     @media (max-width: 600px) {
+      h1 {
+        font-size: 1.5rem;
+      }
+
       .city-block {
         margin: 1rem;
         padding: 1rem;
@@ -93,18 +101,57 @@ $('#header').load('/assets/header.html');
 
       .fuel-container {
         grid-template-columns: repeat(2, 1fr);
+        gap: 0.75rem;
+      }
+
+      .fuel-card {
+        padding: 0.8rem;
       }
     }
   </style>
 </head>
 
-	<div id ="header"></div>
 <body>
-  <h2>Petroleum Price In Nepal</h2>
-  <div class="last-updated" id="lastUpdated"></div>
-  <div id="allCities"></div>
+
+  <header id="header"></header>
+
+  <main>
+
+    <h1>Petroleum Price in Nepal</h1>
+
+    <div class="last-updated" id="lastUpdated"></div>
+
+    <div id="allCities"></div>
+
+  </main>
+
+  <footer id="footer"></footer>
+
 
   <script>
+    /*
+     * Load shared header/footer without jQuery.
+     */
+    async function loadInclude(elementId, file) {
+      try {
+        const response = await fetch(file);
+
+        if (!response.ok) {
+          throw new Error("Failed to load " + file);
+        }
+
+        document.getElementById(elementId).innerHTML =
+          await response.text();
+
+      } catch (error) {
+        console.error(error);
+      }
+    }
+
+
+    /*
+     * Petroleum icons
+     */
     const fuelIcons = {
       petrol: "https://img.icons8.com/color/96/gas-pump.png",
       diesel: "https://img.icons8.com/color/96/diesel.png",
@@ -114,6 +161,10 @@ $('#header').load('/assets/header.html');
       gas: "https://img.icons8.com/color/96/gas.png"
     };
 
+
+    /*
+     * Fuel labels
+     */
     const labels = {
       petrol: "Petrol",
       diesel: "Diesel",
@@ -123,82 +174,189 @@ $('#header').load('/assets/header.html');
       gas: "Cooking Gas"
     };
 
+
+    /*
+     * Location names
+     */
     const cityTitleMap = {
       dipayal: "Dipayal",
       kathmandu: "Kathmandu",
       pokhara: "Pokhara",
       surkhet: "Surkhet, Dang",
-      charali: "Charali, Biratnagar, Mahendranagar (Dhanusa), Birgunj, Amlekhjung, Bhalbari, Nepalgunj, Dhangadi",
-      // Add more city mappings as needed
+      charali:
+        "Charali, Biratnagar, Mahendranagar (Dhanusa), Birgunj, Amlekhjung, Bhalbari, Nepalgunj, Dhangadi"
     };
 
-    async function loadAllCityData() {
+
+    /*
+     * Format petroleum price
+     */
+    function formatPrice(key, value) {
+
+      if (key === "aviation") {
+        return "USD " + value + " /KL";
+      }
+
+      if (key === "gas") {
+        return "Rs " + value + " /Cyl";
+      }
+
+      return "Rs " + value + " /Ltr";
+    }
+
+
+    /*
+     * Create one fuel card.
+     */
+    function createFuelCard(key, value) {
+
+      const card = document.createElement("div");
+      card.className = "fuel-card";
+
+      const image = document.createElement("img");
+
+      image.src = fuelIcons[key] || "";
+      image.alt = labels[key];
+      image.width = 50;
+      image.height = 50;
+      image.loading = "lazy";
+      image.decoding = "async";
+
+      const type = document.createElement("div");
+      type.className = "fuel-type";
+      type.textContent = labels[key];
+
+      const price = document.createElement("div");
+      price.className = "fuel-price";
+      price.textContent = formatPrice(key, value);
+
+      card.append(image, type, price);
+
+      return card;
+    }
+
+
+    /*
+     * Create one city section.
+     */
+    function createCityBlock(city, fuels) {
+
+      const cityBlock = document.createElement("section");
+      cityBlock.className = "city-block";
+
+      const title = document.createElement("div");
+      title.className = "city-title";
+
+      title.textContent =
+        cityTitleMap[city.toLowerCase()] || city;
+
+      const fuelContainer = document.createElement("div");
+      fuelContainer.className = "fuel-container";
+
+      for (const key in fuels) {
+
+        const value = fuels[key];
+
+        if (value && labels[key]) {
+          fuelContainer.appendChild(
+            createFuelCard(key, value)
+          );
+        }
+      }
+
+      cityBlock.append(title, fuelContainer);
+
+      return cityBlock;
+    }
+
+
+    /*
+     * Load petroleum data.
+     */
+    async function loadPetroleumData() {
+
+      const container =
+        document.getElementById("allCities");
+
       try {
-        const response = await fetch("https://shyamkumarkc20.com.np/js/petrol.json");
+
+        const response =
+          await fetch("/js/petrol.json", {
+            cache: "default"
+          });
+
+        if (!response.ok) {
+          throw new Error("Unable to load petroleum data");
+        }
+
         const data = await response.json();
 
-        // Show last updated
+
+        /*
+         * Last updated date
+         */
         if (data.last_updated) {
-          document.getElementById("lastUpdated").innerText = "Last Updated: " + data.last_updated;
+
+          document.getElementById("lastUpdated").textContent =
+            "Last Updated: " + data.last_updated;
+
         }
 
-        const container = document.getElementById("allCities");
-        container.innerHTML = "";
+
+        /*
+         * Build everything in a DocumentFragment.
+         * This reduces repeated DOM rendering.
+         */
+        const fragment =
+          document.createDocumentFragment();
+
 
         for (const city in data) {
-          if (!Array.isArray(data[city])) continue;
 
-          const cityBlock = document.createElement("div");
-          cityBlock.className = "city-block";
-
-          const title = document.createElement("div");
-          title.className = "city-title";
-
-          const displayName = cityTitleMap[city.toLowerCase()] || city;
-          title.innerText = displayName;
-
-          cityBlock.appendChild(title);
-
-          const fuelContainer = document.createElement("div");
-          fuelContainer.className = "fuel-container";
-
-          const fuels = data[city][0];
-          for (const key in fuels) {
-            const value = fuels[key];
-            if (value && labels[key]) {
-              const card = document.createElement("div");
-              card.className = "fuel-card";
-              card.innerHTML = `
-                <img src="${fuelIcons[key] || ""}" alt="${labels[key]}">
-                <div class="fuel-type">${labels[key]}</div>
-                <div class="fuel-price">${
-                  key === "aviation" ? "USD " + value + " /KL" :
-                  key === "gas" ? "Rs " + value + " /Cyl" :
-                  "Rs " + value + " /Ltr"
-                }</div>
-              `;
-              fuelContainer.appendChild(card);
-            }
+          if (!Array.isArray(data[city])) {
+            continue;
           }
 
-          cityBlock.appendChild(fuelContainer);
-          container.appendChild(cityBlock);
+          const fuels = data[city][0];
+
+          if (!fuels) {
+            continue;
+          }
+
+          fragment.appendChild(
+            createCityBlock(city, fuels)
+          );
         }
 
-      } catch (err) {
-        console.error("Error loading JSON:", err);
-        document.getElementById("allCities").innerHTML = "<p style='text-align:center;'>Failed to load fuel data.</p>";
+
+        /*
+         * Insert the complete result once.
+         */
+        container.replaceChildren(fragment);
+
+
+      } catch (error) {
+
+        console.error(
+          "Error loading petroleum data:",
+          error
+        );
+
+        container.innerHTML =
+          "<p style='text-align:center;'>Unable to load petroleum price data.</p>";
       }
     }
 
-    loadAllCityData();
+
+    /*
+     * Start independent tasks.
+     */
+    loadInclude("header", "/assets/header.html");
+    loadInclude("footer", "/assets/footer.html");
+    loadPetroleumData();
+
   </script>
-<script>
-	    $(function(){
-$('#footer').load('/assets/footer.html');
-});
-</script>
 
 </body>
-  <div id ="footer"></div>
 </html>
+
