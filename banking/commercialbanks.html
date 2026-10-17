@@ -42,37 +42,75 @@ $('#header').load('/assets/header.html');
 </ol>
 <h2>List of Commercial Banks in Nepal</h2>
 
-<table border="black" >
-<thead>
-<tr>
-<th>S.No.</th>
-<th>Name</th>
-</tr>
-</thead>
-      <tbody id="data-output">
-         <!-- Prodcuts from javascript file in here. -->
-      </tbody>
-   </table> 
-   <script>
-   fetch("https://shyamkumarkc20.com.np/js/commercialbanks.json")
-.then(function(response){
-   return response.json();
-})
-.then(function(products){
-   let placeholder = document.querySelector("#data-output");
-   let out = "";
-   for(let product of products){
-      out += `
-         <tr>
-            
-            <td>${product.SNO}</td>
-             <td><a href ="${product.links}">${product.Name}</a></td> </tr>
-      `;
-   }
- 
-   placeholder.innerHTML = out;
-});
-   </script>
+<ol class="bank-list" id="data-output">
+        <li class="loading">Loading commercial banks...</li>
+    </ol>
+
+
+
+
+<script>
+async function loadCommercialBanks() {
+    const output = document.getElementById('data-output');
+
+    try {
+        const response = await fetch(
+            'https://shyamkumarkc20.com.np/js/commercialbanks.json'
+        );
+
+        if (!response.ok) {
+            throw new Error('Unable to load bank data.');
+        }
+
+        const banks = await response.json();
+
+        if (!Array.isArray(banks) || banks.length === 0) {
+            output.textContent = 'No commercial banks are currently listed.';
+            return;
+        }
+
+        output.replaceChildren();
+
+        banks.forEach(function (bank) {
+            const item = document.createElement('li');
+            const link = document.createElement('a');
+
+            link.textContent = bank.Name || 'Unnamed bank';
+
+            if (bank.links) {
+                try {
+                    const url = new URL(bank.links, window.location.origin);
+
+                    if (url.protocol === 'https:' || url.protocol === 'http:') {
+                        link.href = url.href;
+                    } else {
+                        link.removeAttribute('href');
+                    }
+                } catch (error) {
+                    link.removeAttribute('href');
+                }
+            }
+
+            item.appendChild(link);
+            output.appendChild(item);
+        });
+
+    } catch (error) {
+        output.replaceChildren();
+
+        const message = document.createElement('li');
+        message.className = 'error';
+        message.textContent =
+            'Unable to load the commercial bank list. Please try again later.';
+
+        output.appendChild(message);
+        console.error(error);
+    }
+}
+
+loadCommercialBanks();
+</script>
+
 <h3>Permitted Financial Transactions for Class A Licensed Institution</h3>
 <ol style="list-style-type: lower-alpha;">
 <li>Accepting deposits with or without interest and repaying the deposits through various financial instruments
