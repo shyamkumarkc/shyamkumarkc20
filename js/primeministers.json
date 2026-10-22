@@ -371,7 +371,7 @@
     "TermBS": "2052–2053; 2058–2059; 2061; 2074–2074; 2078–2079",
     "Party": "Nepali Congress",
     "IsCurrent": false,
-    "IMG": ""
+    "IMG": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6CH-9cYzYkVwM0ocpuZyDdj34atMDFbjGYFDxjAFOAw&s=10"
   },
   {
     "SNO": 35,
@@ -382,7 +382,7 @@
     "TermBS": "2065–2066; 2073–2074; 2079–2081",
     "Party": "Communist Party of Nepal (Maoist Centre)",
     "IsCurrent": false,
-    "IMG": ""
+    "IMG": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpDx6QC_QCzRTuuARpg1Gib_Eo6OEmpyoXX7pibTwa_w&s=10"
   },
   {
     "SNO": 36,
@@ -393,7 +393,7 @@
     "TermBS": "2072–2073; 2074–2078; 2081–2082",
     "Party": "CPN (UML)",
     "IsCurrent": false,
-    "IMG": ""
+    "IMG": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNa4Cj7NWsAVKci1n7cO4dUlf2gQ-85fYeaUfGwP-qeQ&s=10"
   },
   {
     "SNO": 37,
@@ -404,7 +404,7 @@
     "TermBS": "2082 Bhadra–2082 Chaitra",
     "Party": "",
     "IsCurrent": false,
-    "IMG": ""
+    "IMG": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuu2Nx10pgWM_m6iNaPkrL8lGxxar7FXdbsTUsUXRUxQ&s=10"
   },
   {
     "SNO": 38,
@@ -415,6 +415,6 @@
     "TermBS": "2082 Chaitra–present",
     "Party": "Rastriya Swatantra Party",
     "IsCurrent": true,
-    "IMG": ""
+    "IMG": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfkXII_0wVRcxZ_-udeXptbzg2oKD7puq_NCxR6fAf-g&s=10"
   }
 ]
