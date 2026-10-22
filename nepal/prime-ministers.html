@@ -1,0 +1,561 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Prime Ministers of Nepal: Historical List and Tenure</title>
+  <meta name="description" content="Explore the historical list of Prime Ministers of Nepal, from Bhimsen Thapa to the current Prime Minister, with tenure dates in AD and BS.">
+  <meta name="keywords" content="Prime Ministers of Nepal, Nepal Prime Minister History, Bhimsen Thapa, Nepal PM List, Nepal PM Tenure">
+  <meta name="author" content="SHYAM KUMAR K.C.">
+  <meta name="theme-color" content="#123b72">
+
+  <link rel="shortcut icon" type="image/jpeg" href="/brp.jpg">
+
+  <style>
+    :root {
+      --primary: #123b72;
+      --primary-light: #eaf1fb;
+      --text: #202938;
+      --muted: #657286;
+      --border: #e0e6ef;
+      --surface: #ffffff;
+      --page: #f5f7fb;
+      --green: #18794e;
+      --green-bg: #e8f7ef;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--page);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.65;
+    }
+
+    .container {
+      width: min(1100px, 94%);
+      margin: 0 auto;
+    }
+
+    .page-header {
+      padding: 30px 0;
+      background: var(--primary);
+      color: #fff;
+    }
+
+    .page-header h1 {
+      margin: 0 0 8px;
+      font-size: clamp(25px, 4vw, 36px);
+      line-height: 1.25;
+    }
+
+    .page-header p {
+      margin: 0;
+      color: #e1eafb;
+      max-width: 720px;
+    }
+
+    
+
+    main {
+      padding-bottom: 40px;
+    }
+
+    .intro,
+    .current-card,
+    .controls,
+    .pm-card,
+    .note {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+    }
+
+    .intro {
+      padding: 20px;
+      margin: 8px 0 22px;
+    }
+
+    .intro h2,
+    .section-heading h2 {
+      margin: 0 0 8px;
+      color: var(--primary);
+    }
+
+    .intro p {
+      margin: 0;
+    }
+
+    .current-card {
+      padding: 18px 20px;
+      margin-bottom: 22px;
+      border-left: 5px solid var(--green);
+    }
+
+    .current-label {
+      display: inline-block;
+      margin-bottom: 7px;
+      padding: 3px 10px;
+      background: var(--green-bg);
+      color: var(--green);
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .current-card h2 {
+      margin: 0;
+      font-size: 22px;
+    }
+
+    .current-card p {
+      margin: 5px 0 0;
+      color: var(--muted);
+    }
+
+    .controls {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 12px;
+      padding: 14px;
+      margin-bottom: 20px;
+    }
+
+    .controls input,
+    .controls select {
+      width: 100%;
+      min-height: 44px;
+      padding: 10px 12px;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      background: #fff;
+      color: var(--text);
+      font-size: 15px;
+    }
+
+    .controls input:focus,
+    .controls select:focus {
+      outline: 2px solid #7da8e5;
+      outline-offset: 2px;
+    }
+
+    .section-heading {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      margin: 24px 0 14px;
+    }
+
+    .section-heading h2 {
+      font-size: 23px;
+    }
+
+    #resultCount {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .pm-list {
+      display: grid;
+      gap: 12px;
+    }
+
+    .pm-card {
+      display: grid;
+      grid-template-columns: 55px minmax(0, 1fr);
+      gap: 14px;
+      padding: 17px;
+      transition: border-color 0.2s ease;
+    }
+
+    .pm-card:hover {
+      border-color: #9db8df;
+    }
+
+    .serial {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      width: 46px;
+      height: 46px;
+      padding-top: 9px;
+      border-radius: 10px;
+      background: var(--primary-light);
+      color: var(--primary);
+      font-size: 17px;
+      font-weight: 700;
+    }
+
+    .pm-card h3 {
+      margin: 0 0 3px;
+      font-size: 18px;
+      line-height: 1.4;
+    }
+
+    .nepali-name {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .pm-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 10px;
+    }
+
+    .meta-item {
+      padding: 4px 9px;
+      background: #f2f5f9;
+      border-radius: 6px;
+      color: #465469;
+      font-size: 13px;
+    }
+
+    .current-tag {
+      display: inline-block;
+      margin-left: 6px;
+      padding: 2px 7px;
+      border-radius: 5px;
+      background: var(--green-bg);
+      color: var(--green);
+      font-size: 11px;
+      vertical-align: middle;
+    }
+
+    .loading,
+    .empty-state,
+    .error-state {
+      padding: 24px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: #fff;
+      text-align: center;
+    }
+
+    .error-state {
+      color: #a12626;
+    }
+
+    .note {
+      margin-top: 24px;
+      padding: 16px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    footer {
+      padding: 20px 0;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      text-align: center;
+      font-size: 13px;
+    }
+
+    @media (max-width: 600px) {
+      .page-header {
+        padding: 24px 0;
+      }
+
+      .controls {
+        grid-template-columns: 1fr;
+      }
+
+      .pm-card {
+        grid-template-columns: 42px minmax(0, 1fr);
+        gap: 10px;
+        padding: 13px;
+      }
+
+      .serial {
+        width: 38px;
+        height: 38px;
+        padding-top: 6px;
+        font-size: 15px;
+      }
+
+      .pm-card h3 {
+        font-size: 16px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        transition: none !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="header"></div>
+
+  <header class="page-header">
+    <div class="container">
+      <h1>Prime Ministers of Nepal</h1>
+      <p>A historical list of Nepal's heads of government, with their tenure in Bikram Sambat (BS) and Gregorian (AD) dates.</p>
+    </div>
+  </header>
+
+  <div class="container">
+   
+
+    <main>
+      <section class="intro">
+        <h2>History of Prime Ministers of Nepal</h2>
+        <p>
+          Explore the historical sequence of Nepal's heads of government.
+          The list is arranged from the earliest officeholder to the most recent.
+          Historical titles and tenure dates may differ from those of the modern
+          office of Prime Minister.
+        </p>
+      </section>
+
+      <section id="currentSection" class="current-card" hidden>
+        <span class="current-label">Current Prime Minister</span>
+        <h2 id="currentName"></h2>
+        <p id="currentTerm"></p>
+      </section>
+
+      <section aria-labelledby="historyHeading">
+        <div class="section-heading">
+          <h2 id="historyHeading">Historical List</h2>
+          <span id="resultCount" aria-live="polite">Loading records...</span>
+        </div>
+
+        <div class="controls">
+          <input
+            type="search"
+            id="searchInput"
+            placeholder="Search by name, title or tenure..."
+            aria-label="Search Prime Ministers"
+          >
+
+          <select id="sortOrder" aria-label="Sort Prime Ministers">
+            <option value="oldest">Oldest first</option>
+            <option value="newest">Newest first</option>
+          </select>
+        </div>
+
+        <div id="pmList" class="pm-list" aria-live="polite">
+          <div class="loading">Loading Prime Ministers of Nepal...</div>
+        </div>
+      </section>
+
+      <aside class="note">
+        <strong>Note:</strong> Historical records can include Mukhtiyars and
+        other predecessors to the modern Prime Minister's office. Dates and
+        titles should be checked against authoritative historical sources.
+        This page displays the records available in the site's JSON file.
+      </aside>
+    </main>
+  </div>
+
+  <div id="footer"></div>
+
+  <script>
+    // Load your site's shared header and footer.
+    // Remove these two lines if you do not use jQuery/header/footer includes.
+    if (window.jQuery) {
+      $('#header').load('/assets/header.html');
+      $('#footer').load('/assets/footer.html');
+    }
+
+    const JSON_URL = 'https://shyamkumarkc20.com.np/js/primeministers.json';
+
+    const listElement = document.getElementById('pmList');
+    const searchInput = document.getElementById('searchInput');
+    const sortOrder = document.getElementById('sortOrder');
+    const resultCount = document.getElementById('resultCount');
+    const currentSection = document.getElementById('currentSection');
+    const currentName = document.getElementById('currentName');
+    const currentTerm = document.getElementById('currentTerm');
+
+    let primeMinisters = [];
+
+    // Find the earliest year in a term such as "1806–1837".
+    function getStartYear(pm) {
+      const term = String(pm.TermAD || '');
+      const match = term.match(/\d{3,4}/);
+      return match ? Number(match[0]) : 9999;
+    }
+
+    function getName(pm) {
+      return String(pm.Name || 'Name unavailable');
+    }
+
+    function getTerm(pm) {
+      return String(pm.TermAD || 'Not available');
+    }
+
+    function makeMeta(label, value) {
+      if (!value) return null;
+
+      const span = document.createElement('span');
+      span.className = 'meta-item';
+      span.textContent = label + ': ' + value;
+      return span;
+    }
+
+    function createCard(pm, displayedSno) {
+      const card = document.createElement('article');
+      card.className = 'pm-card';
+
+      const serial = document.createElement('div');
+      serial.className = 'serial';
+      serial.textContent = displayedSno;
+      serial.setAttribute('aria-label', 'Serial number ' + displayedSno);
+
+      const details = document.createElement('div');
+
+      const heading = document.createElement('h3');
+      heading.textContent = getName(pm);
+
+      if (pm.IsCurrent === true) {
+        const tag = document.createElement('span');
+        tag.className = 'current-tag';
+        tag.textContent = 'Current';
+        heading.appendChild(tag);
+      }
+
+      details.appendChild(heading);
+
+      if (pm.NameNepali) {
+        const nepali = document.createElement('div');
+        nepali.className = 'nepali-name';
+        nepali.textContent = String(pm.NameNepali);
+        details.appendChild(nepali);
+      }
+
+      const meta = document.createElement('div');
+      meta.className = 'pm-meta';
+
+      [
+        makeMeta('Tenure (AD)', pm.TermAD),
+        makeMeta('Tenure (BS)', pm.TermBS),
+        makeMeta('Title', pm.Title),
+        makeMeta('Party', pm.Party)
+      ].forEach(item => {
+        if (item) meta.appendChild(item);
+      });
+
+      details.appendChild(meta);
+      card.appendChild(serial);
+      card.appendChild(details);
+
+      return card;
+    }
+
+    function renderList() {
+      const searchTerm = searchInput.value.trim().toLowerCase();
+      const newestFirst = sortOrder.value === 'newest';
+
+      let filtered = primeMinisters.filter(pm => {
+        const searchable = [
+          pm.Name,
+          pm.NameNepali,
+          pm.Title,
+          pm.TermAD,
+          pm.TermBS,
+          pm.Party
+        ].filter(Boolean).join(' ').toLowerCase();
+
+        return searchable.includes(searchTerm);
+      });
+
+      filtered.sort((a, b) => {
+        const yearDifference = getStartYear(a) - getStartYear(b);
+
+        if (yearDifference !== 0) {
+          return newestFirst ? -yearDifference : yearDifference;
+        }
+
+        return getName(a).localeCompare(getName(b));
+      });
+
+      listElement.replaceChildren();
+      resultCount.textContent = filtered.length + ' record' +
+        (filtered.length === 1 ? '' : 's');
+
+      if (filtered.length === 0) {
+        const empty = document.createElement('div');
+        empty.className = 'empty-state';
+        empty.textContent = 'No Prime Ministers match your search.';
+        listElement.appendChild(empty);
+        return;
+      }
+
+      const fragment = document.createDocumentFragment();
+
+      filtered.forEach((pm, index) => {
+        // Displayed SNO is recalculated to match the chosen sort order.
+        fragment.appendChild(createCard(pm, index + 1));
+      });
+
+      listElement.appendChild(fragment);
+    }
+
+    async function loadPrimeMinisters() {
+      try {
+        const response = await fetch(JSON_URL, { cache: 'no-cache' });
+
+        if (!response.ok) {
+          throw new Error('Could not load the JSON file (HTTP ' +
+            response.status + ').');
+        }
+
+        const data = await response.json();
+
+        if (!Array.isArray(data)) {
+          throw new Error('The JSON file must contain an array of records.');
+        }
+
+        primeMinisters = data;
+
+        const current = primeMinisters.find(pm => pm.IsCurrent === true);
+
+        if (current) {
+          currentName.textContent = getName(current);
+          currentTerm.textContent = 'Tenure: ' + getTerm(current) +
+            (current.TermBS ? ' AD / ' + current.TermBS + ' BS' : '');
+          currentSection.hidden = false;
+        }
+
+        // Default sorting puts the earliest known term first.
+        renderList();
+
+      } catch (error) {
+        listElement.replaceChildren();
+
+        const message = document.createElement('div');
+        message.className = 'error-state';
+        message.textContent =
+          'Unable to load the Prime Ministers list. Check that ' +
+          JSON_URL + ' exists and contains valid JSON. ' + error.message;
+
+        listElement.appendChild(message);
+        resultCount.textContent = 'Records unavailable';
+        console.error('Prime Ministers JSON error:', error);
+      }
+    }
+
+    searchInput.addEventListener('input', renderList);
+    sortOrder.addEventListener('change', renderList);
+
+    loadPrimeMinisters();
+  </script>
+
+</body>
+</html>
