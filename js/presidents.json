@@ -1,0 +1,36 @@
+
+[
+  {
+    "SNO": 1,
+    "Name": "Ram Baran Yadav",
+    "NameNepali": "रामवरण यादव",
+    "Title": "Former President of Nepal",
+    "TermAD": "23 July 2008 – 29 October 2015",
+    "TermBS": "2065 Shrawan – 2072 Kartik",
+    "Party": "Nepali Congress",
+    "IsCurrent": false,
+    "IMG": ""
+  },
+  {
+    "SNO": 2,
+    "Name": "Bidya Devi Bhandari",
+    "NameNepali": "विद्यादेवी भण्डारी",
+    "Title": "Former President of Nepal",
+    "TermAD": "29 October 2015 – 13 March 2023",
+    "TermBS": "2072 Kartik – 2079 Falgun",
+    "Party": "CPN (UML)",
+    "IsCurrent": false,
+    "IMG": ""
+  },
+  {
+    "SNO": 3,
+    "Name": "Ramchandra Paudel",
+    "NameNepali": "रामचन्द्र पौडेल",
+    "Title": "President of Nepal",
+    "TermAD": "13 March 2023 – Present",
+    "TermBS": "2079 Falgun 29 – Present",
+    "Party": "Nepali Congress (before presidency)",
+    "IsCurrent": true,
+    "IMG": ""
+  }
+]
