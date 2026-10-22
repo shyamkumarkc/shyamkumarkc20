@@ -1,93 +1,602 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>List of Governor</title>
-  <meta charset="UTF-8">
-<meta name="description" content="Nepal Rastra Bank, Central Bank of Nepal, Banking Preparation, Bank of the bank, Nepalese banking, nrb, shyam kumar kc">
-<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
-</script>
-<script>
-$(function(){
-$('#header').load('/assets/header.html');
-});
-</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <title>NRB Governors: Current Governor and Complete List</title>
+
+    <meta name="description"
+          content="Find the current Governor of Nepal Rastra Bank and the complete historical list of NRB governors, including their photographs and terms of office in AD and BS.">
+
+    <meta name="author" content="Shyam Kumar K.C.">
+    <meta name="robots" content="index, follow">
+
+    <link rel="canonical"
+          href="https://shyamkumarkc20.com.np/banking/nrbgovernor">
+
+    <link rel="icon" type="image/jpeg" href="/brp.jpg">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title"
+          content="NRB Governors: Current Governor and Complete List">
+    <meta property="og:description"
+          content="Current Governor of Nepal Rastra Bank and historical records of NRB governors.">
+    <meta property="og:url"
+          content="https://shyamkumarkc20.com.np/banking/nrbgovernor">
+    <meta property="og:site_name" content="SHYAM KUMAR K.C.">
+
+    <style>
+        :root {
+            --primary: #123b68;
+            --accent: #087e8b;
+            --text: #263445;
+            --muted: #637184;
+            --border: #dfe6ee;
+            --surface: #f5f8fc;
+            --success-bg: #e4f6e9;
+            --success-text: #17643a;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+       
+
+        
+        h1, h2, h3 {
+            color: var(--primary);
+            line-height: 1.35;
+        }
+
+        h1 {
+            font-size: clamp(28px, 4vw, 38px);
+            margin-bottom: 12px;
+        }
+
+        h2 {
+            font-size: clamp(22px, 3.5vw, 28px);
+            margin-top: 35px;
+        }
+
+        .intro {
+            color: var(--muted);
+            margin-bottom: 25px;
+        }
+
+        /* Current governor section */
+
+        .current-governor {
+            padding: 24px;
+            margin: 25px 0 35px;
+            border: 1px solid var(--border);
+            border-top: 4px solid var(--primary);
+            border-radius: 10px;
+            background: var(--surface);
+        }
+
+        .current-label {
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 5px;
+            background: var(--success-bg);
+            color: var(--success-text);
+            font-size: 12px;
+            font-weight: bold;
+            letter-spacing: .4px;
+        }
+
+        .current-governor h2 {
+            margin: 13px 0 18px;
+        }
+
+        .governor-profile {
+            display: flex;
+            align-items: center;
+            gap: 22px;
+        }
+
+        .current-photo {
+            display: block;
+            width: 125px;
+            height: 140px;
+            object-fit: cover;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            background: #fff;
+            flex-shrink: 0;
+        }
+
+        .current-name {
+            font-size: 23px;
+            font-weight: bold;
+            color: var(--primary);
+            margin: 0 0 8px;
+            overflow-wrap: anywhere;
+        }
+
+        .current-details p {
+            margin: 7px 0;
+        }
+
+        .official-link {
+            display: inline-block;
+            margin-top: 12px;
+            color: var(--accent);
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .official-link:hover {
+            text-decoration: underline;
+        }
+
+        /* Historical governor table */
+
+        .table-wrapper {
+            width: 100%;
+            overflow-x: auto;
+            margin: 20px 0;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        table {
+            width: 100%;
+            min-width: 650px;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            text-align: left;
+            vertical-align: middle;
+            padding: 13px 15px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        th {
+            background: var(--primary);
+            color: white;
+            white-space: nowrap;
+        }
+
+        tbody tr:nth-child(even) {
+            background: var(--surface);
+        }
+
+        tbody tr:last-child td {
+            border-bottom: none;
+        }
+
+        .governor-photo {
+            width: 85px;
+            height: 90px;
+            display: block;
+            object-fit: cover;
+            border-radius: 6px;
+            background: #f0f2f5;
+        }
+
+        .current-row {
+            background: var(--success-bg) !important;
+        }
+
+        .current-badge {
+            display: inline-block;
+            margin-top: 5px;
+            padding: 2px 7px;
+            color: var(--success-text);
+            background: #c9ecd4;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: bold;
+        }
+
+        .status {
+            padding: 13px 15px;
+            margin: 15px 0;
+            border-radius: 6px;
+            background: var(--surface);
+        }
+
+        .error {
+            color: #9c2424;
+            background: #fff0f0;
+        }
+
+        .source {
+            margin-top: 30px;
+            padding-top: 18px;
+            border-top: 1px solid var(--border);
+            color: var(--muted);
+            font-size: 14px;
+        }
+
+        .source a {
+            color: var(--accent);
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                width: calc(100% - 22px);
+                margin-top: 18px;
+            }
+
+            .current-governor {
+                padding: 16px;
+            }
+
+            .governor-profile {
+                align-items: flex-start;
+                gap: 14px;
+            }
+
+            .current-photo {
+                width: 90px;
+                height: 105px;
+            }
+
+            .current-name {
+                font-size: 19px;
+            }
+
+            .current-details p {
+                font-size: 14px;
+            }
+
+            th, td {
+                padding: 10px;
+                font-size: 14px;
+            }
+
+            .governor-photo {
+                width: 65px;
+                height: 70px;
+            }
+        }
+
+        @media (max-width: 360px) {
+            .governor-profile {
+                flex-direction: column;
+            }
+        }
+    </style>
 </head>
+
 <body>
-<div id ="header"></div>
-<style>
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-  
-    border: 1px solid #ddd;
-}
 
-th, td {
-    text-align: left;
-    padding: 16px;
-}
+<!-- Existing website header -->
+<div id="header"></div>
 
-tr:nth-child(even) {
-    background-color: #f2f2f2
-}
-</style>
+<main class="container">
 
-<h1>
-NRB Governors over the years</h1>
-<hr />
-<table border="black">
-      <thead>
-         <tr>
-            <th>S No</th>
-			 <th>Governor Name</th>
-			 <th>Photo</th>
-            <th>Term of office (AD)</th>
-            <th>Term of office (BS)</th>
-            
-         </tr>
-      </thead>
-      <tbody id="data-output">
-         <!-- Prodcuts from javascript file in here. -->
-      </tbody>
-   </table>
- 
-   <script>
-   fetch("https://shyamkumarkc20.com.np/js/governor.json")
-.then(function(response){
-   return response.json();
-})
-.then(function(products){
-   let placeholder = document.querySelector("#data-output");
-   let out = "";
-   for(let product of products){
-      out += `
-         <tr>
-            
-            <td>${product.SNO}</td>
-			
-            <td>${product.Name}</td>
-			<td><img src="${product.IMG}" width="120" height="100" ></td>
-			<td>${product.TermAD}</td>
-			<td>${product.TermBS}</td>
-			
-            
-         </tr>
-      `;
-   }
-   
- 
-   placeholder.innerHTML = out;
-});
 
-</script> 
+    <article>
+
+        <h1>Governors of Nepal Rastra Bank</h1>
+
+        <p class="intro">
+            Nepal Rastra Bank (NRB) is the central bank of Nepal.
+            Explore the current governor and the historical list of
+            NRB governors, including their photographs and terms of
+            office in the Gregorian calendar (AD) and Bikram Sambat (BS).
+        </p>
+
+        <!-- Current Governor: populated from governor.json -->
+
+        <section class="current-governor"
+                 aria-labelledby="current-governor-heading">
+
+            <span class="current-label">CURRENT OFFICEHOLDER</span>
+
+            <h2 id="current-governor-heading">
+                Current Governor of Nepal Rastra Bank
+            </h2>
+
+            <div id="current-governor-content"
+                 aria-live="polite">
+                <p class="status" id="current-governor-status">
+                    Loading current governor information...
+                </p>
+            </div>
+
+        </section>
+
+        <!-- Historical Governor List -->
+
+        <section aria-labelledby="historical-heading">
+
+            <h2 id="historical-heading">
+                NRB Governors Over the Years
+            </h2>
+
+            <p>
+                The following table displays governor records from
+                the website's JSON data file.
+            </p>
+
+            <p id="table-status" class="status" role="status">
+                Loading governor records...
+            </p>
+
+            <div class="table-wrapper">
+                <table>
+                    <caption style="text-align:left; padding:12px">
+                        List of Nepal Rastra Bank governors and their
+                        terms of office
+                    </caption>
+
+                    <thead>
+                        <tr>
+                            <th scope="col">S.N.</th>
+                            <th scope="col">Governor Name</th>
+                            <th scope="col">Photo</th>
+                            <th scope="col">Term (AD)</th>
+                            <th scope="col">Term (BS)</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="data-output"></tbody>
+                </table>
+            </div>
+
+        </section>
+
+        <section class="source">
+            <p>
+                <strong>Official reference:</strong>
+                <a href="https://www.nrb.org.np/governors-page/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Nepal Rastra Bank — Governors
+                </a>
+            </p>
+
+            <p>
+                Source:
+                <a href="https://shyamkumarkc20.com.np/">
+                    shyamkumarkc20.com.np
+                </a>
+            </p>
+        </section>
+
+    </article>
+</main>
+
+<!-- Existing website footer -->
+<div id="footer"></div>
+
 <script>
-$(function(){
-$('#footer').load('/assets/footer.html');
+(function () {
+    "use strict";
+
+    const DATA_URL = "https://shyamkumarkc20.com.np/js/governor.json";
+
+    const currentContent =
+        document.getElementById("current-governor-content");
+
+    const currentStatus =
+        document.getElementById("current-governor-status");
+
+    const tableBody =
+        document.getElementById("data-output");
+
+    const tableStatus =
+        document.getElementById("table-status");
+
+    function createTextElement(tag, className, text) {
+        const element = document.createElement(tag);
+        if (className) {
+            element.className = className;
+        }
+        element.textContent = text || "";
+        return element;
+    }
+
+    function createGovernorImage(src, name, className) {
+        const image = document.createElement("img");
+        image.src = src;
+        image.alt = "Photograph of " + name;
+        image.className = className;
+        image.loading = "lazy";
+        image.decoding = "async";
+        return image;
+    }
+
+    function displayCurrentGovernor(governor) {
+        currentContent.replaceChildren();
+
+        const profile = document.createElement("div");
+        profile.className = "governor-profile";
+
+        if (governor.IMG) {
+            profile.appendChild(
+                createGovernorImage(
+                    governor.IMG,
+                    governor.Name,
+                    "current-photo"
+                )
+            );
+        }
+
+        const details = document.createElement("div");
+        details.className = "current-details";
+
+        details.appendChild(
+            createTextElement(
+                "p",
+                "current-name",
+                governor.Name
+            )
+        );
+
+        if (governor.TermAD) {
+            details.appendChild(
+                createTextElement(
+                    "p",
+                    "",
+                    "Term of office (AD): " + governor.TermAD
+                )
+            );
+        }
+
+        if (governor.TermBS) {
+            details.appendChild(
+                createTextElement(
+                    "p",
+                    "",
+                    "Term of office (BS): " + governor.TermBS
+                )
+            );
+        }
+
+        const link = document.createElement("a");
+        link.href = "https://www.nrb.org.np/governors-page/";
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        link.className = "official-link";
+        link.textContent = "Verify on official NRB website →";
+
+        details.appendChild(link);
+        profile.appendChild(details);
+        currentContent.appendChild(profile);
+    }
+
+    function displayHistoricalGovernors(governors) {
+        const fragment = document.createDocumentFragment();
+
+        governors.forEach(function (governor, index) {
+            const row = document.createElement("tr");
+
+            const isCurrent = governor.IsCurrent === true;
+
+            if (isCurrent) {
+                row.classList.add("current-row");
+            }
+
+            function addCell(value) {
+                const cell = document.createElement("td");
+                cell.textContent = value ?? "—";
+                row.appendChild(cell);
+                return cell;
+            }
+
+            addCell(governor.SNO ?? index + 1);
+
+            const nameCell = addCell(governor.Name);
+
+            if (isCurrent) {
+                nameCell.appendChild(
+                    document.createElement("br")
+                );
+
+                nameCell.appendChild(
+                    createTextElement(
+                        "span",
+                        "current-badge",
+                        "CURRENT GOVERNOR"
+                    )
+                );
+            }
+
+            const photoCell = document.createElement("td");
+
+            if (governor.IMG) {
+                photoCell.appendChild(
+                    createGovernorImage(
+                        governor.IMG,
+                        governor.Name || "NRB governor",
+                        "governor-photo"
+                    )
+                );
+            } else {
+                photoCell.textContent = "Photo unavailable";
+            }
+
+            row.appendChild(photoCell);
+            addCell(governor.TermAD);
+            addCell(governor.TermBS);
+
+            fragment.appendChild(row);
+        });
+
+        tableBody.replaceChildren(fragment);
+        tableStatus.hidden = true;
+    }
+
+    fetch(DATA_URL)
+        .then(function (response) {
+            if (!response.ok) {
+                throw new Error(
+                    "Could not load governor.json: " + response.status
+                );
+            }
+
+            return response.json();
+        })
+        .then(function (governors) {
+            if (!Array.isArray(governors)) {
+                throw new Error(
+                    "The JSON file must contain an array of governors."
+                );
+            }
+
+            if (governors.length === 0) {
+                throw new Error("No governor records were found.");
+            }
+
+            // The JSON record marked IsCurrent: true is displayed.
+            const currentGovernor = governors.find(
+                governor => governor.IsCurrent === true
+            );
+
+            if (currentGovernor) {
+                displayCurrentGovernor(currentGovernor);
+            } else {
+                currentContent.replaceChildren(
+                    createTextElement(
+                        "p",
+                        "status",
+                        "The current governor has not been marked in governor.json. Please update the IsCurrent field."
+                    )
+                );
+            }
+
+            displayHistoricalGovernors(governors);
+        })
+        .catch(function (error) {
+            console.error(error);
+
+            currentContent.replaceChildren(
+                createTextElement(
+                    "p",
+                    "status error",
+                    "Unable to load the current governor. Please try again later."
+                )
+            );
+
+            tableStatus.textContent =
+                "Unable to load governor records. Please try again later.";
+
+            tableStatus.classList.add("error");
+        });
+})();
+</script>
+
+<!-- Load the site's existing header and footer -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
+
+<script>
+$(function () {
+    $("#header").load("/assets/header.html");
+    $("#footer").load("/assets/footer.html");
 });
 </script>
 
 </body>
-  <div id ="footer"></div>
 </html>
