@@ -99,6 +99,193 @@
     "IMG": ""
   },
   {
+    "SNO": 10,
+    "Name": "Chandra Shumsher Jang Bahadur Rana",
+    "NameNepali": "चन्द्र शमशेर जंगबहादुर राणा",
+    "Title": "Prime Minister",
+    "TermAD": "1901–1929",
+    "TermBS": "1958–1986",
+    "Party": "",
+    "IsCurrent": false,
+    "IMG": ""
+  },
+  {
+    "SNO": 11,
+    "Name": "Bhim Shumsher Jang Bahadur Rana",
+    "NameNepali": "भीम शमशेर जंगबहादुर राणा",
+    "Title": "Prime Minister",
+    "TermAD": "1929–1932",
+    "TermBS": "1986–1989",
+    "Party": "",
+    "IsCurrent": false,
+    "IMG": ""
+  },
+  {
+    "SNO": 12,
+    "Name": "Juddha Shumsher Jang Bahadur Rana",
+    "NameNepali": "जुद्ध शमशेर जंगबहादुर राणा",
+    "Title": "Prime Minister",
+    "TermAD": "1932–1945",
+    "TermBS": "1989–2002",
+    "Party": "",
+    "IsCurrent": false,
+    "IMG": ""
+  },
+  {
+    "SNO": 13,
+    "Name": "Padma Shumsher Jang Bahadur Rana",
+    "NameNepali": "पद्म शमशेर जंगबहादुर राणा",
+    "Title": "Prime Minister",
+    "TermAD": "1945–1948",
+    "TermBS": "2002–2005",
+    "Party": "",
+    "IsCurrent": false,
+    "IMG": ""
+  },
+  {
+    "SNO": 14,
+    "Name": "Mohan Shumsher Jang Bahadur Rana",
+    "NameNepali": "मोहन शमशेर जंगबहादुर राणा",
+    "Title": "Prime Minister",
+    "TermAD": "1948–1951",
+    "TermBS": "2005–2008",
+    "Party": "",
+    "IsCurrent": false,
+    "IMG": ""
+  },
+  {
+    "SNO": 15,
+    "Name": "Matrika Prasad Koirala",
+    "NameNepali": "मातृकाप्रसाद कोइराला",
+    "Title": "Prime Minister",
+    "TermAD": "1951–1952; 1953–1955",
+    "TermBS": "2008–2009; 2010–2011",
+    "Party": "Nepali Congress (early period)",
+    "IsCurrent": false,
+    "IMG": ""
+  },
+  {
+    "SNO": 16,
+    "Name": "Tanka Prasad Acharya",
+    "NameNepali": "टंकप्रसाद आचार्य",
+    "Title": "Prime Minister",
+    "TermAD": "1956–1957",
+    "TermBS": "2012–2014",
+    "Party": "Nepal Praja Parishad",
+    "IsCurrent": false,
+    "IMG": ""
+  },
+  {
+    "SNO": 17,
+    "Name": "Kunwar Indrajit Singh (K. I. Singh)",
+    "NameNepali": "डा. के.आई. सिंह",
+    "Title": "Prime Minister",
+    "TermAD": "1957",
+    "TermBS": "2014",
+    "Party": "",
+    "IsCurrent": false,
+    "IMG": ""
+  },
+  {
+    "SNO": 18,
+    "Name": "Subarna Shamsher Rana",
+    "NameNepali": "सुवर्ण शमशेर राणा",
+    "Title": "Chairman of the Council of Ministers",
+    "TermAD": "1958–1959",
+    "TermBS": "2015–2016",
+    "Party": "Nepali Congress",
+    "IsCurrent": false,
+    "IMG": ""
+  },
+  {
+    "SNO": 19,
+    "Name": "Bishweshwar Prasad Koirala",
+    "NameNepali": "विश्वेश्वरप्रसाद कोइराला",
+    "Title": "Prime Minister",
+    "TermAD": "1959–1960",
+    "TermBS": "2016–2017",
+    "Party": "Nepali Congress",
+    "IsCurrent": false,
+    "IMG": ""
+  },
+  {
+    "SNO": 20,
+    "Name": "Tulsi Giri",
+    "NameNepali": "डा. तुलसी गिरी",
+    "Title": "Prime Minister / Chairman of the Council of Ministers",
+    "TermAD": "1960s–1970s",
+    "TermBS": "2019–2021; 2032–2034",
+    "Party": "",
+    "IsCurrent": false,
+    "IMG": ""
+  },
+  {
+    "SNO": 21,
+    "Name": "Surya Bahadur Thapa",
+    "NameNepali": "सूर्यबहादुर थापा",
+    "Title": "Prime Minister / Chairman of the Council of Ministers",
+    "TermAD": "1963–1964; 1965–1969; 1979–1983; 1997–1998; 2003–2004",
+    "TermBS": "2020–2021; 2022–2025; 2036–2040; 2054–2054; 2060–2061",
+    "Party": "",
+    "IsCurrent": false,
+    "IMG": ""
+  },
+  {
+    "SNO": 22,
+    "Name": "Kirti Nidhi Bista",
+    "NameNepali": "कीर्तिनिधि विष्ट",
+    "Title": "Prime Minister",
+    "TermAD": "1968–1969; 1971–1973; 1977–1979",
+    "TermBS": "2025–2026; 2028–2030; 2034–2036",
+    "Party": "",
+    "IsCurrent": false,
+    "IMG": ""
+  },
+  {
+    "SNO": 23,
+    "Name": "Nagendra Prasad Rijal",
+    "NameNepali": "नगेन्द्रप्रसाद रिजाल",
+    "Title": "Prime Minister",
+    "TermAD": "1973–1975; 1985",
+    "TermBS": "2030–2032; 2042",
+    "Party": "",
+    "IsCurrent": false,
+    "IMG": ""
+  },
+  {
+    "SNO": 24,
+    "Name": "Lokendra Bahadur Chand",
+    "NameNepali": "लोकेन्द्रबहादुर चन्द",
+    "Title": "Prime Minister",
+    "TermAD": "1983–1985; 1990–1991; 1997; 2002–2003",
+    "TermBS": "2040–2042; 2046–2047; 2053–2054; 2059–2060",
+    "Party": "",
+    "IsCurrent": false,
+    "IMG": ""
+  },
+  {
+    "SNO": 25,
+    "Name": "Marich Man Singh Shrestha",
+    "NameNepali": "मरिचमान सिंह श्रेष्ठ",
+    "Title": "Prime Minister",
+    "TermAD": "1986–1990",
+    "TermBS": "2043–2046",
+    "Party": "",
+    "IsCurrent": false,
+    "IMG": ""
+  },
+  {
+    "SNO": 26,
+    "Name": "Krishna Prasad Bhattarai",
+    "NameNepali": "कृष्णप्रसाद भट्टराई",
+    "Title": "Prime Minister",
+    "TermAD": "1990–1991; 1999",
+    "TermBS": "2047–2048; 2056",
+    "Party": "Nepali Congress",
+    "IsCurrent": false,
+    "IMG": ""
+  },
+  {
     "SNO": 27,
     "Name": "Man Mohan Adhikari",
     "NameNepali": "मनमोहन अधिकारी",
@@ -226,8 +413,8 @@
     "Title": "Prime Minister",
     "TermAD": "2026–present",
     "TermBS": "2082 Chaitra–present",
-    "Party": "Rastriya Swatantra Party", 
-    "IsCurrent": false,
+    "Party": "Rastriya Swatantra Party",
+    "IsCurrent": true,
     "IMG": ""
   }
 ]
