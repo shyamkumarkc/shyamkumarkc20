@@ -1,0 +1,454 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Current National Officials of Nepal</title>
+  <meta name="description" content="Find the current Governor of Nepal Rastra Bank and the current Prime Minister of Nepal, including their names, tenure, and official positions.">
+  <meta name="author" content="SHYAM KUMAR K.C.">
+
+  <link rel="shortcut icon" type="image/jpeg" href="/brp.jpg">
+
+  <style>
+    :root {
+      --primary: #123b72;
+      --primary-light: #eaf1fb;
+      --text: #202938;
+      --muted: #687589;
+      --border: #e1e7ef;
+      --surface: #ffffff;
+      --page: #f5f7fb;
+      --green: #18794e;
+      --green-light: #e8f7ef;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--page);
+      color: var(--text);
+      line-height: 1.65;
+    }
+
+    .container {
+      width: min(1050px, 94%);
+      margin: 0 auto;
+    }
+
+    .page-header {
+      padding: 32px 0;
+      background: var(--primary);
+      color: #fff;
+    }
+
+    .page-header h1 {
+      margin: 0 0 8px;
+      font-size: clamp(25px, 4vw, 36px);
+      line-height: 1.3;
+    }
+
+    .page-header p {
+      max-width: 700px;
+      margin: 0;
+      color: #e0eafa;
+    }
+
+    .breadcrumb {
+      padding: 14px 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .breadcrumb a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    .intro {
+      margin: 8px 0 24px;
+      padding: 20px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: var(--surface);
+    }
+
+    .intro h2 {
+      margin: 0 0 6px;
+      color: var(--primary);
+      font-size: 22px;
+    }
+
+    .intro p {
+      margin: 0;
+    }
+
+    .officials-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 20px;
+      margin: 24px 0;
+    }
+
+    .official-card {
+      overflow: hidden;
+      border: 1px solid var(--border);
+      border-radius: 15px;
+      background: var(--surface);
+      box-shadow: 0 5px 18px rgba(25, 45, 75, 0.05);
+    }
+
+    .card-top {
+      padding: 19px 20px;
+      background: var(--primary-light);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .position-label {
+      display: inline-block;
+      margin-bottom: 7px;
+      color: var(--primary);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+
+    .card-top h2 {
+      margin: 0;
+      color: var(--primary);
+      font-size: 21px;
+      line-height: 1.4;
+    }
+
+    .card-body {
+      padding: 22px;
+    }
+
+    .person-name {
+      margin: 0 0 5px;
+      font-size: 23px;
+      line-height: 1.4;
+      overflow-wrap: anywhere;
+    }
+
+    .person-name-nepali {
+      margin-bottom: 13px;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .status {
+      display: inline-block;
+      margin-bottom: 15px;
+      padding: 4px 10px;
+      border-radius: 20px;
+      background: var(--green-light);
+      color: var(--green);
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .details {
+      display: grid;
+      gap: 10px;
+      margin: 0;
+    }
+
+    .detail-row {
+      padding-top: 10px;
+      border-top: 1px solid #edf0f5;
+    }
+
+    .detail-row dt {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .detail-row dd {
+      margin: 2px 0 0;
+      font-size: 15px;
+      font-weight: 600;
+      overflow-wrap: anywhere;
+    }
+
+    .loading,
+    .error {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .error {
+      color: #b42318;
+    }
+
+    .source-note {
+      margin: 20px 0 30px;
+      padding: 15px 18px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: var(--surface);
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    footer {
+      padding: 20px 0;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      text-align: center;
+      font-size: 13px;
+    }
+
+    @media (max-width: 680px) {
+      .page-header {
+        padding: 25px 0;
+      }
+
+      .officials-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+      }
+
+      .card-body {
+        padding: 18px;
+      }
+
+      .person-name {
+        font-size: 21px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="header"></div>
+
+  <header class="page-header">
+    <div class="container">
+      <h1>Current National Officials</h1>
+      
+    </div>
+  </header>
+
+  <div class="container">
+    
+
+    <main>
+      
+
+      <section class="officials-grid" aria-label="Current national officials">
+
+        <!-- Current Governor -->
+        <article class="official-card">
+          <div class="card-top">
+            <span class="position-label">Central Bank</span>
+            <h2>Governor of Nepal Rastra Bank</h2>
+          </div>
+
+          <div class="card-body" id="governorCard" aria-live="polite">
+            <p class="loading">Loading governor information...</p>
+          </div>
+        </article>
+
+        <!-- Current Prime Minister -->
+        <article class="official-card">
+          <div class="card-top">
+            <span class="position-label">Government of Nepal</span>
+            <h2>Prime Minister of Nepal</h2>
+          </div>
+
+          <div class="card-body" id="primeMinisterCard" aria-live="polite">
+            <p class="loading">Loading prime minister information...</p>
+          </div>
+        </article>
+
+      </section>
+
+      
+    </main>
+  </div>
+
+  <div id="footer"></div>
+
+  <script>
+    // Optional shared header/footer used by this website.
+    // This uses jQuery only if it is already available on the page.
+    if (window.jQuery) {
+      $('#header').load('/assets/header.html');
+      $('#footer').load('/assets/footer.html');
+    }
+
+    const GOVERNOR_URL = 'https://shyamkumarkc20.com.np/js/governor.json';
+    const PRIME_MINISTER_URL = 'https://shyamkumarkc20.com.np/js/primeministers.json';
+
+    const governorCard = document.getElementById('governorCard');
+    const primeMinisterCard = document.getElementById('primeMinisterCard');
+
+    // Safely read a value from a record using alternative field names.
+    function getField(record, names) {
+      for (const name of names) {
+        const value = record[name];
+
+        if (value !== undefined && value !== null &&
+            String(value).trim() !== '') {
+          return String(value).trim();
+        }
+      }
+
+      return '';
+    }
+
+    function makeDetail(label, value) {
+      if (!value) return null;
+
+      const wrapper = document.createElement('div');
+      wrapper.className = 'detail-row';
+
+      const term = document.createElement('dt');
+      term.textContent = label;
+
+      const description = document.createElement('dd');
+      description.textContent = value;
+
+      wrapper.append(term, description);
+      return wrapper;
+    }
+
+    function renderOfficial(container, record, position) {
+      container.replaceChildren();
+
+      if (!record) {
+        const error = document.createElement('p');
+        error.className = 'error';
+        error.textContent =
+          'No current ' + position +
+          ' was found. Check that the JSON record has "IsCurrent": true.';
+        container.appendChild(error);
+        return;
+      }
+
+      const name = getField(record, ['Name', 'name']);
+      const nepaliName = getField(record, ['NameNepali', 'NepaliName']);
+      const title = getField(record, ['Title', 'title']);
+      const termAD = getField(record, ['TermAD', 'Term', 'Tenure']);
+      const termBS = getField(record, ['TermBS']);
+      const party = getField(record, ['Party', 'PoliticalParty']);
+      const image = getField(record, ['IMG', 'Image', 'Photo']);
+
+      const status = document.createElement('span');
+      status.className = 'status';
+      status.textContent = 'CURRENT OFFICEHOLDER';
+      container.appendChild(status);
+
+      // Optional portrait, if the JSON contains a usable image path.
+      if (image) {
+        const portrait = document.createElement('img');
+        portrait.src = image.startsWith('/')
+          ? image
+          : '/' + image.replace(/^\.?\//, '');
+        portrait.alt = name || position;
+        portrait.loading = 'lazy';
+        portrait.style.cssText =
+          'display:block;width:112px;height:112px;object-fit:cover;' +
+          'border-radius:12px;margin:0 0 15px;border:1px solid #e1e7ef;';
+        portrait.onerror = function () {
+          portrait.remove();
+        };
+        container.appendChild(portrait);
+      }
+
+      const heading = document.createElement('h3');
+      heading.className = 'person-name';
+      heading.textContent = name || 'Name not available';
+      container.appendChild(heading);
+
+      if (nepaliName) {
+        const nepali = document.createElement('div');
+        nepali.className = 'person-name-nepali';
+        nepali.textContent = nepaliName;
+        container.appendChild(nepali);
+      }
+
+      const details = document.createElement('dl');
+      details.className = 'details';
+
+      [
+        makeDetail('Official title', title),
+        makeDetail('Tenure (AD)', termAD),
+        makeDetail('Tenure (BS)', termBS),
+        makeDetail('Political party', party)
+      ].forEach(item => {
+        if (item) details.appendChild(item);
+      });
+
+      if (details.children.length) {
+        container.appendChild(details);
+      }
+    }
+
+    async function loadCurrentOfficial(url, container, position) {
+      try {
+        const response = await fetch(url, { cache: 'no-cache' });
+
+        if (!response.ok) {
+          throw new Error('HTTP ' + response.status);
+        }
+
+        const data = await response.json();
+
+        // Supports either a JSON array or an object containing an array.
+        let records = Array.isArray(data)
+          ? data
+          : Array.isArray(data.governors)
+            ? data.governors
+            : Array.isArray(data.primeMinisters)
+              ? data.primeMinisters
+              : Array.isArray(data['prime-ministers'])
+                ? data['prime-ministers']
+                : [];
+
+        // Match boolean true or string "true".
+        const current = records.find(record =>
+          record.IsCurrent === true ||
+          String(record.IsCurrent).toLowerCase() === 'true'
+        );
+
+        renderOfficial(container, current, position);
+
+      } catch (error) {
+        container.replaceChildren();
+
+        const message = document.createElement('p');
+        message.className = 'error';
+        message.textContent =
+          'Unable to load ' + position + ' information. ' +
+          'Please check the JSON file path and format.';
+        container.appendChild(message);
+
+        console.error('Error loading ' + position + ':', error);
+      }
+    }
+
+    // Load both records independently.
+    loadCurrentOfficial(
+      GOVERNOR_URL,
+      governorCard,
+      'Governor'
+    );
+
+    loadCurrentOfficial(
+      PRIME_MINISTER_URL,
+      primeMinisterCard,
+      'Prime Minister'
+    );
+  </script>
+
+</body>
+</html>
