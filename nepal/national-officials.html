@@ -28,7 +28,14 @@
       box-sizing: border-box;
     }
 
-    
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--page);
+      color: var(--text);
+      line-height: 1.65;
+    }
+
     .container {
       width: min(1050px, 94%);
       margin: 0 auto;
@@ -119,12 +126,6 @@
       font-size: 23px;
       line-height: 1.4;
       overflow-wrap: anywhere;
-    }
-
-    .person-name-nepali {
-      margin-bottom: 13px;
-      color: var(--muted);
-      font-size: 15px;
     }
 
     .status {
@@ -263,13 +264,17 @@
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
   <script>
-    // Load the shared site-wide header and footer.
-
-    // This uses jQuery only if it is already available on the page.
-    if (window.jQuery) {
-      $('#header').load('/assets/header.html');
-      $('#footer').load('/assets/footer.html');
-    }
+    // Load shared site-wide header and footer.
+    $('#header').load('/assets/header.html', function (_response, status, xhr) {
+      if (status === 'error') {
+        console.error('Header could not load:', xhr.status, xhr.statusText);
+      }
+    });
+    $('#footer').load('/assets/footer.html', function (_response, status, xhr) {
+      if (status === 'error') {
+        console.error('Footer could not load:', xhr.status, xhr.statusText);
+      }
+    });
 
     const GOVERNOR_URL = 'https://shyamkumarkc20.com.np/js/governor.json';
     const PRIME_MINISTER_URL = 'https://shyamkumarkc20.com.np/js/primeministers.json';
@@ -321,8 +326,6 @@
       }
 
       const name = getField(record, ['Name', 'name']);
-      
-      
       const termAD = getField(record, ['TermAD', 'Term', 'Tenure']);
       const termBS = getField(record, ['TermBS']);
       
@@ -357,21 +360,12 @@
       heading.textContent = name || 'Name not available';
       container.appendChild(heading);
 
-      if (nepaliName) {
-        const nepali = document.createElement('div');
-        nepali.className = 'person-name-nepali';
-        nepali.textContent = nepaliName;
-        container.appendChild(nepali);
-      }
-
       const details = document.createElement('dl');
       details.className = 'details';
 
       [
-        makeDetail('Official title', title),
         makeDetail('Tenure (AD)', termAD),
-        makeDetail('Tenure (BS)', termBS),
-        makeDetail('Political party', party)
+        makeDetail('Tenure (BS)', termBS)
       ].forEach(item => {
         if (item) details.appendChild(item);
       });
@@ -396,11 +390,15 @@
           ? data
           : Array.isArray(data.governors)
             ? data.governors
-            : Array.isArray(data.primeMinisters)
-              ? data.primeMinisters
-              : Array.isArray(data['prime-ministers'])
-                ? data['prime-ministers']
-                : [];
+            : Array.isArray(data.governor)
+              ? data.governor
+              : Array.isArray(data.primeMinisters)
+                ? data.primeMinisters
+                : Array.isArray(data['prime-ministers'])
+                  ? data['prime-ministers']
+                  : Array.isArray(data.prime_ministers)
+                    ? data.prime_ministers
+                    : [];
 
         // Match boolean true or string "true".
         const current = records.find(record =>
