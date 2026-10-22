@@ -9,7 +9,7 @@
     "TermBS": "2065 Shrawan – 2072 Kartik",
     "Party": "Nepali Congress",
     "IsCurrent": false,
-    "IMG": ""
+    "IMG": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH7eN--e17V1IO_vIYQKsxcM7U99XK3h9b2IXy1AXrmA&s=10"
   },
   {
     "SNO": 2,
@@ -20,7 +20,7 @@
     "TermBS": "2072 Kartik – 2079 Falgun",
     "Party": "CPN (UML)",
     "IsCurrent": false,
-    "IMG": ""
+    "IMG": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSenT1uqqk4j5PTxvL4g6XkGKkitFyuUA-IWVeMuOXA7w&s=10"
   },
   {
     "SNO": 3,
@@ -31,6 +31,6 @@
     "TermBS": "2079 Falgun 29 – Present",
     "Party": "Nepali Congress (before presidency)",
     "IsCurrent": true,
-    "IMG": ""
+    "IMG": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVxY3aFAkBF8WNUxEHCw5LtoTwRg8L1HR-AKRtNNmbTA&s=10"
   }
 ]
