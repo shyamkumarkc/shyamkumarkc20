@@ -13,6 +13,9 @@
 
   <link rel="shortcut icon" type="image/jpeg" href="/brp.jpg">
 
+  <!-- jQuery is required for loading the shared site header and footer. -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
   <style>
     :root {
       --primary: #123b72;
@@ -366,12 +369,21 @@
   <div id="footer"></div>
 
   <script>
-    // Load your site's shared header and footer.
-    // Remove these two lines if you do not use jQuery/header/footer includes.
-    if (window.jQuery) {
-      $('#header').load('/assets/header.html');
-      $('#footer').load('/assets/footer.html');
-    }
+    // Load the shared website header and footer.
+    // jQuery is included in the <head> above.
+    $(function () {
+      $('#header').load('/assets/header.html', function (_response, status, xhr) {
+        if (status === 'error') {
+          console.error('Header could not be loaded:', xhr.status, xhr.statusText);
+        }
+      });
+
+      $('#footer').load('/assets/footer.html', function (_response, status, xhr) {
+        if (status === 'error') {
+          console.error('Footer could not be loaded:', xhr.status, xhr.statusText);
+        }
+      });
+    });
 
     const JSON_URL = 'https://shyamkumarkc20.com.np/js/primeministers.json';
 
