@@ -94,7 +94,12 @@
     "Title": "Prime Minister",
     "TermAD": "1885–1901",
     "TermBS": "1942–1957",
-"SNO": 27,
+    "Party": "",
+    "IsCurrent": false,
+    "IMG": ""
+  },
+  {
+    "SNO": 27,
     "Name": "Man Mohan Adhikari",
     "NameNepali": "मनमोहन अधिकारी",
     "Title": "Prime Minister",
