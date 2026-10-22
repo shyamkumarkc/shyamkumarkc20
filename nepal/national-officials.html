@@ -28,14 +28,7 @@
       box-sizing: border-box;
     }
 
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: var(--page);
-      color: var(--text);
-      line-height: 1.65;
-    }
-
+    
     .container {
       width: min(1050px, 94%);
       margin: 0 auto;
@@ -59,16 +52,7 @@
       color: #e0eafa;
     }
 
-    .breadcrumb {
-      padding: 14px 0;
-      color: var(--muted);
-      font-size: 14px;
-    }
 
-    .breadcrumb a {
-      color: var(--primary);
-      text-decoration: none;
-    }
 
     .intro {
       margin: 8px 0 24px;
@@ -277,8 +261,12 @@
 
   <div id="footer"></div>
 
+  <!-- jQuery is required for loading the shared header and footer. -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
   <script>
-    // Optional shared header/footer used by this website.
+    // Load the shared site-wide header and footer.
+
     // This uses jQuery only if it is already available on the page.
     if (window.jQuery) {
       $('#header').load('/assets/header.html');
@@ -350,9 +338,11 @@
       // Optional portrait, if the JSON contains a usable image path.
       if (image) {
         const portrait = document.createElement('img');
-        portrait.src = image.startsWith('/')
-          ? image
-          : '/' + image.replace(/^\.?\//, '');
+        if (/^https?:\/\//i.test(image) || image.startsWith('//')) {
+          portrait.src = image;
+        } else {
+          portrait.src = '/' + image.replace(/^\/+/, '');
+        }
         portrait.alt = name || position;
         portrait.loading = 'lazy';
         portrait.style.cssText =
