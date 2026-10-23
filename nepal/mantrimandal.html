@@ -1,0 +1,856 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Mantrimandal Nepal 2026 | Prime Minister and Ministers</title>
+  <meta name="description" content="Explore the Council of Ministers of Nepal, including the Prime Minister, minister photographs, political parties, ministries and portfolios.">
+  <meta name="keywords" content="Mantrimandal Nepal, Nepal ministers list, Prime Minister of Nepal, Nepal cabinet, political parties Nepal, Council of Ministers">
+  <meta name="author" content="SHYAM KUMAR K.C.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://shyamkumarkc20.com.np/nepal/mantrimandal">
+  <link rel="icon" href="/brp.jpg" type="image/jpeg">
+
+  <meta property="og:title" content="Mantrimandal Nepal | Council of Ministers">
+  <meta property="og:description" content="Find Nepal's Prime Minister, ministers, political parties and portfolios.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://shyamkumarkc20.com.np/nepal/mantrimandal">
+
+  <style>
+    :root {
+      --primary: #173f70;
+      --primary-dark: #102e52;
+      --accent: #d62839;
+      --background: #f4f7fb;
+      --surface: #ffffff;
+      --text: #202b3c;
+      --muted: #64748b;
+      --border: #e2e8f0;
+      --radius: 14px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+
+    a {
+      color: var(--primary);
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+    .container {
+      width: min(1100px, 92%);
+      margin: auto;
+    }
+
+    .hero {
+      padding: 38px 0;
+      color: white;
+      background: linear-gradient(135deg, #102e52, #245d91);
+    }
+
+    .breadcrumb {
+      margin-bottom: 18px;
+      color: #dce9f8;
+      font-size: 14px;
+    }
+
+    .breadcrumb a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .hero h1 {
+      margin: 0 0 12px;
+      font-size: clamp(28px, 5vw, 42px);
+      line-height: 1.2;
+    }
+
+    .hero p {
+      max-width: 720px;
+      margin-bottom: 0;
+      color: #e5eef9;
+    }
+
+    main {
+      padding-top: 28px;
+      padding-bottom: 45px;
+    }
+
+    .intro,
+    .prime-card,
+    .minister-card,
+    .content-section,
+    .stat {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+    }
+
+    .intro,
+    .content-section {
+      padding: 23px;
+      margin-bottom: 24px;
+    }
+
+    h2 {
+      line-height: 1.35;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      margin-bottom: 30px;
+    }
+
+    .stat {
+      padding: 18px;
+    }
+
+    .stat strong {
+      display: block;
+      color: var(--primary);
+      font-size: 28px;
+    }
+
+    .stat span {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .prime-card {
+      padding: 24px;
+      margin-bottom: 34px;
+      border-top: 4px solid var(--accent);
+      overflow: auto;
+    }
+
+    .prime-photo {
+      float: right;
+      width: 145px;
+      height: 165px;
+      margin: 0 0 16px 20px;
+      object-fit: cover;
+      object-position: center top;
+      border-radius: 12px;
+      background: #eaf1fa;
+      border: 1px solid var(--border);
+    }
+
+    .prime-label {
+      display: inline-block;
+      padding: 5px 11px;
+      border-radius: 20px;
+      color: #a51f2b;
+      background: #fff0f1;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .prime-card h3 {
+      margin: 12px 0 4px;
+      font-size: 25px;
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    .party-badge {
+      display: inline-block;
+      margin: 6px 0 12px;
+      padding: 5px 10px;
+      border-radius: 20px;
+      background: #edf4ff;
+      color: #173f70;
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    .section-heading {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .section-heading h2 {
+      margin-bottom: 14px;
+    }
+
+    .filters {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(180px, 240px) auto;
+      gap: 10px;
+      margin: 10px 0 18px;
+    }
+
+    .filters input,
+    .filters select,
+    .filters button {
+      width: 100%;
+      min-width: 0;
+      padding: 12px;
+      border: 1px solid #cbd5e1;
+      border-radius: 9px;
+      background: white;
+      font: inherit;
+    }
+
+    .filters button {
+      width: auto;
+      padding-inline: 18px;
+      color: white;
+      background: var(--primary);
+      border-color: var(--primary);
+      cursor: pointer;
+    }
+
+    .filters button:hover {
+      background: var(--primary-dark);
+    }
+
+    .result-count {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .minister-list {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .minister-card {
+      min-width: 0;
+      padding: 20px;
+      transition: box-shadow 0.2s ease;
+    }
+
+    .minister-card:hover {
+      box-shadow: 0 8px 24px #102e5212;
+    }
+
+    .minister-profile {
+      display: flex;
+      align-items: flex-start;
+      gap: 15px;
+      margin-bottom: 16px;
+    }
+
+    .minister-photo {
+      flex-shrink: 0;
+      width: 108px;
+      height: 120px;
+      object-fit: cover;
+      object-position: center top;
+      border-radius: 11px;
+      background: #eaf1fa;
+      border: 1px solid var(--border);
+    }
+
+    .minister-info {
+      min-width: 0;
+      flex: 1;
+    }
+
+    .minister-number {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 30px;
+      height: 30px;
+      margin-bottom: 7px;
+      border-radius: 8px;
+      background: #eaf1fa;
+      color: var(--primary);
+      font-weight: bold;
+      font-size: 13px;
+    }
+
+    .minister-card h3 {
+      margin: 0 0 5px;
+      font-size: 18px;
+      line-height: 1.4;
+      overflow-wrap: anywhere;
+    }
+
+    .minister-nepali {
+      margin: 0;
+      color: var(--muted);
+      font-size: 13px;
+      overflow-wrap: anywhere;
+    }
+
+    .portfolio-label {
+      margin: 0 0 4px;
+      color: var(--muted);
+      font-size: 12px;
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: 0.4px;
+    }
+
+    .portfolio {
+      margin: 0;
+      font-weight: 600;
+      overflow-wrap: anywhere;
+    }
+
+    .empty-state {
+      grid-column: 1 / -1;
+      padding: 25px;
+      background: white;
+      border: 1px dashed #cbd5e1;
+      border-radius: var(--radius);
+      text-align: center;
+    }
+
+    .content-section {
+      margin-top: 28px;
+      margin-bottom: 0;
+    }
+
+    .content-section li {
+      margin-bottom: 8px;
+    }
+
+    .source-link {
+      overflow-wrap: anywhere;
+    }
+
+    .disclaimer {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    footer {
+      margin-top: 35px;
+      padding: 22px 0;
+      text-align: center;
+      color: white;
+      background: var(--primary-dark);
+      font-size: 14px;
+    }
+
+    footer a {
+      color: white;
+    }
+
+    @media (max-width: 760px) {
+      .minister-list {
+        grid-template-columns: 1fr;
+      }
+
+      .filters {
+        grid-template-columns: 1fr;
+      }
+
+      .filters button {
+        width: 100%;
+      }
+    }
+
+    @media (max-width: 420px) {
+      .container {
+        width: 94%;
+      }
+
+      .intro,
+      .content-section,
+      .prime-card,
+      .minister-card {
+        padding: 16px;
+      }
+
+      .minister-profile {
+        gap: 11px;
+      }
+
+      .minister-photo {
+        width: 85px;
+        height: 100px;
+      }
+
+      .prime-photo {
+        width: 105px;
+        height: 120px;
+        margin-left: 12px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        scroll-behavior: auto !important;
+        transition: none !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="header"></div>
+
+  
+    
+
+      <h1>Council of Ministers of Nepal</h1>
+      
+    
+
+
+
+    <section class="stats" aria-label="Cabinet statistics">
+      <div class="stat">
+        <strong id="ministerTotal">--</strong>
+        <span>Prime Minister and ministers listed</span>
+      </div>
+      <div class="stat">
+        <strong id="partyTotal">--</strong>
+        <span>Distinct party labels in the data</span>
+      </div>
+    </section>
+
+    <section aria-labelledby="primeHeading">
+      <h2 id="primeHeading">Prime Minister of Nepal</h2>
+      <div class="prime-card" id="primeMinister">
+        Loading Prime Minister information...
+      </div>
+    </section>
+
+    <section aria-labelledby="ministerHeading">
+      <div class="section-heading">
+        <h2 id="ministerHeading">List of Ministers</h2>
+      </div>
+
+      <div class="filters">
+        <input
+          type="search"
+          id="ministerSearch"
+          placeholder="Search name, party or ministry..."
+          aria-label="Search ministers"
+          autocomplete="off">
+
+        <select id="partyFilter" aria-label="Filter by political party">
+          <option value="">All political parties</option>
+        </select>
+
+        <button type="button" id="resetSearch">Reset</button>
+      </div>
+
+      <p class="result-count" id="resultCount" aria-live="polite">
+        Loading minister list...
+      </p>
+
+      <div class="minister-list" id="ministerList">
+        <p>Loading minister information...</p>
+      </div>
+    </section>
+
+    
+
+    <section class="content-section">
+      <h2>Official Source</h2>
+      <p>
+        For the latest cabinet composition, appointments and
+        ministry assignments, consult the official government website.
+      </p>
+      <p>
+        <a
+          class="source-link"
+          href="https://opmcm.gov.np/pages/ministers-pages-23/"
+          target="_blank"
+          rel="noopener noreferrer">
+          Office of the Prime Minister and Council of Ministers, Nepal
+        </a>
+      </p>
+      
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>
+        © <span id="currentYear"></span>
+        <a href="/">SHYAM KUMAR K.C.</a>. All rights reserved.
+      </p>
+      <p>Source: Office of the Prime Minister and Council of Ministers, Nepal.</p>
+    </div>
+  </footer>
+
+  <!-- Embedded JSON: edit minister details in this section -->
+  <script type="application/json" id="ministerData">
+  {
+    "lastVerified": "",
+    "source": "https://opmcm.gov.np/pages/ministers-pages-23/",
+    "primeMinister": {
+      "name": "Balendra Shah",
+      "nameNepali": "बालेन्द्र शाह",
+      "position": "Prime Minister",
+      "portfolio": "Defence",
+      "party": "Rastriya Swatantra Party (RSP)",
+      "image": "/images/ministers/balendra-shah.jpg"
+    },
+    "ministers": [
+      {
+        "name": "Dr. Swarnim Wagle",
+        "nameNepali": "डा. स्वर्णिम वाग्ले",
+        "position": "Minister",
+        "portfolio": "Finance",
+        "party": "Rastriya Swatantra Party (RSP)",
+        "image": "/images/ministers/swarnim-wagle.jpg"
+      },
+      {
+        "name": "Shishir Khanal",
+        "nameNepali": "शिशिर खनाल",
+        "position": "Minister",
+        "portfolio": "Foreign Affairs",
+        "party": "Verify affiliation",
+        "image": "/images/ministers/shishir-khanal.jpg"
+      },
+      {
+        "name": "Biraj Bhakta Shrestha",
+        "nameNepali": "बिराज भक्त श्रेष्ठ",
+        "position": "Minister",
+        "portfolio": "Energy, Water Resources and Irrigation",
+        "party": "Verify affiliation",
+        "image": "/images/ministers/biraj-bhakta-shrestha.jpg"
+      },
+      {
+        "name": "Sudhan Gurung",
+        "nameNepali": "सुधन गुरुङ",
+        "position": "Minister",
+        "portfolio": "Home Affairs",
+        "party": "Verify affiliation",
+        "image": "/images/ministers/sudhan-gurung.jpg"
+      },
+      {
+        "name": "Sunil Lamsal",
+        "nameNepali": "सुनिल लम्साल",
+        "position": "Minister",
+        "portfolio": "Infrastructure Development",
+        "party": "Verify affiliation",
+        "image": "/images/ministers/sunil-lamsal.jpg"
+      },
+      {
+        "name": "Sobita Gautam",
+        "nameNepali": "सोविता गौतम",
+        "position": "Minister",
+        "portfolio": "Law, Justice and Parliamentary Affairs",
+        "party": "Verify affiliation",
+        "image": "/images/ministers/sobita-gautam.jpg"
+      },
+      {
+        "name": "Mahabir Pun",
+        "nameNepali": "महावीर पुन",
+        "position": "Minister",
+        "portfolio": "Science, Technology and Innovation",
+        "party": "Verify affiliation",
+        "image": "/images/ministers/mahabir-pun.jpg"
+      },
+      {
+        "name": "Sita Badi",
+        "nameNepali": "सिता बादी",
+        "position": "Minister",
+        "portfolio": "Women, Children, Gender and Sexual Minorities and Social Security",
+        "party": "Verify affiliation",
+        "image": "/images/ministers/sita-badi.jpg"
+      },
+      {
+        "name": "Pratibha Rawal",
+        "nameNepali": "प्रतिभा रावल",
+        "position": "Minister",
+        "portfolio": "Land Management, Cooperatives, Federal Affairs and General Administration",
+        "party": "Verify affiliation",
+        "image": "/images/ministers/pratibha-rawal.jpg"
+      },
+      {
+        "name": "Nisha Mehta",
+        "nameNepali": "निशा मेहता",
+        "position": "Minister",
+        "portfolio": "Health and Food Safety",
+        "party": "Verify affiliation",
+        "image": "/images/ministers/nisha-mehta.jpg"
+      },
+      {
+        "name": "Sasmit Pokharel",
+        "nameNepali": "सस्मित पोखरेल",
+        "position": "Minister",
+        "portfolio": "Education and Sports",
+        "party": "Verify affiliation",
+        "image": "/images/ministers/sasmit-pokharel.jpg"
+      },
+      {
+        "name": "Khadak Raj Paudel",
+        "nameNepali": "खडक राज पौडेल",
+        "position": "Minister",
+        "portfolio": "Culture, Tourism and Civil Aviation",
+        "party": "Verify affiliation",
+        "image": "/images/ministers/khadak-raj-paudel.jpg"
+      },
+      {
+        "name": "Dr. Bikram Timilsina",
+        "nameNepali": "डा. विक्रम तिमिल्सिना",
+        "position": "Minister",
+        "portfolio": "Information and Communication",
+        "party": "Verify affiliation",
+        "image": "/images/ministers/bikram-timilsina.jpg"
+      },
+      {
+        "name": "Geeta Chaudhary",
+        "nameNepali": "गीता चौधरी",
+        "position": "Minister",
+        "portfolio": "Agriculture, Forest and Environment",
+        "party": "Verify affiliation",
+        "image": "/images/ministers/geeta-chaudhary.jpg"
+      },
+      {
+        "name": "Dipak Kumar Sah",
+        "nameNepali": "दीपक कुमार साह",
+        "position": "Minister",
+        "portfolio": "Industry, Commerce and Supplies",
+        "party": "Verify affiliation",
+        "image": "/images/ministers/dipak-kumar-sah.jpg"
+      },
+      {
+        "name": "Ramji Yadav",
+        "nameNepali": "रामजी यादव",
+        "position": "Minister",
+        "portfolio": "Youth, Labour and Employment",
+        "party": "Verify affiliation",
+        "image": "/images/ministers/ramji-yadav.jpg"
+      }
+    ]
+  }
+  </script>
+
+  <script>
+    (function () {
+      "use strict";
+
+      const dataElement = document.getElementById("ministerData");
+      const listElement = document.getElementById("ministerList");
+      const searchInput = document.getElementById("ministerSearch");
+      const partyFilter = document.getElementById("partyFilter");
+      const resultCount = document.getElementById("resultCount");
+
+      let data;
+
+      try {
+        data = JSON.parse(dataElement.textContent);
+      } catch (error) {
+        listElement.textContent = "Unable to read the embedded minister data.";
+        resultCount.textContent = "Please check the JSON syntax.";
+        return;
+      }
+
+      const primeMinister = data.primeMinister;
+      const ministers = Array.isArray(data.ministers) ? data.ministers : [];
+
+      document.getElementById("currentYear").textContent =
+        new Date().getFullYear();
+
+      document.getElementById("ministerTotal").textContent =
+        ministers.length + (primeMinister ? 1 : 0);
+
+      const partyNames = Array.from(new Set(
+        [primeMinister, ...ministers]
+          .filter(Boolean)
+          .map(person => person.party || "Not verified")
+          .filter(party => party !== "Verify affiliation" &&
+                           party !== "Not verified")
+      ));
+
+      document.getElementById("partyTotal").textContent = partyNames.length;
+
+      partyNames.sort().forEach(function (party) {
+        const option = document.createElement("option");
+        option.value = party;
+        option.textContent = party;
+        partyFilter.appendChild(option);
+      });
+
+      function makePhoto(src, alt, className, loading) {
+        const img = document.createElement("img");
+        img.className = className;
+        img.alt = alt;
+        img.loading = loading || "lazy";
+        img.decoding = "async";
+        img.src = src || "/images/ministers/default.jpg";
+
+        img.onerror = function () {
+          img.onerror = null;
+          img.src = "/images/ministers/default.jpg";
+        };
+
+        return img;
+      }
+
+      function addText(tag, className, text) {
+        const element = document.createElement(tag);
+        if (className) element.className = className;
+        element.textContent = text || "";
+        return element;
+      }
+
+      // Prime Minister featured card
+      if (primeMinister) {
+        const primeCard = document.getElementById("primeMinister");
+
+        const photo = makePhoto(
+          primeMinister.image,
+          primeMinister.name + " — Prime Minister of Nepal",
+          "prime-photo",
+          "eager"
+        );
+
+        const label = addText(
+          "span", "prime-label", "Prime Minister of Nepal"
+        );
+
+        const name = addText("h3", "", primeMinister.name);
+        const nepali = addText("p", "muted", primeMinister.nameNepali);
+        const portfolio = addText(
+          "p", "", "Portfolio: " + (primeMinister.portfolio || "Not specified")
+        );
+
+        const party = addText(
+          "span",
+          "party-badge",
+          "Political party: " + (primeMinister.party || "Not verified")
+        );
+
+        primeCard.replaceChildren(photo, label, name, nepali, portfolio, party);
+      }
+
+      function createMinisterCard(minister, index) {
+        const card = document.createElement("article");
+        card.className = "minister-card";
+
+        const profile = document.createElement("div");
+        profile.className = "minister-profile";
+
+        const photo = makePhoto(
+          minister.image,
+          minister.name + " — minister of Nepal",
+          "minister-photo"
+        );
+
+        const info = document.createElement("div");
+        info.className = "minister-info";
+
+        const number = addText("span", "minister-number", index + 1);
+        const name = addText("h3", "", minister.name);
+        const nepali = addText(
+          "p",
+          "minister-nepali",
+          (minister.nameNepali || "") +
+          (minister.position ? " · " + minister.position : "")
+        );
+
+        const party = addText(
+          "span",
+          "party-badge",
+          "Party: " + (minister.party || "Not verified")
+        );
+
+        info.append(number, name, nepali, party);
+        profile.append(photo, info);
+
+        const label = addText(
+          "p", "portfolio-label", "Ministry / Portfolio"
+        );
+
+        const portfolio = addText(
+          "p", "portfolio", minister.portfolio || "Not specified"
+        );
+
+        card.append(profile, label, portfolio);
+        return card;
+      }
+
+      function renderMinisters() {
+        const query = searchInput.value.trim().toLocaleLowerCase();
+        const selectedParty = partyFilter.value;
+
+        const filtered = ministers
+          .map((minister, index) => ({ minister, index }))
+          .filter(({ minister }) => {
+            const searchable = [
+              minister.name,
+              minister.nameNepali,
+              minister.position,
+              minister.portfolio,
+              minister.party
+            ].join(" ").toLocaleLowerCase();
+
+            const matchesSearch = searchable.includes(query);
+            const matchesParty =
+              !selectedParty || minister.party === selectedParty;
+
+            return matchesSearch && matchesParty;
+          });
+
+        const fragment = document.createDocumentFragment();
+
+        if (filtered.length === 0) {
+          fragment.appendChild(addText(
+            "div",
+            "empty-state",
+            "No ministers match your search. Try another name, party or ministry."
+          ));
+        } else {
+          filtered.forEach(({ minister, index }) => {
+            fragment.appendChild(createMinisterCard(minister, index + 1));
+          });
+        }
+
+        listElement.replaceChildren(fragment);
+        resultCount.textContent =
+          "Showing " + filtered.length + " of " + ministers.length + " ministers";
+      }
+
+      searchInput.addEventListener("input", renderMinisters);
+      partyFilter.addEventListener("change", renderMinisters);
+
+      document.getElementById("resetSearch").addEventListener("click", function () {
+        searchInput.value = "";
+        partyFilter.value = "";
+        renderMinisters();
+        searchInput.focus();
+      });
+
+      renderMinisters();
+
+      // Load the existing shared website header.
+      if (window.jQuery) {
+        window.jQuery(function ($) {
+          $("#header").load("/assets/header.html");
+        });
+      } else {
+        const jquery = document.createElement("script");
+        jquery.src = "https://code.jquery.com/jquery-3.7.1.min.js";
+        jquery.onload = function () {
+          window.jQuery(function ($) {
+            $("#header").load("/assets/header.html");
+          });
+        };
+        document.head.appendChild(jquery);
+      }
+    })();
+  </script>
+
+</body>
+</html>
