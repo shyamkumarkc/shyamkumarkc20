@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,9 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>SHYAM KUMAR K.C. | Nepal Banking, Finance, IPO & Tools</title>
-  <meta name="description" content="Explore Nepal banking information, commercial banks, NEPSE, IPO updates, share market guides, EMI calculators, gold and silver information, and useful tools.">
-  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="description" content="Explore Nepal banking information, commercial banks, NEPSE, IPO updates, financial guides, useful tools and information about Nepal.">
   <meta name="author" content="SHYAM KUMAR K.C.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
   <meta name="theme-color" content="#ffffff">
 
   <link rel="canonical" href="https://shyamkumarkc20.com.np/">
@@ -16,7 +17,7 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="SHYAM KUMAR K.C.">
   <meta property="og:title" content="SHYAM KUMAR K.C. | Banking, Finance & Nepal">
-  <meta property="og:description" content="Nepal banking information, share market guides, IPO updates and useful financial tools.">
+  <meta property="og:description" content="Nepal banking information, IPO updates, share market guides and useful financial tools.">
   <meta property="og:url" content="https://shyamkumarkc20.com.np/">
   <meta property="og:image" content="https://shyamkumarkc20.com.np/brp.jpg">
   <meta name="twitter:card" content="summary_large_image">
@@ -25,6 +26,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
+  <!-- Load jQuery before any script that uses it. -->
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
   <script type="application/ld+json">
@@ -33,7 +35,7 @@
     "@type": "WebSite",
     "name": "SHYAM KUMAR K.C.",
     "url": "https://shyamkumarkc20.com.np/",
-    "description": "Nepal banking, finance, share market information and useful tools.",
+    "description": "Nepal banking, finance, share market information and useful online tools.",
     "inLanguage": "en"
   }
   </script>
@@ -56,7 +58,7 @@
 
     html {
       scroll-behavior: smooth;
-      scroll-padding-top: 90px;
+      scroll-padding-top: 85px;
     }
 
     body {
@@ -79,7 +81,7 @@
     }
 
     a { color: inherit; text-decoration: none; }
-    img { max-width: 100%; display: block; }
+    img { display: block; max-width: 100%; }
     button, input { font: inherit; }
     button { cursor: pointer; }
 
@@ -88,9 +90,16 @@
       margin-inline: auto;
     }
 
-    /* Shared header and footer containers */
-    #header, #footer { width: 100%; }
-    #header:empty, #footer:empty { display: block; }
+    /* Shared header and footer */
+    #header, #footer {
+      display: block;
+      width: 100%;
+      min-width: 0;
+    }
+
+    #header:empty, #footer:empty {
+      display: block;
+    }
 
     .section { padding: 54px 0; }
     .section-alt { background: var(--surface); }
@@ -132,16 +141,12 @@
       white-space: nowrap;
     }
 
-    .text-link:hover, .article-read:hover {
-      text-decoration: underline;
-    }
-
     /* Hero */
     .hero {
       position: relative;
       overflow: hidden;
       background: var(--hero);
-      color: white;
+      color: #fff;
       min-height: 415px;
       display: flex;
       align-items: center;
@@ -153,8 +158,8 @@
       inset: 0;
       background:
         linear-gradient(90deg, rgba(5,27,53,.94), rgba(5,27,53,.73) 48%, rgba(5,27,53,.18)),
-        url("https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1800&q=80")
-        center 48% / cover no-repeat;
+        url("https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=80")
+        center / cover no-repeat;
     }
 
     .hero-inner {
@@ -193,7 +198,7 @@
       display: flex;
       gap: 6px;
       padding: 5px;
-      background: white;
+      background: #fff;
       border-radius: 12px;
       box-shadow: 0 10px 32px rgba(0,0,0,.16);
     }
@@ -205,8 +210,8 @@
       padding: 11px 13px;
       border: 0;
       outline: 0;
-      background: white;
       color: #12233f;
+      background: #fff;
       font-size: 14px;
     }
 
@@ -215,7 +220,7 @@
       border-radius: 9px;
       padding: 10px 18px;
       background: var(--primary);
-      color: white;
+      color: #fff;
       font-weight: 700;
     }
 
@@ -237,11 +242,7 @@
       border-radius: 30px;
     }
 
-    .popular-searches a:hover {
-      background: rgba(255,255,255,.23);
-    }
-
-    /* Main categories */
+    /* Category cards */
     .category-grid {
       display: grid;
       grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -277,10 +278,7 @@
     .purple { background: #f0eaff; color: #7141d8; }
     .orange { background: #fff0dc; color: #b96509; }
 
-    .category-card h3 {
-      font-size: 15px;
-      margin: 0 0 8px;
-    }
+    .category-card h3 { font-size: 15px; margin: 0 0 8px; }
 
     .category-card p {
       color: var(--muted);
@@ -289,7 +287,7 @@
       margin: 0 0 15px;
     }
 
-    /* Articles */
+    /* Article cards */
     .article-grid {
       display: grid;
       grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -297,13 +295,13 @@
     }
 
     .article-card {
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
       background: var(--bg);
       border: 1px solid var(--border);
       border-radius: 15px;
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-      min-width: 0;
       transition: transform .2s, box-shadow .2s;
     }
 
@@ -330,14 +328,13 @@
 
     .article-tag {
       align-self: flex-start;
-      display: inline-flex;
-      font-size: 9px;
-      font-weight: 800;
-      text-transform: uppercase;
       padding: 4px 8px;
       border-radius: 5px;
       background: #e7f0ff;
       color: #0759c5;
+      font-size: 9px;
+      font-weight: 800;
+      text-transform: uppercase;
     }
 
     .article-content h3 {
@@ -354,8 +351,8 @@
     }
 
     .article-meta {
-      font-size: 10px;
       color: var(--muted);
+      font-size: 10px;
       margin-top: auto;
       padding-top: 8px;
     }
@@ -406,7 +403,7 @@
       font-weight: 700;
     }
 
-    /* JSON highlights */
+    /* Data panels */
     .data-grid {
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -429,10 +426,7 @@
       border-bottom: 1px solid var(--border);
     }
 
-    .data-panel-header h3 {
-      margin: 0;
-      font-size: 16px;
-    }
+    .data-panel-header h3 { margin: 0; font-size: 16px; }
 
     .data-panel-header p {
       margin: 3px 0 0;
@@ -473,7 +467,7 @@
       font-size: 11px;
     }
 
-    /* Nepal banner */
+    /* Nepal feature */
     .discover {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -481,7 +475,7 @@
       overflow: hidden;
       border-radius: 20px;
       background: #09284b;
-      color: white;
+      color: #fff;
     }
 
     .discover-image {
@@ -511,7 +505,7 @@
       display: inline-block;
       padding: 10px 16px;
       border-radius: 9px;
-      background: white;
+      background: #fff;
       color: #09284b;
       font-size: 12px;
       font-weight: 800;
@@ -526,7 +520,7 @@
       border: 0;
       border-radius: 50%;
       background: var(--primary);
-      color: white;
+      color: #fff;
       font-size: 20px;
       box-shadow: var(--shadow);
       z-index: 90;
@@ -535,27 +529,16 @@
 
     .back-top.visible { display: block; }
 
-    .noscript {
-      padding: 12px;
-      text-align: center;
-      background: var(--surface);
-    }
-
     @media (max-width: 1000px) {
-      .category-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-      .article-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .category-grid, .article-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
       .quick-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
     }
 
     @media (max-width: 760px) {
       .container { width: min(100% - 30px, 600px); }
       .hero { min-height: 400px; }
-      .hero::before {
-        background:
-          linear-gradient(90deg, rgba(5,27,53,.93), rgba(5,27,53,.68)),
-          url("https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=950&q=75")
-          center / cover no-repeat;
-      }
       .hero-inner { padding-block: 45px; }
       .hero h1 { letter-spacing: -1px; }
       .hero p { font-size: 14px; }
@@ -570,8 +553,7 @@
       .article-content { padding: 12px; }
       .article-content h3 { font-size: 13px; }
       .article-content p { font-size: 11px; }
-      .data-grid { grid-template-columns: 1fr; }
-      .discover { grid-template-columns: 1fr; }
+      .data-grid, .discover { grid-template-columns: 1fr; }
       .discover-image { min-height: 180px; }
       .discover-content { padding: 25px; }
       .discover-content h2 { font-size: 25px; }
@@ -595,17 +577,14 @@
 
 <body>
 
-  <!-- Existing shared header -->
+  <!-- Shared header: do not duplicate its markup here. -->
   <div id="header"></div>
 
   <main>
-    <!-- HERO -->
     <section class="hero">
       <div class="container hero-inner">
         <div class="eyebrow">Your trusted source for</div>
-
         <h1>Nepal's Finance &amp;<br>Banking Information</h1>
-
         <p>
           Discover banking information, share market guides, IPO updates,
           financial tools and useful information about Nepal — all in one place.
@@ -620,16 +599,14 @@
 
         <div class="popular-searches">
           <span>Popular:</span>
-          <a href="/banking/nepalrastrabank">NRB</a>
           <a href="/banking/commercialbanks">Commercial Banks</a>
-          <a href="/sharemarket/NEPSE">NEPSE</a>
+          <a href="/banking/bankinghours">Banking Hours</a>
           <a href="/sharemarket/IPO">IPO</a>
           <a href="/tools/emicalculator">EMI Calculator</a>
         </div>
       </div>
     </section>
 
-    <!-- CATEGORIES -->
     <section class="section">
       <div class="container">
         <div class="section-heading">
@@ -642,37 +619,36 @@
 
         <div class="category-grid">
           <a class="category-card" href="/banking/commercialbanks">
-            <div class="category-icon blue" aria-hidden="true">▥</div>
+            <div class="category-icon blue">▥</div>
             <h3>Banking Information</h3>
-            <p>NRB, commercial banks, development banks, loan information, CRR, SLR and more.</p>
+            <p>Commercial banks, NRB, loan information, CRR, SLR and more.</p>
             <span class="text-link">Explore Banking →</span>
           </a>
 
-          <a class="category-card" href="/sharemarket/NEPSE">
-            <div class="category-icon green" aria-hidden="true">↗</div>
+          <a class="category-card" href="/sharemarket/IPO">
+            <div class="category-icon green">↗</div>
             <h3>Share Market &amp; IPO</h3>
-            <p>NEPSE, CDSC, SEBON, MeroShare, IPO information and share market guides.</p>
+            <p>NEPSE, CDSC, SEBON, IPO information and share market guides.</p>
             <span class="text-link">Explore Share Market →</span>
           </a>
 
           <a class="category-card" href="/tools/emicalculator">
-            <div class="category-icon purple" aria-hidden="true">▦</div>
+            <div class="category-icon purple">▦</div>
             <h3>Interactive Tools</h3>
-            <p>EMI calculator, gold and silver information, age calculator and useful converters.</p>
+            <p>EMI calculator, gold and silver information and useful converters.</p>
             <span class="text-link">Explore Tools →</span>
           </a>
 
           <a class="category-card" href="/nepal/petroleumprice">
-            <div class="category-icon orange" aria-hidden="true">⌖</div>
+            <div class="category-icon orange">⌖</div>
             <h3>In Nepal</h3>
-            <p>Petroleum prices, remittance, cable cars, locations and useful Nepal information.</p>
+            <p>Petroleum prices, remittance, cable cars and useful Nepal information.</p>
             <span class="text-link">Explore Nepal →</span>
           </a>
         </div>
       </div>
     </section>
 
-    <!-- ARTICLES -->
     <section class="section section-alt" id="articles">
       <div class="container">
         <div class="section-heading">
@@ -681,51 +657,44 @@
             <h2>Featured Articles</h2>
             <p>Helpful guides and information for everyday decisions.</p>
           </div>
-          <a href="/articles" class="text-link">View All Articles →</a>
         </div>
 
         <div class="article-grid" id="articleGrid">
-          <article class="article-card"
-            data-search="commercial banks banking financial institutions nepal">
+          <article class="article-card" data-search="commercial banks banking finance nepal">
             <a href="/banking/commercialbanks">
               <img class="article-image"
                 src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=650&q=75"
-                alt="Modern commercial office buildings"
-                width="650" height="350" fetchpriority="high">
+                alt="Modern commercial buildings" width="650" height="350" fetchpriority="high">
             </a>
             <div class="article-content">
               <span class="article-tag">Banking</span>
               <h3><a href="/banking/commercialbanks">Commercial Banks in Nepal: List and Details</a></h3>
-              <p>Explore Nepal's commercial banks and find useful banking information in one place.</p>
+              <p>Explore commercial banks and find useful banking information.</p>
               <div class="article-meta">Banking information</div>
               <a class="article-read" href="/banking/commercialbanks">Read Article →</a>
             </div>
           </article>
 
-          <article class="article-card"
-            data-search="banking hours transaction time nepal">
+          <article class="article-card" data-search="banking hours transaction time nepal">
             <a href="/banking/bankinghours">
               <img class="article-image"
                 src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=650&q=75"
-                alt="Office desk with documents"
-                width="650" height="350" loading="lazy">
+                alt="Office documents and planning" width="650" height="350" loading="lazy">
             </a>
             <div class="article-content">
               <span class="article-tag">Banking</span>
               <h3><a href="/banking/bankinghours">Banking Hours in Nepal</a></h3>
-              <p>Learn about banking hours and important transaction timing information.</p>
+              <p>Learn about banking hours and transaction timing information.</p>
               <div class="article-meta">Banking guide</div>
               <a class="article-read" href="/banking/bankinghours">Read Article →</a>
             </div>
           </article>
 
-          <article class="article-card"
-            data-search="nepali currency rupee money finance">
+          <article class="article-card" data-search="nepali currency rupee money finance">
             <a href="/article/nepalicurrency">
               <img class="article-image"
                 src="https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?auto=format&fit=crop&w=650&q=75"
-                alt="Personal finance and money"
-                width="650" height="350" loading="lazy">
+                alt="Personal finance" width="650" height="350" loading="lazy">
             </a>
             <div class="article-content">
               <span class="article-tag">Finance</span>
@@ -736,18 +705,16 @@
             </div>
           </article>
 
-          <article class="article-card"
-            data-search="emi calculator loan instalment interest">
+          <article class="article-card" data-search="emi calculator loan interest instalment">
             <a href="/tools/emicalculator">
               <img class="article-image"
                 src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=650&q=75"
-                alt="Financial planning and calculations"
-                width="650" height="350" loading="lazy">
+                alt="Financial calculations" width="650" height="350" loading="lazy">
             </a>
             <div class="article-content">
               <span class="article-tag">Tools</span>
               <h3><a href="/tools/emicalculator">EMI Calculator: Monthly Instalments</a></h3>
-              <p>Estimate monthly loan payments using our convenient EMI calculator.</p>
+              <p>Estimate monthly loan payments using our convenient calculator.</p>
               <div class="article-meta">Financial calculator</div>
               <a class="article-read" href="/tools/emicalculator">Use Calculator →</a>
             </div>
@@ -758,7 +725,6 @@
       </div>
     </section>
 
-    <!-- QUICK LINKS -->
     <section class="section">
       <div class="container">
         <div class="section-heading">
@@ -770,82 +736,52 @@
         </div>
 
         <div class="quick-grid">
-          <a class="quick-card" href="/banking/commercialbanks">
-            <span class="quick-icon" aria-hidden="true">🏦</span>
-            <span>Commercial Banks</span>
-          </a>
-          <a class="quick-card" href="/banking/developmentbanks">
-            <span class="quick-icon" aria-hidden="true">🏢</span>
-            <span>Development Banks</span>
-          </a>
-          <a class="quick-card" href="/banking/microfinance">
-            <span class="quick-icon" aria-hidden="true">🤝</span>
-            <span>Microfinance</span>
-          </a>
-          <a class="quick-card" href="/sharemarket/IPO">
-            <span class="quick-icon" aria-hidden="true">📅</span>
-            <span>IPO Information</span>
-          </a>
-          <a class="quick-card" href="/tools/goldandsilver">
-            <span class="quick-icon" aria-hidden="true">🪙</span>
-            <span>Gold &amp; Silver</span>
-          </a>
-          <a class="quick-card" href="/CountriesandTheirCurrency">
-            <span class="quick-icon" aria-hidden="true">🌐</span>
-            <span>World Currencies</span>
-          </a>
+          <a class="quick-card" href="/banking/commercialbanks"><span class="quick-icon">🏦</span><span>Commercial Banks</span></a>
+          <a class="quick-card" href="/banking/developmentbanks"><span class="quick-icon">🏢</span><span>Development Banks</span></a>
+          <a class="quick-card" href="/banking/microfinance"><span class="quick-icon">🤝</span><span>Microfinance</span></a>
+          <a class="quick-card" href="/sharemarket/IPO"><span class="quick-icon">📅</span><span>IPO Information</span></a>
+          <a class="quick-card" href="/tools/emicalculator"><span class="quick-icon">🧮</span><span>EMI Calculator</span></a>
+          <a class="quick-card" href="/CountriesandTheirCurrency"><span class="quick-icon">🌐</span><span>World Currencies</span></a>
         </div>
       </div>
     </section>
 
-    <!-- BANK AND IPO JSON HIGHLIGHTS -->
     <section class="section section-alt">
       <div class="container">
         <div class="section-heading">
           <div>
             <div class="section-kicker">Useful information</div>
             <h2>Banking &amp; IPO Highlights</h2>
-            <p>Selected information loaded from your existing JSON data.</p>
+            <p>Selected information loaded from your existing JSON files.</p>
           </div>
         </div>
 
         <div class="data-grid">
-          <section class="data-panel" aria-labelledby="bankPanelTitle">
+          <section class="data-panel">
             <div class="data-panel-header">
-              <div>
-                <h3 id="bankPanelTitle">Commercial Banks</h3>
-                <p>Explore bank information</p>
-              </div>
+              <div><h3>Commercial Banks</h3><p>Explore bank information</p></div>
               <a class="text-link" href="/banking/commercialbanks">View All →</a>
             </div>
             <div class="data-list" id="bankHighlights" aria-live="polite">
               <div class="data-row">Loading bank information...</div>
             </div>
-            <div class="data-footer">
-              <a class="text-link" href="/banking/commercialbanks">Explore all commercial banks →</a>
-            </div>
+            <div class="data-footer"><a class="text-link" href="/banking/commercialbanks">Explore commercial banks →</a></div>
           </section>
 
-          <section class="data-panel" aria-labelledby="ipoPanelTitle">
+          <section class="data-panel">
             <div class="data-panel-header">
-              <div>
-                <h3 id="ipoPanelTitle">IPO Highlights</h3>
-                <p>Check IPO information</p>
-              </div>
+              <div><h3>IPO Highlights</h3><p>Check IPO information</p></div>
               <a class="text-link" href="/sharemarket/IPO">View All →</a>
             </div>
             <div class="data-list" id="ipoHighlights" aria-live="polite">
               <div class="data-row">Loading IPO information...</div>
             </div>
-            <div class="data-footer">
-              <a class="text-link" href="/sharemarket/IPO">Explore IPO information →</a>
-            </div>
+            <div class="data-footer"><a class="text-link" href="/sharemarket/IPO">Explore IPO information →</a></div>
           </section>
         </div>
       </div>
     </section>
 
-    <!-- EXPLORE NEPAL -->
     <section class="section">
       <div class="container">
         <div class="discover">
@@ -853,54 +789,46 @@
           <div class="discover-content">
             <div class="eyebrow">Discover more</div>
             <h2>Explore Nepal Beyond Finance</h2>
-            <p>
-              Discover useful information about Nepal's places, infrastructure,
-              petroleum prices, travel destinations and everyday life.
-            </p>
+            <p>Discover useful information about Nepal's places, infrastructure, petroleum prices and everyday life.</p>
             <a class="btn-light" href="/nepal/petroleumprice">Explore Nepal →</a>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ONLINE TOOLS -->
     <section class="section section-alt">
       <div class="container">
         <div class="section-heading">
           <div>
             <div class="section-kicker">Make everyday tasks easier</div>
             <h2>Useful Online Tools</h2>
-            <p>Simple tools to calculate and convert.</p>
+            <p>Simple tools for calculations and conversions.</p>
           </div>
-          <a href="/tools/emicalculator" class="text-link">Explore Tools →</a>
         </div>
 
         <div class="category-grid">
           <a class="category-card" href="/tools/emicalculator">
-            <div class="category-icon blue" aria-hidden="true">🧮</div>
+            <div class="category-icon blue">🧮</div>
             <h3>EMI Calculator</h3>
-            <p>Estimate monthly loan instalments using amount, interest rate and tenure.</p>
+            <p>Estimate monthly loan instalments using amount, rate and tenure.</p>
             <span class="text-link">Calculate EMI →</span>
           </a>
-
           <a class="category-card" href="/tools/goldandsilver">
-            <div class="category-icon orange" aria-hidden="true">🪙</div>
+            <div class="category-icon orange">🪙</div>
             <h3>Gold &amp; Silver</h3>
-            <p>Explore gold and silver information and related useful resources.</p>
-            <span class="text-link">Explore Prices →</span>
+            <p>Explore gold and silver information and related resources.</p>
+            <span class="text-link">Explore →</span>
           </a>
-
           <a class="category-card" href="/tools/preetitounicode">
-            <div class="category-icon purple" aria-hidden="true">क</div>
+            <div class="category-icon purple">क</div>
             <h3>Preeti to Unicode</h3>
-            <p>Convert legacy Preeti Nepali text into Unicode for digital documents.</p>
+            <p>Convert legacy Nepali text into Unicode.</p>
             <span class="text-link">Convert Text →</span>
           </a>
-
           <a class="category-card" href="/tools/agecalculator">
-            <div class="category-icon green" aria-hidden="true">◷</div>
+            <div class="category-icon green">◷</div>
             <h3>Age Calculator</h3>
-            <p>Calculate age from a date of birth with an online tool.</p>
+            <p>Calculate age using a date of birth.</p>
             <span class="text-link">Calculate Age →</span>
           </a>
         </div>
@@ -908,41 +836,53 @@
     </section>
   </main>
 
-  <!-- Existing shared footer -->
+  <!-- Shared footer: loaded from your existing footer.html. -->
   <div id="footer"></div>
 
-  <button class="back-top" id="backTop" aria-label="Back to top" title="Back to top">↑</button>
+  <button class="back-top" id="backTop" aria-label="Back to top">↑</button>
 
   <noscript>
-    <p class="noscript">The website links remain available, but interactive search and JSON highlights require JavaScript.</p>
+    <p style="padding:12px;text-align:center">
+      JavaScript is required for interactive search and data highlights.
+    </p>
   </noscript>
 
   <script>
-    "use strict";
+    /*
+      IMPORTANT:
+      Do not declare const $ = (...) here.
+      That would overwrite jQuery's $ and break .load().
+    */
 
-    const $ = (selector) => document.querySelector(selector);
+    // Load shared site header/footer first, independently of other features.
+    (function loadSharedLayout() {
+      function loadFragment(selector, url) {
+        const target = document.querySelector(selector);
 
-    // Load the existing shared header and footer.
-    // Their paths are the same ones used by the rest of your website.
-    $(function () {
-      $("#header").load("/assets/header.html", function (_response, status) {
-        if (status === "error") {
-          console.error("Could not load /assets/header.html");
+        if (!target) return;
+
+        if (!window.jQuery) {
+          console.error("jQuery did not load. Cannot load " + url);
+          target.textContent = "Unable to load this section.";
+          return;
         }
-      });
 
-      $("#footer").load("/assets/footer.html", function (_response, status) {
-        if (status === "error") {
-          console.error("Could not load /assets/footer.html");
-        }
-      });
-    });
+        jQuery(target).load(url, function (_response, status, xhr) {
+          if (status === "error") {
+            console.error(
+              "Failed to load " + url + ". HTTP status: " + xhr.status
+            );
+            target.textContent = "Unable to load this section.";
+          }
+        });
+      }
 
-    // Mobile navigation in the shared header is intentionally not
-    // reimplemented here, to avoid duplicating your existing header logic.
+      loadFragment("#header", "/assets/header.html");
+      loadFragment("#footer", "/assets/footer.html");
+    })();
 
-    // Dark mode.
-    const themeToggle = $("#themeToggle");
+    // Dark mode. The shared header can provide a button with id="themeToggle".
+    const themeToggle = document.getElementById("themeToggle");
 
     function updateThemeButton() {
       if (!themeToggle) return;
@@ -958,69 +898,48 @@
       if (localStorage.getItem("skkc-theme") === "dark") {
         document.body.classList.add("dark");
       }
-    } catch (error) {
-      // Continue if local storage is unavailable.
-    }
+    } catch (_) {}
 
     updateThemeButton();
 
     if (themeToggle) {
-      themeToggle.addEventListener("click", () => {
+      themeToggle.addEventListener("click", function () {
         document.body.classList.toggle("dark");
-
         try {
           localStorage.setItem(
             "skkc-theme",
             document.body.classList.contains("dark") ? "dark" : "light"
           );
-        } catch (error) {
-          // The current-page theme still works.
-        }
-
+        } catch (_) {}
         updateThemeButton();
       });
     }
 
-    // Search focuses the homepage search box.
-    const focusSearch = $("#focusSearch");
-
-    if (focusSearch) {
-      focusSearch.addEventListener("click", () => {
-        $("#searchInput").focus();
-        window.scrollTo({
-          top: 0,
-          behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches
-            ? "auto" : "smooth"
-        });
-      });
-    }
-
-    // Search featured articles on the homepage.
-    const searchInput = $("#searchInput");
-    const searchForm = $("#searchForm");
-    const articleCards = [...document.querySelectorAll(".article-card")];
-    const searchMessage = $("#searchMessage");
+    // Homepage article search.
+    const searchInput = document.getElementById("searchInput");
+    const searchForm = document.getElementById("searchForm");
+    const articleCards = Array.from(document.querySelectorAll(".article-card"));
+    const searchMessage = document.getElementById("searchMessage");
 
     function filterArticles(query) {
-      const normalized = query.trim().toLowerCase();
+      const term = query.trim().toLowerCase();
       let count = 0;
 
-      articleCards.forEach((card) => {
+      articleCards.forEach(function (card) {
         const content = (
-          (card.innerText || "") + " " + (card.dataset.search || "")
+          card.innerText + " " + (card.dataset.search || "")
         ).toLowerCase();
 
-        const matches = !normalized || content.includes(normalized);
-        card.hidden = !matches;
-
-        if (matches) count++;
+        const match = !term || content.includes(term);
+        card.hidden = !match;
+        if (match) count++;
       });
 
-      if (normalized) {
+      if (term) {
         searchMessage.hidden = false;
         searchMessage.textContent = count
-          ? `${count} matching homepage article${count === 1 ? "" : "s"} found.`
-          : "No matching homepage articles found. Searching Google for your website...";
+          ? count + " matching homepage article(s) found."
+          : "No matching homepage articles found. Searching Google...";
       } else {
         searchMessage.hidden = true;
       }
@@ -1028,11 +947,11 @@
       return count;
     }
 
-    searchInput.addEventListener("input", () => {
+    searchInput.addEventListener("input", function () {
       filterArticles(searchInput.value);
     });
 
-    searchForm.addEventListener("submit", (event) => {
+    searchForm.addEventListener("submit", function (event) {
       event.preventDefault();
       const query = searchInput.value.trim();
 
@@ -1041,12 +960,9 @@
         return;
       }
 
-      const count = filterArticles(query);
-
-      if (count > 0) {
-        $("#articles").scrollIntoView({
-          behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches
-            ? "auto" : "smooth"
+      if (filterArticles(query)) {
+        document.getElementById("articles").scrollIntoView({
+          behavior: "smooth"
         });
       } else {
         window.location.href =
@@ -1055,50 +971,31 @@
       }
     });
 
-    // Back-to-top button.
-    const backTop = $("#backTop");
+    // Back-to-top.
+    const backTop = document.getElementById("backTop");
 
-    window.addEventListener("scroll", () => {
+    window.addEventListener("scroll", function () {
       backTop.classList.toggle("visible", window.scrollY > 450);
     }, { passive: true });
 
-    backTop.addEventListener("click", () => {
-      window.scrollTo({
-        top: 0,
-        behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches
-          ? "auto" : "smooth"
-      });
+    backTop.addEventListener("click", function () {
+      window.scrollTo({ top: 0, behavior: "smooth" });
     });
 
-    // JSON helper functions.
-    async function loadJSON(path) {
-      const response = await fetch(path);
-
-      if (!response.ok) {
-        throw new Error(`HTTP ${response.status} while loading ${path}`);
-      }
-
+    // JSON data loading.
+    async function loadJSON(url) {
+      const response = await fetch(url);
+      if (!response.ok) throw new Error("HTTP " + response.status);
       return response.json();
     }
 
-    function firstValue(object, keys) {
+    function firstValue(obj, keys) {
       for (const key of keys) {
-        if (object && object[key] != null &&
-            String(object[key]).trim() !== "") {
-          return String(object[key]).trim();
+        if (obj && obj[key] != null && String(obj[key]).trim()) {
+          return String(obj[key]).trim();
         }
       }
       return "";
-    }
-
-    function getArray(data, keys) {
-      if (Array.isArray(data)) return data;
-
-      for (const key of keys) {
-        if (data && Array.isArray(data[key])) return data[key];
-      }
-
-      return [];
     }
 
     function showMessage(container, message) {
@@ -1109,22 +1006,23 @@
       container.appendChild(row);
     }
 
-    // Commercial banks: /js/commercialbanks.json
     async function loadBankHighlights() {
-      const container = $("#bankHighlights");
+      const container = document.getElementById("bankHighlights");
 
       try {
-        const json = await loadJSON("/js/commercialbanks.json");
-        const banks = getArray(json, ["banks", "data", "commercialbanks"]);
+        const data = await loadJSON("/js/commercialbanks.json");
+        const banks = Array.isArray(data)
+          ? data
+          : (data.banks || data.data || data.commercialbanks || []);
 
         if (!banks.length) {
-          showMessage(container, "Explore the complete commercial banks directory.");
+          showMessage(container, "Visit the complete commercial banks directory.");
           return;
         }
 
         container.replaceChildren();
 
-        banks.slice(0, 4).forEach((bank) => {
+        banks.slice(0, 4).forEach(function (bank) {
           const name = firstValue(bank, ["Name", "name", "bankName"]);
           if (!name) return;
 
@@ -1139,11 +1037,9 @@
           title.textContent = name;
           details.appendChild(title);
 
-          if (symbol) {
-            const small = document.createElement("small");
-            small.textContent = "Symbol: " + symbol;
-            details.appendChild(small);
-          }
+          const small = document.createElement("small");
+          small.textContent = symbol ? "Symbol: " + symbol : "Commercial bank";
+          details.appendChild(small);
 
           const value = document.createElement("span");
           value.className = "data-value";
@@ -1154,36 +1050,36 @@
         });
 
         if (!container.children.length) {
-          showMessage(container, "Explore the complete commercial banks directory.");
+          showMessage(container, "Visit the complete commercial banks directory.");
         }
       } catch (error) {
-        console.warn("Bank data could not be loaded:", error);
-        showMessage(container, "Explore the complete commercial banks directory.");
+        console.error("Bank JSON loading failed:", error);
+        showMessage(container, "Visit the complete commercial banks directory.");
       }
     }
 
-    // IPO information: /js/ipo.json
     async function loadIPOHighlights() {
-      const container = $("#ipoHighlights");
+      const container = document.getElementById("ipoHighlights");
 
       try {
-        const json = await loadJSON("/js/ipo.json");
-        const current = getArray(json, ["ipo"]);
-        const upcoming = getArray(json, ["future"]);
+        const data = await loadJSON("/js/ipo.json");
+        const current = Array.isArray(data.ipo) ? data.ipo : [];
+        const upcoming = Array.isArray(data.future) ? data.future : [];
 
-        const entries = [
-          ...current.map((item) => ({ item, section: "Current" })),
-          ...upcoming.map((item) => ({ item, section: "Upcoming" }))
+        const items = [
+          ...current.map(item => ({ item, status: "Current" })),
+          ...upcoming.map(item => ({ item, status: "Upcoming" }))
         ];
 
-        if (!entries.length) {
-          showMessage(container, "Explore the IPO information section.");
+        if (!items.length) {
+          showMessage(container, "Visit the IPO information section.");
           return;
         }
 
         container.replaceChildren();
 
-        entries.slice(0, 4).forEach(({ item, section }) => {
+        items.slice(0, 4).forEach(function (entry) {
+          const item = entry.item;
           const name = firstValue(item, [
             "Name", "name", "company", "companyName", "company_name"
           ]);
@@ -1206,33 +1102,28 @@
           const small = document.createElement("small");
           small.textContent = closing
             ? "Closing: " + closing
-            : opening
-              ? "Opening: " + opening
-              : "IPO information";
-
+            : opening ? "Opening: " + opening : "IPO information";
           details.appendChild(small);
 
           const status = document.createElement("span");
           status.className = "status";
-          status.textContent = section;
+          status.textContent = entry.status;
 
           row.append(details, status);
           container.appendChild(row);
         });
 
         if (!container.children.length) {
-          showMessage(container, "Explore the IPO information section.");
+          showMessage(container, "Visit the IPO information section.");
         }
       } catch (error) {
-        console.warn("IPO data could not be loaded:", error);
-        showMessage(container, "Explore the IPO information section.");
+        console.error("IPO JSON loading failed:", error);
+        showMessage(container, "Visit the IPO information section.");
       }
     }
 
-    // Independent loading means a failure in one dataset won't block the other.
     loadBankHighlights();
     loadIPOHighlights();
   </script>
-
 </body>
 </html>
