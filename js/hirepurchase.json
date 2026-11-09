@@ -2,6 +2,7 @@
     {
         "SNO": "1 ",
         "Name": "Omni Private Limited",
+		"OD": "",
         "HO": "Adarshnagar, Birgunj",
         "CO": "Adarshanagar, Birgunj",
 		"Website": "https://omnihirepurchase.com/",
@@ -25,6 +26,7 @@
     {
         "SNO": "3",
         "Name": " Sipradi Hire Purchase Private Limited",
+		"OD": "",
         "HO": " Gairidhara, Kathmandu ",
         "CO": "Thapathali, Kathmandu",
 		"Website": "www.sipradi.com.np/companies/hire-purchase ",
@@ -35,6 +37,7 @@
     {
         "SNO": "4",
         "Name": " MAW Investment Private Limited",
+		"OD": "",
         "HO": " Biratnagar, Morang ",
         "CO": "Teku, Kathmandu",
 		"Website": "www.mawinvest.com.np/ ",
@@ -45,7 +48,8 @@
     {
         "SNO": "5 ",
         "Name": "Batas Investment Co. Private Limited",
-        "HO": " Pokhara,Kaski ",
+		"OD": "",
+        "HO": " Pokhara, Kaski ",
         "CO": "Gairidhara, Kathmandu",
 		"Website":" ",
 		"Email": " ",
@@ -55,9 +59,10 @@
     {
         "SNO": "6 ",
         "Name": "Syakar Investment Private Limited ",
+		"OD": "",
         "HO": "Kantipath, Kathmandu",
         "CO": " Kantipath, Kathmandu",
-		"Website" :"syakarhp.com/ ",
+		"Website": "syakarhp.com/ ",
 		"Email": "info@syakarhp.com ",
 		"Contact": "01-5358825", "TOLL": "16600146632",
 		"Fax": " "
@@ -65,9 +70,10 @@
     {
         "SNO": "7",
         "Name": " Jagadamba Hire Purchase",
-        "HO": " Naxal, Kathmandu ",
+		"OD": "",
+        "HO": "Naxal, Kathmandu ",
         "CO": "Naxal, Kathmandu",
-		"Website" :"www.jagdambahirepurchase.com/",
+		"Website": "www.jagdambahirepurchase.com/",
 		"Email": "info@jagdambacredit.com",
 		"Contact": "01-4511600", "TOLL": "16600111600",
 		"Fax": " "
@@ -75,6 +81,7 @@
     {
         "SNO": "8 ",
         "Name": "Venture Hire Purchase Private Limited",
+		"OD": "",
         "HO": " Panipokhari, Kathmandu",
         "CO": " Panipokhari, Kathmandu",
 		"Website": "www.venturehirepurchase.com.np",
@@ -84,10 +91,11 @@
     },
     {
         "SNO": "9",
-        "Name": " Manokamana Hire Purchase Private Limited",
-        "HO": " Kantipath, Kathmandu",
-        "CO": " Kantipath, Kathmandu",
-		"Website" :" ",
+        "Name": "Manokamana Hire Purchase Private Limited",
+		"OD": "",
+        "HO": "Kantipath, Kathmandu",
+        "CO": "Kantipath, Kathmandu",
+		"Website": " ",
 		"Email": " ",
 		"Contact": "",
 		"Fax": " "
