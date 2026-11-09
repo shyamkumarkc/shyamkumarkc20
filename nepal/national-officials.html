@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Current National Officials of Nepal</title>
-  <meta name="description" content="Find the current President of Nepal, Prime Minister of Nepal, and Governor of Nepal Rastra Bank, including their names and tenure.">
+  <meta name="description" content="Find the current President, Vice President, Prime Minister of Nepal, and Governor of Nepal Rastra Bank, including their names and tenure.">
   <meta name="author" content="SHYAM KUMAR K.C.">
 
   <link rel="shortcut icon" type="image/jpeg" href="/brp.jpg">
@@ -50,7 +50,7 @@
 
     .officials-grid {
       display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
+      grid-template-columns: repeat(4, minmax(0, 1fr));
       gap: 20px;
       margin: 28px 0;
       align-items: stretch;
@@ -221,6 +221,22 @@
           </div>
         </article>
 
+        <!-- Vice President of Nepal -->
+        <article class="official-card">
+          <div class="card-top">
+            <span class="position-label">Constitutional Office</span>
+            <h2>Vice President of Nepal</h2>
+          </div>
+
+          <div
+            class="card-body"
+            id="vicePresidentCard"
+            aria-live="polite"
+          >
+            <p class="loading">Loading vice president information...</p>
+          </div>
+        </article>
+
         <!-- Prime Minister of Nepal -->
         <article class="official-card">
           <div class="card-top">
@@ -295,13 +311,17 @@
     });
 
     // JSON file paths.
-    const PRESIDENT_URL = '/js/presidents.json';
-    const PRIME_MINISTER_URL = '/js/primeministers.json';
-    const GOVERNOR_URL = '/js/governor.json';
+    const PRESIDENT_URL = 'https://shyamkumarkc20.com.np/js/presidents.json';
+    const VICE_PRESIDENT_URL = 'https://shyamkumarkc20.com.np/js/vicepresidents.json';
+    const PRIME_MINISTER_URL = 'https://shyamkumarkc20.com.np/js/primeministers.json';
+    const GOVERNOR_URL = 'https://shyamkumarkc20.com.np/js/governor.json';
 
     // Card elements.
     const presidentCard =
       document.getElementById('presidentCard');
+
+    const vicePresidentCard =
+      document.getElementById('vicePresidentCard');
 
     const primeMinisterCard =
       document.getElementById('primeMinisterCard');
@@ -486,12 +506,19 @@
       }
     }
 
-    // Load all three officials independently.
+    // Load all four officials independently.
     loadCurrentOfficial(
       PRESIDENT_URL,
       presidentCard,
       'President',
       ['presidents', 'president']
+    );
+
+    loadCurrentOfficial(
+      VICE_PRESIDENT_URL,
+      vicePresidentCard,
+      'Vice President',
+      ['vicePresidents', 'vice-presidents', 'vice_presidents', 'vicepresidents', 'vicepresident']
     );
 
     loadCurrentOfficial(
