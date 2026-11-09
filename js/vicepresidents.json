@@ -1,0 +1,35 @@
+[
+  {
+    "SNO": 1,
+    "Name": "Parmanand Jha",
+    "NameNepali": "परमानन्द झा",
+    "Title": "Vice President of Nepal",
+    "TermAD": "23 July 2008 – 31 October 2015",
+    "TermBS": "२०६५ साउन ८ – २०७२ कार्तिक १४",
+    "Party": "Independent",
+    "IsCurrent": false,
+    "IMG": ""
+  },
+  {
+    "SNO": 2,
+    "Name": "Nanda Kishor Pun",
+    "NameNepali": "नन्दकिशोर पुन",
+    "Title": "Vice President of Nepal",
+    "TermAD": "31 October 2015 – 20 March 2023",
+    "TermBS": "२०७२ कार्तिक १४ – २०७९ चैत्र ६",
+    "Party": "Communist Party of Nepal (Maoist Centre)",
+    "IsCurrent": false,
+    "IMG": ""
+  },
+  {
+    "SNO": 3,
+    "Name": "Ram Sahaya Prasad Yadav",
+    "NameNepali": "रामसहाय प्रसाद यादव",
+    "Title": "Vice President of Nepal",
+    "TermAD": "20 March 2023 – Present",
+    "TermBS": "२०७९ चैत्र ६ – वर्तमान",
+    "Party": "Janata Samajbadi Party, Nepal",
+    "IsCurrent": true,
+    "IMG": ""
+  }
+]
