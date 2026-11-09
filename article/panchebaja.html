@@ -1,45 +1,60 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Panche Baja | Traditional Musical Instruments of Nepal</title>
 
-  <meta name="description" content="Discover the traditional musical instruments of Nepal's Panche Baja, including Jhyali, Dholak, Damaha, Narsinga, Shehnai, Karnal and Tyamko.">
+  <meta name="description"
+    content="Explore Nepal's traditional Panche Baja musical instruments, including Jhyali, Dholak, Damaha, Narsinga, Shehnai, Karnal and Tyamko.">
 
-  <link rel="canonical" href="https://shyamkumarkc20.com.np/panchebaja">
+  <meta name="robots" content="index, follow">
+
+  <link rel="canonical"
+    href="https://shyamkumarkc20.com.np/article/panchebaja">
+
   <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
 
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHK7tPXikynS7ogEvDej/m4="
-    crossorigin="anonymous"></script>
-
-  <script>
-    $(function () {
-      $('#header').load('/assets/header.html');
-      $('#footer').load('/assets/footer.html');
-    });
-  </script>
-
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     main {
       max-width: 1100px;
       margin: auto;
       padding: 20px;
     }
 
+    h1 {
+      margin-bottom: 15px;
+    }
+
+    .intro {
+      line-height: 1.8;
+      text-align: justify;
+    }
+
+    .table-container {
+      width: 100%;
+      overflow-x: auto;
+      margin-top: 25px;
+    }
+
     table {
       width: 100%;
       border-collapse: collapse;
       border: 1px solid #ddd;
-      margin-top: 25px;
     }
 
-    th, td {
+    th,
+    td {
       text-align: left;
       vertical-align: middle;
-      padding: 16px;
+      padding: 15px;
       border: 1px solid #ddd;
     }
 
@@ -55,16 +70,13 @@
       width: 120px;
       height: 100px;
       object-fit: contain;
-      border-radius: 5px;
+      display: block;
     }
 
+    /* Mobile responsive table */
     @media (max-width: 650px) {
       main {
         padding: 12px;
-      }
-
-      .table-container {
-        overflow-x: auto;
       }
 
       table {
@@ -72,8 +84,14 @@
         font-size: 14px;
       }
 
-      th, td {
+      th,
+      td {
         padding: 10px;
+      }
+
+      td img {
+        width: 90px;
+        height: 80px;
       }
     }
   </style>
@@ -81,23 +99,26 @@
 
 <body>
 
+  <!-- Shared Header -->
   <div id="header"></div>
 
   <main>
+
     <h1>Panche Baja</h1>
 
-    <p>
+    <p class="intro">
       The Panche Baja comprises a collection of five traditional musical
       instruments from Nepal, typically performed during sacred ceremonies,
       particularly weddings. In the Hindu tradition, these instruments are
-      predominantly played by the Damai and Gaine castes. The performance is
-      characterized by the rhythm of folk Nepali melodies. The term
+      predominantly played by the Damai and Gaine castes. The performance
+      is characterized by the rhythm of folk Nepali melodies. The term
       "Panche Baja" derives from the Nepali word "panch," meaning five,
       which refers to the five distinct instruments included in the set,
       while "baaja" translates to musical instruments.
     </p>
 
     <div class="table-container">
+
       <table>
         <thead>
           <tr>
@@ -110,12 +131,21 @@
 
         <tbody id="data-output"></tbody>
       </table>
+
     </div>
+
   </main>
 
+  <!-- Shared Footer -->
   <div id="footer"></div>
 
+
   <script>
+    // =====================================
+    // PANCH BAJA DATA
+    // Merged directly from panchebaja.json
+    // =====================================
+
     const pancheBaja = [
       {
         SNO: 1,
@@ -161,24 +191,77 @@
       }
     ];
 
-    const placeholder = document.getElementById("data-output");
 
-    placeholder.innerHTML = pancheBaja.map(instrument => `
+    // =====================================
+    // RENDER TABLE
+    // =====================================
+
+    const output = document.getElementById("data-output");
+
+    output.innerHTML = pancheBaja.map(item => `
       <tr>
-        <td>${instrument.SNO}</td>
-        <td>${instrument.Name}</td>
+        <td>${item.SNO}</td>
+
+        <td>
+          <strong>${item.Name}</strong>
+        </td>
+
         <td>
           <img
-            src="${instrument.IMG}"
-            alt="${instrument.Name} - traditional Nepali musical instrument"
-            loading="lazy"
+            src="${item.IMG}"
+            alt="${item.Name} - traditional Nepali musical instrument"
             width="120"
-            height="100">
+            height="100"
+            loading="lazy">
         </td>
-        <td>${instrument.dp}</td>
+
+        <td>${item.dp}</td>
       </tr>
     `).join("");
+
+
+    // =====================================
+    // LOAD SHARED HEADER AND FOOTER
+    // =====================================
+
+    async function loadSharedContent(elementId, filePath) {
+
+      const element = document.getElementById(elementId);
+
+      try {
+
+        const response = await fetch(filePath);
+
+        if (!response.ok) {
+          throw new Error("HTTP error: " + response.status);
+        }
+
+        const html = await response.text();
+
+        element.innerHTML = html;
+
+      } catch (error) {
+
+        console.error(
+          "Unable to load " + filePath,
+          error
+        );
+
+      }
+    }
+
+
+    // Load both shared files
+    document.addEventListener("DOMContentLoaded", function () {
+
+      loadSharedContent("header", "/assets/header.html");
+
+      loadSharedContent("footer", "/assets/footer.html");
+
+    });
+
   </script>
 
 </body>
 </html>
+```
