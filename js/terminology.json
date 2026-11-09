@@ -8,7 +8,7 @@
     { "SNo": "",
         "Name": "ASBA",
         "link": "",
-        "desc": "ASBA stands for Application Supported by Blocked Amount. It is the system through which the account holder can apply for shares (IPOs and FPOs). The value of applied share will be in the same bank account but will be blocked or freezed. Once the share is allotted, only the allotted amount will be deducted from that bank account."
+        "desc": "ASBA stands for Application Supported by Blocked Amount. It is the system through which the account holder can apply for shares (IPOs and FPOs). The value of applied share will be in the same bank account but will be blocked or frozen. Once the share is allotted, only the allotted amount will be deducted from that bank account."
     },
     { "SNo": "",
         "Name": "Bancassurance",
@@ -116,6 +116,12 @@
         "desc": "Interest rate corridor is the system or framework that is designed by the Central Bank to stabilize the short term interest rates by implementing on short term monetary instruments like interbank rate, repo rate, treasury bills and others by setting the upper limit and lower limit of the interest rate."
     },
     {
+        "Name": "Know Your Customer",
+        "link": "/knowyourcustomer",
+        "desc": "KYC (Know Your Customer): The mandatory identity verification and background-check process banks use to verify a customer's identity and prevent fraud or money laundering."
+    },
+    
+    {
         "Name": "Liquidity",
         "link": "",
         "desc": "Liquidity refers to the ability of converting (selling or buying) the liquid assets into the cash without affecting the assets price."
@@ -149,6 +155,12 @@
         "Name": "Note Kosh",
         "link": "/banking/notekosh.html",
         "desc": "Note Kosh is typically associated with the Note Department of the Nepal Rastra Bank (NRB), the central bank of Nepal. Note Kosh is a vault maintained in commercial bank by central bank to keep Nepalese Currency."
+    },
+
+    {
+        "Name": "Overdraft",
+        "link": "",
+        "desc": "Overdraft: When a withdrawal or payment exceeds the available balance in your account, temporarily putting the account into a negative balance."
     },
     {
         "Name": "Plastic Money",
