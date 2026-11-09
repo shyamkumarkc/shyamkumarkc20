@@ -36,6 +36,11 @@
         "desc": "It refers to the unsuccessful processing of the cheque. A situation where the account of the person does not have enough balance in his/her bank account to cash the amount written in cheque."
     },
     {
+        "Name": "Capital Adequacy Ratio",
+        "link": "/banking/CAR",
+        "desc": "The capital adequacy ratio (CAR) is a measure of a bank's financial strength and stability. It represents the proportion of a bank's capital (shareholders' funds) to its risk-weighted assets."
+    },
+    {
         "Name": "Call Deposit",
         "link": "",
         "desc": "A call deposit is a type of bank deposit that can be withdrawn anytime without prior notice. It usually earns lower interest than fixed or term deposits but offers high liquidity. Businesses use it to keep funds safe while still having instant access for daily transactions or emergencies."
@@ -73,7 +78,7 @@
     {
         "Name": "Cash Reserve Ratio (CRR)",
         "link": "/banking/CRRSLRofBFIs",
-        "desc": "CRR is the certain rate of the amount of cash that the bank and financial institutions should hold as reserves in the Central Bank. Currently in fiscal year 2018/19 Nepal Rastra Bank has decreased the CRR rate from 6% to 4% for the commercial banks."
+        "desc": "CRR is a certain rate of the amount of cash that the banks and financial institutions should hold as reserves in the Central Bank. The NRB's FY 2024/25 annual report records CRR at 4%, SLR at 12% for commercial banks and 10% for development banks and finance companies."
     },
     {
         "Name": "Demat Account",
@@ -170,9 +175,9 @@
         "desc": "The word “repo” means repurchase agreement. Repo rate is the rate at which the Central Bank of a country lends money to its commercial banks against securities in the event of any shortfall of funds."
     },
     {
-        "Name": "Reserve Repo Rate",
+        "Name": "Reverse Repo Rate",
         "link": "",
-        "desc": "Reserve Repo is just the opposite if the repo where the Central Bank borrows money from the commercial banks. So the reverse repo rate is the rate at which the central bank of the country borrows money from its commercial banks for short term purposes."
+        "desc": "Reverse repo is just the opposite if the repo where the Central Bank borrows money from the commercial banks. So the reverse repo rate is the rate at which the central bank of the country borrows money from its commercial banks for short term purposes."
     },
     {
         "Name": "Retail Banking",
