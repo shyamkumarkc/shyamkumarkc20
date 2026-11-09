@@ -16,8 +16,8 @@ $('#header').load('/assets/header.html');
 <body>
 <div id ="header"></div>
 	<main>
-<h1>List of Hire Purchase in Nepal</h1>
-	<style>
+<h2>Hire Purchase Companies In Nepal</h2>
+<style>
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -34,26 +34,14 @@ tr:nth-child(even) {
     background-color: #f2f2f2
 }
 </style>
+<p>
 
-<table border="black">
 
-      <thead>
-         <tr>
-            <th>S No</th>
-			            <th>Name</th>
-            <th>Head Office</th>
-            <th>Contact Office</th>
-		 <th>Contact Number</th>
-		 <th>Email</th>
-            
-         </tr>
-      </thead>
-      <tbody id="data-output">
-         <!-- Prodcuts from javascript file in here. -->
-      </tbody>
-   </table>
- 
+      <p id="data-output">
+         <!-- Products from javascript file in here. -->
+      </p>
    
+ 
    <script>
    fetch("https://shyamkumarkc20.com.np/js/hirepurchase.json")
 .then(function(response){
@@ -66,28 +54,28 @@ tr:nth-child(even) {
       out += `
          <tr>
             
-            <td>${product.SNO}</td>
-			
-            <td><a href ="https://${product.Website}"target="blank">${product.Name}</a></td>
-			<td>${product.HO}</td>
-			<td>${product.CO}</td>
-			<td><a href="tel:${product.Contact}">${product.Contact}</a></td>
-          <td><a href="mailto:${product.Email}">${product.Email}</a></td>
+            <p><b>${product.SNO}.
+              ${product.Name}, 
+			  ${product.OD}:</b></p>              
+              <p>${product.Dp}</p> 
+	               
             
          </tr>
       `;
    }
-   
  
    placeholder.innerHTML = out;
 });
-   </script>
 
-<script>
 $(function(){
 $('#footer').load('/assets/footer.html');
 });
+</script><script>
+  $(function(){
+$('#footer').load('/assets/footer.html');
+});
 </script>
+
 </main>
 	<div id ="footer"></div>
 </body>
