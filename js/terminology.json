@@ -3,7 +3,7 @@
         "SNo": "",
         "Name": "Automated Teller Machine (ATM)",
         "link": "/article/atm",
-        "desc": "ATM is the machine that dispense cash and also provides mini statements to the customer. When the customer opens bank account in the bank, s/he can subscribe for ATM card with the help of card s/he can withdraw money from any ATM machine."
+        "desc": "ATM is a machine that dispenses cash and also provides mini statements to the customer. When the customer opens bank account in the bank, s/he can subscribe for ATM card with the help of card s/he can withdraw money from any ATM machine."
     },
     { "SNo": "",
         "Name": "ASBA",
@@ -23,7 +23,7 @@
     { "SNo": "",
         "Name": "Bank Statement",
         "link": "",
-        "desc": "Bank statement is the summary record of all the transaction of an account holder of a particular bank showing all the debits (withdrawals) and credits (deposits)."
+        "desc": "Bank statement is the summary record of all the transactions of an account holder of a particular bank showing all the debits (withdrawals) and credits (deposits)."
     },
     {
         "Name": "Base Rate ",
