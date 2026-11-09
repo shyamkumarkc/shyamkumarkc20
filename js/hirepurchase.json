@@ -73,13 +73,15 @@
     {
         "SNO": "7",
         "Name": " Jagadamba Hire Purchase",
-		"OD": "",
+		"OD": "2016",
         "HO": "Naxal, Kathmandu ",
         "CO": "Naxal, Kathmandu",
 		"Website": "www.jagdambahirepurchase.com/",
 		"Email": "info@jagdambacredit.com",
-		"Contact": "01-4511600", "TOLL": "16600111600",
-		"Fax": " "
+		"Contact": "01-4511600", 
+		"TOLL": "16600111600",
+		"Fax": " ",
+		"Dp": "Established in 2016, Jagdamba Hire Purchase Limited, formerly known as Jagdamba Credit and Investment Pvt. Ltd., is a licensed non-banking financial company regulated by the Nepal Rastra Bank. Backed by the strong legacy and trust of the Shanker Group, the company has steadily positioned itself as a reliable name in Nepal’s hire purchase industry."
     },
     {
         "SNO": "8 ",
