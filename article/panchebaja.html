@@ -1,88 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Panche Baja</title>
-<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
-</script>
-<script>
-$(function(){
-$('#header').load('/assets/header.html');
-});
-</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <title>Panche Baja | Traditional Musical Instruments of Nepal</title>
+
+  <meta name="description" content="Discover the traditional musical instruments of Nepal's Panche Baja, including Jhyali, Dholak, Damaha, Narsinga, Shehnai, Karnal and Tyamko.">
+
+  <link rel="canonical" href="https://shyamkumarkc20.com.np/panchebaja">
+  <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHK7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+
+  <script>
+    $(function () {
+      $('#header').load('/assets/header.html');
+      $('#footer').load('/assets/footer.html');
+    });
+  </script>
+
+  <style>
+    main {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      border: 1px solid #ddd;
+      margin-top: 25px;
+    }
+
+    th, td {
+      text-align: left;
+      vertical-align: middle;
+      padding: 16px;
+      border: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    tr:nth-child(even) {
+      background-color: #fafafa;
+    }
+
+    td img {
+      width: 120px;
+      height: 100px;
+      object-fit: contain;
+      border-radius: 5px;
+    }
+
+    @media (max-width: 650px) {
+      main {
+        padding: 12px;
+      }
+
+      .table-container {
+        overflow-x: auto;
+      }
+
+      table {
+        min-width: 650px;
+        font-size: 14px;
+      }
+
+      th, td {
+        padding: 10px;
+      }
+    }
+  </style>
 </head>
+
 <body>
-<div id ="header"></div>
-<style>
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-    
-    border: 1px solid #ddd;
-}
 
-th, td {
-    text-align: left;
-    padding: 16px;
-}
+  <div id="header"></div>
 
-tr:nth-child(even) {
-    background-color: #f2f2f2
-}
-</style>
-	<main>
-<h1>
-Panche Baja</h1>
-The Panche Baja comprises a collection of five traditional musical instruments from Nepal, typically performed during sacred ceremonies, particularly weddings. In the Hindu tradition, these instruments are predominantly played by the Damai and Gaine castes. The performance is characterized by the rhythm of folk Nepali melodies. The term "Panche Baja" derives from the Nepali word "panch," meaning five, which refers to the five distinct instruments included in the set, while "baaja" translates to musical instruments.
-<table border="black" >
-<thead>
-<tr>
-<th>S.No.</th>
-<th>Name</th>
-	<th>Image</th>
-	<th>Description</th>
+  <main>
+    <h1>Panche Baja</h1>
 
+    <p>
+      The Panche Baja comprises a collection of five traditional musical
+      instruments from Nepal, typically performed during sacred ceremonies,
+      particularly weddings. In the Hindu tradition, these instruments are
+      predominantly played by the Damai and Gaine castes. The performance is
+      characterized by the rhythm of folk Nepali melodies. The term
+      "Panche Baja" derives from the Nepali word "panch," meaning five,
+      which refers to the five distinct instruments included in the set,
+      while "baaja" translates to musical instruments.
+    </p>
 
-</tr>
-</thead>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>S.No.</th>
+            <th>Name</th>
+            <th>Image</th>
+            <th>Description</th>
+          </tr>
+        </thead>
 
-      <tbody id="data-output">
-         <!-- Prodcuts from javascript file in here. -->
-      </tbody>
-   </table>
- 
-   <script>
-   fetch("https://shyamkumarkc20.com.np/js/panchebaja.json")
-.then(function(response){
-   return response.json();
-})
-.then(function(products){
-   let placeholder = document.querySelector("#data-output");
-   let out = "";
-   for(let product of products){
-      out += `
-         <tr>
-            
-            <td>${product.SNO}</td>
-             <td>${product.Name}</a></td>
-	    <td><img src="${product.IMG}" width="120" height="100" ></td>
-		  <td>${product.dp}</td>
-           
-            
-         </tr>
-      `;
-   }
- 
-   placeholder.innerHTML = out;
-});
-   </script>
-	<script>
-	$(function(){
-$('#footer').load('/assets/footer.html');
-});
-</script>
+        <tbody id="data-output"></tbody>
+      </table>
+    </div>
+  </main>
 
-	</main>
-  <div id ="footer"></div> </body>
+  <div id="footer"></div>
+
+  <script>
+    const pancheBaja = [
+      {
+        SNO: 1,
+        Name: "Jhyali",
+        IMG: "https://shyamkumarkc20.com.np/logo/jhyali.jpeg",
+        dp: "Jhyali is the traditional folk percussion instrument in Nepal. Thin walled and consisting of two round metal plates resembling cymbals, ting shaws produce rhythm and are popular in folk and classical music of Nepal. As with the Jhyali, its plates are rubbed with the up-moving right hand and down-moving left simultaneously to produce a clash with almost all other percussion instruments worldwide.These percussion instruments are created from a Nepali alloy known as pancha dhatu, or five metals. Brass, copper, silver, zinc and gold, are mainly of the blacksmith."
+      },
+      {
+        SNO: 2,
+        Name: "Dholak",
+        IMG: "https://shyamkumarkc20.com.np/logo/dholak.jpeg",
+        dp: "The dholak is a two-headed hand drum and folk percussion instrument of South Asian origin. The dholak can be anywhere about 16 to 24 inch in length. It is widely used in qawwali, kirtan, bhajan, bhangra, chutney, baithak gana, Hindi film music, lokgeet and various classical styles such as Hindustani, Carnatic and Trinidadian local classical / Guyanese taan."
+      },
+      {
+        SNO: 3,
+        Name: "Damaha",
+        IMG: "https://shyamkumarkc20.com.np/logo/damaha.jpg",
+        dp: "Damaha is a drum made from leather, brass or wood. It is played by striking with a stick. It is one of the instruments included in the Panche Baaja, a set of Nepali musical instruments. The traditional players of this instrument are called Damai, an occupational caste who play different instrument in Nepali culture."
+      },
+      {
+        SNO: 4,
+        Name: "Narsinga",
+        IMG: "https://shyamkumarkc20.com.np/logo/narsinga.jpeg",
+        dp: "The instrument's name has been variously spelled narsinga, ransingha, ramsinga, and srnga. Srnga is Sanskrit for horn and used in North India and Nepal. Its modern forms include 'Sig', 'Siga', and 'Singha'. The term was historically used for a wide variety shapes and sizes of horns, including straight horns, and horns made from water buffalo horns with mouthpieces made from ox horns."
+      },
+      {
+        SNO: 5,
+        Name: "Shehnai",
+        IMG: "https://shyamkumarkc20.com.np/logo/shehnai.jpg",
+        dp: "The shehnai (also spelled shenai) is a musical instrument from South Asia. It is made of wood, with a double reed at one end and a metal or wooden flared bell at the other end. It was one of the nine instruments found in the Mughal royal court."
+      },
+      {
+        SNO: 6,
+        Name: "Karnal",
+        IMG: "https://shyamkumarkc20.com.np/logo/karnal.jpeg",
+        dp: "The karnal is a large, straight brass trumpet, over a metre long, played in parts of Northern India and Nepal. It has a prominent bell resembling a datura flower. It is used on ceremonial occasions, such as the processions of village deities. It is often included among the five instruments of the Nepali pancai baja ensemble."
+      },
+      {
+        SNO: 7,
+        Name: "Tyamko",
+        IMG: "https://shyamkumarkc20.com.np/logo/tyamko.jpeg",
+        dp: "The tyamko is a small Nepali kettle drum, a prominent member of the panche baja ensemble. The body of the instrument is made of soft wood, clay, copper or iron; the skin is cowhide. It is about 15cm in diameter and 15cm high, but this can vary as instruments are not standardized. It is carried on a strap around the neck, at the waist when standing, and played with two sticks."
+      }
+    ];
+
+    const placeholder = document.getElementById("data-output");
+
+    placeholder.innerHTML = pancheBaja.map(instrument => `
+      <tr>
+        <td>${instrument.SNO}</td>
+        <td>${instrument.Name}</td>
+        <td>
+          <img
+            src="${instrument.IMG}"
+            alt="${instrument.Name} - traditional Nepali musical instrument"
+            loading="lazy"
+            width="120"
+            height="100">
+        </td>
+        <td>${instrument.dp}</td>
+      </tr>
+    `).join("");
+  </script>
+
+</body>
 </html>
