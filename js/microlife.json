@@ -3,14 +3,15 @@
         "Sno": "1",
         "class": "microlife",
         "Name": "Crest Micro Life Insurance Limited",
-        "Operation": "2080 B.S (2023 A.D)",
+        "Operation": "2080 B.S (2023 A.D.)",
         "Website": "cmli.com.np/",
         "HO": "Surkhet",
-        "NEPSE": "undefined",
+        "NEPSE": "CREST",
         "email": "info@cmli.com.np",
         "phone1": "083590622",
         "phone2": "015916740",
-        "IMG": "https://shyamkumarkc20.com.np/logo/crest.png"
+        "IMG": "https://shyamkumarkc20.com.np/logo/crest.png",
+        "desc": "Crest Micro-Life Insurance is a new entrant to the Nepalese life insurance industry, dedicated to offering dependable and affordable insurance solutions to families and individuals across the country. Our range of insurance products is designed to cater to your unique needs and budget, with personalized advice from our team of experienced professionals."
     },
     {
         "Sno": "2",
