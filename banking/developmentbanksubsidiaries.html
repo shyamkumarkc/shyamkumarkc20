@@ -1,0 +1,310 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Development Banks and Their Subsidiary Companies in Nepal</title>
+
+<meta name="description" content="Explore development banks in Nepal and their subsidiary companies, including investment, merchant banking and other financial services.">
+
+<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+$(function(){
+    $('#header').load('/assets/header.html');
+    $('#footer').load('/assets/footer.html');
+});
+</script>
+
+<style>
+
+
+
+.page-intro {
+    margin-bottom: 30px;
+}
+
+.bank-article {
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.bank-heading {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 12px;
+}
+
+.bank-logo {
+    width: 85px;
+    height: 75px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.bank-article h2 {
+    font-size: 21px;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.bank-article h2 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.bank-article h2 a:hover {
+    color: #1769aa;
+}
+
+.bank-article p {
+    margin: 10px 0;
+    text-align: justify;
+}
+
+.bank-article h3 {
+    font-size: 17px;
+    margin: 15px 0 5px;
+}
+
+.subsidiaries {
+    line-height: 2;
+}
+
+#data-output {
+    min-height: 100px;
+}
+
+@media(max-width:600px) {
+
+    main {
+        padding: 14px;
+    }
+
+    .bank-heading {
+        gap: 12px;
+    }
+
+    .bank-logo {
+        width: 65px;
+        height: 65px;
+    }
+
+    .bank-article h2 {
+        font-size: 18px;
+    }
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id="header"></div>
+
+<main>
+
+<section class="page-intro">
+
+<h1>Development Banks and Their Subsidiary Companies in Nepal</h1>
+
+<p>
+Development banks in Nepal contribute to the country's
+financial system by providing banking and financial services
+to individuals, businesses and institutions.
+</p>
+
+<p>
+In addition to their core banking activities, some development
+banks operate through subsidiary companies engaged in
+specialized financial activities, including merchant banking,
+investment management and capital market services.
+</p>
+
+<p>
+The following information provides an overview of development
+banks in Nepal and their associated subsidiary companies.
+</p>
+
+</section>
+
+<section id="data-output" aria-label="Development banks and subsidiaries">
+
+<p>Loading development bank information...</p>
+
+</section>
+
+<p>
+<strong>Note:</strong> Subsidiary information is based on
+available data and may change following mergers, acquisitions
+or regulatory approvals. Readers are advised to refer to
+respective bank websites for the latest information.
+</p>
+
+</main>
+
+<div id="footer"></div>
+
+<script>
+
+async function loadBanks() {
+
+    const container = document.getElementById("data-output");
+
+    try {
+
+        const response = await fetch("/js/developmentbanks.json");
+
+        if (!response.ok) {
+            throw new Error("Unable to load development bank information.");
+        }
+
+        const banks = await response.json();
+
+        container.innerHTML = "";
+
+        banks.forEach((bank, index) => {
+
+            const article = document.createElement("article");
+
+            article.className = "bank-article";
+
+            // Bank heading
+
+            const heading = document.createElement("div");
+
+            heading.className = "bank-heading";
+
+            // Bank logo
+
+            if (bank.IMG) {
+
+                const logo = document.createElement("img");
+
+                logo.src = bank.IMG;
+                logo.alt = bank.Name + " logo";
+                logo.className = "bank-logo";
+                logo.loading = "lazy";
+
+                heading.appendChild(logo);
+
+            }
+
+            // Bank name and internal article link
+
+            const title = document.createElement("h2");
+
+            const link = document.createElement("a");
+
+            link.textContent = (index + 1) + ". " + bank.Name;
+
+            if (bank.links) {
+                link.href = bank.links;
+            }
+
+            title.appendChild(link);
+
+            heading.appendChild(title);
+
+            article.appendChild(heading);
+
+            // Subsidiary heading
+
+            const subHeading = document.createElement("h3");
+
+            subHeading.textContent = "Subsidiary Companies";
+
+            article.appendChild(subHeading);
+
+            // Subsidiary information
+
+            const paragraph = document.createElement("p");
+
+            paragraph.className = "subsidiaries";
+
+            const subsidiaries = bank.subsidiaries;
+
+            if (Array.isArray(subsidiaries)) {
+
+                subsidiaries.forEach((company, i) => {
+
+                    if (i > 0) {
+                        paragraph.appendChild(
+                            document.createElement("br")
+                        );
+                    }
+
+                    paragraph.appendChild(
+                        document.createTextNode(company)
+                    );
+
+                });
+
+            } else if (subsidiaries) {
+
+                // Support all common BR variations,
+                // including malformed closing </br>.
+
+                const companies = String(subsidiaries)
+                    .split(/<\/?br\s*\/?>/gi);
+
+                companies.forEach((company, i) => {
+
+                    if (i > 0) {
+                        paragraph.appendChild(
+                            document.createElement("br")
+                        );
+                    }
+
+                    paragraph.appendChild(
+                        document.createTextNode(company)
+                    );
+
+                });
+
+            } else {
+
+                paragraph.textContent =
+                    "No subsidiary information is currently available.";
+
+            }
+
+            article.appendChild(paragraph);
+
+            container.appendChild(article);
+
+        });
+
+        if (!banks.length) {
+
+            container.textContent =
+                "No development bank information available.";
+
+        }
+
+    } catch (error) {
+
+        console.error(error);
+
+        container.textContent =
+            "Unable to load development bank information. Please try again later.";
+
+    }
+
+}
+
+loadBanks();
+
+</script>
+
+</body>
+</html>
