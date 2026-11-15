@@ -1,106 +1,467 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Merchant Banks In Nepal</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Merchant Banks in Nepal | List and Contact Details</title>
+
+<meta name="description" content="Find the list of merchant banks in Nepal with their head office addresses, contact numbers, email addresses and official websites.">
+
+<link rel="canonical" href="https://shyamkumarkc20.com.np/sharemarket/merchantbanker">
 <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
-</script>
-<script>
-$(function(){
-$('#header').load('/assets/header.html');
-$('#ipowidget').load('/assets/ipowidget.html');
-$('#stockmarket').load('/assets/stockmarket.html');
-});
-</script>
 
-</head>
-<body>
-<div id ="header"></div>
-<div id ="ipowidget"></div>
-<main>
-<h1>
-List of Merchant Banks in Nepal</h1>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+crossorigin="anonymous"></script>
 
+<style>
+* {
+    box-sizing: border-box;
+}
 
-<br />
-	<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 15px;
+}
+
+h1 {
+    margin-bottom: 8px;
+}
+
+.intro {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.search-container {
+    margin: 20px 0;
+}
+
+#bankSearch {
+    width: 100%;
+    padding: 13px 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+}
+
+#bankSearch:focus {
+    border-color: #2878c8;
+}
+
+.table-info {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
 table {
+    width: 100%;
+    min-width: 750px;
     border-collapse: collapse;
     border-spacing: 0;
-    
-    border: 1px solid #ddd;
+}
+
+thead {
+    background: #f1f3f5;
 }
 
 th, td {
     text-align: left;
-    padding: 16px;
+    padding: 13px 12px;
+    border-bottom: 1px solid #ddd;
+    vertical-align: middle;
 }
 
-tr:nth-child(even) {
-    background-color: #f2f2f2
+th {
+    white-space: nowrap;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+tbody tr:hover {
+    background-color: #eef5ff;
+}
+
+.bank-name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-width: 230px;
+}
+
+.bank-logo {
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.bank-name a {
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.bank-name a:hover {
+    text-decoration: underline;
+}
+
+.contact-link {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.status-message {
+    text-align: center;
+    padding: 25px;
+    color: #666;
+}
+
+#footer {
+    margin-top: 25px;
+}
+
+@media (max-width: 600px) {
+    main {
+        padding: 12px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    th, td {
+        padding: 10px;
+    }
 }
 </style>
-<table border="black" >
-<thead>
-<tr>
-<th>S.No.</th>
-<th>Merchant Bank Name</th>
-	
 
-<th>Head<br/>Office</th>
-
-	
-<th>Phone<br/>Number</th>	
-	<th>Email<br/>Address</th>
-
-</tr>
-</thead>
-
-      <tbody id="data-output">
-         <!-- Prodcuts from javascript file in here. -->
-      </tbody>
-   </table>
- 
-   <script>
-   fetch("https://shyamkumarkc20.com.np/js/merchantbank.json")
-.then(function(response){
-   return response.json();
-})
-.then(function(products){
-   let placeholder = document.querySelector("#data-output");
-   let out = "";
-   for(let product of products){
-      out += `
-         <tr>
-            
-            <td>${product.SNo}</td>
-             <td><a href ="https://${product.Website}"target="blank">${product.Name}</a><img class="product" src="${product.IMG}" alt="${product.Name}" width="50" height="50"></td>
-	  
-			
-			<td>${product.HO}</td>
-			
- 			  <td><a href="tel:${product.phone}">${product.phone}</a><br/><a href="tel:${product.phone1}">${product.phone1}</a></td>
-      <td><a href="mailto:${product.email}">${product.email}</a></td>
-           
-            
-         </tr>
-      `;
-   }
- 
-   placeholder.innerHTML = out;
-});
-
-$(function(){
-$('#footer').load('/assets/footer.html');
+<script>
+$(function () {
+    $('#header').load('/assets/header.html');
+    $('#ipowidget').load('/assets/ipowidget.html');
+    $('#stockmarket').load('/assets/stockmarket.html');
+    $('#footer').load('/assets/footer.html');
 });
 </script>
-	</main>
-<div id ="stockmarket"></div>
+</head>
+
+<body>
+
+<div id="header"></div>
+
+<div id="ipowidget"></div>
+
+<main>
+
+<h1>List of Merchant Banks in Nepal</h1>
+
+<p class="intro">
+Explore merchant banks operating in Nepal, including their official
+websites, head office locations and contact information.
+</p>
+
+<div class="search-container">
+    <input
+        type="search"
+        id="bankSearch"
+        placeholder="Search merchant bank by name, address or location..."
+        aria-label="Search merchant banks"
+    >
+</div>
+
+<div class="table-info" id="bankCount" aria-live="polite">
+    Loading merchant banks...
+</div>
+
+<div class="table-container">
+
+<table>
+    <caption style="text-align:left;padding:10px;">
+        Merchant banks in Nepal and their contact details
+    </caption>
+
+    <thead>
+        <tr>
+            <th scope="col">S.No.</th>
+            <th scope="col">Merchant Bank Name</th>
+            <th scope="col">Head Office</th>
+            <th scope="col">Phone Number</th>
+            <th scope="col">Email Address</th>
+        </tr>
+    </thead>
+
+    <tbody id="data-output">
+        <tr>
+            <td colspan="5" class="status-message">
+                Loading merchant bank information...
+            </td>
+        </tr>
+    </tbody>
+
+</table>
+</div>
+
+</main>
+
+<div id="stockmarket"></div>
+
+<div id="footer"></div>
+
+<script>
+const DATA_URL = "https://shyamkumarkc20.com.np/js/merchantbank.json";
+
+const tbody = document.getElementById("data-output");
+const searchInput = document.getElementById("bankSearch");
+const bankCount = document.getElementById("bankCount");
+
+let merchantBanks = [];
+
+function safeText(value) {
+    return value == null ? "" : String(value).trim();
+}
+
+function createLink(text, href, type) {
+    if (!text || !href) {
+        return document.createTextNode(text || "—");
+    }
+
+    const link = document.createElement("a");
+    link.href = href;
+    link.textContent = text;
+    link.className = "contact-link";
+
+    if (type === "external") {
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+    }
+
+    return link;
+}
+
+function validWebsite(value) {
+    if (!value) return "";
+
+    try {
+        let url = value.trim();
+
+        if (!/^https?:\/\//i.test(url)) {
+            url = "https://" + url;
+        }
+
+        const parsed = new URL(url);
+
+        if (parsed.protocol !== "http:" &&
+            parsed.protocol !== "https:") {
+            return "";
+        }
+
+        return parsed.href;
+    } catch {
+        return "";
+    }
+}
+
+function addCell(row, content) {
+    const cell = document.createElement("td");
+
+    if (content instanceof Node) {
+        cell.appendChild(content);
+    } else {
+        cell.textContent = content || "—";
+    }
+
+    row.appendChild(cell);
+    return cell;
+}
+
+function renderBanks(data) {
+
+    tbody.replaceChildren();
+
+    if (!data.length) {
+        const row = document.createElement("tr");
+        const cell = document.createElement("td");
+
+        cell.colSpan = 5;
+        cell.className = "status-message";
+        cell.textContent = "No merchant banks found.";
+
+        row.appendChild(cell);
+        tbody.appendChild(row);
+
+        bankCount.textContent = "0 merchant banks found";
+        return;
+    }
+
+    data.forEach((bank, index) => {
+
+        const row = document.createElement("tr");
+
+        // Serial number
+        addCell(row, safeText(bank.SNo) || String(index + 1));
+
+        // Merchant bank name and logo
+        const nameContainer = document.createElement("div");
+        nameContainer.className = "bank-name";
+
+        const logoUrl = validWebsite(bank.IMG) ||
+            (bank.IMG && /^https?:\/\//i.test(bank.IMG)
+                ? bank.IMG : "");
+
+        if (bank.IMG) {
+            const img = document.createElement("img");
+
+            img.src = safeText(bank.IMG);
+            img.alt = safeText(bank.Name) + " logo";
+            img.className = "bank-logo";
+            img.loading = "lazy";
+            img.onerror = function () {
+                this.style.display = "none";
+            };
+
+            nameContainer.appendChild(img);
+        }
+
+        const name = safeText(bank.Name);
+        const website = validWebsite(safeText(bank.Website));
+
+        if (website) {
+            nameContainer.appendChild(
+                createLink(name, website, "external")
+            );
+        } else {
+            const span = document.createElement("span");
+            span.textContent = name || "—";
+            nameContainer.appendChild(span);
+        }
+
+        addCell(row, nameContainer);
+
+        // Head office
+        addCell(row, safeText(bank.HO));
+
+        // Phone numbers
+        const phoneContainer = document.createElement("div");
+
+        [bank.phone, bank.phone1].forEach(phone => {
+            const number = safeText(phone);
+
+            if (!number) return;
+
+            const cleaned = number.replace(/[^\d+]/g, "");
+
+            if (phoneContainer.childNodes.length) {
+                phoneContainer.appendChild(
+                    document.createElement("br")
+                );
+            }
+
+            phoneContainer.appendChild(
+                createLink(number, "tel:" + cleaned)
+            );
+        });
+
+        addCell(row, phoneContainer.childNodes.length
+            ? phoneContainer : "—");
+
+        // Email
+        const email = safeText(bank.email);
+
+        const emailContent = email
+            ? createLink(email, "mailto:" + email)
+            : "—";
+
+        addCell(row, emailContent);
+
+        tbody.appendChild(row);
+    });
+
+    bankCount.textContent =
+        "Showing " + data.length + " merchant bank(s)";
+}
+
+// Search and filtering
+searchInput.addEventListener("input", function () {
+
+    const query = this.value.toLowerCase().trim();
+
+    const filtered = merchantBanks.filter(bank => {
+
+        const searchable = [
+            bank.Name,
+            bank.HO,
+            bank.phone,
+            bank.phone1,
+            bank.email
+        ].map(safeText).join(" ").toLowerCase();
+
+        return searchable.includes(query);
+    });
+
+    renderBanks(filtered);
+});
+
+// Fetch JSON data
+fetch(DATA_URL)
+.then(response => {
+
+    if (!response.ok) {
+        throw new Error("Unable to load merchant bank data.");
+    }
+
+    return response.json();
+})
+.then(data => {
+
+    if (!Array.isArray(data)) {
+        throw new Error("Invalid merchant bank data format.");
+    }
+
+    merchantBanks = data;
+    renderBanks(merchantBanks);
+
+})
+.catch(error => {
+
+    console.error("Merchant bank error:", error);
+
+    tbody.innerHTML = "";
+
+    const row = document.createElement("tr");
+    const cell = document.createElement("td");
+
+    cell.colSpan = 5;
+    cell.className = "status-message";
+    cell.textContent =
+        "Unable to load merchant bank information. Please try again later.";
+
+    row.appendChild(cell);
+    tbody.appendChild(row);
+
+    bankCount.textContent = "Data loading error";
+
+});
+</script>
+
 </body>
-  <div id ="footer"></div>
 </html>
-
-
-
-
-
