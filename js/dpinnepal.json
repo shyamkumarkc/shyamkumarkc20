@@ -968,10 +968,12 @@
     {
         "SNo": "110",
         "id": "14600",
-        "Name": "SIPLA SECURITIES Private Limited",
-        "Location": "KHICHAPOKHARI, Kathmandu",
+        "Name": "Sipla Securities Private Limited",
+		"Website": "https://siplasecurities.com/",
+		"IMG": "https://shyamkumarkc20.com.np/logo/broker20.jpg",
+        "Location": "Khichapokhari, Kathmandu",
         "Contact1": "014255782", "Contact2": "014255078",
-        "Email": "sipla20@gmail.com"
+        "Email": "support@siplasecurities.com"
     },
     {
         "SNo": "111",
