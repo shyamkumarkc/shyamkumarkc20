@@ -88,12 +88,12 @@
   },
   {
     "SNO": 3,
-	"Code": "",
+	"Code": "7301",
 	"Casba": "Rs. 5",
 	"class": "B",
 	"paidup": "3.55",
 	"level": "National Level",
-    "Name": "Sangrila Development Bank Limited",
+    "Name": "Shangri-la Development Bank Limited",
 	"Name1": "विकास बैंक लिमिटेड ",
 	"ODAD": "2061 BS",
 	"ODBS": "",
@@ -101,7 +101,7 @@
 	"NEPSE": "SADBL",
 	"Swift": "SGBBNPKA",
 	"Website": "www.shangrilabank.com",
-	"links": "/banking/sangrilabikasbank.html",
+	"links": "/banking/shangrilabikasbank.html",
 	"IMG": "https://shyamkumarkc20.com.np/logo/sadbl.png",
 	"TOLL": "18105000052",
 	"phone1": "015970052",
@@ -112,7 +112,7 @@
 	"ceoimg": "https://www.shangrilabank.com/file-manager/photos/1/team-management/Executives/CEO-2.jpg",
 	"chairman": "Ujjwal Satyal",
 	"chairmanimg": "https://www.shangrilabank.com/file-manager/photos/1/team-management/BOD/Ujjwal-Satyal.jpg",
-	"merger": "a. Cosmos Development Bank Limited</br>b. Bageswori Bikas Bank Limited",
+	"merger": "a. Cosmos Development Bank Limited<br/>b. Bageswori Bikas Bank Limited",
 	"ATM": "30",
 	"branch": "109",
 	"ext": "",
@@ -123,8 +123,8 @@
 	"BV": "156.71",
 	"NPL": "5.64",
 	"subsidiaries": "",
-	"shours": "Sunday to Thursday 10:00 AM - 4:30 PM</br>Friday 10:00 AM - 2:00 PM",
-	"whours": "Sunday to Thursday 10:00 AM - 4:00 PM</br>Friday 10:00 AM - 2:00 PM",
+	"shours": "Sunday to Thursday 10:00 AM - 4:30 PM<br/>Friday 10:00 AM - 2:00 PM",
+	"whours": "Sunday to Thursday 10:00 AM - 4:00 PM<br/>Friday 10:00 AM - 2:00 PM",
 	"desc": "Shangri-la Development Bank, one of Nepal’s largest national-level development banks, completes 19 glorious years. Established in 2061 B.S, the bank has always been on the top list when it comes to fulfilling the financial requirements of people. The bank’s board members include eminent individuals with years of experience and expertise in the banking and financial sectors.<br/>Always dedicated towards customer service, Shangri-la Development Bank with its head office in Baluwatar has been providing its services through an extensive network of 112 branches and 30 ATMs spread across the country. The customer-friendly products have remained successful always leading to the exponential growth of the company."
 	
   },
@@ -410,7 +410,7 @@
 	"NPL": "",
 	"area": "Parsa, Bara, Rautahat, Sarlahi, Mohattari",
 	"subsidiaries": "",
-	"desc": "The Corporate Development Bank ,B class licensed financial institution from Nepal Rastra Bank under banking and financial Regulation Act 2061 and start its commercial operation from 07th November 2007 (21st of Kartik 2064) from Birgunj providing various financial services. The bank is promoted by a group of experienced and highly motivated individuals from all walks on life. The promoters include; professional bankers, Entrepreneurs,Educationalists and Technocrats The bank’s central office is located in Birgunj, Parsa, the Madhesh Province part of Nepal. Corporate Development Bank is a only one Madhesh Province level Development. At present the banks working area is in Parsa, Bara, Rautahat, Sarlahi and Mahotari districts. The bank is committed to deliver its services to the customers through easy banking procedures. lt is transparent in its approach and workings. The bank gives true value of the depositor’s money by providing a competitive interest rate. Furthermore, it encourages the entrepreneurs to increase their capacity in productive sectors. The bank aims to be engine of development with its reliable and trustworthy banking services- Corporate Development Bank Ltd. strives to achieve excellence in the banking sector through its customer friendly approach."
+	"desc": "The Corporate Development Bank, B class licensed financial institution from Nepal Rastra Bank under banking and financial Regulation Act 2061 and start its commercial operation from 07th November 2007 (21st of Kartik 2064) from Birgunj providing various financial services. The bank is promoted by a group of experienced and highly motivated individuals from all walks on life. The promoters include; professional bankers, Entrepreneurs,Educationalists and Technocrats The bank’s central office is located in Birgunj, Parsa, the Madhesh Province part of Nepal. Corporate Development Bank is a only one Madhesh Province level Development. At present the banks working area is in Parsa, Bara, Rautahat, Sarlahi and Mahotari districts. The bank is committed to deliver its services to the customers through easy banking procedures. lt is transparent in its approach and workings. The bank gives true value of the depositor’s money by providing a competitive interest rate. Furthermore, it encourages the entrepreneurs to increase their capacity in productive sectors. The bank aims to be engine of development with its reliable and trustworthy banking services- Corporate Development Bank Ltd. strives to achieve excellence in the banking sector through its customer friendly approach."
 	
   },
 	{
