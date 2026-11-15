@@ -255,7 +255,7 @@
     {
         "SNo": "29",
         "id": "21900",
-        "Name": "GARIMA SECURITIES LTD.",
+        "Name": "Garima Securities Limited.",
         "Location": "Kamalpokhari, Kathmandu",
         "Contact1": "01-5916351", "Contact2":"01-5918351",
         "Email": "garimasecurities345@gmail.com"
@@ -263,8 +263,8 @@
     {
         "SNo": "30",
         "id": "12200, 11100",
-        "Name": "GLOBAL IME BANK LIMITED",
-        "Location": "KAMALADI, Kathmandu",
+        "Name": "Gobal IME Bank Limited",
+        "Location": "Kamaladi, Kathmandu",
         "Contact1": "014228671",
 		"Contact2":" 014226247",
 		"Website": "www.globalimebank.com",
@@ -275,7 +275,7 @@
     {
         "SNo": "31",
         "id": "11200",
-        "Name": "GLOBAL IME CAPITAL LIMITED",
+        "Name": "Global IME Capital Limited",
 		"IMG": "https://shyamkumarkc20.com.np/logo/11200.jpg",
         "Location": "Naxal, Kathmandu",
         "Contact1": "01-5970138",
@@ -294,11 +294,12 @@
     {
         "SNo": "33",
         "id": "18000",
-        "Name": "GURKHAS FINANCE LIMITED",
+        "Name": "Gurkhas Finance Limited",
         "Location": "Dillibazar, Kathmandu",	
-	"links": "www.gurkhasfinance.com.np/",
-	"IMG": "https://shyamkumarkc20.com.np/logo/gufl.png",
-        "Contact1": "01-4437401","Contact2":" 01-4437403",
+		"links": "www.gurkhasfinance.com.np/",
+		"IMG": "https://shyamkumarkc20.com.np/logo/gufl.png",
+        "Contact1": "01-4437401",
+		"Contact2":" 01-4437403",
         "Email": "info@gurkhasfinance.com.np"
     },
     {
@@ -345,8 +346,8 @@
     {
         "SNo": "39",
         "id": "17400",
-        "Name": "ICFC FINANCE LIMITED",
-        "Location": "BHATBHATENI, NAXAL",
+        "Name": "ICFC Finance Limited",
+        "Location": "Naxal, Kathmandu",
 		"IMG": "https://shyamkumarkc20.com.np/logo/icfc.png",
         "Contact1": "014425292","Contact2":"",
         "Email": "info@icfcbank.com"
