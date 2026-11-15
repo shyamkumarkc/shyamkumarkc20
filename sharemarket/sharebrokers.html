@@ -1,50 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>SHYAM KUMAR K.C.</title>
-<link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
-</script>
-<script>
-$(function(){
-$('#header').load('/assets/header.html');
-});
-</script>
-
-
-
-
-<style>
-.collapsible {
-    background-color: #777;
-    color: white;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-}
-
-.active, .collapsible:hover {
-    background-color: #555;
-}
-
-.content {
-    padding: 0 18px;
-    display: none;
-    overflow: hidden;
-    background-color: #f1f1f1;
-}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Share Brokers in Nepal | SHYAM KUMAR K.C.</title>
+  <meta name="description" content="Find share brokers in Nepal with broker numbers, office addresses, contact numbers and online TMS trading links.">
+  <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <style>
+    .brokers-page{max-width:1200px;margin:24px auto;padding:0 14px;color:inherit}
+    .brokers-page h1{margin:18px 0 8px;font-size:clamp(1.5rem,3vw,2rem)}
+    .brokers-intro{margin:0 0 18px;line-height:1.6}
+    .broker-tools{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin:18px 0}
+    #brokerSearch{flex:1 1 260px;max-width:460px;padding:11px 13px;border:1px solid #bbb;border-radius:7px;font:inherit}
+    #brokerCount{font-size:.95rem;opacity:.8}
+    .broker-table-wrap{width:100%;overflow-x:auto;border:1px solid #ddd;border-radius:8px}
+    .broker-table{width:100%;min-width:760px;border-collapse:collapse;background:transparent}
+    .broker-table th,.broker-table td{padding:11px 12px;border:1px solid #ddd;text-align:left;vertical-align:top;line-height:1.5}
+    .broker-table th{background:#f2f4f7;color:#222;position:sticky;top:0;z-index:1;white-space:nowrap}
+    .broker-table tbody tr:nth-child(even){background:rgba(127,127,127,.06)}
+    .broker-table tbody tr:hover{background:rgba(127,127,127,.12)}
+    .broker-table a{overflow-wrap:anywhere}
+    .broker-note{margin:14px 0;font-size:.9rem;line-height:1.5;opacity:.85}
+    @media(max-width:600px){.brokers-page{padding:0 10px}.broker-table th,.broker-table td{padding:9px}}
+  </style>
 </head>
 <body>
-<div id ="header"></div>
-
-<h1>Share Brokers in Nepal
-</h1>
-<table border="black">
+  <div id="header"></div>
+  <main class="brokers-page">
+    <h1>Share Brokers in Nepal</h1>
+    <p class="brokers-intro">Search share brokers by broker number, company name, office location, phone number or TMS link.</p>
+    <div class="broker-tools">
+      <input type="search" id="brokerSearch" placeholder="Search broker, location, phone or TMS..." aria-label="Search share brokers">
+      <span id="brokerCount" aria-live="polite"></span>
+    </div>
+    <div class="broker-table-wrap">
+<table class="broker-table" id="brokerTable">
 <tbody>
 <tr>
 <th>Broker No</th>
@@ -650,14 +641,41 @@ $('#header').load('/assets/header.html');
 </tr>
 </tbody>
 </table>
+    </div>
+    <p class="broker-note">Note: Contact details and trading links are displayed as provided in the source list. Please confirm details with the respective broker before relying on them.</p>
+  </main>
+  <div id="footer"></div>
+  <script>
+    $(function () {
+      // Load shared site components after their containers exist in the document.
+      $('#header').load('/assets/header.html', function (_response, status, xhr) {
+        if (status === 'error') console.error('Header could not be loaded:', xhr.status, xhr.statusText);
+      });
+      $('#footer').load('/assets/footer.html', function (_response, status, xhr) {
+        if (status === 'error') console.error('Footer could not be loaded:', xhr.status, xhr.statusText);
+      });
 
+      const $rows = $('#brokerTable tbody tr');
+      const totalRows = $rows.length;
+      function updateBrokerCount(shown) {
+        $('#brokerCount').text('Showing ' + shown + ' of ' + totalRows + ' entries');
+      }
+      updateBrokerCount(totalRows);
 
-<script>
-$(function(){
-$('#footer').load('/assets/footer.html');
-});
-</script>
+      $('#brokerSearch').on('input', function () {
+        const query = $(this).val().toLowerCase().trim();
+        let shown = 0;
+        $rows.each(function () {
+          const matches = $(this).text().toLowerCase().includes(query);
+          $(this).toggle(matches);
+          if (matches) shown++;
+        });
+        updateBrokerCount(shown);
+      });
 
-
-  <div id ="footer"></div></body>
+      // Open external TMS links in a separate tab and apply safe link attributes.
+      $('#brokerTable a[href^="http"]').attr({ target: '_blank', rel: 'noopener noreferrer' });
+    });
+  </script>
+</body>
 </html>
