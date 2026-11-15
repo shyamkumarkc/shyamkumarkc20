@@ -986,9 +986,11 @@
     {
         "SNo": "112",
         "id": "14000",
-        "Name": "SRI HARI SECURITIES Private Limited",
-        "Location": "KAMALADI, Kathmandu",
-        "Contact1": "014437562","Contact2": "014437465",
+        "Name": "Sri Hari Securities Private Limited",
+		"Website": "https://www.sriharisecurities.com.np/",
+		"IMG": "https://shyamkumarkc20.com.np/logo/broker56.jpg",
+        "Location": "Kamaladi, Kathmandu",
+        "Contact1": "014437562", "Contact2": "014437465",
         "Email": "info@srihari.com.np"
     },
     {
