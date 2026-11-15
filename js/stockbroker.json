@@ -170,11 +170,13 @@
     {
         "BrokerNo": "20",
         "BrokerName": "Sipla Securities Pvt. Limited",
-        "Address": "NewRoad,Kathmandu",
-        "Phone": "01-4255782",
-        "Tms": "tms20.nepsetms.com.np", 
-		"Website":"",
-		"Email" :""
+		"Website": "https://siplasecurities.com/",
+		"IMG": "https://shyamkumarkc20.com.np/logo/broker20.jpg",
+        "Location": "Khichapokhari, Kathmandu",
+        "Contact1": "014255782", "Contact2": "014255078",
+        "Email": "support@siplasecurities.com",
+        "Tms": "tms20.nepsetms.com.np" 
+		
     },
     {
         "BrokerNo": "21",
