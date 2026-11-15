@@ -5,16 +5,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Merchant Banks in Nepal | List and Contact Details</title>
+<title>Merchant Banks in Nepal | Contact Details</title>
 
-<meta name="description" content="Find the list of merchant banks in Nepal with their head office addresses, contact numbers, email addresses and official websites.">
+<meta name="description" content="Complete list of merchant banks in Nepal with official websites, head office addresses, phone numbers and email addresses.">
 
 <link rel="canonical" href="https://shyamkumarkc20.com.np/sharemarket/merchantbanker">
 <link rel="shortcut icon" type="image/jpg" href="/brp.jpg">
-
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"
-integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-crossorigin="anonymous"></script>
 
 <style>
 * {
@@ -38,8 +34,8 @@ h1 {
 }
 
 .intro {
-    margin-bottom: 20px;
     color: #555;
+    margin-bottom: 20px;
 }
 
 .search-container {
@@ -52,10 +48,10 @@ h1 {
     border: 1px solid #ccc;
     border-radius: 6px;
     font-size: 16px;
-    outline: none;
 }
 
 #bankSearch:focus {
+    outline: none;
     border-color: #2878c8;
 }
 
@@ -76,7 +72,6 @@ table {
     width: 100%;
     min-width: 750px;
     border-collapse: collapse;
-    border-spacing: 0;
 }
 
 thead {
@@ -84,8 +79,8 @@ thead {
 }
 
 th, td {
-    text-align: left;
     padding: 13px 12px;
+    text-align: left;
     border-bottom: 1px solid #ddd;
     vertical-align: middle;
 }
@@ -95,11 +90,11 @@ th {
 }
 
 tbody tr:nth-child(even) {
-    background-color: #f8f9fa;
+    background: #f8f9fa;
 }
 
 tbody tr:hover {
-    background-color: #eef5ff;
+    background: #eef5ff;
 }
 
 .bank-name {
@@ -136,8 +131,10 @@ tbody tr:hover {
     color: #666;
 }
 
+#stockmarket,
 #footer {
-    margin-top: 25px;
+    display: block;
+    width: 100%;
 }
 
 @media (max-width: 600px) {
@@ -154,21 +151,14 @@ tbody tr:hover {
     }
 }
 </style>
-
-<script>
-$(function () {
-    $('#header').load('/assets/header.html');
-    $('#ipowidget').load('/assets/ipowidget.html');
-    $('#stockmarket').load('/assets/stockmarket.html');
-    $('#footer').load('/assets/footer.html');
-});
-</script>
 </head>
 
 <body>
 
+<!-- Shared Header -->
 <div id="header"></div>
 
+<!-- IPO Widget -->
 <div id="ipowidget"></div>
 
 <main>
@@ -176,15 +166,16 @@ $(function () {
 <h1>List of Merchant Banks in Nepal</h1>
 
 <p class="intro">
-Explore merchant banks operating in Nepal, including their official
-websites, head office locations and contact information.
+Explore merchant banks in Nepal, including their official websites,
+head office locations and contact information.
 </p>
 
+<!-- Search -->
 <div class="search-container">
     <input
         type="search"
         id="bankSearch"
-        placeholder="Search merchant bank by name, address or location..."
+        placeholder="Search merchant bank by name or location..."
         aria-label="Search merchant banks"
     >
 </div>
@@ -193,6 +184,7 @@ websites, head office locations and contact information.
     Loading merchant banks...
 </div>
 
+<!-- Merchant Bank Table -->
 <div class="table-container">
 
 <table>
@@ -223,12 +215,61 @@ websites, head office locations and contact information.
 
 </main>
 
+<!-- Stock Market Widget -->
 <div id="stockmarket"></div>
 
+<!-- Shared Footer -->
 <div id="footer"></div>
 
+
+<!-- jQuery: Load AFTER the page containers -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+crossorigin="anonymous"></script>
+
+
 <script>
-const DATA_URL = "https://shyamkumarkc20.com.np/js/merchantbank.json";
+
+// =====================================
+// SHARED WEBSITE COMPONENTS
+// =====================================
+
+$(document).ready(function () {
+
+    $('#header').load('/assets/header.html', function (response, status, xhr) {
+        if (status === "error") {
+            console.error("Header loading failed:", xhr.status);
+        }
+    });
+
+    $('#ipowidget').load('/assets/ipowidget.html', function (response, status, xhr) {
+        if (status === "error") {
+            console.error("IPO widget loading failed:", xhr.status);
+        }
+    });
+
+    $('#stockmarket').load('/assets/stockmarket.html', function (response, status, xhr) {
+        if (status === "success") {
+            console.log("Stock market widget loaded successfully.");
+        } else {
+            console.error("Stock market widget loading failed:", xhr.status, xhr.statusText);
+        }
+    });
+
+    $('#footer').load('/assets/footer.html', function (response, status, xhr) {
+        if (status === "error") {
+            console.error("Footer loading failed:", xhr.status);
+        }
+    });
+
+});
+
+
+// =====================================
+// MERCHANT BANK JSON DATA
+// =====================================
+
+const DATA_URL = "/js/merchantbank.json";
 
 const tbody = document.getElementById("data-output");
 const searchInput = document.getElementById("bankSearch");
@@ -236,21 +277,23 @@ const bankCount = document.getElementById("bankCount");
 
 let merchantBanks = [];
 
+
+// Safe text conversion
 function safeText(value) {
     return value == null ? "" : String(value).trim();
 }
 
-function createLink(text, href, type) {
-    if (!text || !href) {
-        return document.createTextNode(text || "—");
-    }
+
+// Create links safely
+function createLink(text, href, external = false) {
 
     const link = document.createElement("a");
-    link.href = href;
+
     link.textContent = text;
+    link.href = href;
     link.className = "contact-link";
 
-    if (type === "external") {
+    if (external) {
         link.target = "_blank";
         link.rel = "noopener noreferrer";
     }
@@ -258,10 +301,14 @@ function createLink(text, href, type) {
     return link;
 }
 
+
+// Validate website URLs
 function validWebsite(value) {
+
     if (!value) return "";
 
     try {
+
         let url = value.trim();
 
         if (!/^https?:\/\//i.test(url)) {
@@ -270,18 +317,21 @@ function validWebsite(value) {
 
         const parsed = new URL(url);
 
-        if (parsed.protocol !== "http:" &&
-            parsed.protocol !== "https:") {
+        if (!["http:", "https:"].includes(parsed.protocol)) {
             return "";
         }
 
         return parsed.href;
+
     } catch {
         return "";
     }
 }
 
+
+// Create table cell
 function addCell(row, content) {
+
     const cell = document.createElement("td");
 
     if (content instanceof Node) {
@@ -291,14 +341,21 @@ function addCell(row, content) {
     }
 
     row.appendChild(cell);
+
     return cell;
 }
+
+
+// =====================================
+// DISPLAY MERCHANT BANKS
+// =====================================
 
 function renderBanks(data) {
 
     tbody.replaceChildren();
 
     if (!data.length) {
+
         const row = document.createElement("tr");
         const cell = document.createElement("td");
 
@@ -310,31 +367,36 @@ function renderBanks(data) {
         tbody.appendChild(row);
 
         bankCount.textContent = "0 merchant banks found";
+
         return;
     }
+
 
     data.forEach((bank, index) => {
 
         const row = document.createElement("tr");
 
-        // Serial number
+
+        // Serial Number
         addCell(row, safeText(bank.SNo) || String(index + 1));
 
-        // Merchant bank name and logo
+
+        // Merchant Bank Name and Logo
         const nameContainer = document.createElement("div");
+
         nameContainer.className = "bank-name";
 
-        const logoUrl = validWebsite(bank.IMG) ||
-            (bank.IMG && /^https?:\/\//i.test(bank.IMG)
-                ? bank.IMG : "");
+        const imagePath = safeText(bank.IMG);
 
-        if (bank.IMG) {
+        if (imagePath) {
+
             const img = document.createElement("img");
 
-            img.src = safeText(bank.IMG);
+            img.src = imagePath;
             img.alt = safeText(bank.Name) + " logo";
             img.className = "bank-logo";
             img.loading = "lazy";
+
             img.onerror = function () {
                 this.style.display = "none";
             };
@@ -345,25 +407,33 @@ function renderBanks(data) {
         const name = safeText(bank.Name);
         const website = validWebsite(safeText(bank.Website));
 
-        if (website) {
+        if (website && name) {
+
             nameContainer.appendChild(
-                createLink(name, website, "external")
+                createLink(name, website, true)
             );
+
         } else {
+
             const span = document.createElement("span");
+
             span.textContent = name || "—";
+
             nameContainer.appendChild(span);
         }
 
         addCell(row, nameContainer);
 
-        // Head office
+
+        // Head Office
         addCell(row, safeText(bank.HO));
 
-        // Phone numbers
+
+        // Phone Numbers
         const phoneContainer = document.createElement("div");
 
         [bank.phone, bank.phone1].forEach(phone => {
+
             const number = safeText(phone);
 
             if (!number) return;
@@ -379,12 +449,16 @@ function renderBanks(data) {
             phoneContainer.appendChild(
                 createLink(number, "tel:" + cleaned)
             );
+
         });
 
-        addCell(row, phoneContainer.childNodes.length
-            ? phoneContainer : "—");
+        addCell(
+            row,
+            phoneContainer.childNodes.length ? phoneContainer : "—"
+        );
 
-        // Email
+
+        // Email Address
         const email = safeText(bank.email);
 
         const emailContent = email
@@ -393,14 +467,22 @@ function renderBanks(data) {
 
         addCell(row, emailContent);
 
+
         tbody.appendChild(row);
+
     });
+
 
     bankCount.textContent =
         "Showing " + data.length + " merchant bank(s)";
+
 }
 
-// Search and filtering
+
+// =====================================
+// SEARCH FUNCTION
+// =====================================
+
 searchInput.addEventListener("input", function () {
 
     const query = this.value.toLowerCase().trim();
@@ -413,45 +495,60 @@ searchInput.addEventListener("input", function () {
             bank.phone,
             bank.phone1,
             bank.email
-        ].map(safeText).join(" ").toLowerCase();
+        ]
+        .map(safeText)
+        .join(" ")
+        .toLowerCase();
 
         return searchable.includes(query);
+
     });
 
     renderBanks(filtered);
+
 });
 
-// Fetch JSON data
+
+// =====================================
+// FETCH JSON DATA
+// =====================================
+
 fetch(DATA_URL)
+
 .then(response => {
 
     if (!response.ok) {
-        throw new Error("Unable to load merchant bank data.");
+        throw new Error("HTTP error: " + response.status);
     }
 
     return response.json();
+
 })
+
 .then(data => {
 
     if (!Array.isArray(data)) {
-        throw new Error("Invalid merchant bank data format.");
+        throw new Error("Invalid merchant bank JSON format.");
     }
 
     merchantBanks = data;
+
     renderBanks(merchantBanks);
 
 })
+
 .catch(error => {
 
-    console.error("Merchant bank error:", error);
+    console.error("Merchant bank data error:", error);
 
-    tbody.innerHTML = "";
+    tbody.replaceChildren();
 
     const row = document.createElement("tr");
     const cell = document.createElement("td");
 
     cell.colSpan = 5;
     cell.className = "status-message";
+
     cell.textContent =
         "Unable to load merchant bank information. Please try again later.";
 
@@ -461,6 +558,7 @@ fetch(DATA_URL)
     bankCount.textContent = "Data loading error";
 
 });
+
 </script>
 
 </body>
